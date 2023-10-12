@@ -109,3 +109,7 @@ venv.bak/
 # mypy
 .mypy_cache/
 .Rproj.user
+
+dataset/dev_set_2
+docker-compose.yml
+data

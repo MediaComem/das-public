@@ -10,3 +10,5 @@ scikit-learn
 scipy
 beautifulsoup4
 textblob
+ipywidgets
+multiprocess
