@@ -23,9 +23,10 @@ mongo_pwd = config.get(config_set, 'password')
 mongo_auth = config.get(config_set, 'auth-db')
 mongo_host = config.get(config_set, 'db-host')
 mongo_port = config.get(config_set, 'db-port')
-client = MongoClient(mongo_host)
+client = MongoClient(mongo_host, 
+                     username=mongo_user,
+                     password=mongo_pwd,)
 db = client[mongo_db]
-db.authenticate(mongo_user, mongo_pwd, source=mongo_auth)
 
 # select which collection to use in Mongo, start by dropping if needed (we do not update an existing collection here)
 db.drop_collection("stats_dev")
@@ -40,7 +41,7 @@ if __name__ == "__main__":
 	pmid_dict = defaultdict(int)
 	rev_pmid_dict = defaultdict(int)
 	pmc_dict = defaultdict(int)
-	rev_pmc_dict = defaultdict(int)
+	rev_pmc_dict = defaultdict(str)
 	doi_dict = defaultdict(str)
 	rev_doi_dict = defaultdict(int)
 	publisher_dict = defaultdict(str)
@@ -66,7 +67,7 @@ if __name__ == "__main__":
 		# identification
 		if record["id_pmc"]:
 			pmc_dict[counter] = record["id_pmc"]
-			rev_pmid_dict[record["id_pmc"]] = counter
+			rev_pmc_dict[record["id_pmc"]] = counter
 		if record["id_pmid"]:
 			pmid_dict[counter] = record["id_pmid"]
 			rev_pmid_dict[record["id_pmid"]] = counter
@@ -121,7 +122,6 @@ if __name__ == "__main__":
 	for author in rev_authors_dict.keys():
 		authors_citations[author] = np.zeros((authors_n_publications[author],max_date-min_date+1))
 	logger.info("Finished creating dictionaries")
-
 	# extract citation histories for indicators
 	for record in collection_records.find():
 		counter = mongo_ids[record["_id"]]
@@ -129,8 +129,8 @@ if __name__ == "__main__":
 			if ref["year"] and len(ref["identifiers"]):
 				ref_counter = None
 				for local_id in ref["identifiers"]:
-					if local_id["type"] == "pmid" and local_id["id"] in rev_pmid_dict.keys():
-						ref_counter = rev_pmid_dict[local_id["id"]]
+					if local_id["type"] == "pmid" and int(local_id["id"]) in rev_pmid_dict.keys():
+						ref_counter = rev_pmid_dict[int(local_id["id"])]
 						break
 					elif local_id["type"] == "pmc" and local_id["id"] in rev_pmc_dict.keys():
 						ref_counter = rev_pmc_dict[local_id["id"]]
@@ -143,7 +143,9 @@ if __name__ == "__main__":
 						break
 				if not ref_counter:
 					continue
-				citation_year = math.floor(((records[counter]["year"]*12 + records[counter]["month"]) - (records[ref_counter]["year"]*12 + records[ref_counter]["month"])) / 12) # bin into years 0, 1, 2, etc. from publication
+				citation_year = records[counter]["year"] - records[ref_counter]["year"]
+				if records[counter]["month"] < records[ref_counter]["month"]:
+					citation_year = citation_year - 1
 				if citation_year < 0:
 					citation_year = 0  # put as a citation during the first year for citations into the future and the like
 				citations[ref_counter][citation_year] += 1
@@ -158,13 +160,14 @@ if __name__ == "__main__":
 		# sort year indexes and convert them into strings for Mongo
 		cd = sorted({x: y for x, y in citations[k].items()}.items(), key=lambda x: x[0], reverse=False)
 		cdd = OrderedDict()
+		
 		for kk,vv in cd:
 			cdd.update({str(kk):vv})
 		v["citation_counts"] = cdd
 		v["citations_total"] = sum([x for x in citations[k].values()])
+		v["citations_one"] = sum([x for y,x in citations[k].items() if y < 1])
 		v["citations_two"] = sum([x for y,x in citations[k].items() if y < 2])
 		v["citations_three"] = sum([x for y,x in citations[k].items() if y < 3])
-		v["citations_five"] = sum([x for y,x in citations[k].items() if y < 5])
 		date_index = v["year"] * 12 + v["month"] - min_date
 		# for every author, get h-index before this date
 		h_indexes = list()

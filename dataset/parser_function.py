@@ -5,12 +5,12 @@ __author__ = """Giovanni Colavizza"""
 
 from datetime import datetime, date
 from bs4 import BeautifulSoup as bs
-import multiprocessing, math, re, logging, codecs
+import multiprocess, math, re, logging, codecs
 
 logging.basicConfig(filename='logs/parser_function.log',filemode="w+",level=logging.WARNING)
 logger = logging.getLogger("Secondary")
 
-def mp_article_parser(filenames, list_of_journals, nprocs=multiprocessing.cpu_count()-1):
+def mp_article_parser(filenames, list_of_journals, nprocs=multiprocess.cpu_count()-1):
 
 	def lookup_articles(filenames_chunk, out_q):
 
@@ -41,7 +41,11 @@ def mp_article_parser(filenames, list_of_journals, nprocs=multiprocessing.cpu_co
 			for article_id in article_ids_found:
 				if article_id.has_attr("pub-id-type"):
 					if article_id["pub-id-type"].strip() == "pmc":
-						id_pmc = int(article_id.text.strip())
+						pmc_element = article_id.text.strip();
+						if isinstance(pmc_element, int):
+							id_pmc = int(article_id.text.strip())
+						else:
+							id_pmc = article_id.text.strip()
 					elif article_id["pub-id-type"].strip() == "pmid":
 						id_pmid = int(article_id.text.strip())
 					elif article_id["pub-id-type"].strip() == "publisher-id":
@@ -78,7 +82,7 @@ def mp_article_parser(filenames, list_of_journals, nprocs=multiprocessing.cpu_co
 			# Initialize das_required and encouraged
 			das_required = False
 			das_encouraged = False
-			is_plos = False
+			is_plos = True
 			is_bmc = False
 			if file_journal in list_of_journals.keys():
 				is_plos = list_of_journals[file_journal]["is_plos"]
@@ -264,12 +268,12 @@ def mp_article_parser(filenames, list_of_journals, nprocs=multiprocessing.cpu_co
 		out_q.put(local_storage)
 
 	# each process will get 'chunksize' files and a queue to put stuff out
-	out_q = multiprocessing.Queue()
+	out_q = multiprocess.Queue()
 	chunksize = int(math.ceil(len(filenames) / float(nprocs)))
 	procs = []
 
 	for i in range(nprocs):
-		p = multiprocessing.Process(
+		p = multiprocess.Process(
 			target=lookup_articles,
 			args=(filenames[chunksize * i:chunksize * (i + 1)],
 				  out_q))

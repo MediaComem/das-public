@@ -29,9 +29,10 @@ mongo_pwd = config.get(config_set, 'password')
 mongo_auth = config.get(config_set, 'auth-db')
 mongo_host = config.get(config_set, 'db-host')
 mongo_port = config.get(config_set, 'db-port')
-client = MongoClient(mongo_host)
+client = MongoClient(mongo_host, 
+                     username=mongo_user,
+                     password=mongo_pwd,)
 db = client[mongo_db]
-db.authenticate(mongo_user, mongo_pwd, source=mongo_auth)
 
 # 0 if Test, 1 if Production
 MODE = int(config.get(config_set, 'mode'))
@@ -42,7 +43,7 @@ collection = db.publications_dev
 
 if __name__ == "__main__":
 
-    root_dirs = ["dev_set"] # if you want to use a small, dev set sampled using sample_dev_set.py
+    root_dirs = ["dev_set_2"] # if you want to use a small, dev set sampled using sample_dev_set.py
     if MODE:
         # change this folder to where your PubMed OA dump actually is. You can list multiple folders, all xml files within will be processed
         root_dirs = ["PubMed/comm_use","PubMed/non_comm_use"]
@@ -104,7 +105,6 @@ if __name__ == "__main__":
 
     count_ids = sorted({k: v for k, v in count_ids.items()}, key=lambda x: x[1], reverse=True)
     logger.info(str(count_ids))
-    print(count_ids)
 
     # add indexes
     collection.create_index([('id_doi', HASHED)], background=True)

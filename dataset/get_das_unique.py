@@ -18,9 +18,10 @@ mongo_pwd = config.get(config_set, 'password')
 mongo_auth = config.get(config_set, 'auth-db')
 mongo_host = config.get(config_set, 'db-host')
 mongo_port = config.get(config_set, 'db-port')
-client = MongoClient(mongo_host)
+client = MongoClient(mongo_host, 
+                     username=mongo_user,
+                     password=mongo_pwd,)
 db = client[mongo_db]
-db.authenticate(mongo_user, mongo_pwd, source=mongo_auth)
 
 collection = db.publications_dev
 
