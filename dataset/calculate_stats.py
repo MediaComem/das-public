@@ -190,6 +190,8 @@ if __name__ == "__main__":
 		a["publications"] = a_citations
 		authors_dump.append(a)
 
+	# Use authors data calculate previously to update an array of h_index on the article record.
+	# This action is moved here to ensure that all citation has been taken into account before array creation.
 	for k,v in records.items():
 		h_indexes = list()
 		for a in v["authors"]:		

@@ -10,7 +10,7 @@ import multiprocess, math, re, logging, codecs
 logging.basicConfig(filename='logs/parser_function.log',filemode="w+",level=logging.WARNING)
 logger = logging.getLogger("Secondary")
 
-def mp_article_parser(filenames, list_of_journals, nprocs=multiprocess.cpu_count()-1):
+def mp_article_parser(filenames, dois_id_plos, dois_id_pmc, nprocs=multiprocess.cpu_count()-1):
 
 	def lookup_articles(filenames_chunk, out_q):
 
@@ -73,24 +73,12 @@ def mp_article_parser(filenames, list_of_journals, nprocs=multiprocess.cpu_count
 			else:
 				logger.info("No publication date: " + f)
 				continue
-			if publication_date >= date(2019, 1, 1):
-				logger.info("Published later than 2018 included: " + f)
-				continue
-			# establish is BMC or PLoS
-			# First, get the journal abbreviation from the filename
-			file_journal = f.split("/")[-2]
 			# Initialize das_required and encouraged
 			das_required = False
 			das_encouraged = False
-			is_plos = True
-			is_bmc = False
-			if file_journal in list_of_journals.keys():
-				is_plos = list_of_journals[file_journal]["is_plos"]
-				if not is_plos:
-					is_bmc = True
-				if publication_date:
-					das_required = publication_date > list_of_journals[file_journal]["das_required"]
-					das_encouraged = publication_date > list_of_journals[file_journal]["das_encouraged"]
+			# Replace old checking way by array finding. These arrays are created on the OSI CSV provides by PLOS
+			is_plos = id_doi in dois_id_plos
+			is_bmc = id_doi in dois_id_pmc
 			# try to get title and authors
 			title = ""
 			if article_meta.find("article-title"):

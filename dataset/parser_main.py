@@ -9,10 +9,13 @@ from parser_function import *
 from collections import defaultdict
 import pandas as pd
 import logging, os
+import csv
 
 # logs and basics
 logging.basicConfig(filename='logs/parser_main.log',filemode="w+",level=logging.INFO)
 logger = logging.getLogger("Main")
+plos_file = 'config/PLOS-Dataset-Oct8_2023.csv'
+pmc_file = 'config/PMC-Dataset-Oct8_2023.csv'
 list_of_journals_file = "config/journal_list.csv"
 JOB_LIMIT = 50000 # controls how many articles to process per batch
 
@@ -41,6 +44,15 @@ MODE = int(config.get(config_set, 'mode'))
 db.drop_collection("publications_dev")
 collection = db.publications_dev
 
+# Get all dois from OSI articles
+def get_doi_from_file(filename):
+    dois = []
+    with open(filename) as csvfile:
+        reader = csv.DictReader(csvfile, fieldnames=["Journal","Publisher","Submission_Day","Submission_Month","Submission_Year","Acceptance_Day","Acceptance_Month","Acceptance_Year","Publication_Day","Publication_Month","Publication_Year","DOI","Type_of_Article","Article_Title","Disciplines","Country","Corresponding_Author_Institution","Funding_Statement","Data_Section.Text.Generated","Data_Generated","Data_Section.Text.Shared","Data_Shared","Data.location","DA_data","DA_Classification","Accessions","URL_data","Repositories_data","Preprint_Match","Preprint_DOI","Preprint_Title","Preprint_Authors","Preprint_Day","Preprint_Month","Preprint_Year","Preprint_URL","Preprint_Server","Quarter","Code_Section.Text.Generated","Code_Generated","Code_Section.Text.Shared","Code_Shared","Code_location","DA_code","URL_code","Repositories_code"], delimiter=',')
+        for row in reader:
+            dois.append(row['DOI'])
+        return dois
+
 if __name__ == "__main__":
 
     root_dirs = ["dev_set_2"] # if you want to use a small, dev set sampled using sample_dev_set.py
@@ -51,15 +63,9 @@ if __name__ == "__main__":
     count_ids = defaultdict(int)
     logger.info("\n------------ \nNew JOB starting! \n")
 
-    # prepare list of journals
-    journals = pd.read_csv(list_of_journals_file)
-    journals.dropna(subset=["folder_name"], inplace=True, how="all")
-    journals.set_index("folder_name", inplace=True)
-    journals.das_encouraged = pd.to_datetime(journals.das_encouraged).dt.date
-    journals.das_required = pd.to_datetime(journals.das_required).dt.date
-    # is_plos or bmc
-    journals["is_plos"] = journals["product_title"].apply(lambda x:x.lower().startswith("plos "))
-    list_of_journals = journals[["das_encouraged", "das_required", "is_plos"]].to_dict('index')
+    # Get all dois from OSI articles
+    dois_id_plos = get_doi_from_file(plos_file)
+    dois_id_pmc = get_doi_from_file(pmc_file)
 
     # main parsing routine
     for root_dir in root_dirs:
@@ -81,7 +87,7 @@ if __name__ == "__main__":
 
             if len(local_filenames) > 0:
                 # all the work is done here
-                results = mp_article_parser(local_filenames, list_of_journals)
+                results = mp_article_parser(local_filenames, dois_id_plos, dois_id_pmc)
                 logger.info("Finished parsing %d files"%len(local_filenames))
 
                 # dump
