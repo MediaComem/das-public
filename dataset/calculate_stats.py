@@ -169,18 +169,6 @@ if __name__ == "__main__":
 		v["citations_two"] = sum([x for y,x in citations[k].items() if y < 2])
 		v["citations_three"] = sum([x for y,x in citations[k].items() if y < 3])
 		date_index = v["year"] * 12 + v["month"] - min_date
-		# for every author, get h-index before this date
-		h_indexes = list()
-		for a in v["authors"]:
-			h_index = 0
-			A = authors_citations[a][:,:date_index-1]
-			local_cit_counts = list(A.sum(axis=1))
-			for p in local_cit_counts:
-				local_pub_counts = len([x for x in local_cit_counts if x >= p])
-				if local_pub_counts >= h_index and p >= h_index:
-					h_index = min(p,local_pub_counts)
-			h_indexes.append(int(h_index))
-		v["h_indexes"] = h_indexes
 
 	logger.info("Finished parsing all records")
 
@@ -201,6 +189,13 @@ if __name__ == "__main__":
 		a["h_index"] = int(h_index)
 		a["publications"] = a_citations
 		authors_dump.append(a)
+
+	for k,v in records.items():
+		h_indexes = list()
+		for a in v["authors"]:		
+			author_h_index = [x for x in authors_dump if x["index"] ==  a][0]['h_index']
+			h_indexes.append(int(author_h_index))
+		v["h_indexes"] = h_indexes
 
 	# dump all
 	collection.insert_many([r for r in records.values()])
