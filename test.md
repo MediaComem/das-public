@@ -48,6 +48,135 @@ Once this has been done, we can start validating the h_index. As things stand, t
    4. You should have an h_index of 1
 8. Now if you go back to the results of `db.stats_dev.find( { citations_total: { $gt: 0 }, is_plos: true } )` and `db.stats_dev.find( { citations_total: { $gt: 0 }, is_bmc: true } )`. In the first case, you should have your chosen authors with an h_index of 2 and in the second, always 1.
 
+## Results
+
+### with h_index of 2
+
+```
+db.stats_dev.find( { citations_total: { $gt: 0 }, is_plos: true } )
+  [{
+    _id: ObjectId("652e2d39dc70384f40b13e95"),
+    publication_id: ObjectId("652e2b53dc70384db46bbbec"),
+    title: 'Cystatin C: A Candidate Biomarker for Amyotrophic Lateral Sclerosis',
+    id_pmc: 'PMC3000338',
+    id_pmid: 21151566,
+    id_publisher: 'PONE-D-10-00811',
+    id_doi: '10.1371/journal.pone.0015133',
+    year: 2010,
+    month: 7,
+    has_month: true,
+    is_plos: true,
+    is_bmc: false,
+    has_das: false,
+    authors: [ 1998, 1999, 2000, 1595 ],
+    authors_full: [
+      'Meghan E., Wilson',
+      'Imene, Boumaza',
+      'David, Lacomis',
+      'Robert, Bowser'
+    ],
+    citation_counts: { '7': 2 },
+    citations_total: 2,
+    citations_one: 0,
+    citations_two: 0,
+    citations_three: 0,
+    h_indexes: [ 1, 1, 1, 2 ]
+  }]
+
+db.authors_dev.find( { name: 'Robert, Bowser'  } )
+[
+  {
+    _id: ObjectId("652e2d39dc70384f40b144fa"),
+    index: 1595,
+    name: 'Robert, Bowser',
+    tot_cit: 5,
+    h_index: 2,
+    publications: [
+      {
+        title: 'Mutations in the Matrin 3 gene cause familial amyotrophic lateral sclerosis',
+        year: 2014,
+        publication_id: ObjectId("652e2b53dc70384db46bbbab"),
+        paper_id: 283,
+        n_cit: 3
+      },
+      {
+        title: 'Cystatin C: A Candidate Biomarker for Amyotrophic Lateral Sclerosis',
+        year: 2010,
+        publication_id: ObjectId("652e2b53dc70384db46bbbec"),
+        paper_id: 348,
+        n_cit: 2
+      }
+    ]
+  }
+]
+```
+
+### with h_index of 1
+
+```
+contexts> db.stats_dev.find( { citations_total: { $gt: 0 }, is_bmc: true } )
+[
+  {
+    _id: ObjectId("652e2d39dc70384f40b13d96"),
+    publication_id: ObjectId("652e2b53dc70384db46bbaed"),
+    title: 'Conditions for laryngeal mask airway placement in terms of oropharyngeal leak pressure: a comparison between blind insertion and laryngoscope-guided insertion',
+    id_pmc: 'PMC6320569',
+    id_pmid: 30611202,
+    id_publisher: '674',
+    id_doi: '10.1186/s12871-018-0674-6',
+    year: 2019,
+    month: 1,
+    has_month: true,
+    is_plos: false,
+    is_bmc: true,
+    has_das: true,
+    authors: [ 478, 479, 480, 481, 482, 483 ],
+    authors_full: [
+      'Go Wun, Kim',
+      'Jong Yeop, Kim',
+      'Soo Jin, Kim',
+      'Yeo Rae, Moon',
+      'Eun Jeong, Park',
+      'Sung Yong, Park'
+    ],
+    citation_counts: { '0': 1, '2': 1, '4': 1 },
+    citations_total: 3,
+    citations_one: 1,
+    citations_two: 1,
+    citations_three: 2,
+    h_indexes: [ 1, 1, 1, 1, 1, 1 ]
+  }
+]
+
+db.authors_dev.find( { name: 'Jong Yeop, Kim'  } )
+[
+  {
+    _id: ObjectId("652e2d39dc70384f40b1409e"),
+    index: 479,
+    name: 'Jong Yeop, Kim',
+    tot_cit: 3,
+    h_index: 1,
+    publications: [
+      {
+        title: 'Conditions for laryngeal mask airway placement in terms of oropharyngeal leak pressure: a comparison between blind insertion and laryngoscope-guided insertion',
+        year: 2019,
+        publication_id: ObjectId("652e2b53dc70384db46bbaed"),
+        paper_id: 93,
+        n_cit: 3
+      },
+      {
+        title: 'Predicted EC50 and EC95 of Remifentanil for Smooth Removal of a Laryngeal Mask Airway Under Propofol Anesthesia',
+        year: 2015,
+        publication_id: ObjectId("652e2b53dc70384db46bbb78"),
+        paper_id: 232,
+        n_cit: 0
+      }
+    ]
+  }
+]
+```
+
+
 ## Validation de l'export des données
 
 To validate this step, you will need to have completed the previous two. This step is quite simple, you will need to run the `get_export.py` script. The `exports/export.csv` file should contain a number of lines equal to the result of the two queries `db.stats_dev.find( { citations_total: { $gt: 0 }, is_plos: true } )` and `db.stats_dev.find( { citations_total: { $gt: 0 }, is_bmc: true } )`. The content should be the columns in the file `config/PLOS-Dataset-Oct8_2023.csv` or `config/PMC-Dataset-Oct8_2023.csv` to which the following columns have been added:

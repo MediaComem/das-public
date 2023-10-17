@@ -111,5 +111,4 @@ venv.bak/
 .Rproj.user
 
 dataset/dev_set_2
-docker-compose.yml
 data
