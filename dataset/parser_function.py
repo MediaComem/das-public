@@ -79,6 +79,7 @@ def mp_article_parser(filenames, dois_id_plos, dois_id_pmc, nprocs=multiprocess.
 			# Replace old checking way by array finding. These arrays are created on the OSI CSV provides by PLOS
 			is_plos = id_doi in dois_id_plos
 			is_bmc = id_doi in dois_id_pmc
+			# TODO : das_encouraged and das_requires reimplementation
 			# try to get title and authors
 			title = ""
 			if article_meta.find("article-title"):

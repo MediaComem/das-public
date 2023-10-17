@@ -16,7 +16,7 @@ logging.basicConfig(filename='logs/parser_main.log',filemode="w+",level=logging.
 logger = logging.getLogger("Main")
 plos_file = 'config/PLOS-Dataset-Oct8_2023.csv'
 pmc_file = 'config/PMC-Dataset-Oct8_2023.csv'
-list_of_journals_file = "config/journal_list.csv"
+plos_csv_header=['Journal','Publisher','Submission_Day','Submission_Month','Submission_Year','Acceptance_Day','Acceptance_Month','Acceptance_Year','Publication_Day','Publication_Month','Publication_Year','DOI','Type_of_Article','Article_Title','Disciplines','Country','Corresponding_Author_Institution','Funding_Statement','Data_Section.Text.Generated','Data_Generated','Data_Section.Text.Shared','Data_Shared','Data.location','DA_data','DA_Classification','Accessions','URL_data','Repositories_data','Preprint_Match','Preprint_DOI','Preprint_Title','Preprint_Authors','Preprint_Day','Preprint_Month','Preprint_Year','Preprint_URL','Preprint_Server','Quarter','Code_Section.Text.Generated','Code_Generated','Code_Section.Text.Shared','Code_Shared','Code_location','DA_code','URL_code','Repositories_code']
 JOB_LIMIT = 50000 # controls how many articles to process per batch
 
 # MongoDB
@@ -48,7 +48,7 @@ collection = db.publications_dev
 def get_doi_from_file(filename):
     dois = []
     with open(filename) as csvfile:
-        reader = csv.DictReader(csvfile, fieldnames=["Journal","Publisher","Submission_Day","Submission_Month","Submission_Year","Acceptance_Day","Acceptance_Month","Acceptance_Year","Publication_Day","Publication_Month","Publication_Year","DOI","Type_of_Article","Article_Title","Disciplines","Country","Corresponding_Author_Institution","Funding_Statement","Data_Section.Text.Generated","Data_Generated","Data_Section.Text.Shared","Data_Shared","Data.location","DA_data","DA_Classification","Accessions","URL_data","Repositories_data","Preprint_Match","Preprint_DOI","Preprint_Title","Preprint_Authors","Preprint_Day","Preprint_Month","Preprint_Year","Preprint_URL","Preprint_Server","Quarter","Code_Section.Text.Generated","Code_Generated","Code_Section.Text.Shared","Code_Shared","Code_location","DA_code","URL_code","Repositories_code"], delimiter=',')
+        reader = csv.DictReader(csvfile, fieldnames=plos_csv_header, delimiter=',')
         for row in reader:
             dois.append(row['DOI'])
         return dois

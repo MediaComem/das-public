@@ -143,6 +143,7 @@ if __name__ == "__main__":
 						break
 				if not ref_counter:
 					continue
+				# citation month level base publication date
 				citation_year = records[counter]["year"] - records[ref_counter]["year"]
 				if records[counter]["month"] < records[ref_counter]["month"]:
 					citation_year = citation_year - 1
@@ -168,7 +169,6 @@ if __name__ == "__main__":
 		v["citations_one"] = sum([x for y,x in citations[k].items() if y < 1])
 		v["citations_two"] = sum([x for y,x in citations[k].items() if y < 2])
 		v["citations_three"] = sum([x for y,x in citations[k].items() if y < 3])
-		date_index = v["year"] * 12 + v["month"] - min_date
 
 	logger.info("Finished parsing all records")
 

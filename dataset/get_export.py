@@ -99,7 +99,7 @@ if __name__ == "__main__":
 			continue
 
 		all_records[record["publication_id"]].extend(
-			[str(record["year"]), str(record["month"]), record["has_month"], str(record["citations_two"]), str(record["citations_three"]), str(record["citations_total"])])
+			[str(record["year"]), str(record["month"]), record["has_month"], str(record["citations_one"]), str(record["citations_two"]), str(record["citations_three"]), str(record["citations_total"])])
 		if record["h_indexes"]:
 			all_records[record["publication_id"]].extend([record["h_indexes"],str(np.min(record["h_indexes"])), str(np.max(record["h_indexes"])),
 			                                              '%.3f'%np.mean(record["h_indexes"]), '%.3f'%np.median(record["h_indexes"])])
@@ -110,7 +110,7 @@ if __name__ == "__main__":
 	with codecs.open(out_file,"w",encoding="utf8") as f:
 		writer = csv.writer(f, delimiter=separator, quotechar=text_delim, quoting=csv.QUOTE_MINIMAL)
 		writer.writerow(["pmid","pmcid","doi","publisher_id","journal","journal_domain","journal_field","journal_subfield","n_authors","is_plos","is_bmc","title","n_references_tot","n_references",
-		                 "has_das","das_encouraged","das_required","das","p_year","p_month","has_month","n_cit_2","n_cit_3","n_cit_tot","h_index","h_index_min","h_index_max","h_index_mean","h_index_median"])
+		                 "has_das","das_encouraged","das_required","das","p_year","p_month","has_month","n_cit_1","n_cit_2","n_cit_3","n_cit_tot","h_index","h_index_min","h_index_max","h_index_mean","h_index_median"])
 		for k,v in all_records.items():
 			writer.writerow(v)
 
