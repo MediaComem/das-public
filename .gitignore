@@ -111,4 +111,6 @@ venv.bak/
 .Rproj.user
 
 dataset/dev_set_2
+dataset/config/PMC-Dataset-Oct8_2023.csv
+dataset/config/PLOS-Dataset-Oct8_2023.csv
 data
