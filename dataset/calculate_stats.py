@@ -115,7 +115,7 @@ if __name__ == "__main__":
 				author_counter += 1
 
 		records[counter] = {"publication_id":record["_id"],"title":record["title"],"id_pmc":record["id_pmc"],"id_pmid":record["id_pmid"],"id_publisher":record["id_publisher"],"id_doi":record["id_doi"],
-		                    "year":year,"month":month,"has_month":has_month,"is_plos":record["is_plos"],"is_bmc":record["is_bmc"],"has_das":record["has_das"],"authors":paper_authors,"authors_full":paper_authors_full}
+		                    "year":year,"month":month,"has_month":has_month,"is_plos":record["is_plos"],"is_bmc":record["is_bmc"],"is_pmc":record["is_pmc"],"has_das":record["has_das"],"authors":paper_authors,"authors_full":paper_authors_full}
 		counter += 1
 
 	# create author matrices

@@ -30,7 +30,7 @@ collection_stats = db.stats_dev
 collection_authors = db.authors_dev
 
 # GLOBALS
-journal_classification_file = "config/sm_journal_classification_106_1.csv" # journal classification from Science-Metrix
+journal_classification_file = "config/sm_journal_classification_18102023.csv" # journal classification from Science-Metrix
 out_file = "exports/export.csv"
 separator = ";"
 text_delim = '"'
@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
 	# LOAD journal classification (Science-Metrix)
 	with codecs.open(journal_classification_file, encoding="utf-8-sig") as f:
-		reader = csv.DictReader(f, delimiter=",", quotechar='"')
+		reader = csv.DictReader(f, delimiter=";")
 		for row in reader:
 			if row["issn"]:
 				journal_classification[row["issn"]] = row
@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
 	# LOAD data
 	for record in collection_publications.find():
-		if not (record["is_plos"] or record["is_bmc"]):
+		if not (record["is_plos"] or record["is_bmc"] or record["is_pmc"]):
 			continue
 
 		# sanitize
@@ -86,12 +86,12 @@ if __name__ == "__main__":
 			continue
 
 		all_records[record["_id"]] = [str(record["id_pmid"]), str(record["id_pmc"]), record["id_doi"], record["id_publisher"], record["journal"], journal_domain, journal_field, journal_subfield,
-		                              str(record["n_authors"]), record["is_plos"], record["is_bmc"],
-		                              title, str(record["n_references"]), str(len(record["references"])), record["has_das"], record["das_encouraged"], record["das_required"], das]
+		                              str(record["n_authors"]), record["is_plos"], record["is_bmc"], record["is_pmc"],
+		                              title, str(record["n_references"]), str(len(record["references"])), record["has_das"], das]
 
 
 	for record in collection_stats.find():
-		if not (record["is_plos"] or record["is_bmc"]):
+		if not (record["is_plos"] or record["is_bmc"] or record["is_pmc"]):
 			continue
 
 		if not record["publication_id"] in all_records.keys():
@@ -109,8 +109,7 @@ if __name__ == "__main__":
 	# EXPORT main table
 	with codecs.open(out_file,"w",encoding="utf8") as f:
 		writer = csv.writer(f, delimiter=separator, quotechar=text_delim, quoting=csv.QUOTE_MINIMAL)
-		writer.writerow(["pmid","pmcid","doi","publisher_id","journal","journal_domain","journal_field","journal_subfield","n_authors","is_plos","is_bmc","title","n_references_tot","n_references",
-		                 "has_das","das_encouraged","das_required","das","p_year","p_month","has_month","n_cit_1","n_cit_2","n_cit_3","n_cit_tot","h_index","h_index_min","h_index_max","h_index_mean","h_index_median"])
+		writer.writerow(["pmid","pmcid","doi","publisher_id","journal","journal_domain","journal_field","journal_subfield","n_authors","is_plos","is_bmc","is_pmc","title","n_references_tot","n_references","has_das","das","p_year","p_month","has_month","n_cit_1","n_cit_2","n_cit_3","n_cit_tot","h_index","h_index_min","h_index_max","h_index_mean","h_index_median"])
 		for k,v in all_records.items():
 			writer.writerow(v)
 

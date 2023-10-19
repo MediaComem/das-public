@@ -73,13 +73,10 @@ def mp_article_parser(filenames, dois_id_plos, dois_id_pmc, nprocs=multiprocess.
 			else:
 				logger.info("No publication date: " + f)
 				continue
-			# Initialize das_required and encouraged
-			das_required = False
-			das_encouraged = False
 			# Replace old checking way by array finding. These arrays are created on the OSI CSV provides by PLOS
 			is_plos = id_doi in dois_id_plos
-			is_bmc = id_doi in dois_id_pmc
-			# TODO : das_encouraged and das_requires reimplementation
+			is_pmc = id_doi in dois_id_pmc
+			is_bmc = False
 			# try to get title and authors
 			title = ""
 			if article_meta.find("article-title"):
@@ -115,7 +112,7 @@ def mp_article_parser(filenames, dois_id_plos, dois_id_pmc, nprocs=multiprocess.
 				journal = soup.find("journal-meta").find("journal-title").text.strip()
 			journal_issns = list()
 			for issn in soup.find("journal-meta").find_all("issn"):
-				journal_issns.append(issn.text.strip())
+				journal_issns.append(issn.text.strip().replace('-',''))
 			journal_issns = list(set(journal_issns))
 			# abstract
 			abstract = ""
@@ -245,14 +242,14 @@ def mp_article_parser(filenames, dois_id_plos, dois_id_pmc, nprocs=multiprocess.
 									"id_publisher": id_publisher,
 									"id_doi": id_doi,
 									"is_plos": is_plos,
+									"is_pmc": is_pmc,
 									"is_bmc": is_bmc,
 									"publication_date": str(publication_date),
 									"das": das,
 									"has_das": has_das,
 									"references": sorted([x for x in refs.values()],key=lambda x:x["label"],reverse=False),
 									"keywords": keywords, "subjects": subjects, "journal": journal,
-									"journal_issn": journal_issns, "filename": f, "abstract": abstract, "last_update": datetime.now(),
-			                        "das_encouraged": das_encouraged, "das_required": das_required})
+									"journal_issn": journal_issns, "filename": f, "abstract": abstract, "last_update": datetime.now()})
 			logger.debug("Done: "+str(article_ids))
 		out_q.put(local_storage)
 
