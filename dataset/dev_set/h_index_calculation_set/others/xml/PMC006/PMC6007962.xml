@@ -1,0 +1,431 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Nano</journal-id><journal-id journal-id-type="iso-abbrev">ACS Nano</journal-id><journal-id journal-id-type="publisher-id">nn</journal-id><journal-id journal-id-type="coden">ancac3</journal-id><journal-title-group><journal-title>ACS Nano</journal-title></journal-title-group><issn pub-type="ppub">1936-0851</issn><issn pub-type="epub">1936-086X</issn><publisher><publisher-name>American
+Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">29365252</article-id><article-id pub-id-type="pmc">PMC6007962</article-id><article-id pub-id-type="doi">10.1021/acsnano.7b07911</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Room-Temperature
+Lasing from Monolithically Integrated GaAs Microdisks on Silicon</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="ath1"><name><surname>Wirths</surname><given-names>Stephan</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="notes-3" ref-type="notes">&#x02020;</xref><xref rid="notes-2" ref-type="notes">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Mayer</surname><given-names>Benedikt F.</given-names></name><xref rid="notes-2" ref-type="notes">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Schmid</surname><given-names>Heinz</given-names></name></contrib><contrib contrib-type="author" id="ath4"><name><surname>Sousa</surname><given-names>Marilyne</given-names></name></contrib><contrib contrib-type="author" id="ath5"><name><surname>Gooth</surname><given-names>Johannes</given-names></name><xref rid="notes-4" ref-type="notes">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>Riel</surname><given-names>Heike</given-names></name></contrib><contrib contrib-type="author" id="ath7"><name><surname>Moselund</surname><given-names>Kirsten E.</given-names></name><xref rid="cor2" ref-type="other">*</xref></contrib><aff id="aff1"><institution>IBM Research&#x02212;Z&#x000fc;rich</institution>, S&#x000e4;umerstrasse 4, 8803 R&#x000fc;schlikon, <country>Switzerland</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>stephan.wirths@ch.abb.com</email>.</corresp><corresp id="cor2"><label>*</label>E-mail: <email>kmo@zurich.ibm.com</email>.</corresp></author-notes><pub-date pub-type="epub"><day>24</day><month>01</month><year>2018</year></pub-date><pub-date pub-type="ppub"><day>27</day><month>03</month><year>2018</year></pub-date><volume>12</volume><issue>3</issue><fpage>2169</fpage><lpage>2175</lpage><history><date date-type="received"><day>07</day><month>11</month><year>2017</year></date><date date-type="accepted"><day>24</day><month>01</month><year>2018</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2018 American
+Chemical Society</copyright-statement><copyright-year>2018</copyright-year><copyright-holder>American
+Chemical Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn-2017-07911u_0006" id="ab-tgr1"/></p><p>Additional functionalities on semiconductor
+microchips are progressively important in order to keep up with the
+ever-increasing demand for more powerful computational systems. Monolithic
+III&#x02013;V integration on Si promises to merge mature Si CMOS processing
+technology with III&#x02013;V semiconductors possessing superior material
+properties, <italic>e</italic>.<italic>g</italic>., in terms of carrier
+mobility or band structure (direct band gap). In particular, Si photonics
+would strongly benefit from an integration scheme for active III&#x02013;V
+optoelectronic devices in order to enable low-cost and power-efficient
+electronic&#x02013;photonic integrated circuits. We report on room-temperature
+lasing from AlGaAs/GaAs microdisk cavities monolithically integrated
+on Si(001) using a selective epitaxial growth technique called template-assisted
+selective epitaxy. The grown gain material possesses high optical
+quality without indication of threading dislocations, antiphase boundaries,
+or twin defects. The devices exhibit single-mode lasing at <italic>T</italic> &#x0003c; 250 K and lasing thresholds between 2 and 18 pJ/pulse
+depending on the cavity size (1&#x02013;3 &#x003bc;m in diameter).</p></abstract><kwd-group><kwd>direct epitaxy</kwd><kwd>monolithic
+III&#x02212;V laser integration</kwd><kwd>template-assisted selective
+epitaxy</kwd><kwd>III&#x02212;V on Si</kwd><kwd>microdisk lasers</kwd><kwd>room-temperature lasing</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>nn7b07911</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>nn-2017-07911u</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><p id="sec1">We recently entered the zettabyte
+era; that is, the annual global Internet data traffic passed 1000
+exabytes (1 billion terabytes). Until the year 2020 this number will
+even increase to 2.3 zettabytes every year,<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> however, at the expense of a drastically increased power consumption
+of integrated circuits (ICs). Moreover, since 2016, the semiconductor
+industry research plan is not centered on device scaling anymore, <italic>i</italic>.<italic>e</italic>., improving the chip performance followed
+by the application. Thus, the integration of additional, value-added
+functionalities on future silicon dies and reducing the power consumption
+at the same time will be key for upcoming strategies, which will start
+with the application defining the functionality of future Si-based
+chips.<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> This in turn will require the integration
+of a large variety of devices such as amplifiers, ultralow power switches,
+and especially optoelectronic devices on the very same Si substrate
+to benefit from the maturity and low cost of the CMOS technology platform.
+In particular, approaches including the usage of massless photons
+instead of electrons for the data transfer on- and off-chip promise
+higher speed at lower power consumption.<sup><xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref4">4</xref></sup> In order to
+shed light on Si chips and make such electronic&#x02013;photonic integrated
+circuits (EPICs) a reality, high-performance waveguides,<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> modulators,<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> and photodetectors<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> in Si or group IV photonics have already been
+developed. However, the deleterious impact of threading dislocations
+introduced by the lattice mismatch between Si and III&#x02013;V material
+has strongly complicated the realization of coherent on-chip laser
+sources being the last missing piece to enable fully integrated EPICs.
+In this context, the most obvious solution would be to use group IV
+materials, where Ge as well as its alloys with Sn plays a primary
+role, due to the possibility to turn them into direct band gap semiconductors
+and gain media.<sup><xref ref-type="bibr" rid="ref8">8</xref>&#x02212;<xref ref-type="bibr" rid="ref10">10</xref></sup> Very recently, direct band gap Ge<sub>1&#x02013;<italic>x</italic></sub>Sn<sub><italic>x</italic></sub> epilayers with <italic>x</italic> &#x0003c; 0.13 and optically pumped GeSn laser devices were
+demonstrated.<sup><xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref12">12</xref></sup> However, electrically pumped
+lasing at room temperature in direct band gap group IV semiconductors
+is still rather challenging. III&#x02013;V electrically pumped lasers
+are well-established for telecommunication and other applications,
+but the large-scale integration of III&#x02013;V laser diodes on a
+Si platform is hampered by various obstacles, although significant
+progress was achieved in heterogeneous and monolithic integration
+of III&#x02013;V gain material on Si.<sup><xref ref-type="bibr" rid="ref13">13</xref>&#x02212;<xref ref-type="bibr" rid="ref17">17</xref></sup> Since traditional heteroepitaxy typically suffers
+from large differences of the crystal lattices and thermal expansion&#x02014;resulting
+in defective layers&#x02014;several techniques were developed in order
+to suppress and/or confine the defective interface layer close to
+the substrate and ensure a nearly defect-free device layer. This includes
+the growth of thick buffer layers,<sup><xref ref-type="bibr" rid="ref18">18</xref>&#x02212;<xref ref-type="bibr" rid="ref21">21</xref></sup> nanowires,<sup><xref ref-type="bibr" rid="ref13">13</xref>,<xref ref-type="bibr" rid="ref15">15</xref></sup> and/or masked substrates<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> that leads
+to a significantly reduced density of crystal defects and dislocations.
+A promising integration path was recently demonstrated using selective
+area growth in trenches<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> and in prepatterned
+V-grooves,<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> which resulted in an optically
+and electrically driven laser on Si(001), respectively. Another approach
+is based on bonding of <italic>ex-situ</italic> fabricated III&#x02013;V
+photonic components,<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> which recently made
+significant progress regarding yield and device lifetime.<sup><xref ref-type="bibr" rid="ref24">24</xref></sup></p><p>In this paper, we present the monolithic
+integration of III&#x02013;V semiconductors for photonic devices on
+Si, based on a selective epitaxial growth technique (template-assisted
+selective epitaxy, TASE) that had been successfully developed for
+nanoelectronic devices.<sup><xref ref-type="bibr" rid="ref25">25</xref>&#x02212;<xref ref-type="bibr" rid="ref28">28</xref></sup> The basic concept relies on the idea of a single
+and small-area nucleation of the III&#x02013;V material on Si&#x02014;with
+any substrate orientation&#x02014;within hollow SiO<sub>2</sub> template
+structures of arbitrary shapes. This procedure allows for direct III&#x02013;V
+heteroepitaxy on Si without typical defects such as threading dislocations
+or antiphase boundaries, avoiding the usage of thick buffer layers,
+and, thus, could enable large-scale optoelectronics integration. A
+necessity of adapting the TASE process to photonic devices, though,
+is to increase the dimensions of the templates and resulting III&#x02013;V
+structures while maintaining the material quality. Here we report
+on optimized template designs, fabrication steps, and active materials
+compared to the nanoelectronics analogue<sup><xref ref-type="bibr" rid="ref25">25</xref>,<xref ref-type="bibr" rid="ref29">29</xref></sup> and demonstrate the integration of AlGaAs/GaAs microdisk structures
+as active photonic devices. Optically pumped lasing up to room temperature
+is achieved along with temperature-stable lasing threshold and lasing
+peak position.</p><sec id="sec2"><title>Results and Discussion</title><sec id="sec2.1"><title>Laser Fabrication</title><p>In order to monolithically
+integrate III&#x02013;V semiconductor gain material, we employ the
+TASE growth technique presented and discussed elsewhere.<sup><xref ref-type="bibr" rid="ref25">25</xref>,<xref ref-type="bibr" rid="ref26">26</xref>,<xref ref-type="bibr" rid="ref30">30</xref></sup> This approach promises nearly
+defect-free heteroepitaxy of III&#x02013;V material on Si substrates.
+As laser gain material GaAs with an AlGaAs cladding deposited by MOCVD
+is used. The fabrication steps of the GaAs/AlGaAs microdisk devices
+are illustrated in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>. Standard Si(001) substrates are used and thermally oxidized
+(approximately 130 nm SiO<sub>2</sub> oxide thickness) to provide
+a high refractive index mismatch between the GaAs (<italic>n</italic><sub>GaAs</sub> = 3.6) and the surrounding medium (<italic>n</italic><sub>SiO2</sub> = 1.5), thus enabling a simulated cavity <italic>Q</italic>-factor of &#x0223c;730. Subsequently, holes (100 nm diameter)
+were etched through the oxide using a CHF<sub>3</sub>/O<sub>2</sub> reactive ion etching (RIE) dry etch process as shown schematically
+in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>a. Next,
+an etch stop layer of 2&#x02013;3 nm Al<sub>2</sub>O<sub>3</sub> as
+well as a sacrificial amorphous Si (&#x003b1;-Si) layer were deposited.
+A 5 &#x000d7; 5 &#x003bc;m<sup>2</sup> mesa structure centered on top of
+the etched holes was patterned using e-beam lithography and an HBr/O<sub>2</sub>-based inductively coupled plasma (ICP) etch process (see <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>b). These squares
+were covered with SiO<sub>2</sub> (which is called a template in the
+following) using atomic layer deposition (ALD, 20 nm) and plasma-enhanced
+chemical vapor deposition (PECVD, 120 nm), and four template openings
+are defined and etched into the oxide as indicated in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>c and d. The size and shape
+of the openings ensure efficient precursor supply during growth while
+mechanically stabilizing the hollow oxide template. Afterward the
+sacrificial Si inside the templates and holes is etched (see <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>e) using XeF<sub>2</sub>. Prior to the metalorganic chemical vapor deposition (MOCVD)
+growth step (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>f) the Al<sub>2</sub>O<sub>3</sub> etch stop layer as well as the
+native SiO<sub>2</sub> were etched using BHF while forming a hydrogen
+passivation on the Si surface. We grew two different samples for this
+study; both growth processes start with GaAs growth at 600 &#x000b0;C
+and a V&#x02013;III ratio of 30 (sample A, 90 min; sample B, 30 min)
+using trimethylgallium (TMGa) and <italic>tert</italic>-butylarsine
+(TBAs) finalized with an AlGaAs/GaAs shell adding trimethylaluminum
+(TMAl). Whereas microdisk devices from sample B are approximately
+1 &#x003bc;m in diameter, cavities from sample A are typically 3 times
+larger.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Fabrication of the GaAs
+microdisk laser. (a) Etching holes in a thermally oxidized Si(001)
+wafer using an RIE dry etching step. (b) Deposition and patterning
+of amorphous Si (&#x003b1;-Si). (c) Covering of the &#x003b1;-Si with
+ALD (20 nm) and PECVD (120 nm) SiO<sub>2</sub>. (d) Patterning and
+RIE etching of template openings. (e) Selective etching of the sacrificial
+&#x003b1;-Si layer using XeF<sub>2</sub>. (f) Finally, the hollow SiO<sub>2</sub> cavities are filled using selective epitaxy (MOCVD).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn-2017-07911u_0001" id="gr1" position="float"/></fig></sec><sec id="sec2.2"><title>Morphological Analysis</title><p>In order to investigate the
+crystalline quality, orientation, and the seed area, we cut out several
+TEM lamellas from microdisk devices using Ga focused-ion beam (FIB)
+etching at accelerating voltages of 30 and 5 kV. The samples were
+investigated by scanning transmission electron microscopy (STEM) using
+a double spherical aberration corrected JEOL ARM200F operating at
+200 kV and equipped with a JEOL Dry SD100GV silicon drift detector
+with 100 mm<sup>2</sup> detection area for energy dispersive X-ray
+spectroscopy (EDX) analyses. The chemical maps obtained by EDX are
+presented in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b07911/suppl_file/nn7b07911_si_001.pdf">Supporting Information</ext-link>, Figure S1, while annular dark field (ADF) images are shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>. For those images,
+a convergence semiangle of 25 mrad was used in combination with an
+ADF detector with inner and outer collection semiangles of 90 and
+370 mrad, respectively. Images obtained with an ADF are shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>, while EDX images
+are presented in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b07911/suppl_file/nn7b07911_si_001.pdf">Supporting Information</ext-link>, Figure S1.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>(a) Cross-sectional ADF-STEM image of a microdisk from
+sample B. The insets display the fast Fourier transform images from
+the left and right segments as well as from the seed of the GaAs crystal.
+(b) Top-view scanning electron micrograph of the investigated device.
+(c) ADF-STEM micrograph along the [11&#x02013;2] direction after high-frequency
+noise reduction using a Gaussian low-pass filter for noise reduction.
+(d) Ball-and-stick model of the GaAs crystal along the [11&#x02013;2]
+direction.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn-2017-07911u_0002" id="gr2" position="float"/></fig><p>In <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>a a cross-sectional STEM of a microdisk from
+sample B is presented and a top-view scanning electron micrograph
+(SEM) of the same device is shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>b. This is the device on which we carried
+out the optical characterization presented in <xref rid="fig4" ref-type="fig">Figures <xref rid="fig4" ref-type="fig">4</xref></xref> and <xref rid="fig5" ref-type="fig">5</xref>. The disk radius is approximately 1 &#x003bc;m, whereas its
+thickness and the oxide thickness underneath amount to &#x0223c;335
+nm and &#x0223c;140 nm, respectively. Following the various processing
+and wet etching steps, the seed hole diameters are typically slightly
+extended and measure approximately 120 nm. The contrast gradient across
+(top to bottom) the GaAs region originates from a thickness variation
+from the sample preparation. Moreover, several Ga residues are visible
+as dark spots. The high-resolution ADF-STEM micrographs as well as
+their fast Fourier transform images (insets of <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>a) reveal identical crystal orientation throughout
+the entire III&#x02013;V crystal, denoting monocrystalline growth without
+amorphous or polycrystalline segments. Moreover, we do not observe
+any crystal defects such as threading dislocations, antiphase boundaries,
+or planar defects for this laser device. For this study we investigated
+seven devices, and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b07911/suppl_file/nn7b07911_si_001.pdf">Figure S2</ext-link> shows an example
+of a nonlasing device. For in-depth planar defect analysis of TASE-grown
+GaAs, we refer to our recent work.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> The
+top-view SEM image (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>b) shows well-defined facets. However, the entire crystal
+is tilted by 8&#x000b0; and rotated toward the (11&#x02013;2) plane, as
+shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>d,
+compared to the Si substrate. We believe that this unexpected tilt
+and rotation of the crystal might stem from a damaged Si surface from
+RIE overetching, as evidenced by the noticeable Si recess in the seed
+hole as well as the observation of defective crystals as shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b07911/suppl_file/nn7b07911_si_001.pdf">Figure S2</ext-link>.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>(a, b) 3D FDTD and 2D mode simulations,
+respectively, indicating higher order modes (mode 120), a group index
+of 7.6, and a <italic>Q</italic>-factor of 1650. (c) Photoluminescence
+(PL) spectra of a 3 &#x003bc;m device measured at 80 K. The inset shows
+a schematic view of the optical excitation and light detection. (d)
+Light-in light-out curve as well as the fwhm as a function of excitation
+at 80 K. (e) Room-temperature PL spectra and light-in light-out curve
+(inset) of another device from sample A.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn-2017-07911u_0003" id="gr3" position="float"/></fig><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Optical characteristics of MD lasers from sample B at (a) room temperature
+and 10 K (see inset). (b) Temperature-dependent light-in light-out
+curves. The temperature-dependent lasing threshold is shown in the
+inset.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn-2017-07911u_0004" id="gr4" position="float"/></fig><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Temperature-dependent PL spectra (a) above
+the lasing threshold at 4.2 pJ per pulse and (b) below the lasing
+threshold at 1.3 pJ per pulse of a device from sample B. (c) PL peak
+position as a function of temperature following Varshni&#x02019;s law.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn-2017-07911u_0005" id="gr5" position="float"/></fig></sec><sec id="sec2.3"><title>Optical Characterization of the GaAs/AlGaAs/GaAs Microdisk Lasers</title><p>The microdisk resonators were optically excited using a pulsed
+(15 ps pulse length every 10 ns) supercontinuum laser with center
+wavelengths of 705 and 710 nm close to the expected laser emission
+of the devices. The emission is collected from the top. A scheme of
+the measurement procedure is illustrated in the inset of <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>c. According to 3D
+finite difference time domain (FDTD) simulations of the cavity field
+decay using randomly oriented dipole emitters (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b07911/suppl_file/nn7b07911_si_001.pdf">Supplementary Figure S4</ext-link>) and disk dimensions extracted from
+the TEM results, a clear mode profile is established, as presented
+in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>a. The enhanced
+reflectivity of the high-order mode supported by the 3 &#x003bc;m nanodisk
+cavity<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> and the high refractive index
+mismatch between the GaAs nanodisk and the surrounding media results
+in a simulated cavity <italic>Q</italic>-factor of 1650. Additionally,
+2D mode simulations using a commercial Helmholtz equation solver (Lumerical)
+show that a high-order (120) mode displayed in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>b resembles the mode profile found with the
+FDTD simulation using the random-dipole method. <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>c shows photoluminescence (PL) spectra with
+a spectral resolution of &#x0223c;0.1 nm as a function of optical excitation
+at 80 K for a 3 &#x003bc;m microdisk device. Whereas the spontaneous
+emission dominating at low excitations is centered around 840 nm&#x02014;being
+in good agreement with the low-temperature GaAs band gap&#x02014;whispering
+gallery modes (WGM) appear above an excitation of 15 pJ per pulse.
+The integrated PL intensity as a function of excitation&#x02014;light-in
+light-out (LL) curve&#x02014;exhibits a clear kink along with a strong
+line width reduction at a lasing threshold of 18 pJ/pulse (see <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>d). Another device
+from sample A, shown in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>e, exhibits lasing even up to room temperature with a similar
+lasing threshold. The corresponding LL curve features a typical S-shape
+behavior, which, accompanied by the strong line width narrowing, constitutes
+a clear signature of the room-temperature lasing operation of the
+device.</p><p>The temperature-dependent optical
+characterization of a microdisk laser device from sample B is presented
+in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>. This monocrystalline
+device (<italic>cf</italic>. <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>) is 1 &#x003bc;m in diameter with a thickness of approximately
+335 nm. The excitation-dependent room-temperature as well as low-temperature
+(10 K) PL spectra are displayed in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>a and its inset, respectively. We found that
+the lasing thresholds of these smaller devices extracted from the
+LL curves (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>b) are significantly lower (2.5&#x02013;3.0 pJ/pulse) compared to
+the values observed for devices from sample A. Comparing the lasing
+thresholds measured for the 1 &#x003bc;m (2 pJ/pulse) and the 3 &#x003bc;m
+(18 pJ/pulse) microdisks we find a &#x0223c;9&#x000d7; higher lasing threshold
+for the large devices. As both devices are fabricated under the same
+growth conditions, we expect similar material qualities. Therefore,
+we conclude that either the different cavity confinement or simply
+the 9&#x000d7; larger gain volume of the 3 &#x003bc;m disk is responsible
+for the enhanced pumping energy required for the lasing operation
+of the larger device. The FDTD simulations presented in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b07911/suppl_file/nn7b07911_si_001.pdf">Figure S4</ext-link> show that the cavity <italic>Q</italic> factor of the 1 &#x003bc;m disk (<italic>Q</italic> = 1430) and <italic>Q</italic> factor of the 3 &#x003bc;m disk (<italic>Q</italic> = 1650)
+are very similar. Since we optimized the laser spot size for the maximum
+photoluminescence intensity for each of the devices, we assume a constant
+excitation power per area for a given excitation laser power. Therefore,
+we believe that the 9&#x000d7; higher lasing threshold measured for the
+large device is mainly related to the scaling (9&#x000d7;) of the gain
+material volume, which is in excellent agreement with our experimental
+results. Remarkably, we observed that between 10 and 300 K the lasing
+peak position moves only very slightly from 830 to 836 nm (see <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>a), whereas the peak
+of the spontaneous emission follows Varshni&#x02019;s law. Furthermore,
+we observe single-mode operation without any mode hopping up to 250
+K and attribute the maximum shift of the lasing mode, &#x00394;&#x003bb;<sub>T</sub> = 6 nm, to the temperature-induced refractive index change.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> However, at room temperature, multimode lasing
+operation with a free spectral range (FSR) of 20 nm as shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>a is observed. Additionally,
+as shown in the inset of <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>b, the lasing threshold is very insensitive to changes
+of the lattice temperature and increases only marginally from 2.5
+pJ/pulse to 3.0 pJ/pulse for a temperature increase from 10 K to 300
+K, corresponding to an extremely high characteristic temperature of <italic>T</italic><sub>0</sub> = 1500 K, which is more than 1 order of magnitude
+larger than for III&#x02013;V quantum dot microdisk lasers.<sup><xref ref-type="bibr" rid="ref33">33</xref>&#x02212;<xref ref-type="bibr" rid="ref35">35</xref></sup> We believe that due to the small diameter of the device and, thus,
+large FSR, only one (<italic>T</italic> &#x0003c; 250 K) or two modes (300
+K) lie within the gain spectrum while providing sufficiently low cavity
+losses to enable lasing. As can be seen in <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>a, the spontaneous emission curve exhibits
+a very broad fwhm of &#x0223c;70 nm even at 10 K and shows a very strong
+high-energy tail that extends far beyond 800 nm. This slow decay of
+the high-energy tail cannot only be explained by thermal carrier activation,
+which corresponds to <italic>k</italic><sub>B</sub><italic>T</italic> = 0.86 meV (0.5 nm) at 10 K and, therefore, is a clear signature
+for an inequilibrium between the lattice temperature and the carrier
+temperature in the gain material caused by, for example, electron&#x02013;electron
+collisions. However, as can be seen in <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>a, this strong spectral broadening of the
+material gain is very beneficial for the temperature stability of
+the device, as despite the Varshni shift and thermal depopulation,
+the overlap of the material gain and lasing cavity mode remains high
+if the temperature is increased.</p></sec></sec><sec id="sec3"><title>Conclusion</title><p>In
+summary, we demonstrated the monolithic integration of GaAs-based
+microdisk lasers on Si using template-assisted selective epitaxy.
+We developed a template process and design that enables the direct
+epitaxy of monocrystalline, &#x003bc;m-large III&#x02013;V microdisks
+on Si(001) with high optical quality. The devices show unambiguous
+lasing action up to room temperature with thresholds between 2 and
+18 pJ/pulse depending on the cavity size. Thus, TASE-grown gain materials
+and photonic devices on Si(001) represent a promising large-scale
+integration path toward electrically actuated lasers for merging electronics
+with photonics in order to reduce power consumption, <italic>i.e.</italic>, <italic>via</italic> optical interconnects, and to enrich the functionality
+of future Si ICs.</p></sec><sec id="sec4"><title>Methods</title><p>The
+AlGaAs/GaAs growth was conducted in a Veeco P150 MOCVD system at 60
+Torr using H<sub>2</sub> carrier gas, TMGa, TMAl, and TBAs as precursors.
+Prior to loading, the samples were etched in diluted hydrofluoric
+acid (HF) in order to remove the native oxide on the Si seed surface
+within the templates. Typical growth times were between 60 and 90
+min. The dimensions of the AlGaAs/GaAs microdisks were measured after
+growth by inspection in a Hitachi SU8000 SEM. For the optical characterization
+of the microdisk lasers we used a home-built microphotoluminescence
+setup. The samples were excited using a pulsed supercontinuum light
+source with a repetition rate of 80 MHz and a typical pulse duration
+of 10 ps, which was filtered to a 5 nm spectral window around 720
+nm. In order to reduce the degradation of the structures subject to
+the excitation light, we employed a chopper wheel to reduce the total
+number of excitation pulses by a factor of approximately 40. To avoid
+parasitic signals from the excitation source in the wavelength range
+of the microdisk emission between 800 and 900 nm, we used a 750 nm
+short-pass filter in the excitation path and a 750 nm long-pass filter
+in the detection path. The excitation light was focused onto the sample
+using a 50&#x000d7; Olympus objective, and the photoluminescence signal
+was collected with the same objective mounted inside a He-flow cryostat
+underneath a window opening, which provides optical access. The samples
+were glued onto the coldfinger, which can be moved in the <italic>x</italic>- and <italic>y</italic>-direction using a closed-loop
+piezo actuator stage. The objective can be moved in the <italic>z</italic>-direction using another piezo actuator to adjust the focus. The
+photoluminescence spectra of the microdisks were recorded using a
+liquid nitrogen cooled InGaAs line detector array with 1024 pixels
+mounted to a spectrometer with a focal length of 500 mm and an 850/mm
+grating. The photoluminescence signal is guided to the spectrometer
+and focused to the entrance slit with a width of &#x0223c;25 &#x003bc;m.
+An imaging system consisting of a halogen light source to illuminate
+the sample, a 20 cm lens to focus the image of the sample onto a CCD
+camera, a beam splitter to separate the two optical paths, and a semitransparent
+pellicle to add the imaging system to the excitation and detection
+paths was used to provide orientation on the sample and to record
+images of the microdisk emission using a 750 nm long-pass filter in
+front of the CCD. Samples for transmission electron microscopy were
+prepared by means of a dual-beam focused FEI Helios Nanolab 450S FIB.
+The samples were subsequently investigated by STEM using a double
+spherical aberration corrected JEOL ARM200F operating at 200 kV equipped
+with a JEOL Dry SD100GV silicon drift detector with 100 mm<sup>2</sup> detection area for EDX analyses. ADF images were taken using a convergence
+semiangle of 25 mrad in combination with an ADF detector with inner
+and outer collection semiangles of 90 and 370 mrad, respectively.</p></sec></body><back><notes id="notes-1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information
+is available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsnano.7b07911">10.1021/acsnano.7b07911</ext-link>.<list id="silist" list-type="simple"><list-item><p>Additional information
+on TEM and EDX analyses as well as FDTD simulations (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b07911/suppl_file/nn7b07911_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn7b07911_si_001.pdf"><caption><p>nn7b07911_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="" id="notes-3"><title>Author Present Address</title><p><sup>&#x02020;</sup> ABB
+Switzerland Ltd. Corporate Research, CH-5405 Baden-Daettwil, Switzerland.</p></notes><notes notes-type="" id="notes-4"><title>Author Present Address</title><p><sup>&#x000a7;</sup> Max Planck Institute for the Chemical Physics
+of Solids, Noethnitzer Stra&#x000df;e 40, 01187 Dresden, Germany.</p></notes><notes notes-type="" id="notes-2"><title>Author Contributions</title><p><sup>&#x02021;</sup> S. Wirths and B. F. Mayer
+contributed equally to this work.</p></notes><notes notes-type="COI-statement" id="NOTES-d7e691-autogenerated"><p>The authors declare no competing
+financial interest.</p></notes><ack><title>Acknowledgments</title><p>The research leading to these results has received
+funding from the European Union&#x02019;s Horizon 2020 Research and
+Innovation Program under Grant Agreement No. 704045 &#x0201c;MODES&#x0201d;
+(Marie Curie Post-Doctoral Research Fellowship), No. 641023 &#x0201c;NanoTandem&#x0201d;,
+and the ERC Starting Grant project under Grant Agreement No. 678567
+&#x0201c;PLASMIC&#x0201d;. The authors would also like to thank Dr.
+M. D. Rossell from the Electron Microscopy Center (EMPA), D&#x000fc;bendorf,
+Switzerland, for fruitful discussions, S. Reidt for TEM lamella preparation,
+and M. Tschudy for his support.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="weblink" id="cit1"><collab>Cisco</collab>. The Zettabyte
+Era: Trends and Analysis <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/vni-hyperconnectivity-wp.html">http://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/vni-hyperconnectivity-wp.html</uri> (accessed Jun 7, <year>2017</year>).</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Waldrop</surname><given-names>M. M.</given-names></name>
+<article-title>The Chips
+Are down for Moore&#x02019;s Law</article-title>. <source>Nature</source>
+<year>2016</year>, <volume>530</volume>, <fpage>144</fpage>&#x02013;<lpage>147</lpage>. <pub-id pub-id-type="doi">10.1038/530144a</pub-id>.<pub-id pub-id-type="pmid">26863965</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="book" id="cit3"><person-group person-group-type="allauthors"><name><surname>Green</surname><given-names>W.</given-names></name>; <name><surname>Assefa</surname><given-names>S.</given-names></name>; <name><surname>Rylyakov</surname><given-names>A.</given-names></name>; <name><surname>Schow</surname><given-names>C.</given-names></name>; <name><surname>Horst</surname><given-names>F.</given-names></name>; <name><surname>Vlasov</surname><given-names>Y.</given-names></name></person-group><article-title>CMOS Integrated Silicon Nanophotonics:
+An Enabling Technology for Exascale Computing</article-title>. In <source>Advanced Photonics</source>; <publisher-name>OSA</publisher-name>: <publisher-loc>Washington, D.C.</publisher-loc>, <year>2011</year>; p IME1.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="conf-proc" id="cit4"><person-group person-group-type="allauthors"><name><surname>Masini</surname><given-names>G.</given-names></name>; <name><surname>Capellini</surname><given-names>G.</given-names></name>; <name><surname>Witzens</surname><given-names>J.</given-names></name>; <name><surname>Gunn</surname><given-names>C.</given-names></name></person-group> A 1550nm, 10Gbps Monolithic Optical Receiver
+in 130nm CMOS with Integrated Ge Waveguide Photodetector. In <source>2007 4th IEEE International Conference on Group IV Photonics</source>; <publisher-name>IEEE</publisher-name>, <year>2007</year>; pp <fpage>1</fpage>&#x02013;<lpage>3</lpage>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Xia</surname><given-names>F.</given-names></name>; <name><surname>Sekaric</surname><given-names>L.</given-names></name>; <name><surname>Vlasov</surname><given-names>Y.</given-names></name>
+<article-title>Ultracompact Optical Buffers on a Silicon Chip</article-title>. <source>Nat. Photonics</source>
+<year>2007</year>, <volume>1</volume>, <fpage>65</fpage>&#x02013;<lpage>71</lpage>. <pub-id pub-id-type="doi">10.1038/nphoton.2006.42</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Xu</surname><given-names>Q.</given-names></name>; <name><surname>Schmidt</surname><given-names>B.</given-names></name>; <name><surname>Pradhan</surname><given-names>S.</given-names></name>; <name><surname>Lipson</surname><given-names>M.</given-names></name>
+<article-title>Micrometre-Scale Silicon
+Electro-Optic Modulator</article-title>. <source>Nature</source>
+<year>2005</year>, <volume>435</volume>, <fpage>325</fpage>&#x02013;<lpage>327</lpage>. <pub-id pub-id-type="doi">10.1038/nature03569</pub-id>.<pub-id pub-id-type="pmid">15902253</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Assefa</surname><given-names>S.</given-names></name>; <name><surname>Xia</surname><given-names>F.</given-names></name>; <name><surname>Vlasov</surname><given-names>Y. A.</given-names></name>
+<article-title>Reinventing
+Germanium Avalanche Photodetector for Nanophotonic on-Chip Optical
+Interconnects</article-title>. <source>Nature</source>
+<year>2010</year>, <volume>464</volume>, <fpage>8813</fpage><pub-id pub-id-type="doi">10.1038/nature08813</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Von
+den Driesch</surname><given-names>N.</given-names></name>; <name><surname>Stange</surname><given-names>D.</given-names></name>; <name><surname>Wirths</surname><given-names>S.</given-names></name>; <name><surname>Mussler</surname><given-names>G.</given-names></name>; <name><surname>Holl&#x000e4;nder</surname><given-names>B.</given-names></name>; <name><surname>Ikonic</surname><given-names>Z.</given-names></name>; <name><surname>Hartmann</surname><given-names>J. M.</given-names></name>; <name><surname>Stoica</surname><given-names>T.</given-names></name>; <name><surname>Mantl</surname><given-names>S.</given-names></name>; <name><surname>Gr&#x000fc;tzmacher</surname><given-names>D.</given-names></name>; <name><surname>Buca</surname><given-names>D.</given-names></name>
+<article-title>Direct Bandgap Group
+IV Epitaxy on Si for Laser Applications</article-title>. <source>Chem.
+Mater.</source>
+<year>2015</year>, <volume>27</volume>, <fpage>4693</fpage>&#x02013;<lpage>4702</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.5b01327</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Stange</surname><given-names>D.</given-names></name>; <name><surname>Wirths</surname><given-names>S.</given-names></name>; <name><surname>von den Driesch</surname><given-names>N.</given-names></name>; <name><surname>Mussler</surname><given-names>G.</given-names></name>; <name><surname>Stoica</surname><given-names>T.</given-names></name>; <name><surname>Ikonic</surname><given-names>Z.</given-names></name>; <name><surname>Hartmann</surname><given-names>J. M.</given-names></name>; <name><surname>Mantl</surname><given-names>S.</given-names></name>; <name><surname>Gr&#x000fc;tzmacher</surname><given-names>D.</given-names></name>; <name><surname>Buca</surname><given-names>D.</given-names></name>
+<article-title>Optical Transitions in Direct-Bandgap Ge<sub>1-x</sub> Sn<sub>x</sub> Alloys</article-title>. <source>ACS Photonics</source>
+<year>2015</year>, <volume>2</volume>, <fpage>1539</fpage>&#x02013;<lpage>1545</lpage>. <pub-id pub-id-type="doi">10.1021/acsphotonics.5b00372</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Stange</surname><given-names>D.</given-names></name>; <name><surname>Wirths</surname><given-names>S.</given-names></name>; <name><surname>Geiger</surname><given-names>R.</given-names></name>; <name><surname>Schulte-Braucks</surname><given-names>C.</given-names></name>; <name><surname>Marzban</surname><given-names>B.</given-names></name>; <name><surname>von den Driesch</surname><given-names>N.</given-names></name>; <name><surname>Mussler</surname><given-names>G.</given-names></name>; <name><surname>Zabel</surname><given-names>T.</given-names></name>; <name><surname>Stoica</surname><given-names>T.</given-names></name>; <name><surname>Hartmann</surname><given-names>J.-M.</given-names></name>; <name><surname>Mantl</surname><given-names>S.</given-names></name>; <name><surname>Gr&#x000fc;tzmacher</surname><given-names>D.</given-names></name>; <name><surname>Buca</surname><given-names>D.</given-names></name>
+<article-title>Optically Pumped GeSn
+Microdisk Lasers on Si</article-title>. <source>ACS Photonics</source>
+<year>2016</year>, <volume>3</volume>, <fpage>1279</fpage>&#x02013;<lpage>1285</lpage>. <pub-id pub-id-type="doi">10.1021/acsphotonics.6b00258</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Wirths</surname><given-names>S.</given-names></name>; <name><surname>Geiger</surname><given-names>R.</given-names></name>; <name><surname>von den
+Driesch</surname><given-names>N.</given-names></name>; <name><surname>Mussler</surname><given-names>G.</given-names></name>; <name><surname>Stoica</surname><given-names>T.</given-names></name>; <name><surname>Mantl</surname><given-names>S.</given-names></name>; <name><surname>Ikonic</surname><given-names>Z.</given-names></name>; <name><surname>Luysberg</surname><given-names>M.</given-names></name>; <name><surname>Chiussi</surname><given-names>S.</given-names></name>; <name><surname>Hartmann</surname><given-names>J. M.</given-names></name>; <name><surname>Sigg</surname><given-names>H.</given-names></name>; <name><surname>Faist</surname><given-names>J.</given-names></name>; <name><surname>Buca</surname><given-names>D.</given-names></name>; <name><surname>Gr&#x000fc;tzmacher</surname><given-names>D.</given-names></name>
+<article-title>Lasing in
+Direct-Bandgap GeSn Alloy Grown on Si</article-title>. <source>Nat.
+Photonics</source>
+<year>2015</year>, <volume>9</volume>, <fpage>88</fpage>&#x02013;<lpage>92</lpage>. <pub-id pub-id-type="doi">10.1038/nphoton.2014.321</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Al-Kabi</surname><given-names>S.</given-names></name>; <name><surname>Ghetmiri</surname><given-names>S. A.</given-names></name>; <name><surname>Margetis</surname><given-names>J.</given-names></name>; <name><surname>Pham</surname><given-names>T.</given-names></name>; <name><surname>Zhou</surname><given-names>Y.</given-names></name>; <name><surname>Dou</surname><given-names>W.</given-names></name>; <name><surname>Collier</surname><given-names>B.</given-names></name>; <name><surname>Quinde</surname><given-names>R.</given-names></name>; <name><surname>Du</surname><given-names>W.</given-names></name>; <name><surname>Mosleh</surname><given-names>A.</given-names></name>; <name><surname>Liu</surname><given-names>J.</given-names></name>; <name><surname>Sun</surname><given-names>G.</given-names></name>; <name><surname>Soref</surname><given-names>R. A.</given-names></name>; <name><surname>Tolle</surname><given-names>J.</given-names></name>; <name><surname>Li</surname><given-names>B.</given-names></name>; <name><surname>Mortazavi</surname><given-names>M.</given-names></name>; <name><surname>Naseem</surname><given-names>H. A.</given-names></name>; <name><surname>Yu</surname><given-names>S.-Q.</given-names></name>
+<article-title>An Optically Pumped
+2.5 &#x003bc;m GeSn Laser on Si Operating at 110 K</article-title>. <source>Appl. Phys. Lett.</source>
+<year>2016</year>, <volume>109</volume>, <fpage>171105</fpage><pub-id pub-id-type="doi">10.1063/1.4966141</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Mayer</surname><given-names>B.</given-names></name>; <name><surname>Janker</surname><given-names>L.</given-names></name>; <name><surname>Loitsch</surname><given-names>B.</given-names></name>; <name><surname>Treu</surname><given-names>J.</given-names></name>; <name><surname>Kostenbader</surname><given-names>T.</given-names></name>; <name><surname>Lichtmannecker</surname><given-names>S.</given-names></name>; <name><surname>Reichert</surname><given-names>T.</given-names></name>; <name><surname>Mork&#x000f6;tter</surname><given-names>S.</given-names></name>; <name><surname>Kaniber</surname><given-names>M.</given-names></name>; <name><surname>Abstreiter</surname><given-names>G.</given-names></name>; <name><surname>Gies</surname><given-names>C.</given-names></name>; <name><surname>Koblm&#x000fc;ller</surname><given-names>G.</given-names></name>; <name><surname>Finley</surname><given-names>J. J.</given-names></name>
+<article-title>Monolithically Integrated
+High-&#x003b2; Nanowire Lasers on Silicon</article-title>. <source>Nano
+Lett.</source>
+<year>2016</year>, <volume>16</volume>, <fpage>152</fpage>&#x02013;<lpage>156</lpage>. <pub-id pub-id-type="doi">10.1021/acs.nanolett.5b03404</pub-id>.<pub-id pub-id-type="pmid">26618638</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Mayer</surname><given-names>B.</given-names></name>; <name><surname>Rudolph</surname><given-names>D.</given-names></name>; <name><surname>Schnell</surname><given-names>J.</given-names></name>; <name><surname>Mork&#x000f6;tter</surname><given-names>S.</given-names></name>; <name><surname>Winnerl</surname><given-names>J.</given-names></name>; <name><surname>Treu</surname><given-names>J.</given-names></name>; <name><surname>M&#x000fc;ller</surname><given-names>K.</given-names></name>; <name><surname>Bracher</surname><given-names>G.</given-names></name>; <name><surname>Abstreiter</surname><given-names>G.</given-names></name>; <name><surname>Koblm&#x000fc;ller</surname><given-names>G.</given-names></name>; <name><surname>Finley</surname><given-names>J. J.</given-names></name>
+<article-title>Lasing from Individual GaAs-AlGaAs Core-Shell Nanowires
+up to Room Temperature</article-title>. <source>Nat. Commun.</source>
+<year>2013</year>, <volume>4</volume>, <fpage>2931</fpage><pub-id pub-id-type="doi">10.1038/ncomms3931</pub-id>.<pub-id pub-id-type="pmid">24304714</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Saxena</surname><given-names>D.</given-names></name>; <name><surname>Mokkapati</surname><given-names>S.</given-names></name>; <name><surname>Parkinson</surname><given-names>P.</given-names></name>; <name><surname>Jiang</surname><given-names>N.</given-names></name>; <name><surname>Gao</surname><given-names>Q.</given-names></name>; <name><surname>Tan</surname><given-names>H. H.</given-names></name>; <name><surname>Jagadish</surname><given-names>C.</given-names></name>
+<article-title>Optically Pumped Room-Temperature GaAs Nanowire Lasers</article-title>. <source>Nat. Photonics</source>
+<year>2013</year>, <volume>7</volume>, <fpage>963</fpage>&#x02013;<lpage>968</lpage>. <pub-id pub-id-type="doi">10.1038/nphoton.2013.303</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Hofrichter</surname><given-names>J.</given-names></name>; <name><surname>Morf</surname><given-names>T.</given-names></name>; <name><surname>Porta</surname><given-names>A. La</given-names></name>; <name><surname>Raz</surname><given-names>O.</given-names></name>; <name><surname>Dorren</surname><given-names>H. J. S.</given-names></name>; <name><surname>Offrein</surname><given-names>B. J.</given-names></name>
+<article-title>A Single InP-on-SOI Microdisk for
+High-Speed Half-Duplex On-Chip Optical Links</article-title>. <source>Opt. Express</source>
+<year>2012</year>, <volume>20</volume>, <fpage>B365</fpage>&#x02013;<lpage>B370</lpage>. <pub-id pub-id-type="doi">10.1364/OE.20.00B365</pub-id>.<pub-id pub-id-type="pmid">23262874</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Liang</surname><given-names>D.</given-names></name>; <name><surname>Fiorentino</surname><given-names>M.</given-names></name>; <name><surname>Okumura</surname><given-names>T.</given-names></name>; <name><surname>Chang</surname><given-names>H. H.</given-names></name>; <name><surname>Spencer</surname><given-names>D. T.</given-names></name>; <name><surname>Kuo</surname><given-names>Y. H.</given-names></name>; <name><surname>Fang</surname><given-names>A. W.</given-names></name>; <name><surname>Dai</surname><given-names>D.</given-names></name>; <name><surname>Beausoleil</surname><given-names>R. G.</given-names></name>; <name><surname>Bowers</surname><given-names>J. E.</given-names></name>
+<article-title>Electrically-Pumped Compact Hybrid Silicon Microring
+Lasers for Optical Interconnects</article-title>. <source>Opt. Express</source>
+<year>2009</year>, <volume>17</volume>, <fpage>20355</fpage>&#x02013;<lpage>20364</lpage>. <pub-id pub-id-type="doi">10.1364/OE.17.020355</pub-id>.<pub-id pub-id-type="pmid">19997264</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Luxmoore</surname><given-names>I. J.</given-names></name>; <name><surname>Toro</surname><given-names>R.</given-names></name>; <name><surname>Del Pozo-Zamudio</surname><given-names>O.</given-names></name>; <name><surname>Wasley</surname><given-names>N. A.</given-names></name>; <name><surname>Chekhovich</surname><given-names>E. A.</given-names></name>; <name><surname>Sanchez</surname><given-names>A. M.</given-names></name>; <name><surname>Beanland</surname><given-names>R.</given-names></name>; <name><surname>Fox</surname><given-names>A. M.</given-names></name>; <name><surname>Skolnick</surname><given-names>M. S.</given-names></name>; <name><surname>Liu</surname><given-names>H. Y.</given-names></name>; <name><surname>Tartakovskii</surname><given-names>A. I.</given-names></name>
+<article-title>III-V Quantum
+Light Source and Cavity-QED on Silicon</article-title>. <source>Sci.
+Rep.</source>
+<year>2013</year>, <volume>3</volume>, <fpage>1239</fpage><pub-id pub-id-type="doi">10.1038/srep01239</pub-id>.<pub-id pub-id-type="pmid">23393621</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Groenert</surname><given-names>M. E.</given-names></name>; <name><surname>Pitera</surname><given-names>A. J.</given-names></name>; <name><surname>Ram</surname><given-names>R. J.</given-names></name>; <name><surname>Fitzgerald</surname><given-names>E. A.</given-names></name>
+<article-title>Improved Room-Temperature Continuous Wave GaAs/AlGaAs
+and InGaAs/GaAs/AlGaAs Lasers Fabricated on Si Substrates <italic>via</italic> Relaxed Graded Ge<sub>x</sub>Si<sub>1-x</sub> Buffer
+Layers</article-title>. <source>J. Vac. Sci. Technol., B: Microelectron.
+Process. Phenom.</source>
+<year>2003</year>, <volume>21</volume>, <fpage>1064</fpage><pub-id pub-id-type="doi">10.1116/1.1576397</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Shi</surname><given-names>B.</given-names></name>; <name><surname>Zhu</surname><given-names>S.</given-names></name>; <name><surname>Li</surname><given-names>Q.</given-names></name>; <name><surname>Wan</surname><given-names>Y.</given-names></name>; <name><surname>Hu</surname><given-names>E. L.</given-names></name>; <name><surname>Lau</surname><given-names>K. M.</given-names></name>
+<article-title>Continuous-Wave Optically Pumped
+1.55 &#x003bc;m InAs/InAlGaAs Quantum Dot Microdisk Lasers Epitaxially
+Grown on Silicon</article-title>. <source>ACS Photonics</source>
+<year>2017</year>, <volume>4</volume>, <fpage>204</fpage>&#x02013;<lpage>210</lpage>. <pub-id pub-id-type="doi">10.1021/acsphotonics.6b00731</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Chen</surname><given-names>S.</given-names></name>; <name><surname>Li</surname><given-names>W.</given-names></name>; <name><surname>Wu</surname><given-names>J.</given-names></name>; <name><surname>Jiang</surname><given-names>Q.</given-names></name>; <name><surname>Tang</surname><given-names>M.</given-names></name>; <name><surname>Shutts</surname><given-names>S.</given-names></name>; <name><surname>Elliott</surname><given-names>S. N.</given-names></name>; <name><surname>Sobiesierski</surname><given-names>A.</given-names></name>; <name><surname>Seeds</surname><given-names>A. J.</given-names></name>; <name><surname>Ross</surname><given-names>I.</given-names></name>; <name><surname>Smowton</surname><given-names>P. M.</given-names></name>; <name><surname>Liu</surname><given-names>H.</given-names></name>
+<article-title>Electrically Pumped Continuous-Wave III&#x02013;V Quantum Dot Lasers
+on Silicon</article-title>. <source>Nat. Photonics</source>
+<year>2016</year>, <volume>10</volume>, <fpage>307</fpage>&#x02013;<lpage>311</lpage>. <pub-id pub-id-type="doi">10.1038/nphoton.2016.21</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Wang</surname><given-names>Z.</given-names></name>; <name><surname>Tian</surname><given-names>B.</given-names></name>; <name><surname>Pantouvaki</surname><given-names>M.</given-names></name>; <name><surname>Guo</surname><given-names>W.</given-names></name>; <name><surname>Absil</surname><given-names>P.</given-names></name>; <name><surname>Van Campenhout</surname><given-names>J.</given-names></name>; <name><surname>Merckling</surname><given-names>C.</given-names></name>; <name><surname>Van Thourhout</surname><given-names>D.</given-names></name>
+<article-title>Room-Temperature InP Distributed Feedback Laser Array
+Directly Grown on Silicon</article-title>. <source>Nat. Photonics</source>
+<year>2015</year>, <volume>9</volume>, <fpage>837</fpage>&#x02013;<lpage>842</lpage>. <pub-id pub-id-type="doi">10.1038/nphoton.2015.199</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Norman</surname><given-names>J.</given-names></name>; <name><surname>Kennedy</surname><given-names>M. J.</given-names></name>; <name><surname>Selvidge</surname><given-names>J.</given-names></name>; <name><surname>Li</surname><given-names>Q.</given-names></name>; <name><surname>Wan</surname><given-names>Y.</given-names></name>; <name><surname>Liu</surname><given-names>A. Y.</given-names></name>; <name><surname>Callahan</surname><given-names>P. G.</given-names></name>; <name><surname>Echlin</surname><given-names>M. P.</given-names></name>; <name><surname>Pollock</surname><given-names>T. M.</given-names></name>; <name><surname>Lau</surname><given-names>K. M.</given-names></name>; <name><surname>Gossard</surname><given-names>A. C.</given-names></name>; <name><surname>Bowers</surname><given-names>J. E.</given-names></name>
+<article-title>Electrically
+Pumped Continuous Wave Quantum Dot Lasers Epitaxially Grown on Patterned,
+on-Axis (001) Si</article-title>. <source>Opt. Express</source>
+<year>2017</year>, <volume>25</volume>, <fpage>3927</fpage><pub-id pub-id-type="doi">10.1364/OE.25.003927</pub-id>.<pub-id pub-id-type="pmid">28241602</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="conf-proc" id="cit24"><person-group person-group-type="allauthors"><name><surname>Doussiere</surname><given-names>P.</given-names></name></person-group> Laser Integration on Silicon. In <source>2017 IEEE 14th International
+Conference on Group IV Photonics (GFP)</source>; <publisher-name>IEEE</publisher-name>, <year>2017</year>; pp <fpage>169</fpage>&#x02013;<lpage>170</lpage>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Schmid</surname><given-names>H.</given-names></name>; <name><surname>Borg</surname><given-names>M.</given-names></name>; <name><surname>Moselund</surname><given-names>K.</given-names></name>; <name><surname>Gignac</surname><given-names>L.</given-names></name>; <name><surname>Breslin</surname><given-names>C. M.</given-names></name>; <name><surname>Bruley</surname><given-names>J.</given-names></name>; <name><surname>Cutaia</surname><given-names>D.</given-names></name>; <name><surname>Riel</surname><given-names>H.</given-names></name>
+<article-title>Template-Assisted Selective Epitaxy of III&#x02013;V Nanoscale Devices
+for Co-Planar Heterogeneous Integration with Si</article-title>. <source>Appl. Phys. Lett.</source>
+<year>2015</year>, <volume>106</volume>, <fpage>233101</fpage><pub-id pub-id-type="doi">10.1063/1.4921962</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Borg</surname><given-names>M.</given-names></name>; <name><surname>Schmid</surname><given-names>H.</given-names></name>; <name><surname>Moselund</surname><given-names>K. E.</given-names></name>; <name><surname>Signorello</surname><given-names>G.</given-names></name>; <name><surname>Gignac</surname><given-names>L.</given-names></name>; <name><surname>Bruley</surname><given-names>J.</given-names></name>; <name><surname>Breslin</surname><given-names>C.</given-names></name>; <name><surname>Das Kanungo</surname><given-names>P.</given-names></name>; <name><surname>Werner</surname><given-names>P.</given-names></name>; <name><surname>Riel</surname><given-names>H.</given-names></name>
+<article-title>Vertical III-V Nanowire
+Device Integration on Si(100)</article-title>. <source>Nano Lett.</source>
+<year>2014</year>, <volume>14</volume>, <fpage>1914</fpage>&#x02013;<lpage>1920</lpage>. <pub-id pub-id-type="doi">10.1021/nl404743j</pub-id>.<pub-id pub-id-type="pmid">24628529</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Czornomaz</surname><given-names>L.</given-names></name>; <name><surname>Uccelli</surname><given-names>E.</given-names></name>; <name><surname>Sousa</surname><given-names>M.</given-names></name>; <name><surname>Deshpande</surname><given-names>V.</given-names></name>; <name><surname>Djara</surname><given-names>V.</given-names></name>; <name><surname>Caimi</surname><given-names>D.</given-names></name>; <name><surname>Rossell</surname><given-names>M. D.</given-names></name>; <name><surname>Erni</surname><given-names>R.</given-names></name>; <name><surname>Fompeyrine</surname><given-names>J.</given-names></name>
+<article-title>Confined Epitaxial Lateral Overgrowth
+(CELO): A Novel Concept for Scalable Integration of CMOS-Compatible
+InGaAs-on-Insulator MOSFETs on Large-Area Si Substrates</article-title>. <source>VLSI Technol. (VLSI Technol. 2015 Symp.</source>
+<year>2015</year>, <volume>xx</volume>, <fpage>T172</fpage>&#x02013;<lpage>T173</lpage>. <pub-id pub-id-type="doi">10.1109/VLSIT.2015.7223666</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Borg</surname><given-names>M.</given-names></name>; <name><surname>Schmid</surname><given-names>H.</given-names></name>; <name><surname>Moselund</surname><given-names>K. E.</given-names></name>; <name><surname>Cutaia</surname><given-names>D.</given-names></name>; <name><surname>Riel</surname><given-names>H.</given-names></name>
+<article-title>Mechanisms of Template-Assisted Selective
+Epitaxy of InAs Nanowires on Si</article-title>. <source>J. Appl. Phys.</source>
+<year>2015</year>, <volume>117</volume>, <fpage>144303</fpage><pub-id pub-id-type="doi">10.1063/1.4916984</pub-id>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="conf-proc" id="cit29"><person-group person-group-type="allauthors"><name><surname>Cutaia</surname><given-names>D.</given-names></name>; <name><surname>Moselund</surname><given-names>K. E.</given-names></name>; <name><surname>Schmid</surname><given-names>H.</given-names></name>; <name><surname>Borg</surname><given-names>M.</given-names></name>; <name><surname>Olziersky</surname><given-names>A.</given-names></name>; <name><surname>Riel</surname><given-names>H.</given-names></name></person-group><article-title>Complementary
+III&#x02013;V Heterojunction Lateral NW Tunnel FET Technology on Si</article-title>. In <source>2016 IEEE Symposium on VLSI Technology</source>; <publisher-name>IEEE</publisher-name>, <year>2016</year>; Vol. <volume>xx</volume>, pp <fpage>1</fpage>&#x02013;<lpage>2</lpage>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="conf-proc" id="cit30"><person-group person-group-type="allauthors"><name><surname>Schmid</surname><given-names>H.</given-names></name>; <name><surname>Cutaia</surname><given-names>D.</given-names></name>; <name><surname>Gooth</surname><given-names>J.</given-names></name>; <name><surname>Wirths</surname><given-names>S.</given-names></name>; <name><surname>Bologna</surname><given-names>N.</given-names></name>; <name><surname>Moselund</surname><given-names>K. E.</given-names></name>; <name><surname>Riel</surname><given-names>H.</given-names></name></person-group> Monolithic Integration of Multiple III-V Semiconductors
+on Si for MOSFETs and TFETs. In <source>2016 IEEE International Electron
+Devices Meeting (IEDM)</source>; <publisher-name>IEEE</publisher-name>, <year>2016</year>; pp <fpage>3.6.1</fpage>&#x02013;<lpage>3.6.4</lpage>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Knoedler</surname><given-names>M.</given-names></name>; <name><surname>Bologna</surname><given-names>N.</given-names></name>; <name><surname>Schmid</surname><given-names>H.</given-names></name>; <name><surname>Borg</surname><given-names>M.</given-names></name>; <name><surname>Moselund</surname><given-names>K. E.</given-names></name>; <name><surname>Wirths</surname><given-names>S.</given-names></name>; <name><surname>Rossell</surname><given-names>M. D.</given-names></name>; <name><surname>Riel</surname><given-names>H.</given-names></name>
+<article-title>Observation of Twin-Free GaAs Nanowire Growth Using Template-Assisted
+Selective Epitaxy</article-title>. <source>Cryst. Growth Des.</source>
+<year>2017</year>, <volume>17</volume>, <fpage>6297</fpage>&#x02013;<lpage>6302</lpage>. <pub-id pub-id-type="doi">10.1021/acs.cgd.7b00983</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Chen</surname><given-names>R.</given-names></name>; <name><surname>Tran</surname><given-names>T.-T. D.</given-names></name>; <name><surname>Ng</surname><given-names>K. W.</given-names></name>; <name><surname>Ko</surname><given-names>W. S.</given-names></name>; <name><surname>Chuang</surname><given-names>L. C.</given-names></name>; <name><surname>Sedgwick</surname><given-names>F. G.</given-names></name>; <name><surname>Chang-Hasnain</surname><given-names>C.</given-names></name>
+<article-title>Nanolasers
+Grown on Silicon</article-title>. <source>Nat. Photonics</source>
+<year>2011</year>, <volume>5</volume>, <fpage>170</fpage>&#x02013;<lpage>175</lpage>. <pub-id pub-id-type="doi">10.1038/nphoton.2010.315</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Shi</surname><given-names>B.</given-names></name>; <name><surname>Zhu</surname><given-names>S.</given-names></name>; <name><surname>Li</surname><given-names>Q.</given-names></name>; <name><surname>Tang</surname><given-names>C. W.</given-names></name>; <name><surname>Wan</surname><given-names>Y.</given-names></name>; <name><surname>Hu</surname><given-names>E. L.</given-names></name>; <name><surname>Lau</surname><given-names>K. M.</given-names></name>
+<article-title>1.55 &#x003bc;m
+Room-Temperature Lasing from Subwavelength Quantum-Dot Microdisks
+Directly Grown on (001) Si</article-title>. <source>Appl. Phys. Lett.</source>
+<year>2017</year>, <volume>110</volume>, <fpage>121109</fpage><pub-id pub-id-type="doi">10.1063/1.4979120</pub-id>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Wan</surname><given-names>Y.</given-names></name>; <name><surname>Li</surname><given-names>Q.</given-names></name>; <name><surname>Liu</surname><given-names>A. Y.</given-names></name>; <name><surname>Gossard</surname><given-names>A. C.</given-names></name>; <name><surname>Bowers</surname><given-names>J. E.</given-names></name>; <name><surname>Hu</surname><given-names>E. L.</given-names></name>; <name><surname>Lau</surname><given-names>K. M.</given-names></name>
+<article-title>Temperature
+Characteristics of Epitaxially Grown InAs Quantum Dot Micro-Disk Lasers
+on Silicon for on-Chip Light Sources</article-title>. <source>Appl.
+Phys. Lett.</source>
+<year>2016</year>, <volume>109</volume>, <fpage>11104</fpage><pub-id pub-id-type="doi">10.1063/1.4955456</pub-id>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Ide</surname><given-names>T.</given-names></name>; <name><surname>Baba</surname><given-names>T.</given-names></name>; <name><surname>Tatebayashi</surname><given-names>J.</given-names></name>; <name><surname>Iwamoto</surname><given-names>S.</given-names></name>; <name><surname>Nakaoka</surname><given-names>T.</given-names></name>; <name><surname>Arakawa</surname><given-names>Y.</given-names></name>
+<article-title>Room Temperature Continuous
+Wave Lasing in InAs Quantum-Dot Microdisks with Air Cladding</article-title>. <source>Opt. Express</source>
+<year>2005</year>, <volume>13</volume>, <fpage>1615</fpage>&#x02013;<lpage>1620</lpage>. <pub-id pub-id-type="doi">10.1364/OPEX.13.001615</pub-id>.<pub-id pub-id-type="pmid">19495036</pub-id></mixed-citation></ref></ref-list></back></article>

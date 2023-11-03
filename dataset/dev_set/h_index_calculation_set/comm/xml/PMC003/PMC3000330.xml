@@ -1,0 +1,418 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">21151558</article-id><article-id pub-id-type="pmc">PMC3000330</article-id><article-id pub-id-type="publisher-id">PONE-D-10-01631</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0015075</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Biology</subject><subj-group><subject>Computational Biology</subject><subj-group><subject>Computational Neuroscience</subject></subj-group></subj-group><subj-group><subject>Neuroscience</subject><subj-group><subject>Sensory Systems</subject><subj-group><subject>Visual System</subject></subj-group></subj-group><subj-group><subject>Computational Neuroscience</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Computational neuroscience"><subject>Computer Science</subject><subj-group><subject>Computer Modeling</subject></subj-group></subj-group><subj-group subj-group-type="Computer modeling"><subject>Social and Behavioral Sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Experimental Psychology</subject><subject>Psychophysics</subject><subject>Sensory Perception</subject></subj-group></subj-group></subj-group></article-categories><title-group><article-title>Contrast and Phase Combination in Binocular Vision</article-title><alt-title alt-title-type="running-head">Binocular Combination</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Huang</surname><given-names>Chang-Bing</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zhou</surname><given-names>Jiawei</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zhou</surname><given-names>Yifeng</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Lu</surname><given-names>Zhong-Lin</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>&#x0002a;</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Laboratory of Brain Processes (LOBES), Departments of Psychology and Biomedical Engineering, Neuroscience Graduate Program, University of Southern California, Los Angeles, California, United States of America</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<addr-line>Hefei National Laboratory for Physical Sciences at Microscale and School of Life Science, University of Science and Technology of China, Hefei, People's Republic of China</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Singh</surname><given-names>Amit</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of Dayton, United States of America</aff><author-notes><corresp id="cor1">&#x0002a; E-mail: <email>zhonglin@usc.edu</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: CBH ZL. Performed the experiments: CBH JZ YZ. Analyzed the data: CBH JZ ZL. Contributed reagents/materials/analysis tools: CBH ZL. Wrote the paper: CBH ZL.</p></fn></author-notes><pub-date pub-type="collection"><year>2010</year></pub-date><pub-date pub-type="epub"><day>9</day><month>12</month><year>2010</year></pub-date><volume>5</volume><issue>12</issue><elocation-id>e15075</elocation-id><history><date date-type="received"><day>14</day><month>8</month><year>2010</year></date><date date-type="accepted"><day>15</day><month>10</month><year>2010</year></date></history><permissions><copyright-statement>Huang et al.</copyright-statement><copyright-year>2010</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><sec><title>Background</title><p>How the visual system combines information from the two eyes to form a unitary binocular representation of the external world is a fundamental question in vision science that has been the focus of many psychophysical and physiological investigations. Ding &#x00026; Sperling (2006) measured perceived phase of the cyclopean image, and developed a binocular combination model in which each eye exerts gain control on the other eye's signal and over the other eye's gain control. Critically, the relative phase of the monocular sine-waves plays a central role.</p></sec><sec><title>Methodology/Principal Findings</title><p>We used the Ding-Sperling paradigm but measured both the perceived contrast and phase of cyclopean images in three hundred and eighty combinations of base contrast, interocular contrast ratio, eye origin of the probe, and interocular phase difference. We found that the perceived contrast of the cyclopean image was independent of the relative phase of the two monocular gratings, although the perceived phase depended on the relative phase and contrast ratio of the monocular images. We developed a new multi-pathway contrast-gain control model (MCM) that elaborates the Ding-Sperling binocular combination model in two ways: (1) phase and contrast of the cyclopean images are computed in separate pathways, although with shared cross-eye contrast-gain control; and (2) phase-independent local energy from the two monocular images are used in binocular contrast combination. With three free parameters, the model yielded an excellent account of data from all the experimental conditions.</p></sec><sec><title>Conclusions/Significance</title><p>Binocular phase combination depends on the relative phase and contrast ratio of the monocular images but binocular contrast combination is phase-invariant. Our findings suggest the involvement of at least two separate pathways in binocular combination.</p></sec></abstract><counts><page-count count="6"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>We see the world with two eyes. It is remarkable that, most of the time, we perceive a single image of the world despite each eye having its own unique retinal image <xref rid="pone.0015075-Wheatstone1" ref-type="bibr">[1]</xref>. How unity of vision is achieved by binocular combination is a fundamental question in vision science <xref rid="pone.0015075-Meese1" ref-type="bibr">[2]</xref>, <xref rid="pone.0015075-Smith1" ref-type="bibr">[3]</xref>. A large number of psychophysical and physiological studies have investigated how two identical monocular spatial patterns combine to generate a single cyclopean image <xref rid="pone.0015075-Frisen1" ref-type="bibr">[4]</xref>&#x02013;<xref rid="pone.0015075-Arditi1" ref-type="bibr">[12]</xref>, two slightly different monocular patterns fuse to generate depth perception <xref rid="pone.0015075-Marr1" ref-type="bibr">[13]</xref>&#x02013;<xref rid="pone.0015075-Ramachandran1" ref-type="bibr">[16]</xref>, or two very different monocular patterns give rise to binocular rivalry <xref rid="pone.0015075-Baker1" ref-type="bibr">[17]</xref>&#x02013;<xref rid="pone.0015075-Sengpiel1" ref-type="bibr">[23]</xref>. However, until recently, one critical aspect of binocular combination has been largely neglected, that is, how two different monocular spatial patterns are combined to generate a single cyclopean percept, although that is perhaps the most common situation when we perceive the external visual world with two eyes.</p><p>Ding and Sperling <xref rid="pone.0015075-Ding1" ref-type="bibr">[24]</xref> were the first to measure the appearance of cyclopean image resulted from binocular combination of sine-wave gratings with identical frequency but different phases and contrasts in the two eyes, although contrast discrimination thresholds have been investigated in some previous studies <xref rid="pone.0015075-Meese2" ref-type="bibr">[25]</xref>, <xref rid="pone.0015075-Simmons1" ref-type="bibr">[26]</xref>. The perceived cyclopean image is a sine-wave grating, whose perceived phase is determined by the contrast ratio and phase difference between the monocular inputs. They proposed a contrast-gain control model that has been very successful in modelling phase perception in binocular vision in normal vision <xref rid="pone.0015075-Ding1" ref-type="bibr">[24]</xref>, <xref rid="pone.0015075-Huang1" ref-type="bibr">[27]</xref>, and extended by us to successfully model binocular phase combination in amblyopic vision <xref rid="pone.0015075-Huang1" ref-type="bibr">[27]</xref>. Here, we attempt to develop a more complete model of binocular combination, by investigating how binocular combination generates the perception of <italic>both</italic> phase and contrast from different monocular spatial patterns. We found that, <italic>surprisingly</italic>, the perceived contrast of cyclopean images was independent of the relative phase of the monocular sine-wave gratings, although the perceived phase of the cyclopean images depended on the relative phase and contrast ratio of the monocular images. We propose a new multi-pathway contrast-gain control model (MCM) of binocular combination.</p><p>We elaborated the Ding-Sperling binocular combination paradigm to measure both the perceived phase and contrast of the cyclopean percept. A stereoscope was used to present three sine-wave gratings to the observer in each trial (<xref ref-type="fig" rid="pone-0015075-g001">Figure 1</xref>): two test gratings on the left of fixation in both eyes and a monocular probe grating presented to one eye. Binocular presentation of the two test gratings, with proportional contrasts and different phases, produced a single cyclopean percept. Four observers adjusted the phase and the contrast of the probe grating to match the perceived phase and contrast of the cyclopean image. The phase and contrast of the cyclopean sine-wave precept were measured as functions of the base contrast level, the contrast ratio between the two eyes, the phase difference between the test gratings, and the dichoptic configuration (&#x0002b; and &#x02013; phase shifts in the left and right eyes, and vice versa), for a total of 216 (3 base contrasts &#x000d7;6 interocular ratios&#x000d7;3 phase differences &#x000d7;2 probe eye &#x000d7;2 configurations) and 144 (3&#x000d7;6&#x000d7;2&#x000d7;2&#x000d7;2) conditions for perceived contrast and phase, respectively.</p><fig id="pone-0015075-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015075.g001</object-id><label>Figure 1</label><caption><title>Stimulus display.</title><p>The two panels were delivered to the left and right eyes using a stereoscope. The two test gratings on the left in the two eyes' views, differing in contrast and phase, are combined via stereoscope. Observers adjusted the contrast and phase of the monocular probe grating to match those of the cyclopean image.</p></caption><graphic xlink:href="pone.0015075.g001"/></fig></sec><sec id="s2"><title>Results</title><p>The perceived phase <inline-formula><inline-graphic xlink:href="pone.0015075.e001.jpg" mimetype="image"/></inline-formula> of the cyclopean images is plotted as a function of the contrast ratio between the test gratings in the two eyes in <xref ref-type="fig" rid="pone-0015075-g002">Figure 2</xref>, with data from three base contrast conditions in separate panels. The perceived phase of the cyclopean image depended strongly on interocular contrast ratios (F(5,15)&#x0200a;=&#x0200a;397.95, p&#x0003c;0.001), but not on base contrast (F(2,6)&#x0200a;=&#x0200a;0.47, p&#x0003e;0.10), nor on the probe eye condition (F(1,3)&#x0200a;=&#x0200a;0.46, p&#x0003e;0.10). Data from the two probe eye conditions were pooled in <xref ref-type="fig" rid="pone-0015075-g002">Figure 2</xref> and in subsequent analyses. Increasing the interocular contrast ratio from 0 (a single test grating in one eye) to 1.0 (two test gratings with equal contrast in two eyes), produced a monotonic decrease of perceived phase from either 45 or 90 deg to approximately 0 deg, for the 45 and 90 deg phase shift conditions, respectively. Because the gratings in the two eyes were always phase-shifted with equal magnitude in opposite directions, the phase of the cyclopean percept should be 0 deg when the two gratings generate equal internal representations in binocular phase combination. Consistent with previous reports <xref rid="pone.0015075-Ding1" ref-type="bibr">[24]</xref>, <xref rid="pone.0015075-Huang1" ref-type="bibr">[27]</xref>, our results suggest that signals from the two eyes contribute almost equally in binocular phase combination.</p><fig id="pone-0015075-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015075.g002</object-id><label>Figure 2</label><caption><title>Perceived contrast and phase of the cyclopean images.</title><p>Data from different base contrast conditions are shown in separate panels. For each observer, data from the three base contrast conditions are shown in three columns. Within each column, the upper row shows the perceived phase (in degrees) and the lower row shows the perceived contrast, both as a function of the interocular contrast ratio. Different colors denote different phase shift conditions: blue asterisk for 0 degree, red upward-pointing triangle for 45 degrees, and green downward-pointing triangle for 90 degrees. Subjects only performed the phase matching task in the 45 and 90 degree conditions. The blue dashed line indicates expected output with zero phase difference. Error bars represent standard deviations.</p></caption><graphic xlink:href="pone.0015075.g002"/></fig><p>In <xref ref-type="fig" rid="pone-0015075-g002">Figure 2</xref>, the perceived cyclopean contrast, <inline-formula><inline-graphic xlink:href="pone.0015075.e002.jpg" mimetype="image"/></inline-formula>, is plotted as a function of interocular contrast ratio, with data from three base contrast conditions in separate panels. Surprisingly, data from the three phase-shift conditions virtually overlapped, i.e., the perceived contrast of the cyclopean image did not depend on the phase difference of the two monocular test sine-wave gratings (F(2,6)&#x0200a;=&#x0200a;0.07, p&#x0003e;0.50) in all three base contrast conditions (F(4,12)&#x0200a;=&#x0200a;0.32, p&#x0003e;0.50) for all four observers. The two dichoptic stimulus' configurations yielded essentially identical estimates (F(1,3)&#x0200a;=&#x0200a;2.183, p&#x0003e;0.10). The probe eye condition had a significant (F(1,3)&#x0200a;=&#x0200a;28.75, p&#x0200a;=&#x0200a;0.013) but small effect: the mean ratio of the perceived contrast of the cyclopean grating measured with the probe in the dominant (left) and non-dominant (right) eye is 1.06&#x000b1;0.03, indicating a small imbalance of the two eyes in binocular contrast combination (i.e., one eye is slightly more dominant than the other). We pooled the data in the two dichoptic configurations and probe eye conditions in subsequent analyses.</p><p>To better illustrate the phase-independent property of perceived contrast in binocular contrast combination, we re-plotted the average perceived contrast of the four observers as functions of the phase-shift between the two monocular test gratings (<xref ref-type="fig" rid="pone-0015075-g003">Figure 3A</xref>). Indeed, the perceived contrast versus phase curves are flat in all three conditions. Averaged over interocular contrast ratios and observers, the perceived contrast of the cyclopean image from binocular combination of two gratings with 0, 45 and 90 deg of phase shifts was 0.16&#x000b1;0.01 (mean&#x000b1;s.d.), 0.16&#x000b1;0.02 and 0.16&#x000b1;0.01 when the base contrast was 0.16; 0.32&#x000b1;0.01, 0.32&#x000b1;0.03 and 0.32&#x000b1;0.02 when the base contrast was 0.32; and 0.64&#x000b1;0.02, 0.64&#x000b1;0.02 and 0.64&#x000b1;0.02 when the base contrast was 0.64 (<xref ref-type="fig" rid="pone-0015075-g003">Figure 3A</xref>). The pattern of results contradicts phase-dependent models of binocular contrast combination. Regardless of the detailed computations in binocular contrast combination, phase dependent models of binocular contrast combination predict a factor of <inline-formula><inline-graphic xlink:href="pone.0015075.e003.jpg" mimetype="image"/></inline-formula> in perceived contrast between the 0 and 90 deg phase-shift conditions when the effective contrasts of the two monocular images are equal (<xref ref-type="fig" rid="pone-0015075-g004">Figure 4A</xref>).</p><fig id="pone-0015075-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015075.g003</object-id><label>Figure 3</label><caption><title>Phase-invariance and binocular advantage of contrast combination.</title><p>(A) Average perceived contrast (<inline-formula><inline-graphic xlink:href="pone.0015075.e004.jpg" mimetype="image"/></inline-formula>) of the cyclopean images versus interocular phase difference (<inline-formula><inline-graphic xlink:href="pone.0015075.e005.jpg" mimetype="image"/></inline-formula>) in three different base contrast and six contrast ratio conditions. Red asterisk, green upward-pointing triangle, blue downward-pointing triangle, cyan square, magenta cross and black five-pointed star represent data from the six contrast ratio (&#x003b4;&#x0200a;=&#x0200a;0, 0.1, 0.2, 0.4, 0.8 and 1.0) conditions. (B) Normalized perceived contrast as a function of interocular contrast ratio. The red curve represents the fit with the equation <inline-formula><inline-graphic xlink:href="pone.0015075.e006.jpg" mimetype="image"/></inline-formula> with &#x003c5;&#x0200a;=&#x0200a;6.07.</p></caption><graphic xlink:href="pone.0015075.g003"/></fig><fig id="pone-0015075-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015075.g004</object-id><label>Figure 4</label><caption><title>Multi-pathway contrast-gain control model (MCM) of binocular combination.</title><p>(A) Perceived contrast of the cyclopean images predicted by phase-dependent contrast binocular combination models (e.g., the Ding-Sperling model). (B,C,D) Schematic diagram of the multi-pathway contrast-gain control model (MCM) of binocular combination. Signals first go through double interocular contrast gain control (B), in which each eye exerts gain control on the other eye's signal in proportion to its own signal contrast energy, and also gain-controls over the other eye's gain control. The multi-pathway contrast-gain control model (MCM) of binocular combination elaborates the Ding-Sperling binocular combination model in two ways: (1) Phase and contrast of the cyclopean images are computed in separate pathways (C and D), although with shared cross-eye contrast-gain control; and (2) phase-independent local energy from the two monocular images are used in contrast combination.</p></caption><graphic xlink:href="pone.0015075.g004"/></fig><p>We can also evaluate whether two eyes are &#x0201c;better&#x0201d; than one. The average (across base contrast levels, phase shifts between monocular images, and subjects) normalized perceived contrast, defined as the contrast of the matched probe grating divided by the base contrast of each condition, is plotted in <xref ref-type="fig" rid="pone-0015075-g003">Figure 3B</xref> as a function of interocular contrast ratio between the monocular images. The normalized ratio is very close to 1.0 for contrast ratios up to 0.8&#x02013; in other words, the perceived contrast of the cyclopean image was equal to the higher contrast of the two monocular images; the eye with lower contrast didn't contribute much in perceived contrast. The normalized ratio is 1.05 and 1.15 when the contrast ratio is 0.8 and 1.0, respectively, that is, two eyes were better than one only when the contrasts in the two eyes are close. The results suggest strong interocular contrast gain control in binocular combination. We fitted a simple model <inline-formula><inline-graphic xlink:href="pone.0015075.e007.jpg" mimetype="image"/></inline-formula> to the normalized ratios, and found that &#x003c5;&#x0200a;=&#x0200a;6.07 provided the best fit.</p><p>To control for potential contamination of high spatial frequencies presented in the edges of the sine-wave gratings <xref rid="pone.0015075-Cormack1" ref-type="bibr">[28]</xref>, we blurred the edges of the sine-wave gratings and re-tested one of our observers (N1). The results with and without edge-blur are essentially the same (<xref ref-type="fig" rid="pone-0015075-g002">Figure 2</xref>), indicating that our original results were not due to high spatial frequency contaminations.</p><p>In summary, we found that the perceived contrast of the cyclopean images was independent of the relative phase of the monocular sine-wave gratings, although the perceived phase of the cyclopean images depended on the relative phase and contrast ratio of the monocular images. The findings of contrast-dependent phase combination and phase-independent contrast combination suggest that at least two separate pathways are involved in binocular combination. The new results require a reconsideration of existing binocular combination models.</p><p>We elaborated the Ding-Sperling model, originally developed and successfully applied to model binocular phase combination, to develop a new multi-pathway contrast-gain control model (MCM, <xref ref-type="fig" rid="pone-0015075-g004">Figures 4</xref> and <xref ref-type="supplementary-material" rid="pone.0015075.s001">Text S1</xref>). In the MCM, the phase and contrast of the cyclopean percept are computed in separate pathways <xref rid="pone.0015075-Hubel1" ref-type="bibr">[29]</xref> after double interocular contrast gain-control <xref rid="pone.0015075-Geisler1" ref-type="bibr">[30]</xref>&#x02013;<xref rid="pone.0015075-Heeger1" ref-type="bibr">[32]</xref>. Like Ding and Sperling <xref rid="pone.0015075-Ding1" ref-type="bibr">[24]</xref>, the MCM computes the perceived phase of the cyclopean images by summing the outputs from double interocular contrast-gain control, i.e., each eye exerts gain control over the other eye's signal in proportion to its own signal contrast energy, and the gain control that the other eye exerts. The phase information is kept in the contrast gain control process, and the model extracts phase-independent contrast energy from the two monocular images, and combines them using a power law <xref rid="pone.0015075-Legge1" ref-type="bibr">[5]</xref>, <xref rid="pone.0015075-Legge2" ref-type="bibr">[7]</xref> to compute perceived contrast of the cyclopean images. In total, the MCM has three free parameters: the nonlinearity factor (<inline-formula><inline-graphic xlink:href="pone.0015075.e008.jpg" mimetype="image"/></inline-formula>) in the contrast gain control process, the gain control efficiency of the signal strength (<inline-formula><inline-graphic xlink:href="pone.0015075.e009.jpg" mimetype="image"/></inline-formula>) and the exponent that controls the power-law summation (<inline-formula><inline-graphic xlink:href="pone.0015075.e010.jpg" mimetype="image"/></inline-formula>).</p><p>The MCM model successfully accounted for 99.4&#x00025; and 98.7&#x00025; of the variance in perceived phase and contrast of the cyclopean images for the average observer, with goodness of fit ranging from 98.9&#x00025; to 99.6&#x00025; for binocular phase combination and 96.5&#x00025; to 99.3&#x00025; for contrast combination for individual observers (<xref ref-type="table" rid="pone-0015075-t001">Table 1</xref> and <xref ref-type="fig" rid="pone-0015075-g002">Figure 2</xref>). The MCM is also superior to the Ding-Sperling model that predicts phase-dependent binocular contrast combination in all observers and their average for binocular contrast combination (p&#x0003c;0.001). The parameters of the best fitting model are listed in <xref ref-type="table" rid="pone-0015075-t001">Table 1</xref>.</p><table-wrap id="pone-0015075-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015075.t001</object-id><label>Table 1</label><caption><title>Parameters of the best fitting model.</title></caption><alternatives><graphic id="pone-0015075-t001-1" xlink:href="pone.0015075.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">&#x003b3;<sub>1</sub>
+</td><td align="left" rowspan="1" colspan="1">&#x003b3;<sub>2</sub>
+</td><td align="left" rowspan="1" colspan="1">&#x003c1;</td><td align="left" rowspan="1" colspan="1">
+<italic>r<sup>2</sup>_<sub>cont</sub></italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>(1,87)</td><td align="left" rowspan="1" colspan="1">
+<italic>r<sup>2</sup>_<sub>phase</sub></italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>(1,87)</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">AVE</td><td align="left" rowspan="1" colspan="1">1.11</td><td align="left" rowspan="1" colspan="1">0.90</td><td align="left" rowspan="1" colspan="1">76.51</td><td align="left" rowspan="1" colspan="1">0.99</td><td align="left" rowspan="1" colspan="1">957.38<xref ref-type="table-fn" rid="nt101">&#x0002a;&#x0002a;</xref>
+</td><td align="left" rowspan="1" colspan="1">0.99</td><td align="left" rowspan="1" colspan="1">127.48<xref ref-type="table-fn" rid="nt101">&#x0002a;&#x0002a;</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">N1</td><td align="left" rowspan="1" colspan="1">0.95</td><td align="left" rowspan="1" colspan="1">0.89</td><td align="left" rowspan="1" colspan="1">14.28</td><td align="left" rowspan="1" colspan="1">0.96</td><td align="left" rowspan="1" colspan="1">296.20<xref ref-type="table-fn" rid="nt101">&#x0002a;&#x0002a;</xref>
+</td><td align="left" rowspan="1" colspan="1">0.99</td><td align="left" rowspan="1" colspan="1">17.82<xref ref-type="table-fn" rid="nt101">&#x0002a;&#x0002a;</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">N2</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">0.92</td><td align="left" rowspan="1" colspan="1">23.12</td><td align="left" rowspan="1" colspan="1">0.97</td><td align="left" rowspan="1" colspan="1">151.89<xref ref-type="table-fn" rid="nt101">&#x0002a;&#x0002a;</xref>
+</td><td align="left" rowspan="1" colspan="1">0.99</td><td align="left" rowspan="1" colspan="1">11.93<xref ref-type="table-fn" rid="nt101">&#x0002a;&#x0002a;</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">N3</td><td align="left" rowspan="1" colspan="1">1.13</td><td align="left" rowspan="1" colspan="1">0.88</td><td align="left" rowspan="1" colspan="1">136.72</td><td align="left" rowspan="1" colspan="1">0.99</td><td align="left" rowspan="1" colspan="1">206.03<xref ref-type="table-fn" rid="nt101">&#x0002a;&#x0002a;</xref>
+</td><td align="left" rowspan="1" colspan="1">0.99</td><td align="left" rowspan="1" colspan="1">0.57</td></tr><tr><td align="left" rowspan="1" colspan="1">N4</td><td align="left" rowspan="1" colspan="1">0.86</td><td align="left" rowspan="1" colspan="1">0.93</td><td align="left" rowspan="1" colspan="1">42.77</td><td align="left" rowspan="1" colspan="1">0.99</td><td align="left" rowspan="1" colspan="1">316.36<xref ref-type="table-fn" rid="nt101">&#x0002a;&#x0002a;</xref>
+</td><td align="left" rowspan="1" colspan="1">0.99</td><td align="left" rowspan="1" colspan="1">27.21<xref ref-type="table-fn" rid="nt101">&#x0002a;&#x0002a;</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">N1_blur</td><td align="left" rowspan="1" colspan="1">1.10</td><td align="left" rowspan="1" colspan="1">0.93</td><td align="left" rowspan="1" colspan="1">8.49</td><td align="left" rowspan="1" colspan="1">0.99</td><td align="left" rowspan="1" colspan="1">303.42<xref ref-type="table-fn" rid="nt101">&#x0002a;&#x0002a;</xref>
+</td><td align="left" rowspan="1" colspan="1">0.96</td><td align="left" rowspan="1" colspan="1">13.49<xref ref-type="table-fn" rid="nt101">&#x0002a;&#x0002a;</xref>
+</td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt101"><label>&#x0002a;&#x0002a;</label><p>, p&#x0003c;0.001.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3"><title>Discussion</title><p>In this study, we elaborated the Ding-Sperling paradigm to measure both the perceived phase and contrast of the cyclopean images generated by binocular combination of two monocular sine-wave gratings. We found that the perceived contrast of cyclopean images was independent of the relative phase of the monocular sine-wave gratings, although the perceived phase of the cyclopean images depended on the relative phase and contrast ratio of the monocular images. The findings of contrast-dependent phase combination and phase-independent contrast combination suggest the involvement of at least two separate pathways in binocular combination. We developed a multi-pathway contrast-gain control model (MCM) of binocular combination to account for our empirical results.</p><p>Most previous studies on binocular combination have investigated how two identical monocular images combine <xref rid="pone.0015075-Meese1" ref-type="bibr">[2]</xref>, <xref rid="pone.0015075-Legge1" ref-type="bibr">[5]</xref>, <xref rid="pone.0015075-Legge2" ref-type="bibr">[7]</xref>, <xref rid="pone.0015075-Pirenne1" ref-type="bibr">[8]</xref>. Two popular models, probability summation <xref rid="pone.0015075-Pirenne1" ref-type="bibr">[8]</xref> and quadratic summation <xref rid="pone.0015075-Legge1" ref-type="bibr">[5]</xref>, <xref rid="pone.0015075-Campbell1" ref-type="bibr">[9]</xref>, have been proposed for binocular combination of contrast signals near threshold. Power summation <xref rid="pone.0015075-Legge2" ref-type="bibr">[7]</xref>, two-stage gain control <xref rid="pone.0015075-Meese1" ref-type="bibr">[2]</xref>, twin summation <xref rid="pone.0015075-Maehara1" ref-type="bibr">[10]</xref>, and binocular normalization <xref rid="pone.0015075-Moradi1" ref-type="bibr">[33]</xref>, have been proposed for supra-threshold binocular contrast combination. Because the relative phase between monocular images was set to zero in these studies, the phase information was absent in these models. On the other hand, when the relative phase of the monocular images is zero, the contrast combination branch of the MCM is very similar to those earlier models.</p><p>The idea of multiple pathways for binocular combination is also consistent with physiological findings. There are both simple and complex cells in primary visual cortex <xref rid="pone.0015075-Hubel1" ref-type="bibr">[29]</xref>. Whereas simple cells, which receive inputs from lateral geniculate nuclei, respond to visual stimuli in a roughly linear manner and are phase sensitive; complex cells, which pool responses of multiple simple cells through recurrent networks <xref rid="pone.0015075-Chance1" ref-type="bibr">[34]</xref>, respond to visual stimuli in a highly nonlinear manner and are phase invariant. Phase sensitive combination of outputs of simple cells is important for stereopsis, where phase-independent combination could result from combination of outputs of complex cells <xref rid="pone.0015075-Hyvarinen1" ref-type="bibr">[35]</xref>, <xref rid="pone.0015075-Morrone1" ref-type="bibr">[36]</xref>. Models of visual cortex have also specified edge sensitive and surface sensitive computations <xref rid="pone.0015075-Grossberg1" ref-type="bibr">[37]</xref>&#x02013;<xref rid="pone.0015075-vanderSmagt1" ref-type="bibr">[39]</xref>.</p><p>In this study, we investigated the appearance of the cyclopean images from supra-threshold binocular contrast combination of monocular sine-wave gratings with relative phase-shifts up to 90 deg. We didn't study larger phase difference because of binocular rivalry in those conditions. It would be necessary to further test if the MCM can be used to model phenomena in near threshold conditions because appearance and contrast detection/discrimination may be computed in separate pathways <xref rid="pone.0015075-Blaser1" ref-type="bibr">[40]</xref>. For example, Blakemore &#x00026; Hague <xref rid="pone.0015075-Blakemore1" ref-type="bibr">[15]</xref> found that two in-phase sinusoidal gratings in the two eyes were more readily detected than out-of-phase gratings, even though the magnitude of detect-ability improvement was small. Others also documented that binocular advantage is higher for the in-phase than the out-of-phase condition in contrast discrimination of supra-threshold gratings <xref rid="pone.0015075-Meese2" ref-type="bibr">[25]</xref>, <xref rid="pone.0015075-Simmons1" ref-type="bibr">[26]</xref>. The phase-dependent effect in binocular detection is reversed and enlarged when gratings were displayed in either narrowband <xref rid="pone.0015075-Henning1" ref-type="bibr">[41]</xref> or broadband <xref rid="pone.0015075-Henning2" ref-type="bibr">[42]</xref> visual masking noise. It would also be interesting to investigate binocular combination in external noise <xref rid="pone.0015075-Ding1" ref-type="bibr">[24]</xref>, <xref rid="pone.0015075-Ding2" ref-type="bibr">[43]</xref>.</p><p>Our results support at least two separate pathways, phase and contrast combination, in the MCM. The MCM has already provided an important theoretical framework in elucidating binocular deficits in amblyopia <xref rid="pone.0015075-Huang2" ref-type="bibr">[44]</xref>. In future studies, we will examine other phenomena in binocular interaction, e.g., stereo vision <xref rid="pone.0015075-Marr1" ref-type="bibr">[13]</xref>, binocular rivalry <xref rid="pone.0015075-Blake2" ref-type="bibr">[18]</xref>, <xref rid="pone.0015075-Lee1" ref-type="bibr">[21]</xref>, <xref rid="pone.0015075-Logothetis1" ref-type="bibr">[22]</xref>, and interocular masking <xref rid="pone.0015075-Baker1" ref-type="bibr">[17]</xref>, to test and specify additional pathways of binocular combination.</p></sec><sec sec-type="materials|methods" id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Observers/Ethics Statement</title><p>Four adult observers (22-28 yrs old), with normal or corrected-to-normal vision and na&#x000ef;ve to the purpose of the experiment, participated in the study with written informed consent. The research protocol was approved by the Ethics Committee of the University of Science and Technology of China.</p></sec><sec id="s4b"><title>Apparatus</title><p>All stimuli were generated by a PC computer running Matlab (MathWorks, Inc.) with PsychToolBox 2.54 extensions <xref rid="pone.0015075-Brainard1" ref-type="bibr">[45]</xref>, <xref rid="pone.0015075-Pelli1" ref-type="bibr">[46]</xref>, and presented on a Sony G220 Triniton monitor with a 1600&#x000d7;1200 resolution and a 75 Hz vertical refresh rate. A special circuit (<ext-link ext-link-type="uri" xlink:href="http://lobes.usc.edu/videoswitcher.html">http://lobes.usc.edu/videoswitcher.html</ext-link>) was used to combine two 8-bit output channels of the video card to yield 14-bit gray-scale levels <xref rid="pone.0015075-Li1" ref-type="bibr">[47]</xref> that was then scaled linearly using a psychophysical procedure <xref rid="pone.0015075-Li1" ref-type="bibr">[47]</xref>. A modified Helioth-Wheatstone stereoscope <xref rid="pone.0015075-Wheatstone1" ref-type="bibr">[1]</xref>, <xref rid="pone.0015075-Dudley1" ref-type="bibr">[48]</xref> was used to present the dichoptic images to the two eyes. The stereoscope and a chin rest were mounted on a table with a 105 cm total optical path.</p></sec><sec id="s4c"><title>Stimuli</title><p>Stimuli were three horizontal sine-wave gratings, each subtending 0.67&#x000d7;2 deg<sup>2</sup> (<xref ref-type="fig" rid="pone-0015075-g001">Figure 1</xref>). The luminance profiles of the two test gratings on the left in the two eyes' views are: <disp-formula><graphic xlink:href="pone.0015075.e011.jpg" mimetype="image" position="float"/><label>(1)</label></disp-formula>
+<disp-formula><graphic xlink:href="pone.0015075.e012.jpg" mimetype="image" position="float"/><label>(2)</label></disp-formula>where <inline-formula><inline-graphic xlink:href="pone.0015075.e013.jpg" mimetype="image"/></inline-formula>&#x0200a;=&#x0200a;31.2 cd/m<sup>2</sup> is the background luminance, <inline-formula><inline-graphic xlink:href="pone.0015075.e014.jpg" mimetype="image"/></inline-formula>&#x0200a;=&#x0200a;1 c/deg is the spatial frequency of the gratings, <inline-formula><inline-graphic xlink:href="pone.0015075.e015.jpg" mimetype="image"/></inline-formula> is the base contrast, and <inline-formula><inline-graphic xlink:href="pone.0015075.e016.jpg" mimetype="image"/></inline-formula> is the interocular contrast ratio. The two gratings are phase-shifted in opposite directions by <inline-formula><inline-graphic xlink:href="pone.0015075.e017.jpg" mimetype="image"/></inline-formula>, with a total phase difference of <inline-formula><inline-graphic xlink:href="pone.0015075.e018.jpg" mimetype="image"/></inline-formula>. The two monocular test sine-wave gratings were viewed through the stereoscope to generate a single cyclopean sine-wave grating. Three base contrast levels (<inline-formula><inline-graphic xlink:href="pone.0015075.e019.jpg" mimetype="image"/></inline-formula>), six interocular contrast ratios (<inline-formula><inline-graphic xlink:href="pone.0015075.e020.jpg" mimetype="image"/></inline-formula>), and three phase-shift differences (<inline-formula><inline-graphic xlink:href="pone.0015075.e021.jpg" mimetype="image"/></inline-formula>), were tested.</p><p>The luminance profile of the probe sine-wave grating on the right visual field in one eye is:<disp-formula><graphic xlink:href="pone.0015075.e022.jpg" mimetype="image" position="float"/><label>(3)</label></disp-formula>where <inline-formula><inline-graphic xlink:href="pone.0015075.e023.jpg" mimetype="image"/></inline-formula>&#x0200a;=&#x0200a;1 c/deg is the same as that of the test gratings, and both the contrast <inline-formula><inline-graphic xlink:href="pone.0015075.e024.jpg" mimetype="image"/></inline-formula>and phase <inline-formula><inline-graphic xlink:href="pone.0015075.e025.jpg" mimetype="image"/></inline-formula> of the probe grating were adjusted by the observer to match those of the cyclopean image on the left side of the display. The probe grating was presented either to the left or the right eye.</p><p>To control for potential contamination from the high spatial frequencies presented in the edges of the sine-wave gratings, we re-tested observer N1 with edge-blurred sine-wave gratings. A 0.53 deg half-Gaussian envelope (&#x003c3;&#x0200a;=&#x0200a;0.1 deg) was applied to the left and right edges of the gratings to blend the stimuli into the background. All other settings and procedures are stayed the same.</p></sec><sec id="s4d"><title>Procedure</title><p>Each trial began with a fixation display consisting of fixation crosses (0.111&#x000d7;0.111 deg<sup>2</sup>) and high-contrast frames (width: 0.111 deg; length: 6 deg) with diagonal bars (width: 0.111 deg; length: 2.33 deg) in both eyes. The high-contrast frames remained on the screen during the entire experiment to assist observers to fuse the images from the two eyes. After achieving correct fusion, the observer pressed the space bar on the computer keyboard to initiate the presentation of the three sine-wave gratings: two test gratings on the left side of fixation, and a probe grating on the right side of fixation, with the initial contrast and phase of the probe grating set randomly. Observers were required to adjust the contrast and phase of the probe grating to match those of the cyclopean image on the left. They were free to select which dimension to adjust first and to go back and forth on them, and pressed the &#x02018;Enter&#x02019; key twice to report the results after they were satisfied with the match in both dimensions. Inter-trial interval of 1 second was provided. A typical trial lasted about 10 seconds.</p></sec><sec id="s4e"><title>Design</title><p>We measured the perceived phase and contrast of the cyclopean sine-wave gratings as a function of the base contrast level, the contrast ratio between the two eyes, the phase difference between the sine-wave gratings, and stimulus configurations. Two stimulus configurations were used to cancel potential positional biases <xref rid="pone.0015075-Ding1" ref-type="bibr">[24]</xref>, <xref rid="pone.0015075-Huang1" ref-type="bibr">[27]</xref>: a) left eye phase shift &#x0200a;=&#x0200a;&#x00398;/2, right eye phase shift &#x0200a;=&#x0200a;&#x02212;&#x00398;/2, and (b) left eye phase shift &#x0200a;=&#x0200a;&#x02212;&#x00398;/2, right eye phase shift &#x0200a;=&#x0200a;&#x00398;/2. Following Ding and Sperling <xref rid="pone.0015075-Ding1" ref-type="bibr">[24]</xref>, we scored the perceived phase of the cyclopean sine-wave grating as the difference between the measurements from the two configurations. Only the perceived contrast was measured in the in-phase (&#x00398;&#x0200a;=&#x0200a;0) condition. There were therefore a total of 216 (3 base contrast levels &#x000d7;6 interocular ratios&#x000d7;3 phase differences &#x000d7;2 probe eye conditions&#x000d7;2 configurations) and 144 (3&#x000d7;6&#x000d7;2&#x000d7;2&#x000d7;2) conditions for perceived contrast and phase, respectively.</p><p>Each experimental session consisted of one measurement in all experimental conditions, lasting 40 to 90 minutes. The measurements were repeated at least 8 times in separate days. Voluntary breaks were allowed. Practice trials were provided prior to data collection.</p></sec><sec id="s4f"><title>Data fitting procedure</title><p>All the model-fitting procedures were implemented in Matlab using a non-linear least-square method that minimized <inline-formula><inline-graphic xlink:href="pone.0015075.e026.jpg" mimetype="image"/></inline-formula>, where <inline-formula><inline-graphic xlink:href="pone.0015075.e027.jpg" mimetype="image"/></inline-formula> and <inline-formula><inline-graphic xlink:href="pone.0015075.e028.jpg" mimetype="image"/></inline-formula> denote measured values and the corresponding model predictions, respectively. The goodness-of-fit was evaluated by the <italic>r</italic>
+<sup>2</sup> statistic for phase and contrast separately:</p><p>
+<disp-formula><graphic xlink:href="pone.0015075.e029.jpg" mimetype="image" position="float"/><label>(4)</label></disp-formula>
+</p><p>An F-test for nested models was used to statistically compare the models based on the <italic>r</italic>
+<sup>2&#x02019;</sup>s of phase and contrast. For two nested models with <inline-formula><inline-graphic xlink:href="pone.0015075.e030.jpg" mimetype="image"/></inline-formula> and <inline-formula><inline-graphic xlink:href="pone.0015075.e031.jpg" mimetype="image"/></inline-formula> parameters, the <inline-formula><inline-graphic xlink:href="pone.0015075.e032.jpg" mimetype="image"/></inline-formula> statistic is defined as:<disp-formula><graphic xlink:href="pone.0015075.e033.jpg" mimetype="image" position="float"/><label>(5)</label></disp-formula>where <inline-formula><inline-graphic xlink:href="pone.0015075.e034.jpg" mimetype="image"/></inline-formula>, and <inline-formula><inline-graphic xlink:href="pone.0015075.e035.jpg" mimetype="image"/></inline-formula>; <inline-formula><inline-graphic xlink:href="pone.0015075.e036.jpg" mimetype="image"/></inline-formula> is the number of data points.</p></sec></sec><sec sec-type="supplementary-material" id="s5"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pone.0015075.s001"><label>Text S1</label><caption><p>Multipathway ContrastGain Control Model MCM of Binocular Combination.</p><p>(DOC)</p></caption><media xlink:href="pone.0015075.s001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We thank L. K. Cormack for suggesting the control experiment using edge-blurred sine-wave gratings.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>The National Eye Institute (EY017491) and the National Natural Science Foundation of China (30630027) supported the research. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0015075-Wheatstone1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wheatstone</surname><given-names>C</given-names></name></person-group>
+<year>1838</year>
+<article-title>Contributions to the physiology of vision.-Part the first. On soem remarkable, and hitherto unobserved, phenomena of binocular vision.</article-title>
+<source>Philosophical Transactions of the Royal Society of London</source>
+<volume>128</volume>
+<fpage>371</fpage>
+<lpage>394</lpage>
+</element-citation></ref><ref id="pone.0015075-Meese1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meese</surname><given-names>TS</given-names></name><name><surname>Georgeson</surname><given-names>MA</given-names></name><name><surname>Baker</surname><given-names>DH</given-names></name></person-group>
+<year>2006</year>
+<article-title>Binocular contrast vision at and above threshold.</article-title>
+<source>J Vis</source>
+<volume>6</volume>
+<fpage>1224</fpage>
+<lpage>1243</lpage>
+<pub-id pub-id-type="pmid">17209731</pub-id></element-citation></ref><ref id="pone.0015075-Smith1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>EL</given-names><suffix>3rd</suffix></name><name><surname>Chino</surname><given-names>Y</given-names></name><name><surname>Ni</surname><given-names>J</given-names></name><name><surname>Cheng</surname><given-names>H</given-names></name></person-group>
+<year>1997</year>
+<article-title>Binocular combination of contrast signals by striate cortical neurons in the monkey.</article-title>
+<source>J Neurophysiol</source>
+<volume>78</volume>
+<fpage>366</fpage>
+<lpage>382</lpage>
+<pub-id pub-id-type="pmid">9242286</pub-id></element-citation></ref><ref id="pone.0015075-Frisen1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Frisen</surname><given-names>L</given-names></name><name><surname>Lindblom</surname><given-names>B</given-names></name></person-group>
+<year>1988</year>
+<article-title>Binocular summation in humans: evidence for a hierarchic model.</article-title>
+<source>J Physiol</source>
+<volume>402</volume>
+<fpage>773</fpage>
+<lpage>782</lpage>
+<pub-id pub-id-type="pmid">3236255</pub-id></element-citation></ref><ref id="pone.0015075-Legge1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Legge</surname><given-names>GE</given-names></name></person-group>
+<year>1984</year>
+<article-title>Binocular contrast summation--II. Quadratic summation.</article-title>
+<source>Vision Res</source>
+<volume>24</volume>
+<fpage>385</fpage>
+<lpage>394</lpage>
+<pub-id pub-id-type="pmid">6740959</pub-id></element-citation></ref><ref id="pone.0015075-Blake1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blake</surname><given-names>R</given-names></name><name><surname>Sloane</surname><given-names>M</given-names></name><name><surname>Fox</surname><given-names>R</given-names></name></person-group>
+<year>1981</year>
+<article-title>Further developments in binocular summation.</article-title>
+<source>Percept Psychophys</source>
+<volume>30</volume>
+<fpage>266</fpage>
+<lpage>276</lpage>
+<pub-id pub-id-type="pmid">7322802</pub-id></element-citation></ref><ref id="pone.0015075-Legge2"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Legge</surname><given-names>GE</given-names></name><name><surname>Rubin</surname><given-names>GS</given-names></name></person-group>
+<year>1981</year>
+<article-title>Binocular interactions in suprathreshold contrast perception.</article-title>
+<source>Percept Psychophys</source>
+<volume>30</volume>
+<fpage>49</fpage>
+<lpage>61</lpage>
+<pub-id pub-id-type="pmid">7290896</pub-id></element-citation></ref><ref id="pone.0015075-Pirenne1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pirenne</surname><given-names>MH</given-names></name></person-group>
+<year>1943</year>
+<article-title>Binocular and uniocular threshold of vision.</article-title>
+<source>Nature</source>
+<volume>152</volume>
+<fpage>698</fpage>
+<lpage>699</lpage>
+</element-citation></ref><ref id="pone.0015075-Campbell1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Campbell</surname><given-names>FW</given-names></name><name><surname>Green</surname><given-names>DG</given-names></name></person-group>
+<year>1965</year>
+<article-title>Monocular versus binocular visual acuity.</article-title>
+<source>Nature</source>
+<volume>208</volume>
+<fpage>191</fpage>
+<lpage>192</lpage>
+<pub-id pub-id-type="pmid">5884255</pub-id></element-citation></ref><ref id="pone.0015075-Maehara1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maehara</surname><given-names>G</given-names></name><name><surname>Goryo</surname><given-names>K</given-names></name></person-group>
+<year>2005</year>
+<article-title>Binocular, monocular and dichoptic pattern masking.</article-title>
+<source>Optical Review</source>
+<volume>12</volume>
+<fpage>76</fpage>
+<lpage>82</lpage>
+</element-citation></ref><ref id="pone.0015075-Anderson1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anderson</surname><given-names>PA</given-names></name><name><surname>Movshon</surname><given-names>JA</given-names></name></person-group>
+<year>1989</year>
+<article-title>Binocular combination of contrast signals.</article-title>
+<source>Vision Res</source>
+<volume>29</volume>
+<fpage>1115</fpage>
+<lpage>1132</lpage>
+<pub-id pub-id-type="pmid">2617860</pub-id></element-citation></ref><ref id="pone.0015075-Arditi1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Arditi</surname><given-names>AR</given-names></name><name><surname>Anderson</surname><given-names>PA</given-names></name><name><surname>Movshon</surname><given-names>JA</given-names></name></person-group>
+<year>1981</year>
+<article-title>Monocular and binocular detection of moving sinusoidal gratings.</article-title>
+<source>Vision Res</source>
+<volume>21</volume>
+<fpage>329</fpage>
+<lpage>336</lpage>
+<pub-id pub-id-type="pmid">7269310</pub-id></element-citation></ref><ref id="pone.0015075-Marr1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marr</surname><given-names>D</given-names></name><name><surname>Poggio</surname><given-names>T</given-names></name></person-group>
+<year>1979</year>
+<article-title>A computational theory of human stereo vision.</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>204</volume>
+<fpage>301</fpage>
+<lpage>328</lpage>
+<pub-id pub-id-type="pmid">37518</pub-id></element-citation></ref><ref id="pone.0015075-Julesz1"><label>14</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Julesz</surname><given-names>B</given-names></name></person-group>
+<year>1971</year>
+<article-title>Foundations of cyclopean perception.</article-title>
+<publisher-loc>Chicago</publisher-loc>
+<publisher-name>University of Chicago</publisher-name>
+</element-citation></ref><ref id="pone.0015075-Blakemore1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blakemore</surname><given-names>C</given-names></name><name><surname>Hague</surname><given-names>B</given-names></name></person-group>
+<year>1972</year>
+<article-title>Evidence for disparity detecting neurones in the human visual system.</article-title>
+<source>J Physiol</source>
+<volume>225</volume>
+<fpage>437</fpage>
+<lpage>455</lpage>
+<pub-id pub-id-type="pmid">5074403</pub-id></element-citation></ref><ref id="pone.0015075-Ramachandran1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ramachandran</surname><given-names>VS</given-names></name><name><surname>Sriram</surname><given-names>S</given-names></name></person-group>
+<year>1972</year>
+<article-title>Stereopsis generated with Julesz patterns in spite of rivalry imposed by colour filters.</article-title>
+<source>Nature</source>
+<volume>237</volume>
+<fpage>347</fpage>
+<lpage>348</lpage>
+<pub-id pub-id-type="pmid">4557404</pub-id></element-citation></ref><ref id="pone.0015075-Baker1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baker</surname><given-names>DH</given-names></name><name><surname>Graf</surname><given-names>EW</given-names></name></person-group>
+<year>2009</year>
+<article-title>On the relation between dichoptic masking and binocular rivalry.</article-title>
+<source>Vision Res</source>
+<volume>49</volume>
+<fpage>451</fpage>
+<lpage>459</lpage>
+<pub-id pub-id-type="pmid">19124036</pub-id></element-citation></ref><ref id="pone.0015075-Blake2"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blake</surname><given-names>R</given-names></name><name><surname>Fox</surname><given-names>R</given-names></name></person-group>
+<year>1974</year>
+<article-title>Adaptation to invisible gratings and the site of binocular rivalry suppression.</article-title>
+<source>Nature</source>
+<volume>249</volume>
+<fpage>488</fpage>
+<lpage>490</lpage>
+<pub-id pub-id-type="pmid">4834239</pub-id></element-citation></ref><ref id="pone.0015075-Haynes1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haynes</surname><given-names>JD</given-names></name><name><surname>Deichmann</surname><given-names>R</given-names></name><name><surname>Rees</surname><given-names>G</given-names></name></person-group>
+<year>2005</year>
+<article-title>Eye-specific effects of binocular rivalry in the human lateral geniculate nucleus.</article-title>
+<source>Nature</source>
+<volume>438</volume>
+<fpage>496</fpage>
+<lpage>499</lpage>
+<pub-id pub-id-type="pmid">16244649</pub-id></element-citation></ref><ref id="pone.0015075-Kovacs1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kovacs</surname><given-names>I</given-names></name><name><surname>Papathomas</surname><given-names>TV</given-names></name><name><surname>Yang</surname><given-names>M</given-names></name><name><surname>Feher</surname><given-names>A</given-names></name></person-group>
+<year>1996</year>
+<article-title>When the brain changes its mind: interocular grouping during binocular rivalry.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>93</volume>
+<fpage>15508</fpage>
+<lpage>15511</lpage>
+<pub-id pub-id-type="pmid">8986842</pub-id></element-citation></ref><ref id="pone.0015075-Lee1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>SH</given-names></name><name><surname>Blake</surname><given-names>R</given-names></name><name><surname>Heeger</surname><given-names>DJ</given-names></name></person-group>
+<year>2007</year>
+<article-title>Hierarchy of cortical responses underlying binocular rivalry.</article-title>
+<source>Nat Neurosci</source>
+<volume>10</volume>
+<fpage>1048</fpage>
+<lpage>1054</lpage>
+<pub-id pub-id-type="pmid">17632508</pub-id></element-citation></ref><ref id="pone.0015075-Logothetis1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Logothetis</surname><given-names>NK</given-names></name><name><surname>Leopold</surname><given-names>DA</given-names></name><name><surname>Sheinberg</surname><given-names>DL</given-names></name></person-group>
+<year>1996</year>
+<article-title>What is rivalling during binocular rivalry?</article-title>
+<source>Nature</source>
+<volume>380</volume>
+<fpage>621</fpage>
+<lpage>624</lpage>
+<pub-id pub-id-type="pmid">8602261</pub-id></element-citation></ref><ref id="pone.0015075-Sengpiel1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sengpiel</surname><given-names>F</given-names></name><name><surname>Blakemore</surname><given-names>C</given-names></name><name><surname>Harrad</surname><given-names>R</given-names></name></person-group>
+<year>1995</year>
+<article-title>Interocular suppression in the primary visual cortex: a possible neural basis of binocular rivalry.</article-title>
+<source>Vision Res</source>
+<volume>35</volume>
+<fpage>179</fpage>
+<lpage>195</lpage>
+<pub-id pub-id-type="pmid">7839615</pub-id></element-citation></ref><ref id="pone.0015075-Ding1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ding</surname><given-names>J</given-names></name><name><surname>Sperling</surname><given-names>G</given-names></name></person-group>
+<year>2006</year>
+<article-title>A gain-control theory of binocular combination.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>103</volume>
+<fpage>1141</fpage>
+<lpage>1146</lpage>
+<pub-id pub-id-type="pmid">16410354</pub-id></element-citation></ref><ref id="pone.0015075-Meese2"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meese</surname><given-names>TS</given-names></name><name><surname>Georgeson</surname><given-names>MA</given-names></name><name><surname>Baker</surname><given-names>DH</given-names></name></person-group>
+<year>2006</year>
+<article-title>Binocular contrast vision at and above threshold.</article-title>
+<source>Journal of Vision</source>
+<volume>6</volume>
+<fpage>1224</fpage>
+<lpage>1243</lpage>
+<pub-id pub-id-type="pmid">17209731</pub-id></element-citation></ref><ref id="pone.0015075-Simmons1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Simmons</surname><given-names>DR</given-names></name></person-group>
+<year>2005</year>
+<article-title>The binocular combination of chromatic contrast.</article-title>
+<source>Perception</source>
+<volume>34</volume>
+<fpage>1035</fpage>
+<lpage>1042</lpage>
+<pub-id pub-id-type="pmid">16178160</pub-id></element-citation></ref><ref id="pone.0015075-Huang1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huang</surname><given-names>CB</given-names></name><name><surname>Zhou</surname><given-names>J</given-names></name><name><surname>Lu</surname><given-names>ZL</given-names></name><name><surname>Feng</surname><given-names>L</given-names></name><name><surname>Zhou</surname><given-names>Y</given-names></name></person-group>
+<year>2009</year>
+<article-title>Binocular combination in anisometropic amblyopia.</article-title>
+<source>J Vis</source>
+<volume>9</volume>
+<fpage>17 11</fpage>
+<lpage>16</lpage>
+</element-citation></ref><ref id="pone.0015075-Cormack1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cormack</surname><given-names>LK</given-names></name><name><surname>Stevenson</surname><given-names>SB</given-names></name><name><surname>Landers</surname><given-names>DD</given-names></name></person-group>
+<year>1997</year>
+<article-title>Interactions of spatial frequency and unequal monocular contrasts in stereopsis.</article-title>
+<source>Perception</source>
+<volume>26</volume>
+<fpage>1121</fpage>
+<lpage>1136</lpage>
+<pub-id pub-id-type="pmid">9509147</pub-id></element-citation></ref><ref id="pone.0015075-Hubel1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hubel</surname><given-names>DH</given-names></name><name><surname>Wiesel</surname><given-names>TN</given-names></name></person-group>
+<year>1962</year>
+<article-title>Receptive fields, binocular interaction and functional architecture in the cat's visual cortex.</article-title>
+<source>J Physiol</source>
+<volume>160</volume>
+<fpage>106</fpage>
+<lpage>154</lpage>
+<pub-id pub-id-type="pmid">14449617</pub-id></element-citation></ref><ref id="pone.0015075-Geisler1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Geisler</surname><given-names>WS</given-names></name><name><surname>Albrecht</surname><given-names>DG</given-names></name></person-group>
+<year>1992</year>
+<article-title>Cortical neurons: isolation of contrast gain control.</article-title>
+<source>Vision Res</source>
+<volume>32</volume>
+<fpage>1409</fpage>
+<lpage>1410</lpage>
+<pub-id pub-id-type="pmid">1455713</pub-id></element-citation></ref><ref id="pone.0015075-Albrecht1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Albrecht</surname><given-names>DG</given-names></name><name><surname>Geisler</surname><given-names>WS</given-names></name></person-group>
+<year>1991</year>
+<article-title>Motion selectivity and the contrast-response function of simple cells in the visual cortex.</article-title>
+<source>Vis Neurosci</source>
+<volume>7</volume>
+<fpage>531</fpage>
+<lpage>546</lpage>
+<pub-id pub-id-type="pmid">1772804</pub-id></element-citation></ref><ref id="pone.0015075-Heeger1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heeger</surname><given-names>DJ</given-names></name></person-group>
+<year>1992</year>
+<article-title>Normalization of cell responses in cat striate cortex.</article-title>
+<source>Vis Neurosci</source>
+<volume>9</volume>
+<fpage>181</fpage>
+<lpage>197</lpage>
+<pub-id pub-id-type="pmid">1504027</pub-id></element-citation></ref><ref id="pone.0015075-Moradi1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moradi</surname><given-names>F</given-names></name><name><surname>Heeger</surname><given-names>DJ</given-names></name></person-group>
+<year>2009</year>
+<article-title>Inter-ocular contrast normalization in human visual cortex.</article-title>
+<source>J Vis</source>
+<volume>9</volume>
+<fpage>13 11</fpage>
+<lpage>22</lpage>
+</element-citation></ref><ref id="pone.0015075-Chance1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chance</surname><given-names>FS</given-names></name><name><surname>Nelson</surname><given-names>SB</given-names></name><name><surname>Abbott</surname><given-names>LF</given-names></name></person-group>
+<year>1999</year>
+<article-title>Complex cells as cortically amplified simple cells.</article-title>
+<source>Nat Neurosci</source>
+<volume>2</volume>
+<fpage>277</fpage>
+<lpage>282</lpage>
+<pub-id pub-id-type="pmid">10195222</pub-id></element-citation></ref><ref id="pone.0015075-Hyvarinen1"><label>35</label><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Hyvarinen</surname><given-names>A</given-names></name><name><surname>Hurri</surname><given-names>J</given-names></name><name><surname>Hoyer</surname><given-names>PO</given-names></name></person-group>
+<year>2009</year>
+<article-title>Natural Image Statistics: A probabilistic approach to early computational vision: Springer London.</article-title>
+</element-citation></ref><ref id="pone.0015075-Morrone1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morrone</surname><given-names>MC</given-names></name><name><surname>Burr</surname><given-names>DC</given-names></name></person-group>
+<year>1988</year>
+<article-title>Feature detection in human vision: a phase-dependent energy model.</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>235</volume>
+<fpage>221</fpage>
+<lpage>245</lpage>
+<pub-id pub-id-type="pmid">2907382</pub-id></element-citation></ref><ref id="pone.0015075-Grossberg1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grossberg</surname><given-names>S</given-names></name><name><surname>Hong</surname><given-names>S</given-names></name></person-group>
+<year>2006</year>
+<article-title>A neural model of surface perception: lightness, anchoring, and filling-in.</article-title>
+<source>Spat Vis</source>
+<volume>19</volume>
+<fpage>263</fpage>
+<lpage>321</lpage>
+<pub-id pub-id-type="pmid">16862842</pub-id></element-citation></ref><ref id="pone.0015075-Raizada1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Raizada</surname><given-names>RD</given-names></name><name><surname>Grossberg</surname><given-names>S</given-names></name></person-group>
+<year>2003</year>
+<article-title>Towards a theory of the laminar architecture of cerebral cortex: computational clues from the visual system.</article-title>
+<source>Cereb Cortex</source>
+<volume>13</volume>
+<fpage>100</fpage>
+<lpage>113</lpage>
+<pub-id pub-id-type="pmid">12466221</pub-id></element-citation></ref><ref id="pone.0015075-vanderSmagt1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van der Smagt</surname><given-names>MJ</given-names></name><name><surname>Wehrhahn</surname><given-names>C</given-names></name><name><surname>Albright</surname><given-names>TD</given-names></name></person-group>
+<year>2005</year>
+<article-title>Contextual masking of oriented lines: interactions between surface segmentation cues.</article-title>
+<source>J Neurophysiol</source>
+<volume>94</volume>
+<fpage>576</fpage>
+<lpage>589</lpage>
+<pub-id pub-id-type="pmid">15744014</pub-id></element-citation></ref><ref id="pone.0015075-Blaser1"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blaser</surname><given-names>E</given-names></name><name><surname>Sperling</surname><given-names>G</given-names></name><name><surname>Lu</surname><given-names>ZL</given-names></name></person-group>
+<year>1999</year>
+<article-title>Measuring the amplification of attention.</article-title>
+<source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>96</volume>
+<fpage>11681</fpage>
+<lpage>11686</lpage>
+<pub-id pub-id-type="pmid">10500237</pub-id></element-citation></ref><ref id="pone.0015075-Henning1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Henning</surname><given-names>GB</given-names></name><name><surname>Hertz</surname><given-names>BG</given-names></name></person-group>
+<year>1973</year>
+<article-title>Binocular masking level differences in sinusoidal grating detection.</article-title>
+<source>Vision Res</source>
+<volume>13</volume>
+<fpage>2455</fpage>
+<lpage>2463</lpage>
+<pub-id pub-id-type="pmid">4771208</pub-id></element-citation></ref><ref id="pone.0015075-Henning2"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Henning</surname><given-names>GB</given-names></name><name><surname>Hertz</surname><given-names>BG</given-names></name></person-group>
+<year>1977</year>
+<article-title>The influence of bandwidth and temporal properties of spatial noise on binocular masking-level differences.</article-title>
+<source>Vision Res</source>
+<volume>17</volume>
+<fpage>399</fpage>
+<lpage>402</lpage>
+<pub-id pub-id-type="pmid">878327</pub-id></element-citation></ref><ref id="pone.0015075-Ding2"><label>43</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Ding</surname><given-names>J</given-names></name><name><surname>Sperling</surname><given-names>G</given-names></name></person-group>
+<year>2007</year>
+<article-title>Binocular combination: Measurements and a model.</article-title>
+<person-group person-group-type="editor"><name><surname>Harris</surname><given-names>L</given-names></name><name><surname>Jenkin</surname><given-names>M</given-names></name></person-group>
+<source>Computational vision in neural and machine systems</source>
+<publisher-loc>Cambridge</publisher-loc>
+<publisher-name>Cambridge University Press</publisher-name>
+<fpage>257</fpage>
+<lpage>305</lpage>
+</element-citation></ref><ref id="pone.0015075-Huang2"><label>44</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Huang</surname><given-names>CB</given-names></name><name><surname>Zhou</surname><given-names>J</given-names></name><name><surname>Zhou</surname><given-names>Y</given-names></name><name><surname>Lu</surname><given-names>ZL</given-names></name></person-group>
+<year>2010</year>
+<article-title>Deficient Binocular Combination Reveals Mechanisms of Anisometropic Amblyopia.</article-title>
+<publisher-loc>Sarasota, FL</publisher-loc>
+<publisher-name>Vision Science Society</publisher-name>
+</element-citation></ref><ref id="pone.0015075-Brainard1"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brainard</surname><given-names>DH</given-names></name></person-group>
+<year>1997</year>
+<article-title>The Psychophysics Toolbox.</article-title>
+<source>Spat Vis</source>
+<volume>10</volume>
+<fpage>433</fpage>
+<lpage>436</lpage>
+<pub-id pub-id-type="pmid">9176952</pub-id></element-citation></ref><ref id="pone.0015075-Pelli1"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pelli</surname><given-names>DG</given-names></name></person-group>
+<year>1997</year>
+<article-title>The VideoToolbox software for visual psychophysics: transforming numbers into movies.</article-title>
+<source>Spat Vis</source>
+<volume>10</volume>
+<fpage>437</fpage>
+<lpage>442</lpage>
+<pub-id pub-id-type="pmid">9176953</pub-id></element-citation></ref><ref id="pone.0015075-Li1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>X</given-names></name><name><surname>Lu</surname><given-names>ZL</given-names></name><name><surname>Xu</surname><given-names>P</given-names></name><name><surname>Jin</surname><given-names>J</given-names></name><name><surname>Zhou</surname><given-names>Y</given-names></name></person-group>
+<year>2003</year>
+<article-title>Generating high gray-level resolution monochrome displays with conventional computer graphics cards and color monitors.</article-title>
+<source>J Neurosci Methods</source>
+<volume>130</volume>
+<fpage>9</fpage>
+<lpage>18</lpage>
+<pub-id pub-id-type="pmid">14583400</pub-id></element-citation></ref><ref id="pone.0015075-Dudley1"><label>48</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Dudley</surname><given-names>LP</given-names></name></person-group>
+<year>1951</year>
+<article-title>Stereoptics: An Introduction.</article-title>
+<publisher-loc>London</publisher-loc>
+<publisher-name>MacDonald &#x00026; Co</publisher-name>
+</element-citation></ref></ref-list></back></article>

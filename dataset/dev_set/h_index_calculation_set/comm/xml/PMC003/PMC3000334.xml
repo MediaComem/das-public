@@ -1,0 +1,527 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">21151562</article-id><article-id pub-id-type="pmc">PMC3000334</article-id><article-id pub-id-type="publisher-id">10-PONE-RA-21619R1</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0014280</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Evolutionary Biology</subject><subject>Genetics and Genomics</subject><subject>Genetics and Genomics/Population Genetics</subject></subj-group></article-categories><title-group><article-title>Towards a Global Barcode Library for <italic>Lymantria</italic> (Lepidoptera: Lymantriinae) Tussock Moths of Biosecurity Concern</article-title><alt-title alt-title-type="running-head"><italic>Lymantria</italic> Barcoding</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>deWaard</surname><given-names>Jeremy R.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>&#x0002a;</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Mitchell</surname><given-names>Andrew</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Keena</surname><given-names>Melody A.</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Gopurenko</surname><given-names>David</given-names></name><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Boykin</surname><given-names>Laura M.</given-names></name><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Armstrong</surname><given-names>Karen F.</given-names></name><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Pogue</surname><given-names>Michael G.</given-names></name><xref ref-type="aff" rid="aff7">
+<sup>7</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Lima</surname><given-names>Joao</given-names></name><xref ref-type="aff" rid="aff8">
+<sup>8</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Floyd</surname><given-names>Robin</given-names></name><xref ref-type="aff" rid="aff8">
+<sup>8</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Hanner</surname><given-names>Robert H.</given-names></name><xref ref-type="aff" rid="aff8">
+<sup>8</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Humble</surname><given-names>Leland M.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff9">
+<sup>9</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Forest Sciences, University of British Columbia, Vancouver, British Columbia, Canada</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<addr-line>Entomology, Royal British Columbia Museum, Victoria, British Columbia, Canada</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<addr-line>Entomology, Australian Museum, Sydney, New South Wales, Australia</addr-line>
+</aff><aff id="aff4">
+<label>4</label>
+<addr-line>Northern Research Station, United States Department of Agriculture, Hamden, Connecticut, United States of America</addr-line>
+</aff><aff id="aff5">
+<label>5</label>
+<addr-line>Wagga Wagga Agricultural Institute, Industry &#x00026; Investment NSW, Wagga Wagga, New South Wales, Australia</addr-line>
+</aff><aff id="aff6">
+<label>6</label>
+<addr-line>Bio-Protection Research Centre, Lincoln University, Christchurch, New Zealand</addr-line>
+</aff><aff id="aff7">
+<label>7</label>
+<addr-line>Systematic Entomology Laboratory, United States Department of Agriculture, Washington, D.C., United States of America</addr-line>
+</aff><aff id="aff8">
+<label>8</label>
+<addr-line>Integrative Biology, University of Guelph, Guelph, Ontario, Canada</addr-line>
+</aff><aff id="aff9">
+<label>9</label>
+<addr-line>Canadian Forest Service, Natural Resources Canada, Victoria, British Columbia, Canada</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Joly</surname><given-names>Simon</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Montreal Botanical Garden, Canada</aff><author-notes><corresp id="cor1">&#x0002a; E-mail: <email>jdewaard@interchange.ubc.ca</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: JRd AM RH LMH. Performed the experiments: JRd JL LMH. Analyzed the data: JRd AM DG JL LMH. Contributed reagents/materials/analysis tools: JRd AM MAK DG LMB KFA MP JL RF RH LMH. Wrote the paper: JRd. Provided input into the manuscript: AM MAK DG LMB MP RF LMH.</p></fn></author-notes><pub-date pub-type="collection"><year>2010</year></pub-date><pub-date pub-type="epub"><day>9</day><month>12</month><year>2010</year></pub-date><volume>5</volume><issue>12</issue><elocation-id>e14280</elocation-id><history><date date-type="received"><day>23</day><month>7</month><year>2010</year></date><date date-type="accepted"><day>17</day><month>11</month><year>2010</year></date></history><permissions><copyright-statement>This is an open-access article distributed under the terms of the Creative Commons Public Domain declaration which stipulates that, once placed in the public domain, this work may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose.</copyright-statement><copyright-year>2010</copyright-year><license xlink:href="https://creativecommons.org/publicdomain/zero/1.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Public Domain declaration, which stipulates that, once placed in the public domain, this work may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose.</license-p></license></permissions><abstract><sec><title>Background</title><p>Detecting and controlling the movements of invasive species, such as insect pests, relies upon rapid and accurate species identification in order to initiate containment procedures by the appropriate authorities. Many species in the tussock moth genus <italic>Lymantria</italic> are significant forestry pests, including the gypsy moth <italic>Lymantria dispar</italic> L., and consequently have been a focus for the development of molecular diagnostic tools to assist in identifying species and source populations. In this study we expand the taxonomic and geographic coverage of the DNA barcode reference library, and further test the utility of this diagnostic method, both for species/subspecies assignment and for determination of geographic provenance of populations.</p></sec><sec><title>Methodology/Principal Findings</title><p>Cytochrome oxidase I (COI) barcodes were obtained from 518 individuals and 36 species of <italic>Lymantria</italic>, including sequences assembled and generated from previous studies, vouchered material in public collections, and intercepted specimens obtained from surveillance programs in Canada. A maximum likelihood tree was constructed, revealing high bootstrap support for 90&#x00025; of species clusters. Bayesian species assignment was also tested, and resulted in correct assignment to species and subspecies in all instances. The performance of barcoding was also compared against the commonly employed NB restriction digest system (also based on COI); while the latter is informative for discriminating gypsy moth subspecies, COI barcode sequences provide greater resolution and generality by encompassing a greater number of haplotypes across all <italic>Lymantria</italic> species, none shared between species.</p></sec><sec><title>Conclusions/Significance</title><p>This study demonstrates the efficacy of DNA barcodes for diagnosing species of <italic>Lymantria</italic> and reinforces the view that the approach is an under-utilized resource with substantial potential for biosecurity and surveillance. Biomonitoring agencies currently employing the NB restriction digest system would gather more information by transitioning to the use of DNA barcoding, a change which could be made relatively seamlessly as the same gene region underlies both protocols.</p></sec></abstract><counts><page-count count="10"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Non-indigenous insects and the pathogens they harbour have an overwhelming ecological, socio-economic, and evolutionary impact on the forest ecosystems they invade <xref rid="pone.0014280-Liebhold1" ref-type="bibr">[1]</xref>&#x02013;<xref rid="pone.0014280-Brockerhoff1" ref-type="bibr">[6]</xref>. The rapid initiation of containment and eradication programs is imperative to prevent the establishment and spread of adventive populations or individuals, which in turn relies on early detection and accurate identification of non-indigenous species as they enter a new region <xref rid="pone.0014280-Allen1" ref-type="bibr">[7]</xref>. Surveillance and monitoring at or near sites considered high risk (e.g. ports, airports, cargo facilities) serve this function, but current practices have proven insufficient, as evidenced by the alarming increase in non-indigenous insect establishments in recent decades <xref rid="pone.0014280-Humble1" ref-type="bibr">[8]</xref>. Species identification in particular is a vulnerable step, as suggested by studies documenting the identification rate of port interceptions (e.g. 40&#x02013;100&#x00025; incomplete identifications across families of Coleoptera <xref rid="pone.0014280-Haack1" ref-type="bibr">[9]</xref>).</p><p>To aid in the inherently difficult task of species identification for biosecurity, several molecular approaches are described in the recent standard released by the International Plant Protection Convention on the diagnostic protocols for regulated pests <xref rid="pone.0014280-Food1" ref-type="bibr">[10]</xref>. In contrast to the many ad-hoc protocols recognized in this standard (e.g. allozymes, restriction/amplified fragment length polymorphism analysis, microsatellites&#x02014;techniques are reviewed in <xref rid="pone.0014280-LeRoux1" ref-type="bibr">[11]</xref>), DNA barcoding provides a standardized and generic platform while still meeting and exceeding the rigorous standards of data quality and transparency (reviewed by <xref rid="pone.0014280-Floyd1" ref-type="bibr">[12]</xref>). Several studies demonstrate the efficacy of the approach as applied to invasive species detection and determination of native provenance, including work on leeches <xref rid="pone.0014280-Siddall1" ref-type="bibr">[13]</xref>, agromyzid leafminers <xref rid="pone.0014280-Scheffer1" ref-type="bibr">[14]</xref>, tephritid fruit flies <xref rid="pone.0014280-Armstrong1" ref-type="bibr">[15]</xref>, <xref rid="pone.0014280-Barr1" ref-type="bibr">[16]</xref>, ants <xref rid="pone.0014280-Smith1" ref-type="bibr">[17]</xref>, siricid wasps <xref rid="pone.0014280-Wilson1" ref-type="bibr">[18]</xref>, true bugs <xref rid="pone.0014280-Nadel1" ref-type="bibr">[19]</xref>, the cactus moth <xref rid="pone.0014280-Simonsen1" ref-type="bibr">[20]</xref>, the European poplar shoot borer <xref rid="pone.0014280-Humble2" ref-type="bibr">[21]</xref>, and nocturnal moths <xref rid="pone.0014280-deWaard1" ref-type="bibr">[22]</xref>. The integration of DNA barcoding into national biosurveillance programs has been protracted, but acceptance by certain agencies is apparent (e.g. see LBAM ID, which incorporates barcoding into the diagnostics of light brown apple moth and related species in California <xref rid="pone.0014280-Gilligan1" ref-type="bibr">[23]</xref>.</p><p>The tussock moth genus <italic>Lymantria</italic> L. (Lepidoptera: Noctuoidea: Lymantriinae) has been the focus of numerous investigations of molecular diagnostic tools, predominantly on <italic>Lymantria dispar</italic> L. to separate the North American, European and Asian gypsy moth populations (e.g. <xref rid="pone.0014280-Bogdanowicz1" ref-type="bibr">[24]</xref>&#x02013;<xref rid="pone.0014280-Keena1" ref-type="bibr">[32]</xref>). The intensity of research effort is certainly warranted &#x02013; few groups of insects rival the tussock moths in number of undesirable, potentially invasive species and the destruction they wreak on both native and non-native forests. This invasive potential is the product of several undesirable life history traits including long overwintering period in the egg stage, polyphagy in the larval stage, attraction of adults to artificial light sources (e.g. of ports and cargo vessels), and oviposition by females on inanimate surfaces <xref rid="pone.0014280-Keena1" ref-type="bibr">[32]</xref>&#x02013;<xref rid="pone.0014280-Pogue1" ref-type="bibr">[34]</xref>. Invasive species identification for this group is complicated by the propensity for immatures to be the stage of translocation, providing few characters for morphological diagnosis. Furthermore, when the adults are targeted, as is the case with traps employing synthetic sex pheromone attractants, lures may inadvertently attract more then one species (e.g. <xref rid="pone.0014280-Ross1" ref-type="bibr">[35]</xref>), and individuals may be severely damaged by the trapping mechanism (e.g. sticky traps; see <xref ref-type="fig" rid="pone-0014280-g001">Figure 1</xref>).</p><fig id="pone-0014280-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0014280.g001</object-id><label>Figure 1</label><caption><title>Collection of specimens through a pheromone-based gypsy moth surveillance program.</title><p>A, Pheromone trap and B, trapped and damaged <italic>Lymantria dispar</italic> specimen (LMHRG001-06) (image A from USDA APHIS PPQ Archive, USDA APHIS PPQ, Bugwood.org).</p></caption><graphic xlink:href="pone.0014280.g001"/></fig><p>Two previous studies <xref rid="pone.0014280-Armstrong1" ref-type="bibr">[15]</xref>, <xref rid="pone.0014280-Ball1" ref-type="bibr">[36]</xref> initiated a DNA barcode library for <italic>Lymantria</italic> (and other tussock moth genera) and results suggested potential for biosurveillance and species identification. The present study builds upon this solid foundation, to further populate the library with additional species, test that its utility remains with comprehensive sampling within species, and employ the reference library to assign intercepted specimens from quarantine and monitoring programs in British Columbia, Canada. In addition, we compare the DNA barcoding approach to a diagnostic assay based on the same gene region, herein called the &#x02018;NB system&#x02019;, routinely-used in surveillance programs to assess the gross geographic provenance of <italic>Lymantria dispar</italic>
+<xref rid="pone.0014280-Bogdanowicz1" ref-type="bibr">[24]</xref>, <xref rid="pone.0014280-Bogdanowicz3" ref-type="bibr">[26]</xref>, and suggest a simple transition for monitoring programs to adopt the barcoding approach with its improved reliability and resolution.</p></sec><sec sec-type="materials|methods" id="s2"><title>Materials and Methods</title><p>An effort was made to expand the taxonomic and geographic coverage of the DNA barcode library for the tussock moth genus <italic>Lymantria</italic>, with particular attention to those at high risk of being transported in cargo or on vessels to new habitats where they could become invasive pests, recently reviewed by Pogue and Schaefer <xref rid="pone.0014280-Pogue1" ref-type="bibr">[34]</xref>. We followed the taxonomy of <xref rid="pone.0014280-Pogue1" ref-type="bibr">[34]</xref> and <xref rid="pone.0014280-Schintlmeister1" ref-type="bibr">[37]</xref>, with the exceptions of <italic>L. nebulosa</italic> Wileman and <italic>L. subpallida</italic> Okano, which are considered here as species (see <xref ref-type="supplementary-material" rid="pone.0014280.s001">Appendix S1</xref> for taxonomic treatment), and identifications were determined using these monographs. Samples and sequences were obtained from four sources. Firstly, sequences were obtained from several previous studies that analyzed all or part of the barcode region: Armstrong &#x00026; Ball <xref rid="pone.0014280-Armstrong1" ref-type="bibr">[15]</xref> (N&#x0200a;=&#x0200a;76), Ball &#x00026; Armstrong <xref rid="pone.0014280-Ball1" ref-type="bibr">[36]</xref> (5), Bogdanowicz et al. <xref rid="pone.0014280-Bogdanowicz3" ref-type="bibr">[26]</xref> (74), Hebert et al. <xref rid="pone.0014280-Hebert1" ref-type="bibr">[38]</xref> (12), and Yamaguchi et al. unpublished (8). Secondly, 146 samples were analysed from vouchered material in publicly accessible collections, namely the Agricultural Scientific Collections Trust (ASCT, New South Wales, Australia), Biodiversity Institute of Ontario (Guelph, Canada), Pacific Forestry Centre (Victoria, Canada), Smithsonian National Museum of Natural History (Washington D.C., United States), and University of Maryland Alcohol Tubes of Lepidoptera collection (College Park). Thirdly, 165 specimens were analyzed from the USDA Forest Service Northern Research Station (Hamden, United States) which included representatives from all 46 populations of <italic>Lymantria dispar</italic> analyzed in Keena et al. <xref rid="pone.0014280-Keena1" ref-type="bibr">[32]</xref>. Finally, 32 specimens were acquired from surveillance programs in British Columbia, Canada. Thirty of these specimens were collected in sticky traps baited with <italic>L. dispar</italic> pheromone (<xref ref-type="fig" rid="pone-0014280-g001">Figure 1</xref>) around the province during 2006 and 2009 and two individuals were reared from egg masses removed from a Russian cargo vessel in the port of Vancouver in 1992.</p><p>DNA extraction, amplification, and sequencing of the barcode region of the mitochondrial cytochrome oxidase I (COI) gene followed standard high-throughput DNA barcoding methods previously described <xref rid="pone.0014280-Hebert1" ref-type="bibr">[38]</xref>, <xref rid="pone.0014280-deWaard2" ref-type="bibr">[40]</xref>. The primers LepF1 and LepR1 <xref rid="pone.0014280-Hebert2" ref-type="bibr">[41]</xref> were used in most instances, but amplification and sequencing using the &#x02018;Lep mini primers&#x02019; (MLepF1, MLepR1) <xref rid="pone.0014280-Hajibabaei2" ref-type="bibr">[42]</xref> was necessary for a few older specimens. Molecular work performed in Australia used the COI primers and amplification methods described in Cho et al. <xref rid="pone.0014280-Cho1" ref-type="bibr">[43]</xref>. All sequences are publicly available from the Barcode of Life Data Systems (BOLD) (<ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org">www.boldsystems.org</ext-link>; <xref rid="pone.0014280-Ratnasingham1" ref-type="bibr">[44]</xref>; project &#x02018;Global Lymantria&#x02019; [GLYMA]) and GenBank (see <xref ref-type="supplementary-material" rid="pone.0014280.s003">Table S1</xref> for accession numbers). The 658 base pair (bp) barcode region encompasses 360 of the 378 bp amplicon and the two restriction enzyme sites of the &#x02018;NB system&#x02019; of Bogdanowicz et al. <xref rid="pone.0014280-Bogdanowicz1" ref-type="bibr">[24]</xref> that is routinely used for gypsy moth diagnostics (<xref ref-type="fig" rid="pone-0014280-g002">Figure 2</xref>). The four possible haplotypes in this system are N&#x0002b;B&#x0002b;, N&#x02212;B&#x0002b;, N&#x0002b;B&#x02212;, and N&#x02212;B&#x02212;, where presence (&#x0002b;) or absence (&#x02212;) is indicated for the NlaIII and BamHI restriction sites (<xref ref-type="table" rid="pone-0014280-t001">Table 1</xref>).</p><fig id="pone-0014280-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0014280.g002</object-id><label>Figure 2</label><caption><title>Barcode region of the cytochrome oxidase I (COI) gene.</title><p>The barcode region spans 658 base pairs near to the 5&#x02032; end of the COI gene and includes the two diagnostic restriction enzyme sites of the &#x02018;NB system&#x02019; of Bogdanowicz et al. <xref rid="pone.0014280-Bogdanowicz1" ref-type="bibr">[24]</xref>, referred to as N and B. An additional monomorphic NlaIII site is found in the 5&#x02032; region of the gene fragment and therefore a NlaIII enzyme digest of the barcode region would result in two (N&#x02212;) or three (N&#x0002b;) bands (instead of 1 or 2 bands).</p></caption><graphic xlink:href="pone.0014280.g002"/></fig><table-wrap id="pone-0014280-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0014280.t001</object-id><label>Table 1</label><caption><title>Key to the &#x02018;NB system&#x02019; routinely used for gypsy moth diagnostics.</title></caption><alternatives><graphic id="pone-0014280-t001-1" xlink:href="pone.0014280.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Fragment size after NlaIII (N) enzyme digest</td><td align="left" rowspan="1" colspan="1">Fragment size after BamHI (B) enzyme digest</td><td align="left" rowspan="1" colspan="1">NB haplotype</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">&#x0223c;350 bp</td><td align="left" rowspan="1" colspan="1">&#x0223c;400 bp</td><td align="left" rowspan="1" colspan="1">N&#x0002b; B&#x02212;</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x0223c;350 bp</td><td align="left" rowspan="1" colspan="1">&#x0223c;360 bp</td><td align="left" rowspan="1" colspan="1">N&#x0002b; B&#x0002b;</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x0223c;400 bp</td><td align="left" rowspan="1" colspan="1">&#x0223c;400 bp</td><td align="left" rowspan="1" colspan="1">N&#x02212; B&#x02212;</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x0223c;400 bp</td><td align="left" rowspan="1" colspan="1">&#x0223c;360 bp</td><td align="left" rowspan="1" colspan="1">N&#x02212; B&#x0002b;</td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt101"><label/><p>The two diagnostic restriction enzyme digests of Bogdanowicz et al. <xref rid="pone.0014280-Bogdanowicz1" ref-type="bibr">[24]</xref> can result in the four haplotypes listed.</p></fn></table-wrap-foot></table-wrap><p>To explore the utility of the barcode region for species diagnosis in <italic>Lymantria</italic>, a maximum likelihood tree was constructed in Garli 1.0 <xref rid="pone.0014280-Zwickl1" ref-type="bibr">[45]</xref>, using the best-fit model as determined by ModelTest 3.7 <xref rid="pone.0014280-Posada1" ref-type="bibr">[46]</xref> under the Akaike Information Criterion. The general-time-reversible substitution model was chosen, with among-site-rate-heterogeneity modeled according to a gamma distribution, and an estimated proportion of DNA sites invariant. Analysis used default settings with <italic>Orgyia antiqua</italic> (BOLD ProcessID XAG647-05, GenBank Accession GU091296) included as an outgroup; node supports were estimated using 100 bootstrap replicates. The levels of genetic variation within and between species were calculated in MEGA 4 <xref rid="pone.0014280-Tamura1" ref-type="bibr">[47]</xref> using pairwise Kimura 2-parameter (K2P) distances <xref rid="pone.0014280-Kimura1" ref-type="bibr">[48]</xref> and the pairwise deletion option. The number of morphologically defined species that could successfully be differentiated by DNA barcoding were tallied to determine an overall success rate. Successful differentiation of a species required that its barcodes formed monophyletic clusters and were not shared with other species; in the case of species with a single representative, only the latter criterion was necessary.</p><p>To investigate subspecies delimitation in <italic>Lymantria dispar</italic> using the COI gene, we parsed the dataset to the 244 sequences &#x0003e;600 bp. Removing the significant sequence length variation permitted the use the more rapid neighbour-joining (NJ) method. The NJ tree was constructed in MEGA 4 with K2P distances and the pairwise deletion option (and resulted in a near-identical topology to an ML analysis; data not shown). Specimens were classified to subspecies based on the distribution limits provided by Pogue and Schaefer <xref rid="pone.0014280-Pogue1" ref-type="bibr">[34]</xref> where sufficient locality data were available.</p><p>For both the species and subspecies level, Bayesian assignment tests were performed using the &#x02018;segregating sites&#x02019; algorithm of Abdo and Golding <xref rid="pone.0014280-Abdo1" ref-type="bibr">[49]</xref> (see also <xref rid="pone.0014280-Kimura1" ref-type="bibr">[48]</xref>). For all species with three or more individuals, one randomly-chosen COI sequence was removed from the dataset and used as the query sequence for the test, as in Taveres and Baker <xref rid="pone.0014280-Tavares1" ref-type="bibr">[51]</xref>. This procedure was subsequently repeated for all haplotypes of the 32 surveillance specimens. The number of segregating sites, the posterior probability of correct assignment, and the risk of mis-assignment were calculated with the program Assigner (available at <ext-link ext-link-type="uri" xlink:href="http://info.mcmaster.ca/TheAssigner/">http://info.mcmaster.ca/TheAssigner/</ext-link>; <xref rid="pone.0014280-Abdo1" ref-type="bibr">[49]</xref>). The assignment of species and subspecies (and potential for determining geographic provenance and female flight ability) with the COI barcode region was compared against the commonly employed &#x02018;NB system&#x02019; <xref rid="pone.0014280-Bogdanowicz1" ref-type="bibr">[24]</xref>.</p></sec><sec id="s3"><title>Results</title><p>COI barcodes were obtained from 518 individuals and 36 species of <italic>Lymantria</italic>, originating from 35 countries (<xref ref-type="supplementary-material" rid="pone.0014280.s003">Table S1</xref>). Sixteen species were represented by a single sample sequence while the remaining species ranged from 2 to 308 sequences (mean excluding <italic>L. dispar</italic> &#x0200a;=&#x0200a;5.8 sequences/species). The average sequence length was 597 bp despite several shorter sequences obtained from previous studies (e.g. sequences from <xref rid="pone.0014280-Bogdanowicz3" ref-type="bibr">[26]</xref> are 375&#x02013;378 bp). Four species (<italic>L. singapura</italic>, <italic>L. semperi</italic>, <italic>L. todara</italic>, and <italic>L. subrosea</italic>) had sequences shorter than half the barcode region due to specimen age and/or preservation. There was no evidence of insertions, deletions or stop codons detected, suggesting pseudogenes were absent from the dataset.</p><p>The ML tree for the 36 species revealed long branches between the terminal clusters of closely related haplotypes (<xref ref-type="fig" rid="pone-0014280-g003">Figure 3</xref>, <xref ref-type="supplementary-material" rid="pone.0014280.s002">Figure S1</xref>). In only one case did a terminal cluster not correspond to known species limits: <italic>L. sinica</italic> (n&#x0200a;=&#x0200a;3) was paraphyletic with respect to the single specimen of <italic>L. nebulosa</italic>, with the deep split in <italic>L. sinica</italic> equalling 2.9&#x00025; K2P sequence divergence (LYMAN070-08, locality: China split from LYMAN065-08 &#x00026; LYMAN066-08, locality: Taiwan). Eighteen of the 20 species clusters with multiple individuals had high bootstrap support (&#x0003e;80&#x00025;); the remaining two species, <italic>L. umbrosa</italic> and <italic>L. dispar</italic>, considered conspecific until recently <xref rid="pone.0014280-Pogue1" ref-type="bibr">[34]</xref> and respond to the same pheromone lure <xref rid="pone.0014280-Ross1" ref-type="bibr">[35]</xref>, had bootstrap support of 69&#x00025; and &#x0003c;50&#x00025;, respectively. The mean K2P sequence divergence between species (x&#x0200a;=&#x0200a;14.02&#x00025;; SD &#x0200a;=&#x0200a;3.47&#x00025;; range &#x0200a;=&#x0200a;2.68&#x02013;37.61&#x00025;) was approximately 21-fold higher than within species variation (0.66&#x00025;; SD &#x0200a;=&#x0200a;0.50&#x00025;; range &#x0200a;=&#x0200a;0&#x02013;3.38&#x00025;) and formed mostly disjunct distributions (<xref ref-type="fig" rid="pone-0014280-g004">Figure 4</xref>). Only 157 of 50,390 intraspecific comparisons and 2 of 630 interspecific comparisons fell within a small range of overlap, between 2 and 4&#x00025;. The former cases involved <italic>L. mathura</italic>, <italic>L. sinica</italic>, <italic>L. obfuscata</italic>, and <italic>L. dispar</italic> (only those comparisons involving one or two short GenBank sequences) and the latter involved the pairs <italic>L. dispar/umbrosa</italic> and <italic>L. xylina/schaeferi</italic>. Overall, DNA barcoding was able to successfully differentiate 35 of 36 (97.2&#x00025;) morphologically defined species.</p><fig id="pone-0014280-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0014280.g003</object-id><label>Figure 3</label><caption><title>Maximum likelihood tree for 36 species of <italic>Lymantria</italic>.</title><p>Tree was constructed with the barcode region of the COI gene for 518 individuals. The number of specimens collapsed into a single node is given in parentheses after the taxon name. Bootstrap support values &#x0003e;50&#x00025; are listed above the corresponding node. Width of the triangles represents the sequence divergence within the cluster. Refer to <xref ref-type="supplementary-material" rid="pone.0014280.s002">Figure S1</xref> for full tree.</p></caption><graphic xlink:href="pone.0014280.g003"/></fig><fig id="pone-0014280-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0014280.g004</object-id><label>Figure 4</label><caption><title>Combined histograms of pairwise Kimura 2-Parameter (K2P) sequence variation.</title><p>Blue vertical bars show intraspecific divergences for the 20 species of <italic>Lymantria</italic> with multiple individuals and green vertical bars show the interspecific divergences between all 36 species.</p></caption><graphic xlink:href="pone.0014280.g004"/></fig><p>The NJ tree of COI sequence divergences in <italic>L. dispar</italic> indicated a clear delineation between the <italic>L. d. dispar</italic> subspecies and the two Asian subspecies <italic>asiatica</italic> and <italic>japonica</italic> (<xref ref-type="fig" rid="pone-0014280-g005">Figure 5</xref>). The tree also revealed all North American <italic>L. d. dispar</italic> individuals clustered together along with two sequences from France (LYMMK049-09, LYMMK054-09). The 32 specimens caught in surveillance programs in British Columbia, Canada comprised four COI haplotypes. Two of these haplotypes clustered within the North American <italic>L. d. dispar</italic>, while the other two clustered in the <italic>asiatica/japonica</italic> group&#x02014;in all 32 cases, there is perfect correspondence with the subspecies designations deduced from morphology and the origin/pathway of introduction.</p><fig id="pone-0014280-g005" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0014280.g005</object-id><label>Figure 5</label><caption><title>Neighbour-joining tree of the gypsy moth <italic>Lymantria dispar</italic>.</title><p>Tree was constructed with 244 sequences of the COI barcode region. BOLD process IDs and collection localities are provided for each sequence. Surveillance specimens are denoted by a moth symbol.</p></caption><graphic xlink:href="pone.0014280.g005"/></fig><p>The tests of assignment in a Bayesian statistical framework resulted in correct assignment to species and subspecies in all instances (<xref ref-type="table" rid="pone-0014280-t002">Table 2</xref>). The posterior probabilities of assignment for most species were high, and the risks of mis-assignment were low. The assignment of surveillance specimens to <italic>L. dispar</italic> and their respective subspecies displayed substantially lower posterior probabilities and higher risks, likely a product of the close association of <italic>L. dispar</italic> with <italic>L. umbrosa</italic>, as well as the nonmonophyly of <italic>L. d. asiatica</italic> and <italic>japonica.</italic>
+</p><table-wrap id="pone-0014280-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0014280.t002</object-id><label>Table 2</label><caption><title>Assignment of random and surveillance individuals to species and sub-species.</title></caption><alternatives><graphic id="pone-0014280-t002-2" xlink:href="pone.0014280.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Query</td><td align="left" rowspan="1" colspan="1">Query taxon</td><td align="left" rowspan="1" colspan="1">Process ID</td><td align="left" rowspan="1" colspan="1">No. of individuals</td><td align="left" rowspan="1" colspan="1">No. of diagnostic sites</td><td align="left" rowspan="1" colspan="1">Posterior probability</td><td align="left" rowspan="1" colspan="1">Risk</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<bold>species</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>L. mathura</italic>
+</td><td align="left" rowspan="1" colspan="1">LYMAN019</td><td align="left" rowspan="1" colspan="1">26</td><td align="left" rowspan="1" colspan="1">14</td><td align="left" rowspan="1" colspan="1">0.998</td><td align="left" rowspan="1" colspan="1">3.29&#x000d7;10&#x02212;5</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. monacha</italic>
+</td><td align="left" rowspan="1" colspan="1">LYMMK174</td><td align="left" rowspan="1" colspan="1">58</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">0.974</td><td align="left" rowspan="1" colspan="1">2.75&#x000d7;10&#x02212;4</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. antennata</italic>
+</td><td align="left" rowspan="1" colspan="1">LYMAN174</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">0.987</td><td align="left" rowspan="1" colspan="1">6.09&#x000d7;10&#x02212;5</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. sinica</italic>
+</td><td align="left" rowspan="1" colspan="1">LYMAN066</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">0.997</td><td align="left" rowspan="1" colspan="1">8.73&#x000d7;10&#x02212;5</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. obfuscata</italic>
+</td><td align="left" rowspan="1" colspan="1">LYMAN074</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">0.897</td><td align="left" rowspan="1" colspan="1">2.86&#x000d7;10&#x02212;3</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. dissoluta</italic>
+</td><td align="left" rowspan="1" colspan="1">LYMAN055</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">0.960</td><td align="left" rowspan="1" colspan="1">1.21&#x000d7;10&#x02212;4</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L.</italic> subpallida</td><td align="left" rowspan="1" colspan="1">LYMAN025</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">0.992</td><td align="left" rowspan="1" colspan="1">3.87&#x000d7;10&#x02212;5</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. bantaizana</italic>
+</td><td align="left" rowspan="1" colspan="1">GBGL1580</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">0.986</td><td align="left" rowspan="1" colspan="1">1.09&#x000d7;10&#x02212;4</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. lucescens</italic>
+</td><td align="left" rowspan="1" colspan="1">GBGL1613</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0.994</td><td align="left" rowspan="1" colspan="1">0</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. atemeles</italic>
+</td><td align="left" rowspan="1" colspan="1">LYMAN042</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">0.984</td><td align="left" rowspan="1" colspan="1">4.73&#x000d7;10&#x02212;5</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. xylina</italic>
+</td><td align="left" rowspan="1" colspan="1">GBGL1587</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">0.85</td><td align="left" rowspan="1" colspan="1">9.14&#x000d7;10&#x02212;4</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. flavida</italic>
+</td><td align="left" rowspan="1" colspan="1">LYMAN028</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">0.983</td><td align="left" rowspan="1" colspan="1">1.25&#x000d7;10&#x02212;4</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. fumida</italic>
+</td><td align="left" rowspan="1" colspan="1">GBGL1589</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0.993</td><td align="left" rowspan="1" colspan="1">9.92&#x000d7;10&#x02212;6</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. plumbalis</italic>
+</td><td align="left" rowspan="1" colspan="1">LYMAN108</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0.998</td><td align="left" rowspan="1" colspan="1">0</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. albescens</italic>
+</td><td align="left" rowspan="1" colspan="1">LYMAN033</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">0.697</td><td align="left" rowspan="1" colspan="1">1.85&#x000d7;10&#x02212;3</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. umbrosa</italic>
+</td><td align="left" rowspan="1" colspan="1">LYMMK095</td><td align="left" rowspan="1" colspan="1">21</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">0.572</td><td align="left" rowspan="1" colspan="1">3.26&#x000d7;10&#x02212;3</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>surveillance - species</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>L. dispar</italic>
+</td><td align="left" rowspan="1" colspan="1">LMHRG001</td><td align="left" rowspan="1" colspan="1">308</td><td align="left" rowspan="1" colspan="1">49</td><td align="left" rowspan="1" colspan="1">0.727</td><td align="left" rowspan="1" colspan="1">3.35&#x000d7;10&#x02212;3</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. dispar</italic>
+</td><td align="left" rowspan="1" colspan="1">LMHRG008</td><td align="left" rowspan="1" colspan="1">308</td><td align="left" rowspan="1" colspan="1">49</td><td align="left" rowspan="1" colspan="1">0.766</td><td align="left" rowspan="1" colspan="1">3.23&#x000d7;10&#x02212;3</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. dispar</italic>
+</td><td align="left" rowspan="1" colspan="1">LBCH7981</td><td align="left" rowspan="1" colspan="1">308</td><td align="left" rowspan="1" colspan="1">49</td><td align="left" rowspan="1" colspan="1">0.694</td><td align="left" rowspan="1" colspan="1">5.17&#x000d7;10&#x02212;3</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. dispar</italic>
+</td><td align="left" rowspan="1" colspan="1">LYMMK013</td><td align="left" rowspan="1" colspan="1">308</td><td align="left" rowspan="1" colspan="1">49</td><td align="left" rowspan="1" colspan="1">0.694</td><td align="left" rowspan="1" colspan="1">5.17&#x000d7;10&#x02212;3</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>surveillance - subspecies</bold>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>L. d. dispar</italic>
+</td><td align="left" rowspan="1" colspan="1">LMHRG001</td><td align="left" rowspan="1" colspan="1">203</td><td align="left" rowspan="1" colspan="1">29</td><td align="left" rowspan="1" colspan="1">0.593</td><td align="left" rowspan="1" colspan="1">3.10&#x000d7;10&#x02212;3</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. d. dispar</italic>
+</td><td align="left" rowspan="1" colspan="1">LMHRG008</td><td align="left" rowspan="1" colspan="1">203</td><td align="left" rowspan="1" colspan="1">29</td><td align="left" rowspan="1" colspan="1">0.656</td><td align="left" rowspan="1" colspan="1">3.15&#x000d7;10&#x02212;3</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. d. asiatica</italic>
+</td><td align="left" rowspan="1" colspan="1">LBCH7981</td><td align="left" rowspan="1" colspan="1">54</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">0.462</td><td align="left" rowspan="1" colspan="1">3.28&#x000d7;10&#x02212;3</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+<italic>L. d. asiatica</italic>
+</td><td align="left" rowspan="1" colspan="1">LYMMK013</td><td align="left" rowspan="1" colspan="1">54</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">0.302</td><td align="left" rowspan="1" colspan="1">1.06&#x000d7;10&#x02212;3</td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt102"><label/><p>Provided are the three query types, query taxon and Process ID assigned, number of individuals in query taxon, diagnostic sites, posterior probability of correct assignment, and risk of mis-assignment.</p></fn></table-wrap-foot></table-wrap><p>The haplotypes of the &#x02018;NB system&#x02019; were inferred based on the COI sequence present at the two restriction sites (<xref ref-type="supplementary-material" rid="pone.0014280.s003">Table S1</xref>) rather than by restriction endonuclease digests. As in Keena et al. <xref rid="pone.0014280-Keena1" ref-type="bibr">[32]</xref>, the three haplotypes N&#x0002b;B&#x0002b;, N&#x02212;B&#x02212; and N&#x0002b;B&#x02212; were present in <italic>L. dispar</italic>. All 3 haplotypes were also found in at least one other species&#x02014;one species possessed N&#x0002b;B&#x0002b;, five species with N&#x02212;B&#x02212;, and 16 species scored as N&#x0002b;B&#x02212;. Currently it is unclear exactly which species will generate a COI amplicon with the primers of Bogdanowicz et al. <xref rid="pone.0014280-Bogdanowicz1" ref-type="bibr">[24]</xref>, <xref rid="pone.0014280-Pfeifer1" ref-type="bibr">[27]</xref>, but previous work has successfully assayed <italic>L. albescens</italic> (<italic>L. dispar albescens</italic> in <xref rid="pone.0014280-Bogdanowicz3" ref-type="bibr">[26]</xref>), <italic>L. umbrosa</italic> (<italic>L. dispar hokkaidoensis</italic> in <xref rid="pone.0014280-Pfeifer1" ref-type="bibr">[27]</xref>), and <italic>L. monacha</italic> (LMH, unpublished data of male from Russian Far East trapped in greater Vancouver, Canada in 1992). This suggests that misidentification of species prior to the &#x02018;NB system&#x02019; assay could have serious ramifications. For example, the heavily regulated nun moth (<italic>L. monacha</italic>), if captured in North America and inadvertently assayed as <italic>L. dispar</italic>, would be determined to possess the N&#x0002b;B&#x02212; haplotype (<xref ref-type="supplementary-material" rid="pone.0014280.s003">Table S1</xref>), and mistakenly diagnosed as European gypsy moth, <italic>L. dispar dispar</italic>. In respect to tracing geographic origins, the 3 NB haplotype states remain mostly informative as originally characterized <xref rid="pone.0014280-Bogdanowicz1" ref-type="bibr">[24]</xref>, but with limited resolution and outliers that could also be misleading (e.g. BOGDA004-08, from Ontario, Canada has the N&#x0002b;B&#x02212; haplotype characteristic of Europe).</p><p>In contrast, the COI sequence data consisted of 91 haplotypes within <italic>L. dispar</italic> and 142 haplotypes across all species, none of which were shared between species. Moreover, the haplotype data recovered clusters of <italic>L. d. dispar</italic>, North American <italic>L. d. dispar</italic>, and <italic>L. d. asiatica/japonica</italic>. The presence of multiple barcode-determined haplotypes in several regions (e.g. 6 haplotypes from 7 individuals in the Indre-et-Loire department of France; 5 haplotypes from 9 individuals from the Ticino Canton in Switzerland) suggests the potential for determining the native provenance (and associated traits such as female flight ability) by analyzing haplotype frequencies across the native and introduced range (e.g. <xref rid="pone.0014280-Simonsen1" ref-type="bibr">[20]</xref>, <xref rid="pone.0014280-Weese1" ref-type="bibr">[52]</xref>, <xref rid="pone.0014280-Nadel1" ref-type="bibr">[19]</xref>). Such analyses may be compromised if human-associated movement has altered haplotype frequencies in the native populations, but this potential exists for all methods tracing source populations. Although the sampling density in the present study was not adequate for these analyses, the presence of two haplotypes from France which clustered within the North American <italic>L. d. dispar</italic> is consistent with the well-documented introduction of the species in 19<sup>th</sup> century Massachusetts by Leopold Trouvelot <xref rid="pone.0014280-Liebhold2" ref-type="bibr">[53]</xref>.</p></sec><sec id="s4"><title>Discussion</title><p>This study has clearly demonstrated the efficacy of DNA barcodes for diagnosing species of <italic>Lymantria</italic> and has reinforced the view that the approach has substantial potential for biosecurity and surveillance <xref rid="pone.0014280-Floyd1" ref-type="bibr">[12]</xref>. The minimal overlap between mean intra- and interspecific variation resulted in well-supported, cohesive clusters of sequences corresponding with named species. In only one case&#x02014;the paraphyly of <italic>L. sinica</italic> relative to <italic>L. nebulosa</italic>&#x02014;did the COI barcodes fail to correctly distinguish a species, providing a success rate of 97.2&#x00025; among 36 morphologically defined <italic>Lymantria</italic> species. This high success rate is comparable to three recent barcode studies of Lepidoptera: 100&#x00025; success observed in a temperate, local study of 190 species <xref rid="pone.0014280-deWaard1" ref-type="bibr">[22]</xref>; 97.9&#x00025; in a tropical, regional study of 521 species <xref rid="pone.0014280-Hajibabaei2" ref-type="bibr">[42]</xref>; and 99.3&#x00025; in a temperate, continental study of 1,327 species <xref rid="pone.0014280-Hebert1" ref-type="bibr">[38]</xref>.</p><p>It remains possible that the deep split in <italic>L. sinica</italic> is genuine and reflects the allopatric divergence between the nominal species and a misidentified or undescribed species, or that <italic>L. sinica</italic> has maintained a deep COI polymorphism following its divergence from <italic>L. nebulosa</italic>. In any case, further investigation is warranted. Interestingly, a deep COI divergence revealed within <italic>L. mathura</italic> in the study of Ball and Armstrong <xref rid="pone.0014280-Ball1" ref-type="bibr">[36]</xref> pointed to a possible cryptic species <italic>L. flavida</italic> by Pogue and Schaefer <xref rid="pone.0014280-Pogue1" ref-type="bibr">[34]</xref>, explaining previously mixed responses to a synthetic pheromone lure. Likewise, our preliminary COI data identified a deep divergence within <italic>L. mathura</italic>, which led us to revise the status of <italic>L. subpallida</italic> (previously synonymized by <xref rid="pone.0014280-Schintlmeister1" ref-type="bibr">[37]</xref>; see <xref ref-type="supplementary-material" rid="pone.0014280.s001">Appendix S1</xref>).</p><p>In addition to these instances of deep divergence, there are two pairs of species which show &#x0003c;2&#x00025; sequence divergence. <italic>L. dispar</italic> and <italic>L. umbrosa</italic> were recognized as separate species by Pogue and Schaefer <xref rid="pone.0014280-Pogue1" ref-type="bibr">[34]</xref>, contra Schintlmeister <xref rid="pone.0014280-Schintlmeister1" ref-type="bibr">[37]</xref>, based in large part on the DNA barcoding study of Ball and Armstrong <xref rid="pone.0014280-Ball1" ref-type="bibr">[36]</xref>, and their distributions, with <italic>L. umbrosa</italic> confined to the northern part of Hokkaido, Japan. <italic>L. xylina</italic> and <italic>L. schaeferi</italic> also show &#x0003c;2&#x00025; sequence divergence, and again recent taxonomic studies disagree on their species status: <xref rid="pone.0014280-Pogue1" ref-type="bibr">[34]</xref> treated <italic>L. xylina</italic> from mainland China, Taiwan and Japan as conspecific but <xref rid="pone.0014280-Schintlmeister1" ref-type="bibr">[37]</xref> described the Chinese populations as a new species, <italic>L. schaeferi</italic>. Our data confirms that these taxa are closely related, but given that we have sampled just a single specimen of the latter species, more data are needed to resolve this question. All these cases illustrate that DNA barcoding provides secondary benefits to biosecurity applications&#x02014;taxonomic insights and implications for detection and monitoring in the field. It also validates a fundamental practice in barcoding projects, the retention of voucher specimens <xref rid="pone.0014280-Floyd1" ref-type="bibr">[12]</xref>, to facilitate future taxonomic examination and to avoid the proliferation of incorrect identifications or &#x02018;error cascades&#x02019; <xref rid="pone.0014280-Bortolus1" ref-type="bibr">[54]</xref>.</p><p>The positive results of the species and sub-species assignment tests, calculated for both reference and surveillance specimens, demonstrates the future potential for the application of DNA barcoding to biosecurity. An actively curated and validated reference library is queried with the DNA barcode obtained from a surveillance or quarantine specimen; within a robust statistical framework, species assignments are calculated along with measures of confidence; where sufficient coverage exists, additional assignments are computed (e.g. subspecies identification, native provenance, characteristics related to invasiveness), which can be corroborated with additional markers; voucher specimens are retained to facilitate morphological confirmation and future taxonomic enquiry. While the scaffold is in place for this at the present time (i.e. BOLD <xref rid="pone.0014280-Ratnasingham1" ref-type="bibr">[44]</xref>), further benchmarking of statistical assignment programs is necessary (e.g. <xref rid="pone.0014280-Lou1" ref-type="bibr">[50]</xref>), as is the continued construction and maintenance of reference barcode libraries. For the latter, participation by multiple national biosecurity research and monitoring programs is imperative.</p><p>To this end, our comparison of the commonly used &#x02018;NB system&#x02019; <xref rid="pone.0014280-Bogdanowicz1" ref-type="bibr">[24]</xref> with the COI barcode approach clearly indicates that higher resolution and generality would be achieved by <italic>Lymantria</italic> monitoring programs should they adopt DNA barcoding. We have demonstrated instances when the &#x02018;NB system&#x02019; would provide misleading results that could have serious consequences, whereas COI barcodes provide reliable subspecies and broad geographic information. Moreover, recent studies (e.g. <xref rid="pone.0014280-Simonsen1" ref-type="bibr">[20]</xref>, <xref rid="pone.0014280-Weese1" ref-type="bibr">[52]</xref>, <xref rid="pone.0014280-Nadel1" ref-type="bibr">[19]</xref>) indicate that higher sampling density should allow more precise tracing of source populations, which in turn will predict female flight ability, the key trait of interest <xref rid="pone.0014280-Keena1" ref-type="bibr">[32]</xref>. Because the same COI gene region underlies both approaches, the transition for monitoring agencies could be seamless. Instead of amplifying the 378 bp fragment of Bogdanowicz et al. <xref rid="pone.0014280-Bogdanowicz1" ref-type="bibr">[24]</xref>, the 658 bp barcode region could be amplified with the near-universal LepF1/LepR1 primers <xref rid="pone.0014280-Hebert2" ref-type="bibr">[41]</xref>. Assays of the NlaIII and BamHI enzyme digests could continue to be performed, producing slightly different banding patterns (<xref ref-type="fig" rid="pone-0014280-g006">Figure 6</xref>), but providing a rapid initial assessment as with the &#x02018;NB system&#x02019;. The amplicon could then be sequenced for definitive species and broad geographic information. The increased sampling density would continually develop a baseline from which progressively finer levels of information could be gleaned, then confirmed by other marker systems (e.g. FS1 <xref rid="pone.0014280-Garner1" ref-type="bibr">[28]</xref> or microsatellites <xref rid="pone.0014280-Bogdanowicz1" ref-type="bibr">[24]</xref>) when necessary.</p><fig id="pone-0014280-g006" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0014280.g006</object-id><label>Figure 6</label><caption><title>Simulated gel electrophoresis for two restriction fragment length polymorphism assays.</title><p>The barcode region assay amplifies a &#x0223c;690 bp fragment, whereas the Bogdanowicz et al <xref rid="pone.0014280-Bogdanowicz1" ref-type="bibr">[24]</xref> assay amplifies &#x0223c;380 bp. The presence (&#x0002b;) or absence (&#x02212;) of the NlaIII and BamHI restriction sites are provided for each assay, as described in the text. The digest and electrophoresis simulations were performed with New England BioLabs NEBcutter V2.0 (<ext-link ext-link-type="uri" xlink:href="http://tools.neb.com/NEBcutter2">http://tools.neb.com/NEBcutter2</ext-link>).</p></caption><graphic xlink:href="pone.0014280.g006"/></fig><sec id="s4a"><title>Conclusion</title><p>In this study we have shown that DNA barcoding is an effective tool for discriminating species of <italic>Lymantria</italic>. Furthermore, our comparison of this system against the NB restriction digest system&#x02014;commonly employed at present by biomonitoring agencies for this purpose&#x02014;suggests that the informational value provided by barcoding (species resolution, general applicability) is significantly greater. DNA barcoding also has the potential to provide novel taxonomic insights, facilitated by its rigorous standards of record-keeping and permanent archiving of voucher specimens. As the DNA barcode reference library continues to increase in coverage, both for <italic>Lymantria</italic> and other taxa of international regulatory concern, its utility as part of a diagnostic/monitoring system will continue to expand.</p></sec></sec><sec sec-type="supplementary-material" id="s5"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pone.0014280.s001"><label>Appendix S1</label><caption><p>Taxonomic treatment of <italic>Lymantria nebulosa</italic> Wileman, revised status and <italic>Lymantria subpallida</italic> Okano, revised status.</p><p>(9.23 MB PDF)</p></caption><media xlink:href="pone.0014280.s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0014280.s002"><label>Figure S1</label><caption><p>Complete maximum likelihood tree for 36 species of <italic>Lymantria</italic>. Full tree from <xref ref-type="fig" rid="pone-0014280-g003">Figure 3</xref> displaying haplotype variation within species clusters. BOLD process IDs and collection localities are provided for each sequence. Tree was rooted with the outgroup <italic>Orgyia antiqua</italic>.</p><p>(0.02 MB PDF)</p></caption><media xlink:href="pone.0014280.s002.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0014280.s003"><label>Table S1</label><caption><p>Taxonomic samples used in study, including Barcode of Life Database (BOLD) and GenBank accessions. Also listed is the presence (&#x0002b;) or absence (-) of the NlaIII (N) and BamHI (B) restriction enzyme sites of the &#x02018;NB system&#x02019; <xref rid="pone.0014280-Bogdanowicz1" ref-type="bibr">[24]</xref>, determined from the sequence data (i.e. not by performing the assay).</p><p>(0.16 MB PDF)</p></caption><media xlink:href="pone.0014280.s003.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We are grateful to Chris Schmidt &#x00026; Bruce Gill (Canadian Food Inspection Agency), Scott Miller (Smithsonian Institution), Alexander Schintlmeister (Dresden), Charlie Mitter (University of Maryland), and Paul W. Schaefer (retired, USDA, ARS North Atlantic Region) for access to specimens or sequences. Additional thanks to the staff at the Canadian Centre for DNA Barcoding, particularly Sujeevan Ratnasingham and Natalia Ivanova, for their assistance with genetic analysis. We are also indebted to Simon Joly and two anonymous reviewers for valuable comments on an earlier draft of the manuscript.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>Funding was provided by a Forest Investment Account - Forest Science Program Student Grant and an NSERC Graduate Scholarship (to JRD); the Canadian Barcode of Life Network from Genome Canada through the Ontario Genomics Institute, NSERC (to LMH and RHH), and other sponsors listed at <ext-link ext-link-type="uri" xlink:href="http://www.BOLNET.ca">www.BOLNET.ca</ext-link>; the New Zealand Tertiary Education Commission (to LB and KFA); the Australian Department of Agriculture, Food and Fisheries (to AM); and the NSW Agricultural Genomics Centre (to AM and DG). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0014280-Liebhold1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liebhold</surname><given-names>AM</given-names></name><name><surname>Macdonald</surname><given-names>WL</given-names></name><name><surname>Bergdahl</surname><given-names>D</given-names></name><name><surname>Mastro</surname><given-names>VC</given-names></name></person-group>
+<year>1995</year>
+<article-title>Invasion by exotic forest pests: A threat to forest ecosystems.</article-title>
+<source>Forest Science Monographs</source>
+<volume>30</volume>
+<fpage>49</fpage>
+</element-citation></ref><ref id="pone.0014280-Mooney1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mooney</surname><given-names>HA</given-names></name><name><surname>Cleland</surname><given-names>EE</given-names></name></person-group>
+<year>2001</year>
+<article-title>The evolutionary impact of invasive species.</article-title>
+<source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>98</volume>
+<fpage>5446</fpage>
+<lpage>5451</lpage>
+<pub-id pub-id-type="pmid">11344292</pub-id></element-citation></ref><ref id="pone.0014280-Gurevitch1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gurevitch</surname><given-names>J</given-names></name><name><surname>Padilla</surname><given-names>DK</given-names></name></person-group>
+<year>2004</year>
+<article-title>Are invasive species a major cause of extinctions&#x0003f;</article-title>
+<source>Trends in Ecology and Evolution</source>
+<volume>19</volume>
+<fpage>470</fpage>
+<lpage>474</lpage>
+<pub-id pub-id-type="pmid">16701309</pub-id></element-citation></ref><ref id="pone.0014280-Pimentel1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pimentel</surname><given-names>D</given-names></name><name><surname>Zuniga</surname><given-names>R</given-names></name><name><surname>Morrison</surname><given-names>D</given-names></name></person-group>
+<year>2005</year>
+<article-title>Update on the environmental and economic costs associated with alien-invasive species in the United States.</article-title>
+<source>Ecological Economics</source>
+<volume>52</volume>
+<fpage>273</fpage>
+<lpage>288</lpage>
+</element-citation></ref><ref id="pone.0014280-Lovett1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lovett</surname><given-names>GM</given-names></name><name><surname>Canham</surname><given-names>CD</given-names></name><name><surname>Arthur</surname><given-names>MA</given-names></name><name><surname>Weathers</surname><given-names>KC</given-names></name><name><surname>Fitzhugh</surname><given-names>RD</given-names></name></person-group>
+<year>2006</year>
+<article-title>Forest ecosystem responses to exotic pests and pathogens in eastern North America.</article-title>
+<source>BioScience</source>
+<volume>56</volume>
+<fpage>395</fpage>
+<lpage>405</lpage>
+</element-citation></ref><ref id="pone.0014280-Brockerhoff1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brockerhoff</surname><given-names>EG</given-names></name><name><surname>Barratt</surname><given-names>BIP</given-names></name><name><surname>Beggs</surname><given-names>JR</given-names></name><name><surname>Fagan</surname><given-names>LL</given-names></name><name><surname>Kay</surname><given-names>N</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Impacts of exotic invertebrates on New Zealand's indigenous species and ecosystems.</article-title>
+<source>New Zealand Journal of Ecology</source>
+<volume>34</volume>
+<fpage>158</fpage>
+<lpage>174</lpage>
+</element-citation></ref><ref id="pone.0014280-Allen1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Allen</surname><given-names>EA</given-names></name><name><surname>Humble</surname><given-names>LM</given-names></name></person-group>
+<year>2001</year>
+<article-title>Nonindigenous species introductions: a threat to Canada's forests and forest economy.</article-title>
+<source>Canadian Journal of Plant Pathology</source>
+<volume>24</volume>
+<fpage>103</fpage>
+<lpage>110</lpage>
+</element-citation></ref><ref id="pone.0014280-Humble1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Humble</surname><given-names>LM</given-names></name><name><surname>Allen</surname><given-names>EA</given-names></name></person-group>
+<year>2006</year>
+<article-title>Forest biosecurity: alien invasive species and vectored organisms.</article-title>
+<source>Canadian Journal of Plant Pathology</source>
+<volume>28</volume>
+<fpage>S256</fpage>
+<lpage>S269</lpage>
+</element-citation></ref><ref id="pone.0014280-Haack1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haack</surname><given-names>RA</given-names></name></person-group>
+<year>2006</year>
+<article-title>Exotic bark- and wood-boring Coleoptera in the United States: recent establishments and interceptions.</article-title>
+<source>Canadian Journal of Forest Research</source>
+<volume>36</volume>
+<fpage>269</fpage>
+<lpage>288</lpage>
+</element-citation></ref><ref id="pone.0014280-Food1"><label>10</label><element-citation publication-type="other">
+<collab>Food and Agriculture Organization (FAO)</collab>
+<year>2006</year>
+<article-title>International Standards for Phytosanitary Measures No. 27, Diagnostic protocols for regulated pests.</article-title>
+<size units="page">11</size>
+</element-citation></ref><ref id="pone.0014280-LeRoux1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Le Roux</surname><given-names>JJ</given-names></name><name><surname>Wieczorek</surname><given-names>AM</given-names></name></person-group>
+<year>2009</year>
+<article-title>Molecular systematics and population genetics of biological invasions: towards a better understanding of invasive species management.</article-title>
+<source>Annals of Applied Biology</source>
+<volume>154</volume>
+<fpage>1</fpage>
+<lpage>17</lpage>
+</element-citation></ref><ref id="pone.0014280-Floyd1"><label>12</label><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Floyd</surname><given-names>R</given-names></name><name><surname>Lima</surname><given-names>J</given-names></name><name><surname>deWaard</surname><given-names>JR</given-names></name><name><surname>Humble</surname><given-names>LR</given-names></name><name><surname>Hanner</surname><given-names>RH</given-names></name></person-group>
+<year>2010</year>
+<article-title>Common goals: incorporating DNA barcoding into international protocols for identification of arthropod pests.</article-title>
+<source>Biological Invasions. In press</source>
+<comment>(doi: 10.1007/s10530-010-9709-8)</comment>
+</element-citation></ref><ref id="pone.0014280-Siddall1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Siddall</surname><given-names>ME</given-names></name><name><surname>Budinoff</surname><given-names>RB</given-names></name></person-group>
+<year>2005</year>
+<article-title>DNA-barcoding evidence for widespread introductions of a leech from the South American <italic>Helobdella triserialis</italic> complex.</article-title>
+<source>Conservation Genetics</source>
+<volume>6</volume>
+<fpage>467</fpage>
+<lpage>472</lpage>
+</element-citation></ref><ref id="pone.0014280-Scheffer1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scheffer</surname><given-names>SJ</given-names></name><name><surname>Lewis</surname><given-names>ML</given-names></name><name><surname>Joshi</surname><given-names>RC</given-names></name></person-group>
+<year>2006</year>
+<article-title>DNA barcoding applied to invasive leafminers (Diptera: Agromyzidae) in the Philippines.</article-title>
+<source>Annals of the Entomological Society of America</source>
+<volume>99</volume>
+<fpage>204</fpage>
+<lpage>210</lpage>
+</element-citation></ref><ref id="pone.0014280-Armstrong1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Armstrong</surname><given-names>KF</given-names></name><name><surname>Ball</surname><given-names>SL</given-names></name></person-group>
+<year>2005</year>
+<article-title>DNA barcodes for biosecurity: invasive species identification.</article-title>
+<source>Philosophical Transactions of the Royal Society B: Biological Sciences</source>
+<volume>360</volume>
+<fpage>1813</fpage>
+<lpage>1823</lpage>
+</element-citation></ref><ref id="pone.0014280-Barr1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barr</surname><given-names>NB</given-names></name></person-group>
+<year>2009</year>
+<article-title>Pathway analysis of <italic>Ceratitis capitata</italic> (Diptera: Tephritidae) using mitochondrial DNA.</article-title>
+<source>Journal of Economic Entomology</source>
+<volume>102</volume>
+<fpage>401</fpage>
+<lpage>411</lpage>
+<pub-id pub-id-type="pmid">19253662</pub-id></element-citation></ref><ref id="pone.0014280-Smith1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>MA</given-names></name><name><surname>Fisher</surname><given-names>BL</given-names></name></person-group>
+<year>2009</year>
+<article-title>Invasions, DNA barcodes, and rapid biodiversity assessment using ants of Mauritius.</article-title>
+<source>Frontiers in Zoology</source>
+<volume>6</volume>
+<fpage>31</fpage>
+<pub-id pub-id-type="pmid">20003263</pub-id></element-citation></ref><ref id="pone.0014280-Wilson1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilson</surname><given-names>AD</given-names></name><name><surname>Schiff</surname><given-names>NM</given-names></name></person-group>
+<year>2010</year>
+<article-title>Identification of <italic>Sirex noctilio</italic> and native North American woodwasp larvae using DNA barcodes.</article-title>
+<source>Journal of Entomology</source>
+<volume>7</volume>
+<fpage>60</fpage>
+<lpage>79</lpage>
+</element-citation></ref><ref id="pone.0014280-Nadel1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nadel</surname><given-names>RL</given-names></name><name><surname>Slippers</surname><given-names>B</given-names></name><name><surname>Scholes</surname><given-names>MC</given-names></name><name><surname>Lawson</surname><given-names>SA</given-names></name><name><surname>Noack</surname><given-names>AE</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>DNA bar-coding reveals source and patterns of <italic>Thaumastocoris peregrinus</italic> invasions in South Africa and South America.</article-title>
+<source>Biological Invasions</source>
+<volume>12</volume>
+<fpage>1067</fpage>
+<lpage>1077</lpage>
+</element-citation></ref><ref id="pone.0014280-Simonsen1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Simonsen</surname><given-names>TJ</given-names></name><name><surname>Brown</surname><given-names>RL</given-names></name><name><surname>Sperling</surname><given-names>FAH</given-names></name></person-group>
+<year>2008</year>
+<article-title>Tracing an invasion: phylogeography of <italic>Cactoblastis cactorum</italic> (Lepidoptera: Pyralidae) in the United States based on mitochondrial DNA.</article-title>
+<source>Annals of the Entomological Society of America</source>
+<volume>101</volume>
+<fpage>899</fpage>
+<lpage>905</lpage>
+</element-citation></ref><ref id="pone.0014280-Humble2"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Humble</surname><given-names>LM</given-names></name><name><surname>deWaard</surname><given-names>JR</given-names></name><name><surname>Quinn</surname><given-names>M</given-names></name></person-group>
+<year>2009</year>
+<article-title>Delayed recognition of the European poplar shoot borer, <italic>Gypsonoma aceriana</italic> (Duponchel) (Lepidoptera: Tortricidae) in Canada.</article-title>
+<source>Journal of the Entomological Society of BC</source>
+<volume>106</volume>
+<fpage>61</fpage>
+<lpage>70</lpage>
+</element-citation></ref><ref id="pone.0014280-deWaard1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>deWaard</surname><given-names>JR</given-names></name><name><surname>Landry</surname><given-names>J-F</given-names></name><name><surname>Schmidt</surname><given-names>BC</given-names></name><name><surname>Derhousoff</surname><given-names>J</given-names></name><name><surname>McLean</surname><given-names>JA</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>In the dark in a large urban park: DNA barcodes illuminate cryptic and introduced moth species.</article-title>
+<source>Biodiversity and Conservation</source>
+<volume>18</volume>
+<fpage>3825</fpage>
+<lpage>3839</lpage>
+</element-citation></ref><ref id="pone.0014280-Gilligan1"><label>23</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Gilligan</surname><given-names>TM</given-names></name><name><surname>Epstein</surname><given-names>ME</given-names></name></person-group>
+<year>2009</year>
+<article-title>LBAM ID, Tools for diagnosing light brown apple moth and related western U. S. leafrollers (Tortricidae: Archipini).</article-title>
+<publisher-name>Colorado State Univeristy, California Department of Food and Agriculture, and Center for Plant Health Science and Technology, USDA, APHIS, PPQ</publisher-name>
+</element-citation></ref><ref id="pone.0014280-Bogdanowicz1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bogdanowicz</surname><given-names>SM</given-names></name><name><surname>Wallner</surname><given-names>WE</given-names></name><name><surname>Bell</surname><given-names>J</given-names></name><name><surname>Odell</surname><given-names>TM</given-names></name><name><surname>Harrison</surname><given-names>RG</given-names></name></person-group>
+<year>1993</year>
+<article-title>Asian gypsy moths (Lepidoptera: Lymantriidae) in North America: evidence from molecular data.</article-title>
+<source>Annals of the Entomological Society of America</source>
+<volume>86</volume>
+<fpage>710</fpage>
+<lpage>715</lpage>
+</element-citation></ref><ref id="pone.0014280-Bogdanowicz2"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bogdanowicz</surname><given-names>SM</given-names></name><name><surname>Mastro</surname><given-names>VC</given-names></name><name><surname>Prasher</surname><given-names>DC</given-names></name><name><surname>Harrison</surname><given-names>RG</given-names></name></person-group>
+<year>1997</year>
+<article-title>Microsatellite DNA variation among Asian and North American gypsy moths (Lepidoptera: Lymantriidae).</article-title>
+<source>Annals of the Entomological Society of America</source>
+<volume>90</volume>
+<fpage>768</fpage>
+<lpage>775</lpage>
+</element-citation></ref><ref id="pone.0014280-Bogdanowicz3"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bogdanowicz</surname><given-names>SM</given-names></name><name><surname>Schaefer</surname><given-names>PW</given-names></name><name><surname>Harrison</surname><given-names>RG</given-names></name></person-group>
+<year>2000</year>
+<article-title>Mitochondrial DNA variation among worldwide populations of gypsy moths, <italic>Lymantria dispar</italic>.</article-title>
+<source>Molecular Phylogenetics and Evolution</source>
+<volume>15</volume>
+<fpage>487</fpage>
+<lpage>495</lpage>
+<pub-id pub-id-type="pmid">10860656</pub-id></element-citation></ref><ref id="pone.0014280-Pfeifer1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pfeifer</surname><given-names>TA</given-names></name><name><surname>Humble</surname><given-names>LM</given-names></name><name><surname>Ring</surname><given-names>M</given-names></name><name><surname>Grigliatti</surname><given-names>TA</given-names></name></person-group>
+<year>1995</year>
+<article-title>Characterization of gypsy moth populations and related species using a nuclear DNA marker.</article-title>
+<source>Canadian Entomology</source>
+<volume>127</volume>
+<fpage>49</fpage>
+<lpage>58</lpage>
+</element-citation></ref><ref id="pone.0014280-Garner1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garner</surname><given-names>K</given-names></name><name><surname>Slavicek</surname><given-names>JM</given-names></name></person-group>
+<year>1996</year>
+<article-title>Identification and characterization of a RAPD-PCR marker for distinguishing Asian and North American gypsy moths.</article-title>
+<source>Insect Molecular Biology</source>
+<volume>5</volume>
+<fpage>81</fpage>
+<lpage>91</lpage>
+<pub-id pub-id-type="pmid">8673265</pub-id></element-citation></ref><ref id="pone.0014280-Reineke1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reineke</surname><given-names>A</given-names></name><name><surname>Zebitz</surname><given-names>CW</given-names></name></person-group>
+<year>1999</year>
+<article-title>Suitability of polymerase chain reaction-based approaches for identification of different gypsy moth (Lepidoptera: Lymantriidae) genotypes in central Europe.</article-title>
+<source>Annals of the Entomological Society of America</source>
+<volume>92</volume>
+<fpage>737</fpage>
+<lpage>741</lpage>
+</element-citation></ref><ref id="pone.0014280-Koshio1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Koshio</surname><given-names>C</given-names></name><name><surname>Tomishima</surname><given-names>M</given-names></name><name><surname>Shimizu</surname><given-names>K</given-names></name><name><surname>Kim</surname><given-names>H-S</given-names></name><name><surname>Takenaka</surname><given-names>O</given-names></name></person-group>
+<year>2002</year>
+<article-title>Microsatellites in the gypsy moth, <italic>Lymantria dispar</italic> L. (Lepidoptera: Lymantriidae).</article-title>
+<source>Applied Entomology and Zoology</source>
+<volume>37</volume>
+<fpage>309</fpage>
+<lpage>312</lpage>
+</element-citation></ref><ref id="pone.0014280-Armstrong2"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Armstrong</surname><given-names>KF</given-names></name><name><surname>McHugh</surname><given-names>P</given-names></name><name><surname>Chinn</surname><given-names>W</given-names></name><name><surname>Frampton</surname><given-names>ER</given-names></name><name><surname>Walsh</surname><given-names>PJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>Tussock moth species arriving on imported used vehicles determined by DNA analysis.</article-title>
+<source>New Zealand Plant Protection</source>
+<volume>56</volume>
+<fpage>16</fpage>
+<lpage>20</lpage>
+</element-citation></ref><ref id="pone.0014280-Keena1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Keena</surname><given-names>MA</given-names></name><name><surname>Cote</surname><given-names>M-J</given-names></name><name><surname>Grinberg</surname><given-names>PS</given-names></name><name><surname>Wallner</surname><given-names>WE</given-names></name></person-group>
+<year>2008</year>
+<article-title>World distribution of female flight and genetic variation in <italic>Lymantria dispar</italic> (Lepidoptera: Lymantriidae).</article-title>
+<source>Environmental Entomology</source>
+<volume>37</volume>
+<fpage>636</fpage>
+<lpage>649</lpage>
+<pub-id pub-id-type="pmid">18559169</pub-id></element-citation></ref><ref id="pone.0014280-Wallner1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wallner</surname><given-names>WE</given-names></name><name><surname>Humble</surname><given-names>LM</given-names></name><name><surname>Levin</surname><given-names>RE</given-names></name><name><surname>Baranchikov</surname><given-names>YN</given-names></name><name><surname>Carde</surname><given-names>RT</given-names></name></person-group>
+<year>1995</year>
+<article-title>Response of adult lymantriid moths to illumination devices in the Russian Far East.</article-title>
+<source>Journal of Economic Entomology</source>
+<volume>88</volume>
+<fpage>337</fpage>
+<lpage>342</lpage>
+</element-citation></ref><ref id="pone.0014280-Pogue1"><label>34</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Pogue</surname><given-names>MG</given-names></name><name><surname>Schaefer</surname><given-names>PW</given-names></name></person-group>
+<year>2007</year>
+<article-title>A review of selected species of <italic>Lymantria</italic> (H&#x000fc;bner [1819]) (Lepidoptera: Noctuidae: Lymantriinae) from subtropical and temperate regions of Asia including the description of three new species, some potentially invasive to North America.</article-title>
+<publisher-loc>Fort Collins, Colorado</publisher-loc>
+<publisher-name>Publication FHTET-2006&#x02013;2007, United States Department of Agriculture, Forest Service, Forest Health Technology Enterprise Team</publisher-name>
+</element-citation></ref><ref id="pone.0014280-Ross1"><label>35</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Ross</surname><given-names>MG</given-names></name></person-group>
+<year>2005</year>
+<article-title>Response to a gypsy moth incursion within New Zealand.</article-title>
+<publisher-loc>Wellington, New Zealand</publisher-loc>
+<publisher-name>Ministry of Agriculture and Forestry</publisher-name>
+</element-citation></ref><ref id="pone.0014280-Ball1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ball</surname><given-names>SL</given-names></name><name><surname>Armstrong</surname><given-names>KF</given-names></name></person-group>
+<year>2006</year>
+<article-title>DNA barcodes for insect pest identification: a test case with tussock moths (Lepidoptera: Lymantriidae).</article-title>
+<source>Canadian Journal of Forest Research</source>
+<volume>36</volume>
+<fpage>337</fpage>
+<lpage>350</lpage>
+</element-citation></ref><ref id="pone.0014280-Schintlmeister1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schintlmeister</surname><given-names>A</given-names></name></person-group>
+<year>2004</year>
+<article-title>The taxonomy of the genus <italic>Lymantria</italic> H&#x000fc;bner, [1819] (Lepidoptera: Lymantriidae).</article-title>
+<source>Quadrifina</source>
+<volume>7</volume>
+<fpage>1</fpage>
+<lpage>248</lpage>
+</element-citation></ref><ref id="pone.0014280-Hebert1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hebert</surname><given-names>PDN</given-names></name><name><surname>deWaard</surname><given-names>JR</given-names></name><name><surname>Landry</surname><given-names>J-F</given-names></name></person-group>
+<year>2010</year>
+<article-title>DNA barcodes for 1/1000 of the Animal Kingdom.</article-title>
+<source>Biology Letters</source>
+<volume>6</volume>
+<fpage>359</fpage>
+<lpage>362</lpage>
+<pub-id pub-id-type="pmid">20015856</pub-id></element-citation></ref><ref id="pone.0014280-Hajibabaei1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hajibabaei</surname><given-names>M</given-names></name><name><surname>deWaard</surname><given-names>JR</given-names></name><name><surname>Ivanova</surname><given-names>NV</given-names></name><name><surname>Ratnasingham</surname><given-names>S</given-names></name><name><surname>Dooh</surname><given-names>RT</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Critical factors for assembling a high volume of DNA barcodes.</article-title>
+<source>Philosophical Transactions of the Royal Society B: Biological Sciences</source>
+<volume>360</volume>
+<fpage>1959</fpage>
+<lpage>1967</lpage>
+</element-citation></ref><ref id="pone.0014280-deWaard2"><label>40</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>deWaard</surname><given-names>JR</given-names></name><name><surname>Ivanova</surname><given-names>NV</given-names></name><name><surname>Hajibabaei</surname><given-names>M</given-names></name><name><surname>Hebert</surname><given-names>PDN</given-names></name></person-group>
+<year>2008</year>
+<article-title>Assembling DNA Barcodes: Analytical Protocols.</article-title>
+<person-group person-group-type="editor"><name><surname>Martin</surname><given-names>Cristofre</given-names></name></person-group>
+<source>In Methods in Molecular Biology: Environmental Genetics</source>
+<publisher-loc>Totowa, USA</publisher-loc>
+<publisher-name>Humana Press Inc.</publisher-name>
+<fpage>275</fpage>
+<lpage>293</lpage>
+</element-citation></ref><ref id="pone.0014280-Hebert2"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hebert</surname><given-names>PDN</given-names></name><name><surname>Penton</surname><given-names>EH</given-names></name><name><surname>Burns</surname><given-names>JM</given-names></name><name><surname>Janzen</surname><given-names>DH</given-names></name><name><surname>Hallwachs</surname><given-names>W</given-names></name></person-group>
+<year>2004</year>
+<article-title>Ten species in one: DNA barcoding reveals cryptic species in the neotropical skipper butterfly <italic>Astraptes fulgerator</italic>.</article-title>
+<source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>101</volume>
+<fpage>14812</fpage>
+<lpage>14817</lpage>
+<pub-id pub-id-type="pmid">15465915</pub-id></element-citation></ref><ref id="pone.0014280-Hajibabaei2"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hajibabaei</surname><given-names>M</given-names></name><name><surname>Janzen</surname><given-names>DH</given-names></name><name><surname>Burns</surname><given-names>JM</given-names></name><name><surname>Hallwachs</surname><given-names>W</given-names></name><name><surname>Hebert</surname><given-names>PDN</given-names></name></person-group>
+<year>2006</year>
+<article-title>DNA barcodes distinguish species of tropical Lepidoptera.</article-title>
+<source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>103</volume>
+<fpage>968</fpage>
+<lpage>971</lpage>
+<pub-id pub-id-type="pmid">16418261</pub-id></element-citation></ref><ref id="pone.0014280-Cho1"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cho</surname><given-names>S</given-names></name><name><surname>Mitchell</surname><given-names>A</given-names></name><name><surname>Mitter</surname><given-names>C</given-names></name><name><surname>Regier</surname><given-names>J</given-names></name><name><surname>Matthews</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Molecular phylogenetics of heliothine moths (Lepidoptera: Noctuidae: Heliothinae), with comments on the evolution of host range and pest status.</article-title>
+<source>Systematic Entomology</source>
+<volume>33</volume>
+<fpage>581</fpage>
+<lpage>594</lpage>
+</element-citation></ref><ref id="pone.0014280-Ratnasingham1"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ratnasingham</surname><given-names>S</given-names></name><name><surname>Hebert</surname><given-names>PDN</given-names></name></person-group>
+<year>2007</year>
+<volume>7</volume>
+<fpage>355</fpage>
+<lpage>364</lpage>
+<comment>The barcode of life data systems (<ext-link ext-link-type="uri" xlink:href="http://www.barcodinglife.org">http://www.barcodinglife.org</ext-link>). Molecular Ecology Notes</comment>
+</element-citation></ref><ref id="pone.0014280-Zwickl1"><label>45</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Zwickl</surname><given-names>DJ</given-names></name></person-group>
+<year>2006</year>
+<article-title>Genetic algorithm approaches for the phylogenetic analysis of large biological sequence datasets under the maximum likelihood criterion.</article-title>
+<publisher-name>Ph.D. dissertation, The University of Texas at Austin</publisher-name>
+</element-citation></ref><ref id="pone.0014280-Posada1"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Posada</surname><given-names>D</given-names></name><name><surname>Crandall</surname><given-names>KA</given-names></name></person-group>
+<year>1998</year>
+<article-title>Modeltest: testing the model of DNA substitution.</article-title>
+<source>Bioinformatics</source>
+<volume>14</volume>
+<fpage>817</fpage>
+<lpage>818</lpage>
+<pub-id pub-id-type="pmid">9918953</pub-id></element-citation></ref><ref id="pone.0014280-Tamura1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tamura</surname><given-names>K</given-names></name><name><surname>Dudley</surname><given-names>J</given-names></name><name><surname>Nei</surname><given-names>M</given-names></name><name><surname>Kumar</surname><given-names>S</given-names></name></person-group>
+<year>2007</year>
+<article-title>MEGA4: Molecular Evolutionary Genetics Analysis (MEGA) software version 4.0.</article-title>
+<source>Molecular Biology and Evolution</source>
+<volume>24</volume>
+<fpage>1596</fpage>
+<lpage>1599</lpage>
+<pub-id pub-id-type="pmid">17488738</pub-id></element-citation></ref><ref id="pone.0014280-Kimura1"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kimura</surname><given-names>M</given-names></name></person-group>
+<year>1980</year>
+<article-title>A simple method for estimating evolutionary rate of base substitution through comparative studies of nucleotide sequences.</article-title>
+<source>Journal of Molecular Evolution</source>
+<volume>16</volume>
+<fpage>111</fpage>
+<lpage>120</lpage>
+<pub-id pub-id-type="pmid">7463489</pub-id></element-citation></ref><ref id="pone.0014280-Abdo1"><label>49</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abdo</surname><given-names>Z</given-names></name><name><surname>Golding</surname><given-names>GB</given-names></name></person-group>
+<year>2007</year>
+<article-title>A step toward barcoding life: a model-based, decision-theoretic method to assign genes to pre-existing species groups.</article-title>
+<source>Systematic Biology</source>
+<volume>56</volume>
+<fpage>44</fpage>
+<lpage>56</lpage>
+<pub-id pub-id-type="pmid">17366136</pub-id></element-citation></ref><ref id="pone.0014280-Lou1"><label>50</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lou</surname><given-names>M</given-names></name><name><surname>Golding</surname><given-names>GB</given-names></name></person-group>
+<year>2010</year>
+<article-title>Assigning sequences to species in the absence of large interspecific differences.</article-title>
+<source>Molecular Phylogenetics and Evolution</source>
+<volume>56</volume>
+<fpage>187</fpage>
+<lpage>194</lpage>
+<pub-id pub-id-type="pmid">20067837</pub-id></element-citation></ref><ref id="pone.0014280-Tavares1"><label>51</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tavares</surname><given-names>ES</given-names></name><name><surname>Baker</surname><given-names>AJ</given-names></name></person-group>
+<year>2008</year>
+<article-title>Single mitochondrial gene barcodes reliably identify sister-species in diverse clades of birds.</article-title>
+<source>BMC Evolutionary Biology</source>
+<volume>8</volume>
+<fpage>81</fpage>
+<pub-id pub-id-type="pmid">18328107</pub-id></element-citation></ref><ref id="pone.0014280-Weese1"><label>52</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weese</surname><given-names>DA</given-names></name><name><surname>Santos</surname><given-names>SR</given-names></name></person-group>
+<year>2009</year>
+<article-title>Genetic identification of source populations for an aquarium-traded invertebrate.</article-title>
+<source>Animal Conservation</source>
+<volume>12</volume>
+<fpage>13</fpage>
+<lpage>19</lpage>
+</element-citation></ref><ref id="pone.0014280-Liebhold2"><label>53</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liebhold</surname><given-names>A</given-names></name><name><surname>Mastro</surname><given-names>V</given-names></name><name><surname>Schaefer</surname><given-names>PW</given-names></name></person-group>
+<year>1989</year>
+<article-title>Learning from the legacy of Leopold Trouvelot.</article-title>
+<source>Bulletin of the Entomological Society of America</source>
+<volume>35</volume>
+<fpage>20</fpage>
+<lpage>21</lpage>
+</element-citation></ref><ref id="pone.0014280-Bortolus1"><label>54</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bortolus</surname><given-names>A</given-names></name></person-group>
+<year>2008</year>
+<article-title>Error cascades in the biological sciences: The unwanted consequences of using bad taxonomy in ecology.</article-title>
+<source>AMBIO: A Journal of the Human Environment</source>
+<volume>37</volume>
+<fpage>114</fpage>
+<lpage>118</lpage>
+</element-citation></ref></ref-list></back></article>

@@ -1,0 +1,753 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Dose Response</journal-id><journal-id journal-id-type="iso-abbrev">Dose Response</journal-id><journal-id journal-id-type="hwp">spdos</journal-id><journal-id journal-id-type="publisher-id">DOS</journal-id><journal-title-group><journal-title>Dose-Response</journal-title></journal-title-group><issn pub-type="epub">1559-3258</issn><publisher><publisher-name>SAGE Publications</publisher-name><publisher-loc>Sage CA: Los Angeles, CA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">35422680</article-id><article-id pub-id-type="pmc">PMC9002358</article-id><article-id pub-id-type="publisher-id">10.1177_15593258221082896</article-id><article-id pub-id-type="doi">10.1177/15593258221082896</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Evaluation of AI-Based Segmentation Tools for COVID-19 Lung Lesions
+on Conventional and Ultra-low Dose CT Scans</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-3676-0664</contrib-id><name><surname>Aiello</surname><given-names>Marco</given-names></name><xref rid="aff1-15593258221082896" ref-type="aff">1</xref><xref rid="corresp1-15593258221082896" ref-type="corresp"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-7464-4499</contrib-id><name><surname>Baldi</surname><given-names>Dario</given-names></name><xref rid="aff1-15593258221082896" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name><surname>Esposito</surname><given-names>Giuseppina</given-names></name><xref rid="aff2-15593258221082896" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name><surname>Valentino</surname><given-names>Marika</given-names></name><xref rid="aff3-15593258221082896" ref-type="aff">3</xref><xref rid="aff4-15593258221082896" ref-type="aff">4</xref></contrib><contrib contrib-type="author"><name><surname>Randon</surname><given-names>Marco</given-names></name><xref rid="aff2-15593258221082896" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name><surname>Salvatore</surname><given-names>Marco</given-names></name><xref rid="aff1-15593258221082896" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-3297-2213</contrib-id><name><surname>Cavaliere</surname><given-names>Carlo</given-names></name><xref rid="aff1-15593258221082896" ref-type="aff">1</xref></contrib><aff id="aff1-15593258221082896"><label>1</label><institution-wrap><institution content-type="university">IRCCS SDN</institution></institution-wrap>, Naples, Italy</aff><aff id="aff2-15593258221082896"><label>2</label><institution-wrap><institution content-type="university">Bio Check Up S.r.l</institution></institution-wrap>, Naples, Italy</aff><aff id="aff3-15593258221082896"><label>3</label><institution-wrap><institution content-type="university">Istituto di Scienze Applicate e
+Sistemi Intelligenti &#x0201c;Eduardo Caianiello&#x0201d; (ISASI-CNR)</institution></institution-wrap>, Pozzuoli, Italy</aff><aff id="aff4-15593258221082896"><label>4</label><institution-wrap><institution content-type="university">Universit&#x000e0; Degli Studi di Napoli
+Federico II</institution></institution-wrap>, Dip. di Ingegneria Elettrica e Delle Tecnologie
+Dell'Informazione, Italy</aff></contrib-group><author-notes><corresp id="corresp1-15593258221082896">Marco Aiello, IRCCS SDN, Via Emanuele
+Gianturco, Naples 80143, Italy. Email:
+<email>marco.aiello@synlab.it</email></corresp></author-notes><pub-date pub-type="epub"><day>6</day><month>4</month><year>2022</year></pub-date><pub-date pub-type="collection"><season>Apr-Jun</season><year>2022</year></pub-date><volume>20</volume><issue>2</issue><elocation-id>15593258221082896</elocation-id><history><date date-type="received"><day>7</day><month>9</month><year>2021</year></date><date date-type="accepted"><day>4</day><month>2</month><year>2022</year></date></history><permissions><copyright-statement>&#x000a9; The Author(s) 2022</copyright-statement><copyright-year>2022</copyright-year><copyright-holder content-type="sage">SAGE Publications</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This article is distributed under the terms of the Creative Commons
+Attribution-NonCommercial 4.0 License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">https://creativecommons.org/licenses/by-nc/4.0/</ext-link>) which
+permits non-commercial use, reproduction and distribution of the work
+without further permission provided the original work is attributed as
+specified on the SAGE and Open Access pages (<ext-link ext-link-type="uri" xlink:href="https://us.sagepub.com/en-us/nam/open-access-at-sage">https://us.sagepub.com/en-us/nam/open-access-at-sage</ext-link>).</license-p></license></permissions><abstract><p> A reliable diagnosis and accurate monitoring are pivotal steps for treatment and
+prevention of COVID-19. Chest computed tomography (CT) has been considered a
+crucial diagnostic imaging technique for the injury assessment of the viral
+pneumonia. Furthermore, the automatization of the segmentation methods for lung
+alterations helps to speed up the diagnosis and lighten radiologists&#x02019; workload.
+Considering the assiduous pathology monitoring, ultra-low dose (ULD) chest CT
+protocols have been implemented to drastically reduce the radiation burden.
+Unfortunately, the available AI technologies have not been trained on ULD-CT
+data and validated and their applicability deserves careful evaluation.
+Therefore, this work aims to compare the results of available AI tools (BCUnet,
+CORADS AI, NVIDIA CLARA Train SDK and CT Pneumonia Analysis) on a dataset of 73
+CT examinations acquired both with conventional dose (CD) and ULD protocols.
+COVID-19 volume percentage, resulting from each tool, was statistically
+compared. This study demonstrated high comparability of the results on CD-CT and
+ULD-CT data among the four AI tools, with high correlation between the results
+obtained on both protocols (R &#x0003e; .68, P &#x0003c; .001, for all AI tools).</p></abstract><kwd-group><kwd>COVID-19</kwd><kwd>segmentation algorithms</kwd><kwd>ultra-low dose</kwd><kwd>deep learning</kwd><kwd>artificial intelligence</kwd></kwd-group><funding-group specific-use="FundRef"><award-group id="award1-15593258221082896"><funding-source id="funding1-15593258221082896">
+<institution-wrap><institution>Regione Campania</institution><institution-id institution-id-type="FundRef">https://doi.org/10.13039/501100003852</institution-id></institution-wrap>
+</funding-source><award-id rid="funding1-15593258221082896">D54I20001410002</award-id></award-group><award-group id="award2-15593258221082896"><funding-source id="funding2-15593258221082896">
+<institution-wrap><institution>Ministero della Salute</institution><institution-id institution-id-type="FundRef">https://doi.org/10.13039/501100003196</institution-id></institution-wrap>
+</funding-source><award-id rid="funding2-15593258221082896">Ricerca corrente IRCCS</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>cover-date</meta-name><meta-value>April-June 2022</meta-value></custom-meta><custom-meta><meta-name>typesetter</meta-name><meta-value>ts10</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="sec1-15593258221082896"><title>Introduction</title><p>COVID-19 is an infectious disease caused by a newly discovered coronavirus
+(SARS-CoV-2) and it is an ongoing pandemic. It has spread since January 2020 and up
+to early March 2021 has infected 130, 509,866 people worldwide, with 45,919,941
+confirmed cases only in Europe.<sup>
+<xref rid="bibr48-15593258221082896" ref-type="bibr">1</xref>
+</sup> The clinical presentation of SARS-CoV-2 infection can range from asymptomatic
+to moderate or severe symptoms&#x02014;such as fever, cough, weakness, loss of smell, and
+taste&#x02014;respiratory disease and, less frequently, gastro-enteritis or neurological
+symptoms.</p><p>The gold standard for COVID-19 detection is the Reverse-Transcription-Polymerase
+Chain Reaction (RT-PCR) test. Different studies reported that RT-PCR technique has a
+high false negative rate and low sensitivity,<sup>
+<xref rid="bibr1-15593258221082896" ref-type="bibr">2</xref>
+</sup> due to its variability in lab execution. In the cases of patients with
+suspected coronavirus infection, with negative RT-PCR test or waiting for swab
+responses, chest CT was used to speed up diagnosis times and to isolate the patient
+from the rest of the community. CT diagnostic technique, as a non-invasive imaging
+approach, is able to detect some characteristic features in the lung lesions
+COVID-19 associated, for example, ground glass opacities, rounded opacities, and
+enlarged intra-infiltrate vessels.<sup><xref rid="bibr2-15593258221082896" ref-type="bibr">3</xref>,<xref rid="bibr3-15593258221082896" ref-type="bibr">4</xref></sup> The chest X-ray has often
+proved pathology (59% of cases) in asymptomatic or paucisymptomatic subjects after
+14&#x000a0;days of quarantine, even in the absence of a nasopharyngeal swab.<sup>
+<xref rid="bibr4-15593258221082896" ref-type="bibr">5</xref>
+</sup> In summer 2020, multidisciplinary panels of experts in patient management
+published guidelines for support the use of chest CT for COVID-19 patients with
+worsening respiratory status,<sup>
+<xref rid="bibr5-15593258221082896" ref-type="bibr">6</xref>
+</sup> as well as the WHO.<sup>
+<xref rid="bibr49-15593258221082896" ref-type="bibr">7</xref>
+</sup> Over the past decades, CT has become an important imaging technique, but it
+is also a major contributor to individual and collective radiation dose. For patient
+protection, CT dose is recommended to be as low as reasonably achievable to meet
+clinical needs.<sup>
+<xref rid="bibr6-15593258221082896" ref-type="bibr">8</xref>
+</sup> Technical progress including automated exposure control helps to optimize the
+relationship between image noise and radiation dose. Correspondingly, automated
+exposure control with tube current modulation has been developed for CT.<sup><xref rid="bibr7-15593258221082896" ref-type="bibr">9</xref>,<xref rid="bibr8-15593258221082896" ref-type="bibr">10</xref></sup> Moreover, adult scanning can
+be adjusted according to body weight (the smaller the bodies, the lesser the dose;
+instead, the larger the bodies, the higher the dose), resulting in excellent
+diagnostic scans.<sup>
+<xref rid="bibr9-15593258221082896" ref-type="bibr">11</xref>
+</sup> All these last assertions have been confirmed, advocating the proper
+implementation, especially for chest scanning.<sup><xref rid="bibr10-15593258221082896" ref-type="bibr">12</xref><xref rid="bibr11-15593258221082896" ref-type="bibr"/><xref rid="bibr12-15593258221082896" ref-type="bibr"/><xref rid="bibr13-15593258221082896" ref-type="bibr"/><xref rid="bibr14-15593258221082896" ref-type="bibr"/>-<xref rid="bibr15-15593258221082896" ref-type="bibr">17</xref></sup> The optimal image quality
+level for CT examinations stands for the level at which diagnostic images can
+reliably be produced using the lowest dose level and it should be tailored according
+to each individual patient and relevant cathegorized groups (e.g., pediatric, or
+obese patients). Thus, to reduce radiological risks and dose, ULD-CT protocols have
+been evaluated in recent decades.<sup>
+<xref rid="bibr16-15593258221082896" ref-type="bibr">18</xref>
+</sup></p><p>To date, according to the authors' knowledge, very few studies have been published
+regarding dosimetry in ULD-CT protocols, and nothing that directly compares ULD-CT
+to both CD-CT and radiography. Schaal et al. estimated an average effective dose of
+.25&#x000a0;mSv based on exposure data from 55 patients, but lack of information about the
+size of the patients adds uncertainty to this estimate.<sup>
+<xref rid="bibr17-15593258221082896" ref-type="bibr">19</xref>
+</sup> In emergent situations such as COVID-19 pandemic, the demand for performing
+CT scans may significantly increase due to the high rate of infected
+individuals.</p><p>The sequential and multiple acquisitions of CT exams can significantly increase the
+cumulative radiation dose these patients may receive during their hospitalization
+and recovery. Replacing CD-CT with ULD-CT has been proposed as a method to decrease
+radiation exposure. In a retrospective study,<sup>
+<xref rid="bibr18-15593258221082896" ref-type="bibr">20</xref>
+</sup> a low dose CT (LD-CT) combined with iterative reconstruction demonstrated
+sensitivity, specificity, positive predictive value, negative predictive value, and
+accuracy of about 90% in the diagnosis of COVID-19. Furthermore, ULD-CT protocols
+proved an additive diagnostic benefit in patients with concomitant bacterial
+pneumonia or an alternative diagnosis other than COVID-19.</p><p>Recently, artificial intelligence (AI) techniques&#x02014;in particular deep learning (DL)
+algorithms&#x02014;have shown great potential in the medical imaging sector thanks to their
+high ability to extract both morphological and functional features.<sup><xref rid="bibr19-15593258221082896" ref-type="bibr">21</xref><xref rid="bibr20-15593258221082896" ref-type="bibr"/>-<xref rid="bibr21-15593258221082896" ref-type="bibr">23</xref></sup> In particular, such
+techniques have been applied to detect and differentiate bacterial and viral
+pneumonia in pediatric chest radiographs.<sup><xref rid="bibr22-15593258221082896" ref-type="bibr">24</xref>,<xref rid="bibr23-15593258221082896" ref-type="bibr">25</xref></sup> Besides, a retrospective and
+multicenter study regarding the application of DL technique to differentiate
+coronavirus pneumonia from other lung diseases was recently published.<sup>
+<xref rid="bibr24-15593258221082896" ref-type="bibr">26</xref>
+</sup> Harmon et al. show that DL algorithms, trained in a diverse multinational
+cohort, can achieve up to 90.8% accuracy, with 84% sensitivity and 93% specificity.<sup>
+<xref rid="bibr25-15593258221082896" ref-type="bibr">27</xref>
+</sup> Wang et al. uncovered some DL and radiomic features that contribute to
+differentiation of COVID-19 from non-COVID-19 viral pneumonia.<sup>
+<xref rid="bibr26-15593258221082896" ref-type="bibr">28</xref>
+</sup> As a consequence of DL techniques development to support the diagnosis of
+COVID-19 on CT scans, several tools based on AI models trained on image datasets
+acquired with CD-CT protocol have been made available to the clinical and research
+community. The aim of this work is to evaluate the applicability of these tools also
+in the domain of low-dose CT images (ULD).</p></sec><sec sec-type="materials|methods" id="sec2-15593258221082896"><title>Materials and Methods</title><sec id="sec3-15593258221082896"><title>Patients</title><p>73 patients (41 female, age range: 52.91 &#x000b1;16.40 (mean age &#x000b1; standard deviation))
+were informed and prospectively enrolled for the research protocol approved by
+the local ethical committee of IRCCS SDN (Comitato etico IRCCS Pascale, Naples,
+project identification code: 7_20). The protocol was adopted to face the
+pandemic situation. Inclusion criteria were the prescription of a chest CT for
+post-COVID-19 screening, suspect COVID-19, and generally pulmonary pathology.
+Anamnestic and clinical information were collected. Adult patients, with
+pulmonary disease or post&#x02013;COVID-19 infection symptoms, who underwent baseline,
+unenhanced chest CT (according to clinical needs) on the third-generation dual
+source CT. Exclusion criteria were patients with a BMI greater than 30 and
+children and adolescents under 18&#x000a0;years.</p></sec><sec id="sec4-15593258221082896"><title>CT Acquisition and Reconstruction</title><p>Patients lay in a head-first supine position during non-enhanced consecutive
+acquisition CT protocols (CD-CT followed by ULD-CT). All patients underwent LD
+chest CT by using a SOMATOM FORCE (Siemens Healthineers, Forchheim, Germany)
+slice .6&#x000a0;mm detector scanner. No contrast agent was admitted. The CD-CT
+acquisition parameters were as follows: tube voltage of reference 120&#x000a0;kVp, tube
+current of reference 61&#x000a0;mAs, and pitch factor of 1.2. The automatic tube current
+modulation (CareDose 4&#x000a0;D) system was used and the automatic tube voltage
+selection (Care kV) was activated on the &#x0201c;non-enhanced&#x0201d; setting. For ULD-CT
+acquisition, both the tubes worked at 100 kVp with .6&#x000a0;mm tin filter (100Sn kVp,
+for spectral shaping), with wide collimation (2 &#x000d7; 192 &#x000d7; .6&#x000a0;mm), a rotation time
+of .25&#x000a0;s, an ultra-long pitch (pitch = 3, Turbo Flash mode, Siemens
+Healthineers), with modulated mA at 70&#x000a0;mAs reference. Effective radiation dose
+was calculated by multiplying the dose-length product by .014&#x000a0;mSv/mGy x cm, as
+the constant k-value for thoracic imaging. For both protocols, raw data were
+reconstructed at 3&#x000a0;mm slice thickness by convolutional nucleus B157, Br54 (Br40,
+moderately smooth). To reduce the image noise, Advanced Modeled Iterative
+Reconstruction (ADMIRE) strength of 3 was used. All reconstructions were
+performed with a matrix size of 512 &#x000d7; 512 pixels. <xref rid="fig1-15593258221082896" ref-type="fig">Figure 1</xref> shows CD-CT and ULD-CT images
+of the same patient, where different noise levels can visually appreciate.<fig position="float" fig-type="figure" id="fig1-15593258221082896"><label>Figure 1.</label><caption><p>CD-CT and ULD-CT comparison on the same COVID-19 patient. (a) A CD-CT
+axial slice (100kVp, 47&#x000a0;mAs, Bl57), (b) A ULD-CT axial slice
+(100kVp, 84&#x000a0;mAs, Bl57).</p></caption><graphic xlink:href="10.1177_15593258221082896-fig1" position="float"/></fig></p></sec><sec id="sec5-15593258221082896"><title>Data Analysis</title><p>For each subject, COVID-19 pneumonia lesion segmentation has been executed on
+imaging data acquired with both CD-CT and ULD-CT protocols. Four AI tools based
+on deep neural networks have been used: BCUnet, CORADS AI, CT Pneumonia
+Analysis, and NVIDIA CLARA Train SDK. All these tools have been validated only
+for research purposes and not for clinical use. The architecture and the design
+of each AI system are described in the following paragraphs.</p></sec><sec id="sec6-15593258221082896"><title>BCUnet</title><p>BCUnet is a deep neural network for the segmentation of pulmonary lesions in
+thoracic non-contrast CT images. The algorithm is based on a U-net architecture.<sup>
+<xref rid="bibr27-15593258221082896" ref-type="bibr">29</xref>
+</sup> The model has been trained with a supervised DL technique. Each image
+included in the dataset is associated with a manual annotation of the lesion.
+The training dataset consists of 199 annotated CT images of COVID-19 patients,
+provided by the COVID-19 Lung CT Lesion Segmentation Grand Challenge-2020.<sup>
+<xref rid="bibr28-15593258221082896" ref-type="bibr">30</xref>
+</sup> In particular, the innovative contribution that characterizes BCUnet is
+the introduction of an image masking technique and a data augmentation
+technique, which provides additional images for training the network by adding
+Gaussian noise and images deformed with an atlas-based method. The model was
+implemented in Python 3.6, using Tensorflow 2.3 and Keras as frameworks. The
+MobileNetV2 network weights have been made available by Tensorflow. The code for
+the CLAHE algorithm is contained in the scikit-image library.</p></sec><sec id="sec7-15593258221082896"><title>CORADS AI</title><p>COVID-19 Reporting and Data AI System (CORADS AI) is a standardized chest CT
+scoring system that, after segmentation, automatically assigns scores from 1 to
+5 that increase with the level of suspicion of COVID-19.<sup>
+<xref rid="bibr29-15593258221082896" ref-type="bibr">31</xref>
+</sup> This algorithm was developed by the Diagnostic Image Analysis Group,
+Amsterdam University Medical Center, Fraunhofer MEVIS, and Thirona. For any
+detail, see <ext-link xlink:href="https://grand-challenge.org/algorithms/corads-ai/" ext-link-type="uri">https://grand-challenge.org/algorithms/corads-ai/</ext-link>. In the
+following analysis, the used annotation is CORADS.</p></sec><sec id="sec8-15593258221082896"><title>NVIDIA CLARA Train SDK</title><p>Clara Training Framework is a package-level application of NVIDIA Clara Train
+Software Development Kit (SDK), a python-based SDK that allows developers to
+seek faster implementation of medical-specific DL solutions by leveraging
+optimized, ready-to-use and pre-trained built in-house NVIDIA models. These
+pre-trained models are packaged as medical model repositories (MMARs) and
+contain the scripts needed for model development activities. The collection
+includes pre-trained models for CT lung segmentation, COVID-19 classification in
+chest studies, and a CT annotated lung model. In this work two CLARA models have
+been used:(i) lung segmentation (<ext-link xlink:href="https://ngc.nvidia.com/catalog/models/nvidia:med:clara_train_covid19_ct_lung_seg" ext-link-type="uri">https://ngc.nvidia.com/catalog/models/nvidia:med:clara_train_covid19_ct_lung_seg</ext-link>)
+and (ii) COVID-19 CT lesion segmentation (<ext-link xlink:href="https://ngc.nvidia.com/catalog/models/nvidia:med:clara_pt_covid19_ct_lesion_segmentation" ext-link-type="uri">https://ngc.nvidia.com/catalog/models/nvidia:med:clara_pt_covid19_ct_lesion_segmentation</ext-link>).
+In the following analysis, the used annotation is CLARA.</p></sec><sec id="sec9-15593258221082896"><title>CT Pneumonia Analysis</title><p>CT Pneumonia Analysis, syngo.via Frontier prototype, is an interactive platform
+for pneumonia analysis developed by Siemens Healthineers,<sup>
+<xref rid="bibr30-15593258221082896" ref-type="bibr">32</xref>
+</sup>
+<ext-link xlink:href="https://www.siemens-healthineers.com/medical-imaging/digital-transformation-of-radiology/ai-covid-19-algorithm" ext-link-type="uri">https://www.siemens-healthineers.com/medical-imaging/digital-transformation-of-radiology/ai-covid-19-algorithm</ext-link>)
+to automatically identify and quantify hyperdense lung regions on lung CT scans,
+facilitating their analysis and evaluation. CT Pneumonia Analysis performs the
+automated analysis of pulmonary opacities on axial CT data (section thicknesses
+up to 5&#x000a0;mm), with the possibility of introducing, through the manual
+segmentation tool, any additions or changes to the automatically generated
+masks. In the following analysis the used annotation is Pneumonia.</p></sec></sec><sec id="sec10-15593258221082896"><title>Statistical Analysis</title><p>For each patient, COVID-19 volume percentage (CV%) has been calculated considering
+the COVID-19 lung lesion volume on the total lung volume, as obtained by each AI
+segmentation tool. The CV% has been estimated on both CD-CT and ULD-CT considering
+two different convolutional kernels for image reconstruction, that is, Bl57 and
+Br40, maintaining a 3&#x000a0;mm CT slice thickness and a denoise level of three. Under
+these conditions, first, a Shapiro test has been implemented to assert the normality
+data distribution.<sup>
+<xref rid="bibr47-15593258221082896" ref-type="bibr">33</xref>
+</sup> Moreover, according to Shapiro results, a Kruskal&#x02013;Wallis (KW) test<sup>
+<xref rid="bibr46-15593258221082896" ref-type="bibr">34</xref>
+</sup> has been performed to assess the difference between the AI-based segmentation
+tools on CD-CT and ULD-CT, with a subsequent Dunn&#x02019;s post hoc test<sup>
+<xref rid="bibr45-15593258221082896" ref-type="bibr">35</xref>
+</sup> to determine which tools differ. To graphically understand data trend and
+distribution relating to single protocols and single AI segmentation algorithms,
+boxplots have been realized, denoting the median, the 25th to 75th percentiles
+(boxes) and the minimum to the maximum outliers. A quantitative analysis has been
+evaluated to prove the correlation between CD and ULD-CT protocols in CV% parameter,
+applying the Spearman&#x02019;s correlation coefficient test,<sup>
+<xref rid="bibr31-15593258221082896" ref-type="bibr">36</xref>
+</sup> figuring the relative heatmap. To strengthen the comparison, the pairwise
+Bland-Altman (BA) test<sup>
+<xref rid="bibr32-15593258221082896" ref-type="bibr">37</xref>
+</sup> has been carried out to describe the agreement between the two quantitative
+protocol measurements, that is, CD-CT CV% and ULD-CT CV% values, with respect to AI
+tools. To quantify the aforementioned agreement, some constraints have been needed:
+the mean and the standard deviation (STD) of the differences between the two
+measurements (mean &#x02212;1.96&#x000a0;std/mean +1.96&#x000a0;std). A BA graphical approach has been used.
+For the sake of in-depth analysis, all the statistics have been repeated on data
+generated by BCUnet and CORADS tools implementing the lung lesion segmentation lobe
+by lobe. The lung lobe segmentation has been included because of the importance of
+knowing the location and distribution of COVID-19 lung disease, which can help in
+determining the most suitable treatment.<sup>
+<xref rid="bibr50-15593258221082896" ref-type="bibr">38</xref>
+</sup> Under the same previous conditions, CV% has been calculated for each lung
+lobe, naming differently as LLL%, the left lower lobe COVID-19 volume percentage;
+LUL%, the left upper lobe COVID-19 volume percentage; RLL%, the right lower lobe
+COVID-19 volume percentage; RML%, the right medium lobe COVID-19 volume percentage;
+and RUL%, the right upper lobe COVID-19 volume percentage. These percentages were
+obtained for both protocols (CD-CT and ULD-CT). All the statistical analyses have
+been performed using Python libraries, in particular PyCompare module, SciPy
+library, Pingouin, and scikit_posthocs packages. The results have been considered
+statistically significant for <italic toggle="yes">P</italic>-value less than .05.</p></sec><sec sec-type="results" id="sec11-15593258221082896"><title>Results</title><p>The Shapiro test has been applied to check the normal tendency of data distribution,
+including all kernel reconstructions. It has been evaluated per each AI-based
+segmentation tool with respect to both protocols. <xref rid="table1-15593258221082896" ref-type="table">Table 1</xref> shows Shapiro test results in
+terms of W statistic and <italic toggle="yes">P</italic>-value.<table-wrap position="float" id="table1-15593258221082896"><label>Table 1.</label><caption><p>Shapiro test results, in terms of W statistic and
+<italic toggle="yes">P</italic>-value, for all AI-based segmentation tools
+considering both CD-CT and ULD-CT protocols.</p></caption><alternatives><graphic xlink:href="10.1177_15593258221082896-table1" specific-use="table1-15593258221082896" position="float"/><table frame="hsides" rules="groups"><thead valign="top"><tr><th align="left" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1">BCUnet CD</th><th align="center" rowspan="1" colspan="1">BCUnet ULD</th><th align="center" rowspan="1" colspan="1">CORADS CD</th><th align="center" rowspan="1" colspan="1">CORADS ULD</th><th align="center" rowspan="1" colspan="1">CLARA CD</th><th align="center" rowspan="1" colspan="1">CLARA ULD</th><th align="center" rowspan="1" colspan="1">Pneumonia CD</th><th align="center" rowspan="1" colspan="1">Pneumonia ULD</th></tr></thead><tbody valign="top"><tr><td align="left" rowspan="1" colspan="1">W Statistic</td><td align="char" char="." rowspan="1" colspan="1">.971</td><td align="char" char="." rowspan="1" colspan="1">.961</td><td align="char" char="." rowspan="1" colspan="1">.591</td><td align="char" char="." rowspan="1" colspan="1">.681</td><td align="char" char="." rowspan="1" colspan="1">.892</td><td align="char" char="." rowspan="1" colspan="1">.814</td><td align="char" char="." rowspan="1" colspan="1">.663</td><td align="char" char="." rowspan="1" colspan="1">.591</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic toggle="yes">P</italic>-value</td><td align="char" char="." rowspan="1" colspan="1">.9028</td><td align="char" char="." rowspan="1" colspan="1">.8203</td><td align="char" char="." rowspan="1" colspan="1">.0001*</td><td align="char" char="." rowspan="1" colspan="1">.0014*</td><td align="char" char="." rowspan="1" colspan="1">.2437</td><td align="char" char="." rowspan="1" colspan="1">.0403*</td><td align="char" char="." rowspan="1" colspan="1">.0009*</td><td align="char" char="." rowspan="1" colspan="1">.0001*</td></tr></tbody></table></alternatives><table-wrap-foot><fn><p>*indicates significance with P &#x0003c; .05</p></fn></table-wrap-foot></table-wrap></p><p>As it can be noticed in <xref rid="table1-15593258221082896" ref-type="table">Table
+1</xref>, CORADS and Pneumonia data (both CD-CT and ULD-CT) and CLARA ULD-CT
+data do not follow a Gaussian distribution (<italic toggle="yes">P</italic>-value &#x0003c; .05).
+Since most AI segmentation algorithms have generated non-Gaussian data, all data
+have been considered non-parametric.</p><p>The result of the KW test rejects the null hypothesis with a H statistic of 182.19
+and <italic toggle="yes">P</italic>-value less than .001, meaning that the used algorithms
+differ. Regarding the Dunn&#x02019;s post hoc test, <xref rid="table2-15593258221082896" ref-type="table">Table 2</xref> and <xref rid="table3-15593258221082896" ref-type="table">Table 3</xref> show the obtained results relative
+to CD-CT and ULD-CT data, respectively.<table-wrap position="float" id="table2-15593258221082896"><label>Table 2.</label><caption><p>Dunn&#x02019;s test results for all AI-based segmentation tools on CD-CT
+data.</p></caption><alternatives><graphic xlink:href="10.1177_15593258221082896-table2" specific-use="table2-15593258221082896" position="float"/><table frame="hsides" rules="groups"><thead valign="top"><tr><th align="left" rowspan="1" colspan="1">CD-CT <italic toggle="yes">P</italic>-value</th><th align="center" rowspan="1" colspan="1">BCUnet</th><th align="center" rowspan="1" colspan="1">CORADS</th><th align="center" rowspan="1" colspan="1">CLARA</th><th align="center" rowspan="1" colspan="1">Pneumonia</th></tr></thead><tbody valign="top"><tr><td align="left" rowspan="1" colspan="1">BCUnet</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td><td align="char" char="." rowspan="1" colspan="1">4.272311e&#x02212;28<bold>*</bold></td><td align="char" char="." rowspan="1" colspan="1">6.949754e&#x02212;25<bold>*</bold></td><td align="char" char="." rowspan="1" colspan="1">3.915073e&#x02212;29<bold>*</bold></td></tr><tr><td align="left" rowspan="1" colspan="1">CORADS</td><td align="char" char="." rowspan="1" colspan="1">4.272311e&#x02212;28</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td></tr><tr><td align="left" rowspan="1" colspan="1">CLARA</td><td align="char" char="." rowspan="1" colspan="1">6.949754e&#x02212;25</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td></tr><tr><td align="left" rowspan="1" colspan="1">Pneumonia</td><td align="char" char="." rowspan="1" colspan="1">3.915073e&#x02212;29</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td></tr></tbody></table></alternatives><table-wrap-foot><fn><p>*indicates significance with P &#x0003c; .01. Highlighted row represents
+which algorithm differs.</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="table3-15593258221082896"><label>Table 3.</label><caption><p>Dunn&#x02019;s test results for all AI-based segmentation tools on ULD-CT
+data.</p></caption><alternatives><graphic xlink:href="10.1177_15593258221082896-table3" specific-use="table3-15593258221082896" position="float"/><table frame="hsides" rules="groups"><thead valign="top"><tr><th align="left" rowspan="1" colspan="1">ULD-CT <italic toggle="yes">P</italic>-value</th><th align="center" rowspan="1" colspan="1">BCUnet</th><th align="center" rowspan="1" colspan="1">CORADS</th><th align="center" rowspan="1" colspan="1">CLARA</th><th align="center" rowspan="1" colspan="1">Pneumonia</th></tr></thead><tbody valign="top"><tr><td align="left" rowspan="1" colspan="1">BCUnet</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td><td align="char" char="." rowspan="1" colspan="1">4.428678e&#x02212;13*</td><td align="char" char="." rowspan="1" colspan="1">2.784633e&#x02212;17*</td><td align="char" char="." rowspan="1" colspan="1">2.176567e&#x02212;37*</td></tr><tr><td align="left" rowspan="1" colspan="1">CORADS</td><td align="char" char="." rowspan="1" colspan="1">4.428678e&#x02212;13</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td><td align="char" char="." rowspan="1" colspan="1">3.274795e&#x02212;07</td></tr><tr><td align="left" rowspan="1" colspan="1">CLARA</td><td align="char" char="." rowspan="1" colspan="1">2.784633e&#x02212;17</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td><td align="char" char="." rowspan="1" colspan="1">1.255710e-04</td></tr><tr><td align="left" rowspan="1" colspan="1">Pneumonia</td><td align="char" char="." rowspan="1" colspan="1">2.176567e&#x02212;37*</td><td align="char" char="." rowspan="1" colspan="1">3.274795e&#x02212;07*</td><td align="char" char="." rowspan="1" colspan="1">1.255710e&#x02212;04*</td><td align="char" char="." rowspan="1" colspan="1">1.000000e+00</td></tr></tbody></table></alternatives><table-wrap-foot><fn><p>* indicates significance with P &#x0003c; .01. Highlighted rows represent
+which algorithm differs.</p></fn></table-wrap-foot></table-wrap></p><p>According to <italic toggle="yes">P</italic>-values in <xref rid="table2-15593258221082896" ref-type="table">Table 2</xref>, BCUnet differs from the other
+tools (<italic toggle="yes">P</italic>-value &#x0003c; .01 rejects the null hypothesis of no
+differences) meaning that CORADS, CLARA and Pneumonia tools generate similar CD-CT
+CV% values. Instead, in <xref rid="table3-15593258221082896" ref-type="table">Table
+3</xref> it is highlighted that BCUnet and Pneumonia tools differ on ULD-CT CV%
+values estimation. Therefore, although the segmentation results have been generated
+by different AI algorithms, it has been demonstrated that these algorithms give
+comparable results, in terms of CV% values, regardless of the CT dose protocols. In
+fact, for a qualitative demonstration, <xref rid="fig2-15593258221082896" ref-type="fig">Figure 2</xref> shows that the resulting CV% values
+distributions of each AI tool are comparable for both dose protocols. The
+non-Gaussian nature of the data can be also observed, according to Shapiro results.
+Moreover, the overall trend of the boxplots matches the results of Dunn&#x02019;s test.<fig position="float" fig-type="figure" id="fig2-15593258221082896"><label>Figure 2.</label><caption><p>CD-CT and ULD-CT boxplots for all AI-based segmentation tools. Green
+boxplots represent CD-CT CV% values, while pink boxplots represent
+ULD-CT CV% values. The red line is the median value of plotted data; the
+bars are the relative standard deviations and the dots are the
+outliers.</p></caption><graphic xlink:href="10.1177_15593258221082896-fig2" position="float"/></fig></p><p>Regarding the correlation analysis, Spearman correlation coefficients (R) have been
+carried out showing that all correlation coefficients are statistically significant.
+<xref rid="fig3-15593258221082896" ref-type="fig">Figure 3</xref> shows the
+heatmap of R values. The red-squared correlation coefficients refer to CD and ULD-CT
+CV% values obtained by the same AI-based segmentation tool, highlighting a strong
+correlation (R &#x0003e; .6), meaning that ULD-CT protocol can be used for a CV%
+estimation comparable to CD-CT protocol, using all AI algorithms. To strengthen this
+result, the pairwise (CD-CT and ULD-CT protocols) BA test has been applied on each
+AI-based segmentation tool. <xref rid="fig4-15593258221082896" ref-type="fig">Figure
+4</xref> shows BA results considering CD and ULD-CT CV% values, averaged over
+all patients. The bias has been computed as the value determined by one CD-CT CV%
+minus the value determined by the corresponding ULD-CT. The green dots represent the
+paired difference between CD and ULD CV% values; the bold line is the mean of all
+differences. As the plots in <xref rid="fig4-15593258221082896" ref-type="fig">Figure 4</xref> illustrate, the mean is around zero per each tool, confirming
+that the bias (distance between zero line and mean line) is negligible. Moreover,
+except for some outliers, most green dots do not exceed the maximum allowed
+difference limits, according to which the differences within mean &#x000b1; 1.96&#x000a0;SD are
+considered not relevant, demonstrating that the segmentation algorithms can work
+similarly if they use CD-CT data and ULD-CT ones.<fig position="float" fig-type="figure" id="fig3-15593258221082896"><label>Figure 3.</label><caption><p>Spearman correlation coefficient heatmap. R values range in [&#x02212;1, 1]
+interval.</p></caption><graphic xlink:href="10.1177_15593258221082896-fig3" position="float"/></fig><fig position="float" fig-type="figure" id="fig4-15593258221082896"><label>Figure 4.</label><caption><p>BA plots generated using paired values, that is, CD-CT and ULD-CT CV%
+values, obtained from BCUnet, CORADS, CLARA, and Pneumonia tools. The
+black line is the mean of differences between two measurements; the
+dashed lines represent the test constraints (mean &#x02212;1.96&#x000a0;std/mean +1.96
+std) and the dots are the paired differences of the two measurements
+(both dose protocols) for each patient.</p></caption><graphic xlink:href="10.1177_15593258221082896-fig4" position="float"/></fig></p><p>After reaching the previous results from CV% data calculated with AI segmentation
+algorithms on total lungs, these assays have been verified on data obtained with
+lung lobe lesion segmentation algorithms, using BCUnet and CORADS tools. Data under
+statistics were the lung lobe COVID-19 lesion volume percentage for each patient and
+each protocol, as explained in &#x0201c;Statistical analysis&#x0201d; section. Hence, data have been
+proved non-parametric according to the Shapiro test (P &#x0003c; .01), and also using
+lobe segmentation, BCUnet and CORADS tools result different according to the KW
+test. Since we implemented only two AI tools for lung lobe segmentation, Dunn&#x02019;s test
+has not been applied. Considering correlation analysis, LLL%, LUL%, RLL%, RLM%, and
+RUL% data show significant R values, between CD-CT and ULD-CT protocol, greater than
+.66 for BCUnet tool (red squares in <xref rid="fig5-15593258221082896" ref-type="fig">Figure 5</xref>) and greater than .51 for CORADS
+tool (green squares in <xref rid="fig5-15593258221082896" ref-type="fig">Figure
+5</xref>).<fig position="float" fig-type="figure" id="fig5-15593258221082896"><label>Figure 5.</label><caption><p>Spearman correlation coefficient heatmap for lung lobe lesions volume
+percentage on CD and ULD-CT protocols. R values range in [&#x02212;1, 1]
+interval.</p></caption><graphic xlink:href="10.1177_15593258221082896-fig5" position="float"/></fig></p><p>In <xref rid="fig6-15593258221082896" ref-type="fig">Figure 6</xref>, BA plots on
+LLL%, LUL%, RLL%, RLM%, and RUL% of BCUnet tool are presented. The paired
+measurements are contained in the allowed limits. OnlyRLM% BA plot shows more
+scattered data, always staying in the confidence interval limits. In <xref rid="fig7-15593258221082896" ref-type="fig">Figure 7</xref>, BA plots on LLL%,
+LUL%, RLL%, RLM%, and RUL% of CORADS tool are shown. As in the previous plots, a low
+bias is obtained and paired measurements are contained in the allowed limits, as
+explained in the captions of <xref rid="fig6-15593258221082896" ref-type="fig">Figure 6</xref> and <xref rid="fig7-15593258221082896" ref-type="fig">Figure
+7</xref>. These last results confirm that AI-based segmentation tools took out
+comparable outcomes when obtained on both CD-CT and ULD-CT data.<fig position="float" fig-type="figure" id="fig6-15593258221082896"><label>Figure 6.</label><caption><p>BA plots generated using paired values, examined on LLL%, LUL%, RLL%,
+RLM%, and RUL% of BCUnet tool. The black line is the mean of differences
+between two measurements; the dashed lines represent the test limits
+(mean &#x02212;1.96&#x000a0;std/mean +1.96&#x000a0;std) and the dots are the paired differences
+of the two measurements (both dose protocols) for each patient.</p></caption><graphic xlink:href="10.1177_15593258221082896-fig6" position="float"/></fig><fig position="float" fig-type="figure" id="fig7-15593258221082896"><label>Figure 7.</label><caption><p>BA plots generated using paired values, examined on LLL%, LUL%, RLL%,
+RLM%, and RUL% of CORADS tool. The black line is the mean of differences
+between two measurements; the dashed lines represent the test limits
+(mean &#x02212;1.96&#x000a0;std/mean +1.96&#x000a0;std) and the dots are the paired differences
+of the two measurements (both dose protocols) for each patient.</p></caption><graphic xlink:href="10.1177_15593258221082896-fig7" position="float"/></fig></p></sec><sec sec-type="discussion" id="sec12-15593258221082896"><title>Discussion</title><p>AI-based tools supporting radiological evaluation can offer significant benefit in
+clinical practice. COVID-19 pandemic has led to the development and refinement of AI
+algorithms for disease diagnosis and monitoring, in particular for the automation of
+lesion segmentations on CT images. However, the reliability of AI-based techniques
+requires careful evaluation of the reproducibility with respect to the use of
+different acquisition techniques. Furthermore, lack of knowledge of COVID-19 disease
+felt the need to increase monitoring for fast diagnosis and reliable prevention,
+leading patients to greater radiological exposure. Thus, low dose protocols for CT
+scans have been implemented.<sup>
+<xref rid="bibr18-15593258221082896" ref-type="bibr">20</xref>
+</sup></p><p>In this work, the agreement of AI-based COVID-19 lung lesions segmentation methods
+between chest CT images acquired following both CD-CT and ULD-CT protocols has been
+evaluated for the first time. Four different DL-based segmentation tools, trained on
+CD-CT protocol images, have been considered. The CV% parameter has been calculated
+on both dose protocols data, allowing such statistical inferences. First of all, the
+data showed on average a behavior far from a Gaussian distribution, thus
+implementing non-parametric tests (e.g., KW test). The AI tools have been pairwise
+compared to estimate their differences when applied on both dose protocols. As shown
+by the Spearman correlation coefficients (R &#x0003e; .6 and <italic toggle="yes">P</italic>-value
+&#x0003c; .05), a good agreement between CD and ULD-CT CV% values has resulted, confirmed
+by the BA test (<xref rid="fig4-15593258221082896" ref-type="fig">Figure 4</xref>).
+However, although the lack of diagnostic support tools trained on specific ULD-CT
+data, it does not represent a critical limitation, since suitability of AI tools
+designed on conventional datasets have been proved. Besides, the reliability of ULD
+protocols has been already demonstrated on comparable diagnostic performance
+evaluation for viral pneumonia detection on CT images,<sup><xref rid="bibr33-15593258221082896" ref-type="bibr">39</xref><xref rid="bibr34-15593258221082896" ref-type="bibr"/>-<xref rid="bibr35-15593258221082896" ref-type="bibr">41</xref></sup> but these results can
+consolidate the role of ULD-CT in clinical routine with the undeniable advantage of
+high dose reduction rate. This study should be considered as a preliminary
+investigation, since it requires further development for a comprehensive evaluation.
+Indeed, the application of retrospective noise reduction algorithms<sup>
+<xref rid="bibr36-15593258221082896" ref-type="bibr">42</xref>
+</sup> should be evaluated to improve the results of conventional algorithms on
+ULD-CT data. In addition, the inclusion of ULD-CT data for AI model training should
+be assessed. Noteworthy, the patients&#x02019; body mass index (BMI) may have a considerable
+effect on the signal to noise ratio of the resulting ULD-CT images,<sup><xref rid="bibr37-15593258221082896" ref-type="bibr">43</xref>,<xref rid="bibr38-15593258221082896" ref-type="bibr">44</xref></sup> and
+consequently on the analyzed algorithms&#x02019; results. The influence of BMI on the
+results agreement relative to both ULD-CT and CD-CT protocols deserves to be further
+investigated.</p><p>Among the examinations considered, a limitation of the present study is an unrevealed
+quantifiable lesion load. In order to mitigate this limitation, two different
+segmentation tasks have been considered, that is, lung and lobes segmentation.
+Although it is a very specific work, our approach can also be applied to other
+anatomical sectors, analyzing different classification tasks.<sup><xref rid="bibr39-15593258221082896" ref-type="bibr">45</xref><xref rid="bibr40-15593258221082896" ref-type="bibr"/><xref rid="bibr41-15593258221082896" ref-type="bibr"/><xref rid="bibr42-15593258221082896" ref-type="bibr"/><xref rid="bibr43-15593258221082896" ref-type="bibr"/>-<xref rid="bibr44-15593258221082896" ref-type="bibr">50</xref></sup> In conclusion, this work
+investigates the applicability of automatic segmentation techniques, trained on
+CD-CT protocol, to the images acquired in ULD mode. This preliminary study confirms
+the suitability of available AI-based segmentation tools on ULD-CT data, for
+supporting diagnosis and quantification of COVID-19 lung lesions.</p></sec></body><back><fn-group><fn fn-type="presented-by"><p><bold>Authors Contributions:</bold> MA and CC: conceived and designed the work. DB and CC: CT acquisition. GE, MV,
+MA, DB, MR: data elaboration and analysis; MA, GE: writing and editing; CC, MS:
+revision.</p></fn><fn fn-type="COI-statement"><p><bold>Declaration of Conflicting Interests:</bold> The authors declared no potential conflicts of interest with respect to the
+research, authorship, and/or publication of this article.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding:</bold> The authors disclosed receipt of the following financial support for the
+research, authorship, and publication of this article: This work was partially
+funded by the Italian Ministry of Health for the &#x0201c;Ricerca Corrente&#x0201d; project and
+by POR CAMPANIA FESR 2014 - 2020 for the &#x0201c;Protocolli TC del torace a bassissima
+dose e tecniche di intelligenza artificiale per la diagnosi precoce e
+quantificazione della malattia da COVID-19&#x0201d; project.</p></fn></fn-group><sec id="sec16-15593258221082896"><title>ORCID iDs</title><p>Marco Aiello <ext-link xlink:href="https://orcid.org/0000-0002-3676-0664" ext-link-type="uri">https://orcid.org/0000-0002-3676-0664</ext-link></p><p>Dario Baldi <ext-link xlink:href="https://orcid.org/0000-0001-7464-4499" ext-link-type="uri">https://orcid.org/0000-0001-7464-4499</ext-link></p><p>Carlo Cavaliere <ext-link xlink:href="https://orcid.org/0000-0002-3297-2213" ext-link-type="uri">https://orcid.org/0000-0002-3297-2213</ext-link></p></sec><ref-list><title>References</title><ref id="bibr48-15593258221082896"><label>1</label><mixed-citation publication-type="other"><comment>WHO dashboard, consulted on
+08/04/2021</comment>. <ext-link xlink:href="https://covid19.who.int/" ext-link-type="uri">https://covid19.who.int/</ext-link>.</mixed-citation></ref><ref id="bibr1-15593258221082896"><label>2</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Tahamtan</surname><given-names>A</given-names></name>
+<name><surname>Ardebili</surname><given-names>A</given-names></name>
+</person-group>. <article-title>Real-time RT-PCR in COVID-19 detection: issues
+affecting the results</article-title>. <source>Expert Rev Mol
+Diagn</source>. <year>2020</year>; <volume>20</volume>:
+<fpage>453</fpage>-<lpage>454</lpage>. doi:<pub-id pub-id-type="doi">10.1080/14737159.2020.1757437</pub-id>.<pub-id pub-id-type="pmid">32297805</pub-id></mixed-citation></ref><ref id="bibr2-15593258221082896"><label>3</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chung</surname><given-names>M</given-names></name>
+<name><surname>Bernheim</surname><given-names>A</given-names></name>
+<name><surname>Mei</surname><given-names>X</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>CT imaging features of 2019 novel coronavirus
+(2019-nCoV)</article-title>. <source>Radiology</source>.
+<year>2020</year>;<volume>295</volume>:<fpage>202</fpage>-<lpage>207</lpage>.
+doi:<pub-id pub-id-type="doi">10.1148/radiol.2020200230</pub-id>.<pub-id pub-id-type="pmid">32017661</pub-id></mixed-citation></ref><ref id="bibr3-15593258221082896"><label>4</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Huang</surname><given-names>G</given-names></name>
+<name><surname>Gong</surname><given-names>T</given-names></name>
+<name><surname>Wang</surname><given-names>G</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Timely diagnosis and treatment shortens the time to resolution of
+coronavirus disease (COVID-19) pneumonia and lowers the highest and last CT
+scores from sequential chest CT</article-title>. <source>Am J
+Roentgenol</source>.
+<year>2020</year>;<volume>215</volume>:<fpage>367</fpage>-<lpage>373</lpage>.
+doi:<pub-id pub-id-type="doi">10.2214/AJR.20.23078</pub-id>.<pub-id pub-id-type="pmid">32223665</pub-id></mixed-citation></ref><ref id="bibr4-15593258221082896"><label>5</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bandirali</surname><given-names>M</given-names></name>
+<name><surname>Sconfienza</surname><given-names>LM</given-names></name>
+<name><surname>Serra</surname><given-names>R</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Chest radiograph findings in asymptomatic and minimally
+symptomatic quarantined patients in codogno, Italy during COVID-19
+pandemic</article-title>. <source>Radiology</source>.
+<year>2020</year>;<volume>295</volume>:<fpage>E7</fpage>. doi:<pub-id pub-id-type="doi">10.1148/radiol.2020201102</pub-id>.<pub-id pub-id-type="pmid">32216718</pub-id></mixed-citation></ref><ref id="bibr5-15593258221082896"><label>6</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Rubin</surname><given-names>GD</given-names></name>
+<name><surname>Ryerson</surname><given-names>CJ</given-names></name>
+<name><surname>Haramati</surname><given-names>LB</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>The role of chest imaging in patient management during the
+COVID-19 pandemic: a multinational consensus statement from the fleischner
+society</article-title>. <source>Radiology</source>.
+<year>2020</year>;<volume>296</volume>(<issue>1</issue>):<fpage>172</fpage>-<lpage>180</lpage>.
+doi:<pub-id pub-id-type="doi">10.1148/radiol.2020201365</pub-id>.<pub-id pub-id-type="pmid">32255413</pub-id></mixed-citation></ref><ref id="bibr49-15593258221082896"><label>7</label><mixed-citation publication-type="other"><person-group person-group-type="author">
+<collab>WHO publications</collab>
+</person-group>, <comment>consulted on 08/04/2021, &#x02018;&#x02019;Use of chest imaging in
+COVID19&#x0201d;</comment>. <ext-link xlink:href="https://www.who.int/publications/i/item/use-of-chest-imaging-in-covid-19" ext-link-type="uri">https://www.who.int/publications/i/item/use-of-chest-imaging-in-covid-19</ext-link></mixed-citation></ref><ref id="bibr6-15593258221082896"><label>8</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Brenner</surname><given-names>DJ</given-names></name>
+<name><surname>Elliston</surname><given-names>CD</given-names></name>
+<name><surname>Hall</surname><given-names>EJ</given-names></name>
+<name><surname>Berdon</surname><given-names>WE</given-names></name>
+</person-group>. <article-title>Estimated risks of radiation-induced fatal
+cancer from pediatric CT</article-title>. <source>AJR Am J
+Roentgenol</source>.
+<year>2001</year>;<volume>176</volume>:<fpage>289</fpage>-<lpage>296</lpage>.
+doi:<pub-id pub-id-type="doi">10.2214/ajr.176.2.1760289</pub-id>.<pub-id pub-id-type="pmid">11159059</pub-id></mixed-citation></ref><ref id="bibr7-15593258221082896"><label>9</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Greess</surname><given-names>H</given-names></name>
+<name><surname>Wolf</surname><given-names>H</given-names></name>
+<name><surname>Baum</surname><given-names>U</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Dose reduction in computed tomography by attenuation-based
+on-line modulation of tube current: evaluation of six anatomical
+regions</article-title>. <source>Eur Radiol</source>.
+<year>2000</year>;<volume>10</volume>:<fpage>391</fpage>-<lpage>394</lpage>.
+doi:<pub-id pub-id-type="doi">10.1007/s003300050062</pub-id>.<pub-id pub-id-type="pmid">10663775</pub-id></mixed-citation></ref><ref id="bibr8-15593258221082896"><label>10</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Toth</surname><given-names>TL</given-names></name>
+</person-group>. <article-title>Dose reduction opportunities for CT
+scanners</article-title>. <source>Pediatr Radiol</source>.
+<year>2002</year>;<volume>32</volume>:<fpage>261</fpage>-<lpage>267</lpage>.
+doi:<pub-id pub-id-type="doi">10.1007/s00247-002-0678-7</pub-id>.<pub-id pub-id-type="pmid">11956707</pub-id></mixed-citation></ref><ref id="bibr9-15593258221082896"><label>11</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Haaga</surname><given-names>JR</given-names></name>
+</person-group>. <article-title>Radiation dose management</article-title>.
+<source>Am J Roentgenol</source>.
+<year>2001</year>;<volume>177</volume>:<fpage>289</fpage>-<lpage>291</lpage>.
+doi:<pub-id pub-id-type="doi">10.2214/ajr.177.2.1770289</pub-id>.<pub-id pub-id-type="pmid">11461847</pub-id></mixed-citation></ref><ref id="bibr10-15593258221082896"><label>12</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Diederich</surname><given-names>S</given-names></name>
+<name><surname>Lenzen</surname><given-names>H</given-names></name>
+<name><surname>Windmann</surname><given-names>R</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Pulmonary nodules: experimental and clinical studies at low-dose
+CT</article-title>. <source>Radiology</source>.
+<year>1999</year>;<volume>213</volume>:<fpage>289</fpage>-<lpage>298</lpage>.
+doi:<pub-id pub-id-type="doi">10.1148/radiology.213.1.r99oc29289</pub-id>.<pub-id pub-id-type="pmid">10540674</pub-id></mixed-citation></ref><ref id="bibr11-15593258221082896"><label>13</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Jurik</surname><given-names>AG</given-names></name>
+<name><surname>Jessen</surname><given-names>KA</given-names></name>
+<name><surname>Hansen</surname><given-names>J</given-names></name>
+</person-group>. <article-title>Image quality and dose in computed
+tomography</article-title>. <source>Eur Radiol</source>.
+<year>1997</year>;<volume>7</volume>:<fpage>77</fpage>-<lpage>81</lpage>.
+doi:<pub-id pub-id-type="doi">10.1007/s003300050114</pub-id>.<pub-id pub-id-type="pmid">9000403</pub-id></mixed-citation></ref><ref id="bibr12-15593258221082896"><label>14</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mayo</surname><given-names>JR</given-names></name>
+<name><surname>Hartman</surname><given-names>TE</given-names></name>
+<name><surname>Lee</surname><given-names>KS</given-names></name>
+<name><surname>Primack</surname><given-names>SL</given-names></name>
+<name><surname>Vedal</surname><given-names>S</given-names></name>
+<name><surname>M&#x000fc;ller</surname><given-names>NL</given-names></name>
+</person-group>. <article-title>CT of the chest: minimal tube current required
+for good image quality with the least radiation dose</article-title>.
+<source>Am J Roentgenol</source>.
+<year>1995</year>;<volume>164</volume>:<fpage>603</fpage>-<lpage>607</lpage>.
+doi:<pub-id pub-id-type="doi">10.2214/ajr.164.3.7863879</pub-id>.<pub-id pub-id-type="pmid">7863879</pub-id></mixed-citation></ref><ref id="bibr13-15593258221082896"><label>15</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Naidich</surname><given-names>DP</given-names></name>
+<name><surname>Marshall</surname><given-names>CH</given-names></name>
+<name><surname>Gribbin</surname><given-names>C</given-names></name>
+<name><surname>Arams</surname><given-names>RS</given-names></name>
+<name><surname>McCauley</surname><given-names>DI</given-names></name>
+</person-group>. <article-title>Low-dose CT of the lungs: preliminary
+observations</article-title>. <source>Radiology</source>.
+<year>1990</year>;<volume>175</volume>:<fpage>729</fpage>-<lpage>731</lpage>.
+doi:<pub-id pub-id-type="doi">10.1148/radiology.175.3.2343122</pub-id>.<pub-id pub-id-type="pmid">2343122</pub-id></mixed-citation></ref><ref id="bibr14-15593258221082896"><label>16</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Rusinek</surname><given-names>H</given-names></name>
+<name><surname>Naidich</surname><given-names>DP</given-names></name>
+<name><surname>McGuinness</surname><given-names>G</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Pulmonary nodule detection: low-dose versus conventional
+CT</article-title>. <source>Radiology</source>.
+<year>1998</year>;<volume>209</volume>:<fpage>243</fpage>-<lpage>249</lpage>.
+doi:<pub-id pub-id-type="doi">10.1148/radiology.209.1.9769838</pub-id>.<pub-id pub-id-type="pmid">9769838</pub-id></mixed-citation></ref><ref id="bibr15-15593258221082896"><label>17</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ware</surname><given-names>DE</given-names></name>
+<name><surname>Huda</surname><given-names>W</given-names></name>
+<name><surname>Mergo</surname><given-names>PJ</given-names></name>
+<name><surname>Litwiller</surname><given-names>AL</given-names></name>
+</person-group>. <article-title>Radiation effective doses to patients undergoing
+abdominal CT examinations</article-title>. <source>Radiology</source>.
+<year>1999</year>;
+<volume>210</volume>:<fpage>645</fpage>-<lpage>650</lpage>. doi:<pub-id pub-id-type="doi">10.1148/radiology.210.3.r99mr05645</pub-id>.<pub-id pub-id-type="pmid">10207462</pub-id></mixed-citation></ref><ref id="bibr16-15593258221082896"><label>18</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Baldi</surname><given-names>D</given-names></name>
+<name><surname>Tramontano</surname><given-names>L</given-names></name>
+<name><surname>Alfano</surname><given-names>V</given-names></name>
+<name><surname>Punzo</surname><given-names>B</given-names></name>
+<name><surname>Cavaliere</surname><given-names>C</given-names></name>
+<name><surname>Salvatore</surname><given-names>M</given-names></name>
+</person-group>. <article-title>Whole body low dose computed tomography using
+third-generation dual-source multidetector with spectral shaping: protocol
+optimization and literature review</article-title>.
+<source>Dose-Response</source>. <year>2020</year> Dec
+29;<volume>18</volume>(<issue>4</issue>). doi:<pub-id pub-id-type="doi">10.1177/1559325820973131</pub-id>.</mixed-citation></ref><ref id="bibr17-15593258221082896"><label>19</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Schaal</surname><given-names>M</given-names></name>
+<name><surname>Severac</surname><given-names>F</given-names></name>
+<name><surname>Labani</surname><given-names>A</given-names></name>
+<name><surname>Jeung</surname><given-names>MY</given-names></name>
+<name><surname>Roy</surname><given-names>C</given-names></name>
+<name><surname>Ohana</surname><given-names>M</given-names></name>
+</person-group>. <article-title>Diagnostic performance of ultra-low-dose
+computed tomography for detecting asbestos-related pleuropulmonary diseases:
+prospective study in a screening setting</article-title>. <source>PLoS
+One</source>. <year>2016</year>;<volume>11</volume>:<fpage>e0168979</fpage>.
+doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0168979</pub-id>.<pub-id pub-id-type="pmid">28033378</pub-id></mixed-citation></ref><ref id="bibr18-15593258221082896"><label>20</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Dangis</surname><given-names>A</given-names></name>
+<name><surname>Gieraerts</surname><given-names>C</given-names></name>
+<name><surname>De Bruecker</surname><given-names>Y</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Accuracy and reproducibility of low-dose submillisievert chest CT
+for the diagnosis of COVID-19</article-title>. <source>Radiology:
+Cardiothoracic Imaging</source>.
+<year>2020</year>;<volume>2</volume>:<fpage>e200196</fpage>. doi:<pub-id pub-id-type="doi">10.1148/ryct.2020200196</pub-id>.<pub-id pub-id-type="pmid">33778576</pub-id></mixed-citation></ref><ref id="bibr19-15593258221082896"><label>21</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Aggarwal</surname><given-names>R</given-names></name>
+<name><surname>Sounderajah</surname><given-names>V</given-names></name>
+<name><surname>Martin</surname><given-names>G</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Diagnostic accuracy of deep learning in medical imaging: a
+systematic review and meta-analysis</article-title>. <source>NPJ digital
+medicine</source>.
+<year>2021</year>;<volume>4</volume>:<fpage>65</fpage>-23. doi:<pub-id pub-id-type="doi">10.1038/s41746-021-00438-z</pub-id>.<pub-id pub-id-type="pmid">33828217</pub-id></mixed-citation></ref><ref id="bibr20-15593258221082896"><label>22</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lundervold</surname><given-names>AS</given-names></name>
+<name><surname>Lundervold</surname><given-names>A</given-names></name>
+</person-group>. <article-title>An overview of deep learning in medical imaging
+focusing on MRI</article-title>. <source>Z Med Phys</source>.
+<year>2019</year>;<volume>29</volume>:<fpage>102</fpage>-<lpage>127</lpage>.
+doi:<pub-id pub-id-type="doi">10.1016/j.zemedi.2018.11.002</pub-id>.<pub-id pub-id-type="pmid">30553609</pub-id></mixed-citation></ref><ref id="bibr21-15593258221082896"><label>23</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Saba</surname><given-names>L</given-names></name>
+<name><surname>Agarwal</surname><given-names>M</given-names></name>
+<name><surname>Patrick</surname><given-names>A</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Six artificial intelligence paradigms for tissue characterisation
+and classification of non-COVID-19 pneumonia against COVID-19 pneumonia in
+computed tomography lungs</article-title>. <source>Int J CARS</source>.
+<year>2021</year>;16(3):423-434. doi:<pub-id pub-id-type="doi">10.1007/s11548-021-02317-0</pub-id>.</mixed-citation></ref><ref id="bibr22-15593258221082896"><label>24</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kermany</surname><given-names>DS</given-names></name>
+<name><surname>Goldbaum</surname><given-names>M</given-names></name>
+<name><surname>Cai</surname><given-names>W</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Identifying medical diagnoses and treatable diseases by
+image-based deep learning</article-title>. <source>Cell</source>.
+<year>2018</year>;<volume>172</volume>:<fpage>1122</fpage>-<lpage>1131</lpage>.
+<comment>e9</comment> doi:<pub-id pub-id-type="doi">10.1016/j.cell.2018.02.010</pub-id>.<pub-id pub-id-type="pmid">29474911</pub-id></mixed-citation></ref><ref id="bibr23-15593258221082896"><label>25</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Rajaraman</surname><given-names>S</given-names></name>
+<name><surname>Candemir</surname><given-names>S</given-names></name>
+<name><surname>Kim</surname><given-names>I</given-names></name>
+<name><surname>Thoma</surname><given-names>G</given-names></name>
+<name><surname>Antani</surname><given-names>S</given-names></name>
+</person-group>. <article-title>Visualization and interpretation of
+convolutional neural network predictions in detecting pneumonia in pediatric
+chest radiographs</article-title>. <source>Appl Sci</source>.
+<year>2018</year>;<volume>8</volume>:<fpage>1715</fpage>. doi:<pub-id pub-id-type="doi">10.3390/app8101715</pub-id>.<pub-id pub-id-type="pmid">32457819</pub-id></mixed-citation></ref><ref id="bibr24-15593258221082896"><label>26</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>L</given-names></name>
+<name><surname>Qin</surname><given-names>L</given-names></name>
+<name><surname>Xu</surname><given-names>Z</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Using artificial intelligence to detect COVID-19 and
+community-acquired pneumonia based on pulmonary CT: evaluation of the
+diagnostic accuracy</article-title>. <source>Radiology</source>.
+<year>2020</year>;<volume>296</volume>:<fpage>E65</fpage>-<lpage>E71</lpage>.
+doi:<pub-id pub-id-type="doi">10.1148/radiol.2020200905</pub-id>.<pub-id pub-id-type="pmid">32191588</pub-id></mixed-citation></ref><ref id="bibr25-15593258221082896"><label>27</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Harmon</surname><given-names>SA</given-names></name>
+<name><surname>Sanford</surname><given-names>TH</given-names></name>
+<name><surname>Xu</surname><given-names>S</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Artificial intelligence for the detection of COVID-19 pneumonia
+on chest CT using multinational datasets</article-title>. <source>Nat
+Commun</source>. <year>2020</year>;<volume>11</volume>:<fpage>4080</fpage>.
+doi:<pub-id pub-id-type="doi">10.1038/s41467-020-17971-2</pub-id>.<pub-id pub-id-type="pmid">32796848</pub-id></mixed-citation></ref><ref id="bibr26-15593258221082896"><label>28</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>J</given-names></name>
+<name><surname>Wu</surname><given-names>CJ</given-names></name>
+<name><surname>Bao</surname><given-names>ML</given-names></name>
+<name><surname>Zhang</surname><given-names>J</given-names></name>
+<name><surname>Wang</surname><given-names>XN</given-names></name>
+<name><surname>Zhang</surname><given-names>YD</given-names></name>
+</person-group>. <article-title>Machine learning-based analysis of MR radiomics
+can help to improve the diagnostic performance of PI-RADS v2 in clinically
+relevant prostate cancer</article-title>. <source>Eur Radiol</source>.
+<year>2017</year>;<volume>27</volume>:<fpage>4082</fpage>-<lpage>4090</lpage>.
+doi:<pub-id pub-id-type="doi">10.1007/s00330-017-4800-5</pub-id>.<pub-id pub-id-type="pmid">28374077</pub-id></mixed-citation></ref><ref id="bibr27-15593258221082896"><label>29</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ronneberger</surname><given-names>O</given-names></name>
+<name><surname>Fischer</surname><given-names>P</given-names></name>
+<name><surname>Brox</surname><given-names>T</given-names></name>
+</person-group>. <article-title>U-net: convolutional networks for biomedical
+image segmentation</article-title>. <source>Presented at the
+MICCAI</source>.
+<year>2015</year>;<volume>9351</volume>:<fpage>234</fpage>-<lpage>241</lpage>.</mixed-citation></ref><ref id="bibr28-15593258221082896"><label>30</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Roth</surname><given-names>H</given-names></name>
+<name><surname>Xu</surname><given-names>Z</given-names></name>
+<name><surname>Diez</surname><given-names>CT</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Rapid artificial intelligence solutions in a pandemic - the
+COVID-19-20 lung CT lesion segmentation challenge</article-title>.
+<source>Res Sq</source>.
+<year>2021</year>;<volume>1</volume>:<fpage>571332</fpage>. doi:<pub-id pub-id-type="doi">10.21203/rs.3.rs-571332/v1</pub-id>.</mixed-citation></ref><ref id="bibr29-15593258221082896"><label>31</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lessmann</surname><given-names>N</given-names></name>
+<name><surname>S&#x000e1;nchez</surname><given-names>CI</given-names></name>
+<name><surname>Beenen</surname><given-names>L</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Automated assessment of CO-RADS and chest CT severity scores in
+patients with suspected COVID-19 using artificial
+intelligence</article-title>. <source>Radiology</source>.
+<year>2020</year>;298(1):<fpage>202439</fpage>. doi:<pub-id pub-id-type="doi">10.1148/radiol.2020202439</pub-id>.</mixed-citation></ref><ref id="bibr30-15593258221082896"><label>32</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chaganti</surname><given-names>S</given-names></name>
+<name><surname>Grenier</surname><given-names>P</given-names></name>
+<name><surname>Balachandran</surname><given-names>A</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Automated quantification of CT patterns associated with COVID-19
+from chest CT</article-title>. <source>Radiol Artif Intell</source>.
+<year>2020</year>;<volume>2</volume>:<fpage>e200048</fpage>. doi:<pub-id pub-id-type="doi">10.1148/ryai.2020200048</pub-id>.<pub-id pub-id-type="pmid">33928255</pub-id></mixed-citation></ref><ref id="bibr47-15593258221082896"><label>33</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Shapiro</surname><given-names>SS</given-names></name>
+<name><surname>Wilk</surname><given-names>MB</given-names></name>
+</person-group>. <article-title>An analysis of variance test for normality
+(complete samples)</article-title>. <source>Biometrika</source>.
+<year>1965</year>;<volume>52</volume>:<fpage>591</fpage>-<lpage>611</lpage>.</mixed-citation></ref><ref id="bibr46-15593258221082896"><label>34</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kruskal</surname><given-names>WH</given-names></name>
+<name><surname>Wallis</surname><given-names>WW</given-names></name>
+</person-group>. <article-title>Use of ranks in one-criterion variance
+analysis</article-title>. <source>J Am Stat Assoc</source>.
+<year>1952</year>;<volume>47</volume>(<issue>Issue
+260</issue>):<fpage>583</fpage>-<lpage>621</lpage>.</mixed-citation></ref><ref id="bibr45-15593258221082896"><label>35</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Dunn</surname><given-names>OJ</given-names></name>
+</person-group>. <article-title>Multiple comparisons using rank
+sums</article-title>. <source>Technometrics</source>.
+<year>1964</year>;<volume>6</volume>:<fpage>241</fpage>-<lpage>252</lpage>.</mixed-citation></ref><ref id="bibr31-15593258221082896"><label>36</label><mixed-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Zwillinger</surname><given-names>D</given-names></name>
+<name><surname>Kokoska</surname><given-names>S</given-names></name>
+</person-group>. <source>CRC Standard Probability and Statistics Tables and
+Formulae</source>. <publisher-loc>New
+York</publisher-loc>:<publisher-name>Chapman &#x00026;
+Hall</publisher-name>;<year>2000</year>:<fpage>7</fpage>. <comment>Section
+14</comment>.</mixed-citation></ref><ref id="bibr32-15593258221082896"><label>37</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Altman</surname><given-names>DG</given-names></name>
+<name><surname>Bland</surname><given-names>JM</given-names></name>
+</person-group>. <article-title>Measurement in medicine: the analysis of method
+comparison studies</article-title>. <source>Journal of the Royal Statistical
+Society. Series D (The Statistician)</source>.
+<year>1983</year>;<volume>32</volume>:<fpage>307</fpage>-<lpage>317</lpage>.
+doi:<pub-id pub-id-type="doi">10.2307/2987937</pub-id>.</mixed-citation></ref><ref id="bibr50-15593258221082896"><label>38</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tang</surname><given-names>H</given-names></name><name><surname>Zhang</surname><given-names>C</given-names></name> and <name><surname>Xie</surname><given-names>X</given-names></name></person-group>. <article-title>Automatic pulmonary lobe segmentation
+using deep learning</article-title>. <source>In: 2019 IEEE 16th
+international symposium on biomedical imaging (ISBI 2019)</source>
+<year>2019</year>;<fpage>1225</fpage>-<lpage>1228</lpage>. doi:<pub-id pub-id-type="doi">10.1109/ISBI.2019.8759468</pub-id>.</mixed-citation></ref><ref id="bibr33-15593258221082896"><label>39</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Argentieri</surname><given-names>G</given-names></name>
+<name><surname>Bellesi</surname><given-names>L</given-names></name>
+<name><surname>Pagnamenta</surname><given-names>A</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Diagnostic yield, safety, and advantages of ultra-low dose chest
+CT compared to chest radiography in early stage suspected SARS-CoV-2
+pneumonia</article-title>. <source>Medicine</source>.
+<year>2021</year>;<volume>100</volume>:<fpage>e26034</fpage>. doi:<pub-id pub-id-type="doi">10.1097/MD.0000000000026034</pub-id>.<pub-id pub-id-type="pmid">34032725</pub-id></mixed-citation></ref><ref id="bibr34-15593258221082896"><label>40</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Greffier</surname><given-names>J</given-names></name>
+<name><surname>Hoballah</surname><given-names>A</given-names></name>
+<name><surname>Sadate</surname><given-names>A</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Ultra-low-dose chest CT performance for the detection of viral
+pneumonia patterns during the COVID-19 outbreak period: a monocentric
+experience</article-title>. <source>Quant Imag Med Surg</source>.
+<year>2021</year>;<volume>11</volume>:<fpage>3190</fpage>-<lpage>3199</lpage>.
+doi:<pub-id pub-id-type="doi">10.21037/qims-20-1176</pub-id>.</mixed-citation></ref><ref id="bibr35-15593258221082896"><label>41</label><mixed-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Zarei</surname><given-names>F</given-names></name>
+<name><surname>Jalli</surname><given-names>R</given-names></name>
+<name><surname>Chatterjee</surname><given-names>S</given-names></name>
+</person-group>, <etal>et al.</etal>
+<source>Evaluation of Ultra Low Dose Chest CT Imaging for Covid 19 Diagnosis and
+Follow up</source>; <year>2020</year>. <comment>arXiv:2005.03347
+[physics]</comment>.</mixed-citation></ref><ref id="bibr36-15593258221082896"><label>42</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mohammadinejad</surname><given-names>P</given-names></name>
+<name><surname>Mileto</surname><given-names>A</given-names></name>
+<name><surname>Yu</surname><given-names>L</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>CT noise-reduction methods for lower-dose scanning: strengths and
+weaknesses of iterative reconstruction algorithms and new
+techniques</article-title>. <source>Radiographics</source>.
+<year>2021</year>;<volume>41</volume>:<fpage>1493</fpage>-<lpage>1508</lpage>.
+doi:<pub-id pub-id-type="doi">10.1148/rg.2021200196</pub-id>.<pub-id pub-id-type="pmid">34469209</pub-id></mixed-citation></ref><ref id="bibr37-15593258221082896"><label>43</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Qurashi</surname><given-names>AA</given-names></name>
+<name><surname>Rainford</surname><given-names>LA</given-names></name>
+<name><surname>Alhazmi</surname><given-names>FH</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Low radiation dose implications in obese abdominal computed
+tomography imaging</article-title>. <source>Appl Sci</source>.
+<year>2021</year>;<volume>11</volume>:<fpage>2456</fpage>. doi:<pub-id pub-id-type="doi">10.3390/app11062456</pub-id>.</mixed-citation></ref><ref id="bibr38-15593258221082896"><label>44</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Qurashi</surname><given-names>AA</given-names></name>
+<name><surname>Rainford</surname><given-names>LA</given-names></name>
+<name><surname>Alshamrani</surname><given-names>KM</given-names></name>
+<name><surname>Foley</surname><given-names>SJ</given-names></name>
+</person-group>. <article-title>The impact of obesity on abdominal Ct radiation
+dose and image quality</article-title>. <source>Radiat Prot
+Dosimetry</source>.
+<year>2019</year>;<volume>185</volume>:<fpage>17</fpage>-<lpage>26</lpage>.
+doi:<pub-id pub-id-type="doi">10.1093/rpd/ncy212</pub-id>.<pub-id pub-id-type="pmid">30508172</pub-id></mixed-citation></ref><ref id="bibr39-15593258221082896"><label>45</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ahn</surname><given-names>Y</given-names></name>
+<name><surname>Yoon</surname><given-names>JS</given-names></name>
+<name><surname>Lee</surname><given-names>SS</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Deep learning algorithm for automated segmentation and volume
+measurement of the liver and spleen using portal venous phase computed
+tomography images</article-title>. <source>Korean J Radiol</source>.
+<year>2020</year>;<volume>21</volume>:<fpage>987</fpage>-<lpage>997</lpage>.
+doi:<pub-id pub-id-type="doi">10.3348/kjr.2020.0237</pub-id>.<pub-id pub-id-type="pmid">32677383</pub-id></mixed-citation></ref><ref id="bibr40-15593258221082896"><label>46</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Borrelli</surname><given-names>P</given-names></name>
+<name><surname>Kaboteh</surname><given-names>R</given-names></name>
+<name><surname>Enqvist</surname><given-names>O</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Artificial intelligence-aided CT segmentation for body
+composition analysis: a validation study</article-title>. <source>European
+Radiology Experimental</source>.
+<year>2021</year>;<volume>5</volume>:<fpage>11</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s41747-021-00210-8</pub-id>.<pub-id pub-id-type="pmid">33694046</pub-id></mixed-citation></ref><ref id="bibr41-15593258221082896"><label>47</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lee</surname><given-names>H</given-names></name>
+<name><surname>Troschel</surname><given-names>FM</given-names></name>
+<name><surname>Tajmir</surname><given-names>S</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Pixel-level deep segmentation: artificial intelligence quantifies
+muscle on computed tomography for body morphometric
+analysis</article-title>. <source>J Digit Imag</source>.
+<year>2017</year>;<volume>30</volume>:<fpage>487</fpage>-<lpage>498</lpage>.
+doi:<pub-id pub-id-type="doi">10.1007/s10278-017-9988-z</pub-id>.</mixed-citation></ref><ref id="bibr42-15593258221082896"><label>48</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lindgren Belal</surname><given-names>S</given-names></name>
+<name><surname>Sadik</surname><given-names>M</given-names></name>
+<name><surname>Kaboteh</surname><given-names>R</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Deep learning for segmentation of 49 selected bones in CT scans:
+first step in automated PET/CT-based 3D quantification of skeletal
+metastases</article-title>. <source>Eur J Radiol</source>.
+<year>2019</year>;<volume>113</volume>:<fpage>89</fpage>-<lpage>95</lpage>.
+doi:<pub-id pub-id-type="doi">10.1016/j.ejrad.2019.01.028</pub-id>.<pub-id pub-id-type="pmid">30927965</pub-id></mixed-citation></ref><ref id="bibr43-15593258221082896"><label>49</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Paris</surname><given-names>MT</given-names></name>
+</person-group>. <article-title>Body composition analysis of computed tomography
+scans in clinical populations: the role of deep learning</article-title>.
+<source>LFG</source>.
+<year>2020</year>;<volume>13</volume>:<fpage>28</fpage>-<lpage>31</lpage>.
+doi:<pub-id pub-id-type="doi">10.1159/000503996</pub-id>.</mixed-citation></ref><ref id="bibr44-15593258221082896"><label>50</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Rister</surname><given-names>B</given-names></name>
+<name><surname>Yi</surname><given-names>D</given-names></name>
+<name><surname>Shivakumar</surname><given-names>K</given-names></name>
+<name><surname>Nobashi</surname><given-names>T</given-names></name>
+<name><surname>Rubin</surname><given-names>DL</given-names></name>
+</person-group>. <article-title>CT-ORG, a new dataset for multiple organ
+segmentation in computed tomography</article-title>. <source>Sci
+Data</source>. <year>2020</year>;<volume>7</volume>:<fpage>381</fpage>.
+doi:<pub-id pub-id-type="doi">10.1038/s41597-020-00715-8</pub-id>.<pub-id pub-id-type="pmid">33177518</pub-id></mixed-citation></ref></ref-list></back></article>

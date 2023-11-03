@@ -1,0 +1,518 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.3" xml:lang="EN" article-type="rapid-communication"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Infect Dis</journal-id><journal-id journal-id-type="iso-abbrev">ACS Infect Dis</journal-id><journal-id journal-id-type="publisher-id">id</journal-id><journal-id journal-id-type="coden">aidcbc</journal-id><journal-title-group><journal-title>ACS Infectious Diseases</journal-title></journal-title-group><issn pub-type="epub">2373-8227</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">35286809</article-id><article-id pub-id-type="pmc">PMC9003238</article-id><article-id pub-id-type="doi">10.1021/acsinfecdis.1c00527</article-id><article-categories><subj-group><subject>Letter</subject></subj-group></article-categories><title-group><article-title>The Pandemic Response Box&#x02014;Accelerating Drug
+Discovery Efforts after Disease Outbreaks</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="ath1"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-2859-9580</contrib-id><name><surname>Samby</surname><given-names>Kirandeep</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Besson</surname><given-names>Dominique</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Dutta</surname><given-names>Anirban</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Patra</surname><given-names>Buddhadev</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Doy</surname><given-names>Angelique</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath6"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-6567-5648</contrib-id><name><surname>Glossop</surname><given-names>Paul</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath7"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-2567-3872</contrib-id><name><surname>Mills</surname><given-names>James</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath8"><name><surname>Whitlock</surname><given-names>Gavin</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath9"><name><surname>Hooft van Huijsduijnen</surname><given-names>Rob</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath10"><name><surname>Monaco</surname><given-names>Alessandra</given-names></name><xref rid="aff4" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" id="ath11"><name><surname>Bilbe</surname><given-names>Graeme</given-names></name><xref rid="aff4" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" id="ath12"><name><surname>Mowbray</surname><given-names>Charles</given-names></name><xref rid="aff4" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" id="ath13"><name><surname>Perry</surname><given-names>Benjamin</given-names></name><xref rid="aff4" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" id="ath14"><name><surname>Adam</surname><given-names>Anna</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath15"><name><surname>Wells</surname><given-names>Timothy N. C.</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath16"><name><surname>Willis</surname><given-names>Paul A.</given-names></name><xref rid="cor2" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><aff id="aff1"><label>&#x02020;</label><institution>Medicines
+for Malaria Venture</institution>, P.O. Box 1826, 20 Route de Pr&#x000e9;-Bois, 1215 Geneva 15, <country>Switzerland</country></aff><aff id="aff2"><label>&#x02021;</label><institution>TCG
+Life Sciences</institution>, Block BN, Plot 7 Salt Lake Electronics Complex Sector V, Kolkata, West Bengal 700091, <country>India</country></aff><aff id="aff3"><label>&#x000a7;</label><institution>Sandexis</institution>, Innovation House, Discovery Park,
+Sandwich, Kent CT13 9FF, <country>United Kingdom</country></aff><aff id="aff4"><label>&#x02225;</label><institution>Drugs
+for Neglected Diseases initiative</institution>, 15 Chemin Camille-Vidar, 1202, Geneva, <country>Switzerland</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Email: <email>sambyk-consultants@mmv.org</email>.</corresp><corresp id="cor2"><label>*</label>Email: <email>willisp@mmv.org</email>.</corresp></author-notes><pub-date pub-type="epub"><day>14</day><month>03</month><year>2022</year></pub-date><pub-date pub-type="ppub"><day>08</day><month>04</month><year>2022</year></pub-date><volume>8</volume><issue>4</issue><fpage>713</fpage><lpage>720</lpage><history><date date-type="received"><day>07</day><month>10</month><year>2021</year></date></history><permissions><copyright-statement>&#x000a9; 2022 The Authors. Published by American Chemical Society</copyright-statement><copyright-year>2022</copyright-year><copyright-holder>The Authors</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>Permits non-commercial access and re-use, provided that author attribution and integrity are maintained; but does not permit creation of adaptations or other derivative works (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">https://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>).</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00527_0009" id="ab-tgr1"/></p><p>The current Covid-19
+pandemic has underlined the need for a more
+coordinated and forward-looking investment in the search for new medicines
+targeting emerging health care threats. Repositioning currently approved
+drugs is a popular approach to any new emerging disease, but it represents
+a first wave of response. Behind this would be a second wave of more
+specifically designed therapies based on activities against specific
+molecular targets or in phenotypic assays. Following the successful
+deployment and uptake of previous open access compound collections,
+we assembled the Pandemic Response Box, a collection of 400 compounds
+to facilitate drug discovery in emerging infectious disease. These
+are based on public domain information on chemotypes currently in
+discovery and early development which have been shown to have useful
+activities and were prioritized by medicinal chemistry experts. They
+are freely available to the community as a pharmacological test set
+with the understanding that data will be shared rapidly in the public
+domain.</p></abstract><kwd-group><kwd>Pandemics</kwd><kwd>screening</kwd><kwd>drug discovery</kwd><kwd>antivirals</kwd><kwd>antibacterials</kwd><kwd>antifungals</kwd></kwd-group><funding-group><award-group><funding-source><institution-wrap><institution>Bill and Melinda Gates Foundation</institution><institution-id institution-id-type="doi">10.13039/100000865</institution-id></institution-wrap></funding-source><award-id>19-BMGF-006</award-id></award-group></funding-group><funding-group><award-group><funding-source><institution-wrap><institution>Bill and Melinda Gates Foundation</institution><institution-id institution-id-type="doi">10.13039/100000865</institution-id></institution-wrap></funding-source><award-id>OPP1082091</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>id1c00527</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>id1c00527</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><p id="sec1">Finding new
+agents to combat
+emerging pandemic diseases requires preparation and foresight. The
+initial response to a new pathogen is to reposition existing anti-infective
+agents or other supportive therapies. The primary drivers for this
+approach are clinical safety&#x02014;ensuring that the drug causes
+no additional harm and efficacy; the arena for testing is the clinic.
+It is estimated that around 40% of medicines approved for treatment
+of tropical diseases have been identified through repurposing. The
+best known are albendazole for echinococcosis and neurocysticercosis,
+and azithromycin for trachoma.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> The key
+driver here is often the off-label use of well-known anti-infective
+drugs in compassionate use programs clinically. The FDA has set up
+the Collaborative Use Repurposing Engine (CURE) to capture and centralize
+the global experience of new uses of approved medical products to
+treat emerging threats, NTDs (neglected tropical diseases), and infections
+with multidrug-resistant organisms, with a Web site <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://cure.ncats.io">cure.ncats.io</uri> that allows health
+care providers to report their experiences of both successful and
+unsuccessful treatments. The other approach is to use cellular anti-infective
+assays to screen compound collections for potential new treatments.
+An initial submicromolar response triggers initial interest. On the
+basis of known or modeled tissue concentrations in humans, an analysis
+can be made as to whether such concentrations can be achieved safely
+in the clinic. As has been seen from the recent flood of molecules
+for treating Covid-19 patients, although many candidates are suggested,
+few make it past the first hurdle of being predicted to be able to
+safely achieve an effective tissue exposure in humans.</p><p>An alternative
+approach would be to test molecules that have potential
+as anti-infectives but are not yet completely optimized. This is a
+slower approach, since these molecules would still need preclinical
+optimization and human testing, and so this is often seen as less
+attractive given the pressing need for short-term solutions. However,
+if such an approach had been taken when the Ebola virus was first
+discovered in 1975, new agents could well have been available for
+the epidemic in Liberia in 2014/2015. If there had been a more coordinated
+search for new agents against SARS-CoV (1) after the outbreak in Hong
+Kong in 2003, then the global armamentarium of drugs to fight SARS-CoV2
+would have been stronger.</p><p>The difficulty with such an approach
+is maintaining long-term funding
+in the absence of a specific threat. Analysis of the U.S. NIH (National
+Institutes of Health) spending according to the Research, Disease,
+and Condition Categorization (RCDC) shows little investment in diseases
+with less than 0.5 million DALYs (Disability Adjusted Life Years<sup><xref ref-type="bibr" rid="ref2">2</xref></sup>). On the face of it, this is logical, even though
+this means that fewer than ten of the classical neglected diseases
+would be funded based on global public health impact (malaria, schistosomiasis,
+dengue, hookworm, visceral leishmaniasis, onchocerciasis, ascariasis,
+and rabies<sup><xref ref-type="bibr" rid="ref3">3</xref></sup>).</p><p>The challenge is therefore
+how to efficiently catalyze drug discovery
+in areas of emerging disease, where the associated DALYs have not
+(yet) exceeded the threshold needed for large-scale investment. Clearly
+this also has to involve more efficient use of existing resources
+and thus the open sharing of information and reagents. Following the
+release of the Malaria Box in 2011,<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> MMV
+(Medicines for Malaria Venture, Geneva, Switzerland) analyzed the
+use of these open-source compounds,<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> since
+a large proportion of them were used by groups who were not actively
+working on malaria. Several trends emerged: First, that for emerging
+pathogens there are very few starting points for drug discovery, and
+so access to compound sets enriched with scaffolds likely to cross
+membranes and hit molecular targets was in high demand. Second, that
+there was a clear scientific drive in the biology community to find
+new molecules against emerging infectious diseases, with the establishment
+of relevant assays indicative of disease pathology, where screening
+of compound libraries is carried out under very stringent biosafety
+conditions. There was a need to not only supply compounds but also
+to offer additional services. With the MMV open platform,<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> MMV has been able to supply standardized information
+on metabolism and pharmacokinetics as well as early safety read-outs&#x02014;essential
+for rapidly prioritizing any scaffolds that are positive. In addition,
+an initial hit can be rapidly expanded to a series by compound purchase
+and synthesis, but many of the project teams needed early medicinal
+chemistry support. In short, it is possible to progress drug discovery
+using the existing networks, but there was a need for catalytic investment
+in chemistry, drug metabolism, and in managing the logistics of making
+compounds available. With this it would be possible to form a community
+of the willing. Additionally, the availability of a standard testing
+set means that results can be compared between laboratories, and trends
+around the impact of assay conditions and different pathogens can
+be identified.<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> Finally, these open-source
+compound collections have been extremely useful in providing testing
+sets of interesting molecules for those working in Low- and Middle-Income
+Countries, and against rarely studied primary isolates of disease
+(references for each Box are cited below).</p><p>There are several
+commercial libraries of FDA-approved drugs available,
+ranging from less than 1000 to almost 3000 compounds, at a cost of
+around $5 per compound. If the drug being repositioned is an existing
+anti-infective agent there is a fast route to clinical testing.<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> This approach has been applied to emerging viral
+pathogens, with tilorone and pyronaridine shown to be active against
+the Ebola virus in infection assays.<sup><xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref9">9</xref></sup> However, if
+the initial cell biology hit is from a different therapeutic area,
+the road from that hit to confirmation of activity in animals and
+thence human patients can be a long one.<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref11">11</xref></sup></p><p>One issue with registered drugs is that they have been optimized
+for a specific pathogen; so, in the ideal case they represent a &#x0201c;home-run&#x0201d;.
+However, if an optimal drug candidate cannot be directly identified,
+it may be better to start with compounds from earlier in development
+which have not been completely optimized against a specific target.
+The ReFRAME collection was created by Calibr in 2018 as a collection
+of 14&#x0202f;000 compounds based primarily on all compounds currently
+in clinical development, stalled, or registered.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> This is an extremely powerful resource for facilities with
+access to-high throughput screening technologies. Facing the inherent
+threat of a new epidemic caused by a viral, bacterial, or fungal agent,
+it was clear that a standard set of compounds would be valuable as
+a resource for supporting work on emerging pathogens. To meet this
+perceived need, MMV and DND<italic>i</italic> (Drugs for Neglected
+Diseases <italic>initiative</italic>, Geneva, Switzerland) have collaborated
+to generate a set of 400 compounds that span these three therapeutic
+areas, focusing on a chemically and pharmacologically diverse mixture
+of early stage, emerging anti-infective scaffolds, and more mature
+compounds currently undergoing clinical development. The decision
+to select a box of 400 compounds was framed by feedback from the biological
+partners. With emerging infections, the number of new compounds that
+can be tested is limited, given the need to use clinical isolates
+of pathogens and, typically, nonrobotic procedures. The idea is not
+primarily to identify new drugs to target today&#x02019;s emerging
+pathogen(s) but to prepare a solid grounding and network of collaborators
+who can work to develop therapeutic approaches to tomorrow&#x02019;s
+pathogen before it emerges as a global threat.</p><p>The methodology
+for the choice of compounds followed the previous
+MMV<italic>open</italic> projects: the Malaria Box<sup><xref ref-type="bibr" rid="ref4">4</xref>,<xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref13">13</xref></sup> and the Pathogen Box.<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref15">15</xref></sup> The key criterion for selecting molecules for the Pandemic Response
+Box was that they have demonstrated potent, preferably sub- micromolar
+efficacy, against viral, bacterial or fungal microorganisms in <italic>in vitro</italic> assays. A few FDA-approved drugs, such as saquinavir,
+itraconazole, levofloxacin, and tobramycin were inserted as positive
+controls. However, for the rest of the set, there was a desire to
+have a balance between compounds that were taken from discovery and
+those with some development exposure. The discovery-sourced chemotypes
+could be expected to be pleiotropic but have more risk in terms of
+unknown side effects. However, this may increase the opportunities
+for identifying a novel hit, as such discovery compounds may not be
+fully optimized against a particular biological target or pathogen.
+Chemotypes that have already been taken into development are somewhat
+derisked but carry the counterbalance that this optimization may reduce
+the possibility of having activity against other pathogens. &#x0201c;Launched&#x0201d;
+compounds may have been registered locally or for specific indications
+and formulations, which may or may not fit uses for other diseases.
+Some molecules&#x02019; clinical development may also have been stopped
+for commercial or disease-specific reasons which would not <italic>a priori</italic> prevent their use in pandemics. Although some molecules
+may be covered by current intellectual property claims, it was considered
+that by the time any new treatments have been clinically validated,
+many of these claims will have expired. In any case, the assumption
+is that the community will take a responsible view of intellectual
+property.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> As such, some of the compounds
+were purchased in bulk from suppliers, but many were made within the
+project using in-house synthetic experience.</p><sec id="sec2"><title>Methods</title><sec id="sec2.1"><title>Selection of
+the Pandemic Response Box Compounds</title><p>A
+list of antibacterial and antiviral compounds that either had been
+in clinical development or else represent promising scaffolds from
+drug discovery was compiled from public domain databases. Promising
+compounds from the discovery list were reviewed by a panel of medicinal
+chemistry experts and were then combined with compounds selected from
+chemotypes in clinical development. The details of the workflows are
+outlined below. In general, compounds were not triaged using physicochemical
+properties or structural alerts unless specified. From a compound
+collection perspective, this would risk prematurely eliminating certain
+drug classes or mechanisms of action. Such risks could be addressed
+during future lead optimization campaigns.</p><sec id="sec2.1.1"><label>1</label><title>Antibacterial
+and Antiviral Development Compounds</title><p>All antiviral and antibacterial
+development compounds were abstracted
+from the Cortellis (Clarivate Analytics) database with molecules included
+since 1990 (see <xref rid="notes-1" ref-type="notes">S1</xref> for details). Via this
+process, 233 antibacterial development candidates were identified,
+and therefore, no further triage of this list was performed. Abstraction
+of antiviral development candidates from the Clarivate Analytics Cortellis
+database identified 1336 compounds, so further triage was required.
+These antiviral compounds were clustered and analyzed for molecular
+properties such as molecular weight, published potency in cellular
+assays, and pan-assay interference compounds (PAINS<sup><xref ref-type="bibr" rid="ref17">17</xref></sup>). Viral selectivity and molecular target information were
+captured for each compound, and one compound was picked per viral
+family. In addition, one compound was picked per molecular target
+for those targets not covered by the preceding organism-based selection.
+Compound selection was guided by a Harrington multiparameter optimization
+to bias toward potency and lower molecular weight:<sup><xref ref-type="bibr" rid="ref18">18</xref></sup><list list-type="simple"><list-item><p>Weighted compounds
+in the 300&#x02013;400 MW range favorably
+(+1 score), monotonically dropping off to zero at 200 or below and
+500 or above</p></list-item><list-item><p>Weighted compounds with
+pIC<sub>50</sub> &#x0003e; 6 favorably
+(+1 score), monotonically dropping off to zero at pIC<sub>50</sub> = 5 or below</p></list-item><list-item><p>Negatively weighted compounds
+(&#x02212;2 score) with
+any reactive functional groups or PAINS alerts</p></list-item><list-item><p>Generated a combined score for each molecule by summing
+up the three weighting values</p></list-item></list></p><p>Within
+each cluster the compound with the highest MPO
+(multi parameter optimization) score<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> was
+selected as the representative. A list of 235 antiviral development
+compounds was selected using this method, which when combined with
+the 233 compounds from antibacterial selection, resulting in a set
+of 468 compounds representing development scaffolds.</p></sec><sec id="sec2.1.2"><label>2</label><title>Antibacterial and Antiviral Discovery Scaffolds</title><p>From
+the ChEMBL database, compounds with defined antiviral or antibacterial
+activity (&#x0003c;10 &#x003bc;M) were abstracted. This produced a list of
+more than 20&#x0202f;000 compounds that was initially filtered by application
+of the following physicochemical properties (these were chosen to
+eliminate compounds with extreme properties but remain relaxed enough
+to be inclusive at this stage):<list list-type="simple"><list-item><p>MW 200&#x02013;700; clogP 0&#x02013;7; HBA (hydrogen bond
+acceptors) &#x0003c;20; HBD (hydrogen bond donors) &#x0003c;10</p></list-item><list-item><p>Number of: acids &#x0003c;3; bases &#x0003c;4; rings &#x0003c;11; rotatable
+bonds &#x0003c;25; sp<sup>2</sup> atoms &#x0003c;25</p></list-item><list-item><p>No PAINS alert</p></list-item></list></p><p>The revised set of 8331
+compounds was then subjected
+to the following triage (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>). Compounds that were overlapping with the previous
+Clarivate Analytics list of development compounds were removed. Compounds
+were then clustered based on a Tanimoto similarity of &#x0003e;0.5, and
+the
+compound with the lowest molecular weight selected to represent each
+cluster. Clustering was performed with an in-house algorithm that
+employs single linkage clustering and Morgan fingerprints. All pairwise
+similarity values were calculated and compounds placed in the same
+cluster if their Tanimoto similarity was above a threshold value.
+Multiple similarity threshold values were used to enable interrogation
+of cluster data at different levels of granularity. For example, compounds
+could be viewed trellised by cluster calculated using a low similarity
+value (e.g., 0.5), and colored by cluster calculated using a higher
+similarity threshold (e.g., 0.7) to give a more informed view of the
+space being analyzed. Some clusters were eliminated from the analysis
+due to the presence of reactive functionalities such as aldehydes,
+thiols, and oximes. This method selected 1000 compounds.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Workflow for
+triage of ChEMBL compounds.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00527_0001" id="gr1" position="float"/></fig><p>The molecular targets and target pathogens for the original 20&#x0202f;000
+ChEMBL hits were reviewed. Compounds with a pathogen target or a molecular
+target not already covered by the first 1000 compounds were prioritized
+per target or organism on the basis of their MPO scores as described
+above. This selected an additional 200 compounds. Finally, since this
+overall initial list of 1200 promising discovery compounds was biased
+2:1 in favor of antibacterials, a second member of each antiviral
+cluster was added, resulting in a total of 748 antiviral compounds,
+1543 discovery compounds in total.</p><p>These 1543 compounds were
+then reviewed by an industry-experienced
+medicinal chemistry panel. Two reviewers were randomly assigned per
+compound, and each reviewer was asked to score a compound simply as
+selected or nonselected. Compounds selected by both reviewers were
+reclustered to 70% similarity<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> to reduce
+the number of compounds representing each cluster to no more than
+two. The coverage of targets and organisms was then reanalyzed to
+identify any mechanisms that were no longer covered, and in that case,
+compounds previously rejected by the reviewers were proposed for reintroduction
+to cover these gaps. The resulting compounds were reduced to a collection
+of 224 antibacterial and 204 antiviral discovery compounds, selected
+with a preference for high potency, low clogP, and avoidance of complex
+chemical structures.</p></sec><sec id="sec2.1.3"><label>3</label><title>Antifungal Compounds</title><p>A list of 300
+antifungal compounds from discovery and development phases including
+fungicides was extracted from the Clarivate Analytics Cortellis database.
+There is limited structural diversity among antifungals as compared
+with antibacterial and antiviral compounds, and the set also contained
+multiple formulations of the same compound. Formulation duplicates
+and complex natural products were removed from the list to bring it
+to a collection of 80 compounds. Since these compounds are representative
+of antifungal targets reported in the literature, and given our earlier
+experience of observing attrition at the acquisition (procurement
+or synthesis) stage, all these compounds were included in the final
+list of compounds for procurement and synthesis.</p></sec></sec><sec id="sec2.2"><title>Selection of
+the Final List</title><p>Feedback from some of the
+original testing groups working on the Malaria or Pathogen Boxes had
+underlined that 400 seemed to be the optimal number for a Box. This
+is especially important for groups working in neglected disease areas
+with limited resources and with pandemic pathogen assays, which have
+to be performed in biosafety level (BSL) 3 or 4 facilities. The selection
+process still left us with a set of 457 antibacterial and 439 antiviral
+compounds that was triaged further to reduce the list to a reasonable
+number for acquisition and provide a slot for inclusion of a substantial
+number of antifungal compounds (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>).</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Selection of the final compound set (HBA: hydrogen bond
+acceptors,
+HBD: hydrogen bond donors, PAINS: pan assay interference compounds).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00527_0002" id="gr2" position="float"/></fig><p>Antibacterial compounds were reclustered by Tanimoto
+structural
+similarity of &#x0003e;0.7 and also separately clustered by target mechanism.
+One commercially available compound was taken from each structural
+cluster, and one was taken from each target cluster. For clusters
+where compounds were not commercially available, one compound was
+selected for synthesis based on structure, launch phase (higher launch
+phase prioritized), and simplicity of synthesis. Representative compounds
+from the clusters with no listed molecular targets were also selected.
+This list was then supplemented with launched antibacterial compounds,
+providing 294 compounds in total. This set was then reviewed a final
+time by anti-infective experts to select 229 compounds for acquisition
+(procurement or synthesis).</p><p>Similarly, for antivirals, compounds
+were clustered by structure,
+target virus, and molecular target, if known. Using this combination,
+245 clusters were identified, and a representative from each cluster
+was selected on the basis of commercial availability or synthetic
+simplicity. From clusters that lacked either a defined molecular target
+or a known target organism, one compound was selected. This list was
+further supplemented with launched compounds and shared with experts
+for final selection. After a final visual check, 230 compounds were
+selected to ensure minimum chemical overlap and representation of
+clusters.</p><p>A final list of 539 compounds, including 80 antifungals,
+was assimilated
+for procurement or synthesis. Compounds with high cost of synthesis
+(&#x0003e;$1000 for &#x0223c;25 mg) were eliminated at this stage, leaving
+around 40% of the compounds planned for synthesis. As experienced
+earlier with the Malaria and Pathogen Boxes, a 20% attrition was observed
+due to unexpected synthetic difficulties, high cost, or extended lead
+time of starting materials or reagents. Furthermore, some of the synthesized
+compounds were not included in the box because less than 30 mg could
+be made. Of the 400 compounds that made it to the box, 164 were synthesized <italic>de novo</italic>.</p><sec id="sec2.2.1"><label>4</label><title>Composition of Pandemic Response
+Box</title><p>The final set of Pandemic Response Box compounds comprises
+201 antibacterial,
+153 antiviral, and 46 antifungal compounds, with some of them reported
+as active in multiple disease areas (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>). The initial aim was an approximate equal
+split between discovery and development/launched compounds. However,
+the extreme synthetic complexity and lack of an affordable commercial
+source for many of the development/launched compounds resulted in
+a larger proportion of discovery compounds in the final box (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>). These molecules
+act on a wide variety of targets, as summarized in <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Composition of the Pandemic
+Response Box, by disease area.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00527_0003" id="gr3" position="float"/></fig><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Composition
+of the Pandemic Response Box, by stage of development.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00527_0004" id="gr4" position="float"/></fig><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Mode of action for compounds included in the Pathogen Response
+Box by (A) antivirals, (B) antifungals, and (C) antibacterials. For
+(A), the categories not labeled in the pie are all 1%.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00527_0005" id="gr5" position="float"/></fig><p>Each 96-well plate has 16 wells left empty to allow for the
+addition
+of the appropriate positive and negative controls for the biological
+assay. The plate layout of the Pandemic Response Box has been designed
+to be flexible and to accommodate different screening setups. The
+wells contain 10 &#x003bc;L of a 10 mM solution in DMSO, supplied in
+V-shaped 96-well plates and are shipped frozen. The antifungal compounds
+are plated on Plate A, antibacterials on plate A&#x02013;C and antivirals
+on plate D and E. Nine compounds that could not be solubilized to
+produce 10 mM DMSO solutions are provided as 2 mM stocks. The Pandemic
+Box is available free of charge from MMV upon request (<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.mmv.org/mmv-open/pandemic-response-box">www.mmv.org/mmv-open/pandemic-response-box</uri>). The details of the compound set are in <xref rid="notes-1" ref-type="notes">Supplement
+S2</xref>, which lists structures, SMILES, molecular mass, calculated
+polar surface area, target class, chemical name, and MMV code. Importantly,
+there are considerable additional public domain data available for
+these molecules within databases such as ChEMBL.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> A literature or patent reference has been included for
+any compound not listed in ChEMBL.</p></sec><sec id="sec2.2.2"><label>5</label><title>Roll Out
+of the Pandemic Response Box Compound
+Set</title><p>Since the launch of the box in 2019 over 140 requests
+for the compound set have been received, indicating the great interest
+among researchers to screen high-quality compound collections. The
+wide geographic distribution of the recipients (<xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>) is a testament to the demand for this type
+of discovery tool, with 42% coming from Africa, Asia, and Latin America.
+Many of the recipient laboratories are located in regions where epidemic
+outbreaks or pandemic origins are frequent. The distribution pattern
+of this box is similar to what was observed with the Pathogen Box,
+where 36% of the boxes went to these regions.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Distribution of the Pandemic
+Response Box compound set, by region.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00527_0006" id="gr6" position="float"/></fig><p>To date, more than 50% of the Pandemic Response Boxes have been
+sent for screening against various viruses, including corona viruses
+and bacterial pathogens (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>). A sudden spike in requests for the Box for antiviral
+screening was observed in 2020, and by March 2020, MMV had already
+shipped a few copies for screening in SARS-CoV2 assays. The set has
+been screened in multiple assays developed to identify potential drugs
+for treatment of SARS-CoV2. This has led to the identification of
+active compounds <italic>in vitro</italic>(<xref ref-type="bibr" rid="ref21">21</xref>) that are being further characterized. The box has also been screened
+against other different high-priority pathogens, many of which have
+been listed as such by the U.S. CDC (Centers for Disease Control)
+and WHO (World Health Organization).</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Pathogen diversity for screening of Pandemic
+Response Box.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00527_0007" id="gr7" position="float"/></fig><p>This is in stark contrast with
+screening campaigns run with the
+Pathogen Box, where only 5% of requests were for antiviral screening.
+On the other hand, fewer screens have been performed against kinetoplastids
+and Apicomplexa.</p><p>Screening of the Pandemic Response Box has
+resulted in 11 publications
+so far.<sup><xref ref-type="bibr" rid="ref21">21</xref>&#x02212;<xref ref-type="bibr" rid="ref31">31</xref></sup> Such a lag is similar to what was observed for earlier boxes with
+the peak 2&#x02013;3 years after launch, as seen in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>. Throughout 2020 and early
+2021, the pandemic has shifted research, with a focus on SARS-CoV2,
+impacting the number and delaying publications.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>Number of PubMed-listed
+publications, by year, that cite one of
+the three Boxes.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00527_0008" id="gr8" position="float"/></fig></sec></sec></sec></body><back><notes id="notes-1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information
+is available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/10.1021/acsinfecdis.1c00527?goto=supporting-info">https://pubs.acs.org/doi/10.1021/acsinfecdis.1c00527</ext-link>.<list id="silist" list-type="simple"><list-item><p>S1 Search strategy (pathogen
+list) used for the Cortellis
+search (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsinfecdis.1c00527/suppl_file/id1c00527_si_001.pdf">PDF</ext-link>)</p></list-item><list-item><p>S2 List of Pandemic Response Box compounds with compound
+details (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsinfecdis.1c00527/suppl_file/id1c00527_si_002.xlsx">XLSX</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00527_si_001.pdf"><caption><p>id1c00527_si_001.pdf</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sifile2"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00527_si_002.xlsx"><caption><p>id1c00527_si_002.xlsx</p></caption></media></supplementary-material></sec><notes notes-type="" id="notes-2"><title>Author Contributions</title><p>T.N.C.W.
+conceived of the original idea. K.D.S., P.G., J.M., G.W., R.H., A.M.,
+C.M., B.P. and P.A.W. designed and implemented the research plan described
+in the manuscript. A.D. and B.D.P. supervised the synthesis of compounds.
+K.D.S., D.B., A.D., A.S., and P.A.W. managed the launch and distribution
+of the Pandemic Response Box. K.D.S., B.P., R.H., and P.A.W. wrote
+the manuscript with input from all authors.</p></notes><notes notes-type="funding-statement" id="notes-3"><p>This work was
+supported by the Bill &#x00026; Melinda Gates Foundation, U.S.A. (grant
+OPP1082091&#x00026; 19-BMGF-006), as well as U.K. aid. Full details of
+MMV funding can be found at <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.mmv.org/about-us/funding-and-expenditure">https://www.mmv.org/about-us/funding-and-expenditure</uri>. DND<italic>i</italic> is grateful to its donors, public and private,
+who have provided funding to DND<italic>i</italic> since its inception
+in 2003. A full list of DND<italic>i</italic>&#x02019;s donors can
+be found at <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.dndi.org/donors/donors/">http://www.dndi.org/donors/donors/</uri>. Under the grant conditions of the foundation, a Creative Commons
+Attribution4.0 Generic License has already been assigned to the Author
+Accepted Manuscript version that might arise from this submission.
+The funders had no role in study design, data collection and analysis,
+decision to publish, or preparation of the manuscript.</p></notes><notes notes-type="COI-statement" id="notes-4"><p>The authors
+declare no competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>T.W. would like to thank Dr. Sue Kinn at FCDO (Foreign,
+Commonwealth
+and Development Office, U.K.) for her motivation and support to move
+this project from an excellent idea to its current reality. Dr. Alan
+Brown (AD Brown Med Chem Consultancy Ltd), Dr. Albert Palomer (Drug
+Discovery expert, consultant) Dr. Andrew Bell (Exscientia), and Dr.
+Nicholas A. Meanwell (Bristol Myers Squibb) are thanked for serving
+as members of the Medicinal Chemistry Selection Committee).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Stone</surname><given-names>H.</given-names></name>; <name><surname>Sacks</surname><given-names>L.</given-names></name>; <name><surname>Tiernan</surname><given-names>R.</given-names></name>; <name><surname>Duggal</surname><given-names>M.</given-names></name>; <name><surname>Sheils</surname><given-names>T.</given-names></name>; <name><surname>Southall</surname><given-names>N.</given-names></name>
+<article-title>Collaborative Use Repurposing Engine (CURE): FDA-NCATS/NIH
+Effort to Capture the Global Clinical Experience of Drug Repurposing
+to Facilitate Development of New Treatments for Neglected and Emerging
+Infectious Diseases</article-title>. <source>Open forum infectious diseases</source>
+<year>2017</year>, <volume>4</volume> (<issue>suppl_1</issue>), <fpage>S12</fpage>&#x02013;<lpage>S12</lpage>. <pub-id pub-id-type="doi">10.1093/ofid/ofx162.030</pub-id>.</mixed-citation><note><p>(acccessed 8/18/2020).</p></note></ref><ref id="ref2"><mixed-citation publication-type="weblink" id="cit2"><person-group><collab>U.S. Department of Health &#x00026; Human Services</collab></person-group>. <article-title>Report on NIH Funding vs. Global
+Burden of Disease</article-title>. <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://report.nih.gov/info_disease_burden.aspx">https://report.nih.gov/info_disease_burden.aspx</uri> (<year>2015</year>).</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><article-title>Global, regional, and national disability-adjusted
+life-years (DALYs) for 359 diseases and injuries and healthy life
+expectancy (HALE) for 195 countries and territories, 1990&#x02013;2017:
+a systematic analysis for the Global Burden of Disease Study 2017</article-title>. <source>Lancet</source>
+<year>2018</year>, <volume>392</volume> (<issue>10159</issue>), <fpage>1859</fpage>&#x02013;<lpage>1922</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(18)32335-3</pub-id>.<pub-id pub-id-type="pmid">30415748</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Spangenberg</surname><given-names>T.</given-names></name>; <name><surname>Burrows</surname><given-names>J. N.</given-names></name>; <name><surname>Kowalczyk</surname><given-names>P.</given-names></name>; <name><surname>McDonald</surname><given-names>S.</given-names></name>; <name><surname>Wells</surname><given-names>T. N.</given-names></name>; <name><surname>Willis</surname><given-names>P.</given-names></name>
+<article-title>The open access malaria
+box: a drug discovery catalyst
+for neglected diseases</article-title>. <source>PLoS One</source>
+<year>2013</year>, <volume>8</volume> (<issue>6</issue>), <fpage>e62906</fpage><pub-id pub-id-type="doi">10.1371/journal.pone.0062906</pub-id>.<pub-id pub-id-type="pmid">23798988</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Van
+Voorhis</surname><given-names>W. C.</given-names></name>; <name><surname>Adams</surname><given-names>J. H.</given-names></name>; <name><surname>Adelfio</surname><given-names>R.</given-names></name>; <name><surname>Ahyong</surname><given-names>V.</given-names></name>; <name><surname>Akabas</surname><given-names>M. H.</given-names></name>; <name><surname>Alano</surname><given-names>P.</given-names></name>; <name><surname>Alday</surname><given-names>A.</given-names></name>; <name><surname>Alem&#x000e1;n
+Resto</surname><given-names>Y.</given-names></name>; <name><surname>Alsibaee</surname><given-names>A.</given-names></name>; <name><surname>Alzualde</surname><given-names>A.</given-names></name>; <name><surname>Andrews</surname><given-names>K. T.</given-names></name>; <name><surname>Avery</surname><given-names>S. V.</given-names></name>; <name><surname>Avery</surname><given-names>V. M.</given-names></name>; <name><surname>Ayong</surname><given-names>L.</given-names></name>; <name><surname>Baker</surname><given-names>M.</given-names></name>; <name><surname>Baker</surname><given-names>S.</given-names></name>; <name><surname>Ben Mamoum</surname><given-names>C.</given-names></name>; <name><surname>Bhatia</surname><given-names>S.</given-names></name>; <name><surname>Bickle</surname><given-names>Q.</given-names></name>; <name><surname>Bounaadja</surname><given-names>L.</given-names></name>; <name><surname>Bowling</surname><given-names>T.</given-names></name>; <name><surname>Bosch</surname><given-names>J.</given-names></name>; <name><surname>Boucher</surname><given-names>L. E.</given-names></name>; <name><surname>Boyom</surname><given-names>F. F.</given-names></name>; <name><surname>Brea</surname><given-names>J.</given-names></name>; <name><surname>Brennan</surname><given-names>M.</given-names></name>; <name><surname>Burton</surname><given-names>A.</given-names></name>; <name><surname>Caffrey</surname><given-names>C. R.</given-names></name>; <name><surname>Camarda</surname><given-names>G.</given-names></name>; <name><surname>Carrasquilla</surname><given-names>M.</given-names></name>; <name><surname>Carter</surname><given-names>D.</given-names></name>; <name><surname>Belen Cassera</surname><given-names>M.</given-names></name>; <name><surname>Cheng</surname><given-names>K. C.-C.</given-names></name>; <name><surname>Chindaudomsate</surname><given-names>W.</given-names></name>; <name><surname>Chubb</surname><given-names>A.</given-names></name>; <name><surname>Colon</surname><given-names>B. L.</given-names></name>; <name><surname>Col&#x000f3;n-L&#x000f3;pez</surname><given-names>D. C.</given-names></name>; <name><surname>Corbett</surname><given-names>Y.</given-names></name>; <name><surname>Crowther</surname><given-names>G. J.</given-names></name>; <name><surname>Cowan</surname><given-names>N.</given-names></name>; <name><surname>D&#x02019;Alessandro</surname><given-names>S.</given-names></name>; <name><surname>Le Dang</surname><given-names>N.</given-names></name>; <name><surname>Delves</surname><given-names>M.</given-names></name>; <name><surname>DeRisi</surname><given-names>J. L.</given-names></name>; <name><surname>Du</surname><given-names>A. Y.</given-names></name>; <name><surname>Duffy</surname><given-names>S.</given-names></name>; <name><surname>Abd El-Salam El-Sayed</surname><given-names>S.</given-names></name>; <name><surname>Ferdig</surname><given-names>M. T.</given-names></name>; <name><surname>Ferreira</surname><given-names>R. S.</given-names></name>; <name><surname>Fern&#x000e1;ndez Robledo</surname><given-names>J. A.</given-names></name>; <name><surname>Fidock</surname><given-names>D. A.</given-names></name>; <name><surname>Florent</surname><given-names>I.</given-names></name>; <name><surname>Fokou</surname><given-names>P. V. T.</given-names></name>; <name><surname>Galstian</surname><given-names>A.</given-names></name>; <name><surname>Gamo</surname><given-names>F. J.</given-names></name>; <name><surname>Gokool</surname><given-names>S.</given-names></name>; <name><surname>Gold</surname><given-names>B.</given-names></name>; <name><surname>Golub</surname><given-names>T.</given-names></name>; <name><surname>Goldgof</surname><given-names>G. M.</given-names></name>; <name><surname>Guha</surname><given-names>R.</given-names></name>; <name><surname>Guiguemde</surname><given-names>W. A.</given-names></name>; <name><surname>Gural</surname><given-names>N.</given-names></name>; <name><surname>Guy</surname><given-names>R. K.</given-names></name>; <name><surname>Hansen</surname><given-names>M. A. E.</given-names></name>; <name><surname>Hanson</surname><given-names>K. K.</given-names></name>; <name><surname>Hemphill</surname><given-names>A.</given-names></name>; <name><surname>Hooft van
+Huijsduijnen</surname><given-names>R.</given-names></name>; <name><surname>Horii</surname><given-names>T.</given-names></name>; <name><surname>Horrocks</surname><given-names>P.</given-names></name>; <name><surname>Hughes</surname><given-names>T. B.</given-names></name>; <name><surname>Huston</surname><given-names>C.</given-names></name>; <name><surname>Igarashi</surname><given-names>I.</given-names></name>; <name><surname>Ingram-Sieber</surname><given-names>K.</given-names></name>; <name><surname>Itoe</surname><given-names>M. A.</given-names></name>; <name><surname>Jadhav</surname><given-names>A.</given-names></name>; <name><surname>Jensen</surname><given-names>A. N.</given-names></name>; <name><surname>Jensen</surname><given-names>L. T.</given-names></name>; <name><surname>Jiang</surname><given-names>R. H.</given-names></name>; <name><surname>Kaiser</surname><given-names>A.</given-names></name>; <name><surname>Keiser</surname><given-names>J.</given-names></name>; <name><surname>Ketas</surname><given-names>T.</given-names></name>; <name><surname>Kicka</surname><given-names>S.</given-names></name>; <name><surname>Kim</surname><given-names>S.</given-names></name>; <name><surname>Kirk</surname><given-names>K.</given-names></name>; <name><surname>Kumar</surname><given-names>V.</given-names></name>; <name><surname>Kyle</surname><given-names>D. E.</given-names></name>; <name><surname>Lafuente</surname><given-names>M. J.</given-names></name>; <name><surname>Landfear</surname><given-names>S.</given-names></name>; <name><surname>Lee</surname><given-names>N.</given-names></name>; <name><surname>Lee</surname><given-names>S.</given-names></name>; <name><surname>Lehane</surname><given-names>A.</given-names></name>; <name><surname>Li</surname><given-names>F.</given-names></name>; <name><surname>Little</surname><given-names>D.</given-names></name>; <name><surname>Liu</surname><given-names>L.</given-names></name>; <name><surname>Llin&#x000e1;s</surname><given-names>M.</given-names></name>; <name><surname>Loza</surname><given-names>M. I.</given-names></name>; <name><surname>Lubar</surname><given-names>A.</given-names></name>; <name><surname>Lucantoni</surname><given-names>L.</given-names></name>; <name><surname>Lucet</surname><given-names>I.</given-names></name>; <name><surname>Maes</surname><given-names>L.</given-names></name>; <name><surname>Mancama</surname><given-names>D.</given-names></name>; <name><surname>Mansour</surname><given-names>N. R.</given-names></name>; <name><surname>March</surname><given-names>S.</given-names></name>; <name><surname>McGowan</surname><given-names>S.</given-names></name>; <name><surname>Vera</surname><given-names>I. M.</given-names></name>; <name><surname>Meister</surname><given-names>S.</given-names></name>; <name><surname>Mercer</surname><given-names>L.</given-names></name>; <name><surname>Mestres</surname><given-names>J.</given-names></name>; <name><surname>Mfopa</surname><given-names>A. N.</given-names></name>; <name><surname>Misra</surname><given-names>R. N.</given-names></name>; <name><surname>Moon</surname><given-names>S.</given-names></name>; <name><surname>Moore</surname><given-names>J. P.</given-names></name>; <name><surname>M&#x000fc;ller</surname><given-names>J.</given-names></name>; <name><surname>Muriana</surname><given-names>A.</given-names></name>; <name><surname>Nakazawa Hewitt</surname><given-names>S.</given-names></name>; <name><surname>Nare</surname><given-names>B.</given-names></name>; <name><surname>athan</surname><given-names>C. N.</given-names></name>; <name><surname>Narraidoo</surname><given-names>N.</given-names></name>; <name><surname>Nawaratna</surname><given-names>S.</given-names></name>; <name><surname>Ojo</surname><given-names>K. K.</given-names></name>; <name><surname>Ortiz</surname><given-names>D.</given-names></name>; <name><surname>Panic</surname><given-names>G.</given-names></name>; <name><surname>Papadatos</surname><given-names>G.</given-names></name>; <name><surname>Parapini</surname><given-names>S.</given-names></name>; <name><surname>Patra</surname><given-names>K.</given-names></name>; <name><surname>Pham</surname><given-names>N.</given-names></name>; <name><surname>Prats</surname><given-names>S.</given-names></name>; <name><surname>Plouffe</surname><given-names>D. M.</given-names></name>; <name><surname>Poulsen</surname><given-names>S.-A.</given-names></name>; <name><surname>Pradhan</surname><given-names>A.</given-names></name>; <name><surname>Quevedo</surname><given-names>C.</given-names></name>; <name><surname>Quinn</surname><given-names>R. J.</given-names></name>; <name><surname>Rice</surname><given-names>C. A.</given-names></name>; <name><surname>Rizk</surname><given-names>M. A.</given-names></name>; <name><surname>Morais Rodrigues da Costa</surname><given-names>F.</given-names></name>; <name><surname>Ruecker</surname><given-names>A.</given-names></name>; <name><surname>St.Onge</surname><given-names>R.</given-names></name>; <name><surname>Samra</surname><given-names>J.</given-names></name>; <name><surname>Sanders</surname><given-names>N. G.</given-names></name>; <name><surname>Schlecht</surname><given-names>U.</given-names></name>; <name><surname>Schmitt</surname><given-names>M.</given-names></name>; <name><surname>Sinden</surname><given-names>R.</given-names></name>; <name><surname>Silvestrini</surname><given-names>F.</given-names></name>; <name><surname>Smith</surname><given-names>D. A.</given-names></name>; <name><surname>Soldati</surname><given-names>T.</given-names></name>; <name><surname>Spitzm&#x000fc;ller</surname><given-names>A.</given-names></name>; <name><surname>Stamm</surname><given-names>S. M.</given-names></name>; <name><surname>Sullivan</surname><given-names>D. J.</given-names></name>; <name><surname>Sullivan</surname><given-names>W.</given-names></name>; <name><surname>Suresh</surname><given-names>S.</given-names></name>; <name><surname>Suzuki</surname><given-names>B. M.</given-names></name>; <name><surname>Suzuki</surname><given-names>Y.</given-names></name>; <name><surname>Swamidass</surname><given-names>S. J.</given-names></name>; <name><surname>Taramelli</surname><given-names>D.</given-names></name>; <name><surname>Tchokouaha</surname><given-names>L. R. Y.</given-names></name>; <name><surname>Theron</surname><given-names>A.</given-names></name>; <name><surname>Thomas</surname><given-names>D.</given-names></name>; <name><surname>Tonissen</surname><given-names>K. F.</given-names></name>; <name><surname>Townson</surname><given-names>S.</given-names></name>; <name><surname>Tripathi</surname><given-names>A. K.</given-names></name>; <name><surname>Trofimov</surname><given-names>V.</given-names></name>; <name><surname>Udenze</surname><given-names>K. O.</given-names></name>; <name><surname>Ullah</surname><given-names>I.</given-names></name>; <name><surname>Vallieres</surname><given-names>C.</given-names></name>; <name><surname>Vigil</surname><given-names>E.</given-names></name>; <name><surname>Villela</surname><given-names>F. S.</given-names></name>; <name><surname>Vinetz</surname><given-names>J. M.</given-names></name>; <name><surname>Vinh</surname><given-names>P. V.</given-names></name>; <name><surname>Vu</surname><given-names>H.</given-names></name>; <name><surname>Watanabe</surname><given-names>N.-a.</given-names></name>; <name><surname>Weatherby</surname><given-names>K.</given-names></name>; <name><surname>White</surname><given-names>P. M.</given-names></name>; <name><surname>Wilks</surname><given-names>A. F.</given-names></name>; <name><surname>Winzeler</surname><given-names>E. A.</given-names></name>; <name><surname>Wojcik</surname><given-names>E.</given-names></name>; <name><surname>Wree</surname><given-names>M.</given-names></name>; <name><surname>Wu</surname><given-names>W.</given-names></name>; <name><surname>Yokoyama</surname><given-names>N.</given-names></name>; <name><surname>Zollo</surname><given-names>P. H. A.</given-names></name>; <name><surname>Abla</surname><given-names>N.</given-names></name>; <name><surname>Blasco</surname><given-names>B.</given-names></name>; <name><surname>Burrows</surname><given-names>J.</given-names></name>; <name><surname>Laleu</surname><given-names>B.</given-names></name>; <name><surname>Leroy</surname><given-names>D.</given-names></name>; <name><surname>Spangenberg</surname><given-names>T.</given-names></name>; <name><surname>Wells</surname><given-names>T. N.</given-names></name>; <name><surname>Willis</surname><given-names>P.</given-names></name>
+<article-title>Open source drug discovery with the
+Malaria Box compound collection for neglected diseases and beyond</article-title>. <source>PLOS Pathogens</source>
+<year>2016</year>, <volume>12</volume> (<issue>7</issue>), <fpage>e1005763</fpage><pub-id pub-id-type="doi">10.1371/journal.ppat.1005763</pub-id>.<pub-id pub-id-type="pmid">27467575</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Wells</surname><given-names>T. N. C.</given-names></name>; <name><surname>Willis</surname><given-names>P.</given-names></name>; <name><surname>Burrows</surname><given-names>J. N.</given-names></name>; <name><surname>Hooft
+van Huijsduijnen</surname><given-names>R.</given-names></name>
+<article-title>Open data
+in drug discovery and development: lessons from malaria</article-title>. <source>Nat. Rev. Drug Discov</source>
+<year>2016</year>, <volume>15</volume> (<issue>10</issue>), <fpage>661</fpage>&#x02013;<lpage>662</lpage>. <pub-id pub-id-type="doi">10.1038/nrd.2016.154</pub-id>.<pub-id pub-id-type="pmid">27516171</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Panic</surname><given-names>G.</given-names></name>; <name><surname>Vargas</surname><given-names>M.</given-names></name>; <name><surname>Scandale</surname><given-names>I.</given-names></name>; <name><surname>Keiser</surname><given-names>J.</given-names></name>
+<article-title>Activity Profile of
+an FDA-Approved Compound Library against Schistosoma mansoni</article-title>. <source>PLoS Negl Trop Dis</source>
+<year>2015</year>, <volume>9</volume> (<issue>7</issue>), <fpage>e0003962</fpage><pub-id pub-id-type="doi">10.1371/journal.pntd.0003962</pub-id>.<pub-id pub-id-type="pmid">26230921</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Lane</surname><given-names>T. R.</given-names></name>; <name><surname>Massey</surname><given-names>C.</given-names></name>; <name><surname>Comer</surname><given-names>J. E.</given-names></name>; <name><surname>Anantpadma</surname><given-names>M.</given-names></name>; <name><surname>Freundlich</surname><given-names>J. S.</given-names></name>; <name><surname>Davey</surname><given-names>R. A.</given-names></name>; <name><surname>Madrid</surname><given-names>P. B.</given-names></name>; <name><surname>Ekins</surname><given-names>S.</given-names></name>
+<article-title>Repurposing
+the antimalarial pyronaridine tetraphosphate to protect against Ebola
+virus infection</article-title>. <source>PLoS Negl Trop Dis</source>
+<year>2019</year>, <volume>13</volume> (<issue>11</issue>), <fpage>e0007890</fpage><pub-id pub-id-type="doi">10.1371/journal.pntd.0007890</pub-id>.<pub-id pub-id-type="pmid">31751347</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><person-group person-group-type="allauthors"><name><surname>Ekins</surname><given-names>S.</given-names></name>; <name><surname>Lingerfelt</surname><given-names>M. A.</given-names></name>; <name><surname>Comer</surname><given-names>J. E.</given-names></name>; <name><surname>Freiberg</surname><given-names>A. N.</given-names></name>; <name><surname>Mirsalis</surname><given-names>J. C.</given-names></name>; <name><surname>O&#x02019;Loughlin</surname><given-names>K.</given-names></name>; <name><surname>Harutyunyan</surname><given-names>A.</given-names></name>; <name><surname>McFarlane</surname><given-names>C.</given-names></name>; <name><surname>Green</surname><given-names>C. E.</given-names></name>; <name><surname>Madrid</surname><given-names>P. B.</given-names></name></person-group><article-title>Efficacy of
+Tilorone Dihydrochloride against Ebola Virus Infection</article-title>. <source>Antimicrob. Agents Chemother.</source><year>2018</year>, <volume>62</volume> ( (<issue>2</issue>), ).<pub-id pub-id-type="doi">10.1128/AAC.01711-17</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Lotharius</surname><given-names>J.</given-names></name>; <name><surname>Gamo-Benito</surname><given-names>F. J.</given-names></name>; <name><surname>Angulo-Barturen</surname><given-names>I.</given-names></name>; <name><surname>Clark</surname><given-names>J.</given-names></name>; <name><surname>Connelly</surname><given-names>M.</given-names></name>; <name><surname>Ferrer-Bazaga</surname><given-names>S.</given-names></name>; <name><surname>Parkinson</surname><given-names>T.</given-names></name>; <name><surname>Viswanath</surname><given-names>P.</given-names></name>; <name><surname>Bandodkar</surname><given-names>B.</given-names></name>; <name><surname>Rautela</surname><given-names>N.</given-names></name>; <name><surname>Bharath</surname><given-names>S.</given-names></name>; <name><surname>Duffy</surname><given-names>S.</given-names></name>; <name><surname>Avery</surname><given-names>V. M.</given-names></name>; <name><surname>Mohrle</surname><given-names>J. J.</given-names></name>; <name><surname>Guy</surname><given-names>R. K.</given-names></name>; <name><surname>Wells</surname><given-names>T.</given-names></name>
+<article-title>Repositioning:
+the fast track to new anti-malarial medicines?</article-title>. <source>Malar J.</source>
+<year>2014</year>, <volume>13</volume>, <fpage>143</fpage><pub-id pub-id-type="doi">10.1186/1475-2875-13-143</pub-id>.<pub-id pub-id-type="pmid">24731288</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Pushpakom</surname><given-names>S.</given-names></name>; <name><surname>Iorio</surname><given-names>F.</given-names></name>; <name><surname>Eyers</surname><given-names>P. A.</given-names></name>; <name><surname>Escott</surname><given-names>K. J.</given-names></name>; <name><surname>Hopper</surname><given-names>S.</given-names></name>; <name><surname>Wells</surname><given-names>A.</given-names></name>; <name><surname>Doig</surname><given-names>A.</given-names></name>; <name><surname>Guilliams</surname><given-names>T.</given-names></name>; <name><surname>Latimer</surname><given-names>J.</given-names></name>; <name><surname>McNamee</surname><given-names>C.</given-names></name>; <name><surname>Norris</surname><given-names>A.</given-names></name>; <name><surname>Sanseau</surname><given-names>P.</given-names></name>; <name><surname>Cavalla</surname><given-names>D.</given-names></name>; <name><surname>Pirmohamed</surname><given-names>M.</given-names></name>
+<article-title>Drug repurposing:
+progress, challenges
+and recommendations</article-title>. <source>Nat. Rev. Drug Discov</source>
+<year>2019</year>, <volume>18</volume> (<issue>1</issue>), <fpage>41</fpage>&#x02013;<lpage>58</lpage>. <pub-id pub-id-type="doi">10.1038/nrd.2018.168</pub-id>.<pub-id pub-id-type="pmid">30310233</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Janes</surname><given-names>J.</given-names></name>; <name><surname>Young</surname><given-names>M. E.</given-names></name>; <name><surname>Chen</surname><given-names>E.</given-names></name>; <name><surname>Rogers</surname><given-names>N. H.</given-names></name>; <name><surname>Burgstaller-Muehlbacher</surname><given-names>S.</given-names></name>; <name><surname>Hughes</surname><given-names>L. D.</given-names></name>; <name><surname>Love</surname><given-names>M. S.</given-names></name>; <name><surname>Hull</surname><given-names>M. V.</given-names></name>; <name><surname>Kuhen</surname><given-names>K. L.</given-names></name>; <name><surname>Woods</surname><given-names>A. K.</given-names></name>; <name><surname>Joseph</surname><given-names>S. B.</given-names></name>; <name><surname>Petrassi</surname><given-names>H. M.</given-names></name>; <name><surname>McNamara</surname><given-names>C. W.</given-names></name>; <name><surname>Tremblay</surname><given-names>M. S.</given-names></name>; <name><surname>Su</surname><given-names>A. I.</given-names></name>; <name><surname>Schultz</surname><given-names>P. G.</given-names></name>; <name><surname>Chatterjee</surname><given-names>A. K.</given-names></name>
+<article-title>The ReFRAME
+library as a comprehensive drug repurposing library and its application
+to the treatment of cryptosporidiosis</article-title>. <source>Proc.
+Natl. Acad. Sci. U. S. A.</source>
+<year>2018</year>, <volume>115</volume> (<issue>42</issue>), <fpage>10750</fpage>&#x02013;<lpage>10755</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1810137115</pub-id>.<pub-id pub-id-type="pmid">30282735</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Hain</surname><given-names>A. U.P.</given-names></name>; <name><surname>Bartee</surname><given-names>D.</given-names></name>; <name><surname>Sanders</surname><given-names>N. G.</given-names></name>; <name><surname>Miller</surname><given-names>A. S.</given-names></name>; <name><surname>Sullivan</surname><given-names>D. J.</given-names></name>; <name><surname>Levitskaya</surname><given-names>J.</given-names></name>; <name><surname>Meyers</surname><given-names>C. F.</given-names></name>; <name><surname>Bosch</surname><given-names>J.</given-names></name>
+<article-title>Identification of an
+Atg8-Atg3 protein-protein interaction inhibitor from the Medicines
+for Malaria Venture Malaria Box active in blood and liver stage Plasmodium
+falciparum parasites</article-title>. <source>J. Med. Chem.</source>
+<year>2014</year>, <volume>57</volume>, <fpage>4521</fpage><pub-id pub-id-type="doi">10.1021/jm401675a</pub-id>.<pub-id pub-id-type="pmid">24786226</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Preston</surname><given-names>S.</given-names></name>; <name><surname>Jiao</surname><given-names>Y.</given-names></name>; <name><surname>Jabbar</surname><given-names>A.</given-names></name>; <name><surname>McGee</surname><given-names>S. L.</given-names></name>; <name><surname>Laleu</surname><given-names>B.</given-names></name>; <name><surname>Willis</surname><given-names>P.</given-names></name>; <name><surname>Wells</surname><given-names>T. N.</given-names></name>; <name><surname>Gasser</surname><given-names>R. B.</given-names></name>
+<article-title>Screening of the
+&#x02019;Pathogen Box&#x02019; identifies an approved pesticide with
+major anthelmintic activity against the barber&#x02019;s pole worm</article-title>. <source>International journal for parasitology -- drugs and drug resistance</source>
+<year>2016</year>, <volume>6</volume> (<issue>3</issue>), <fpage>329</fpage>&#x02013;<lpage>334</lpage>. <pub-id pub-id-type="doi">10.1016/j.ijpddr.2016.07.004</pub-id>.<pub-id pub-id-type="pmid">27524698</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Vila</surname><given-names>T.</given-names></name>; <name><surname>Lopez-Ribot</surname><given-names>J. L.</given-names></name>
+<article-title>Screening the &#x02033;Pathogen Box&#x02033; for the
+Identification of Candida albicans Biofilm Inhibitors</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<year>2017</year>, <pub-id pub-id-type="doi">10.1128/AAC.02006-16</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Fonteilles-Drabek</surname><given-names>S.</given-names></name>; <name><surname>Reddy</surname><given-names>D.</given-names></name>; <name><surname>Wells</surname><given-names>T. N. C.</given-names></name>
+<article-title>Managing intellectual property to
+develop medicines for the world&#x02019;s poorest</article-title>. <source>Nature Reviews in Drug Discovery</source>
+<year>2017</year>, <volume>16</volume> (<issue>April</issue>), <fpage>223</fpage><pub-id pub-id-type="doi">10.1038/nrd.2017.24</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Baell</surname><given-names>J. B.</given-names></name>; <name><surname>Holloway</surname><given-names>G. A.</given-names></name>
+<article-title>New substructure
+filters for removal of pan assay interference
+compounds (PAINS) from screening libraries and for their exclusion
+in bioassays</article-title>. <source>J. Med. Chem.</source>
+<year>2010</year>, <volume>53</volume> (<issue>7</issue>), <fpage>2719</fpage>&#x02013;<lpage>2740</lpage>. <pub-id pub-id-type="doi">10.1021/jm901137j</pub-id>.<pub-id pub-id-type="pmid">20131845</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Wager</surname><given-names>T. T.</given-names></name>; <name><surname>Hou</surname><given-names>X.</given-names></name>; <name><surname>Verhoest</surname><given-names>P. R.</given-names></name>; <name><surname>Villalobos</surname><given-names>A.</given-names></name>
+<article-title>Moving beyond rules: the development
+of a central nervous system multiparameter optimization (CNS MPO)
+approach to enable alignment of druglike properties</article-title>. <source>ACS chemical neuroscience</source>
+<year>2010</year>, <volume>1</volume> (<issue>6</issue>), <fpage>435</fpage>&#x02013;<lpage>449</lpage>. <pub-id pub-id-type="doi">10.1021/cn100008c</pub-id>.<pub-id pub-id-type="pmid">22778837</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Harrington</surname><given-names>E. C.</given-names></name>
+<article-title>The Desirability
+Function</article-title>. <source>Industrial Quality Control</source>
+<year>1965</year>, <volume>21</volume>, <fpage>494</fpage>&#x02013;<lpage>498</lpage>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Bento</surname><given-names>A. P.</given-names></name>; <name><surname>Gaulton</surname><given-names>A.</given-names></name>; <name><surname>Hersey</surname><given-names>A.</given-names></name>; <name><surname>Bellis</surname><given-names>L. J.</given-names></name>; <name><surname>Chambers</surname><given-names>J.</given-names></name>; <name><surname>Davies</surname><given-names>M.</given-names></name>; <name><surname>Kruger</surname><given-names>F. A.</given-names></name>; <name><surname>Light</surname><given-names>Y.</given-names></name>; <name><surname>Mak</surname><given-names>L.</given-names></name>; <name><surname>McGlinchey</surname><given-names>S.</given-names></name>; <name><surname>Nowotka</surname><given-names>M.</given-names></name>; <name><surname>Papadatos</surname><given-names>G.</given-names></name>; <name><surname>Santos</surname><given-names>R.</given-names></name>; <name><surname>Overington</surname><given-names>J. P.</given-names></name>
+<article-title>The ChEMBL
+bioactivity database:
+an update</article-title>. <source>Nucleic Acids Res.</source>
+<year>2014</year>, <volume>42</volume> (<issue>Database issue</issue>), <fpage>D1083</fpage>&#x02013;<lpage>D1090</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkt1031</pub-id>.<pub-id pub-id-type="pmid">24214965</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Holwerda</surname><given-names>M.</given-names></name>; <name><surname>V&#x02019;Kovski</surname><given-names>P.</given-names></name>; <name><surname>Wider</surname><given-names>M.</given-names></name>; <name><surname>Thiel</surname><given-names>V.</given-names></name>; <name><surname>Dijkman</surname><given-names>R.</given-names></name>
+<article-title>Identification
+of an Antiviral Compound from the Pandemic Response Box that Efficiently
+Inhibits SARS-CoV-2 Infection In Vitro</article-title>. <source>Microorganisms</source>
+<year>2020</year>, <volume>8</volume> (<issue>12</issue>), <fpage>1872</fpage><pub-id pub-id-type="doi">10.3390/microorganisms8121872</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Rice</surname><given-names>C. A.</given-names></name>; <name><surname>Troth</surname><given-names>E. V.</given-names></name>; <name><surname>Russell</surname><given-names>A. C.</given-names></name>; <name><surname>Kyle</surname><given-names>D. E.</given-names></name>
+<article-title>Discovery of Anti-Amoebic
+Inhibitors from Screening the MMV Pandemic Response Box on Balamuthia
+mandrillaris, Naegleria fowleri, and Acanthamoeba castellanii</article-title>. <source>Pathogens (Basel, Switzerland)</source>
+<year>2020</year>, <volume>9</volume> (<issue>6</issue>), <fpage>476</fpage><pub-id pub-id-type="doi">10.3390/pathogens9060476</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Choi</surname><given-names>R.</given-names></name>; <name><surname>Zhou</surname><given-names>M.</given-names></name>; <name><surname>Shek</surname><given-names>R.</given-names></name>; <name><surname>Wilson</surname><given-names>J. W.</given-names></name>; <name><surname>Tillery</surname><given-names>L.</given-names></name>; <name><surname>Craig</surname><given-names>J. K.</given-names></name>; <name><surname>Salukhe</surname><given-names>I. A.</given-names></name>; <name><surname>Hickson</surname><given-names>S. E.</given-names></name>; <name><surname>Kumar</surname><given-names>N.</given-names></name>; <name><surname>James</surname><given-names>R. M.</given-names></name>; <name><surname>Buchko</surname><given-names>G. W.</given-names></name>; <name><surname>Wu</surname><given-names>R.</given-names></name>; <name><surname>Huff</surname><given-names>S.</given-names></name>; <name><surname>Nguyen</surname><given-names>T. T.</given-names></name>; <name><surname>Hurst</surname><given-names>B. L.</given-names></name>; <name><surname>Cherry</surname><given-names>S.</given-names></name>; <name><surname>Barrett</surname><given-names>L. K.</given-names></name>; <name><surname>Hyde</surname><given-names>J. L.</given-names></name>; <name><surname>Van Voorhis</surname><given-names>W. C.</given-names></name>
+<article-title>High-throughput
+screening of the
+ReFRAME, Pandemic Box, and COVID Box drug repurposing libraries against
+SARS-CoV-2 nsp15 endoribonuclease to identify small-molecule inhibitors
+of viral activity</article-title>. <source>PLoS One</source>
+<year>2021</year>, <volume>16</volume> (<issue>4</issue>), <fpage>e0250019</fpage><pub-id pub-id-type="doi">10.1371/journal.pone.0250019</pub-id>.<pub-id pub-id-type="pmid">33886614</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Fernandes</surname><given-names>R. S.</given-names></name>; <name><surname>de Godoy</surname><given-names>A. S.</given-names></name>; <name><surname>Dos Santos</surname><given-names>I. A.</given-names></name>; <name><surname>Noske</surname><given-names>G. D.</given-names></name>; <name><surname>de Oliveira</surname><given-names>K. I. Z.</given-names></name>; <name><surname>Gawriljuk</surname><given-names>V. O.</given-names></name>; <name><surname>Gomes Jardim</surname><given-names>A. C.</given-names></name>; <name><surname>Oliva</surname><given-names>G.</given-names></name>
+<article-title>Discovery of an imidazonaphthyridine
+and a riminophenazine as potent anti-Zika virus agents through a replicon-based
+high-throughput screening</article-title>. <source>Virus Res.</source>
+<year>2021</year>, <volume>299</volume>, <fpage>198388</fpage><pub-id pub-id-type="doi">10.1016/j.virusres.2021.198388</pub-id>.<pub-id pub-id-type="pmid">33887282</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Samby</surname><given-names>K.</given-names></name>; <name><surname>Willis</surname><given-names>P. A.</given-names></name>; <name><surname>Burrows</surname><given-names>J. N.</given-names></name>; <name><surname>Laleu</surname><given-names>B.</given-names></name>; <name><surname>Webborn</surname><given-names>P. J. H.</given-names></name>
+<article-title>Actives
+from MMV Open Access Boxes? A suggested way forward</article-title>. <source>PLoS Pathog</source>
+<year>2021</year>, <volume>17</volume> (<issue>4</issue>), <fpage>e1009384</fpage><pub-id pub-id-type="doi">10.1371/journal.ppat.1009384</pub-id>.<pub-id pub-id-type="pmid">33886696</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Kim</surname><given-names>T.</given-names></name>; <name><surname>Hanh</surname><given-names>B. T.</given-names></name>; <name><surname>Heo</surname><given-names>B.</given-names></name>; <name><surname>Quang</surname><given-names>N.</given-names></name>; <name><surname>Park</surname><given-names>Y.</given-names></name>; <name><surname>Shin</surname><given-names>J.</given-names></name>; <name><surname>Jeon</surname><given-names>S.</given-names></name>; <name><surname>Park</surname><given-names>J. W.</given-names></name>; <name><surname>Samby</surname><given-names>K.</given-names></name>; <name><surname>Jang</surname><given-names>J.</given-names></name>
+<article-title>A Screening of the MMV Pandemic Response Box Reveals Epetraborole
+as a New Potent Inhibitor against Mycobacterium abscessus</article-title>. <source>International journal of molecular sciences</source>
+<year>2021</year>, <volume>22</volume> (<issue>11</issue>), <fpage>5936</fpage><pub-id pub-id-type="doi">10.3390/ijms22115936</pub-id>.<pub-id pub-id-type="pmid">34073006</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Biendl</surname><given-names>S.</given-names></name>; <name><surname>H&#x000e4;berli</surname><given-names>C.</given-names></name>; <name><surname>Keiser</surname><given-names>J.</given-names></name>
+<article-title>Discovery of novel antischistosomal
+scaffolds from the open access Pandemic Response Box</article-title>. <source>Expert review of anti-infective therapy</source>
+<year>2021</year>, <fpage>1</fpage><pub-id pub-id-type="doi">10.1080/14787210.2022.1990042</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Sullivan</surname><given-names>J. R.</given-names></name>; <name><surname>Lupien</surname><given-names>A.</given-names></name>; <name><surname>Kalthoff</surname><given-names>E.</given-names></name>; <name><surname>Hamela</surname><given-names>C.</given-names></name>; <name><surname>Taylor</surname><given-names>L.</given-names></name>; <name><surname>Munro</surname><given-names>K. A.</given-names></name>; <name><surname>Schmeing</surname><given-names>T. M.</given-names></name>; <name><surname>Kremer</surname><given-names>L.</given-names></name>; <name><surname>Behr</surname><given-names>M. A.</given-names></name>
+<article-title>Efficacy
+of epetraborole against Mycobacterium abscessus is increased with
+norvaline</article-title>. <source>PLoS Pathog</source>
+<year>2021</year>, <volume>17</volume> (<issue>10</issue>), <fpage>e1009965</fpage><pub-id pub-id-type="doi">10.1371/journal.ppat.1009965</pub-id>.<pub-id pub-id-type="pmid">34637487</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Ogunleye</surname><given-names>A. J.</given-names></name>; <name><surname>Olaolu</surname><given-names>O. S.</given-names></name>; <name><surname>Ibrahim</surname><given-names>N. B.</given-names></name>; <name><surname>James</surname><given-names>A. A.</given-names></name>
+<article-title>Molecular Docking,
+QSAR and Microscopic Studies of Anti-trypanosomal Compounds from the
+Pathogen Box</article-title>. <source>Current computer-aided drug design</source>
+<year>2021</year>, <volume>17</volume> (<issue>3</issue>), <fpage>378</fpage>&#x02013;<lpage>386</lpage>. <pub-id pub-id-type="doi">10.2174/1573409916666200722140704</pub-id>.<pub-id pub-id-type="pmid">32703140</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Reader</surname><given-names>J.</given-names></name>; <name><surname>van der Watt</surname><given-names>M. E.</given-names></name>; <name><surname>Taylor</surname><given-names>D.</given-names></name>; <name><surname>Le Manach</surname><given-names>C.</given-names></name>; <name><surname>Mittal</surname><given-names>N.</given-names></name>; <name><surname>Ottilie</surname><given-names>S.</given-names></name>; <name><surname>Theron</surname><given-names>A.</given-names></name>; <name><surname>Moyo</surname><given-names>P.</given-names></name>; <name><surname>Erlank</surname><given-names>E.</given-names></name>; <name><surname>Nardini</surname><given-names>L.</given-names></name>; <name><surname>Venter</surname><given-names>N.</given-names></name>; <name><surname>Lauterbach</surname><given-names>S.</given-names></name>; <name><surname>Bezuidenhout</surname><given-names>B.</given-names></name>; <name><surname>Horatscheck</surname><given-names>A.</given-names></name>; <name><surname>van Heerden</surname><given-names>A.</given-names></name>; <name><surname>Spillman</surname><given-names>N. J.</given-names></name>; <name><surname>Cowell</surname><given-names>A. N.</given-names></name>; <name><surname>Connacher</surname><given-names>J.</given-names></name>; <name><surname>Opperman</surname><given-names>D.</given-names></name>; <name><surname>Orchard</surname><given-names>L. M.</given-names></name>; <name><surname>Llinas</surname><given-names>M.</given-names></name>; <name><surname>Istvan</surname><given-names>E. S.</given-names></name>; <name><surname>Goldberg</surname><given-names>D. E.</given-names></name>; <name><surname>Boyle</surname><given-names>G. A.</given-names></name>; <name><surname>Calvo</surname><given-names>D.</given-names></name>; <name><surname>Mancama</surname><given-names>D.</given-names></name>; <name><surname>Coetzer</surname><given-names>T. L.</given-names></name>; <name><surname>Winzeler</surname><given-names>E. A.</given-names></name>; <name><surname>Duffy</surname><given-names>J.</given-names></name>; <name><surname>Koekemoer</surname><given-names>L. L.</given-names></name>; <name><surname>Basarab</surname><given-names>G.</given-names></name>; <name><surname>Chibale</surname><given-names>K.</given-names></name>; <name><surname>Birkholtz</surname><given-names>L. M.</given-names></name>
+<article-title>Multistage
+and transmission-blocking targeted antimalarials discovered from the
+open-source MMV Pandemic Response Box</article-title>. <source>Nat.
+Commun.</source>
+<year>2021</year>, <volume>12</volume> (<issue>1</issue>), <fpage>269</fpage><pub-id pub-id-type="doi">10.1038/s41467-020-20629-8</pub-id>.<pub-id pub-id-type="pmid">33431834</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Lim</surname><given-names>W.</given-names></name>; <name><surname>Nyuykonge</surname><given-names>B.</given-names></name>; <name><surname>Eadie</surname><given-names>K.</given-names></name>; <name><surname>Konings</surname><given-names>M.</given-names></name>; <name><surname>Smeets</surname><given-names>J.</given-names></name>; <name><surname>Fahal</surname><given-names>A.</given-names></name>; <name><surname>Bonifaz</surname><given-names>A.</given-names></name>; <name><surname>Todd</surname><given-names>M.</given-names></name>; <name><surname>Perry</surname><given-names>B.</given-names></name>; <name><surname>Samby</surname><given-names>K.</given-names></name>; <name><surname>Burrows</surname><given-names>J.</given-names></name>; <name><surname>Verbon</surname><given-names>A.</given-names></name>; <name><surname>van de Sande</surname><given-names>W.</given-names></name>
+<article-title>Screening
+the pandemic response box identified benzimidazole carbamates, Olorofim
+and ravuconazole as promising drug candidates for the treatment of
+eumycetoma</article-title>. <source>PLoS Negl Trop Dis</source>
+<year>2022</year>, <volume>16</volume> (<issue>2</issue>), <fpage>e0010159</fpage><pub-id pub-id-type="doi">10.1371/journal.pntd.0010159</pub-id>.<pub-id pub-id-type="pmid">35120131</pub-id></mixed-citation></ref></ref-list></back></article>

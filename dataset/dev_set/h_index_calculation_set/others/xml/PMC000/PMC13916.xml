@@ -1,0 +1,1733 @@
+<!-- ArticleInstanceId : 13916, Path: /brcnres/2-2000/2/preload/nxml/, Name : bcr-2-2-139.nxml -->
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v2.3 20070202//EN" "archivearticle.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article"><?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Breast Cancer Res</journal-id>
+      <journal-title>Breast Cancer Research</journal-title>
+      <issn pub-type="ppub">1465-5411</issn>
+      <issn pub-type="epub">1465-542X</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta><article-id pub-id-type="pmid">11056686</article-id><article-id pub-id-type="pmc">PMC13916</article-id>
+      <article-id pub-id-type="publisher-id">bcr-2-2-139</article-id>
+      
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Primary Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Increased cell survival by inhibition of BRCA1 using an antisense approach in an estrogen responsive ovarian carcinoma cell line</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib id="A1" contrib-type="author">
+          <name>
+            <surname>Annab</surname>
+            <given-names>Lois A</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>Annab@NIEHS.NIH.GOV</email>
+        </contrib>
+        <contrib id="A2" contrib-type="author">
+          <name>
+            <surname>Hawkins</surname>
+            <given-names>Rebecca E</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+        </contrib>
+        <contrib id="A3" contrib-type="author">
+          <name>
+            <surname>Solomon</surname>
+            <given-names>Greg</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+        </contrib>
+        <contrib id="A4" contrib-type="author">
+          <name>
+            <surname>Barrett</surname>
+            <given-names>J Carl</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+        </contrib>
+        <contrib id="A5" contrib-type="author">
+          <name>
+            <surname>Afshari</surname>
+            <given-names>Cynthia A</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="I1">
+        <label>1</label>National Institute of Environmental Health Sciences, Research Triangle Park, North Carolina, USA.
+      </aff>
+      <pub-date pub-type="ppub">
+        <year>2000</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>21</day>
+        <month>2</month>
+        <year>2000</year>
+      </pub-date>
+      <volume>2</volume>
+      <issue>2</issue>
+      <fpage>139</fpage>
+      <lpage>148</lpage>
+      <ext-link ext-link-type="uri" xlink:href="http://breast-cancer-research.com/content/2/2/139"/>
+      <history>
+        <date date-type="received">
+          <day>8</day>
+          <month>9</month>
+          <year>1999</year>
+        </date>
+        <date date-type="rev-request">
+          <day>3</day>
+          <month>10</month>
+          <year>1999</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>7</day>
+          <month>12</month>
+          <year>1999</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>1</month>
+          <year>2000</year>
+        </date>
+      </history>
+      <copyright-statement>Copyright &#x000a9; This article is a work of the United States Government and as such must remain in the public domain</copyright-statement>
+      <abstract abstract-type="short">
+        <p>We tested the hypothesis that BRCA1 may play a role in the regulation of ovarian tumor cell death as well as the inhibition of ovarian cell proliferation. Introduction of BRCA1 antisense retroviral constructs into BG-1 estrogen-dependent ovarian adenocarcinoma cells resulted in reduced <italic>BRCA1</italic> expression. BRCA1 antisense pooled populations and derived subclones were able to proliferate in monolayer culture without estrogen, whereas control cells began to die after 10 days of estrogen deprivation. In addition, both populations and subclones of BRCA1 antisense infected cells demonstrated a growth advantage in monolayer culture in the presence of estrogen and were able to proliferate in monolayer culture without estrogen, while control cells did not. Furthermore, clonal studies demonstrated that reduced levels of BRCA1 protein correlated with growth in soft agar and greater tumor formation in nude mice in the absence of estrogen. These data suggest that reduction of BRCA1 protein in BG-1 ovarian adenocarcinoma cells may have an effect on cell survival during estrogen deprivation both <italic>in vitro</italic> and <italic>in vivo</italic>.</p>
+      </abstract>
+      <abstract>
+        <sec>
+          <title>Introduction:</title>
+          <p>Germline mutations in the breast and ovarian cancer susceptibility gene <italic>BRCA1</italic>, which is located on chromosome 17q21, are associated with a predisposition to the development of cancer in these organs [<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref>]. No mutations in the <italic>BRCA1</italic> gene have been detected in sporadic breast cancer cases, but mutations have been detected in sporadic cases of ovarian cancer [<xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B4">4</xref>]. Although there is debate regarding the level of cancer risk associated with mutations in <italic>BRCA1</italic> and the significance of the lack of mutations in sporadic tumors, it is possible that alterations in the function of BRCA1 may occur by mechanisms other than mutation, leading to an underestimation of risk when it is calculated solely on the basis of mutational analysis. Such alterations cannot be identified until the function and regulation of BRCA1 are better understood.</p>
+          <p>The <italic>BRCA1</italic> gene encodes a 220-kDa nuclear phosphoprotein that is regulated in response to DNA damaging agents [<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B7">7</xref>] and in response to estrogen-induced growth [<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>]. Germline mutations that cause breast and ovarian cancer predisposition frequently result in truncated and presumably inactive BRCA1 protein [<xref ref-type="bibr" rid="B12">12</xref>].</p>
+          <p>BG-1 cells were derived from a patient with stage III, poorly differentiated ovarian adenocarcinoma [<xref ref-type="bibr" rid="B13">13</xref>]. This cell line, which expresses wild-type BRCA1, is estrogen responsive and withdrawal of estrogen results in eventual cell death. Previous studies suggest that BRCA1 is stimulated as a result of estrogen treatment [<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>], and also that BRCA1 may be involved in the cell death process [<xref ref-type="bibr" rid="B14">14</xref>]. Therefore, we examined the effect of reduction of BRCA1 levels in BG-1 cells on the cellular response to hormone depletion as well as estrogen stimulation. The results suggest that reduced levels of BRCA1 correlates with a survival advantage when BG-1 cells are placed under growth-restrictive and hormone-depleted conditions. In optimum growth conditions, significantly reduced levels of BRCA1 correlates with enhanced growth both <italic>in vitro</italic> and <italic>in vivo</italic>.</p>
+        </sec>
+        <sec>
+          <title>Aims:</title>
+          <p>To test the hypothesis that BRCA1 may play a role in the regulation of ovarian tumor cell death as well as in the inhibition of ovarian cell proliferation.</p>
+        </sec>
+        <sec>
+          <title>Materials and methods:</title>
+          <p>The estrogen receptor-positive, BG-1 cell line [<xref ref-type="bibr" rid="B13">13</xref>], which contains an abundant amount of estrogen receptors (600 fmoles/100 &#x003bc;g DNA), was infected using a pLXSN retroviral vector (provided by AD Miller) containing an inverted partial human cDNA 900-base-pair sequence of BRCA1 (from nucleotide 121 in exon 1 to nucleotide 1025 in exon 11, accession #U14680). After 2 weeks of selection in 800 &#x003bc;g/ml of geneticin-G418 (Gibco/Life Technologies, Gaithersburg, MD, USA), BG-1 G418-resistant colonies were pooled, or individually isolated, and assayed for growth in the presence or absence of supplemented estrogen. Virally infected pooled populations of BG-1 cells were examined for BRCA1 message levels by ribonuclease protection assay (Fig. <xref ref-type="fig" rid="F1">1a</xref>). BRCA1 ribonuclease protection probe was made using an <italic>in vitro</italic> transcription kit (Ambion, Inc, Austin, TX, USA) as previously described [<xref ref-type="bibr" rid="B10">10</xref>] and derived clones were tested for protein levels by Western blot analysis using an anti-BRCA1 (Oncogene Research, Ab-1, Cambridge, MA, USA) antibody. Growth curve analysis of Infected populations and were pretreated for 5 days in phenol red-free, Dulbecco's modified eagle medium (DMEM)/F-12 medium (Gibco/Life Technologies) supplemented with 10% charcoal/dextran treated serum (Hyclone, Logan, UT, USA), then plated at 2.5 &#x000d7; 10<sup>6</sup> cells per 100mm dish in triplicate in the absence or presence of estrogen (10<sup>-8</sup> mol/l; 17&#x003b2;-Estradiol; 1,3,5 (10) - Estratriene 3,17&#x003b2;-diol; Sigma, St Louis, MO, USA). For soft agar assay, clones were plated into 10 60-mm dishes at 1 &#x000d7; 10<sup>5</sup> cells/dish containing 0.3% bactopeptone agar with or without added estrogen (10<sup>-8</sup> mol/l) in phenol red-free medium with 10% stripped serum in order to test for anchorage independent growth. BG-1 infected clones were tested for tumorigenicity by injection of cells (10<sup>6</sup> cells in 0.1cm<sup>2</sup> 50% matrigel; Collaborative Biomedical Products, Bedford, MA, USA) into subcutaneous sites in 6-week-old athymic Ncr-nude mice (NCI Animal Program, Bethesda, MD, USA) that were ovariectomized at approximately 4 weeks of age. Half of the ovariectomized mice received an implanted 0.18mg estrogen 60-day pellet (Innovative Research of America, Sarasota, FL, USA).</p>
+        </sec>
+        <sec>
+          <title>Results:</title>
+          <p>Antisense technology was effective in decreasing both RNA and protein levels of BRCA1 in the BG-1 human ovarian adenocarcinoma cells. BRCA1 antisense-infected populations contained significantly less BRCA1 message than control LXSN-infected pools and selected clones contained varying reduced levels of BRCA1 protein compared with control clones (Figs <xref ref-type="fig" rid="F1">1a</xref> and 1b).</p>
+          <p>Three independent BRCA1 antisense-infected cultures demonstrated a resistance to cell death induced by withdrawal from estrogen over a 6- to 20-day period (Fig. <xref ref-type="fig" rid="F2">2a</xref>). The BRCA1 antisense population also exhibited a threefold to sixfold increase in cell growth compared with control cells in the presence of estrogen treatment. BG-1 BRCA1 antisense clones demonstrated a similar response to pooled population studies, enhanced growth with estrogen, and failure to die upon estrogen depletion (Fig. 2b).</p>
+          <p>The BRCA1 antisense clones were further examined for other associated tumorigenic properties. All of the antisense clones were able to form colonies in soft agar (2-23 colonies per 10<sup>4</sup> cells plated; data not shown), whereas control clones were deficient in their ability to form colonies (0-0.8 colonies per 10<sup>4</sup> cells plated). <xref ref-type="table" rid="T1">Table 1</xref> shows, in the presence of estrogen, the clone with the lowest levels of BRCA1 (AS-4) produced significantly more colonies (133 &#x000b1; 17.9 colonies per 10<sup>4</sup> cells plated) than the control clone (NEO; 6 &#x000b1; 3.1 colonies per 10<sup>4</sup> cells plated). Clones AS-4 and NEO were also injected with matrigel subcutaneously into ovariectomized athymic mice. Almost twice as many sites were positive for the AS-4 clone (14 out of 14) as for the NEO clone (eight out of 14) 42 days after injection. In addition, BRCA1 antisense tumors averaged twice the size of control tumors. The BRCA1 reduced cells also formed tumors with half the latency of control cells in the presence of implanted estrogen (11 days versus 21 days until tumor formation).</p>
+        </sec>
+        <sec>
+          <title>Discussion:</title>
+          <p>The present studies show that reduction in BRCA1 levels, using an antisense retroviral vector in the estrogen dependent BG-1 ovarian carcinoma cell line, contributes to confirmation of the hypothesis that <italic>BRCA1</italic> plays a pivotal role in the balance between cell death and cell proliferation. <italic>BRCA1</italic> RNA and protein levels were successfully reduced in populations and isolated clones of antisense infected BG-1 cells. Decreased <italic>BRCA1</italic> levels rescued the BG-1 cells from growth arrest or cell death in adverse growth conditions in monolayer or soft agar conditions. Furthermore, a BRCA1 antisense clone that had significantly low levels of BRCA1 protein was able to form twice as many tumors in ovariectomized nude mice with a decreased latency compared with a control clone.</p>
+          <p>In multicellular mammalian organisms, a balance between cell proliferation and cell death is extremely important for the maintenance of normal healthy tissues. In support of this hypothesis, it has been shown that <italic>p53</italic> and <italic>BRCA1</italic> can form stable complexes, and can coactivate <italic>p21</italic> and <italic>bax</italic> genes, which may lead to the activation of the apoptosis pathway [<xref ref-type="bibr" rid="B15">15</xref>]. The present data, which show that cells with a reduction of BRCA1 have a survival advantage in conditions where control cells fail to thrive, also supports this hypothesis. <italic>BRCA1</italic> levels appear to affect the ability of cells to arrest growth or die in the absence of estrogenic growth-inducing conditions. Although mutations in this gene are uncommon in sporadic breast and ovarian tumors, <italic>BRCA1</italic> expression levels and protein levels have been found to be reduced in sporadic human breast carcinomas [<xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B19">19</xref>]. In addition it has been demonstrated [<xref ref-type="bibr" rid="B20">20</xref>] that hormone-dependent tumors such as breast and ovarian cancers have a decreased ability to undergo apoptosis. Other mechanisms involving gene regulation may allow for decreased expression of <italic>BRCA1</italic> in sporadic tumors. The response of <italic>BRCA1</italic> mRNA and protein levels to mitogens and hormones <italic>in vitro</italic> suggests that <italic>BRCA1</italic> may play a role in regulation of cell growth or maintenance [<xref ref-type="bibr" rid="B21">21</xref>]. The BRCA1 gene product may be involved in the regulation of hormone response pathways, and the present results demonstrate that loss of BRCA1 may result in loss of inhibitory control of these mitogenic pathways. These studies show that reduction in <italic>BRCA1</italic> mRNA and protein can result in increased proliferation of BG-1 ovarian cancer cells in both <italic>in vitro</italic> and <italic>in vivo</italic> conditions, suggesting that <italic>BRCA1</italic> may normally be acting as a growth inhibitor. Low BRCA1 levels found in sporadic cancers may be an important factor in tumorigenesis. The present data suggest that diminished levels of <italic>BRCA1</italic> not only accelerate proliferation in the BG-1 ovarian carcinoma cell line, but also appear to promote tumorigenesis. We propose that the loss or reduction of <italic>BRCA1</italic> may predispose a cell population to neoplastic transformation by altering the balance between cell death and proliferation/survival, rendering it more sensitive to secondary genetic changes.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <kwd>antisense</kwd>
+        <kwd>BRCA1</kwd>
+        <kwd>cell death</kwd>
+        <kwd>estrogen</kwd>
+        <kwd>ovarian cancer</kwd>
+        <kwd>proliferation</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p>Germline mutations in the breast and ovarian cancer susceptibility gene <italic>BRCA1</italic>, which is located on chromosome 17q21, are associated with a predisposition to the development of cancer in these organs [<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref>]. Initial analyses [<xref ref-type="bibr" rid="B22">22</xref>] suggested that women with germline mutations in the <italic>BRCA1</italic> gene and a strong family history of breast or ovarian cancer have 85 and 44% lifetime risks of developing breast and ovarian cancer, respectively. Recent studies [<xref ref-type="bibr" rid="B23">23</xref>], however, have suggested that analyses based on women who were not selected for a familial history of cancer indicate that the risk for cancer associated with mutations in these genes is 50 and 16% for breast and ovarian cancers, respectively. No mutations in the <italic>BRCA1</italic> gene have been detected in sporadic breast cancer cases; however, mutations have been detected in sporadic cases of ovarian cancer [<xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B4">4</xref>]. Although there is debate regarding the level of cancer risk associated with mutations in <italic>BRCA1</italic> and the significance of the lack of mutations in sporadic tumors, it is possible that alterations in the function of BRCA1 may occur by mechanisms other than mutation. This would lead to an underestimation of risk when it is calculated solely on the basis of mutational analysis. Such alterations cannot be identified until the function and regulation of BRCA1 are better understood.</p>
+      <p>The <italic>BRCA1</italic> gene encodes a 220-kDa nuclear protein that may be regulated by phosphorylation through the cell cycle and in response to DNA damaging agents [<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B7">7</xref>]. The level of BRCA1 is also regulated in response to estrogen or estrogen-induced growth in breast [<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>] and ovarian cell lines. BRCA1 has been shown to colocalize in nuclear dots with other cellular proteins, including BARD-1 [<xref ref-type="bibr" rid="B24">24</xref>], Rad51, PCNA, and BRCA2 [<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B25">25</xref>]. In addition, BRCA1 can act as a transcriptional transactivator in yeast reporter assays [<xref ref-type="bibr" rid="B26">26</xref>,<xref ref-type="bibr" rid="B27">27</xref>] and binds the RNA polymerase II holoenzyme, a component of the basal transcription machinery [<xref ref-type="bibr" rid="B25">25</xref>]. The precise mechanism of action and the specific signaling pathway affected by BRCA1 remain unknown, however.</p>
+      <p>Studies of <italic>BRCA1</italic> expression patterns in mouse tissue reveal that BRCA1 is most highly expressed in tissues undergoing rapid proliferation and differentiation, and that expression <italic>in vivo</italic> is also hormone responsive. For example, analyses of mammary gland growth and development show high levels of BRCA1 expression in terminal end buds during puberty and in budding alveoli during pregnancy. In addition, hormonal stimulation in ovariectomized mice results in induction of BRCA1 expression in the breast [<xref ref-type="bibr" rid="B28">28</xref>]. Attempts to develop homozygous, BRCA1-deleted mouse models have resulted in embryonic lethality [<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B30">30</xref>]. For example, when the <italic>BRCA1</italic> gene deletion was targeted in exons 5 and 6, mutant mice died before day 7.5 of embryogenesis. Analysis of DNA synthesis in the mutant embryos indicated that cell proliferation was impaired, suggesting that BRCA1 may paradoxically play a positive role in the regulation of embryonic cell growth [<xref ref-type="bibr" rid="B29">29</xref>].</p>
+      <p>Most of the mechanistic BRCA1 studies to date have been conducted in breast carcinoma cell lines; therefore, we decided to conduct a study to determine the effect of BRCA1 expression on the cellular phenotype of an ovarian carcinoma cell line, BG-1. BG-1 cells were derived from a patient with stage III, poorly differentiated ovarian adenocarcinoma [<xref ref-type="bibr" rid="B13">13</xref>]. This cell line, which expresses wild-type BRCA1, is estrogen responsive, and withdrawal of estrogen results in eventual cell death. Previous studies suggested that BRCA1 is stimulated as a result of estrogen treatment [<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>], and that BRCA1 may be involved in the cell death process [<xref ref-type="bibr" rid="B14">14</xref>]. Therefore, we examined the effect of reduction of BRCA1 levels in BG-1 cells on the cellular response to estrogen stimulation as well as hormone depletion. Our results suggest that when BG-1 cells are subjected to growth restrictive and hormone-depleted conditions, cells that have even moderately reduced levels of BRCA1 protein have a distinct advantage for survival. In addition, significant reduction in BRCA1 protein level correlates with enhanced estrogen proliferation when compared with cells that express moderate to wild-type BRCA1 levels, grown under optimal growth conditions both <italic>in vitro</italic> and <italic>in vivo</italic>.</p>
+    </sec>
+    <sec sec-type="materials|methods">
+      <title>Materials and methods</title>
+      <sec>
+        <title>Cells and cell culture</title>
+        <p>The estrogen receptor-positive, BG-1 line [<xref ref-type="bibr" rid="B13">13</xref>], which contains an abundant amount of estrogen receptors (600 fmol/100 &#x003bc;g DNA), was provided by J Boyd (Sloan-Kettering Cancer Center, New York, NY, USA). GPE86 and PA317 viral packaging cell lines were provided by AD Miller (Fred Hutchinson Cancer Center, Seattle, WA, USA). BG-1 cells were maintained in Dulbecco's modified eagle medium (DMEM)/F12 medium supplemented with 10% fetal calf serum (Summit, Fort Collins, CO, USA), and 50 units/ml penicillin/streptomycin. BG-1 cells arrest to gamma radiation consistent with a wildtype <italic>p53</italic> phenotype. These cells were tested negative for mycoplasmas.</p>
+      </sec>
+      <sec>
+        <title>Retroviral vector preparation and infection of cells</title>
+        <p>A partial human cDNA sequence of <italic>BRCA1</italic> (from nucleotide 121 in exon 1 to nucleotide 1025 in exon 11, accession #U14680) was inserted in the antisense orientation into the EcoR1 site of the pLXSN retroviral vector (provided by AD Miller). The vector alone, or the antisense <italic>BRCA1</italic> vector, was transfected using the calcium-phosphate precipitation method into the ecotropic packaging cell line GPE86 [<xref ref-type="bibr" rid="B31">31</xref>]. Supernatant, generated from transfected GPE86 cells [<xref ref-type="bibr" rid="B31">31</xref>], was then used to infect the amphotropic packaging cell line PA317 [<xref ref-type="bibr" rid="B31">31</xref>] in the presence of 4 &#x003bc;g/ml polybrene (Abbott Laboratories, Abbott Park, IL, USA). PA317-infected cells were grown in selection media for 2 weeks and pooled for supernatant collection. Supernatants were filtered (0.20 &#x003bc;m filter) and tested for virus-producing cells. Titer efficiencies of the LXSN virus ranged from 10<sup>4</sup> to 10<sup>5</sup> colony-forming units/ml on mouse cells (A9). Log phase BG-1 cells were exposed to supernatant containing either the LXSN control retrovirus or retroviruses containing the antisense <italic>BRCA1</italic> cDNA sequence. After 2 weeks of selection in 800 &#x003bc;g/ml of geneticin-G418 (Gibco/Life Technologies, Gaithersburg, MD, USA), BG-1 G418-resistant colonies were pooled or individually isolated and assayed for growth in the presence or absence of supplemented estrogen. Only isolated clones were used in anchorage dependence and tumorigenicity studies.</p>
+      </sec>
+      <sec>
+        <title>BRCA1 ribonuclease protection assay and protein analysis</title>
+        <p>A BRCA1 ribonuclease protection probe was made using an <italic>In Vitro</italic> Transcription Kit (Ambion, Inc, Austin, TX, USA). The DNA template spanned part of exon 22, all of exon 23, and part of exon 24 of the <italic>BRCA1</italic> gene. Template DNA was incubated for 45min at 37&#x000b0;C with (&#x003b1;-<sup>32</sup>P)-uridine triphosphate and T7 polymerase in the presence of buffer and nucleotides. DNA template was removed by ribonuclease-free deoxyribonuclease incubation at 37&#x000b0;C for 30min. The reaction was stopped by the addition of 0.5 mol/l ethylenediaminetetra-acetic acid, and the labeled probe was purified on a 5% polyacrylamide gel. Sample RNA (20&#x003bc;g total RNA) was coprecipitated with the BRCA1 probe and the cyclophilin control probe [<xref ref-type="bibr" rid="B32">32</xref>], resuspended in Hyb-speed RPA (Ambion) hybridization buffer at 95&#x000b0;C, and then incubated at 68&#x000b0;C for 10min. Ribonuclease was added and the sample was incubated for 45min at 37&#x000b0;C. Protected fragments were precipitated, and resuspended in loading buffer, followed by separation on a 5% polyacrylamide-urea gel, and exposed to X-ray film.</p>
+        <p>BRCA1 protein was analyzed by Western blot analysis. Whole cell lysate (50 &#x003bc;g) was loaded onto a 6% sodium dodecyl sulfate-polyacrylamide gel electrophoresis gel, transferred to nitrocellulose, and hybridized with an anti-BRCA1 (Ab-1; Oncogene Research, Cambridge, MA, USA) antibody as previously described [<xref ref-type="bibr" rid="B10">10</xref>].</p>
+      </sec>
+      <sec>
+        <title>Estrogen treatment and growth curve analysis</title>
+        <p>G418-resistant colonies from <italic>BRCA1</italic> antisense infected BG-1 cells and control vector LXSN-infected BG-1 cells were pooled, pretreated for 5 days in phenol red-free, DMEM/F-12 medium (Gibco/Life Technologies) supplemented with 10% charcoal/dextran treated serum (Hyclone, Logan, UT, USA), then plated at 2.5 &#x000d7; 10<sup>6</sup> cells per 100mm dish in triplicate for growth curve analysis in the absence or presence of estrogen (10<sup>-8</sup>mol/l; 17&#x003b2;-Estradiol; 1,3,5 (10) - Estratriene 3, 17&#x003b2;-diol; Sigma, St Louis, MO, USA). Extended growth curve analysis was plated at 2.5 &#x000d7; 10<sup>6</sup> in 100mm dishes for an extended treatment of 20 days without estrogen. Clones were isolated from the <italic>BRCA1</italic> antisense and LXSN BG-1 pooled populations and grown in phenol red-free, DMEM/F-12 medium (Gibco/Life Technologies) supplemented with charcoal/dextran treated serum (Hyclone) for 5 days before plating for growth curve analysis. Cells were then plated in triplicate at 1 &#x000d7; 10<sup>6</sup> cells per 60mm dish in either the absence or presence of estrogen (10<sup>-8 </sup>mol/l) and grown for 8-10 days. Cell number was calculated on indicated days using a Coulter counter. The number of dead cells for the extended growth curve experiment was calculated by counting trypan blue incorporated cells using a hemocytometer. Statistical analyses of <italic>P</italic> values were calculated based on the fold differences between growth of the clones by computing a mean ratio and the corresponding standard deviation [<xref ref-type="bibr" rid="B33">33</xref>].</p>
+      </sec>
+      <sec>
+        <title>Anchorage independence analysis and tumorigenicity</title>
+        <p>Selected BG-1 clones were tested for anchorage independent growth in 0.3% bacto-peptone agar with a 0.6% bacto-peptone agar base plus or minus added estrogen (10<sup>-8</sup> mol/l) in phenol red-free medium with 10% stripped serum. Each BG-1, neomycin-resistant clone was plated into 10 60-mm dishes containing the agar at 1 &#x000d7; 10<sup>5</sup> cells per dish. Colonies (greater than 30 cells) were scored after 14 days. Pairwise comparisons were made by a two-sided Mann-Whitney U test to calculate <italic>P</italic> values [<xref ref-type="bibr" rid="B34">34</xref>].</p>
+        <p>BG-1-infected clones were tested for tumorigenicity in 6-week-old athymic Ncr-nude mice (NCI Animal Program, Bethesda, MD, USA) that were ovariectomized at approximately 4 weeks of age. BRCA1 antisense clone (AS-4) was injected (10<sup>6</sup> cells in 0.1cm<sup>2</sup> 50% matrigel; Collaborative Biomedical Products, Bedford, MA, USA) into two subcutaneous sites on one side of 16 mice (32 injection sites), whereas a LXSN control clone was injected on the opposite side of the same mice. Nine of the 16 ovariectomized mice also received an implanted 0.18mg estrogen 60-day pellet (Innovative Research of America, Sarasota, FL, USA). Mice were periodically examined and tumor size was measured during the 3-month period after injection.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <sec>
+        <title>Effective decrease in <italic>BRCA1</italic> expression using antisense technology</title>
+        <p>Antisense technology was effective in decreasing both RNA and protein levels of BRCA1 in the BG-1 human ovarian adenocarcinoma cells. BG-1 human ovarian adenocarcinoma cells were infected with a retroviral construct composed of an antisense 900 base-pair cDNA sequence of the amino-terminal region of <italic>BRCA1</italic>. Three experiments (two of which were from independently made supernatants) showed that infection of pLXSN (vector alone) and <italic>BRCA1</italic> antisense retroviral constructs into BG-1 cells yielded G418-resistant colonies at similar rates (titers ranged from 0.78 to 4.2 &#x000d7; 10<sup>4</sup> colony-forming units/ml). The same vectors were also directly transfected into BG-1 cells at an efficiency of 6.3&#x000d7;10<sup>-5</sup> for the anti-sense <italic>BRCA1</italic> or 9.9 &#x000d7; 10<sup>-5</sup> for the control plasmid (pLXSN). Neomycin-resistant colonies were pooled and examined for <italic>BRCA1</italic> message levels by ribonuclease protection assay. <italic>BRCA1</italic> antisense infected cells contained significantly less <italic>BRCA1</italic> message than control LXSN infected cells, whether cultured in the presence or absence of estrogen (Fig. <xref ref-type="fig" rid="F1">1a</xref>). Although there appears to be no detectable amounts of BRCA1 RNA present after estrogen withdrawal, low levels of protein can be detected by western blot analysis [<xref ref-type="bibr" rid="B10">10</xref>].</p>
+        <p>Subclones were also isolated from BRCA1 antisense infected cells, or LXSN infected cells (NEO). Western blot analysis demonstrated that all of the antisense BRCA1 clones had reduced levels of BRCA1 protein compared with the NEO clones, and one antisense clone (AS-4) had very low levels of BRCA1 protein, although it was not totally absent (Fig. <xref ref-type="fig" rid="F1">1b</xref>).</p>
+      </sec>
+      <sec>
+        <title>Effects of reduced <italic>BRCA1</italic> expression on <italic>in vitro</italic> growth</title>
+        <p>Pooled populations of antisense <italic>BRCA1</italic> BG-1 colonies were examined for growth in the absence or presence of supplemented estrogen. Three independently infected cultures of <italic>BRCA1</italic> antisense cells demonstrated a resistance to cell death induced by withdrawal from estrogen over a 6-day period, as well as a threefold to sixfold increase in cell growth compared with control cells in the presence of estrogen treatment (Fig. <xref ref-type="fig" rid="F3">3</xref>). In order to investigate further whether reduction of BRCA1 protein had an effect on hormone-dependent cell growth, BG-1 antisense and control cells were grown in estrogen-deprived conditions for an extended period of time. During the first 5 days, both groups continued to proliferate in the absence of estrogen, but the BRCA1 antisense group continued to grow for the next 10 days, whereas control cells decreased in number (Fig. <xref ref-type="fig" rid="F2">2a</xref>).</p>
+        <p>In order to avoid the problem of a mixed population of cells expressing various levels of BRCA1, subclones were isolated from infected populations of <italic>BRCA1</italic> antisense infected BG-1 cells and control LXSN infected BG-1 cells (NEO). Figure <xref ref-type="fig" rid="F2">2b</xref> shows BG-1 parental and NEO clones exhibited up to a 37% decrease in cell number during a 3-day period of estrogen withdrawal, whereas antisense <italic>BRCA1</italic> clones showed as much as a twofold increase in cell number during the same time period. In an attempt to determine if increased survival of the antisense cells was do to increased proliferation of the antisense cells or decreased death rate, the number of trypan blue positive, non-viable were examined after 14 days without estrogen. There were 5-10-fold more dead cells present in the media of control cells (BG-1 parental and NEO clone) then in the <italic>BRCA1</italic> antisense clone AS-4 (data not shown). It appeared that resistance to cell death plays a significant role in the survival of <italic>BRCA1</italic> antisense cells to estrogen withdrawal. Figure <xref ref-type="fig" rid="F2">2b</xref> again demonstrates the ability of the BRCA1 antisense sub-clones to survive estrogen deprivation. In the presence of estrogen, three out of the four antisense <italic>BRCA1</italic> clones exhibited a growth advantage over NEO clones or the BG-1 parental population (Fig. <xref ref-type="fig" rid="F2">2b</xref>). Antisense <italic>BRCA1</italic> clones 1, 3 and 4 showed a 10-fold to 16-fold increase in cell number between days 5 and 8 after estrogen treatment compared with only a threefold to fivefold increase of cell number in NEO clones and BG-1 parental cells (Fig. <xref ref-type="fig" rid="F2">2b</xref>). The AS-4 clone, which had the lowest levels of BRCA1 protein, showed a highly significant (16-fold; <italic>P</italic>&#x0003c;0.01) stimulation of growth between days 5 and 8 of estrogen induction (Figs <xref ref-type="fig" rid="F2">2b</xref> and <xref ref-type="fig" rid="F4">4</xref>). In summary, although three out of four of the antisense <italic>BRCA1</italic> clones had a growth advantage in the presence of estrogen, all four antisense <italic>BRCA1</italic> clones showed enhanced survival in estrogen-depleted media.</p>
+      </sec>
+      <sec>
+        <title>Anchorage independent growth of BG-1 clones</title>
+        <p>Anchorage independent growth is a common property of many transformed cells. Therefore, the <italic>BRCA1</italic> antisense subclones were also studied for anchorage independent growth in a semisoft agar medium with and without supplemented estrogen. Table1 shows that colony formation efficiencies on plastic of control (NEO) and <italic>BRCA1</italic> anti-sense (AS-4) cells were similar in estrogen-depleted and estrogen-containing media. However, the BG-1 control clone (NEO) was unable to form colonies (fewer than one colony per 10<sup>4</sup> cells plated) in agar without the addition of estrogen, whereas the BG-1 antisense <italic>BRCA1</italic> clone was able to form soft agar colonies in estrogen depleted conditions (10 &#x000b1; 2.9 colonies per 10<sup>4</sup> cells plated). In the presence of estrogen, both NEO and AS-4 were able to form colonies; however, there was a significant difference (<italic>P</italic> &#x0003c;0.01) in the ability to form colonies in agar between AS-4 (133 colonies) and the control clone (six colonies). These data suggest a correlation between the loss of BRCA1 protein and an increased survival/growth advantage in anchorage-independent conditions.</p>
+      </sec>
+      <sec>
+        <title>Effects of reduced BRCA1 protein on in vivo tumor cell growth</title>
+        <p>Because the AS-4 clone showed a growth advantage in soft agar, a phenotype that may be correlated with the ability to form tumors <italic>in vivo</italic>, the BRCA1 antisense sub-clone AS-4 was evaluated for its ability to form subcutaneous tumors in ovariectomized athymic mice in the presence or absence of an estrogen pellet. Mice were injected subcutaneously with AS-4 cells in matrigel on one side of each mouse and NEO cells in matrigel on the other side. Of the mice injected, 50% received an implanted estrogen pellet (0.18 mg estrogen) that was designed to release estrogen for 60 days. In the absence of estrogen, a significant difference was detected in tumorigenic growth between AS-4 and NEO cells (Fig. <xref ref-type="fig" rid="F5">5b</xref>). Almost twice as many sites were tumor positive for the AS-4 clones than for NEO injected sites. 100% (14/14) Tumor formation was reached for all AS-4 clones 42 days after injection, compared with 57% (eight out of 14) positive tumor formation of the NEO sites (Fig. <xref ref-type="fig" rid="F5">5b</xref>, upper panel). AS-4 cells also formed tumors that averaged twice the size of NEO control tumors (Fig. <xref ref-type="fig" rid="F5">5b</xref>, lower panel).</p>
+        <p>BG-1 cells without matrigel were nontumorigenic in athymic male or female mice (0 positive sites/20 sites injected at 5&#x000d7;10<sup>6</sup> cells per site), but these cells formed large, progressively growing tumors when injected with matrigel in the presence of estrogen (Fig. <xref ref-type="fig" rid="F5">5a</xref>). These tumors were very large (&#x0003e;1cm diameter) and did not regress even though the estrogen pellet was effective for only 60 days (Fig. <xref ref-type="fig" rid="F5">5a</xref>, lower panel). Similar to the agar experiments, both the BRCA1 antisense clone and LXSN control clone were positive for tumor formation in the presence of estrogen. AS-4 cells formed tumors with half of the latency of control cells in the presence of implanted estrogen (Fig. <xref ref-type="fig" rid="F5">5a</xref>, upper panel; 11 days versus 21 days until tumor formation). Neither AS-4 nor NEO cells formed progressively growing tumors in the absence of estrogen, however. All tumors in the mice without estrogen pellets had started to regress by 71 days after injection. The observed tumor regression was not surprising, because matrigel is not stable for longer than 14 days in culture, and probably not <italic>in vivo</italic> either (personal communication; Collaborative Biomedical Products, Bedford, MA, USA). By day 71, the matrigel would no longer confer an optimal growth environment for BG-1 cells.</p>
+      </sec>
+      <sec>
+        <title>Discussion</title>
+        <p>The present studies show that reduction of BRCA1 levels, using an antisense retroviral vector in the estrogen dependent BG-1 ovarian carcinoma cell line, may aid in confirmation of the hypothesis that <italic>BRCA1</italic> functions as a tumor suppressor gene by playing a pivotal role in the balance between cell death and cell proliferation. <italic>BRCA1</italic> RNA and protein levels were successfully reduced in pooled and isolated subclones of antisense-infected populations of BG-1 cells. Decreased <italic>BRCA1</italic> levels appeared to affect the ability of BG-1 cells to arrest growth or die in the absence of estrogenic growth-inducing conditions. We found that <italic>BRCA1</italic> antisense cells, both as pooled populations and individual subclones, also exhibited enhanced growth in monolayer culture on plastic in the presence of estrogen compared with control vector-infected colonies. All BRCA1 antisense subclones were able to proliferate as well as exhibit a decreased death rate in estrogen-deprived media, whereas parental and control subclones failed to grow. Death after estrogen withdrawal has been shown in previous studies using BG-1 cells [<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B35">35</xref>]. BRCA1 antisense subclones demonstrated other traits associated with a tumorigenic phenotype, such as the ability to grow in soft agar independent of estrogen, whereas control clones could only form colonies with the addition of estrogen. In ovariectomized nude mice, a BRCA1 antisense clone (AS-4) was examined for tumorigenicity compared with a control clone (NEO). The AS-4 clone formed a greater number of and larger tumors than NEO in the absence of estrogen, and in general formed tumors faster in the presence of estrogen. The main conclusion from these studies is that BG-1 clones with reduced levels of BRCA1 protein have a survival advantage over controls in the absence of estrogen both <italic>in vitro</italic> and <italic>in vivo.</italic></p>
+        <p>The response of <italic>BRCA1</italic> mRNA and protein levels to mitogens and hormones <italic>in vitro</italic> suggests that <italic>BRCA1</italic> may play a role in regulation of cell growth or maintenance [<xref ref-type="bibr" rid="B21">21</xref>]. During estrous, many hormones and growth factors interact in a complex manner as survival factors and inducers of cell proliferation, which are then balanced with growth inhibitors [<xref ref-type="bibr" rid="B36">36</xref>,<xref ref-type="bibr" rid="B37">37</xref>,<xref ref-type="bibr" rid="B38">38</xref>,<xref ref-type="bibr" rid="B39">39</xref>,<xref ref-type="bibr" rid="B40">40</xref>]. The mechanism by which <italic>BRCA1</italic> can regulate or influence these processes has not yet been identified. It has been shown that <italic>BRCA1</italic> is induced as a result of the mitogenic activity of the estrogen receptor in estrogen receptor-positive cells [<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref>]. Direct estrogen stimulation is not required for <italic>BRCA1</italic> transcription, however [<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B41">41</xref>]. In support of this, <italic>BRCA1</italic> expression has been shown to occur in the mouse ovary (granulosa and thecal cells of small and medium follicles) independent of hormonal status, and even in ovaries from estrogen receptor -/- deficient mice [<xref ref-type="bibr" rid="B41">41</xref>,<xref ref-type="bibr" rid="B42">42</xref>]. In contrast, the tumors from patients with <italic>BRCA1</italic> mutations appear to have downregulation of estrogen receptors [<xref ref-type="bibr" rid="B43">43</xref>,<xref ref-type="bibr" rid="B44">44</xref>,<xref ref-type="bibr" rid="B45">45</xref>]. Previous experiments in our laboratory showed that another hormone, progesterone, could also cause a modest increase of <italic>BRCA1</italic> mRNA in BG-1 cells after 24 h exposure without an increase in growth (unpublished data). Progesterone has been found [<xref ref-type="bibr" rid="B46">46</xref>] to inhibit cell proliferation and induce apoptosis significantly in two ovarian carcinoma cell lines. Thus, although <italic>BRCA1</italic> may not be regulated directly by hormones, the BRCA1 gene product may be involved in the regulation of hormone response pathways, and the present results may demonstrate that loss of BRCA1 may result in loss of inhibitory control of these mitogenic pathways.</p>
+        <p>
+          <italic>BRCA1</italic> transcription is regulated with the cell cycle, and highest levels correlate with the G1/S-phase boundary [<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B41">41</xref>,<xref ref-type="bibr" rid="B47">47</xref>,<xref ref-type="bibr" rid="B48">48</xref>,<xref ref-type="bibr" rid="B49">49</xref>]. The present studies show that reduction of <italic>BRCA1</italic> mRNA and protein can result in increased proliferation of BG-1 ovarian cancer cells <italic>in vitro</italic> and <italic>in vivo</italic>, suggesting that <italic>BRCA1</italic> may normally be acting as a growth inhibitor. Similar to our findings with ovarian carcinoma cells, accelerated growth, anchorage independence and tumorigenicity is associated with <italic>BRCA1</italic> antisense introduction into mouse NIH3T3 cells [<xref ref-type="bibr" rid="B50">50</xref>]. In addition, increased proliferation of mammary cells is induced with antisense oligonucleotides to <italic>BRCA1</italic> [<xref ref-type="bibr" rid="B51">51</xref>]. Conversely, introduction of full-length <italic>BRCA1</italic> by retrovirus-mediated gene transfer inhibited growth of breast and ovarian cancer cell lines in both <italic>in vitro</italic> and <italic>in vivo</italic> experiments [<xref ref-type="bibr" rid="B51">51</xref>], and transfection of <italic>BRCA1</italic> into colon cancer cells inhibited new DNA synthesis by 50% in addition to inhibition of S-phase progression, possibly through direct transactivation of the cell cycle inhibitor <italic>p21</italic>
+          <sup>WAF1/CIP1</sup> [<xref ref-type="bibr" rid="B49">49</xref>].
+        </p>
+        <p>In multicellular mammalian organisms, a balance between cell proliferation and cell death is extremely important for the maintenance of normal healthy tissues. This is especially important during early embryonic development as well as in the development and function of adult tissues such as the gonadal cells (ie ovarian and testes) [<xref ref-type="bibr" rid="B41">41</xref>,<xref ref-type="bibr" rid="B48">48</xref>]. For example, <italic>BRCA1</italic> expression is critical during development, as evidenced by the embryonic lethality in transgenic knockout mice [<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B30">30</xref>,<xref ref-type="bibr" rid="B52">52</xref>]. Alternatively, overexpression of <italic>BRCA1</italic> may activate apoptosis or cell death [<xref ref-type="bibr" rid="B14">14</xref>]. Human prostate cells with an introduced wild-type <italic>BRCA1</italic> cDNA demonstrated a threefold to sixfold increase in chemosensitivity, as well as an increased susceptibility to drug-induced apoptosis [<xref ref-type="bibr" rid="B53">53</xref>]. We found that clones with even moderately reduced levels of <italic>BRCA1</italic> protein appeared to be relatively resistant to death due to estrogen deprivation. Previous studies in our laboratory showed that response of parental BG-1 cells and antisense clones to gamma radiation were consistent with a <italic>p53</italic> wildtype phenotype, indicating that loss of estrogen dependence is probably not due to a <italic>p53</italic> mutation (unpublished data). Shao <italic>et al</italic> [<xref ref-type="bibr" rid="B14">14</xref>] demonstrated that <italic>BRCA1</italic> transfected into mouse 3T3 fibroblasts resulted in increased programmed cell death. In support of this hypothesis, it has been shown that <italic>p53</italic> and <italic>BRCA1</italic> can form stable complexes, and can coactivate <italic>p21</italic> and <italic>bax</italic> genes, which may lead to the activation of the apoptosis pathway [<xref ref-type="bibr" rid="B15">15</xref>]. The present data, which show that cells with a reduction in BRCA1 have a survival advantage in conditions where control cells fail to thrive, also supports this hypothesis.</p>
+        <p>Like <italic>p53</italic>, <italic>BRCA1</italic> has also been implicated in DNA damage and repair pathways [<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B48">48</xref>,<xref ref-type="bibr" rid="B54">54</xref>]. According to this model, cells without normal <italic>BRCA1</italic> activity may accumulate genetic alterations as a result of failure to arrest and repair DNA damage or self-destruct, thereby leading to genomic instability and neoplastic progression. It may not be coincidental that <italic>BRCA1</italic>-mutant breast cancers are preferentially linked to a 'specific' histopathologic pattern that includes a high S-phase fraction of cells, aneuploidy, and hormone receptor-negative status [<xref ref-type="bibr" rid="B45">45</xref>]. In addition, it has been demonstrated [<xref ref-type="bibr" rid="B20">20</xref>] that hormone-dependent tumors such as breast and ovarian cancers have a decreased ability to undergo apoptosis. Although mutations in this gene are uncommon in sporadic breast and ovarian tumors, <italic>BRCA1</italic> expression levels and protein levels have been found to be reduced in sporadic human breast carcinomas [<xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B19">19</xref>]. Other mechanisms that involve gene regulation may allow for decreased expression of <italic>BRCA1</italic> in sporadic tumors. Hypermethylation has been observed in some sporadic breast tumors in the promoter region of <italic>BRCA1</italic>, which may account for decreased <italic>BRCA1</italic> transcription [<xref ref-type="bibr" rid="B55">55</xref>]. Low BRCA1 levels found in sporadic cancers may play an important role in tumorigenesis. The present data suggest that diminished levels of BRCA1 not only accelerate proliferation in the BG-1 ovarian carcinoma cell line, but appear to alter tumorigenesis. The exact mechanism may be unknown, but decreased <italic>BRCA1</italic> levels appear to affect the ability to arrest growth or die in the absence of estrogenic growth-inducing conditions. We propose that the loss or reduction of <italic>BRCA1</italic> may predispose a cell population to neoplastic transformation by altering the balance between cell death and proliferation/survival, rendering it more sensitive to secondary genetic changes.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <sec>
+        <title>Acknowledgements</title>
+        <p>We gratefully acknowledge the expertise and contribution to this work by Drs William Baldwin, Donato Romagnoto, Minoru Koi, and Joseph Haseman. We also thank Drs Roger Wiseman and Barbara Davis for critical review of the manuscript.</p>
+      </sec>
+    </ack>
+    <ref-list>
+      <ref id="B1">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Futreal</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Shattuck-Eidens</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>BRCA1 mutations in primary breast and ovarian carcinomas.</article-title>
+          <source>Science</source>
+          <year>1994</year>
+          <volume>266</volume>
+          <fpage>120</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="pmid">7939630</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miki</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Swensen</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Shattuck-Eidens</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>A strong candidate for the breast and ovarian cancer susceptibility gene BRCA1. </article-title>
+          <source>Science</source>
+          <year>1994</year>
+          <volume>266</volume>
+          <fpage>66</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="pmid">7545954</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Merajver</surname>
+              <given-names>SD</given-names>
+            </name>
+            <name>
+              <surname>Pham</surname>
+              <given-names>TM</given-names>
+            </name>
+            <name>
+              <surname>Caduff</surname>
+              <given-names>RF</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Somatic mutations in the BRCA1 gene in sporadic ovarian tumours.</article-title>
+          <source>Nature Genet</source>
+          <year>1995</year>
+          <volume>9</volume>
+          <fpage>439</fpage>
+          <lpage>443</lpage>
+          <pub-id pub-id-type="pmid">7795652</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hosking</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Trowsdale</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Nicolai</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>A somatic BRCA1 mutation in an ovarian tumour [letter].</article-title>
+          <source>Nature Genet</source>
+          <year>1995</year>
+          <volume>9</volume>
+          <fpage>343</fpage>
+          <lpage>344</lpage>
+          <pub-id pub-id-type="pmid">7795636</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Tonkinson</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Rubinfeld</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Polakis</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Induction of phosphorylation on BRCA1 during the cell cycle and after DNA damage.</article-title>
+          <source>Cell Growth Differ</source>
+          <year>1997</year>
+          <volume>8</volume>
+          <fpage>801</fpage>
+          <lpage>809</lpage>
+          <pub-id pub-id-type="pmid">9218874</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ruffner</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Verma</surname>
+              <given-names>IM</given-names>
+            </name>
+          </person-group>
+          <article-title>BRCA1 is a cell cycle-regulated nuclear phosphoprotein.</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1997</year>
+          <volume>94</volume>
+          <fpage>7138</fpage>
+          <lpage>7143</lpage>
+          <pub-id pub-id-type="pmid">9207057</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scully</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Ochs</surname>
+              <given-names>RL</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Dynamic changes of BRCA1 sub-nuclear location and phosphorylation state are initiated by DNA damage.</article-title>
+          <source>Cell</source>
+          <year>1997</year>
+          <volume>90</volume>
+          <fpage>425</fpage>
+          <lpage>435</lpage>
+          <pub-id pub-id-type="pmid">9267023</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gudas</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Cowan</surname>
+              <given-names>KH</given-names>
+            </name>
+          </person-group>
+          <article-title>Hormone-dependent regulation of BRCA1 in human breast cancer cells.</article-title>
+          <source>Cancer Res</source>
+          <year>1995</year>
+          <volume>55</volume>
+          <fpage>4561</fpage>
+          <lpage>4565</lpage>
+          <pub-id pub-id-type="pmid">7553629</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marks</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Huper</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Vaughn</surname>
+              <given-names>JP</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>BRCA1 expression is not directly responsive to estrogen.</article-title>
+          <source>Oncogene</source>
+          <year>1997</year>
+          <volume>14</volume>
+          <fpage>115</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="pmid">9010238</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Romagnolo</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Annab</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Thompson</surname>
+              <given-names>TE</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Estrogen upregulation of BRCA1 expression with no effect on localization. </article-title>
+          <source>Mol Carcinogenesis</source>
+          <year>1998</year>
+          <volume>22</volume>
+          <fpage>102</fpage>
+          <lpage>109</lpage>
+        </citation>
+      </ref>
+      <ref id="B11">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>CF</given-names>
+            </name>
+            <name>
+              <surname>Chambers</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Solomon</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Complex regulation of the BRCA1 gene.</article-title>
+          <source>J Biol Chem</source>
+          <year>1997</year>
+          <volume>272</volume>
+          <fpage>20994</fpage>
+          <lpage>20997</lpage>
+          <pub-id pub-id-type="pmid">9261099</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gayther</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Warren</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Mazoyer</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Germline mutations of the BRCA1 gene in breast and ovarian cancer families provide evidence for a genotype-phenotype correlation.</article-title>
+          <source>Nature Genet</source>
+          <year>1995</year>
+          <volume>11</volume>
+          <fpage>428</fpage>
+          <lpage>433</lpage>
+          <pub-id pub-id-type="pmid">7493024</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Geisinger</surname>
+              <given-names>KR</given-names>
+            </name>
+            <name>
+              <surname>Kute</surname>
+              <given-names>TE</given-names>
+            </name>
+            <name>
+              <surname>Pettenati</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Characterization of a human ovarian carcinoma cell line with estrogen and progesterone receptors.</article-title>
+          <source>Cancer</source>
+          <year>1989</year>
+          <volume>63</volume>
+          <fpage>280</fpage>
+          <lpage>288</lpage>
+          <pub-id pub-id-type="pmid">2910432</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shao</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Chai</surname>
+              <given-names>YL</given-names>
+            </name>
+            <name>
+              <surname>Shyam</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Reddy</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>VN</given-names>
+            </name>
+          </person-group>
+          <article-title>Induction of apoptosis by the tumor suppressor protein BRCA1.</article-title>
+          <source>Oncogene</source>
+          <year>1996</year>
+          <volume>13</volume>
+          <fpage>1</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="pmid">8700535</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Somasundaram</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>BRCA1 physically associates with p53 and stimulates its transcriptional activity.</article-title>
+          <source>Oncogene</source>
+          <year>1998</year>
+          <volume>16</volume>
+          <fpage>1713</fpage>
+          <lpage>1721</lpage>
+          <pub-id pub-id-type="pmid">9582019</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilson</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Ramos</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Villasenor</surname>
+              <given-names>MR</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Localization of human BRCA1 and its loss in high-grade, non-inherited breast carcinomas. </article-title>
+          <source>Nature Genet</source>
+          <year>1999</year>
+          <volume>21</volume>
+          <fpage>236</fpage>
+          <lpage>240</lpage>
+          <pub-id pub-id-type="pmid">9988281</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taylor</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Lymboura</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Pace</surname>
+              <given-names>PE</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>An important role for BRCA1 in breast cancer progression is indicated by its loss in a large proportion of non-familial breast cancers.</article-title>
+          <source>Int J Cancer</source>
+          <year>1998</year>
+          <volume>79</volume>
+          <fpage>334</fpage>
+          <lpage>342</lpage>
+          <pub-id pub-id-type="pmid">9699523</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ozcelik</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>To</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Couture</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Bull</surname>
+              <given-names>SB</given-names>
+            </name>
+            <name>
+              <surname>Anrulis</surname>
+              <given-names>IL</given-names>
+            </name>
+          </person-group>
+          <article-title>Preferential allelic expression can lead to reduced expression of BRCA1 in sporadic breast cancers.</article-title>
+          <source>Int J Cancer</source>
+          <year>1998</year>
+          <volume>77</volume>
+          <fpage>1</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="pmid">9639385</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thompson</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Jensen</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Obermiller</surname>
+              <given-names>PS</given-names>
+            </name>
+            <name>
+              <surname>Page</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Holt</surname>
+              <given-names>JT</given-names>
+            </name>
+          </person-group>
+          <article-title>Decreased expression of BRCA1 accelerates growth and is often present during sporadic breast cancer progression.</article-title>
+          <source>Nature Genet</source>
+          <year>1995</year>
+          <volume>9</volume>
+          <fpage>444</fpage>
+          <lpage>450</lpage>
+          <pub-id pub-id-type="pmid">7795653</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thompson</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Apoptosis in the pathogenesis and treatment of disease.</article-title>
+          <source>Science</source>
+          <year>1995</year>
+          <volume>267</volume>
+          <fpage>1456</fpage>
+          <lpage>1462</lpage>
+          <pub-id pub-id-type="pmid">7878464</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gudas</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Cell cycle regulation of BRCA1 messenger RNA in human breast epithelial cells.</article-title>
+          <source>Cell Growth Differ</source>
+          <year>1996</year>
+          <volume>7</volume>
+          <fpage>717</fpage>
+          <lpage>723</lpage>
+          <pub-id pub-id-type="pmid">8780885</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ford</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Easton</surname>
+              <given-names>DF</given-names>
+            </name>
+            <name>
+              <surname>Bishop</surname>
+              <given-names>DT</given-names>
+            </name>
+            <name>
+              <surname>Narod</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Goldgar</surname>
+              <given-names>DE</given-names>
+            </name>
+          </person-group>
+          <article-title>Risks of cancer in BRCA1-mutation carriers. Breast Cancer Linkage Consortium. </article-title>
+          <source>Lancet</source>
+          <year>1994</year>
+          <volume>343</volume>
+          <fpage>692</fpage>
+          <lpage>695</lpage>
+          <pub-id pub-id-type="pmid">7907678</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Struewing</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Hartge</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Wacholder</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>The risk of cancer associated with specific mutations of BRCA1 and BRCA2 among Ashkenazi Jews.</article-title>
+          <source>N Engl J Med</source>
+          <year>1997</year>
+          <volume>336</volume>
+          <fpage>1401</fpage>
+          <lpage>1408</lpage>
+          <pub-id pub-id-type="pmid">9145676</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>LC</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>ZW</given-names>
+            </name>
+            <name>
+              <surname>Tsan</surname>
+              <given-names>JT</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Identification of a RING protein that can interact in vivo with the BRCA1 gene product. </article-title>
+          <source>Nature Genet</source>
+          <year>1996</year>
+          <volume>14</volume>
+          <fpage>430</fpage>
+          <lpage>440</lpage>
+          <pub-id pub-id-type="pmid">8944023</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scully</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>SF</given-names>
+            </name>
+            <name>
+              <surname>Chao</surname>
+              <given-names>DM</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>BRCA1 is a component of the RNA polymerase II holoenzyme.</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1997</year>
+          <volume>94</volume>
+          <fpage>5605</fpage>
+          <lpage>5610</lpage>
+          <pub-id pub-id-type="pmid">9159119</pub-id>
+        </citation>
+      </ref>
+      <ref id="B26">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chapman</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Verma</surname>
+              <given-names>IM</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional activation by BRCA1 [letter; comment].</article-title>
+          <source>Nature</source>
+          <year>1996</year>
+          <volume>382</volume>
+          <fpage>678</fpage>
+          <lpage>679</lpage>
+          <pub-id pub-id-type="pmid">8751436</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Monteiro</surname>
+              <given-names>AN</given-names>
+            </name>
+            <name>
+              <surname>August</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hanafusa</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence for a transcriptional activation function of BRCA1 C-terminal region. </article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1996</year>
+          <volume>93</volume>
+          <fpage>13595</fpage>
+          <lpage>13599</lpage>
+          <pub-id pub-id-type="pmid">8942979</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marquis</surname>
+              <given-names>ST</given-names>
+            </name>
+            <name>
+              <surname>Rajan</surname>
+              <given-names>JV</given-names>
+            </name>
+            <name>
+              <surname>Wynshaw-Boris</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>The developmental pattern of Brca1 expression implies a role in differentiation of the breast and other tissues.</article-title>
+          <source>Nature Genet</source>
+          <year>1995</year>
+          <volume>11</volume>
+          <fpage>17</fpage>
+          <lpage>26</lpage>
+          <pub-id pub-id-type="pmid">7550308</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hakem</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>de la Pompa</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Sirard</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>The tumor suppressor gene Brca1 is required for embryonic cellular proliferation in the mouse.</article-title>
+          <source>Cell</source>
+          <year>1996</year>
+          <volume>85</volume>
+          <fpage>1009</fpage>
+          <lpage>1023</lpage>
+          <pub-id pub-id-type="pmid">8674108</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gowen</surname>
+              <given-names>LC</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>BL</given-names>
+            </name>
+            <name>
+              <surname>Latour</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Sulik</surname>
+              <given-names>KK</given-names>
+            </name>
+            <name>
+              <surname>Koller</surname>
+              <given-names>BH</given-names>
+            </name>
+          </person-group>
+          <article-title>Brca1 deficiency results in early embryonic lethality characterized by neu-roepithelial abnormalities.</article-title>
+          <source>Nature Genet</source>
+          <year>1996</year>
+          <volume>12</volume>
+          <fpage>191</fpage>
+          <lpage>194</lpage>
+          <pub-id pub-id-type="pmid">8563759</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>AD</given-names>
+            </name>
+            <name>
+              <surname>Rosman</surname>
+              <given-names>GJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Improved retroviral vectors for gene transfer and expression.</article-title>
+          <source>Biotechniques</source>
+          <year>1989</year>
+          <volume>7</volume>
+          <fpage>980-990, 984</fpage>
+          <lpage>986, 989-990</lpage>
+          <pub-id pub-id-type="pmid">2631796</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haendler</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Hofer</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of the human cyclophilin gene and of related processed pseudogenes.</article-title>
+          <source>Eur J Biochem</source>
+          <year>1990</year>
+          <volume>190</volume>
+          <fpage>477</fpage>
+          <lpage>482</lpage>
+          <pub-id pub-id-type="pmid">2197089</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33">
+        <citation citation-type="other">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Finney</surname>
+              <given-names>DJ</given-names>
+            </name>
+          </person-group>
+          <source>Statistical Method in Biological Assay New York: Hafner Publishing Co, </source>
+          <year>1964</year>
+        </citation>
+      </ref>
+      <ref id="B34">
+        <citation citation-type="other">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Siegel</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <source>Nonparametric Statistics New York: McGraw-Hill</source>
+          <year>1956</year>
+        </citation>
+      </ref>
+      <ref id="B35">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baldwin</surname>
+              <given-names>WS</given-names>
+            </name>
+            <name>
+              <surname>Curtis</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Cauthen</surname>
+              <given-names>CA</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>BG-1 ovarian cell line: an alternative model for examining estrogen-dependent growth <italic>in vitro</italic>. </article-title>
+          <source>In Vitro Cell Dev Biol </source>
+          <year>1998</year>
+          <volume>19</volume>
+          <fpage>1895</fpage>
+          <lpage>1900</lpage>
+        </citation>
+      </ref>
+      <ref id="B36">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Foghi</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Teerds</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <name>
+              <surname>van der Donk</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Dorrington</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Induction of apop-tosis in rat thecal/interstitial cells by transforming growth factor alpha plus transforming growth factor beta in vitro.</article-title>
+          <source>J Endocrinol</source>
+          <year>1997</year>
+          <volume>153</volume>
+          <fpage>169</fpage>
+          <lpage>178</lpage>
+          <pub-id pub-id-type="pmid">9135581</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kenny</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name>
+              <surname>Kelm</surname>
+              <given-names>LB</given-names>
+            </name>
+          </person-group>
+          <article-title>Spontaneous apoptosis of cells prepared from the nonregressing corpus luteum.</article-title>
+          <source>Biochem Cell Biol </source>
+          <year>1994</year>
+          <volume>72</volume>
+          <fpage>531</fpage>
+          <lpage>536</lpage>
+          <pub-id pub-id-type="pmid">7654326</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Einspanier</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Lauer</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Gabler</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Kamhuber</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Schams</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Egg-cumulus-oviduct interactions and fertilization.</article-title>
+          <source>Adv Exp Med Biol</source>
+          <year>1997</year>
+          <volume>424</volume>
+          <fpage>279</fpage>
+          <lpage>289</lpage>
+          <pub-id pub-id-type="pmid">9361806</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rueda</surname>
+              <given-names>BR</given-names>
+            </name>
+            <name>
+              <surname>Tilly</surname>
+              <given-names>KI</given-names>
+            </name>
+            <name>
+              <surname>Botros</surname>
+              <given-names>IW</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Increased bax and interleukin-1beta-converting enzyme messenger ribonucleic acid levels coincide with apoptosis in the bovine corpus luteum during structural regression.</article-title>
+          <source>Biol Reprod</source>
+          <year>1997</year>
+          <volume>56</volume>
+          <fpage>186</fpage>
+          <lpage>193</lpage>
+          <pub-id pub-id-type="pmid">9002648</pub-id>
+        </citation>
+      </ref>
+      <ref id="B40">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaipia</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hsueh</surname>
+              <given-names>AJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of ovarian follicle atresia. </article-title>
+          <source>Annu Rev Physiol</source>
+          <year>1997</year>
+          <volume>59</volume>
+          <fpage>349</fpage>
+          <lpage>363</lpage>
+          <pub-id pub-id-type="pmid">9074768</pub-id>
+        </citation>
+      </ref>
+      <ref id="B41">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Phillips</surname>
+              <given-names>KW</given-names>
+            </name>
+            <name>
+              <surname>Goldsworthy</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Bennett</surname>
+              <given-names>LM</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Brca1 is expressed independently of hormonal stimulation in the mouse ovary. </article-title>
+          <source>Lab Invest</source>
+          <year>1997</year>
+          <volume>76</volume>
+          <fpage>419</fpage>
+          <lpage>425</lpage>
+          <pub-id pub-id-type="pmid">9121124</pub-id>
+        </citation>
+      </ref>
+      <ref id="B42">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blackshear</surname>
+              <given-names>PE</given-names>
+            </name>
+            <name>
+              <surname>Goldsworthy</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Foley</surname>
+              <given-names>JF</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Brca1 and Brca2 expression patterns in mitotic and meiotic cells of mice. </article-title>
+          <source>Oncogene</source>
+          <year>1998</year>
+          <volume>16</volume>
+          <fpage>61</fpage>
+          <lpage>68</lpage>
+          <pub-id pub-id-type="pmid">9467943</pub-id>
+        </citation>
+      </ref>
+      <ref id="B43">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmutzler</surname>
+              <given-names>RK</given-names>
+            </name>
+            <name>
+              <surname>Bierhoff</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Werkhausen</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Genomic deletions in the BRCA1, BRCA2 and TP53 regions associate with low expression of the estrogen receptor in sporadic breast carcinoma.</article-title>
+          <source>Int J Cancer</source>
+          <year>1997</year>
+          <volume>74</volume>
+          <fpage>322</fpage>
+          <lpage>325</lpage>
+          <pub-id pub-id-type="pmid">9221812</pub-id>
+        </citation>
+      </ref>
+      <ref id="B44">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karp</surname>
+              <given-names>SE</given-names>
+            </name>
+            <name>
+              <surname>Tonin</surname>
+              <given-names>PN</given-names>
+            </name>
+            <name>
+              <surname>Begin</surname>
+              <given-names>LR</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Influence of BRCA1 mutations on nuclear grade and estrogen receptor status of breast carcinoma in Ashkenazi Jewish women.</article-title>
+          <source>Cancer</source>
+          <year>1997</year>
+          <volume>80</volume>
+          <fpage>435</fpage>
+          <lpage>441</lpage>
+          <pub-id pub-id-type="pmid">9241077</pub-id>
+        </citation>
+      </ref>
+      <ref id="B45">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johannsson</surname>
+              <given-names>OT</given-names>
+            </name>
+            <name>
+              <surname>Idvall</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Tumour biological features of BRCA1-induced breast and ovarian cancer.</article-title>
+          <source>Eur J Cancer</source>
+          <year>1997</year>
+          <volume>33</volume>
+          <fpage>362</fpage>
+          <lpage>371</lpage>
+          <pub-id pub-id-type="pmid">9155518</pub-id>
+        </citation>
+      </ref>
+      <ref id="B46">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bu</surname>
+              <given-names>SZ</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Ren</surname>
+              <given-names>XH</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Progesterone induces apoptosis and up-regulation of p53 expression in human ovarian carcinoma cell lines.</article-title>
+          <source>Cancer</source>
+          <year>1997</year>
+          <volume>79</volume>
+          <fpage>1944</fpage>
+          <lpage>1950</lpage>
+          <pub-id pub-id-type="pmid">9149021</pub-id>
+        </citation>
+      </ref>
+      <ref id="B47">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rajan</surname>
+              <given-names>JV</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Marquis</surname>
+              <given-names>ST</given-names>
+            </name>
+            <name>
+              <surname>Chodosh</surname>
+              <given-names>LA</given-names>
+            </name>
+          </person-group>
+          <article-title>Brca2 is coordinately regulated with Brca1 during proliferation and differentiation in mammary epithelial cells.</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1996</year>
+          <volume>93</volume>
+          <fpage>13078</fpage>
+          <lpage>13083</lpage>
+          <pub-id pub-id-type="pmid">8917547</pub-id>
+        </citation>
+      </ref>
+      <ref id="B48">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scully</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Plug</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Association of BRCA1 with Rad51 in mitotic and meiotic cells.</article-title>
+          <source>Cell</source>
+          <year>1997</year>
+          <volume>88</volume>
+          <fpage>265</fpage>
+          <lpage>275</lpage>
+          <pub-id pub-id-type="pmid">9008167</pub-id>
+        </citation>
+      </ref>
+      <ref id="B49">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Somasundaram</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>YX</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Arrest of the cell cycle by the tumour-suppressor BRCA1 requires the CDK-inhibitor p21WAF1/CiP1.</article-title>
+          <source>Nature</source>
+          <year>1997</year>
+          <volume>389</volume>
+          <fpage>187</fpage>
+          <lpage>190</lpage>
+          <pub-id pub-id-type="pmid">9296497</pub-id>
+        </citation>
+      </ref>
+      <ref id="B50">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rao</surname>
+              <given-names>VN</given-names>
+            </name>
+            <name>
+              <surname>Shao</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Ahmad</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Reddy</surname>
+              <given-names>ES</given-names>
+            </name>
+          </person-group>
+          <article-title>Antisense RNA to the putative tumor suppressor gene BRCA1 transforms mouse fibroblasts.</article-title>
+          <source>Oncogene</source>
+          <year>1996</year>
+          <volume>12</volume>
+          <fpage>523</fpage>
+          <lpage>528</lpage>
+          <pub-id pub-id-type="pmid">8637708</pub-id>
+        </citation>
+      </ref>
+      <ref id="B51">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holt</surname>
+              <given-names>JT</given-names>
+            </name>
+            <name>
+              <surname>Thompson</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Szabo</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>Growth retardation and tumour inhibition by BRCA1.</article-title>
+          <source>Nature Genet</source>
+          <year>1996</year>
+          <volume>12</volume>
+          <fpage>298</fpage>
+          <lpage>302</lpage>
+          <pub-id pub-id-type="pmid">8589721</pub-id>
+        </citation>
+      </ref>
+      <ref id="B52">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ludwig</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Chapman</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Papaioannou</surname>
+              <given-names>VE</given-names>
+            </name>
+            <name>
+              <surname>Efstratiadis</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeted mutations of breast cancer susceptibility gene homologs in mice: lethal phenotypes of Brca1, Brca2, Brca1/Brca2, Brca1/p53, and Brca2/p53 nullizygous embryos.</article-title>
+          <source>Genes Dev</source>
+          <year>1997</year>
+          <volume>11</volume>
+          <fpage>1226</fpage>
+          <lpage>1241</lpage>
+          <pub-id pub-id-type="pmid">9171368</pub-id>
+        </citation>
+      </ref>
+      <ref id="B53">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fan</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J-A</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>R-q</given-names>
+            </name>
+            <etal></etal>
+          </person-group>
+          <article-title>BRCA1 as a potential human prostate tumor suppressor: modulation of proliferation, damage responses and expression of cell regulatory proteins. </article-title>
+          <source>Oncogene</source>
+          <year>1998</year>
+          <volume>16</volume>
+          <fpage>3069</fpage>
+          <lpage>3082</lpage>
+          <pub-id pub-id-type="pmid">9662340</pub-id>
+        </citation>
+      </ref>
+      <ref id="B54">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brugarolas</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Jacks</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Double indemnity: p53, BRCA and cancer. p53 mutation partially rescues developmental arrest in Brca1 and Brca2 null mice, suggesting a role for familial breast cancer genes in DNA damage repair [news].</article-title>
+          <source>Nature Med</source>
+          <year>1997</year>
+          <volume>3</volume>
+          <fpage>721</fpage>
+          <lpage>722</lpage>
+          <pub-id pub-id-type="pmid">9212093</pub-id>
+        </citation>
+      </ref>
+      <ref id="B55">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dobrovic</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Simpfendorfer</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Methylation of the BRCA1 gene in sporadic breast cancer.</article-title>
+          <source>Cancer Res</source>
+          <year>1997</year>
+          <volume>57</volume>
+          <fpage>3347</fpage>
+          <lpage>3350</lpage>
+          <pub-id pub-id-type="pmid">9269993</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig position="float" id="F1">
+        <label>Figure 1</label>
+        <caption>
+          <p>Expression of BRCA1 is reduced in BG-1 cells following infection with antisense BRCA1. <bold>(A)</bold> Ribonuclease protection analysis of BRCA1 mRNA. Lanes 1 and 2 show undigested probe for BRCA1 and loading control, cyclophilin. Lanes 3 and 4 are pooled BG-1 neo-infected control cells grown minus [Dulbecco's modified eagle medium (DMEM)] and plus (E<sup>2</sup>) 10<sup>-8</sup> mol/l estrogen 24 h. Lanes 5 and 6 are pooled BG-1 BRCA1 antisense-infected cells minus and plus 10<sup>-8</sup> mol/l estrogen, respectively, for 24 h. The observed doublet is the result of incomplete digestion. <bold>(B)</bold> Western blot analysis of individual control (NEO) and BRCA1 antisense (AS) clones. MDAMB468 is a BRCA1-positive breast cancer cell line.</p>
+        </caption>
+        <graphic xlink:href="bcr-2-2-139-1"/>
+      </fig>
+      <fig position="float" id="F2">
+        <label>Figure 2</label>
+        <caption>
+          <p>The effect of estrogen deprivation and estrogen treatment on the growth of BRCA1 antisense and control cells. <bold>(A)</bold> The mean cell number of BRCA1 pooled population antisense infected cells (filled circle) and vector-only infected cells (white circle) deprived of estrogen for up to 20 days after plating 2.5&#x000d7;10<sup>6</sup> cells per 100-mm dish. Cells received a pretreatment of 5 days of estrogen deprivation before plating. <bold>(B)</bold> The percentage decrease or fold increase of BG-1 antisense (AS) or NEO clones and parental cells plated at 10<sup>6</sup> cells per 60-mm dish after deprivation of estrogen (solid bars) or treatment with 10<sup>-8</sup> mol/l estrogen (spotted bars) for 8 days. Percentage decrease or fold increase was calculated on the basis of the change in cell number between days 5 and 8 after treatment or nontreatment with 10<sup>-8</sup> mol/l estrogen. Cells were pretreated with 5 days of estrogen deprivation before plating.</p>
+        </caption>
+        <graphic xlink:href="bcr-2-2-139-2"/>
+      </fig>
+      <fig position="float" id="F3">
+        <label>Figure 3</label>
+        <caption>
+          <p>The growth curve of BG-1 populations infected with BRCA1 antisense treated with estrogen (10<sup>-8</sup> mol/l; grey circle) or without estrogen (white circle); and the growth curve of BG-1 pooled population infected with pLXSN control vector treated with estrogen (black square) or without estrogen (white square) over a 6-day period. Cells were deprived of estrogen for 5 days before plating 2.5&#x000d7;10<sup>6</sup> cells per 100-mm dish and treatment with estrogen. The results shown indicate the mean cell number of three pooled populations after replating.</p>
+        </caption>
+        <graphic xlink:href="bcr-2-2-139-3"/>
+      </fig>
+      <fig position="float" id="F4">
+        <label>Figure 4</label>
+        <caption>
+          <p>Estrogen dependent BG-1 cells infected with BRCA1 antisense continue to proliferate in the absence of estrogen. <bold>(A)</bold> BG-1 NEO control subclone on day 14 of estrogen deprivation. <bold>(B)</bold> BG-1 NEO at day 9 of 10<sup>-8</sup> mol/l estrogen treatment. <bold>(C)</bold> BG-1 BRCA1 antisense AS-4 subclone on day 14 of estrogen deprivation. <bold>(D)</bold> BG-1 BRCA1 antisense infected cells at day 9 of 10<sup>-8</sup> mol/l estrogen treatment.</p>
+        </caption>
+        <graphic xlink:href="bcr-2-2-139-4"/>
+      </fig>
+      <fig position="float" id="F5">
+        <label>Figure 5</label>
+        <caption>
+          <p>The effect of reduced BRCA1 protein in BG-1 cells on incidence and size of tumor formation in ovariectomized nude mice. <bold>(A)</bold> BG-1 BRCA1 antisense clone AS-4 (solid bars) and control clone NEO (gray bars) injected at 10<sup>5</sup> cells per site in matrigel in the presence of an 0.18mg estrogen implanted pellet. <bold>(B)</bold> BG-1 BRCA1 antisense clone AS-4 (solid bars) and control clone NEO (gray bars) injected at 10<sup>5</sup> cells per site in matrigel without supplemental estrogen. The upper panels indicate the percentage of injected sites that had tumor development. The lower panels provide the average tumor size in millimeters (length &#x000d7; width) for each clone on indicated days.</p>
+        </caption>
+        <graphic xlink:href="bcr-2-2-139-5"/>
+      </fig>
+      <table-wrap position="float" id="T1">
+        <label>Table 1</label>
+        <caption>
+          <p>Number of colonies per 10<sup>4</sup> cells in agar</p>
+        </caption>
+        <table frame="hsides" rules="groups">
+          <thead>
+            <tr>
+              <td></td>
+              <td align="center" colspan="2">- Estrogen</td>
+              <td align="center" colspan="2">+ Estrogen</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="2">
+                <hr></hr>
+              </td>
+              <td colspan="2">
+                <hr></hr>
+              </td>
+            </tr>
+            <tr>
+              <td>Clone</td>
+              <td align="center">Colonies in Agar<sup>a</sup></td>
+              <td align="center">CFE on Plastic<sup>b</sup></td>
+              <td align="center">Colonies in Agar<sup>a</sup></td>
+              <td align="center">CFE on Plastic<sup>b</sup></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left">NEO</td>
+              <td align="center">0.0&#x000b1; 0.0</td>
+              <td align="center">21</td>
+              <td align="center">6.0 &#x000b1; 3.1</td>
+              <td align="center">19</td>
+            </tr>
+            <tr>
+              <td align="left">AS-4</td>
+              <td align="center">10.0 &#x000b1; 2.9<sup>*</sup></td>
+              <td align="center">38</td>
+              <td align="center">133.0 &#x000b1; 17.9<sup>*</sup></td>
+              <td align="center">39</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <p>
+            <sup>
+              <italic>a</italic>
+            </sup>Mean agar colonies &#x000b1; STD; <sup>b</sup>% colony forming efficiency on plastic. <sup>*</sup>
+            <italic>P</italic> &#x0003c;0.01 versus neo 1; <italic>n</italic> = 5.
+          </p>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+  </back>
+</article>
+
+
+
