@@ -53,7 +53,7 @@ Once this has been done, we can start validating the h_index. As things stand, t
 ### with h_index of 2
 
 ```
-db.stats_dev.find( { citations_total: { $gt: 0 }, is_plos: true } )
+db.stats_dev.find( { citations_total: { $gt: 0 }, id_pmid: 21151566 } )
   [{
     _id: ObjectId("652e2d39dc70384f40b13e95"),
     publication_id: ObjectId("652e2b53dc70384db46bbbec"),
@@ -65,22 +65,22 @@ db.stats_dev.find( { citations_total: { $gt: 0 }, is_plos: true } )
     year: 2010,
     month: 7,
     has_month: true,
-    is_plos: true,
-    is_bmc: false,
+    is_plos: false,
+    is_pmc: false,
     has_das: false,
-    authors: [ 1998, 1999, 2000, 1595 ],
+    authors: [ 1998, 1999, 2000, 1595 ], // These numbers represent the actor index in the authors_dev collection
     authors_full: [
       'Meghan E., Wilson',
       'Imene, Boumaza',
       'David, Lacomis',
       'Robert, Bowser'
     ],
-    citation_counts: { '7': 2 },
+    citation_counts: { '7': 2 }, // The key represents the year difference between the publication and the citation
     citations_total: 2,
     citations_one: 0,
     citations_two: 0,
     citations_three: 0,
-    h_indexes: [ 1, 1, 1, 2 ]
+    h_indexes: [ 1, 1, 1, 2 ] // this element is an array and reprent the h-index by author (4 author, 4 element in the h-indexes element)
   }]
 
 db.authors_dev.find( { name: 'Robert, Bowser'  } )
@@ -114,7 +114,7 @@ db.authors_dev.find( { name: 'Robert, Bowser'  } )
 ### with h_index of 1
 
 ```
-contexts> db.stats_dev.find( { citations_total: { $gt: 0 }, is_bmc: true } )
+contexts> db.stats_dev.find( { citations_total: { $gt: 0 }, is_pmc: true } )
 [
   {
     _id: ObjectId("652e2d39dc70384f40b13d96"),
@@ -128,7 +128,7 @@ contexts> db.stats_dev.find( { citations_total: { $gt: 0 }, is_bmc: true } )
     month: 1,
     has_month: true,
     is_plos: false,
-    is_bmc: true,
+    is_pmc: true,
     has_das: true,
     authors: [ 478, 479, 480, 481, 482, 483 ],
     authors_full: [

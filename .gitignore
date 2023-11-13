@@ -108,9 +108,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-.Rproj.user
 
-dataset/dev_set_2
+.Rproj.user
 dataset/config/PMC-Dataset-Oct8_2023.csv
 dataset/config/PLOS-Dataset-Oct8_2023.csv
 data
