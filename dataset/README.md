@@ -17,11 +17,12 @@ Folder containing the necessary code to create a dataset for analysis from the P
 2. Setup a MongoDB and update the [config file](config/config.conf) or run `docker compose up` with the current config.
 3. Run the [parser_main.py](parser_main.py) script, which will create a first collection of articles in Mongo.
 4. Run the [calculate_stats.py](calculate_stats.py) script, which will calculate citation counts for articles and authors and create the relative collections in Mongo.
-5. Run the [get_export.py](get_export.py) script, which will create a first export of the dataset in the [exports folder](exports).
-6. Run the [get_das_unique.py](get_das_unique.py) script, which will pull out unique DAS for classification.
-7. Follow the instructions in the [DAS classifier README](das_classifier/README.md).
-8. Run the [get_export_merged.py](get_export_merged.py) script, to create the final dataset for analysis.
-9. Optionally, run the [evaluation_plos.py](evaluation_plos.py) and [get_authors_top.py](get_authors_top.py) for evaluation.
+5. Run the [calculate_h_index.py](calculate_h_index.py) script, which will update the `h_indexes` elements of each documents with the result of the h_index calculaiton.
+6. Run the [get_export.py](get_export.py) script, which will create a first export of the dataset in the [exports folder](exports).
+7. Run the [get_das_unique.py](get_das_unique.py) script, which will pull out unique DAS for classification.
+8. Follow the instructions in the [DAS classifier README](das_classifier/README.md).
+9. Run the [get_export_merged.py](get_export_merged.py) script, to create the final dataset for analysis.
+10. Optionally, run the [evaluation_plos.py](evaluation_plos.py) and [get_authors_top.py](get_authors_top.py) for evaluation.
 
 ## Requirements
 
