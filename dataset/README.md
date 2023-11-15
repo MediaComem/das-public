@@ -13,13 +13,13 @@ Folder containing the necessary code to create a dataset for analysis from the P
 
 ## Instructions
 
-1. Download the Pubmed OA collection, e.g. via their FTP service: https://www.ncbi.nlm.nih.gov/pmc/tools/ftp. For testing,you can use the data in the [dev set folder](dev_set).
-2. Setup a MongoDB and update the [config file](config/config.conf) or run `docker compose up` with the current config.
+1. Download the Pubmed OA collection, e.g. via their FTP service: https://www.ncbi.nlm.nih.gov/pmc/tools/ftp. For testing, you can use the data in the [dev set folder](dev_set).
+2. Set up a MongoDB and update the [config file](config/config.conf) or run `docker compose up` with the current config.
 3. Uncompress `PLOS_Dataset_Classification.zip` in the config folder then move the folder content into the current folder.
-4. Run the [parser_main.py](parser_main.py) script, which will create a first collection of articles in Mongo.
+4. Run the [parser_main.py](parser_main.py) script, which will create the first collection of articles in Mongo.
 5. Run the [calculate_stats.py](calculate_stats.py) script, which will calculate citation counts for articles and authors and create the relative collections in Mongo.
 6. Run the [calculate_h_index.py](calculate_h_index.py) script, which will update the `h_indexes` elements of each documents with the result of the h_index calculaiton.
-7. Run the [get_export.py](get_export.py) script, which will create a first export of the dataset in the [exports folder](exports).
+7. Run the [get_export.py](get_export.py) script, which will create the first export of the dataset in the [exports folder](exports).
 
 ## Requirements
 
