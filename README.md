@@ -2,8 +2,6 @@
 
 ## Publication
 
-[![DOI]()]()
-
 ## Code and data
 
 * See the [dataset folder](dataset) to creates from the [PubMed Central OA collection](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist) dataset, an CSV file to analyze the h_index impact on publication citation.
