@@ -1,6 +1,6 @@
 # das-public
 
-[![DOI](https://zenodo.org/badge/699319639.svg)](https://zenodo.org/doi/10.5281/zenodo.10136232)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10136232.svg)](https://doi.org/10.5281/zenodo.10136232)
 
 ## Code and data
 
