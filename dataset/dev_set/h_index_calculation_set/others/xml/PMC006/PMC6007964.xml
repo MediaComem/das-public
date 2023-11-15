@@ -1,0 +1,1011 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">Biochemistry</journal-id><journal-id journal-id-type="iso-abbrev">Biochemistry</journal-id><journal-id journal-id-type="publisher-id">bi</journal-id><journal-id journal-id-type="coden">bichaw</journal-id><journal-title-group><journal-title>Biochemistry</journal-title></journal-title-group><issn pub-type="ppub">0006-2960</issn><issn pub-type="epub">1520-4995</issn><publisher><publisher-name>American
+Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">29485857</article-id><article-id pub-id-type="pmc">PMC6007964</article-id><article-id pub-id-type="doi">10.1021/acs.biochem.7b01299</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Structural and Kinetic Studies of the Potent Inhibition
+of Metallo-&#x003b2;-lactamases by 6-Phosphonomethylpyridine-2-carboxylates</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Hinchliffe</surname><given-names>Philip</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Tanner</surname><given-names>Carol A.</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Krismanich</surname><given-names>Anthony P.</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Labb&#x000e9;</surname><given-names>Genevi&#x000e8;ve</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Goodfellow</surname><given-names>Valerie J.</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>Marrone</surname><given-names>Laura</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath7"><name><surname>Desoky</surname><given-names>Ahmed Y.</given-names></name><xref rid="aff6" ref-type="aff">&#x000b6;</xref></contrib><contrib contrib-type="author" id="ath8"><name><surname>Calvopi&#x000f1;a</surname><given-names>Karina</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath9"><name><surname>Whittle</surname><given-names>Emily E.</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath10"><name><surname>Zeng</surname><given-names>Fanxing</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath11"><name><surname>Avison</surname><given-names>Matthew B.</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath12"><name><surname>Bols</surname><given-names>Niels C.</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath13"><name><surname>Siemann</surname><given-names>Stefan</given-names></name><xref rid="aff4" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath14"><name><surname>Spencer</surname><given-names>James</given-names></name><xref rid="cor2" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath15"><name><surname>Dmitrienko</surname><given-names>Gary I.</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff5" ref-type="aff">&#x022a5;</xref></contrib><aff id="aff1"><label>&#x02020;</label>School
+of Cellular &#x00026; Molecular Medicine, <institution>University
+of Bristol</institution>, Bristol BS8 1TD, <country>U.K.</country></aff><aff id="aff2"><label>&#x02021;</label>Department
+of Chemistry, <institution>University of Waterloo</institution>, Waterloo, Ontario, <country>Canada</country> N2L 3G1</aff><aff id="aff6"><label>&#x000b6;</label>Department
+of Chemistry, College of Science, <institution>University
+of Hail</institution>, <country>Saudi Arabia</country></aff><aff id="aff3"><label>&#x000a7;</label>Department
+of Biology, <institution>University of Waterloo</institution>, Waterloo, Ontario, <country>Canada</country> N2L 3G1</aff><aff id="aff4"><label>&#x02225;</label>Department
+of Chemistry and Biochemistry, <institution>Laurentian
+University</institution>, Sudbury, Ontario, <country>Canada</country> P3E 2C6</aff><aff id="aff5"><label>&#x022a5;</label>School
+of Pharmacy, <institution>University of Waterloo</institution>, Waterloo, Ontario, <country>Canada</country> N2L 3G1</aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>dmitrien@uwaterloo.ca</email>.</corresp><corresp id="cor2"><label>*</label>E-mail: <email>jim.spencer@bristol.ac.uk</email>.</corresp></author-notes><pub-date pub-type="epub"><day>27</day><month>02</month><year>2018</year></pub-date><pub-date pub-type="ppub"><day>27</day><month>03</month><year>2018</year></pub-date><volume>57</volume><issue>12</issue><fpage>1880</fpage><lpage>1892</lpage><history><date date-type="received"><day>28</day><month>12</month><year>2017</year></date><date date-type="rev-recd"><day>15</day><month>02</month><year>2018</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2018 American Chemical Society</copyright-statement><copyright-year>2018</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="bi-2017-01299s_0007" id="ab-tgr1"/></p><p>There
+are currently no clinically available inhibitors of metallo-&#x003b2;-lactamases
+(MBLs), enzymes that hydrolyze &#x003b2;-lactam antibiotics and confer
+resistance to Gram-negative bacteria. Here we present 6-phosphonomethylpyridine-2-carboxylates
+(PMPCs) as potent inhibitors of subclass B1 (IMP-1, VIM-2, and NDM-1)
+and B3 (L1) MBLs. Inhibition followed a competitive, slow-binding
+model without an isomerization step (IC<sub>50</sub> values of 0.3&#x02013;7.2
+&#x003bc;M; <italic>K</italic><sub>i</sub> values of 0.03&#x02013;1.5
+&#x003bc;M). Minimum inhibitory concentration assays demonstrated potentiation
+of &#x003b2;-lactam (Meropenem) activity against MBL-producing bacteria,
+including clinical isolates, at concentrations at which eukaryotic
+cells remain viable. Crystal structures revealed unprecedented modes
+of binding of inhibitor to B1 (IMP-1) and B3 (L1) MBLs. In IMP-1,
+binding does not replace the nucleophilic hydroxide, and the PMPC
+carboxylate and pyridine nitrogen interact closely (2.3 and 2.7 &#x000c5;,
+respectively) with the Zn2 ion of the binuclear metal site. The phosphonate
+group makes limited interactions but is 2.6 &#x000c5; from the nucleophilic
+hydroxide. Furthermore, the presence of a water molecule interacting
+with the PMPC phosphonate and pyridine N&#x02013;C2 &#x003c0;-bond, as
+well as the nucleophilic hydroxide, suggests that the PMPC binds to
+the MBL active site as its hydrate. Binding is markedly different
+in L1, with the phosphonate displacing both Zn2, forming a monozinc
+enzyme, and the nucleophilic hydroxide, while also making multiple
+interactions with the protein main chain and Zn1. The carboxylate
+and pyridine nitrogen interact with Ser221 and -223, respectively
+(3 &#x000c5; distance). The potency, low toxicity, cellular activity,
+and amenability to further modification of PMPCs indicate these and
+similar phosphonate compounds can be further considered for future
+MBL inhibitor development.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>bi7b01299</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>bi-2017-01299s</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><p id="sec1">Antibacterial
+drug resistance
+is an increasingly major clinical problem, particularly because of
+the reduced efficacy of &#x003b2;-lactam antibiotics against Gram-negative
+pathogens such as <italic>Escherichia coli</italic>, <italic>Klebsiella
+pneumoniae</italic>, <italic>Pseudomonas aeruginosa</italic>, and <italic>Stenotrophomonas maltophilia</italic>.<sup><xref ref-type="bibr" rid="ref1">1</xref>,<xref ref-type="bibr" rid="ref2">2</xref></sup> &#x003b2;-Lactams
+remain key agents for treatment of Gram-negative infections, with
+the carbapenems and third-generation cephalosporins being the first-choice
+chemotherapeutic agents. Among the major resistance determinants are
+zinc-dependent metallo-&#x003b2;-lactamases (MBLs), zinc-dependent enzymes
+that hydrolyze almost all &#x003b2;-lactams, including the carbapenems
+and cephalosporins.<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref6">6</xref></sup> MBLs all have a similar overall fold with the active site lying
+in a groove formed by two &#x003b2; sheets but are subdivided into three
+subclasses (B1&#x02013;B3) based on the sequence, the structure, and
+the number of zinc ions in their active site.<sup><xref ref-type="bibr" rid="ref7">7</xref>&#x02212;<xref ref-type="bibr" rid="ref10">10</xref></sup> In B1 and B3 MBLs, the active
+site contains two zinc ions, Zn1 coordinated by His116, His118, and
+His196 (standard MBL numbering scheme<sup><xref ref-type="bibr" rid="ref8">8</xref></sup> used
+throughout) and Zn2 coordinated by Asp120, His263, and either Cys221
+in the B1 subclass or His121 in the B3 subclass. A water/hydroxide
+bridges/coordinates the two zinc ions and is thereby potentially activated
+to act as a nucleophile to attack the &#x003b2;-lactam ring.<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> By comparison, subclass B2 MBLs are active as
+monozinc enymes, with the single zinc ion coordinated by Asp120, Cys221,
+and His263 in an architecture similar to that of the Zn2 site in B1
+MBLs.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> In contrast to the serine-&#x003b2;-lactamases
+(SBLs),<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> there are currently no clinically
+useful MBL inhibitors. The differences between the various MBL active
+sites have hindered the development of inhibitors active against all
+MBLs.</p><p>MBL inhibitor design has focused on compounds that include
+metal-binding
+moieties such as nitrogen, thiols, and carboxylates or compounds that
+mimic hydrolysis intermediates, such as the bicyclic boronates.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> The various thiols are the best studied, with
+captopril, a molecule containing both a thiol and carboxylate group,
+being the most prominent example. The <sc>d</sc>- and <sc>l</sc>-stereoisomers
+of captopril are variously effective against B1 and B3 MBLs with IC<sub>50</sub>&#x02019;s covering a wide range, from 0.072 to &#x0003e;500 &#x003bc;M,
+depending on the captopril stereoisomer and MBL variant.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> X-ray crystal structures show the thiol group
+bridges the two active site zinc ions of B1 and B3 MBLs, while in
+B2 MBLs, the carboxylate interacts with the Zn2 site,<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> with the thiol group being uninvolved. More recently, we
+described bisthiazolidines<sup><xref ref-type="bibr" rid="ref16">16</xref>&#x02212;<xref ref-type="bibr" rid="ref18">18</xref></sup> that contain not only a thiol
+group but also nitrogen and carboxylate moieties and can inhibit B1
+enzymes such as NDM-1 (<italic>in vivo</italic> IC<sub>50</sub>&#x02019;s
+of 23&#x02013;201 &#x003bc;M), again through a zinc-bridging thiol group.
+The carboxylate group of both captoprils and bisthiazolidines can
+also interact with residues on the protein main chain (Lys224 or Ser221
+in B1 or B3 enzymes, respectively) that have previously been shown
+to bind a hydrolyzed substrate.<sup><xref ref-type="bibr" rid="ref19">19</xref>,<xref ref-type="bibr" rid="ref20">20</xref></sup> A number of other crystal
+structures of thiols bound to MBLs show similar binding modes, with
+the thiol bridging the two zincs in B1<sup><xref ref-type="bibr" rid="ref21">21</xref>&#x02212;<xref ref-type="bibr" rid="ref24">24</xref></sup> and B3<sup><xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref25">25</xref>,<xref ref-type="bibr" rid="ref26">26</xref></sup> MBLs, and a carboxylate<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> or the thiol<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> binding to the
+monozinc center of B2 MBLs.</p><p>The modes of binding of potent (IC<sub>50</sub> values ranging
+between 0.003 and 7 &#x003bc;M<sup><xref ref-type="bibr" rid="ref13">13</xref></sup>) dicarboxylate
+MBL inhibitors are also well-understood, with crystal structures available
+of such compounds bound to all three MBL subclasses: biaryl succinic
+acid<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> and 3-aminophthalic acid<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> to the B1 enzyme IMP-1, 2,4-pyridine dicarboxylic
+acid to <italic>Aeromonas hydrophila</italic> CphA (B2),<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> and furan/pyrazole-constrained dicarboxylic
+acids to <italic>S. maltophilia</italic> L1 (B3).<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> In all cases, binding is similar to that of thiols, with
+one carboxylate moiety bridging the two active site zinc ions and
+the second carboxylate interacting with a Ser or Lys residue. In the
+case of dicarboxylate inhibition of the B2 MBL CphA, only one of the
+two carboxylates is involved in active site interactions, binding
+the zinc ion, although the nitrogen of the pyridine ring also ligands
+the zinc ion. Nitrogen-based inhibition, by tetrazole-based ligands
+(IC<sub>50</sub> &#x0223c; 18&#x02013;300 &#x003bc;M<sup><xref ref-type="bibr" rid="ref28">28</xref></sup>) and 4-nitrobenzene-sulfonamide (IC<sub>50</sub> not reported),
+has also been structurally characterized in B1 (<italic>Bacteroides
+fragilis</italic> CcrA<sup><xref ref-type="bibr" rid="ref31">31</xref></sup>) and B3 (<italic>Bradyrhizobium japonicum</italic> BJP-1<sup><xref ref-type="bibr" rid="ref32">32</xref></sup>) MBLs. In both cases, inhibition is achieved by interaction of an
+inhibitor nitrogen with either the Zn2 site only (CcrA) or both Zn1
+and Zn2 (BJP-1).</p><p>Bicyclic boronates are proposed to mimic the
+tetrahedral oxyanion
+formed during &#x003b2;-lactam hydrolysis.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> They inhibit B1 enzymes (IC<sub>50</sub>&#x02019;s of 0.003&#x02013;1
+&#x003bc;M) through interaction of the &#x0201c;exocyclic&#x0201d; boronate
+oxygen within the dizinc center, displacing the nucleophilic hydroxide,
+and the &#x0201c;endocylic&#x0201d; boronate ester oxygen with Zn2.
+As with other inhibitors, the carboxylate interacts with both Zn2
+and Lys224 (e.g., NDM-1) or Arg228 (e.g., VIM-2) on the protein main
+chain. The bicyclic boronates do not inhibit the B3 enzymes, such
+as <italic>S. maltophilia</italic> L1.<sup><xref ref-type="bibr" rid="ref34">34</xref></sup></p><p>Less well understood is MBL inhibition by compounds containing
+phosphonate, a moiety well-known to chelate zinc and inhibit metalloenzymes.<sup><xref ref-type="bibr" rid="ref35">35</xref>&#x02212;<xref ref-type="bibr" rid="ref37">37</xref></sup> In addition, phosphonate monoesters have been shown to inhibit SBLs
+by formation of a tetrahedral intermediate mimic covalently bound
+to the active site serine.<sup><xref ref-type="bibr" rid="ref38">38</xref>,<xref ref-type="bibr" rid="ref39">39</xref></sup> Mercaptophosphonate
+compounds, which contain both a phosphonate and a thiol group, have
+been reported as competitive inhibitors of all MBL classes, with <italic>K</italic><sub>i</sub> values from 0.4 to &#x0003e;400 &#x003bc;M.<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> Indeed, in the crystal structure of a mercaptophosphonate:B2
+CphA complex, the phosphonate preferentially binds the zinc ion over
+the thiol group.<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> There is potential of
+phosphonates to act as analogues of mechanistically important oxyanionic
+species in MBL-catalyzed &#x003b2;-lactam hydrolysis. A recent study
+of a &#x003b2;-phospholactam (containing a cyclic phosphonamidate, which
+might undergo hydrolysis to a phosphonate in aqueous medium) exhibited
+modest time-dependent inhibition of B1 and B3 MBLs at 100 &#x003bc;M.<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> However, to date, the utility of phosphonates
+as broad-spectrum inhibitors active against multiple MBL subclasses
+remains underexplored. Accordingly, here we investigate phosphonate-based
+pyridine-carboxylates [PMPCs (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>)] as inhibitors of clinically relevant B1 and B3 MBLs.
+Our data show that these compounds inhibit a range of MBL targets
+and, through X-ray crystallography and kinetic experiments, define
+their mode of binding to, and mechanism of inhibition of, target B1
+and B3 MBLs. Importantly, we also demonstrate potentiation of &#x003b2;-lactam
+antibacterial activity against both laboratory and clinical strains
+of MBL-producing bacteria, suggesting that these compounds may be
+useful against medically relevant antibiotic resistant pathogens.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Structures
+of pyridine-2-carboxylates used in this study: (<bold>1</bold>) PA,
+2-picolinic acid; (<bold>2</bold>) MPA, 6-methylpicolinic
+acid; (<bold>3a</bold>) PMPC-1, 6-(phosphonomethyl)pyridine-2-carboxylate;
+(<bold>3b</bold>) PMPC-2, 6-[hydroxy(phosphono)methyl]picolinic acid;
+(<bold>3c</bold>) PMPC-3, 6-[(<italic>N</italic>-benzyl-1-thiophen-2-ylformamido)(phosphono)methyl]picolinic
+acid; (<bold>4</bold>) (pyridin-2-ylmethyl)phosphonic acid.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="bi-2017-01299s_0001" id="gr1" position="float"/></fig><sec id="sec2"><title>Materials and Methods</title><sec id="sec2.1"><title>Materials</title><p>All
+reagent chemicals used in synthesis,
+including 2-picolinic acid (<bold>1</bold>) and 6-methyl-2-picolinic
+acid (<bold>2</bold>), were acquired from Sigma-Aldrich (Canada) and
+were employed as received. Nitrocefin was obtained from Oxoid or prepared
+synthetically as described previously.<sup><xref ref-type="bibr" rid="ref41">41</xref></sup></p></sec><sec id="sec2.2"><title>Inhibitor Synthesis</title><p>The synthesis and characterization
+of PMPC-1 (<bold>3a</bold>) have been reported previously.<sup><xref ref-type="bibr" rid="ref42">42</xref></sup> The synthesis and spectroscopic characterization
+of PMPC-2 (<bold>3b</bold>), PMPC-3 (<bold>3c</bold>), and PMP (<bold>4</bold>) are described in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Supporting Information</ext-link>.</p></sec><sec id="sec2.3"><title>Minimum Inhibitory Concentration Assays</title><sec id="sec2.3.1"><title>Bacterial Strains and Plasmids</title><p>Open reading frames,
+together with the associated promoter sequences, encoding the IMP-1,
+VIM-1, and NDM-1 MBLs were amplified from clinical samples by polymerase
+chain reaction (PCR) and cloned into the pSU18 broad host range vector
+as previously described.<sup><xref ref-type="bibr" rid="ref33">33</xref>,<xref ref-type="bibr" rid="ref43">43</xref></sup><italic>E. coli</italic> MG1655, <italic>K. pneumoniae</italic> Ecl8, <italic>Citrobacter
+freundii</italic>, and <italic>Enterobacter aerogenes</italic> were
+transformed with the resulting plasmids by electroporation. <italic>K. pneumoniae</italic> strain UWB116 (N11-2218) (as recently employed
+in a study of the natural product aspergillomarasmine A<sup><xref ref-type="bibr" rid="ref44">44</xref></sup>) was a generous gift from A. McGeer at Mount
+Sinai Hospital (Toronto, ON). <italic>P. aeruginosa</italic> strain
+UWB41 (IS6654) and <italic>S. maltophilia</italic> strain UWB26 (IS5563)
+are Meropenem resistant strains kindly provided by D. Pillai from
+the collection of clinical isolates maintained at the Ontario Agency
+for Health Protection and Promotion (now known as Public Health Ontario,
+Toronto, ON). <italic>P. aeruginosa</italic> strain UWB78 (VIM-I-1;
+03-RL-03-2453), <italic>Pseudomonas putida</italic> strain UWB24 (C10;
+PS679/00), <italic>E. coli</italic> strain UWB75 (MH1-NDM-1), and <italic>E. coli</italic> strain UWB93 (Ec7-IMP) originated from the collection
+of clinical isolates maintained at Calgary Laboratory Services (Calgary,
+AB) and were kindly provided by J. Pitout and D. Pillai. <italic>S.
+maltophilia</italic> strains K279a, K ami32 (efflux pump overproducing
+mutant), and JKWZP (knockout strain lacking the RND pumps SmeJ/K/W/Z/P)
+were described previously.<sup><xref ref-type="bibr" rid="ref45">45</xref>&#x02212;<xref ref-type="bibr" rid="ref47">47</xref></sup> For all strains, species identification
+and the presence of specific MBLs were confirmed by PCR using 16S
+rDNA and MBL-specific primers, respectively.</p></sec><sec id="sec2.3.2"><title>Minimum Inhibitory Concentration
+(MIC) Determination</title><p>MIC values were determined by broth microdilution,
+in triplicate,
+in cation-adjusted Mueller Hinton broth (Sigma) according to the Clinical
+Laboratory Standards Institute (CLSI) guidelines.<sup><xref ref-type="bibr" rid="ref48">48</xref></sup> Experiments were performed in microtiter plates (Corning)
+containing the medium with Meropenem and inhibitor [dissolved in dimethyl
+sulfoxide (DMSO)] as appropriate. Plates were incubated overnight
+at 37 &#x000b0;C for 18&#x02013;24 h, and the absorbance at 600 nm was
+read using Polarstar Omega (BMG LabTech) or Powerwave XS2 (Biotek)
+plate readers.</p></sec></sec><sec id="sec2.4"><title>Cell Toxicity Assay</title><sec id="sec2.4.1"><title>Cell Culture</title><p>The
+mammalian cell lines were rat liver
+hepatoma cell line H4IIE (ATCC catalog no. CRL-1600) and two human
+cell lines, Caco2, a colon adenocarcinoma cell line (ATCC catalog
+no. HTB-37), and HepG2, a liver hepatoma cell line (ATCC catalog no.
+CRL-11997). Cells were routinely cultured in Dulbecco&#x02019;s modified
+Eagle&#x02019;s medium (DMEM, Sigma) supplemented with 10% fetal bovine
+serum (FBS) in 75 cm<sup>2</sup> vented culture flasks at 37 &#x000b0;C
+in a humidified 5% CO<sub>2</sub> atmosphere.</p></sec><sec id="sec2.4.2"><title>Plating and
+Dosing</title><p>Cells were seeded in 96-well plates
+(Becton and Dickinson Co., Franklin Lakes, NJ) at a density of 4 &#x000d7;
+10<sup>4</sup> cells per well in 200 &#x003bc;L of DMEM growth medium
+with a 10% FBS supplement. Cells were allowed to settle and reattach
+for 24 h at room temperature before being exposed to any compounds.
+The cells were then dosed with varying concentrations of <bold>3a</bold> in DMEM without 10% FBS. Application of chemicals to cell cultures
+was done by adding culture medium mixed with the chemical solution
+to the culture well. The final concentration of the solvents (such
+as DMSO or water) in each well was the same as for the control wells,
+which were dosed with only solvent. After 24 h, cultures were evaluated
+for cytotoxicity. In no cases was the solvent used at a concentration
+that was cytotoxic.</p></sec><sec id="sec2.4.3"><title>Measuring Cell Viability</title><p>Three fluorescent
+indicator
+dyes were used to evaluate cell viability.<sup><xref ref-type="bibr" rid="ref49">49</xref>,<xref ref-type="bibr" rid="ref50">50</xref></sup> Metabolic activity was measured by Alamar Blue (Medicorp, Montreal,
+QC). Cell membrane integrity was evaluated with 5-carboxyfluorescein
+diacetate (CFDA-AM) (Molecular Probes, Eugene, OR). Lysosome integrity
+was monitored with Neutral Red (Sigma-Aldrich). Alamar Blue, CFDA-AM,
+and Neutral Red were prepared in Dulbecco&#x02019;s phosphate-buffered
+saline (DPBS, Lonza, Walkersville, MD) to give final concentrations
+of 5% (v/v), 4 &#x003bc;M, and 1.5% (v/v), respectively. Cells were
+incubated with dyes for 1 h in the dark and then quantified with a
+fluorescence plate reader (Spectra-max Gemini XS microplate spectrofluorometer;
+Molecular Devices, Sunnyvale, CA). The excitation and emission wavelengths
+used were 530 and 590 nm for Alamar Blue, 485 and 530 nm for CFDA-AM,
+530 and 640 nm for Neutral Red, respectively. Results were calculated
+as a percent of the control culture.</p></sec><sec id="sec2.4.4"><title>Data Analysis</title><p>All graphs were created and statistical
+analyses performed using GraphPad InStat (version 4.01 for Windows
+XP, GraphPad Software, San Diego, CA).</p></sec></sec><sec id="sec2.5"><title>Protein Purification</title><p>NDM-1, VIM-2, IMP-1, and L1 were
+purified as previously described.<sup><xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref51">51</xref>&#x02212;<xref ref-type="bibr" rid="ref53">53</xref></sup></p></sec><sec id="sec2.6"><title>Enzyme Kinetics</title><p>All data analysis of enyme kinetics
+was performed using GraphPad Prism version 5.00 for Windows (GraphPad
+Software).</p><sec id="sec2.6.1"><title>IC<sub>50</sub> Assays</title><p>Inhibitor stocks were prepared
+by dissolving the PMPC compound in 100% DMSO to a final concentration
+of 100 mM. Compound PMP stocks were prepared as 50 mM compound in
+50 mM HEPES (pH 7.2).</p><p>The enzyme (IMP-1, 186 pM; VIM-2, 313
+pM; NDM-1, 620 pM; L1, 637 pM) in the standard assay mixture [50 mM
+HEPES (pH 7.2), 50 &#x003bc;g/mL BSA, and 0.01% Triton X-100] was incubated
+with the inhibitor for 10 min at 30 &#x000b0;C and then added to nitrocefin
+at concentrations resembling or identical to the <italic>K</italic><sub>M</sub> value for this substrate (IMP-1, 3.5 &#x003bc;M; VIM-2,
+15 &#x003bc;M; NDM-1, 1.0 &#x003bc;M; L1, 5.0 &#x003bc;M). Same day triplicates
+of assays performed in 96-well flat-bottom microplates (Corning, Corning,
+NY) were read at 482 nm for 5 min at 30 &#x000b0;C using a Spectramax
+190 reader (Molecular Devices, Sunnyvale, CA).</p><p>Measurements
+for each compound were performed on three or four
+different days unless otherwise indicated. IC<sub>50</sub> values
+were obtained by fitting <xref rid="eq1" ref-type="disp-formula">eq <xref rid="eq1" ref-type="disp-formula">1</xref></xref> to the recorded initial velocities using nonlinear least-squares
+regression.<disp-formula id="eq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="bi-2017-01299s_m001" position="anchor"/><label>1</label></disp-formula>where <italic>y</italic> is
+the measured initial rate, [I] is the inhibitor concentration, and <italic>s</italic> is the Hill slope.</p></sec><sec id="sec2.6.2"><title><italic>K</italic><sub>i</sub> Determination</title><p>The enzyme
+(60 pM IMP-1, 39.2 pM VIM-2, 600 pM NDM-1, or 308 pM L1) was added
+to nitrocefin in excess of enzyme (25 &#x003bc;M for IMP-1, 100 &#x003bc;M
+for VIM-2, 15 &#x003bc;M for NDM-1, and 50 &#x003bc;M for L1) containing
+various dilutions of inhibitor from the range of variable rates as
+determined from IC<sub>50</sub> experiments. The assay was performed
+in 50 mM HEPES (pH 7.2) supplemented with 50 &#x003bc;g/mL BSA and 0.01%
+Triton X-100 in 96-well flat-bottom microplates to a final volume
+of 200 &#x003bc;L. All assays were read at 482 nm using a SpectraMax
+190 plate reader at 30 &#x000b0;C for 10 min. Progress curves were fitted
+by nonlinear regression to <xref rid="eq2" ref-type="disp-formula">eq <xref rid="eq2" ref-type="disp-formula">2</xref></xref>:<sup><xref ref-type="bibr" rid="ref54">54</xref>,<xref ref-type="bibr" rid="ref55">55</xref></sup><disp-formula id="eq2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="bi-2017-01299s_m002" position="anchor"/><label>2</label></disp-formula>where [P]<sub><italic>t</italic></sub> is
+the product concentration at time <italic>t</italic>, <italic>v</italic><sub>0</sub> and <italic>v</italic><sub>s</sub> are the initial and
+steady-state velocities, respectively, <italic>k</italic><sub>obs</sub> is the apparent first-order rate constant for the development of
+the steady state, and <italic>C</italic> is included to correct for
+deviations of the baseline. Values of <italic>k</italic><sub>obs</sub> obtained at multiple concentrations of inhibitor [I] were then plotted
+against [I], and the result was fitted to a straight line defined
+by <xref rid="eq3" ref-type="disp-formula">eq <xref rid="eq3" ref-type="disp-formula">3</xref></xref>:<disp-formula id="eq3"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="bi-2017-01299s_m003" position="anchor"/><label>3</label></disp-formula>where <italic>k</italic><sub>&#x02013;0</sub> is the dissociation rate constant for the enzyme:inhibitor complex
+EI and <italic>K</italic><sub>i</sub><sup arrange="stack">app</sup> is the apparent inhibition constant. Finally, <italic>K</italic><sub>i</sub><sup arrange="stack">app</sup> was used to determine <italic>K</italic><sub>i</sub> using <xref rid="eq4" ref-type="disp-formula">eq <xref rid="eq4" ref-type="disp-formula">4</xref></xref>:<disp-formula id="eq4"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="bi-2017-01299s_m004" position="anchor"/><label>4</label></disp-formula></p></sec></sec><sec id="sec2.7"><title>Crystallization and Structure Determination</title><p>IMP-1 and
+L1 were crystallized as previously described.<sup><xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref51">51</xref></sup> Inhibitor-bound structures were obtained by soaking crystals in
+the compound (2.5 mM) and cryoprotectant (reservoir solution with
+25% glycerol) for 5 min (IMP-1 with <bold>3a</bold>) or 15 min (L1
+with <bold>3a</bold> and <bold>3b</bold>). Crystals were subsequently
+flash-frozen in liquid nitrogen for data collection. Longer soaks
+for IMP-1 crystals resulted in severe deterioration of the crystal,
+while shorter soaks for L1 resulted in active sites that did not contain
+difference density suggestive of ligand binding. Data sets were collected
+at 100 K on beamline I02 (Diamond Light Source), integrated in XDS,<sup><xref ref-type="bibr" rid="ref56">56</xref></sup> and scaled and merged using Aimless.<sup><xref ref-type="bibr" rid="ref57">57</xref></sup> Phases were calculated by molecular replacement
+in Phaser<sup><xref ref-type="bibr" rid="ref58">58</xref></sup> using Protein Data Bank (PDB)
+entries 1SML(<xref ref-type="bibr" rid="ref51">51</xref>) and 5EV6(<xref ref-type="bibr" rid="ref18">18</xref>) as search
+models for L1 and IMP-1, respectively. Structures were completed by
+iterative rounds of manual model building in Coot<sup><xref ref-type="bibr" rid="ref59">59</xref></sup> and refinement in Phenix.<sup><xref ref-type="bibr" rid="ref60">60</xref></sup> Ligand
+structures and geometric restraints were calculated with Phenix eLBOW.
+Structure validation was assisted by Molprobity<sup><xref ref-type="bibr" rid="ref61">61</xref></sup> and Phenix. Figures were prepared using PyMol (<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.pymol.org">www.pymol.org</uri>).</p></sec><sec id="sec2.8"><title>Protein Structure
+Accession Numbers</title><p>Coordinates and
+structure factors have been deposited in the PDB under the following
+accession codes: IMP-1:<bold>3a</bold>, 5HH4; L1:<bold>3a</bold>, 5HH5; L1:<bold>3b</bold>, 5HH6.</p></sec></sec><sec id="sec3"><title>Results
+and Discussion</title><sec id="sec3.1"><title>PMPCs are <italic>in Vitro</italic> Inhibitors
+of B1 and B3
+MBLs</title><p>Numerous classes of chelating agents, including 2-picolinic
+acid [<bold>1</bold> (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>)] and its derivatives, have been evaluated as potential MBL
+inhibitors.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> In particular, dicarboxylate
+derivatives of pyridine have been reported to exhibit significant
+inhibitory activity against some MBLs.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> These include dipicolinic acid (DPA, 2,6-pyridine dicarboxylate),
+which can inhibit the class B1 MBLs CcrA and IMP-1 and the class B3
+MBL L1,<sup><xref ref-type="bibr" rid="ref30">30</xref>,<xref ref-type="bibr" rid="ref62">62</xref></sup> and 2,4-pyridine dicarboxylate, which inhibits
+the class B2 MBL CphA.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> However, DPA is
+a zinc chelator<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> and has been shown to
+remove one zinc ion slowly from the active site of IMP-1 at high concentrations.<sup><xref ref-type="bibr" rid="ref63">63</xref></sup> In addition, a DPA derivative has been shown
+to be a submicromolar inhibitor of the B1 enzyme NDM-1.<sup><xref ref-type="bibr" rid="ref64">64</xref></sup> Although the exact binding mode is not known,
+this compound did not strip NDM-1 of its metal ions but bound to the
+active site. We have previously synthesized phosphonate-based derivatives
+of <bold>1</bold> [6-phosphonomethylpyridine-2-carboxylates (PMPCs)]
+and showed them to be weak inhibitors (IC<sub>50</sub>&#x02019;s of
+60&#x02013;130 &#x003bc;M) of bacterial fructose-1,6-bisphosphate aldolase,
+an enzyme that uses a single zinc ion in its active site.<sup><xref ref-type="bibr" rid="ref42">42</xref></sup> Here we test a selection of these derivatives,
+alongside some newly synthesized molecules (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>), as potential inhibitors of the clinically
+relevant class B1 MBLs VIM-2, NDM-1, and IMP-1 and the class B3 MBL
+L1 (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>). We also
+tested <bold>1</bold> and 6-methyl-2-picolinic acid (<bold>2</bold>; <bold>1</bold> with a methyl group at C6 of the pyridine ring),
+with both having a weak inhibitory effect toward the MBLs tested (IC<sub>50</sub>&#x02019;s from 32.2 to &#x0003e;100 &#x003bc;M), indicating that
+a
+single Zn-coordinating group on the pyridine ring cannot efficiently
+inhibit MBLs. The addition of a phosphonomethyl group on C6 of <bold>1</bold> (<bold>3a</bold>, PMPC-1) results in significant potency
+against all MBLs tested (IC<sub>50</sub>&#x02019;s of 0.374&#x02013;3.88
+&#x003bc;M) with a submicromolar IC<sub>50</sub> against the B1 MBL
+NDM-1. The addition of a hydroxyl group on the carbon of the phosphonomethyl
+group (<bold>3b</bold>, PMPC-2) had little effect compared to <bold>3a</bold> as IC<sub>50</sub> values were similar toward all MBLs
+tested. <bold>3c</bold> (PMPC-3) was synthesized with an additional
+large hydrophobic substituent on the phosphonomethyl group, with the
+aim of exploiting conserved hydrophobic areas within the active sites
+of B1 MBLs, particularly flexible loop L3 (residues 60&#x02013;66)
+previously implicated in substrate/inhibitor interactions.<sup><xref ref-type="bibr" rid="ref65">65</xref></sup> Compared to <bold>3a</bold>, <bold>3c</bold> exhibits slightly improved potency of approximately 1.2&#x02013;2.8-fold
+against NDM-1, VIM-2, and IMP-1 (IC<sub>50</sub>&#x02019;s of 0.306&#x02013;2.91
+&#x003bc;M) and similar potency against L1 (&#x0223c;0.9-fold). The carboxylate
+at position 2 of the pyridine ring, however, is essential as removal
+of this group (<bold>4</bold>) essentially abolishes MBL inhibitory
+activity of the PMPCs. The PMPC phosphonate compounds <bold>3a&#x02013;3c</bold> are therefore all low micromolar inhibitors of both B1 and B3 MBLs.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>IC<sub>50</sub> Values for PMPCs against
+Representative MBLs with Nitrocefin as a Substrate</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th colspan="4" align="center" char=".">IC<sub>50</sub> (&#x003bc;M)<hr/></th></tr><tr><th style="border:none;" align="center">inhibitor</th><th style="border:none;" align="center" char=".">VIM-2</th><th style="border:none;" align="center" char=".">NDM-1</th><th style="border:none;" align="center" char=".">IMP-1</th><th style="border:none;" align="center" char=".">L1</th></tr></thead><tbody><tr><td style="border:none;" align="left"><bold>1</bold></td><td style="border:none;" align="char" char=".">32.2</td><td style="border:none;" align="char" char=".">&#x0003e;100</td><td style="border:none;" align="char" char=".">&#x0003e;100</td><td style="border:none;" align="char" char=".">&#x0003e;100</td></tr><tr><td style="border:none;" align="left"><bold>2</bold></td><td style="border:none;" align="char" char=".">&#x0003e;100</td><td style="border:none;" align="char" char=".">&#x0003e;100</td><td style="border:none;" align="char" char=".">&#x0003e;100</td><td style="border:none;" align="char" char=".">&#x0003e;100</td></tr><tr><td style="border:none;" align="left"><bold>3a</bold></td><td style="border:none;" align="char" char=".">1.29</td><td style="border:none;" align="char" char=".">0.374</td><td style="border:none;" align="char" char=".">3.88</td><td style="border:none;" align="char" char=".">1.48</td></tr><tr><td style="border:none;" align="left"><bold>3b</bold></td><td style="border:none;" align="char" char=".">1.90</td><td style="border:none;" align="char" char=".">0.322</td><td style="border:none;" align="char" char=".">7.20</td><td style="border:none;" align="char" char=".">2.05</td></tr><tr><td style="border:none;" align="left"><bold>3c</bold></td><td style="border:none;" align="char" char=".">0.464</td><td style="border:none;" align="char" char=".">0.306</td><td style="border:none;" align="char" char=".">2.91</td><td style="border:none;" align="char" char=".">1.57</td></tr><tr><td style="border:none;" align="left"><bold>4</bold></td><td style="border:none;" align="char" char=".">171</td><td style="border:none;" align="char" char=".">&#x0003e;1000</td><td style="border:none;" align="char" char=".">&#x0003e;100</td><td style="border:none;" align="char" char=".">&#x0003e;1000</td></tr></tbody></table></table-wrap><p>Identification of phosphonates
+as effective MBL inhibitors motivated
+more detailed kinetic studies aimed at probing the mode of inhibition
+for the PMPCs. Notably, nitrocefin hydrolysis progress curves, obtained
+without premixing of enzyme and inhibitor, for both B1 (IMP-1, NDM-1,
+and VIM-2) and B3 (L1) MBLs (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Figures S1&#x02013;S3</ext-link>) showed burst kinetics. This is consistent with observations that
+reliable IC<sub>50</sub> values could be obtained only when the enzyme
+and the inhibitor were subjected to a 10 min preincubation before
+addition of the substrate. These data strongly indicate that phosphonate
+inhibition of MBLs does not follow a simple competitive model but
+that activity instead involves a time-dependent component. This behavior
+was apparent in the progress curves for inhibition by compounds <bold>3a</bold> (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Figure S1</ext-link>), <bold>3b</bold> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Figure S2</ext-link>), and <bold>3c</bold> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Figure S3</ext-link>); in all cases, these could be fitted
+using <xref rid="eq2" ref-type="disp-formula">eq <xref rid="eq2" ref-type="disp-formula">2</xref></xref> as detailed
+in <xref rid="sec2" ref-type="other">Materials and Methods</xref>.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p><bold>3a</bold> inhibits
+MBLs by a time-dependent mechanism. Progress
+curves and secondary linear plots (insets) for <bold>3a</bold> inhibition
+of nitrocefin hydrolysis by IMP-1, L1, NDM-1, and VIM-2. The curve
+fitting procedure is described in the text. The error bars in the
+progress curves represent three technical replicates.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="bi-2017-01299s_0002" id="gr2" position="float"/></fig><p>Time-dependent or slow-binding inhibition<sup><xref ref-type="bibr" rid="ref66">66</xref></sup> can be described by two alternative mechanisms
+(<xref rid="sch1" ref-type="scheme">Scheme <xref rid="sch1" ref-type="scheme">1</xref></xref>). In the
+simpler case, the
+inhibitory EI complex forms in a single, slow step, whereas in the
+more general case, the initial inhibitory complex EI isomerizes slowly
+to form the steady-state enzyme&#x02013;inhibitor complex EI*. These
+two models can be distinguished by replots of the derived first-order
+rate constant, <italic>k</italic><sub>obs</sub>, against inhibitor
+concentration [I]; in the single-step case, <italic>k</italic><sub>obs</sub> increases linearly with [I], and in the two-step model,
+dependence is instead hyperbolic. In all cases, these secondary plots
+show the linear dependence of <italic>k</italic><sub>obs</sub> on
+[I], leading us to conclude that formation of the inhibitory PMPC:MBL
+complex occurs in a single step.</p><fig id="sch1" position="float"><label>Scheme 1</label><caption><title>Possible Mechanisms for Slow-Binding
+Inhibition</title><p id="sch1-fn1">In the simpler case (left,
+observed here), the inhibitory EI complex forms by a single, slow
+step. In the more general case (right), the initial inhibitory EI
+complex isomerizes slowly to form the steady-state inhibitory complex
+EI*.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="bi-2017-01299s_0006" id="gr6" position="float"/></fig><p>Using this treatment, we determined inhibition
+constants (<italic>K</italic><sub>i</sub>) for phosphonates <bold>3a&#x02013;3c</bold> against VIM-2, NDM-1, IMP-1, and L1. As with
+the IC<sub>50</sub> data, <italic>K</italic><sub>i</sub> values (<xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>) indicate the compounds
+are similarly potent,
+showing a particularly dramatic effect against NDM-1 (<italic>K</italic><sub>i</sub> = 34&#x02013;74 nM). As described above, <bold>3a&#x02013;3c</bold> all demonstrated a slow-binding competitive inhibition profile against
+all MBLs, with a slow &#x0201c;on&#x0201d; rate and even slower &#x0201c;off&#x0201d;
+rate (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Table S1</ext-link>) but no isomerization step.
+Inspection of the rate constants in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Table S1</ext-link> shows a range of values for the on rate (<italic>k</italic><sub>0</sub>) between 0.08 and 6.4 s<sup>&#x02013;1</sup>, i.e., almost
+2 orders of magnitude, while the off rate (<italic>k</italic><sub>&#x02013;0</sub>) exhibits less variation. Of the four enzymes tested,
+values of <italic>k</italic><sub>0</sub> are consistently highest
+for NDM-1, and consistently lowest for IMP-1, which also exhibits
+the lowest <italic>k</italic><sub>&#x02013;0</sub> values. Comparison
+of values for the different compounds reveals that PMPC <bold>3c</bold>, which incorporates relatively hydrophobic functionalities, has
+on rate constants (<italic>k</italic><sub>0</sub>) for the B1 MBLs
+(IMP-1, NDM-1, and VIM-2) that are higher than those of the other
+PMPCs, although no difference is observed for the B3 L1 enzyme.</p><table-wrap id="tbl2" position="float"><label>Table 2</label><caption><title>Inhibition Constants for PMPCs against
+MBLs</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="&#x000b1;"/><col align="char" char="&#x000b1;"/><col align="char" char="&#x000b1;"/><col align="char" char="&#x000b1;"/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th colspan="4" align="center" char="&#x000b1;"><italic>K</italic><sub>i</sub> (&#x003bc;M)<hr/></th></tr><tr><th style="border:none;" align="center">inhibitor</th><th style="border:none;" align="center" char="&#x000b1;">VIM-2</th><th style="border:none;" align="center" char="&#x000b1;">NDM-1</th><th style="border:none;" align="center" char="&#x000b1;">IMP-1</th><th style="border:none;" align="center" char="&#x000b1;">L1</th></tr></thead><tbody><tr><td style="border:none;" align="left"><bold>3a</bold></td><td style="border:none;" align="char" char="&#x000b1;">0.54&#x000a0;&#x000b1;&#x000a0;0.05</td><td style="border:none;" align="char" char="&#x000b1;">0.07&#x000a0;&#x000b1;&#x000a0;0.01</td><td style="border:none;" align="char" char="&#x000b1;">1.1&#x000a0;&#x000b1;&#x000a0;0.2</td><td style="border:none;" align="char" char="&#x000b1;">0.5&#x000a0;&#x000b1;&#x000a0;0.1</td></tr><tr><td style="border:none;" align="left"><bold>3b</bold></td><td style="border:none;" align="char" char="&#x000b1;">0.61&#x000a0;&#x000b1;&#x000a0;0.04</td><td style="border:none;" align="char" char="&#x000b1;">0.078&#x000a0;&#x000b1;&#x000a0;0.008</td><td style="border:none;" align="char" char="&#x000b1;">1.5&#x000a0;&#x000b1;&#x000a0;0.1</td><td style="border:none;" align="char" char="&#x000b1;">0.4&#x000a0;&#x000b1;&#x000a0;0.1</td></tr><tr><td style="border:none;" align="left"><bold>3c</bold></td><td style="border:none;" align="char" char="&#x000b1;">0.038&#x000a0;&#x000b1;&#x000a0;0.009</td><td style="border:none;" align="char" char="&#x000b1;">0.034&#x000a0;&#x000b1;&#x000a0;0.006</td><td style="border:none;" align="char" char="&#x000b1;">0.4&#x000a0;&#x000b1;&#x000a0;0.2</td><td style="border:none;" align="char" char="&#x000b1;">0.4&#x000a0;&#x000b1;&#x000a0;0.1</td></tr></tbody></table></table-wrap><p>Previous descriptions
+of slow-binding inhibition of MBLs, e.g.,
+of IMP-1 by certain thiols,<sup><xref ref-type="bibr" rid="ref67">67</xref></sup> or of the
+model MBL <italic>Bacillus cereus</italic> BcII by thiols formed on
+opening of the dihydrothiazine ring of cephalosporins,<sup><xref ref-type="bibr" rid="ref68">68</xref></sup> propose that slow binding is likely due to the
+involvement of an isomerization step in formation of the inhibitory
+complex EI* (<xref rid="sch1" ref-type="scheme">Scheme <xref rid="sch1" ref-type="scheme">1</xref></xref>). An alternative explanation is necessary to account for the single-step
+pathway observed here. In this context, we note recent molecular dynamics
+simulations<sup><xref ref-type="bibr" rid="ref69">69</xref></sup> suggesting that slow binding
+may arise, at least for some inhibitors, because of favorable interactions
+of the inhibitor with transient enzyme-bound water molecules present
+on initial association that are removed by stepwise dehydration to
+generate the final inhibitory complex. It is reasonable to suggest
+that such mechanisms may be involved in the slow-binding inhibition
+of MBLs by PMPCs, particularly given the polar character of these
+compounds. This could also explain why, unlike what is observed for
+the B1 MBLs tested, the on rate (<italic>k</italic><sub>0</sub>) for
+PMPC <bold>3c</bold> inhibition of L1 does not differ substantially
+from those observed for <bold>3a</bold> and <bold>3b</bold>. One consequence
+of the structural differences between the B1 and B3 enzymes may be
+differing spatial distributions of water molecules within and near
+the active sites, requiring a different pathway to be taken from the
+initial, hydrated, complex to the stable, inhibitory complex analogous
+to that formed with the B1 enzymes.</p><p>The off rate constants (<italic>k</italic><sub>&#x02013;0</sub>)
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Table S1</ext-link> also provide some insight into
+the residency times of PMPC inhibitors at the MBL-binding sites, which
+may be calculated as dissociative half-lives (<italic>t</italic><sub>1/2</sub> = 2/<italic>k</italic><sub>&#x02013;0</sub>) and are summarized
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Table S2</ext-link>. Values range from 6 min (complex
+of <bold>3b</bold> and VIM-2) to 25 min (<bold>3c</bold> and IMP-1).
+Recent work<sup><xref ref-type="bibr" rid="ref70">70</xref>&#x02212;<xref ref-type="bibr" rid="ref73">73</xref></sup> highlights the importance of assessing kinetic data on drug&#x02013;target
+residence time, as well as equilibrium binding constants, in analyzing
+structure&#x02013;activity relationship data during lead optimization
+of drug candidates. A long residency time can extend the duration
+of drug effects <italic>in vivo</italic> and enhance selectivity if
+the residency time exceeds those for related off-target enzymes. Such
+considerations will play an important role in our future efforts to
+advance the PMPCs toward compounds with clinical potential.</p><p>In addition to the distinctive slow-binding behavior observed here,
+the kinetics observed with the PMPCs also differ from those observed
+for the natural product aspergillomarasmine A that attenuates NDM-1
+and VIM-2 activity (but not that of IMP-7 or the B3 enzyme AIM) by
+removing both zinc ions.<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> Notably, these
+compounds have a potency against a range of MBL targets that is greater
+than that of captopril<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> and show potency
+similar to, and sometimes better than, those of other thiol-based
+compounds such as mercaptophosphonates,<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> with IC<sub>50</sub> values ranging from 0.3 to 7.2 &#x003bc;M across
+all MBL/inhibitor combinations tested.</p></sec><sec id="sec3.2"><title>PMPCs Enhance Meropenem
+Antibacterial Activity against MBL-Producing
+Bacteria</title><p>We next tested the ability of the simplest of our
+synthesized phosphonate compounds, <bold>3a</bold>, to enhance the
+antibacterial activity of Meropenem against bacterial strains producing
+the most clinically relevant subclass B1 MBLs from introduced broad
+host range plasmids or clinical isolates. The Meropenem MIC was first
+measured using bacteria expressing the cloned MBLs IMP-1 (<italic>E. coli</italic>), VIM-1 [the most prevalent VIM MBL subtype in Enterobactaeriaceae<sup><xref ref-type="bibr" rid="ref74">74</xref></sup> (sequence 90.6% identical to that of VIM-2), <italic>E. coli</italic>], and NDM-1 (<italic>E. coli</italic>, <italic>K.
+pneumoniae</italic>, <italic>C. freundii</italic>, and <italic>En.
+aerogenes</italic>) (<xref rid="tbl3" ref-type="other">Table <xref rid="tbl3" ref-type="other">3</xref></xref>). In all cases, other than that of VIM-1 expressed in laboratory <italic>E. coli</italic> strain MG1655, MBL expression conferred resistance
+to Meropenem as judged by CLSI (resistance is defined by MICs of &#x02265;4
+mg/L for Enterobacteriacae and &#x02265;8 mg/L for <italic>P. aeruginosa</italic>) or EUCAST (resistance MICs of &#x0003e;8 mg/L for Enterobacteriacae
+and <italic>P. aeruginosa</italic>) breakpoints.<sup><xref ref-type="bibr" rid="ref48">48</xref>,<xref ref-type="bibr" rid="ref75">75</xref></sup> Co-administration
+with <bold>3a</bold> reduced Meropenem MICs into the susceptible range
+against all strains except <italic>E. coli</italic> MG1655 expressing
+NDM-1 (MIC = 8 mg/L), although this required 100 mg/L <bold>3a</bold> to achieve. In all cases, at 100 mg/L <bold>3a</bold>, the Meropenem
+MIC was reduced by at least 16-fold. Against <italic>K. pneumoniae</italic>, <italic>C. freundii</italic>, and <italic>En. aerogenes</italic> expressing NDM-1, MICs were enhanced to 4, 2, and 1 mg/L, respectively,
+but not restored to Meropenem MICs against non-MBL-producing strains
+(&#x02264;0.25,<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> 0.06, and 0.06 mg/L,<sup><xref ref-type="bibr" rid="ref76">76</xref></sup> respectively). For wild-type clinical isolates
+(<italic>P. putida</italic>, <italic>P. aeruginosa</italic>, <italic>S. maltophilia</italic>, one <italic>K. pneumoniae</italic>, and
+one <italic>E. coli</italic>) (<xref rid="tbl4" ref-type="other">Table <xref rid="tbl4" ref-type="other">4</xref></xref>), a similar trend was observed, with some reduction
+in Meropenem MICs against all nine strains tested. There was a &#x0003e;4-fold
+reduction in Meropenem MIC against eight of the nine strains tested
+at 128 mg/L <bold>3a</bold>, with five of nine strains reverting from
+Meropenem resistance to susceptibility (EUCAST definition Meropenem
+MICs of &#x02264;2 mg/L) at the same concentration of <bold>3a</bold>. In the case of the NDM-1-producing <italic>K. pneumoniae</italic> clinical isolate in <xref rid="tbl4" ref-type="other">Table <xref rid="tbl4" ref-type="other">4</xref></xref>, a meaningful comparison of the potency of <bold>3a</bold> and AMA is possible because this same strain has been employed in
+a study of the effect of AMA on Meropenem MIC.<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> The MIC for Meropenem was reduced to 0.25 mg/L in the presence
+of 16 mg/L AMA and to &#x0003c;0.125 mg/L in the presence of 32 mg/L AMA.
+Here, the MIC for Meropenem was found to be reduced to 0.25 mg/L in
+the presence of 32 mg/L <bold>3a</bold> and to &#x0003c;0.125 mg/L at 64
+mg/L inhibitor. Notably, <bold>3a</bold> enhanced Meropenem activity
+against an <italic>E. coli</italic> strain (UWB75) carrying both an
+SBL (CTX-M-15, which lacks meaningful carbapenemase activity) and
+the NDM-1 MBL (4-fold reduction at 32 mg/L inhibitor; &#x0003e;512-fold
+reduction,
+from 128 to &#x0003c;0.25 mg/L, at 128 mg/L).</p><table-wrap id="tbl3" position="float"><label>Table 3</label><caption><title>Potentiation
+of Meropenem Activity
+against Recombinant B1 MBL-Producing Bacteria by PMPCs</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center">&#x000a0;</th><th colspan="4" align="center" char=".">Meropenem
+MIC (mg&#x02009;L<sup>&#x02013;1</sup>)<hr/></th></tr><tr><th style="border:none;" align="center">strain</th><th style="border:none;" align="center">MBL<xref rid="t3fn1" ref-type="table-fn">a</xref></th><th style="border:none;" align="center" char=".">in the absence of inhibitor</th><th style="border:none;" align="center" char=".">in the presence of 10 mg&#x02009;L<sup>&#x02013;1</sup><bold>3a</bold></th><th style="border:none;" align="center" char=".">in the presence of of 50 mg&#x02009;L<sup>&#x02013;1</sup><bold>3a</bold></th><th style="border:none;" align="center" char=".">in the
+presence of 100 mg&#x02009;L<sup>&#x02013;1</sup><bold>3a</bold></th></tr></thead><tbody><tr><td style="border:none;" align="left"><italic>E. coli</italic> MG1655</td><td style="border:none;" align="left">vector only</td><td style="border:none;" align="char" char=".">&#x0003c;0.25</td><td style="border:none;" align="char" char=".">&#x0003c;0.25</td><td style="border:none;" align="char" char=".">&#x0003c;0.25</td><td style="border:none;" align="char" char=".">&#x0003c;0.25</td></tr><tr><td style="border:none;" align="left"><italic>E. coli</italic> MG1655</td><td style="border:none;" align="left">IMP-1</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">2</td><td style="border:none;" align="char" char=".">&#x0003c;0.25</td></tr><tr><td style="border:none;" align="left"><italic>E. coli</italic> MG1655</td><td style="border:none;" align="left">VIM-1</td><td style="border:none;" align="char" char=".">4</td><td style="border:none;" align="char" char=".">4</td><td style="border:none;" align="char" char=".">2</td><td style="border:none;" align="char" char=".">&#x0003c;0.25</td></tr><tr><td style="border:none;" align="left"><italic>E. coli</italic> MG1655</td><td style="border:none;" align="left">NDM-1</td><td style="border:none;" align="char" char=".">&#x0003e;256</td><td style="border:none;" align="char" char=".">&#x0003e;256</td><td style="border:none;" align="char" char=".">128</td><td style="border:none;" align="char" char=".">8</td></tr><tr><td style="border:none;" align="left"><italic>K. pneumoniae</italic> Ecl8</td><td style="border:none;" align="left">NDM-1</td><td style="border:none;" align="char" char=".">&#x0003e;256</td><td style="border:none;" align="char" char=".">&#x0003e;256</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">4</td></tr><tr><td style="border:none;" align="left"><italic>C. freundii</italic> D571</td><td style="border:none;" align="left">NDM-1</td><td style="border:none;" align="char" char=".">32</td><td style="border:none;" align="char" char=".">32</td><td style="border:none;" align="char" char=".">8</td><td style="border:none;" align="char" char=".">2</td></tr><tr><td style="border:none;" align="left"><italic>En. aerogenes</italic> 15-8358A</td><td style="border:none;" align="left">NDM-1</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">1</td></tr></tbody></table><table-wrap-foot><fn id="t3fn1"><label>a</label><p>MBL expressed from its native promoter,
+encoded on the pSU18 vector.</p></fn></table-wrap-foot></table-wrap><table-wrap id="tbl4" position="float"><label>Table 4</label><caption><title>Potentiation of Meropenem Activity
+against MBL-Producing Clinical Strains by <bold>3a</bold></title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center">&#x000a0;</th><th colspan="7" align="center" char=".">Meropenem
+MIC (mg&#x02009;L<sup>&#x02013;1</sup>)<hr/></th></tr><tr><th style="border:none;" align="center">strain</th><th style="border:none;" align="center">resistance determinant (MBL/SBL)</th><th style="border:none;" align="center" char=".">in the absence of inhibitor</th><th style="border:none;" align="center" char=".">in the presence of 4 mg&#x02009;L<sup>&#x02013;1</sup><bold>3a</bold></th><th style="border:none;" align="center" char=".">in the presence of
+8 mg&#x02009;L<sup>&#x02013;1</sup><bold>3a</bold></th><th style="border:none;" align="center" char=".">in the presence of 16 mg&#x02009;L<sup>&#x02013;1</sup><bold>3a</bold></th><th style="border:none;" align="center" char=".">in the presence of
+32 mg&#x02009;L<sup>&#x02013;1</sup><bold>3a</bold></th><th style="border:none;" align="center" char=".">in the presence of 64 mg&#x02009;L<sup>&#x02013;1</sup><bold>3a</bold></th><th style="border:none;" align="center" char=".">in the presence of
+128 mg&#x02009;L<sup>&#x02013;1</sup><bold>3a</bold></th></tr></thead><tbody><tr><td style="border:none;" align="left"><italic>P. aeruginosa</italic> UWB41</td><td style="border:none;" align="left">VIM-2</td><td style="border:none;" align="char" char=".">128</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">32</td><td style="border:none;" align="char" char=".">4</td><td style="border:none;" align="char" char=".">0.5</td></tr><tr><td style="border:none;" align="left"><italic>P. putida</italic> #UWB24</td><td style="border:none;" align="left">VIM-2</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">32</td><td style="border:none;" align="char" char=".">8</td><td style="border:none;" align="char" char=".">2</td></tr><tr><td style="border:none;" align="left"><italic>E. coli</italic> UWB75</td><td style="border:none;" align="left">NDM-1/CTX-M-15</td><td style="border:none;" align="char" char=".">128</td><td style="border:none;" align="char" char=".">128</td><td style="border:none;" align="char" char=".">128</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">1</td><td style="border:none;" align="char" char=".">&#x0003c;0.25</td></tr><tr><td style="border:none;" align="left"><italic>P. aeruginosa</italic> UWB78</td><td style="border:none;" align="left">VIM-2</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">64</td><td style="border:none;" align="char" char=".">32</td><td style="border:none;" align="char" char=".">8</td><td style="border:none;" align="char" char=".">4</td></tr><tr><td style="border:none;" align="left"><italic>S. maltophilia</italic> K279a</td><td style="border:none;" align="left">L1, L2</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">8</td><td style="border:none;" align="char" char=".">4</td></tr><tr><td style="border:none;" align="left"><italic>S. maltophilia</italic> Kami32</td><td style="border:none;" align="left">L1,
+L2</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">8</td><td style="border:none;" align="char" char=".">8</td></tr><tr><td style="border:none;" align="left"><italic>S. maltophilia</italic> JKWZP</td><td style="border:none;" align="left">L1, L2</td><td style="border:none;" align="char" char=".">32</td><td style="border:none;" align="char" char=".">32</td><td style="border:none;" align="char" char=".">32</td><td style="border:none;" align="char" char=".">32</td><td style="border:none;" align="char" char=".">32</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">8</td></tr><tr><td style="border:none;" align="left"><italic>K. pneumoniae</italic> UWB116</td><td style="border:none;" align="left">NDM-1</td><td style="border:none;" align="char" char=".">32</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">8</td><td style="border:none;" align="char" char=".">4</td><td style="border:none;" align="char" char=".">0.25</td><td style="border:none;" align="char" char=".">&#x0003c;0.125</td><td style="border:none;" align="char" char=".">&#x0003c;0.125</td></tr><tr><td style="border:none;" align="left"><italic>E. coli</italic> UWB93</td><td style="border:none;" align="left">IMP-1/CTX-M-15</td><td style="border:none;" align="char" char=".">4</td><td style="border:none;" align="char" char=".">4</td><td style="border:none;" align="char" char=".">4</td><td style="border:none;" align="char" char=".">4</td><td style="border:none;" align="char" char=".">2</td><td style="border:none;" align="char" char=".">0.5</td><td style="border:none;" align="char" char=".">0.25</td></tr></tbody></table></table-wrap><p>Compounds <bold>3b</bold> and <bold>3c</bold> were next tested
+against a subset of clinical MBL-producing strains in a preliminary
+assessment of the effects of substitutions upon biological activity
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Table S3</ext-link>). Importantly, in all cases,
+we observed reductions in Meropenem MICs in the presence of PMPCs,
+although the effects were variable. The modifications in <bold>3b</bold> and <bold>3c</bold> exerted an effect similar to that of <bold>3a</bold> upon the potency of Meropenem combinations against <italic>E. coli</italic> UWB93 and <italic>K. pneumoniae</italic> UWB116. However, against <italic>E. coli</italic> UWB75 (the isolate for which the Meropenem MIC was
+highest), the effectiveness of both <bold>3b</bold> and <bold>3c</bold> was reduced, with <bold>3c</bold> unable to restore Meropenem susceptibility
+at 128 mg/L. <bold>3b</bold> and <bold>3c</bold> were also less effective
+against the two <italic>Pseudomonas</italic> spp. strains for which,
+unlike <bold>3a</bold>, neither compound could restore Meropenem susceptibility,
+even at 128 mg/L. Despite the difference in size, <bold>3b</bold> and <bold>3c</bold> behaved identically toward <italic>P. putida</italic> isolate
+UWB24, whereas for <italic>P. aeruginosa</italic> UWB78, <bold>3c</bold> appeared to be less effective than <bold>3b</bold>, although the
+effects were subtle (4-fold difference in Meropenem MIC at the highest
+concentration tested). These data indicate that modifications to the
+PMPC scaffold affect, but do not abolish, activity in bacterial growth
+assays. Indeed, the potency against Enterobacteriaceae (a group of
+pathogens in which MBL-mediated carbapenem resistance is particularly
+concerning) was in many cases tolerant of additions to the PMPCs.</p><p>We also tested the activity of <bold>3a</bold> against <italic>S.
+maltophilia</italic>, a notoriously impermeable pathogen of compromised
+individuals and a growing problem in cystic fibrosis patients.<sup><xref ref-type="bibr" rid="ref77">77</xref>,<xref ref-type="bibr" rid="ref78">78</xref></sup> Compared to those of the <italic>E. coli</italic>, <italic>K. pneumoniae</italic>, and <italic>Pseudomonas</italic> spp. isolates, the activity of <bold>3a</bold> was reduced (<xref rid="tbl4" ref-type="other">Table <xref rid="tbl4" ref-type="other">4</xref></xref>). Nevertheless, <bold>3a</bold> was able to potentiate Meropenem
+activity (4-fold reduction in MIC values) against the clinical multidrug
+resistant <italic>S. maltophilia</italic> bloodstream isolate K279a.
+To determine whether PMPC potency is influenced by efflux, we measured
+MICs in a K279a derivative overexpressing the resistance nodulation
+division (RND) efflux pump SmeYZ (<italic>S. maltophilia</italic> K
+ami32), and an additional knockout strain lacking the RND pumps SmeJ/K/W/Z/P
+(<italic>S. maltophilia</italic> JKWZP). In the presence of <bold>3a</bold>, Meropenem MICs were reduced by a single 2-fold dilution
+against overexpression strain K ami32 and 4-fold against the JKWZP
+efflux pump knockout strain, suggesting that PMPCs are only slightly
+affected by efflux in <italic>S. maltophilia</italic>.</p><p>Taken
+together, these experiments indicate that PMPCs, in particular <bold>3a</bold>, are able to inhibit a range of MBLs expressed in the periplasm
+and enhance &#x003b2;-lactam activity against a wide range of Gram-negative
+bacteria. While relatively high PMPC concentrations (32&#x02013;128
+mg/L) were required to restore Meropenem susceptibility (which was
+not always achieved), activity was observed against a range of target
+species, including nonfermenters, and was relatively unaffected by
+alterations to known efflux systems. These data indicate that while
+compounds in this initial series may not show optimal penetration
+of the Gram-negative outer membrane, some entry into the periplasm
+is occurring even in problematic species such as <italic>P. aeruginosa</italic> and <italic>S. maltophilia</italic>. This supports our contention
+that these initial examples of the PMPC scaffold can be viable lead
+structures for further optimization. Importantly, we consider this
+to remain valid despite the presence of multiple ionizable groups
+that might be expected to create complications with respect to pharmacokinetics
+or drug delivery. The literature p<italic>K</italic><sub>a</sub> values
+of approximately 2.5 and 8 for the first and second ionizations of
+phosphonates,<sup><xref ref-type="bibr" rid="ref79">79</xref></sup> respectively, and of 1.0
+for 2-picolinic acid<sup><xref ref-type="bibr" rid="ref80">80</xref></sup> lead us to expect
+that at physiological pH the PMPCs will exist largely in a dianionic
+form. Given the ample precedents for dianionic &#x003b2;-lactams (e.g.,
+carbenicillin or ticarcillin<sup><xref ref-type="bibr" rid="ref81">81</xref></sup>) being suitable
+for clinical use as antibiotics for Gram-negative bacteria, including <italic>P. aeruginosa</italic>, we do not expect the ionization state of
+these inhibitors to be necessarily problematic.</p><p>Although a previous
+study showed <bold>3a</bold> to be nontoxic
+to immortal African green monkey kidney cells (BL-C-1),<sup><xref ref-type="bibr" rid="ref82">82</xref></sup> due to the relatively high concentrations (up
+to 100 mg/L) of the inhibitor required for significant reduction in
+MIC, we tested the toxicity of <bold>3a</bold> against Caco-2 (human
+epithelial), HEPG2 (human liver), and H4IIE (rat hepatoma) cells at
+higher concentrations. These data show <bold>3a</bold> does not affect
+the metabolic activity, membrane integrity, or lysosome integrity
+of these cell lines until concentrations reach values significantly
+higher than those at which MIC reductions are observed, with EC<sub>50</sub> values of &#x02265;242 mg/L (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Table S4</ext-link>).</p></sec><sec id="sec3.3"><title>Determination of the Structure of MBLs Complexed with Phosphonate
+Compounds</title><p>To understand the mechanism of MBL inhibition by
+PMPCs, we have obtained crystal structures of the B1 MBL IMP-1 (an
+enzyme found on plasmids in a range of Gram-negative bacterial pathogens,
+particularly <italic>P. aeruginosa</italic>) in complex with <bold>3a</bold> (2.0 &#x000c5; resolution) and the B3 L1 enzyme (encoded on
+the chromosome of <italic>S. maltophilia</italic>) in complex with
+both <bold>3a</bold> (1.80 &#x000c5;) and <bold>3b</bold> (1.80 &#x000c5;)
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Table S5</ext-link>). IMP-1 crystallized in space
+group <italic>P</italic>2<sub>1</sub>2<sub>1</sub>2<sub>1</sub> with
+four molecules in the asymmetric unit (ASU), as previously described
+(PDB entry 5EV6(<xref ref-type="bibr" rid="ref18">18</xref>)). <bold>3a</bold> could be modeled
+into well-defined difference electron density (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>a) in two of the four chains in the ASU,
+with full occupancies and <italic>B</italic>-factors 1.3 times above
+that of the protein main chain (chain A validation statistics, RSCC
+of 0.96, RSR of 0.12, and LLDF of 1.95). L1 crystallized in space
+group <italic>P</italic>6<sub>4</sub>22, as previously described,<sup><xref ref-type="bibr" rid="ref51">51</xref></sup> with one molecule in the ASU. Difference electron
+density consistent with <bold>3a</bold> or <bold>3b</bold> (panel
+b or c of <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>,
+respectively) was observed in the active sites of the two crystal
+structures, and ligands were refined at full or 0.84 occupancy to <italic>B</italic>-factors 1.9 and 1.7 times above that of the protein main
+chain, respectively (RSCC values of 0.96 and 0.93, RSR values of 0.16
+and 0.14, and LLDF values of 3.94 and 5.64, respectively).</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Binding of
+PMPC inhibitors to MBL active sites. Close-up of the
+active sites of MBL:PMPC complexes. Zinc ions and the nucleophilic
+water/hydroxide (gray and red spheres, respectively) are labeled.
+Zinc ligands are shown as sticks. The <italic>F</italic><sub>0</sub> &#x02013; <italic>F</italic><sub>c</sub> density (green, contoured
+at 3&#x003c3;) is calculated from the final model with the ligand (sticks)
+omitted. (a) B1 IMP-1 complexed with <bold>3a</bold>. (b) B3 L1 complexed
+with <bold>3a</bold>. (c) B3 L1 complexed with <bold>3b</bold>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="bi-2017-01299s_0003" id="gr3" position="float"/></fig></sec><sec id="sec3.4"><title>Mode of Binding of PMPC
+to the B1 MBL IMP-1 Dizinc Center</title><p><bold>3a</bold> binds to
+the dizinc active site of IMP-1 but does
+not displace the nucleophilic hydroxide [Wat1 (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>a)]. <bold>3a</bold> adopts the same conformation
+in chains A and B, interacting with the Zn2 ion, nucleophilic hydroxide,
+and residues on the protein main chain (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>a), but binding does not result in global
+changes in conformation in comparison to the uncomplexed enzyme structure
+(PDB entry 5EV6,<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> RMSD = 0.21 &#x000c5;, chain A, over
+218 C&#x003b1; residues). The inhibitor carboxylate group and pyridine
+nitrogen atom both interact with the Zn2 site, at distances of 2.30
+and 2.69 &#x000c5; (chain A measurements throughout, unless otherwise
+stated; see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Figure S4</ext-link> for a schematic comparison
+of binding in chains A and B), respectively, resulting in a zinc ion
+with six ligands in a distorted octahedral geometry, in contrast to
+Zn2 in uncomplexed IMP-1 that has a distorted trigonal bipyramidal
+geometry. The carboxylate also interacts with Lys224 on the protein
+main chain (2.70 &#x000c5;), and binding is further stabilized by the
+proximity of a hydrophobic pocket [Val61, Val67, Trp64, and Phe87
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Figure S5</ext-link>)]. A weak T-shaped interaction<sup><xref ref-type="bibr" rid="ref83">83</xref></sup> of the pyridine ring with the face of the indole
+ring of Trp64 on the flexible loop L3 (pyridine C4&#x02013;indole C3
+distances of 3.72 and 3.94 &#x000c5; in chains A and B, respectively)
+is also observed. The pyridine nitrogen is also positioned close to
+the zinc-bridging hydroxide (Wat1 in <xref rid="fig3" ref-type="fig">Figures <xref rid="fig3" ref-type="fig">3</xref></xref>&#x02013;<xref rid="fig5" ref-type="fig">5</xref>; 2.9 &#x000c5;),
+with the torsion about the phosphonate C&#x02013;P bond approximately
+90&#x000b0; relative to the plane of the pyridine ring. Surprisingly,
+the phosphonate makes limited interactions with the active site and
+is too distant from the zinc ions for productive interactions (the
+closest O atom is 3.89 &#x000c5; from Zn1 and 4.35 &#x000c5; from Zn2),
+instead forming hydrogen bonds with the bridging water/hydroxide (Wat1)
+(2.58 &#x000c5;) and the side chain of Ser119 (3.26 &#x000c5;).</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Mode of binding
+of <bold>3a</bold> to B1 MBL IMP-1. PMPC and the
+antibiotic are shown as sticks. Zn sites and nucleophilic waters/hydroxides
+(Wat1) are labeled. (a) <bold>3a</bold> (blue sticks) bound to the
+active site of IMP-1. Ligand interactions (distances labeled) and
+zinc&#x02013;protein interactions are shown as yellow and gray dotted
+lines, respectively. (b) Superposition of the IMP-1:<bold>3a</bold> complex (gray) with uncomplexed IMP-1 (green, PDB entry 5EV6). (c) Superposition
+of the IMP-1:<bold>3a</bold> complex (gray) with the NDM-1:hydrolyzed
+cephalexin complex (pink, PDB entry 5EV6). IMP-1 zinc ions are colored light gray
+and NDM-1 zinc ions dark gray.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="bi-2017-01299s_0004" id="gr4" position="float"/></fig><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Mode of binding of PMPCs to B3 MBL L1. Representations are as in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>. Interactions of
+L1 with (a) <bold>3a</bold> and (b) <bold>3b</bold>. (c) Superposition
+of the L1:<bold>3a</bold> complex (gray) with uncomplexed L1 (green).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="bi-2017-01299s_0005" id="gr5" position="float"/></fig><p>In addition to forming interactions
+with the bridging hydroxide,
+the <bold>3a</bold>:IMP-1 complex contains an additional water molecule
+associated with the inhibitor. This water molecule (blue WatA in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Figures S4 and S6</ext-link>; <italic>B</italic>-factor
+= 34 &#x000c5;<sup>2</sup>) is located on the same face of the pyridine
+ring as the phosphonate group and is within H-bonding distance (2.63
+&#x000c5;) of the phosphonate oxygen atom that interacts with the bridging
+hydroxide. Furthermore, this WatA contacts the &#x003c0;-bond between
+N and C2 of the pyridine ring (3.03 and 3.17 &#x000c5; to the pyridine
+N and C2 atoms, respectively). This attraction may arise from the
+somewhat electron deficient nature of this &#x003c0;-bond resulting
+from interaction of the pyridine nitrogen with Zn2. WatA is also within
+H-bonding distance of the bridging hydroxide (2.84 &#x000c5;) and relatively
+close to Zn1 (3.21 &#x000c5;) as well as to two of its ligands, His118
+and His196 (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Figure S4</ext-link>). The presence
+of WatA and the relatively extensive interactions made by WatA lead
+us to speculate that the IMP-1-bound inhibitory species is the hydrated
+form of <bold>3a</bold>. This may explain why PMPC inhibition does
+not involve displacement of the bridging hydroxide (see below) as
+the associated loss of WatA would be expected to be energetically
+unfavorable.</p><p>In chains C and D, where electron density for bound
+PMPC could
+not be resolved, the active site zinc ions were refined with lower
+occupancies (<sup>C</sup>Zn1, 0.94; <sup>C</sup>Zn2, 0.87; <sup>D</sup>Zn1, 0.51; <sup>D</sup>Zn2, 1.0), suggesting that exposure to <bold>3a</bold> may have depleted zinc content. This may be a reason for
+the lack of observable inhibitor electron density in these active
+sites. The potential for a carboxylate-containing pyridine to remove
+zinc from the IMP-1 active site has been noted previously, as incubation
+of IMP-1 with DPA resulted in Cys221 (Zn2 ligand) becoming more accessible
+to chemical modification.<sup><xref ref-type="bibr" rid="ref84">84</xref></sup></p><p>In comparison
+with those of uncomplexed IMP-1, there is little
+change in either protein side chain or zinc positions (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>b). In particular, the flexible
+loop L3 and the &#x003c0;-stacking Trp64 are in the same conformation,
+most likely because of crystal contacts in the ASU.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> Interactions of loop L3 residues with bound inhibitors
+frequently feature in inhibitor complexes of B1 MBLs.<sup><xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref21">21</xref>,<xref ref-type="bibr" rid="ref65">65</xref>,<xref ref-type="bibr" rid="ref85">85</xref></sup> The Zn1&#x02013;Zn2 separation is similar (3.54 &#x000c5; in IMP-1:<bold>3a</bold> and 3.42 &#x000c5; in uncomplexed IMP-1), although there is
+a slight (0.5 &#x000c5;) shift in the position of Zn2 that in the inhibitor
+complex increases the distances to the Asp120 (1.98 &#x000c5; for uncomplexed,
+2.16 &#x000c5; for <bold>3a</bold>-bound) and Cys221 (2.31 &#x000c5; for
+uncomplexed, 2.42 &#x000c5; for <bold>3a</bold>-bound) ligands. There
+is a more significant (&#x0223c;1 &#x000c5;) movement of the bridging
+nucleophilic water/hydroxide compared to uncomplexed IMP-1. This causes
+the water to be nearly equidistant between Zn1 and Zn2 (2.05 and 2.21
+&#x000c5;, respectively), whereas in the uncomplexed enzyme, the nucleophilic
+water/hydroxide is 1.87 and 2.43 &#x000c5; from Zn1 and Zn2, respectively.
+Interaction of an MBL inhibitor with the nucleophilic hydroxide is
+unusual and, to the best of our knowledge, has been observed only
+once before, in the interaction of the <italic>B. fragilis</italic> B1 MBL CfiA with a tricyclic carboxylate.<sup><xref ref-type="bibr" rid="ref86">86</xref></sup> Far more common are inhibitor-binding modes that involve displacement
+of the bridging hydroxide.</p><p>Interactions made by <bold>3a</bold> also share some aspects of
+binding of an antibiotic to B1 MBLs. As to date there is no available
+crystal structure of IMP-1 bound to either an intact or a hydrolyzed
+antibiotic, in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>c we show a superposition of the IMP-1:<bold>3a</bold> complex with
+NDM-1 complexed with the hydrolyzed cephalosporin cephalexin (chain
+B of PDB entry 4RL2(<xref ref-type="bibr" rid="ref20">20</xref>)). As in inhibitor binding, the carboxylate
+of the cephalosporin dihydrothiazine ring interacts with both Zn2
+and Lys224, while the &#x003b2;-lactam nitrogen also contacts Zn2 forming
+a distorted (though face monocapped) octahedral geometry. Thus, <bold>3a</bold> binding replicates some aspects of interactions of B1 MBLs
+with their &#x003b2;-lactam substrates. However, the two complexes differ
+substantially in that the interactions involving the carboxylate group
+of hydrolyzed antibiotic create a trigonal bipyrimidal geometry about
+Zn1, in contrast to the regular tetrahedral geometry of Zn1 observed
+in the IMP-1:<bold>3a</bold> complex.</p></sec><sec id="sec3.5"><title>Binding of PMPC to B3 L1
+Defines a Structurally Distinct Mode
+of Inhibition</title><p>Crystal structures of complexes of the B3 MBL
+L1 with <bold>3a</bold> and <bold>3b</bold> reveal an unprecedented
+mode of inhibitor binding (<xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>a,b). Surprisingly, despite our <italic>in vitro</italic> kinetic data (above) indicating a similar mode of inhibition of
+both IMP-1 and L1, the phosphonate moiety of both compounds replaces
+the zinc ion in the Zn2 site of L1, forming a monozinc enzyme in which
+only the Zn1 site is occupied. The PMPC therefore does not strip the
+L1 active site of both zinc ions, even at such high inhibitor concentrations,
+indicating that the PMPC binds specifically to the MBL active site.
+Removal of zinc from the Zn2 site has only previously been seen by
+incubation of L1 with relatively high concentrations (10 mM) of EDTA.<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> In the case presented here, zinc displacement
+by <bold>3a</bold> results in tight interaction of the phosphonate
+directly with components of the dizinc center of the MBL. In particular,
+in the <bold>3a</bold> and <bold>3b</bold> complexes, there is a strong
+interaction (1.80 &#x000c5;) of the phosphonate group with Zn1 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Figure S7</ext-link>). This is notably tighter than the
+contacts with the three Zn1 His ligands (&#x0223c;2.1 &#x000c5;). The
+phosphonate also makes multiple interactions with the amino acid side
+chains that normally constitute the Zn2 site in L1: His121 (2.89 and
+2.68 &#x000c5; for <bold>3a</bold> and <bold>3b</bold>, respectively),
+Asp120 (2.35 and 2.34 &#x000c5; for <bold>3a</bold> and <bold>3b</bold>, respectively), and His263 (2.68 and 2.56 &#x000c5; for <bold>3a</bold> and <bold>3b</bold>, respectively). Comparison of the <bold>3a</bold> and <bold>3b</bold> structures shows the hydroxyl group of the <bold>3b</bold> phosphonate to be uninvolved in binding, although, notably,
+the high quality of the observed electron density makes it clear that
+a single enantiomeric form of the inhibitor (the <italic>S</italic>-isomer rather than the <italic>R</italic>-isomer) is selectively
+bound to the L1 active site, although the compound was synthesized
+as a racemic mixture.</p><p>In comparison to uncomplexed L1 (<xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>c shows a superposition
+of the L1:<bold>3a</bold> complex, gray, with uncomplexed L1, green,
+PDB entry 1SML), there is little change in the overall structure (C&#x003b1; RMSD
+values of 0.233 and 0.234 &#x000c5; over 266 residues for L1:<bold>3a</bold> and L1:<bold>3b</bold>, respectively). However, binding of phosphonate
+to the Zn2 site causes not only removal of the zinc ion but also significant
+conformational changes within the active site. In particular, there
+are &#x0223c;0.8 and &#x0223c;0.6 &#x000c5; movements of His263 and Asp120,
+respectively, away from the active site. One of the phosphonate oxygen
+atoms also replaces the nucleophilic water/hydroxide, which, in contrast,
+is retained on binding of the hydrolyzed &#x003b2;-lactam moxalactam.<sup><xref ref-type="bibr" rid="ref51">51</xref></sup> Ser221 on the protein main chain, which stabilizes
+the hydrolyzed substrate through interactions with the C3/C4 carboxylate
+group,<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> forms a dual conformation where
+it interacts either with the PMPC phosphonate (3.11/3.12 &#x000c5;) or
+carboxylate (2.92/2.58 &#x000c5;) groups. These two conformations could
+be refined with similar occupancies (0.64/0.36 on <bold>3a</bold> binding
+and 0.49/0.51 on <bold>3b</bold> binding). Ser223, which also forms
+contacts with the carboxylate of the hydrolyzed substrate, interacts
+here with the nitrogen of the pyridine ring (3.01/3.11 &#x000c5;). These
+interactions suggest that, despite the very different mode of PMPC
+binding compared to that of the hydrolyzed antibiotic,<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> the two serine residues on the protein main
+chain remain key to ligand stabilization within the active site.</p><p>The observation of different modes of PMPC binding in our crystal
+structures, i.e., monozinc L1 and dizinc IMP-1 complexes, was unexpected.
+However, the consistency between inhibition kinetics across the MBL
+systems investigated leads us to conclude that, at least under the
+conditions of our kinetic experiments, PMPCs are able to form an inhibitory
+complex with dizinc L1 similar to that observed with IMP-1. In the
+crystallization experiments, where the enzyme and inhibitor concentrations
+are much greater, this may serve as a precursor to the observed more
+stable complex from which the zinc ion has been lost from the L1 Zn2-binding
+site. The fact that such a complex is not observed with IMP-1 may
+then reflect differences in the metal-binding properties of the two
+enzymes: whereas binding of zinc to L1 is proposed to be sequential,<sup><xref ref-type="bibr" rid="ref87">87</xref></sup> with the Zn1 site being occupied first, binding
+of zinc to IMP-1 is instead proposed to be positively cooperative.<sup><xref ref-type="bibr" rid="ref88">88</xref></sup> As such, selective removal of zinc from the
+Zn2 site, as observed in L1, would be disfavored in the IMP enzyme.
+Furthermore, we observe favorable contacts made by PMPC inhibitors
+with L1 side chain functionalities (e.g., the imidazole ring of His121
+and the primary hydroxyl group of Ser221) that are not present in
+the actives site of the B1 enzymes such as IMP (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">Figure S7</ext-link>), and that may additionally promote displacement
+of the Zn2 ion by PMPCs.</p></sec></sec><sec id="sec4"><title>Conclusions</title><p>Phosphonate-based compounds
+have been an underexplored and poorly
+characterized area of MBL inhibitor design. Here we show they can
+inhibit a wide range of MBLs, both <italic>in vitro</italic> and in
+pathogenic Gram-negative bacteria, including nonfermenting organisms
+that are frequently difficult to penetrate with small molecule agents.
+Despite the potential for phosphonate compounds to act as zinc chelators,
+we show crystallographically that they can bind specifically to the
+active site of MBLs, either through a conventional (i.e., replicating
+interactions of physiological substrates) mechanism of binding to
+the Zn2 site in an otherwise largely unperturbed active site (B1 IMP-1)
+or by the unprecedented mechanism of replacing Zn2 (B3 L1). Importantly,
+despite this ability to remove a zinc ion from the dizinc active site
+of L1, they are nontoxic to human cell lines at concentrations significantly
+above levels required to potentiate antibiotic activity. Therefore,
+unlike promising compounds such as aspergillomarasmine A (AMA), PMPCs
+inhibit MBLs by binding to the active site, and not simply by chelating
+the metal ions.</p><p>The structural information presented here will
+also allow us to
+identify routes to rational modification of the PMPCs to enhance their
+affinity for the active sites of both B1 and B3 MBLs. In particular,
+the mode of binding to IMP-1 reveals potential attachment sites on
+the core PMPC structure (e.g., ortho to the carboxylate group) where
+functionalities known to enhance the uptake of &#x003b2;-lactam antibiotics
+(e.g., siderophores<sup><xref ref-type="bibr" rid="ref89">89</xref></sup>) might be introduced
+without interfering with the favorable interactions of the inhibitors
+with the MBL active site.</p><p>In summary, our data indicate that
+phosphonates, in particular
+2-picolinic acid derivatives that combine submicromolar potency against
+multiple MBL targets with a simple scaffold amenable to further decoration,
+can be further considered and developed as lead compounds for novel
+MBL inhibitors.</p></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information
+is
+available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acs.biochem.7b01299">10.1021/acs.biochem.7b01299</ext-link>.<list id="silist" list-type="simple"><list-item><p>Figures S1&#x02013;S7,
+Tables S1&#x02013;S5, and synthetic
+procedures (includes Figures S8&#x02013;S29) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.biochem.7b01299/suppl_file/bi7b01299_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="bi7b01299_si_001.pdf"><caption><p>bi7b01299_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="" id="notes3"><title>Author Contributions</title><p>P.H., C.A.T.,
+A.P.K., G.L., V.J.G., L.M., A.Y.D., K.C., E.E.W., and F.Z. performed
+the experiments. All authors analyzed data. P.H., C.A.T., G.L., M.B.A.,
+N.C.B., S.S., J.S., and G.I.D. designed research. P.H., J.S., and
+G.I.D. wrote the paper. P.H. and C.A.T. contributed equally to this
+work.</p></notes><notes notes-type="funding-statement" id="notes-55"><p>This
+work was
+supported by grants from the U.K. Medical Research Council and Canadian
+Institutes of Health Research (U.K.-Canada Team Grant G1100135 and
+FRN114046) to J.S. and G.I.D., Canadian Institutes of Health Research
+Operating Grant FRN106531 to G.I.D., a grant from the National Institute
+of Allergy and Infectious Diseases of the U.S. National Institutes
+of Health to J.S. (R01AI100560), and the Engineering and Physical
+Sciences Research Council (EP/M027546/1) to M.B.A. and J.S. K.C. was
+in receipt of a postgraduate scholarship from SENESCYT, Ecuador.</p></notes><notes notes-type="COI-statement" id="notes4"><p>The authors
+declare no competing financial interest.</p></notes><notes notes-type="" id="notes-555"><title>Notes</title><p>Data
+supporting this study are provided as
+supplementary information accompanying this paper and crystal structures
+are openly available from the Protein Data Bank (<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/">https://www.rcsb.org/</uri> 5hh4, 5hh5,
+5hh6).</p></notes><ack><title>Acknowledgments</title><p>The authors
+thank the Diamond Light Source for access
+to beamline I02 (Proposal 12342) that contributed to the results presented
+here and the staff of the Diamond macromolecular crystallography village
+for their help. The authors thank Drs. J.-C. Jim&#x000e9;nez-Castellanos
+and M. Alorabi for providing pSU18-containing strains and Drs. A.
+McGeer, D. Pillai, and J. Pitout for providing clinical strains.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Bush</surname><given-names>K.</given-names></name> (<year>2013</year>) <article-title>Proliferation
+and significance of clinically relevant beta-lactamases</article-title>. <source>Ann. N. Y. Acad. Sci.</source>
+<volume>1277</volume>, <fpage>84</fpage>&#x02013;<lpage>90</lpage>. <pub-id pub-id-type="doi">10.1111/nyas.12023</pub-id>.<pub-id pub-id-type="pmid">23346859</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Walsh</surname><given-names>T. R.</given-names></name> (<year>2010</year>) <article-title>Emerging
+carbapenemases: a global perspective</article-title>. <source>Int. J.
+Antimicrob. Agents</source>
+<volume>36</volume> (<issue>Suppl. 3</issue>), <fpage>S8</fpage>&#x02013;<lpage>S14</lpage>. <pub-id pub-id-type="doi">10.1016/S0924-8579(10)70004-2</pub-id>.</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>van
+Duin</surname><given-names>D.</given-names></name>; <name><surname>Kaye</surname><given-names>K. S.</given-names></name>; <name><surname>Neuner</surname><given-names>E. A.</given-names></name>; <name><surname>Bonomo</surname><given-names>R. A.</given-names></name> (<year>2013</year>) <article-title>Carbapenem-resistant
+Enterobacteriaceae: a review of treatment and outcomes</article-title>. <source>Diagn. Microbiol. Infect. Dis.</source>
+<volume>75</volume>, <fpage>115</fpage>&#x02013;<lpage>120</lpage>. <pub-id pub-id-type="doi">10.1016/j.diagmicrobio.2012.11.009</pub-id>.<pub-id pub-id-type="pmid">23290507</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Karsisiotis</surname><given-names>A. I.</given-names></name>; <name><surname>Damblon</surname><given-names>C. F.</given-names></name>; <name><surname>Roberts</surname><given-names>G. C.</given-names></name> (<year>2014</year>) <article-title>A variety
+of roles for versatile
+zinc in metallo-beta-lactamases,</article-title>. <source>Metallomics</source>
+<volume>6</volume>, <fpage>1181</fpage>&#x02013;<lpage>1197</lpage>. <pub-id pub-id-type="doi">10.1039/C4MT00066H</pub-id>.<pub-id pub-id-type="pmid">24696003</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Fisher</surname><given-names>J. F.</given-names></name>; <name><surname>Meroueh</surname><given-names>S. O.</given-names></name>; <name><surname>Mobashery</surname><given-names>S.</given-names></name> (<year>2005</year>) <article-title>Bacterial
+resistance to beta-lactam
+antibiotics: compelling opportunism, compelling opportunity</article-title>. <source>Chem. Rev.</source>
+<volume>105</volume>, <fpage>395</fpage>&#x02013;<lpage>424</lpage>. <pub-id pub-id-type="doi">10.1021/cr030102i</pub-id>.<pub-id pub-id-type="pmid">15700950</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Bush</surname><given-names>K.</given-names></name> (<year>2010</year>) <article-title>Alarming beta-lactamase-mediated
+resistance in multidrug-resistant Enterobacteriaceae</article-title>. <source>Curr. Opin. Microbiol.</source>
+<volume>13</volume>, <fpage>558</fpage>&#x02013;<lpage>564</lpage>. <pub-id pub-id-type="doi">10.1016/j.mib.2010.09.006</pub-id>.<pub-id pub-id-type="pmid">20920882</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Palzkill</surname><given-names>T.</given-names></name> (<year>2013</year>) <article-title>Metallo-beta-lactamase
+structure and function</article-title>. <source>Ann. N. Y. Acad. Sci.</source>
+<volume>1277</volume>, <fpage>91</fpage>&#x02013;<lpage>104</lpage>. <pub-id pub-id-type="doi">10.1111/j.1749-6632.2012.06796.x</pub-id>.<pub-id pub-id-type="pmid">23163348</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Galleni</surname><given-names>M.</given-names></name>; <name><surname>Lamotte-Brasseur</surname><given-names>J.</given-names></name>; <name><surname>Rossolini</surname><given-names>G. M.</given-names></name>; <name><surname>Spencer</surname><given-names>J.</given-names></name>; <name><surname>Dideberg</surname><given-names>O.</given-names></name>; <name><surname>Fr&#x000e8;re</surname><given-names>J. M.</given-names></name> (<year>2001</year>) <article-title>Standard
+numbering scheme for class B beta-lactamases</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<volume>45</volume>, <fpage>660</fpage>&#x02013;<lpage>663</lpage>. <pub-id pub-id-type="doi">10.1128/AAC.45.3.660-663.2001</pub-id>.<pub-id pub-id-type="pmid">11181339</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Bebrone</surname><given-names>C.</given-names></name> (<year>2007</year>) <article-title>Metallo-beta-lactamases
+(classification, activity, genetic organization, structure, zinc coordination)
+and their superfamily</article-title>. <source>Biochem. Pharmacol.</source>
+<volume>74</volume>, <fpage>1686</fpage>&#x02013;<lpage>1701</lpage>. <pub-id pub-id-type="doi">10.1016/j.bcp.2007.05.021</pub-id>.<pub-id pub-id-type="pmid">17597585</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Meini</surname><given-names>M. R.</given-names></name>; <name><surname>Llarrull</surname><given-names>L. I.</given-names></name>; <name><surname>Vila</surname><given-names>A. J.</given-names></name> (<year>2015</year>) <article-title>Overcoming
+differences: The catalytic
+mechanism of metallo-beta-lactamases,</article-title>. <source>FEBS
+Lett.</source>
+<volume>589</volume>, <fpage>3419</fpage>&#x02013;<lpage>3432</lpage>. <pub-id pub-id-type="doi">10.1016/j.febslet.2015.08.015</pub-id>.<pub-id pub-id-type="pmid">26297824</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Fonseca</surname><given-names>F.</given-names></name>; <name><surname>Bromley</surname><given-names>E. H.</given-names></name>; <name><surname>Saavedra</surname><given-names>M. J.</given-names></name>; <name><surname>Correia</surname><given-names>A.</given-names></name>; <name><surname>Spencer</surname><given-names>J.</given-names></name> (<year>2011</year>) <article-title>Crystal structure
+of Serratia fonticola Sfh-I: activation of the nucleophile in mono-zinc
+metallo-beta-lactamases</article-title>. <source>J. Mol. Biol.</source>
+<volume>411</volume>, <fpage>951</fpage>&#x02013;<lpage>959</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmb.2011.06.043</pub-id>.<pub-id pub-id-type="pmid">21762699</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Bush</surname><given-names>K.</given-names></name>; <name><surname>Jacoby</surname><given-names>G. A.</given-names></name> (<year>2010</year>) <article-title>Updated functional
+classification of beta-lactamases</article-title>. <source>Antimicrob.
+Agents Chemother.</source>
+<volume>54</volume>, <fpage>969</fpage>&#x02013;<lpage>976</lpage>. <pub-id pub-id-type="doi">10.1128/AAC.01009-09</pub-id>.<pub-id pub-id-type="pmid">19995920</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Fast</surname><given-names>W.</given-names></name>; <name><surname>Sutton</surname><given-names>L. D.</given-names></name> (<year>2013</year>) <article-title>Metallo-beta-lactamase: inhibitors and reporter substrates</article-title>. <source>Biochim. Biophys. Acta, Proteins Proteomics</source>
+<volume>1834</volume>, <fpage>1648</fpage>&#x02013;<lpage>1659</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbapap.2013.04.024</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Brem</surname><given-names>J.</given-names></name>; <name><surname>van Berkel</surname><given-names>S. S.</given-names></name>; <name><surname>Zollman</surname><given-names>D.</given-names></name>; <name><surname>Lee</surname><given-names>S. Y.</given-names></name>; <name><surname>Gileadi</surname><given-names>O.</given-names></name>; <name><surname>McHugh</surname><given-names>P. J.</given-names></name>; <name><surname>Walsh</surname><given-names>T. R.</given-names></name>; <name><surname>McDonough</surname><given-names>M. A.</given-names></name>; <name><surname>Schofield</surname><given-names>C. J.</given-names></name> (<year>2016</year>) <article-title>Structural
+Basis of Metallo-beta-Lactamase Inhibition
+by Captopril Stereoisomers</article-title>. <source>Antimicrob. Agents
+Chemother.</source>
+<volume>60</volume>, <fpage>142</fpage>&#x02013;<lpage>150</lpage>. <pub-id pub-id-type="doi">10.1128/AAC.01335-15</pub-id>.<pub-id pub-id-type="pmid">26482303</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Lienard</surname><given-names>B. M.</given-names></name>; <name><surname>Garau</surname><given-names>G.</given-names></name>; <name><surname>Horsfall</surname><given-names>L.</given-names></name>; <name><surname>Karsisiotis</surname><given-names>A. I.</given-names></name>; <name><surname>Damblon</surname><given-names>C.</given-names></name>; <name><surname>Lassaux</surname><given-names>P.</given-names></name>; <name><surname>Papamicael</surname><given-names>C.</given-names></name>; <name><surname>Roberts</surname><given-names>G. C.</given-names></name>; <name><surname>Galleni</surname><given-names>M.</given-names></name>; <name><surname>Dideberg</surname><given-names>O.</given-names></name>; <name><surname>Fr&#x000e8;re</surname><given-names>J. M.</given-names></name>; <name><surname>Schofield</surname><given-names>C. J.</given-names></name> (<year>2008</year>) <article-title>Structural basis for the broad-spectrum inhibition
+of metallo-beta-lactamases by thiols</article-title>. <source>Org. Biomol.
+Chem.</source>
+<volume>6</volume>, <fpage>2282</fpage>&#x02013;<lpage>2294</lpage>. <pub-id pub-id-type="doi">10.1039/b802311e</pub-id>.<pub-id pub-id-type="pmid">18563261</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Gonz&#x000e1;lez</surname><given-names>M. M.</given-names></name>; <name><surname>Kosmopoulou</surname><given-names>M.</given-names></name>; <name><surname>Mojica</surname><given-names>M. F.</given-names></name>; <name><surname>Castillo</surname><given-names>V.</given-names></name>; <name><surname>Hinchliffe</surname><given-names>P.</given-names></name>; <name><surname>Pettinati</surname><given-names>I.</given-names></name>; <name><surname>Brem</surname><given-names>J.</given-names></name>; <name><surname>Schofield</surname><given-names>C. J.</given-names></name>; <name><surname>Mahler</surname><given-names>G.</given-names></name>; <name><surname>Bonomo</surname><given-names>R. A.</given-names></name>; <name><surname>Llarrull</surname><given-names>L. I.</given-names></name>; <name><surname>Spencer</surname><given-names>J.</given-names></name>; <name><surname>Vila</surname><given-names>A. J.</given-names></name> (<year>2015</year>) <article-title>Bisthiazolidines: A Substrate-Mimicking Scaffold as
+an Inhibitor of the NDM-1 Carbapenemase</article-title>. <source>ACS
+Infect. Dis.</source>
+<volume>1</volume>, <fpage>544</fpage>&#x02013;<lpage>554</lpage>. <pub-id pub-id-type="doi">10.1021/acsinfecdis.5b00046</pub-id>.<pub-id pub-id-type="pmid">27623409</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Mojica</surname><given-names>M. F.</given-names></name>; <name><surname>Mahler</surname><given-names>S. G.</given-names></name>; <name><surname>Bethel</surname><given-names>C. R.</given-names></name>; <name><surname>Taracila</surname><given-names>M. A.</given-names></name>; <name><surname>Kosmopoulou</surname><given-names>M.</given-names></name>; <name><surname>Papp-Wallace</surname><given-names>K. M.</given-names></name>; <name><surname>Llarrull</surname><given-names>L. I.</given-names></name>; <name><surname>Wilson</surname><given-names>B. M.</given-names></name>; <name><surname>Marshall</surname><given-names>S. H.</given-names></name>; <name><surname>Wallace</surname><given-names>C. J.</given-names></name>; <name><surname>Villegas</surname><given-names>M. V.</given-names></name>; <name><surname>Harris</surname><given-names>M. E.</given-names></name>; <name><surname>Vila</surname><given-names>A. J.</given-names></name>; <name><surname>Spencer</surname><given-names>J.</given-names></name>; <name><surname>Bonomo</surname><given-names>R. A.</given-names></name> (<year>2015</year>) <article-title>Exploring the Role of Residue 228
+in Substrate and Inhibitor Recognition by VIM Metallo-beta-lactamases</article-title>. <source>Biochemistry</source>
+<volume>54</volume>, <fpage>3183</fpage>&#x02013;<lpage>3196</lpage>. <pub-id pub-id-type="doi">10.1021/acs.biochem.5b00106</pub-id>.<pub-id pub-id-type="pmid">25915520</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Hinchliffe</surname><given-names>P.</given-names></name>; <name><surname>Gonzalez</surname><given-names>M. M.</given-names></name>; <name><surname>Mojica</surname><given-names>M. F.</given-names></name>; <name><surname>Gonzalez</surname><given-names>J. M.</given-names></name>; <name><surname>Castillo</surname><given-names>V.</given-names></name>; <name><surname>Saiz</surname><given-names>C.</given-names></name>; <name><surname>Kosmopoulou</surname><given-names>M.</given-names></name>; <name><surname>Tooke</surname><given-names>C. L.</given-names></name>; <name><surname>Llarrull</surname><given-names>L. I.</given-names></name>; <name><surname>Mahler</surname><given-names>G.</given-names></name>; <name><surname>Bonomo</surname><given-names>R. A.</given-names></name>; <name><surname>Vila</surname><given-names>A. J.</given-names></name>; <name><surname>Spencer</surname><given-names>J.</given-names></name> (<year>2016</year>) <article-title>Cross-class
+metallo-beta-lactamase inhibition by bisthiazolidines reveals multiple
+binding modes</article-title>. <source>Proc. Natl. Acad. Sci. U. S.
+A.</source>
+<volume>113</volume>, <fpage>E3745</fpage>&#x02013;<lpage>3754</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1601368113</pub-id>.<pub-id pub-id-type="pmid">27303030</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Spencer</surname><given-names>J.</given-names></name>; <name><surname>Read</surname><given-names>J.</given-names></name>; <name><surname>Sessions</surname><given-names>R. B.</given-names></name>; <name><surname>Howell</surname><given-names>S.</given-names></name>; <name><surname>Blackburn</surname><given-names>G. M.</given-names></name>; <name><surname>Gamblin</surname><given-names>S. J.</given-names></name> (<year>2005</year>) <article-title>Antibiotic Recognition by Binuclear Metallo-&#x003b2;-Lactamases
+Revealed by X-ray Crystallography</article-title>. <source>J. Am. Chem.
+Soc.</source>
+<volume>127</volume>, <fpage>14439</fpage>&#x02013;<lpage>14444</lpage>. <pub-id pub-id-type="doi">10.1021/ja0536062</pub-id>.<pub-id pub-id-type="pmid">16218639</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Feng</surname><given-names>H.</given-names></name>; <name><surname>Ding</surname><given-names>J.</given-names></name>; <name><surname>Zhu</surname><given-names>D.</given-names></name>; <name><surname>Liu</surname><given-names>X.</given-names></name>; <name><surname>Xu</surname><given-names>X.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.</given-names></name>; <name><surname>Zang</surname><given-names>S.</given-names></name>; <name><surname>Wang</surname><given-names>D. C.</given-names></name>; <name><surname>Liu</surname><given-names>W.</given-names></name> (<year>2014</year>) <article-title>Structural
+and mechanistic insights into NDM-1 catalyzed hydrolysis of cephalosporins</article-title>. <source>J. Am. Chem. Soc.</source>
+<volume>136</volume>, <fpage>14694</fpage>&#x02013;<lpage>14697</lpage>. <pub-id pub-id-type="doi">10.1021/ja508388e</pub-id>.<pub-id pub-id-type="pmid">25268575</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Brem</surname><given-names>J.</given-names></name>; <name><surname>van Berkel</surname><given-names>S. S.</given-names></name>; <name><surname>Aik</surname><given-names>W.</given-names></name>; <name><surname>Rydzik</surname><given-names>A. M.</given-names></name>; <name><surname>Avison</surname><given-names>M. B.</given-names></name>; <name><surname>Pettinati</surname><given-names>I.</given-names></name>; <name><surname>Umland</surname><given-names>K. D.</given-names></name>; <name><surname>Kawamura</surname><given-names>A.</given-names></name>; <name><surname>Spencer</surname><given-names>J.</given-names></name>; <name><surname>Claridge</surname><given-names>T. D.</given-names></name>; <name><surname>McDonough</surname><given-names>M. A.</given-names></name>; <name><surname>Schofield</surname><given-names>C. J.</given-names></name> (<year>2014</year>) <article-title>Rhodanine
+hydrolysis leads to potent thioenolate mediated metallo-beta-lactamase
+inhibition</article-title>. <source>Nat. Chem.</source>
+<volume>6</volume>, <fpage>1084</fpage>&#x02013;<lpage>1090</lpage>. <pub-id pub-id-type="doi">10.1038/nchem.2110</pub-id>.<pub-id pub-id-type="pmid">25411887</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Garc&#x000ed;a-S&#x000e1;ez</surname><given-names>I.</given-names></name>; <name><surname>Hopkins</surname><given-names>J.</given-names></name>; <name><surname>Papamicael</surname><given-names>C.</given-names></name>; <name><surname>Franceschini</surname><given-names>N.</given-names></name>; <name><surname>Amicosante</surname><given-names>G.</given-names></name>; <name><surname>Rossolini</surname><given-names>G. M.</given-names></name>; <name><surname>Galleni</surname><given-names>M.</given-names></name>; <name><surname>Fr&#x000e8;re</surname><given-names>J. M.</given-names></name>; <name><surname>Dideberg</surname><given-names>O.</given-names></name> (<year>2003</year>) <article-title>The 1.5-A structure of Chryseobacterium meningosepticum
+zinc beta-lactamase in complex with the inhibitor, D-captopril,</article-title>. <source>J. Biol. Chem.</source>
+<volume>278</volume>, <fpage>23868</fpage>&#x02013;<lpage>23873</lpage>. <pub-id pub-id-type="doi">10.1074/jbc.M301062200</pub-id>.<pub-id pub-id-type="pmid">12684522</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Kurosaki</surname><given-names>H.</given-names></name>; <name><surname>Yamaguchi</surname><given-names>Y.</given-names></name>; <name><surname>Yasuzawa</surname><given-names>H.</given-names></name>; <name><surname>Jin</surname><given-names>W.</given-names></name>; <name><surname>Yamagata</surname><given-names>Y.</given-names></name>; <name><surname>Arakawa</surname><given-names>Y.</given-names></name> (<year>2006</year>) <article-title>Probing, inhibition, and crystallographic characterization
+of metallo-beta-lactamase (IMP-1) with fluorescent agents containing
+dansyl and thiol groups</article-title>. <source>ChemMedChem</source>
+<volume>1</volume>, <fpage>969</fpage>&#x02013;<lpage>972</lpage>. <pub-id pub-id-type="doi">10.1002/cmdc.200600115</pub-id>.<pub-id pub-id-type="pmid">16937423</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Yamaguchi</surname><given-names>Y.</given-names></name>; <name><surname>Jin</surname><given-names>W.</given-names></name>; <name><surname>Matsunaga</surname><given-names>K.</given-names></name>; <name><surname>Ikemizu</surname><given-names>S.</given-names></name>; <name><surname>Yamagata</surname><given-names>Y.</given-names></name>; <name><surname>Wachino</surname><given-names>J.</given-names></name>; <name><surname>Shibata</surname><given-names>N.</given-names></name>; <name><surname>Arakawa</surname><given-names>Y.</given-names></name>; <name><surname>Kurosaki</surname><given-names>H.</given-names></name> (<year>2007</year>) <article-title>Crystallographic investigation
+of the inhibition mode of a VIM-2 metallo-beta-lactamase from Pseudomonas
+aeruginosa by a mercaptocarboxylate inhibitor</article-title>. <source>J. Med. Chem.</source>
+<volume>50</volume>, <fpage>6647</fpage>&#x02013;<lpage>6653</lpage>. <pub-id pub-id-type="doi">10.1021/jm701031n</pub-id>.<pub-id pub-id-type="pmid">18052313</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Wachino</surname><given-names>J.</given-names></name>; <name><surname>Yamaguchi</surname><given-names>Y.</given-names></name>; <name><surname>Mori</surname><given-names>S.</given-names></name>; <name><surname>Kurosaki</surname><given-names>H.</given-names></name>; <name><surname>Arakawa</surname><given-names>Y.</given-names></name>; <name><surname>Shibayama</surname><given-names>K.</given-names></name> (<year>2013</year>) <article-title>Structural insights into the subclass B3 metallo-beta-lactamase
+SMB-1 and the mode of inhibition by the common metallo-beta-lactamase
+inhibitor mercaptoacetate</article-title>. <source>Antimicrob. Agents
+Chemother.</source>
+<volume>57</volume>, <fpage>101</fpage>&#x02013;<lpage>109</lpage>. <pub-id pub-id-type="doi">10.1128/AAC.01264-12</pub-id>.<pub-id pub-id-type="pmid">23070156</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Nauton</surname><given-names>L.</given-names></name>; <name><surname>Kahn</surname><given-names>R.</given-names></name>; <name><surname>Garau</surname><given-names>G.</given-names></name>; <name><surname>Hernandez</surname><given-names>J. F.</given-names></name>; <name><surname>Dideberg</surname><given-names>O.</given-names></name> (<year>2008</year>) <article-title>Structural insights into the design of inhibitors for
+the L1 metallo-beta-lactamase from Stenotrophomonas maltophilia</article-title>. <source>J. Mol. Biol.</source>
+<volume>375</volume>, <fpage>257</fpage>&#x02013;<lpage>269</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmb.2007.10.036</pub-id>.<pub-id pub-id-type="pmid">17999929</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Lassaux</surname><given-names>P.</given-names></name>; <name><surname>Hamel</surname><given-names>M.</given-names></name>; <name><surname>Gulea</surname><given-names>M.</given-names></name>; <name><surname>Delbruck</surname><given-names>H.</given-names></name>; <name><surname>Mercuri</surname><given-names>P. S.</given-names></name>; <name><surname>Horsfall</surname><given-names>L.</given-names></name>; <name><surname>Dehareng</surname><given-names>D.</given-names></name>; <name><surname>Kupper</surname><given-names>M.</given-names></name>; <name><surname>Fr&#x000e8;re</surname><given-names>J. M.</given-names></name>; <name><surname>Hoffmann</surname><given-names>K.</given-names></name>; <name><surname>Galleni</surname><given-names>M.</given-names></name>; <name><surname>Bebrone</surname><given-names>C.</given-names></name> (<year>2010</year>) <article-title>Mercaptophosphonate
+compounds as broad-spectrum inhibitors of the metallo-beta-lactamases</article-title>. <source>J. Med. Chem.</source>
+<volume>53</volume>, <fpage>4862</fpage>&#x02013;<lpage>4876</lpage>. <pub-id pub-id-type="doi">10.1021/jm100213c</pub-id>.<pub-id pub-id-type="pmid">20527888</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Toney</surname><given-names>J. H.</given-names></name>; <name><surname>Cleary</surname><given-names>K. A.</given-names></name>; <name><surname>Hammond</surname><given-names>G. G.</given-names></name>; <name><surname>Yuan</surname><given-names>X.</given-names></name>; <name><surname>May</surname><given-names>W. J.</given-names></name>; <name><surname>Hutchins</surname><given-names>S. M.</given-names></name>; <name><surname>Ashton</surname><given-names>W. T.</given-names></name>; <name><surname>Vanderwall</surname><given-names>D. E.</given-names></name> (<year>1999</year>) <article-title>Structure-activity
+relationships of biphenyl tetrazoles as metallo-beta-lactamase inhibitors</article-title>. <source>Bioorg. Med. Chem. Lett.</source>
+<volume>9</volume>, <fpage>2741</fpage>&#x02013;<lpage>2746</lpage>. <pub-id pub-id-type="doi">10.1016/S0960-894X(99)00458-8</pub-id>.<pub-id pub-id-type="pmid">10509927</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Hiraiwa</surname><given-names>Y.</given-names></name>; <name><surname>Saito</surname><given-names>J.</given-names></name>; <name><surname>Watanabe</surname><given-names>T.</given-names></name>; <name><surname>Yamada</surname><given-names>M.</given-names></name>; <name><surname>Morinaka</surname><given-names>A.</given-names></name>; <name><surname>Fukushima</surname><given-names>T.</given-names></name>; <name><surname>Kudo</surname><given-names>T.</given-names></name> (<year>2014</year>) <article-title>X-ray crystallographic analysis of
+IMP-1 metallo-beta-lactamase complexed with a 3-aminophthalic acid
+derivative, structure-based drug design, and synthesis of 3,6-disubstituted
+phthalic acid derivative inhibitors</article-title>. <source>Bioorg.
+Med. Chem. Lett.</source>
+<volume>24</volume>, <fpage>4891</fpage>&#x02013;<lpage>4894</lpage>. <pub-id pub-id-type="doi">10.1016/j.bmcl.2014.08.039</pub-id>.<pub-id pub-id-type="pmid">25246278</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Horsfall</surname><given-names>L. E.</given-names></name>; <name><surname>Garau</surname><given-names>G.</given-names></name>; <name><surname>Lienard</surname><given-names>B. M.</given-names></name>; <name><surname>Dideberg</surname><given-names>O.</given-names></name>; <name><surname>Schofield</surname><given-names>C. J.</given-names></name>; <name><surname>Fr&#x000e8;re</surname><given-names>J. M.</given-names></name>; <name><surname>Galleni</surname><given-names>M.</given-names></name> (<year>2007</year>) <article-title>Competitive inhibitors
+of the CphA
+metallo-beta-lactamase from Aeromonas hydrophila</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<volume>51</volume>, <fpage>2136</fpage>&#x02013;<lpage>2142</lpage>. <pub-id pub-id-type="doi">10.1128/AAC.00866-06</pub-id>.<pub-id pub-id-type="pmid">17307979</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Toney</surname><given-names>J. H.</given-names></name>; <name><surname>Fitzgerald</surname><given-names>P. M.</given-names></name>; <name><surname>Grover-Sharma</surname><given-names>N.</given-names></name>; <name><surname>Olson</surname><given-names>S. H.</given-names></name>; <name><surname>May</surname><given-names>W. J.</given-names></name>; <name><surname>Sundelof</surname><given-names>J. G.</given-names></name>; <name><surname>Vanderwall</surname><given-names>D. E.</given-names></name>; <name><surname>Cleary</surname><given-names>K. A.</given-names></name>; <name><surname>Grant</surname><given-names>S. K.</given-names></name>; <name><surname>Wu</surname><given-names>J. K.</given-names></name>; <name><surname>Kozarich</surname><given-names>J. W.</given-names></name>; <name><surname>Pompliano</surname><given-names>D. L.</given-names></name>; <name><surname>Hammond</surname><given-names>G. G.</given-names></name> (<year>1998</year>) <article-title>Antibiotic sensitization using biphenyl tetrazoles
+as potent inhibitors of Bacteroides fragilis metallo-beta-lactamase</article-title>. <source>Chem. Biol.</source>
+<volume>5</volume>, <fpage>185</fpage>&#x02013;<lpage>196</lpage>. <pub-id pub-id-type="doi">10.1016/S1074-5521(98)90632-9</pub-id>.<pub-id pub-id-type="pmid">9545432</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Docquier</surname><given-names>J. D.</given-names></name>; <name><surname>Benvenuti</surname><given-names>M.</given-names></name>; <name><surname>Calderone</surname><given-names>V.</given-names></name>; <name><surname>Stoczko</surname><given-names>M.</given-names></name>; <name><surname>Menciassi</surname><given-names>N.</given-names></name>; <name><surname>Rossolini</surname><given-names>G. M.</given-names></name>; <name><surname>Mangani</surname><given-names>S.</given-names></name> (<year>2010</year>) <article-title>High-resolution crystal structure
+of the subclass B3 metallo-beta-lactamase BJP-1: rational basis for
+substrate specificity and interaction with sulfonamides</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<volume>54</volume>, <fpage>4343</fpage>&#x02013;<lpage>4351</lpage>. <pub-id pub-id-type="doi">10.1128/AAC.00409-10</pub-id>.<pub-id pub-id-type="pmid">20696874</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Brem</surname><given-names>J.</given-names></name>; <name><surname>Cain</surname><given-names>R.</given-names></name>; <name><surname>Cahill</surname><given-names>S.</given-names></name>; <name><surname>McDonough</surname><given-names>M. A.</given-names></name>; <name><surname>Clifton</surname><given-names>I. J.</given-names></name>; <name><surname>Jimenez-Castellanos</surname><given-names>J.
+C.</given-names></name>; <name><surname>Avison</surname><given-names>M. B.</given-names></name>; <name><surname>Spencer</surname><given-names>J.</given-names></name>; <name><surname>Fishwick</surname><given-names>C. W.</given-names></name>; <name><surname>Schofield</surname><given-names>C. J.</given-names></name> (<year>2016</year>) <article-title>Structural
+basis of metallo-beta-lactamase, serine-beta-lactamase and penicillin-binding
+protein inhibition by cyclic boronates</article-title>. <source>Nat.
+Commun.</source>
+<volume>7</volume>, <fpage>12406</fpage><pub-id pub-id-type="doi">10.1038/ncomms12406</pub-id>.<pub-id pub-id-type="pmid">27499424</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Calvopina</surname><given-names>K.</given-names></name>; <name><surname>Hinchliffe</surname><given-names>P.</given-names></name>; <name><surname>Brem</surname><given-names>J.</given-names></name>; <name><surname>Heesom</surname><given-names>K. J.</given-names></name>; <name><surname>Johnson</surname><given-names>S.</given-names></name>; <name><surname>Cain</surname><given-names>R.</given-names></name>; <name><surname>Lohans</surname><given-names>C. T.</given-names></name>; <name><surname>Fishwick</surname><given-names>C. W. G.</given-names></name>; <name><surname>Schofield</surname><given-names>C. J.</given-names></name>; <name><surname>Spencer</surname><given-names>J.</given-names></name>; <name><surname>Avison</surname><given-names>M. B.</given-names></name> (<year>2017</year>) <article-title>Structural/mechanistic insights into
+the efficacy of nonclassical beta-lactamase inhibitors against extensively
+drug resistant Stenotrophomonas maltophilia clinical isolates</article-title>. <source>Mol. Microbiol.</source>
+<volume>106</volume>, <fpage>492</fpage>&#x02013;<lpage>504</lpage>. <pub-id pub-id-type="doi">10.1111/mmi.13831</pub-id>.<pub-id pub-id-type="pmid">28876489</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Jacobsen</surname><given-names>J. A.</given-names></name>; <name><surname>Major Jourden</surname><given-names>J. L.</given-names></name>; <name><surname>Miller</surname><given-names>M. T.</given-names></name>; <name><surname>Cohen</surname><given-names>S. M.</given-names></name> (<year>2010</year>) <article-title>To bind zinc or
+not to bind zinc: an examination of innovative approaches to improved
+metalloproteinase inhibition</article-title>. <source>Biochim. Biophys.
+Acta, Mol. Cell Res.</source>
+<volume>1803</volume>, <fpage>72</fpage>&#x02013;<lpage>94</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbamcr.2009.08.006</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Temperini</surname><given-names>C.</given-names></name>; <name><surname>Innocenti</surname><given-names>A.</given-names></name>; <name><surname>Guerri</surname><given-names>A.</given-names></name>; <name><surname>Scozzafava</surname><given-names>A.</given-names></name>; <name><surname>Rusconi</surname><given-names>S.</given-names></name>; <name><surname>Supuran</surname><given-names>C. T.</given-names></name> (<year>2007</year>) <article-title>Phosph(on)ate as a zinc-binding group
+in metalloenzyme inhibitors: X-ray crystal structure of the antiviral
+drug foscarnet complexed to human carbonic anhydrase I</article-title>. <source>Bioorg. Med. Chem. Lett.</source>
+<volume>17</volume>, <fpage>2210</fpage>&#x02013;<lpage>2215</lpage>. <pub-id pub-id-type="doi">10.1016/j.bmcl.2007.01.113</pub-id>.<pub-id pub-id-type="pmid">17314045</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Tronrud</surname><given-names>D. E.</given-names></name>; <name><surname>Monzingo</surname><given-names>A. F.</given-names></name>; <name><surname>Matthews</surname><given-names>B. W.</given-names></name> (<year>1986</year>) <article-title>Crystallographic
+structural analysis
+of phosphoramidates as inhibitors and transition-state analogs of
+thermolysin</article-title>. <source>Eur. J. Biochem.</source>
+<volume>157</volume>, <fpage>261</fpage>&#x02013;<lpage>268</lpage>. <pub-id pub-id-type="doi">10.1111/j.1432-1033.1986.tb09664.x</pub-id>.<pub-id pub-id-type="pmid">3709536</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Maveyraud</surname><given-names>L.</given-names></name>; <name><surname>Pratt</surname><given-names>R. F.</given-names></name>; <name><surname>Samama</surname><given-names>J. P.</given-names></name> (<year>1998</year>) <article-title>Crystal
+structure of an acylation
+transition-state analog of the TEM-1 beta-lactamase. Mechanistic implications
+for class A beta-lactamases</article-title>. <source>Biochemistry</source>
+<volume>37</volume>, <fpage>2622</fpage>&#x02013;<lpage>2628</lpage>. <pub-id pub-id-type="doi">10.1021/bi972501b</pub-id>.<pub-id pub-id-type="pmid">9485412</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Chen</surname><given-names>C. C.</given-names></name>; <name><surname>Rahil</surname><given-names>J.</given-names></name>; <name><surname>Pratt</surname><given-names>R. F.</given-names></name>; <name><surname>Herzberg</surname><given-names>O.</given-names></name> (<year>1993</year>) <article-title>Structure of a phosphonate-inhibited
+beta-lactamase. An analog of the tetrahedral transition state/intermediate
+of beta-lactam hydrolysis</article-title>. <source>J. Mol. Biol.</source>
+<volume>234</volume>, <fpage>165</fpage>&#x02013;<lpage>178</lpage>. <pub-id pub-id-type="doi">10.1006/jmbi.1993.1571</pub-id>.<pub-id pub-id-type="pmid">8230196</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Yang</surname><given-names>K. W.</given-names></name>; <name><surname>Feng</surname><given-names>L.</given-names></name>; <name><surname>Yang</surname><given-names>S. K.</given-names></name>; <name><surname>Aitha</surname><given-names>M.</given-names></name>; <name><surname>LaCuran</surname><given-names>A. E.</given-names></name>; <name><surname>Oelschlaeger</surname><given-names>P.</given-names></name>; <name><surname>Crowder</surname><given-names>M. W.</given-names></name> (<year>2013</year>) <article-title>New beta-phospholactam as a carbapenem
+transition state analog: Synthesis of a broad-spectrum inhibitor of
+metallo-beta-lactamases</article-title>. <source>Bioorg. Med. Chem.
+Lett.</source>
+<volume>23</volume>, <fpage>5855</fpage>&#x02013;<lpage>5859</lpage>. <pub-id pub-id-type="doi">10.1016/j.bmcl.2013.08.098</pub-id>.<pub-id pub-id-type="pmid">24064498</pub-id></mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Lee</surname><given-names>M.</given-names></name>; <name><surname>Hesek</surname><given-names>D.</given-names></name>; <name><surname>Mobashery</surname><given-names>S.</given-names></name> (<year>2005</year>) <article-title>A practical synthesis of nitrocefin,</article-title>. <source>J. Org. Chem.</source>
+<volume>70</volume>, <fpage>367</fpage>&#x02013;<lpage>369</lpage>. <pub-id pub-id-type="doi">10.1021/jo0487395</pub-id>.<pub-id pub-id-type="pmid">15624952</pub-id></mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Labb&#x000e9;</surname><given-names>G.</given-names></name>; <name><surname>Krismanich</surname><given-names>A. P.</given-names></name>; <name><surname>de Groot</surname><given-names>S.</given-names></name>; <name><surname>Rasmusson</surname><given-names>T.</given-names></name>; <name><surname>Shang</surname><given-names>M.</given-names></name>; <name><surname>Brown</surname><given-names>M. D.</given-names></name>; <name><surname>Dmitrienko</surname><given-names>G. I.</given-names></name>; <name><surname>Guillemette</surname><given-names>J. G.</given-names></name> (<year>2012</year>) <article-title>Development of metal-chelating inhibitors for the Class
+II fructose 1,6-bisphosphate (FBP) aldolase</article-title>. <source>J. Inorg. Biochem.</source>
+<volume>112</volume>, <fpage>49</fpage>&#x02013;<lpage>58</lpage>. <pub-id pub-id-type="doi">10.1016/j.jinorgbio.2012.02.032</pub-id>.<pub-id pub-id-type="pmid">22546686</pub-id></mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Li</surname><given-names>G. B.</given-names></name>; <name><surname>Brem</surname><given-names>J.</given-names></name>; <name><surname>Lesniak</surname><given-names>R.</given-names></name>; <name><surname>Abboud</surname><given-names>M. I.</given-names></name>; <name><surname>Lohans</surname><given-names>C. T.</given-names></name>; <name><surname>Clifton</surname><given-names>I. J.</given-names></name>; <name><surname>Yang</surname><given-names>S. Y.</given-names></name>; <name><surname>Jimenez-Castellanos</surname><given-names>J. C.</given-names></name>; <name><surname>Avison</surname><given-names>M. B.</given-names></name>; <name><surname>Spencer</surname><given-names>J.</given-names></name>; <name><surname>McDonough</surname><given-names>M. A.</given-names></name>; <name><surname>Schofield</surname><given-names>C. J.</given-names></name> (<year>2017</year>) <article-title>Crystallographic analyses of isoquinoline
+complexes
+reveal a new mode of metallo-beta-lactamase inhibition</article-title>. <source>Chem. Commun. (Cambridge, U. K.)</source>
+<volume>53</volume>, <fpage>5806</fpage>&#x02013;<lpage>5809</lpage>. <pub-id pub-id-type="doi">10.1039/C7CC02394D</pub-id>.</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>King</surname><given-names>A. M.</given-names></name>; <name><surname>Reid-Yu</surname><given-names>S. A.</given-names></name>; <name><surname>Wang</surname><given-names>W.</given-names></name>; <name><surname>King</surname><given-names>D. T.</given-names></name>; <name><surname>De Pascale</surname><given-names>G.</given-names></name>; <name><surname>Strynadka</surname><given-names>N. C.</given-names></name>; <name><surname>Walsh</surname><given-names>T. R.</given-names></name>; <name><surname>Coombes</surname><given-names>B. K.</given-names></name>; <name><surname>Wright</surname><given-names>G. D.</given-names></name> (<year>2014</year>) <article-title>Aspergillomarasmine
+A overcomes metallo-beta-lactamase antibiotic resistance</article-title>. <source>Nature</source>
+<volume>510</volume>, <fpage>503</fpage>&#x02013;<lpage>506</lpage>. <pub-id pub-id-type="doi">10.1038/nature13445</pub-id>.<pub-id pub-id-type="pmid">24965651</pub-id></mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Crossman</surname><given-names>L. C.</given-names></name>; <name><surname>Gould</surname><given-names>V. C.</given-names></name>; <name><surname>Dow</surname><given-names>J. M.</given-names></name>; <name><surname>Vernikos</surname><given-names>G. S.</given-names></name>; <name><surname>Okazaki</surname><given-names>A.</given-names></name>; <name><surname>Sebaihia</surname><given-names>M.</given-names></name>; <name><surname>Saunders</surname><given-names>D.</given-names></name>; <name><surname>Arrowsmith</surname><given-names>C.</given-names></name>; <name><surname>Carver</surname><given-names>T.</given-names></name>; <name><surname>Peters</surname><given-names>N.</given-names></name>; <name><surname>Adlem</surname><given-names>E.</given-names></name>; <name><surname>Kerhornou</surname><given-names>A.</given-names></name>; <name><surname>Lord</surname><given-names>A.</given-names></name>; <name><surname>Murphy</surname><given-names>L.</given-names></name>; <name><surname>Seeger</surname><given-names>K.</given-names></name>; <name><surname>Squares</surname><given-names>R.</given-names></name>; <name><surname>Rutter</surname><given-names>S.</given-names></name>; <name><surname>Quail</surname><given-names>M. A.</given-names></name>; <name><surname>Rajandream</surname><given-names>M.-A.</given-names></name>; <name><surname>Harris</surname><given-names>D.</given-names></name>; <name><surname>Churcher</surname><given-names>C.</given-names></name>; <name><surname>Bentley</surname><given-names>S. D.</given-names></name>; <name><surname>Parkhill</surname><given-names>J.</given-names></name>; <name><surname>Thomson</surname><given-names>N. R.</given-names></name>; <name><surname>Avison</surname><given-names>M. B.</given-names></name> (<year>2008</year>) <article-title>The complete genome, comparative
+and functional analysis of Stenotrophomonas maltophiliareveals an
+organism heavily shielded by drug resistance determinants,</article-title>. <source>Genome Biol.</source>
+<volume>9</volume>, <fpage>R74</fpage><pub-id pub-id-type="doi">10.1186/gb-2008-9-4-r74</pub-id>.<pub-id pub-id-type="pmid">18419807</pub-id></mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Gould</surname><given-names>V. C.</given-names></name>; <name><surname>Avison</surname><given-names>M. B.</given-names></name> (<year>2006</year>) <article-title>SmeDEF-mediated
+antimicrobial drug resistance in Stenotrophomonas
+maltophilia clinical isolates having defined phylogenetic relationships</article-title>. <source>J. Antimicrob. Chemother.</source>
+<volume>57</volume>, <fpage>1070</fpage>&#x02013;<lpage>1076</lpage>. <pub-id pub-id-type="doi">10.1093/jac/dkl106</pub-id>.<pub-id pub-id-type="pmid">16597633</pub-id></mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Gould</surname><given-names>V. C.</given-names></name>; <name><surname>Okazaki</surname><given-names>A.</given-names></name>; <name><surname>Avison</surname><given-names>M. B.</given-names></name> (<year>2013</year>) <article-title>Coordinate
+hyperproduction of SmeZ
+and SmeJK efflux pumps extends drug resistance in Stenotrophomonas
+maltophilia</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<volume>57</volume>, <fpage>655</fpage>&#x02013;<lpage>657</lpage>. <pub-id pub-id-type="doi">10.1128/AAC.01020-12</pub-id>.<pub-id pub-id-type="pmid">23147729</pub-id></mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="book" id="cit48"><person-group person-group-type="allauthors"><collab>CLSI</collab></person-group> (<year>2014</year>) <article-title>Performance Standards
+for Antimicrobial
+Susceptibility Testing: Twenty-fourth Informational Supplement M100-S24</article-title>. Technical Report, <publisher-name>CLSI</publisher-name>, <publisher-loc>Wayne, PA</publisher-loc>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="book" id="cit49"><person-group person-group-type="allauthors"><name><surname>Dayeh</surname><given-names>V. R.</given-names></name>, <name><surname>Schirmer</surname><given-names>K.</given-names></name>, <name><surname>Lee</surname><given-names>L.
+E. J.</given-names></name>, and <name><surname>Bols</surname><given-names>N. C.</given-names></name></person-group> (<year>2003</year>) <article-title>The use of fish-derived cell lines for investigation of environmental
+contaminants</article-title>. In <source>Current Protocols in Toxicology</source>, Unit 1.5, pp <fpage>1</fpage>&#x02013;<lpage>17</lpage>, <publisher-name>Wiley</publisher-name>, <publisher-loc>New York</publisher-loc>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="book" id="cit50"><person-group person-group-type="allauthors"><name><surname>Ganassin</surname><given-names>R. C.</given-names></name>, <name><surname>Schirmer</surname><given-names>K.</given-names></name>, and <name><surname>Bols</surname><given-names>N. C.</given-names></name></person-group> (<year>2000</year>) <article-title>Methods for the use of fish cell and tissue cultures as model systems
+in basic and toxicology research</article-title>. In <source>The Laboratory
+Fish</source> (<person-group person-group-type="editor"><name><surname>Ostrander</surname><given-names>G. K.</given-names></name></person-group>, Ed.) pp <fpage>631</fpage>&#x02013;<lpage>651</lpage>, <publisher-name>Academic Press</publisher-name>, <publisher-loc>San Diego</publisher-loc>.</mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Ullah</surname><given-names>J. H.</given-names></name>; <name><surname>Walsh</surname><given-names>T. R.</given-names></name>; <name><surname>Taylor</surname><given-names>I. A.</given-names></name>; <name><surname>Emery</surname><given-names>D. C.</given-names></name>; <name><surname>Verma</surname><given-names>C. S.</given-names></name>; <name><surname>Gamblin</surname><given-names>S. J.</given-names></name>; <name><surname>Spencer</surname><given-names>J.</given-names></name> (<year>1998</year>) <article-title>The crystal
+structure of the L1 metallo-beta-lactamase
+from Stenotrophomonas maltophilia at 1.7 A resolution,</article-title>. <source>J. Mol. Biol.</source>
+<volume>284</volume>, <fpage>125</fpage>&#x02013;<lpage>136</lpage>. <pub-id pub-id-type="doi">10.1006/jmbi.1998.2148</pub-id>.<pub-id pub-id-type="pmid">9811546</pub-id></mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>van
+Berkel</surname><given-names>S. S.</given-names></name>; <name><surname>Brem</surname><given-names>J.</given-names></name>; <name><surname>Rydzik</surname><given-names>A. M.</given-names></name>; <name><surname>Salimraj</surname><given-names>R.</given-names></name>; <name><surname>Cain</surname><given-names>R.</given-names></name>; <name><surname>Verma</surname><given-names>A.</given-names></name>; <name><surname>Owens</surname><given-names>R. J.</given-names></name>; <name><surname>Fishwick</surname><given-names>C. W.</given-names></name>; <name><surname>Spencer</surname><given-names>J.</given-names></name>; <name><surname>Schofield</surname><given-names>C. J.</given-names></name> (<year>2013</year>) <article-title>Assay platform for clinically relevant
+metallo-beta-lactamases</article-title>. <source>J. Med. Chem.</source>
+<volume>56</volume>, <fpage>6945</fpage>&#x02013;<lpage>6953</lpage>. <pub-id pub-id-type="doi">10.1021/jm400769b</pub-id>.<pub-id pub-id-type="pmid">23898798</pub-id></mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Ghavami</surname><given-names>A.</given-names></name>; <name><surname>Labb&#x000e9;</surname><given-names>G.</given-names></name>; <name><surname>Brem</surname><given-names>J.</given-names></name>; <name><surname>Goodfellow</surname><given-names>V. J.</given-names></name>; <name><surname>Marrone</surname><given-names>L.</given-names></name>; <name><surname>Tanner</surname><given-names>C. A.</given-names></name>; <name><surname>King</surname><given-names>D. T.</given-names></name>; <name><surname>Lam</surname><given-names>M.</given-names></name>; <name><surname>Strynadka</surname><given-names>N. C.</given-names></name>; <name><surname>Pillai</surname><given-names>D. R.</given-names></name>; <name><surname>Siemann</surname><given-names>S.</given-names></name>; <name><surname>Spencer</surname><given-names>J.</given-names></name>; <name><surname>Schofield</surname><given-names>C. J.</given-names></name>; <name><surname>Dmitrienko</surname><given-names>G. I.</given-names></name> (<year>2015</year>) <article-title>Assay for drug discovery: Synthesis
+and testing of nitrocefin analogues for use as beta-lactamase substrates</article-title>. <source>Anal. Biochem.</source>
+<volume>486</volume>, <fpage>75</fpage>&#x02013;<lpage>77</lpage>. <pub-id pub-id-type="doi">10.1016/j.ab.2015.06.032</pub-id>.<pub-id pub-id-type="pmid">26142222</pub-id></mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal" id="cit54"><name><surname>Morrison</surname><given-names>J. F.</given-names></name>; <name><surname>Walsh</surname><given-names>C. T.</given-names></name> (<year>2006</year>) <article-title>The behavior and significance of
+slow-binding enzyme
+inhibitors,</article-title>. <source>Adv. Enzymol. Relat. Areas Mol.
+Biol.</source>
+<volume>61</volume>, <fpage>201</fpage>&#x02013;<lpage>301</lpage>. <pub-id pub-id-type="doi">10.1002/9780470123072.ch5</pub-id>.</mixed-citation></ref><ref id="ref55"><mixed-citation publication-type="journal" id="cit55"><name><surname>Goli&#x0010d;nik</surname><given-names>M.</given-names></name>; <name><surname>Stojan</surname><given-names>J.</given-names></name> (<year>2004</year>) <article-title>Slow-binding inhibition: A theoretical and practical
+course for students,</article-title>. <source>Biochem. Mol. Biol. Educ.</source>
+<volume>32</volume>, <fpage>228</fpage>&#x02013;<lpage>235</lpage>. <pub-id pub-id-type="doi">10.1002/bmb.2004.494032040358</pub-id>.<pub-id pub-id-type="pmid">21706729</pub-id></mixed-citation></ref><ref id="ref56"><mixed-citation publication-type="journal" id="cit56"><name><surname>Kabsch</surname><given-names>W.</given-names></name> (<year>2010</year>) <article-title>Xds</article-title>. <source>Acta Crystallogr.,
+Sect. D: Biol. Crystallogr.</source>
+<volume>66</volume>, <fpage>125</fpage>&#x02013;<lpage>132</lpage>. <pub-id pub-id-type="doi">10.1107/S0907444909047337</pub-id>.<pub-id pub-id-type="pmid">20124692</pub-id></mixed-citation></ref><ref id="ref57"><mixed-citation publication-type="journal" id="cit57"><name><surname>Evans</surname><given-names>P. R.</given-names></name> (<year>2011</year>) <article-title>An introduction
+to data reduction: space-group determination, scaling and intensity
+statistics</article-title>. <source>Acta Crystallogr., Sect. D: Biol.
+Crystallogr.</source>
+<volume>67</volume>, <fpage>282</fpage>&#x02013;<lpage>292</lpage>. <pub-id pub-id-type="doi">10.1107/S090744491003982X</pub-id>.<pub-id pub-id-type="pmid">21460446</pub-id></mixed-citation></ref><ref id="ref58"><mixed-citation publication-type="journal" id="cit58"><name><surname>McCoy</surname><given-names>A. J.</given-names></name>; <name><surname>Grosse-Kunstleve</surname><given-names>R. W.</given-names></name>; <name><surname>Adams</surname><given-names>P. D.</given-names></name>; <name><surname>Winn</surname><given-names>M. D.</given-names></name>; <name><surname>Storoni</surname><given-names>L. C.</given-names></name>; <name><surname>Read</surname><given-names>R. J.</given-names></name> (<year>2007</year>) <article-title>Phaser crystallographic software</article-title>. <source>J. Appl. Crystallogr.</source>
+<volume>40</volume>, <fpage>658</fpage>&#x02013;<lpage>674</lpage>. <pub-id pub-id-type="doi">10.1107/S0021889807021206</pub-id>.<pub-id pub-id-type="pmid">19461840</pub-id></mixed-citation></ref><ref id="ref59"><mixed-citation publication-type="journal" id="cit59"><name><surname>Emsley</surname><given-names>P.</given-names></name>; <name><surname>Lohkamp</surname><given-names>B.</given-names></name>; <name><surname>Scott</surname><given-names>W. G.</given-names></name>; <name><surname>Cowtan</surname><given-names>K.</given-names></name> (<year>2010</year>) <article-title>Features and
+development
+of Coot</article-title>. <source>Acta Crystallogr., Sect. D: Biol. Crystallogr.</source>
+<volume>66</volume>, <fpage>486</fpage>&#x02013;<lpage>501</lpage>. <pub-id pub-id-type="doi">10.1107/S0907444910007493</pub-id>.<pub-id pub-id-type="pmid">20383002</pub-id></mixed-citation></ref><ref id="ref60"><mixed-citation publication-type="journal" id="cit60"><name><surname>Adams</surname><given-names>P. D.</given-names></name>; <name><surname>Afonine</surname><given-names>P. V.</given-names></name>; <name><surname>Bunkoczi</surname><given-names>G.</given-names></name>; <name><surname>Chen</surname><given-names>V. B.</given-names></name>; <name><surname>Davis</surname><given-names>I. W.</given-names></name>; <name><surname>Echols</surname><given-names>N.</given-names></name>; <name><surname>Headd</surname><given-names>J. J.</given-names></name>; <name><surname>Hung</surname><given-names>L. W.</given-names></name>; <name><surname>Kapral</surname><given-names>G. J.</given-names></name>; <name><surname>Grosse-Kunstleve</surname><given-names>R. W.</given-names></name>; <name><surname>McCoy</surname><given-names>A. J.</given-names></name>; <name><surname>Moriarty</surname><given-names>N. W.</given-names></name>; <name><surname>Oeffner</surname><given-names>R.</given-names></name>; <name><surname>Read</surname><given-names>R. J.</given-names></name>; <name><surname>Richardson</surname><given-names>D. C.</given-names></name>; <name><surname>Richardson</surname><given-names>J. S.</given-names></name>; <name><surname>Terwilliger</surname><given-names>T. C.</given-names></name>; <name><surname>Zwart</surname><given-names>P. H.</given-names></name> (<year>2010</year>) <article-title>PHENIX: a comprehensive Python-based
+system for macromolecular structure solution</article-title>. <source>Acta Crystallogr., Sect. D: Biol. Crystallogr.</source>
+<volume>66</volume>, <fpage>213</fpage>&#x02013;<lpage>221</lpage>. <pub-id pub-id-type="doi">10.1107/S0907444909052925</pub-id>.<pub-id pub-id-type="pmid">20124702</pub-id></mixed-citation></ref><ref id="ref61"><mixed-citation publication-type="journal" id="cit61"><name><surname>Chen</surname><given-names>V. B.</given-names></name>; <name><surname>Arendall</surname><given-names>W. B.</given-names><suffix>3rd</suffix></name>; <name><surname>Headd</surname><given-names>J. J.</given-names></name>; <name><surname>Keedy</surname><given-names>D. A.</given-names></name>; <name><surname>Immormino</surname><given-names>R. M.</given-names></name>; <name><surname>Kapral</surname><given-names>G. J.</given-names></name>; <name><surname>Murray</surname><given-names>L. W.</given-names></name>; <name><surname>Richardson</surname><given-names>J. S.</given-names></name>; <name><surname>Richardson</surname><given-names>D. C.</given-names></name> (<year>2010</year>) <article-title>MolProbity: all-atom structure validation for macromolecular
+crystallography</article-title>. <source>Acta Crystallogr., Sect. D:
+Biol. Crystallogr.</source>
+<volume>66</volume>, <fpage>12</fpage>&#x02013;<lpage>21</lpage>. <pub-id pub-id-type="doi">10.1107/S0907444909042073</pub-id>.<pub-id pub-id-type="pmid">20057044</pub-id></mixed-citation></ref><ref id="ref62"><mixed-citation publication-type="journal" id="cit62"><name><surname>Roll</surname><given-names>D. M.</given-names></name>; <name><surname>Yang</surname><given-names>Y.</given-names></name>; <name><surname>Wildey</surname><given-names>M. J.</given-names></name>; <name><surname>Bush</surname><given-names>K.</given-names></name>; <name><surname>Lee</surname><given-names>M. D.</given-names></name> (<year>2010</year>) <article-title>Inhibition
+of metallo-beta-lactamases by pyridine monothiocarboxylic acid analogs</article-title>. <source>J. Antibiot.</source>
+<volume>63</volume>, <fpage>255</fpage>&#x02013;<lpage>257</lpage>. <pub-id pub-id-type="doi">10.1038/ja.2010.20</pub-id>.<pub-id pub-id-type="pmid">20224603</pub-id></mixed-citation></ref><ref id="ref63"><mixed-citation publication-type="journal" id="cit63"><name><surname>Siemann</surname><given-names>S.</given-names></name>; <name><surname>Brewer</surname><given-names>D.</given-names></name>; <name><surname>Clarke</surname><given-names>A. J.</given-names></name>; <name><surname>Dmitrienko</surname><given-names>G. I.</given-names></name>; <name><surname>Lajoie</surname><given-names>G.</given-names></name>; <name><surname>Viswanatha</surname><given-names>T.</given-names></name> (<year>2002</year>) <article-title>IMP-1 metallo-beta-lactamase: effect
+of chelators and assessment of metal requirement by electrospray mass
+spectrometry</article-title>. <source>Biochim. Biophys. Acta, Gen. Subj.</source>
+<volume>1571</volume>, <fpage>190</fpage>&#x02013;<lpage>200</lpage>. <pub-id pub-id-type="doi">10.1016/S0304-4165(02)00258-1</pub-id>.</mixed-citation></ref><ref id="ref64"><mixed-citation publication-type="journal" id="cit64"><name><surname>Chen</surname><given-names>A. Y.</given-names></name>; <name><surname>Thomas</surname><given-names>P. W.</given-names></name>; <name><surname>Stewart</surname><given-names>A. C.</given-names></name>; <name><surname>Bergstrom</surname><given-names>A.</given-names></name>; <name><surname>Cheng</surname><given-names>Z.</given-names></name>; <name><surname>Miller</surname><given-names>C.</given-names></name>; <name><surname>Bethel</surname><given-names>C. R.</given-names></name>; <name><surname>Marshall</surname><given-names>S. H.</given-names></name>; <name><surname>Credille</surname><given-names>C. V.</given-names></name>; <name><surname>Riley</surname><given-names>C. L.</given-names></name>; <name><surname>Page</surname><given-names>R. C.</given-names></name>; <name><surname>Bonomo</surname><given-names>R. A.</given-names></name>; <name><surname>Crowder</surname><given-names>M. W.</given-names></name>; <name><surname>Tierney</surname><given-names>D. L.</given-names></name>; <name><surname>Fast</surname><given-names>W.</given-names></name>; <name><surname>Cohen</surname><given-names>S. M.</given-names></name> (<year>2017</year>) <article-title>Dipicolinic
+Acid Derivatives as Inhibitors of New Delhi Metallo-beta-lactamase-1</article-title>. <source>J. Med. Chem.</source>
+<volume>60</volume>, <fpage>7267</fpage>&#x02013;<lpage>7283</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jmedchem.7b00407</pub-id>.<pub-id pub-id-type="pmid">28809565</pub-id></mixed-citation></ref><ref id="ref65"><mixed-citation publication-type="journal" id="cit65"><name><surname>Meini</surname><given-names>M.-R.</given-names></name>; <name><surname>Llarrull</surname><given-names>L. I.</given-names></name>; <name><surname>Vila</surname><given-names>A. J.</given-names></name> (<year>2014</year>) <article-title>Evolution of Metallo-&#x003b2;-lactamases:
+Trends Revealed by Natural Diversity and in vitro Evolution</article-title>. <source>Antibiotics</source>
+<volume>3</volume>, <fpage>285</fpage>&#x02013;<lpage>316</lpage>. <pub-id pub-id-type="doi">10.3390/antibiotics3030285</pub-id>.<pub-id pub-id-type="pmid">25364574</pub-id></mixed-citation></ref><ref id="ref66"><mixed-citation publication-type="journal" id="cit66"><name><surname>Copeland</surname><given-names>R. A.</given-names></name> (<year>2005</year>) <article-title>Evaluation
+of enzyme inhibitors in drug discovery. A guide for medicinal chemists
+and pharmacologists</article-title>. <source>Methods Biochem. Anal.</source>
+<volume>46</volume>, <fpage>1</fpage>&#x02013;<lpage>265</lpage>. <pub-id pub-id-type="doi">10.1002/9781118540398</pub-id>.<pub-id pub-id-type="pmid">16350889</pub-id></mixed-citation></ref><ref id="ref67"><mixed-citation publication-type="journal" id="cit67"><name><surname>Siemann</surname><given-names>S.</given-names></name>; <name><surname>Clarke</surname><given-names>A. J.</given-names></name>; <name><surname>Viswanatha</surname><given-names>T.</given-names></name>; <name><surname>Dmitrienko</surname><given-names>G. I.</given-names></name> (<year>2003</year>) <article-title>Thiols
+as classical and slow-binding inhibitors of IMP-1 and other binuclear
+metallo-beta-lactamases</article-title>. <source>Biochemistry</source>
+<volume>42</volume>, <fpage>1673</fpage>&#x02013;<lpage>1683</lpage>. <pub-id pub-id-type="doi">10.1021/bi027072i</pub-id>.<pub-id pub-id-type="pmid">12578382</pub-id></mixed-citation></ref><ref id="ref68"><mixed-citation publication-type="journal" id="cit68"><name><surname>Badarau</surname><given-names>A.</given-names></name>; <name><surname>Llinas</surname><given-names>A.</given-names></name>; <name><surname>Laws</surname><given-names>A. P.</given-names></name>; <name><surname>Damblon</surname><given-names>C.</given-names></name>; <name><surname>Page</surname><given-names>M. I.</given-names></name> (<year>2005</year>) <article-title>Inhibitors
+of metallo-beta-lactamase generated from beta-lactam antibiotics</article-title>. <source>Biochemistry</source>
+<volume>44</volume>, <fpage>8578</fpage>&#x02013;<lpage>8589</lpage>. <pub-id pub-id-type="doi">10.1021/bi050302j</pub-id>.<pub-id pub-id-type="pmid">15952764</pub-id></mixed-citation></ref><ref id="ref69"><mixed-citation publication-type="journal" id="cit69"><name><surname>Mondal</surname><given-names>J.</given-names></name>; <name><surname>Morrone</surname><given-names>J. A.</given-names></name>; <name><surname>Berne</surname><given-names>B. J.</given-names></name> (<year>2013</year>) <article-title>How hydrophobic drying forces impact
+the kinetics of molecular recognition</article-title>. <source>Proc.
+Natl. Acad. Sci. U. S. A.</source>
+<volume>110</volume>, <fpage>13277</fpage>&#x02013;<lpage>13282</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1312529110</pub-id>.<pub-id pub-id-type="pmid">23901110</pub-id></mixed-citation></ref><ref id="ref70"><mixed-citation publication-type="journal" id="cit70"><name><surname>Copeland</surname><given-names>R. A.</given-names></name> (<year>2010</year>) <article-title>The dynamics
+of drug-target interactions: drug-target residence time and its impact
+on efficacy and safety</article-title>. <source>Expert Opin. Drug Discovery</source>
+<volume>5</volume>, <fpage>305</fpage>&#x02013;<lpage>310</lpage>. <pub-id pub-id-type="doi">10.1517/17460441003677725</pub-id>.</mixed-citation></ref><ref id="ref71"><mixed-citation publication-type="journal" id="cit71"><name><surname>Copeland</surname><given-names>R. A.</given-names></name>; <name><surname>Pompliano</surname><given-names>D. L.</given-names></name>; <name><surname>Meek</surname><given-names>T. D.</given-names></name> (<year>2006</year>) <article-title>Drug-target residence time and its
+implications for lead optimization</article-title>. <source>Nat. Rev.
+Drug Discovery</source>
+<volume>5</volume>, <fpage>730</fpage>&#x02013;<lpage>739</lpage>. <pub-id pub-id-type="doi">10.1038/nrd2082</pub-id>.<pub-id pub-id-type="pmid">16888652</pub-id></mixed-citation></ref><ref id="ref72"><mixed-citation publication-type="journal" id="cit72"><name><surname>Dahl</surname><given-names>G.</given-names></name>; <name><surname>Akerud</surname><given-names>T.</given-names></name> (<year>2013</year>) <article-title>Pharmacokinetics and
+the drug-target residence time
+concept</article-title>. <source>Drug Discovery Today</source>
+<volume>18</volume>, <fpage>697</fpage>&#x02013;<lpage>707</lpage>. <pub-id pub-id-type="doi">10.1016/j.drudis.2013.02.010</pub-id>.<pub-id pub-id-type="pmid">23500610</pub-id></mixed-citation></ref><ref id="ref73"><mixed-citation publication-type="journal" id="cit73"><name><surname>Walkup</surname><given-names>G. K.</given-names></name>; <name><surname>You</surname><given-names>Z.</given-names></name>; <name><surname>Ross</surname><given-names>P. L.</given-names></name>; <name><surname>Allen</surname><given-names>E. K.</given-names></name>; <name><surname>Daryaee</surname><given-names>F.</given-names></name>; <name><surname>Hale</surname><given-names>M. R.</given-names></name>; <name><surname>O&#x02019;Donnell</surname><given-names>J.</given-names></name>; <name><surname>Ehmann</surname><given-names>D. E.</given-names></name>; <name><surname>Schuck</surname><given-names>V. J.</given-names></name>; <name><surname>Buurman</surname><given-names>E. T.</given-names></name>; <name><surname>Choy</surname><given-names>A. L.</given-names></name>; <name><surname>Hajec</surname><given-names>L.</given-names></name>; <name><surname>Murphy-Benenato</surname><given-names>K.</given-names></name>; <name><surname>Marone</surname><given-names>V.</given-names></name>; <name><surname>Patey</surname><given-names>S. A.</given-names></name>; <name><surname>Grosser</surname><given-names>L. A.</given-names></name>; <name><surname>Johnstone</surname><given-names>M.</given-names></name>; <name><surname>Walker</surname><given-names>S. G.</given-names></name>; <name><surname>Tonge</surname><given-names>P. J.</given-names></name>; <name><surname>Fisher</surname><given-names>S. L.</given-names></name> (<year>2015</year>) <article-title>Translating slow-binding
+inhibition kinetics into cellular and in vivo effects</article-title>. <source>Nat. Chem. Biol.</source>
+<volume>11</volume>, <fpage>416</fpage>&#x02013;<lpage>423</lpage>. <pub-id pub-id-type="doi">10.1038/nchembio.1796</pub-id>.<pub-id pub-id-type="pmid">25894085</pub-id></mixed-citation></ref><ref id="ref74"><mixed-citation publication-type="journal" id="cit74"><name><surname>Papagiannitsis</surname><given-names>C. C.</given-names></name>; <name><surname>Izdebski</surname><given-names>R.</given-names></name>; <name><surname>Baraniak</surname><given-names>A.</given-names></name>; <name><surname>Fiett</surname><given-names>J.</given-names></name>; <name><surname>Herda</surname><given-names>M.</given-names></name>; <name><surname>Hrabak</surname><given-names>J.</given-names></name>; <name><surname>Derde</surname><given-names>L. P.</given-names></name>; <name><surname>Bonten</surname><given-names>M. J.</given-names></name>; <name><surname>Carmeli</surname><given-names>Y.</given-names></name>; <name><surname>Goossens</surname><given-names>H.</given-names></name>; <name><surname>Hryniewicz</surname><given-names>W.</given-names></name>; <name><surname>Brun-Buisson</surname><given-names>C.</given-names></name>; <name><surname>Gniadkowski</surname><given-names>M.</given-names></name> (<year>2015</year>) <article-title>Survey of metallo-beta-lactamase-producing Enterobacteriaceae
+colonizing patients in European ICUs and rehabilitation units, 2008&#x02013;11</article-title>. <source>J. Antimicrob. Chemother.</source>
+<volume>70</volume>, <fpage>1981</fpage>&#x02013;<lpage>1988</lpage>. <pub-id pub-id-type="doi">10.1093/jac/dkv055</pub-id>.<pub-id pub-id-type="pmid">25759034</pub-id></mixed-citation></ref><ref id="ref75"><mixed-citation publication-type="book" id="cit75"><person-group person-group-type="allauthors"><collab>EUCAST</collab></person-group> (<year>2017</year>) <source>The European Committee
+on Antimicrobial
+Susceptibility Testing. Breakpoint tables for interpretation of MICs
+and zone diameters</source>, version 7.1 (<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.eucast.org">http://www.eucast.org</uri>).</mixed-citation></ref><ref id="ref76"><mixed-citation publication-type="journal" id="cit76"><name><surname>Walsh</surname><given-names>F.</given-names></name> (<year>2007</year>) <article-title>Doripenem:
+A new carbapenem antibiotic a review of comparative antimicrobial
+and bactericidal activities</article-title>. <source>Ther. Clin. Risk
+Manage.</source>
+<volume>3</volume>, <fpage>789</fpage>&#x02013;<lpage>794</lpage>.</mixed-citation></ref><ref id="ref77"><mixed-citation publication-type="journal" id="cit77"><name><surname>Looney</surname><given-names>W.
+J.</given-names></name>; <name><surname>Narita</surname><given-names>M.</given-names></name>; <name><surname>Muhlemann</surname><given-names>K.</given-names></name> (<year>2009</year>) <article-title>Stenotrophomonas maltophilia: an
+emerging opportunist human pathogen</article-title>. <source>Lancet
+Infect. Dis.</source>
+<volume>9</volume>, <fpage>312</fpage>&#x02013;<lpage>323</lpage>. <pub-id pub-id-type="doi">10.1016/S1473-3099(09)70083-0</pub-id>.<pub-id pub-id-type="pmid">19393961</pub-id></mixed-citation></ref><ref id="ref78"><mixed-citation publication-type="journal" id="cit78"><name><surname>Waters</surname><given-names>V.</given-names></name>; <name><surname>Yau</surname><given-names>Y.</given-names></name>; <name><surname>Prasad</surname><given-names>S.</given-names></name>; <name><surname>Lu</surname><given-names>A.</given-names></name>; <name><surname>Atenafu</surname><given-names>E.</given-names></name>; <name><surname>Crandall</surname><given-names>I.</given-names></name>; <name><surname>Tom</surname><given-names>S.</given-names></name>; <name><surname>Tullis</surname><given-names>E.</given-names></name>; <name><surname>Ratjen</surname><given-names>F.</given-names></name> (<year>2011</year>) <article-title>Stenotrophomonas maltophilia in cystic
+fibrosis: serologic response and effect on lung disease</article-title>. <source>Am. J. Respir. Crit. Care Med.</source>
+<volume>183</volume>, <fpage>635</fpage>&#x02013;<lpage>640</lpage>. <pub-id pub-id-type="doi">10.1164/rccm.201009-1392OC</pub-id>.<pub-id pub-id-type="pmid">20889901</pub-id></mixed-citation></ref><ref id="ref79"><mixed-citation publication-type="journal" id="cit79"><name><surname>Freedman</surname><given-names>L. D.</given-names></name>; <name><surname>Doak</surname><given-names>G. O.</given-names></name> (<year>1957</year>) <article-title>The Preparation
+And Properties Of Phosphonic Acids,</article-title>. <source>Chem. Rev.</source>
+<volume>57</volume>, <fpage>479</fpage>&#x02013;<lpage>523</lpage>. <pub-id pub-id-type="doi">10.1021/cr50015a003</pub-id>.</mixed-citation></ref><ref id="ref80"><mixed-citation publication-type="journal" id="cit80"><name><surname>Yu</surname><given-names>H.</given-names></name>; <name><surname>Kuhne</surname><given-names>R.</given-names></name>; <name><surname>Ebert</surname><given-names>R. U.</given-names></name>; <name><surname>Schuurmann</surname><given-names>G.</given-names></name> (<year>2010</year>) <article-title>Comparative
+analysis of QSAR models for predicting pK(a) of organic oxygen acids
+and nitrogen bases from molecular structure</article-title>. <source>J. Chem. Inf. Model.</source>
+<volume>50</volume>, <fpage>1949</fpage>&#x02013;<lpage>1960</lpage>. <pub-id pub-id-type="doi">10.1021/ci100306k</pub-id>.<pub-id pub-id-type="pmid">21033677</pub-id></mixed-citation></ref><ref id="ref81"><mixed-citation publication-type="journal" id="cit81"><name><surname>Giamarellou</surname><given-names>H.</given-names></name>; <name><surname>Antoniadou</surname><given-names>A.</given-names></name> (<year>2001</year>) <article-title>Antipseudomonal antibiotics</article-title>. <source>Med. Clin. North Am.</source>
+<volume>85</volume>, <fpage>19</fpage>&#x02013;<lpage>42</lpage>. <pub-id pub-id-type="doi">10.1016/S0025-7125(05)70303-5</pub-id>.<pub-id pub-id-type="pmid">11190351</pub-id></mixed-citation></ref><ref id="ref82"><mixed-citation publication-type="journal" id="cit82"><name><surname>Garuti</surname><given-names>L.</given-names></name>; <name><surname>Ferranti</surname><given-names>A.</given-names></name>; <name><surname>Roberti</surname><given-names>M.</given-names></name>; <name><surname>Katz</surname><given-names>E.</given-names></name>; <name><surname>Budriesi</surname><given-names>R.</given-names></name>; <name><surname>Chiarini</surname><given-names>A.</given-names></name> (<year>1992</year>) <article-title>Synthesis and biological evaluation
+of some new phosphonates</article-title>. <source>Pharmazie</source>
+<volume>47</volume>, <fpage>295</fpage>&#x02013;<lpage>297</lpage>.<pub-id pub-id-type="pmid">1518889</pub-id></mixed-citation></ref><ref id="ref83"><mixed-citation publication-type="journal" id="cit83"><name><surname>Martinez</surname><given-names>C. R.</given-names></name>; <name><surname>Iverson</surname><given-names>B. L.</given-names></name> (<year>2012</year>) <article-title>Rethinking the term
+&#x02033;pi-stacking&#x02033;</article-title>. <source>Chemical Science</source>
+<volume>3</volume>, <fpage>2191</fpage>&#x02013;<lpage>2201</lpage>. <pub-id pub-id-type="doi">10.1039/c2sc20045g</pub-id>.</mixed-citation></ref><ref id="ref84"><mixed-citation publication-type="journal" id="cit84"><name><surname>Gardonio</surname><given-names>D.</given-names></name>; <name><surname>Siemann</surname><given-names>S.</given-names></name> (<year>2009</year>) <article-title>Chelator-facilitated
+chemical modification of IMP-1
+metallo-beta-lactamase and its consequences on metal binding</article-title>. <source>Biochem. Biophys. Res. Commun.</source>
+<volume>381</volume>, <fpage>107</fpage>&#x02013;<lpage>111</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbrc.2009.02.021</pub-id>.<pub-id pub-id-type="pmid">19351604</pub-id></mixed-citation></ref><ref id="ref85"><mixed-citation publication-type="journal" id="cit85"><name><surname>Toney</surname><given-names>J. H.</given-names></name>; <name><surname>Hammond</surname><given-names>G. G.</given-names></name>; <name><surname>Fitzgerald</surname><given-names>P. M.</given-names></name>; <name><surname>Sharma</surname><given-names>N.</given-names></name>; <name><surname>Balkovec</surname><given-names>J. M.</given-names></name>; <name><surname>Rouen</surname><given-names>G. P.</given-names></name>; <name><surname>Olson</surname><given-names>S. H.</given-names></name>; <name><surname>Hammond</surname><given-names>M. L.</given-names></name>; <name><surname>Greenlee</surname><given-names>M. L.</given-names></name>; <name><surname>Gao</surname><given-names>Y. D.</given-names></name> (<year>2001</year>) <article-title>Succinic acids as
+potent inhibitors of plasmid-borne
+IMP-1 metallo-beta-lactamase</article-title>. <source>J. Biol. Chem.</source>
+<volume>276</volume>, <fpage>31913</fpage>&#x02013;<lpage>31918</lpage>. <pub-id pub-id-type="doi">10.1074/jbc.M104742200</pub-id>.<pub-id pub-id-type="pmid">11390410</pub-id></mixed-citation></ref><ref id="ref86"><mixed-citation publication-type="journal" id="cit86"><name><surname>Payne</surname><given-names>D. J.</given-names></name>; <name><surname>Hueso-Rodr&#x000ed;guez</surname><given-names>J. A.</given-names></name>; <name><surname>Boyd</surname><given-names>H.</given-names></name>; <name><surname>Concha</surname><given-names>N. O.</given-names></name>; <name><surname>Janson</surname><given-names>C. A.</given-names></name>; <name><surname>Gilpin</surname><given-names>M.</given-names></name>; <name><surname>Bateson</surname><given-names>J. H.</given-names></name>; <name><surname>Cheever</surname><given-names>C.</given-names></name>; <name><surname>Niconovich</surname><given-names>N. L.</given-names></name>; <name><surname>Pearson</surname><given-names>S.</given-names></name>; <name><surname>Rittenhouse</surname><given-names>S.</given-names></name>; <name><surname>Tew</surname><given-names>D.</given-names></name>; <name><surname>D&#x000ed;ez</surname><given-names>E.</given-names></name>; <name><surname>P&#x000e9;rez</surname><given-names>P.</given-names></name>; <name><surname>de la Fuente</surname><given-names>J.</given-names></name>; <name><surname>Rees</surname><given-names>M.</given-names></name>; <name><surname>Rivera-Sagredo</surname><given-names>A.</given-names></name> (<year>2002</year>) <article-title>Identification
+of a Series of Tricyclic
+Natural Products as Potent Broad-Spectrum Inhibitors of Metallo-&#x003b2;-Lactamases</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<volume>46</volume>, <fpage>1880</fpage>&#x02013;<lpage>1886</lpage>. <pub-id pub-id-type="doi">10.1128/AAC.46.6.1880-1886.2002</pub-id>.<pub-id pub-id-type="pmid">12019104</pub-id></mixed-citation></ref><ref id="ref87"><mixed-citation publication-type="journal" id="cit87"><name><surname>Costello</surname><given-names>A.</given-names></name>; <name><surname>Periyannan</surname><given-names>G.</given-names></name>; <name><surname>Yang</surname><given-names>K. W.</given-names></name>; <name><surname>Crowder</surname><given-names>M. W.</given-names></name>; <name><surname>Tierney</surname><given-names>D. L.</given-names></name> (<year>2006</year>) <article-title>Site-selective
+binding of Zn(II) to metallo-beta-lactamase L1 from Stenotrophomonas
+maltophilia</article-title>. <source>JBIC, J. Biol. Inorg. Chem.</source>
+<volume>11</volume>, <fpage>351</fpage>&#x02013;<lpage>358</lpage>. <pub-id pub-id-type="doi">10.1007/s00775-006-0083-z</pub-id>.<pub-id pub-id-type="pmid">16489411</pub-id></mixed-citation></ref><ref id="ref88"><mixed-citation publication-type="journal" id="cit88"><name><surname>Griffin</surname><given-names>D. H.</given-names></name>; <name><surname>Richmond</surname><given-names>T. K.</given-names></name>; <name><surname>Sanchez</surname><given-names>C.</given-names></name>; <name><surname>M&#x000f6;ller</surname><given-names>A. J.</given-names></name>; <name><surname>Breece</surname><given-names>R. M.</given-names></name>; <name><surname>Tierney</surname><given-names>D. L.</given-names></name>; <name><surname>Bennett</surname><given-names>B.</given-names></name>; <name><surname>Crowder</surname><given-names>M. W.</given-names></name> (<year>2011</year>) <article-title>Structural
+and kinetic studies on metallo-beta-lactamase IMP-1</article-title>. <source>Biochemistry</source>
+<volume>50</volume>, <fpage>9125</fpage>&#x02013;<lpage>9134</lpage>. <pub-id pub-id-type="doi">10.1021/bi200839h</pub-id>.<pub-id pub-id-type="pmid">21928807</pub-id></mixed-citation></ref><ref id="ref89"><mixed-citation publication-type="journal" id="cit89"><name><surname>Calvopina</surname><given-names>K.</given-names></name>; <name><surname>Umland</surname><given-names>K. D.</given-names></name>; <name><surname>Rydzik</surname><given-names>A. M.</given-names></name>; <name><surname>Hinchliffe</surname><given-names>P.</given-names></name>; <name><surname>Brem</surname><given-names>J.</given-names></name>; <name><surname>Spencer</surname><given-names>J.</given-names></name>; <name><surname>Schofield</surname><given-names>C. J.</given-names></name>; <name><surname>Avison</surname><given-names>M. B.</given-names></name> (<year>2016</year>) <article-title>Sideromimic Modification of Lactivicin Dramatically
+Increases Potency against Extensively Drug-Resistant Stenotrophomonas
+maltophilia Clinical Isolates</article-title>. <source>Antimicrob. Agents
+Chemother.</source>
+<volume>60</volume>, <fpage>4170</fpage>&#x02013;<lpage>4175</lpage>. <pub-id pub-id-type="doi">10.1128/AAC.00371-16</pub-id>.<pub-id pub-id-type="pmid">27139464</pub-id></mixed-citation></ref></ref-list></back></article>

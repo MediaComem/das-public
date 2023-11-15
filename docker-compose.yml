@@ -1,0 +1,20 @@
+version: '3'
+
+networks:
+  lan_access:
+    driver: bridge
+
+services:
+  mongodb:
+    image: mongodb/mongodb-community-server:6.0-ubi8
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=user
+      - MONGO_INITDB_ROOT_PASSWORD=pass
+    networks:
+      - lan_access
+    ports:
+      - "27017:27017"
+    volumes:
+      - type: bind
+        source: ./data
+        target: /data/db

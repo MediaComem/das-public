@@ -1,9 +1,19 @@
 # das-public
 
+
+## Code and data
+
+* See the [dataset folder](dataset) to creates from the [PubMed Central OA collection](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist) dataset, an CSV file to analyze the h_index impact on publication citation.
+* To validate the code, please refer the [testing procedure](test.md)
+
+# Original work
+This repository is based on the previous work here:
+
 [![DOI](https://zenodo.org/badge/180121200.svg)](https://zenodo.org/badge/latestdoi/180121200)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alan-turing-institute/das-public/master?filepath=notebooks%2FDescriptiveFigures.ipynb)
 
-## Publication
+## Previous publications
+The original code is mentioned in the following papers:
 
 * 📃 Preprint: https://arxiv.org/abs/1907.02565.
 * 📝 Peer reviewed publication: https://doi.org/10.1371/journal.pone.0230416

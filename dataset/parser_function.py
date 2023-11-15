@@ -5,12 +5,12 @@ __author__ = """Giovanni Colavizza"""
 
 from datetime import datetime, date
 from bs4 import BeautifulSoup as bs
-import multiprocessing, math, re, logging, codecs
+import multiprocess, math, re, logging, codecs
 
 logging.basicConfig(filename='logs/parser_function.log',filemode="w+",level=logging.WARNING)
 logger = logging.getLogger("Secondary")
 
-def mp_article_parser(filenames, list_of_journals, nprocs=multiprocessing.cpu_count()-1):
+def mp_article_parser(filenames, dois_id_plos, dois_id_pmc, nprocs=multiprocess.cpu_count()-1):
 
 	def lookup_articles(filenames_chunk, out_q):
 
@@ -41,7 +41,11 @@ def mp_article_parser(filenames, list_of_journals, nprocs=multiprocessing.cpu_co
 			for article_id in article_ids_found:
 				if article_id.has_attr("pub-id-type"):
 					if article_id["pub-id-type"].strip() == "pmc":
-						id_pmc = int(article_id.text.strip())
+						pmc_element = article_id.text.strip();
+						if isinstance(pmc_element, int):
+							id_pmc = int(article_id.text.strip())
+						else:
+							id_pmc = article_id.text.strip()
 					elif article_id["pub-id-type"].strip() == "pmid":
 						id_pmid = int(article_id.text.strip())
 					elif article_id["pub-id-type"].strip() == "publisher-id":
@@ -69,24 +73,10 @@ def mp_article_parser(filenames, list_of_journals, nprocs=multiprocessing.cpu_co
 			else:
 				logger.info("No publication date: " + f)
 				continue
-			if publication_date >= date(2019, 1, 1):
-				logger.info("Published later than 2018 included: " + f)
-				continue
-			# establish is BMC or PLoS
-			# First, get the journal abbreviation from the filename
-			file_journal = f.split("/")[-2]
-			# Initialize das_required and encouraged
-			das_required = False
-			das_encouraged = False
-			is_plos = False
+			# Replace old checking way by array finding. These arrays are created on the OSI CSV provides by PLOS
+			is_plos = id_doi in dois_id_plos
+			is_pmc = id_doi in dois_id_pmc
 			is_bmc = False
-			if file_journal in list_of_journals.keys():
-				is_plos = list_of_journals[file_journal]["is_plos"]
-				if not is_plos:
-					is_bmc = True
-				if publication_date:
-					das_required = publication_date > list_of_journals[file_journal]["das_required"]
-					das_encouraged = publication_date > list_of_journals[file_journal]["das_encouraged"]
 			# try to get title and authors
 			title = ""
 			if article_meta.find("article-title"):
@@ -122,7 +112,7 @@ def mp_article_parser(filenames, list_of_journals, nprocs=multiprocessing.cpu_co
 				journal = soup.find("journal-meta").find("journal-title").text.strip()
 			journal_issns = list()
 			for issn in soup.find("journal-meta").find_all("issn"):
-				journal_issns.append(issn.text.strip())
+				journal_issns.append(issn.text.strip().replace('-',''))
 			journal_issns = list(set(journal_issns))
 			# abstract
 			abstract = ""
@@ -252,24 +242,24 @@ def mp_article_parser(filenames, list_of_journals, nprocs=multiprocessing.cpu_co
 									"id_publisher": id_publisher,
 									"id_doi": id_doi,
 									"is_plos": is_plos,
+									"is_pmc": is_pmc,
 									"is_bmc": is_bmc,
 									"publication_date": str(publication_date),
 									"das": das,
 									"has_das": has_das,
 									"references": sorted([x for x in refs.values()],key=lambda x:x["label"],reverse=False),
 									"keywords": keywords, "subjects": subjects, "journal": journal,
-									"journal_issn": journal_issns, "filename": f, "abstract": abstract, "last_update": datetime.now(),
-			                        "das_encouraged": das_encouraged, "das_required": das_required})
+									"journal_issn": journal_issns, "filename": f, "abstract": abstract, "last_update": datetime.now()})
 			logger.debug("Done: "+str(article_ids))
 		out_q.put(local_storage)
 
 	# each process will get 'chunksize' files and a queue to put stuff out
-	out_q = multiprocessing.Queue()
+	out_q = multiprocess.Queue()
 	chunksize = int(math.ceil(len(filenames) / float(nprocs)))
 	procs = []
 
 	for i in range(nprocs):
-		p = multiprocessing.Process(
+		p = multiprocess.Process(
 			target=lookup_articles,
 			args=(filenames[chunksize * i:chunksize * (i + 1)],
 				  out_q))

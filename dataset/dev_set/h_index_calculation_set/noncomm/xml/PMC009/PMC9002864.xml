@@ -1,0 +1,728 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Tunis Med</journal-id><journal-id journal-id-type="iso-abbrev">Tunis Med</journal-id><journal-id journal-id-type="publisher-id">Tunis Med</journal-id><journal-title-group><journal-title>La Tunisie M&#x000e9;dicale</journal-title></journal-title-group><issn pub-type="ppub">0041-4131</issn><issn pub-type="epub">2724-7031</issn><publisher><publisher-name>Tunisian Society of Medical Sciences</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmc">PMC9002864</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title id="article-title-edd2fe4b5c3f4ca6811ead761fc58f05">Factor XI deficiency: About 20 cases and literature review</article-title><trans-title-group xml:lang="fr"><trans-title>D&#x000e9;ficit en facteur XI: A propos de 20 cas et revue de la litt&#x000e9;rature</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name id="name-e6be7324d0ba479aa6a538f1e3b76bf8"><surname>Dhaha</surname><given-names>Yosra</given-names></name><xref rid="a-b0275bff666f" ref-type="aff" id="x-bdca46731908">1</xref></contrib><contrib contrib-type="author"><name id="name-d0166ddabd854f549b4f7282aeab49a3"><surname>El Borgi</surname><given-names>Wijd&#x000e8;ne</given-names></name><xref rid="a-d5b73da0b2dc" ref-type="aff" id="x-2dfda87e6471">2</xref></contrib><contrib contrib-type="author"><name id="name-b72f7ecbcdb143a5a27fea1e45ee50c6"><surname>Elmahmoudi</surname><given-names>Hajer</given-names></name><xref rid="a-fd9830d1fa3f" ref-type="aff" id="x-5a9074852dab">3</xref></contrib><contrib contrib-type="author"><name id="name-80926b808b54493885e8bd1bac4cb305"><surname>Achour</surname><given-names>Mariem</given-names></name><xref rid="a-d6489298e0de" ref-type="aff" id="x-f2b587af7bb5">4</xref></contrib><contrib contrib-type="author"><name id="name-296e91a3667541c392431a5b07ccb36c"><surname>Fekih Salem</surname><given-names>Sarra</given-names></name><xref rid="a-1e96468976f2" ref-type="aff" id="x-6bb7d29a3ebd">5</xref></contrib><contrib contrib-type="author"><name id="name-59ab379ef5bb4eb1ad5790df00bf4387"><surname>Ben Lakhal</surname><given-names>Fatma</given-names></name><xref rid="a-d5b73da0b2dc" ref-type="aff" id="x-3bf1e2eb2794">2</xref></contrib><contrib contrib-type="author"><name id="name-287caff08c804002a41aa714babd380d"><surname>Meddeb</surname><given-names>Balkis</given-names></name><xref rid="a-d6489298e0de" ref-type="aff" id="x-e57b95132aab">4</xref></contrib><contrib contrib-type="author"><name id="name-32b73e6b66a4470c89d2c948396f400c"><surname>Gouider</surname><given-names>Emna</given-names></name><xref rid="a-d5b73da0b2dc" ref-type="aff" id="x-15c4ea6e007b">2</xref></contrib><aff id="a-b0275bff666f">
+<institution>1- Service d&#x02019;h&#x000e9;matologie biologique CHU Aziza Othmena / Facult&#x000e9; de M&#x000e9;decine de Sousse</institution>
+</aff><aff id="a-d5b73da0b2dc">
+<institution>2- Service d&#x02019;h&#x000e9;matologie biologique CHU Aziza Othmena / Facult&#x000e9; de m&#x000e9;decine de Tunis</institution>
+</aff><aff id="a-fd9830d1fa3f">
+<institution>3- Service d&#x02019;h&#x000e9;matologie biologique CHU Aziza Othmena / Facult&#x000e9; des Sciences Tunis </institution>
+</aff><aff id="a-d6489298e0de">
+<institution>4- Service d&#x02019;h&#x000e9;matologie clinique. CHU Aziza Othmana. Facult&#x000e9; de m&#x000e9;decine de Tunis</institution>
+</aff><aff id="a-1e96468976f2">
+<institution>5- Service d&#x02019;h&#x000e9;matologie biologique. CHU Aziza Othmana. Facult&#x000e9; de Pharmacie de Monastir</institution>
+</aff></contrib-group><pub-date pub-type="ppub"><month>1</month><year>2022</year></pub-date><pub-date pub-type="epub"><day>01</day><month>1</month><year>2022</year></pub-date><volume>100</volume><issue>1</issue><fpage>60</fpage><lpage>65</lpage><permissions><copyright-year>2022</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 Unported License. To view a copy of this license, visit
+<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>
+</license-p></license></permissions><abstract id="abstract-abstract-title-4f07492eca2b49779716d64aa3523032"><title id="abstract-title-4f07492eca2b49779716d64aa3523032">Abstract</title><p id="paragraph-b94fad33ea7543108b08960ce002e122">
+<bold id="strong-5362d7e0337f4fccb5d4eec8518fd5db">Introduction:</bold> Factor XI deficiency is a rare coagulation disorder with variable bleeding manifestations.</p><p id="paragraph-570144f5fd914f75b14966e20ebe99a0">Objectives: To evaluate the correlation between the degree of factorXI deficiency and the clinical expression of the disease.</p><p id="paragraph-99be540ff8834b4ea1000e107c440a34">
+<bold id="strong-b313d732923a421db1bc2b7399702caa">Methods:</bold> Retrospective study, spanning 10 years from January 1, 2010 to December 31, 2019, concerning patients followed at the Hemophilia Center at Aziza Othmana Hospital in Tunis. The data were collected from the medical records. The determination of PT, APTT, fibrinogen level and coagulation factors are performed by coagulometric technique on STA&#x000ae; compact / ACL TOP&#x000ae;. FactorXI deficiency was confirmed on two different samples. Statistical analysis of the clinical-biological correlation was performed using the chi-square test. The significance level was 0.05.</p><p id="paragraph-9dd9ee440eeb41138aff50feb87dd5aa">
+<bold id="strong-35754f0b6d5f4f609a28f9b419952d47">Results:</bold> Twenty patients were collected. The mean age of discovery was 25 years with a sex ratio (M/F) =0.33. The circumstances of discovery were incidental in 14 patients. A family history of bleeding was reported in 30% of cases. Eight patients underwent surgery, six of whom had a simple postoperative course. The APTT was prolonged and isolated in 75% of cases. The hemostasis test was normal in 5 cases. The average FactorXI level was 24%. The tendency to bleed did not seem to be correlated with FactorXI levels.</p><p id="paragraph-51c8877074a5432082c62782e6f26023">
+<bold id="strong-d38e1a8727794e0b84a220766e82914f">Conclusion:</bold> Prospective multicenter studies including molecular study would be necessary to better elucidate this rare disorder.</p></abstract><trans-abstract id="abstract-3dae16409f8a" xml:lang="fr"><title id="abstract-title-049d671dd23a">R&#x000e9;sum&#x000e9;</title><p id="paragraph-42fe3bdb2fbf441a902c7fba25f68a39">
+<bold id="strong-437ac34cd116450a9ee0d4dd19a9d23d">Introduction&#x000a0;:</bold> La d&#x000e9;ficience en facteur XI est un trouble rare de la coagulation entra&#x000ee;nant des manifestations h&#x000e9;morragiques variables.</p><p id="paragraph-7848d688736b436aa190580a4c60b08e">
+<bold id="strong-d42d00f47ad34bf5ba3f44e68722916d">Objectifs </bold>: Evaluer la corr&#x000e9;lation entre le degr&#x000e9; du d&#x000e9;ficit en facteurXI et l&#x02019;expression clinique de la maladie.</p><p id="paragraph-0879bb74bb4f44d7944e21dbfc1f77cb">
+<bold id="strong-3904727d370c4571b59777ce86eababf">M&#x000e9;thodes </bold>: Etude r&#x000e9;trospective, s&#x02019;&#x000e9;talant sur 10 ans du 1ier javier 2010 au 31 d&#x000e9;cembre 2019, concernant les patients suivis au Centre d&#x02019;h&#x000e9;mophilie &#x000e0; l&#x02019;h&#x000f4;pital Aziza Othmana de Tunis. Les donn&#x000e9;es ont &#x000e9;t&#x000e9; recueillies &#x000e0; partir du registre des dossiers m&#x000e9;dicaux. La d&#x000e9;termination du TP, TCA, taux du fibrinog&#x000e8;ne et le dosage des facteurs de la coagulation sont r&#x000e9;alis&#x000e9;s par technique coagulom&#x000e9;trique sur STA&#x000ae; compact / ACL TOP&#x000ae;. Le d&#x000e9;ficit en FacteurXI a &#x000e9;t&#x000e9; confirm&#x000e9; sur deux pr&#x000e9;l&#x000e8;vements diff&#x000e9;rents. L'analyse statistique de la corr&#x000e9;lation clinico-biologique a &#x000e9;t&#x000e9; r&#x000e9;alis&#x000e9;e &#x000e0; l'aide du test du chi-deux. Le seuil de signification &#x000e9;tait de 0,05.&#x000a0;&#x000a0;&#x000a0;</p><p id="paragraph-9c44d5fe8a8e47719f3a42cfc321bd50">
+<bold id="strong-cf88f5b896194f83920b5b9bf8ad3bdb">R&#x000e9;sultats </bold>: vingt patients ont &#x000e9;t&#x000e9; collig&#x000e9;s. L'&#x000e2;ge moyen de d&#x000e9;couverte &#x000e9;tait de 25 ans avec un sex-ratio (M /F) =0,33. Les circonstances de la d&#x000e9;couverte &#x000e9;taient fortuites chez 14 patients. Les ant&#x000e9;c&#x000e9;dents familiaux h&#x000e9;morragiques ont &#x000e9;t&#x000e9; rapport&#x000e9;s dans 30% des cas. 8 patients ont subi un acte chirurgical dont 6 avaient des suites op&#x000e9;ratoires simples. Le TCA &#x000e9;tait allong&#x000e9; et isol&#x000e9; dans 75% des cas. Le bilan d&#x02019;h&#x000e9;mostase a &#x000e9;t&#x000e9; revenu normal dans 5 cas. Le taux de FacteurXI moyen &#x000e9;tait de 24%. La tendance aux saignements ne semblait pas &#x000ea;tre corr&#x000e9;l&#x000e9;e aux taux de FacteurXI.</p><p id="paragraph-3e8c08c59abc4da3a8c77701d8921b9c">
+<bold id="strong-9d4411ca97e14d7aacddddd1f5d4b6b2">Conclusion </bold>: Des &#x000e9;tudes prospectives multicentriques incluant l&#x02019;&#x000e9;tude mol&#x000e9;culaire seraient n&#x000e9;cessaires afin de mieux &#x000e9;lucider ce trouble rare.</p></trans-abstract><kwd-group id="kwd-group-656b826d95f8472ab09d4d899341c2fd"><title>Keywords</title><kwd>Coagulation disorder</kwd><kwd>factor XI</kwd><kwd>factor XI deficiency</kwd><kwd>rare coagulation deficiency</kwd><kwd>bleeding syndrome.</kwd></kwd-group><kwd-group id="kg-46fc10131bc8" xml:lang="fr"><title>Mots cl&#x000e9;s</title><kwd>Trouble de la coagulation</kwd><kwd>facteur XI</kwd><kwd>d&#x000e9;ficit en facteur XI</kwd><kwd>d&#x000e9;ficit rare</kwd><kwd>syndrome h&#x000e9;morragique.</kwd></kwd-group></article-meta></front><body><sec><title id="title-0fd53ca9c6134100865875a61a7e8a61">Introduction:</title><p id="paragraph-37e66c893a5a4f458e9c82b018e728b1">Factor XI deficiency is a rare inherited bleeding disorder first described in1953 by Rosenthal and al <xref rid="R139585324786579" ref-type="bibr">1</xref>, <xref rid="R139585324786587" ref-type="bibr">2</xref>. Affected individuals may have bleeding symptoms following a trauma or a surgery and some of them have few of any symptoms. It is often asymptomatic with a variable hemorrhagic tendency, rarely spontaneous, but mostly hemorrhage related to surgery or trauma <xref rid="R139585324786570" ref-type="bibr" id="xref-c3773e60faf44002aaa71b1bc827bbe5">3</xref>. Bleeding in this disorder occurs especially in areas of high fibrinolytic activity: oral and nasal mucosa and urogenital tract <xref rid="R139585324786570" ref-type="bibr" id="xref-792221b324824bd5822f56a037e22b43">3</xref>.</p><p id="paragraph-0d57efd4bd05492b903a8c60bccf61cb">In Tunisia, very few studies have focused in exploring the particularities of FXI deficient patients. In view of the lack of correlation between bleeding symptoms and FXI levels, the aims of our study were to report clinical and biological data of constitutional FXI deficiency in patients diagnosed and treated at the Aziza Othmana Hospital in Tunis with a literature review.</p></sec><sec><title id="title-64fce09d4958416484b26a16f1ac8a55">Methods:</title><p id="paragraph-28a0ff08997949cd811e18371c73d81e">All patients with FXI deficiency who were followed up at the Hemophilia Center (CH) of Aziza Othmana Hospital in Tunis for a period of 10 years from January 2010 to December 2019 were included in this retrospective study. The data were gathered from the medical records registry. The criteria of inclusion were two separate FXI assays to establish the diagnosis of a deficiency.</p><p id="paragraph-713fe3a211464865a5183913bfd6e81c">The data collected were:</p><p id="paragraph-9e47a51bd233422581d5862b27ec3871">- Clinical (age, sex, family history, circumstance of discovery, characteristics of the bleeding syndrome),</p><p id="paragraph-013d7f96f7da4604bc035d365845ddde">- Biological (PT, APTT, fibrinogen and FXI factor levels)</p><p id="paragraph-67f092e5c3374bb69b35a1d010e566aa">- Therapeutic.</p><p id="paragraph-de25f56e196e4251b33c4382b1c872a0">The FXI deficiency was considered severe for levels &#x0003c; 15%, moderate for levels between 15 and 50% <xref rid="R139585324786570" ref-type="bibr" id="xref-5f74e6b7b6f14c2ca13973b89d0ee256">3</xref>.</p><p id="paragraph-d72f5544dc3b4af5b82933c2fb4343a1">The SPSS version 20 software was used for data analysis. The analysis of the clinical-biological statistical correlation was performed using the chi-square test. The significance range was 0.05.</p><p id="paragraph-fef151a35dc74b19909b0d1dff0850be">Confidentiality and anonymity were respected in the study.</p></sec><sec><title id="title-ad0fbfbf3b7f4e41aa9400cfceee21ef">Results:</title><sec><title id="t-4f53b51fe67b">Clinical Data:</title><p id="paragraph-72b5251cb088476f8f9c70b8a8849607">Twenty cases of FXI deficiency were identified during the period studied, which represent a prevalence of 4 cases/1 000 000 inhabitants in northern Tunisia. The average age at diagnosis was 25 years [1 - 68 years], with a sex ratio (M/F) of 0.33. Family and personal bleeding histories were observed in 6 and 5 cases respectively.</p><p id="paragraph-a3a4d29698cd4f59981f156cc4a6b2c1">The personal hemorrhagic history was essentially mucocutaneous: epistaxis and ecchymosis. One case of hemarthrosis and one case of hemorrhagic miscarriage were reported.</p><p id="paragraph-c1b3bfd6a3ad4e3889852609b0c7ea4a">The diagnosis of FXI deficiency was mainly made incidentally during a preoperative assessment of 11 patients (<xref rid="table-wrap-e28fd8886fd9404c8a06af44e6a8d34d" ref-type="table" id="x-c73e5b140962">Table 1</xref>).</p><p id="paragraph-36c4c174d2ba45e68ef8717ad0ef51fe">Four patients presented a hemorrhagic syndrome that motivated them to consult.</p><table-wrap position="float" id="table-wrap-e28fd8886fd9404c8a06af44e6a8d34d"><caption id="caption-9885f923abe1410f888276aa30d8bd7e"><title id="title-b0d9c899e24146feb12304287f739cac">Table 1: Circumstances of FXI factor deficiency diagnosis</title></caption><table frame="hsides" rules="rows" id="table-6d176271847942f0ac3e0d3daa89f20f"><tbody id="table-section-c0e2dbb3a554480d8f824284974cfa5a"><tr id="table-row-15a62dcfddac4b7188e7ddbefd114d19"><td id="table-cell-1a3410d5ec2646f990b594e1838d21c6" colspan="2" rowspan="2" align="left">
+<p id="paragraph-b2efd14248964201a2af538510212d32"> Purpose of consultation</p>
+</td><td id="table-cell-fe5460e146c2495cb2c3762419d45a83" colspan="2" align="left" rowspan="1">
+<p id="paragraph-9ad7753b203e42f69e7c6bb7304cc905"> Effectifs</p>
+</td></tr><tr id="table-row-8300697867f244b8a368c9b14cfa5ec9"><td id="table-cell-e7cfc056c3564ae1adf0d4abbc5053b0" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c1cdbebd7cca4a1a9df235f14a3bf8b7"> Number</p>
+</td><td id="table-cell-20ad760564b94aba9434d1020e4ae471" align="left" rowspan="1" colspan="1">
+<p id="paragraph-41feb6f99cd54ff1bab3b336013ad37d"> Pourcentage (%) </p>
+</td></tr><tr id="table-row-b3a2c654ce444662839145dd1ad69dc5"><td id="table-cell-976f684720d84439bd0edd9c019eed7b" colspan="2" align="left" rowspan="1">
+<p id="paragraph-88170702df4f4345b0fb8d92d8c83693"> Pre-operative extended APTT</p>
+</td><td id="table-cell-d9ae8f7364914087a5e89dbd43f72463" align="left" rowspan="1" colspan="1">
+<p id="paragraph-fcf4d9c437f74e3abbff1b3a2871c286"> 11</p>
+</td><td id="table-cell-da3c8d960521468f9517f36e1316c4df" align="left" rowspan="1" colspan="1">
+<p id="paragraph-40565c5775e24bce842f736386188d26"> 55</p>
+</td></tr><tr id="table-row-2821fdd9eadb4496a98ccc157e79f081"><td id="table-cell-432d030c31c74c3a9baf0669d3281996" rowspan="3" align="left" colspan="1">
+<p id="paragraph-1c92a7f39f4e49daae085d0637d35103"> Bleeding Symptoms</p>
+</td><td id="table-cell-943a50fe47a2474897be413e388bfac3" align="left" rowspan="1" colspan="1">
+<p id="paragraph-eb99b1a0490340649f6c94aa236821a7"> * Post-operative</p>
+</td><td id="table-cell-f80f6951351e482880441eed89b00f6d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-906514be6e2947a689d1dd6e5696670b"> 2</p>
+</td><td id="table-cell-8a7af61410594572a2f512cacdf3874a" rowspan="3" align="left" colspan="1">
+<p id="paragraph-20ea7e1acf04415e8843ae9c960cc3fb"> 20</p>
+</td></tr><tr id="table-row-e640d7e38ed64c43a4446b68b27e26fb"><td id="table-cell-8407d8ec943e4da085d08c9bcfcfab16" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e98cd8395e9d43e78df43e8f73c2ccab"> * Post-dental-care</p>
+</td><td id="table-cell-bf5361e2c73f430e8e6df85b7078f2f3" align="left" rowspan="1" colspan="1">
+<p id="paragraph-4f59e25333de4ee696cf4472b5444c27"> 1</p>
+</td></tr><tr id="table-row-7007b87a24374f6399ddf9183835bd99"><td id="table-cell-e946eb769f5f42a5bf1b9a4472c771c4" align="left" rowspan="1" colspan="1">
+<p id="paragraph-3ce7ec9be7a7422cb7f5edaedc0d7d34"> *Hemarthrosis(knee injury)</p>
+</td><td id="table-cell-83776e248ccd4aaa8fb0c9e1594bc619" align="left" rowspan="1" colspan="1">
+<p id="paragraph-74c3292b46ea49518b12738fd378ac58"> 1</p>
+</td></tr><tr id="table-row-bff08da107a349f197f928aa559e7dfb"><td id="table-cell-fdeaf130b0c541f1923c8b0e2dce0587" colspan="2" align="left" rowspan="1">
+<p id="paragraph-8ae4957268694173a4146f760882395d"> Family&#x000a0;&#x000a0;&#x000a0;Survey</p>
+</td><td id="table-cell-4cde7b9be91d40cfadca65063026e09c" align="left" rowspan="1" colspan="1">
+<p id="paragraph-34b09602d65d48ea87104e8a9474c718"> 2</p>
+</td><td id="table-cell-85a22445ac3b45b99ecd2b2dca42ab69" align="left" rowspan="1" colspan="1">
+<p id="paragraph-481b63187c3e4590acd6c85f8d1e6cd4"> 10</p>
+</td></tr><tr id="table-row-011c2c1d33c8452e8ec55fc93a51d47f"><td id="table-cell-76f2536182a34c9eb0fe6a33cb2c3894" colspan="2" align="left" rowspan="1">
+<p id="paragraph-f332566e475d470284929de7fc8d0787"> During Pregnancy</p>
+</td><td id="table-cell-e9b04fc46e064aedb950de8f04c10835" align="left" rowspan="1" colspan="1">
+<p id="paragraph-809d64607ff54259b91e07b29fe83803"> 3</p>
+</td><td id="table-cell-3cc1d444a1524bffa76a45832076eb32" align="left" rowspan="1" colspan="1">
+<p id="paragraph-9d4b177628c64a75ab3839b547df20fe"> 15</p>
+</td></tr><tr id="table-row-48d870f707354a30973ac1c266f9563d"><td id="table-cell-a379748370a0463fbd43a27d2b3b5688" colspan="2" align="left" rowspan="1">
+<p id="paragraph-ceca1ef4ce4d41ad9136c93a3b310154"> Total</p>
+</td><td id="table-cell-3ed783231820421896847b81a809f4ca" align="left" rowspan="1" colspan="1">
+<p id="paragraph-3c882a433a904c9b954a8e0c064f1af6"> 20</p>
+</td><td id="table-cell-f820758c63304977b69d28381e07cc75" align="left" rowspan="1" colspan="1">
+<p id="paragraph-8042d65d62174cdc9b2b48724f3529a6"> 100</p>
+</td></tr></tbody></table></table-wrap><p id="paragraph-8bbe0ac534504e30a451818d34ecb4ff">Eight patients had undergone a surgery, 5 had simple post-operative outcomes (<xref rid="table-wrap-2a2d4618d1cc4137b6d7afb5a5c2260e" ref-type="table" id="x-37da7e4c6857">Table 2</xref> ).</p><p id="paragraph-168dea754ad749c4bbd5f4ace308b94f">The surgical procedure was a circumstance of diagnosis in a single patient with post-surgical (surgery unspecified) with a strictly normal hemostasis assessment (normal APTT).</p><table-wrap position="float" id="table-wrap-2a2d4618d1cc4137b6d7afb5a5c2260e"><caption id="caption-3a745042b96d4caa8791a917a1c41f18"><title id="title-19d0661fd395487f9f1edb5ea55455a8">Table 2: Surgical History and Postoperative Outcomes</title></caption><table frame="hsides" rules="rows" id="table-83a2f75866904d6d8078d89c1a4afe10"><tbody id="table-section-e06ed0875bab4652b1772fe46632cf93"><tr id="table-row-e535b847637f430094764aa0523e2e97"><td id="table-cell-bc32936fe37a4d8a80fa7eaa5183c081" align="left" rowspan="1" colspan="1">
+<p id="paragraph-8c26932333d5499fba9dcf4bf733e554"> Patient #&#x000a0;</p>
+</td><td id="table-cell-9e6daa9e1a3a4d7db5eefb1107f44407" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5fdeba43e2c240f9b38fc084e459b481"> Age (year)</p>
+</td><td id="table-cell-2f916c85cb4f4c0d81f113b6f54bd337" align="left" rowspan="1" colspan="1">
+<p id="paragraph-24eefee3493c4f1a9d312bcdbf893766"> Gender (M/F)</p>
+</td><td id="table-cell-8fda64c09ea440ee996a4d9e5ef399ef" align="left" rowspan="1" colspan="1">
+<p id="paragraph-8d9d1a50a6dc49bea01a9c28c3b204c1"> Surgery </p>
+</td><td id="table-cell-51a510d36cbe4934a15bac671c034822" align="left" rowspan="1" colspan="1">
+<p id="paragraph-0b45502ce18940a0beb2741c8860e6df"> Post-operative outcomes </p>
+</td><td id="table-cell-413fe016e89e4429b7e619670efb6e98" align="left" rowspan="1" colspan="1">
+<p id="paragraph-b2e4d6aa634b4ea3b7bf0036d1755e5a"> Diagnosis</p>
+</td><td id="table-cell-8f0421d37b2b4a86bc412790e8ad792a" align="left" rowspan="1" colspan="1">
+<p id="paragraph-20f6049dfa3a41adb6607bcd8b189b0f"> Pre-operative treatment </p>
+</td><td id="table-cell-6c925cf9dc99410283d3b7d54e53f402" align="left" rowspan="1" colspan="1">
+<p id="paragraph-73aa24c8cb544526b72d8fb73f101980"> recourse to per-operative treatment</p>
+</td></tr><tr id="table-row-6b561f2828104258a2d31a8dd5e62ead"><td id="table-cell-5a088bdcc97c47f18a289f94b3fcfd54" rowspan="2" align="left" colspan="1">
+<p id="paragraph-a87fd0cdaf9d490e861be530f9fb2f0c"> 1 </p>
+</td><td id="table-cell-0203ccdc8d2f459c825f6ee96e95abf8" rowspan="2" align="left" colspan="1">
+<p id="paragraph-59a8f84de87440c1a6d2f58a76a04e37"> 44</p>
+</td><td id="table-cell-fcc314bb25e448aaba23097cc6dd78b3" rowspan="2" align="left" colspan="1">
+<p id="paragraph-044b6b39b69b4bf0a0d5549bb1e3bb67"> F</p>
+</td><td id="table-cell-647ef43f341f4f4cb4bc88e9f2bf282f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-efde104c6af1436ab774f74886216925"> *Caesarean section</p>
+</td><td id="table-cell-fb6f972928f14f6da8ac4950aad62ac4" align="left" rowspan="1" colspan="1">
+<p id="paragraph-28073a5cad5e4afab9084edbc1a9665e"> Simples </p>
+</td><td id="table-cell-0ccb6b9819ae47d18289748dcd717a8e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a8237b63ae5441bb8e00e237f46a9f22"> Unknown</p>
+</td><td id="table-cell-806aeb0cd19342f79da7421957c1c7da" align="left" rowspan="1" colspan="1">
+<p id="paragraph-bd9dd6fd511f4ee993a798a5a6c5641d"> No </p>
+</td><td id="table-cell-37551013f67545a9ae0aba0fa248ae6d" rowspan="2" align="left" colspan="1">
+<p id="paragraph-7ab3d9be71174d16bb7f5a6f82d1be1c"> ---</p>
+</td></tr><tr id="table-row-3ff184db041d40d8b81d57c9a7433d8d"><td id="table-cell-e79d34c57b0b4e97bf10e3ffc5608119" align="left" rowspan="1" colspan="1">
+<p id="paragraph-7ba39a86ea3c488d9d39c5437d436202"> *Thyroid goiter</p>
+</td><td id="table-cell-c425817026eb4deaab4106e931f0613c" align="left" rowspan="1" colspan="1">
+<p id="paragraph-71a77f7ec1bd4ea2b331e3d8f568cf9d"> Simples</p>
+</td><td id="table-cell-f796c7fdb7eb4582a62864feb30f0aad" align="left" rowspan="1" colspan="1">
+<p id="paragraph-2f9ae41a66c8492e8bb5dfc036ee3662"> known</p>
+</td><td id="table-cell-ce3f737f24b049c284e9e197a2fba508" align="left" rowspan="1" colspan="1">
+<p id="paragraph-214238092c7248eb9d94afc7e85f1c2e"> 5FFP+Tranexamic acid</p>
+</td></tr><tr id="table-row-7aadf507414f4450829c4d066d9b87f9"><td id="table-cell-7b05e4ba67e54cd4a0e259ae2f134f8b" align="left" rowspan="1" colspan="1">
+<p id="paragraph-42a77b4fa77646a68e5ca759d120890c"> 2 </p>
+</td><td id="table-cell-4e184ff92f9242dda2179a8447305092" align="left" rowspan="1" colspan="1">
+<p id="paragraph-75a73e8f60294159a8d3b8f9bc24572a"> 20</p>
+</td><td id="table-cell-5d8eed4ebb2749b2a90061ff291f949d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5e2b80cec6d444fd9f89a0611caad1d7"> M</p>
+</td><td id="table-cell-fb66dcb5a5ff47c48390178220e3ee14" align="left" rowspan="1" colspan="1">
+<p id="paragraph-b4cea67f671b48188ebe6f93d53f61bb"> Circumcision</p>
+</td><td id="table-cell-f0f82169439647719b1e345baf0ab8a4" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ade8ef9922e845379d21a35ccf631870"> Bleeding on Day 1</p>
+</td><td id="table-cell-83c3d14d673d4ed6ad1dd989dd2e3abe" align="left" rowspan="1" colspan="1">
+<p id="paragraph-4657cfb9602e4ea48edae42f62156afa"> Unknown</p>
+</td><td id="table-cell-b78b9b8d104e467197dd30c538d3ff85" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ef4e70cd89b54f2b90656873bc5f33e3"> No</p>
+</td><td id="table-cell-d3dc00da9fcf43fca662cd94a379f567" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ec9b862847984d56b4bdd5024dc8e365"> No</p>
+</td></tr><tr id="table-row-c60b51410767498996401ff2844ba556"><td id="table-cell-08d62ca104dc48b982be7dcc6ce99331" align="left" rowspan="1" colspan="1">
+<p id="paragraph-4ec12e4fc8564ff99fe3ee5ee80b798e"> 3 </p>
+</td><td id="table-cell-21e655d6bbcd4144a09cea48e30045a3" align="left" rowspan="1" colspan="1">
+<p id="paragraph-54bdcdb547ed44fb933c3cff3b1e401a"> 26 </p>
+</td><td id="table-cell-e647e9dd73c94bef9602706b58748a67" align="left" rowspan="1" colspan="1">
+<p id="paragraph-2e2c3161bca045a891628a6994f1c99a"> F</p>
+</td><td id="table-cell-6471f58d068647acb186dc3f6e7e95a8" align="left" rowspan="1" colspan="1">
+<p id="paragraph-bc1d637e84dd4d87ab4b8586a65b4c78"> Caesarean section</p>
+</td><td id="table-cell-8a382fa832d24728b03a91ed2dce7ad2" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e32fa2641c8c41968b6202037615d60b"> Simples</p>
+</td><td id="table-cell-e746b3eed3b849088201cc9ec0c3d402" align="left" rowspan="1" colspan="1">
+<p id="paragraph-689626c00e3b413b8e90c2b1cb77d421"> Unknown</p>
+</td><td id="table-cell-26aa7e7022df49ee8cb7851cdc901a68" align="left" rowspan="1" colspan="1">
+<p id="paragraph-274297efde674c4a87b6676037ed2e4b"> Unspecified</p>
+</td><td id="table-cell-dc200535888d4b388d29a0cfa5b52eaa" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e914c5a09b424acf901a73dce10df1b6"> --</p>
+</td></tr><tr id="table-row-c9ba928023744717bbb0be1174558741"><td id="table-cell-4c39fd25518c4f6fab06cb0acfa48fbd" align="left" rowspan="1" colspan="1">
+<p id="paragraph-4902bfc535d4438faf12451962e0226e"> 4 </p>
+</td><td id="table-cell-0dc3591c50c644869d65e1e527a4da13" align="left" rowspan="1" colspan="1">
+<p id="paragraph-0277e4c6bc814501a783bbd5c605a3ef"> 37 </p>
+</td><td id="table-cell-5f3190474e354734b21bd3116d426a13" align="left" rowspan="1" colspan="1">
+<p id="paragraph-6b6c386b685f4928a95ce4c56e20649b"> F</p>
+</td><td id="table-cell-5292f57cbbce4503918bace24e8b26e3" align="left" rowspan="1" colspan="1">
+<p id="paragraph-596ca45c940f4cd0b23da8d41af1ed35"> Unspecified</p>
+</td><td id="table-cell-7bfe2269949046d7a4c72f58541383fa" align="left" rowspan="1" colspan="1">
+<p id="paragraph-d896150f9d554382bffb4acef2a9bcf1"> Post-urgical bleeding</p>
+</td><td id="table-cell-772e67ee563446e2a2355ef95f3f89e5" align="left" rowspan="1" colspan="1">
+<p id="paragraph-788247b6941f469583d4b03035b0d248"> Unknown</p>
+</td><td id="table-cell-864e9cb15de443498fa566ac1c0a4b0e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-caad1c9fea114a9b85214c645e196de1"> Unspecified</p>
+</td><td id="table-cell-b4f7e4714c3e4c808b669382cbec4be9" align="left" rowspan="1" colspan="1">
+<p id="paragraph-6a30f913bd8d40659a422b76f440151c"> No</p>
+</td></tr><tr id="table-row-85bffa7a0c1e4c1487cc01d2aa46c9f3"><td id="table-cell-cc27727e2ad145848778b18f89674bd2" rowspan="2" align="left" colspan="1">
+<p id="paragraph-98cf041cdd1f49928560da2d09bcb81f"> 5 </p>
+</td><td id="table-cell-679df2bf37554f5db3ab61b00e69497d" rowspan="2" align="left" colspan="1">
+<p id="paragraph-dbe1448d08f841fda3cdc9194951445a"> 38</p>
+</td><td id="table-cell-3eb7f9ef664344f2a7308a2e6231b5aa" rowspan="2" align="left" colspan="1">
+<p id="paragraph-7b226cdf694b4587a115119c988d5c0b"> F</p>
+</td><td id="table-cell-0306f4244d4a410fa3684f80ee5e8351" align="left" rowspan="1" colspan="1">
+<p id="paragraph-dce69cd99e2d4936a3c6c2e29dd14bf7"> *Tumor of the thigh</p>
+</td><td id="table-cell-413e9f6752fb418fa1ac5845cfafcd4c" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e25ba6d8380d4dbebedfab1468ec4cb1"> Simples</p>
+</td><td id="table-cell-20857a5245fe4db287c54cddf13a73fb" align="left" rowspan="1" colspan="1">
+<p id="paragraph-f8c474c07bd64a31a44b117de896cfde"> Unknown</p>
+</td><td id="table-cell-596b1c329e2e4642a7f3d259d2e2dd4a" align="left" rowspan="1" colspan="1">
+<p id="paragraph-3e19cb06f9b64d72a96a1f75674840ad"> No</p>
+</td><td id="table-cell-8200c1d0d6bc47b1a16a58d3be82f464" rowspan="2" align="left" colspan="1">
+<p id="paragraph-17d4d9fed88f43da9eb11f76a3809bd8"> --</p>
+</td></tr><tr id="table-row-23185889f42c42d1945c7633934eebb3"><td id="table-cell-9fdcdf848e314f7a879c4740760cbccd" align="left" rowspan="1" colspan="1">
+<p id="paragraph-36ce5180b85240278bb8681621691195"> *In vitro fecondation</p>
+</td><td id="table-cell-d72bf12531fa4243a8aa383ac21eb7cf" align="left" rowspan="1" colspan="1">
+<p id="paragraph-1f885d5fce994483b11a3cabaadafaab"> hemorrhagic punction</p>
+</td><td id="table-cell-a6075568e5ed4fd98b6e5e801f2ac270" align="left" rowspan="1" colspan="1">
+<p id="paragraph-2a45c56f412342a7930edc8610a68942"> Unknown</p>
+</td><td id="table-cell-31eea3132d0c435aa115dfb58bdbbfe4" align="left" rowspan="1" colspan="1">
+<p id="paragraph-8bc6b3e637274604b2ba1bcb69eeaa5a"> PRBC+FFP</p>
+</td></tr><tr id="table-row-3feb790ff29d4e9cb99f9e95ed69555a"><td id="table-cell-50690671c6114c89b013acdfd57a2427" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ccda2afcdb1f4af3bb504c7cf2da624a"> 6 </p>
+</td><td id="table-cell-d1ef0ef374b74d34a33a08e46e05b939" align="left" rowspan="1" colspan="1">
+<p id="paragraph-d6d2ed7168a549039a2b3f280bb32a57"> 43 </p>
+</td><td id="table-cell-9cffdb88730244b19fea1dcd6652a978" align="left" rowspan="1" colspan="1">
+<p id="paragraph-9276912b479540bdb26f9e39e71370a2"> F</p>
+</td><td id="table-cell-16a4ad50884e4d23bd2212a592c310fc" align="left" rowspan="1" colspan="1">
+<p id="paragraph-de1f858d158c4a45b959e139a120b2a1"> Caesarean section</p>
+</td><td id="table-cell-ffb1b54071a84d0f80c722de29670934" align="left" rowspan="1" colspan="1">
+<p id="paragraph-4af7460e452649358bdeb74fb8db3782"> Post-partum hemorrhagie</p>
+</td><td id="table-cell-0181ee5cdec348e7b87c800cbf7f168e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-fd8361d9a9984561946ebfaf6e42f7ae"> Unknown</p>
+</td><td id="table-cell-4446bfd425ea4defb74cb879e2867aeb" align="left" rowspan="1" colspan="1">
+<p id="paragraph-1b18d32eab3246f78d88f5147904601d"> No</p>
+</td><td id="table-cell-48d9ac10d0ed435bbb42415ff6c891c7" align="left" rowspan="1" colspan="1">
+<p id="paragraph-df961d4ef2f047d399518b16763cd366"> No</p>
+</td></tr><tr id="table-row-c9e734409c05411ba660b07c47ce7417"><td id="table-cell-35e4a085f7b640b9a06edbb9354ecf2c" rowspan="2" align="left" colspan="1">
+<p id="paragraph-72c8223824b440d580c8b0d0ee7624cf"> 7 </p>
+</td><td id="table-cell-2a73896511fc447f825f2985c69b0dd0" rowspan="2" align="left" colspan="1">
+<p id="paragraph-3950cd868cf949aaaca5697dae5e9641"> 13 </p>
+</td><td id="table-cell-cc1e48717e9c4e968b174623fd8807c0" rowspan="2" align="left" colspan="1">
+<p id="paragraph-bb8fff3a42794a0f958dd91e7254ac37"> M</p>
+</td><td id="table-cell-7a304b3af89942ba9b50c43fd7f09d2a" align="left" rowspan="1" colspan="1">
+<p id="paragraph-da7d202ad8ca42d19532cad5e9c3595e"> *Facial tumor</p>
+</td><td id="table-cell-581d311576e94f2b85fd1dbf4eae3366" rowspan="2" align="left" colspan="1">
+<p id="paragraph-5582b33d96e3491cafc4dcbee5cb4ebf"> Simples</p>
+</td><td id="table-cell-8aadeac2205b49af8708e5450b3c44c7" rowspan="2" align="left" colspan="1">
+<p id="paragraph-d8d4b0e5bb8d4b65a3e34cddc8937755"> Unknown</p>
+</td><td id="table-cell-a30d9a3403bc4ae4b691486b751ced30" rowspan="2" align="left" colspan="1">
+<p id="paragraph-0b1219aad2914b9cb749b233395b7153"> No</p>
+</td><td id="table-cell-9ac73d2aaf274eeb95749719a055a0b5" rowspan="2" align="left" colspan="1">
+<p id="paragraph-d1fa7b831b22474caa467a03c924db6d"> --</p>
+</td></tr><tr id="table-row-3317231f75a5461bb8654963abd7358b"><td id="table-cell-6b2bc0bdd2cd46a7b57e43eda9cdfa55" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a466c6b15375476d8237a7af8e32dffa"> *Circumcision</p>
+</td></tr><tr id="table-row-b6f953993d2b4fe0a69bd5a363363a72"><td id="table-cell-57cfb865a2764b239d40df14d7751214" rowspan="2" align="left" colspan="1">
+<p id="paragraph-ca3454629dc34db983b1d00890eb03e5"> 8 </p>
+</td><td id="table-cell-20335bc7668e46c698496782362c7bd7" rowspan="2" align="left" colspan="1">
+<p id="paragraph-3e8857d626b7494db58255cbd7c8725e"> 68 </p>
+</td><td id="table-cell-f9bebb1a4b1c49ed8421c183ce9307f3" rowspan="2" align="left" colspan="1">
+<p id="paragraph-cfbbc9a7541544c489a64f43f77c706d"> F</p>
+</td><td id="table-cell-411686dfce844e48a7a0aa3604da87a6" align="left" rowspan="1" colspan="1">
+<p id="paragraph-f514736e400a4d47a6329526d2644ff2"> *Uterine fibroids</p>
+</td><td id="table-cell-e5b5cfcac8384c158e5fb1dab804a5cc" rowspan="2" align="left" colspan="1">
+<p id="paragraph-10e431164bb84bc58aab28366e9333d4"> Simples</p>
+</td><td id="table-cell-df7a42a7eceb4fdd90e176d523386d66" rowspan="2" align="left" colspan="1">
+<p id="paragraph-cb7263714b8f4389882f64547938eab6"> Unknown</p>
+</td><td id="table-cell-9d4405b40b3b4040b6e119c5ec07f5d0" rowspan="2" align="left" colspan="1">
+<p id="paragraph-5d9c1990fc1f4b309a0010bfe0f9b543"> No</p>
+</td><td id="table-cell-482441f51cc24869bb553a85ea3817bb" rowspan="2" align="left" colspan="1">
+<p id="paragraph-9f64650068ce485e9a43e03a55cccaf1"> --</p>
+</td></tr><tr id="table-row-10427d16f8034366bdc9fbe55c895ce2"><td id="table-cell-3106aa7d2fcd46cca15b226c2f9764b7" align="left" rowspan="1" colspan="1">
+<p id="paragraph-cd13483180c1427e92cbce3ecac1a158"> *Ovarian cyst</p>
+</td></tr></tbody></table><table-wrap-foot><fn id="f-1c2ca6a1c02f"><p id="p-cdfd3ce2ac2f">&#x000b7; <bold id="strong-b6727a674e724ff9bcd79ae12fa7d068">M</bold>: male; <bold id="strong-d6f152312e4e41728e017417046c7d50">F</bold>: female; <bold id="strong-e00b4743c7f64887a6bdc9386b98c8c8">PRBC</bold>:packed red blood cells; <bold id="strong-481050492b00471bb8a092eb566d8e9b">FFP</bold>:fresh frozen plasma.</p></fn></table-wrap-foot></table-wrap><p id="paragraph-4c41081fec984f3daddd5579cda5bbe9">Bleeding events after tooth extraction were observed in 13% of our patients who didn&#x02019;t need a prophylactic treatment. Tranexamic acid is prescribed for all planed &#x02026;.</p><p id="paragraph-0592439d67114ffc9d82456dfd6209cd">Family survey was conducted in only 2 patients:</p><p id="paragraph-b6c758d76d0240938aaf970fc7cea137">The patient n&#x000b0;7 had no post-circumcision bleeding event in her three sons, two of whom, however, had bilateral episodes of epistaxis during the summer. (<xref rid="figure-304529e7297f45778f3cb5fa62848ca9" ref-type="fig" id="x-43eea562f0ee">Figure 1</xref>).</p><fig position="float" id="figure-304529e7297f45778f3cb5fa62848ca9"><caption id="caption-dc1371921ae4416c8d8dfb3968715ce5"><title id="title-05e382bfad88494e8836446193bada39">Figure 1. Family tree patient 7</title></caption><graphic xlink:href="image1" id="graphic-59ddd9ba361b43849c395d94254f78e7" position="float"/></fig><p id="paragraph-da0b9c7d3ecf4c98a8b4ac352f809409">For the second family: the survey revealed 2nd degree consanguinity of the parents.</p><p id="paragraph-d7cee2a740b9494caced1093b71695f3">The factor XI dosage was carried out in the presence of an extended preoperative APTT (dermoid scalp cyst) in patient n#15 (<xref rid="figure-e15ac872bc274c54939d761e0c9a75b1" ref-type="fig" id="x-143c79e9bd1d">Figure 2</xref>)</p><fig position="float" id="figure-e15ac872bc274c54939d761e0c9a75b1"><caption id="caption-89cd0b03500449e886d42bb0b16c019a"><title id="title-e54466fa8e3f4a6da261f823dc3a8ce7">Figure 2. Family tree patient 15.</title></caption><graphic xlink:href="image2" id="graphic-4f2bb1b07f1c4b86a90d4b792ab37077" position="float"/></fig><p id="paragraph-20fc1698ba0d4581905c0bf3e236efba">We realized an FXI assay for three newborns whose mothers were diagnosed with FXI deficiency. The FXI levels were lowered (28%, 13%, and 21%) and not thereafter controlled.</p></sec><sec><title id="t-7cf9ebb6fb74">Laboratory</title><p id="paragraph-cccc611129784d898a04c15a9b9ed8fd">The APTT was prolonged in 75% of the cases and corrected on the mixing test in all cases with a normal TQ. The average fibrinogen level was 3.69 g/l (2.28 to 7.3). The mean FXI level was 23.9% [1-58%]. Severe deficiency was reported in 45% of cases (<xref rid="table-wrap-9580148319614bca9eab403b38979455" ref-type="table">Table 3</xref>, <xref rid="table-wrap-73d111eb32ee4da0874ca51ccfa2dd9c" ref-type="table">Table 4</xref>). </p><table-wrap position="float" id="table-wrap-9580148319614bca9eab403b38979455"><caption id="caption-455158f0a383401cb7fb798916d523ad"><title id="title-43300a45f64746b49082434f3aa5ac71">Table 3: Distrubition of patients accorrding to Factor XI levels</title></caption><table frame="hsides" rules="rows" id="table-d701e6730c4f4e7aa0543a1cfb5d75d9"><tbody id="table-section-f79b2f18f05a438998481e277d0a6bd2"><tr id="table-row-2120c55223294b1bbfcbeb13aaa820c3"><td id="table-cell-d1f816b8c85a4cb5a2c1d651fa5532df" rowspan="2" align="left" colspan="1">
+<p id="paragraph-6792c0c54e1b477ba3941f86fd8f8b1f"> FXI deficiency</p>
+</td><td id="table-cell-77d75f27ef5645189b6fee2e2bad3abe" colspan="2" align="left" rowspan="1">
+<p id="paragraph-fe81cfdd57074f16bcd7fc02fe8c32f1"> Effectifs </p>
+</td></tr><tr id="table-row-a00c7c355e8e4b5081da5c123ef4df45"><td id="table-cell-ca38ba8babf84b149e3f9cd445cbd818" align="left" rowspan="1" colspan="1">
+<p id="paragraph-f86f7170d827439394474e423e4f9e85">
+<bold id="strong-202039b9d27341d7a91e11ece0af8f9b">Number</bold>
+</p>
+</td><td id="table-cell-46209a23d5ce4862bddac1f143b1feaf" align="left" rowspan="1" colspan="1">
+<p id="paragraph-4a3fc26c642c44e9942306fe94ef2d1f">
+<bold id="strong-2f5a2386a3b442699c6c61f2e261ae67">Pourcentage (%)</bold>
+</p>
+</td></tr><tr id="table-row-b2b4917975b14497b368fb77eb0ee59d"><td id="table-cell-38d47ca54d874971b3a80aecbfd6354b" align="left" rowspan="1" colspan="1">
+<p id="paragraph-09acc95f24814aab9788995394dacd9d"> Severe (&#x0003c;15%)</p>
+</td><td id="table-cell-5b36720a5dd54212bbaaa784d4554401" align="left" rowspan="1" colspan="1">
+<p id="paragraph-855807a6284b4af6b5b4b36917cc3ea0"> 9</p>
+</td><td id="table-cell-7c5e64df2d9c41a8b710671607f25830" align="left" rowspan="1" colspan="1">
+<p id="paragraph-b37926edbe1e485980a689bcc89b5fce"> 45</p>
+</td></tr><tr id="table-row-c1b3b7940d6846d3b767d8629bc1567e"><td id="table-cell-ab92b07a81ad4e469b6b0f58b6a90ee4" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a05938aee8934d0d905ebc1a9a7f65de"> Moderate (15-50%)</p>
+</td><td id="table-cell-f1c04f78f3be47cc94e4818116b73ec5" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ed15d4dad0814416b3f4d501823c6538"> 11</p>
+</td><td id="table-cell-05537ddfbd584c45ac34b5e3c5a49270" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c3e0d6a8a7b04a40b437a8456ba032f3"> 55</p>
+</td></tr><tr id="table-row-5f5b3f05d121416ebc2e47246aecf4ec"><td id="table-cell-f98e7d217c9840b288dd315a81f09168" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e32f028215d64197a864fd48b3dab9ae"> Total </p>
+</td><td id="table-cell-4d9488479bd7487a8027dfd860431486" align="left" rowspan="1" colspan="1">
+<p id="paragraph-859c759ca8d7492c8eab41a8247b6eff"> 20</p>
+</td><td id="table-cell-95a1cacab9324e9ca4a3d15cd4659ae8" align="left" rowspan="1" colspan="1">
+<p id="paragraph-46b22583aa74495da6851102ef801f7c"> 100</p>
+</td></tr></tbody></table></table-wrap><p id="paragraph-8526f52ebf3d4c66897e12f2be01cc4c">In our study, factor XI levels were not correlated with bleeding disorders (p=0.29).</p><table-wrap position="float" id="table-wrap-73d111eb32ee4da0874ca51ccfa2dd9c"><caption id="caption-b8da7d451e974895a4586308d28b1801"><title id="title-ceb1e51e92d542ae88b8a18cd02e2be8">Table 4: Demographic, clinical and biological caracteristics of patients</title><p id="paragraph-b78c9004d5244efaa3b1e8f79133d26a">
+<bold id="strong-88372e1fdf9b4004935004cf12a82dae">included in our</bold>
+<bold id="strong-06064afa766f4fa781b00bfc7d8d6559">study</bold>
+</p></caption><table frame="hsides" rules="rows" id="table-c5750fe8425a406eacd3ffad6f38648c"><tbody id="table-section-bc04a538ccb54d9fa66ec859b99e19e1"><tr id="table-row-abf536e4fe9a43a587a3db0e0b60fe9f"><td id="table-cell-8510fb85a9374f51bb8e56adbb71dc3e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-7c6d7b0778d747af87ab1cfbecbcc4f7"> Patient #</p>
+</td><td id="table-cell-da44e200c94c42b7bcd824fde300d919" align="left" rowspan="1" colspan="1">
+<p id="paragraph-33c9a4acea4b48c3a7eb654dd537eebd"> Gender (M/F)</p>
+</td><td id="table-cell-e4618119dd684fcd9aa5aae5b5aed6c2" align="left" rowspan="1" colspan="1">
+<p id="paragraph-3384586937434003b93b9c17e0d1fe8f"> Age at diagnosis (years)</p>
+</td><td id="table-cell-9c3d51d6120340f7ae05a4c8d6bfc474" align="left" rowspan="1" colspan="1">
+<p id="paragraph-b0eb48ffdb4d42e9b81359e48ff52bee"> Bleeding symptoms </p>
+</td><td id="table-cell-2f688a57ba9845c89745386657a8f72c" align="left" rowspan="1" colspan="1">
+<p id="paragraph-dec09bd4bd4b460983cc989b6ff5b009"> Surgery </p>
+</td><td id="table-cell-0fac70b2af1e4edea0bc333ec62d916f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-4e955f271ff64516853e3448c1820218"> APTT</p>
+</td><td id="table-cell-6a376777fd924188bbcbabf0d8706e8a" align="left" rowspan="1" colspan="1">
+<p id="paragraph-9e34dcd1206b46c589171d46771a5f2a"> FXI</p>
+</td></tr><tr id="table-row-c4076ce5bec847518a0ec83530d8de2b"><td id="table-cell-d7c33ade13f446e6a8d9ea5782fddf96" align="left" rowspan="1" colspan="1">
+<p id="paragraph-24c3a77cf71e42aeb9956f8570c44b00"> 1</p>
+</td><td id="table-cell-f8bd239aacdd480fa07c5d1b2ec4d235" align="left" rowspan="1" colspan="1">
+<p id="paragraph-14dd4132004d47bc9cc4b9ba545c05a8"> M</p>
+</td><td id="table-cell-bb76febeae024fffb1854496a27c8c24" align="left" rowspan="1" colspan="1">
+<p id="paragraph-773a975e6ecf4aa68980db3943638037"> 54</p>
+</td><td id="table-cell-a55f755fc8324688a185a9720d678f27" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ecae7fb80fcd4de1a096a4696ed00111"> No </p>
+</td><td id="table-cell-b99e7cc4bec24a3b9ffdd74d8c3485c4" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e06fe05526fe48659859ab446251854f"> No</p>
+</td><td id="table-cell-cd23345311c4416aa75a87072cb1969e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-d6733d33d1fc482491f9993879d2d4ca"> Prolonged</p>
+</td><td id="table-cell-9501c97cf26841459d406f0d197bbdab" align="left" rowspan="1" colspan="1">
+<p id="paragraph-840a6e689a14445aaf88696600b53390"> 1%</p>
+</td></tr><tr id="table-row-db0a0629d2634ee881d65d1bcc798f99"><td id="table-cell-bda5f21d755c4055918a8428ba675a9e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a9b72abae9ee4f749a03118e50a988df"> 2</p>
+</td><td id="table-cell-f57691dee5384fa6ba1b2a1260916cf8" align="left" rowspan="1" colspan="1">
+<p id="paragraph-f8ac4394a32244f6912477dfbc703326"> F</p>
+</td><td id="table-cell-c7a5698d6b604ae092cbe67ddb8aefee" align="left" rowspan="1" colspan="1">
+<p id="paragraph-45efd5a0ebfb41548860d791ab1f26d9"> 36</p>
+</td><td id="table-cell-83eb3c8b8b9345bcb8bdf4f2f9e8f903" align="left" rowspan="1" colspan="1">
+<p id="paragraph-aa0262da9d5d454a96dab42c9cc37da5"> Yes </p>
+</td><td id="table-cell-8229f794d60d411393f59e9cffa3d28b" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5c343bce1fab4497b2bcddd03d727fa7"> Yes </p>
+</td><td id="table-cell-38de0c13750d4b79b82468e1bae64521" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e6fd1ccb93924ce4b5466b0e2d6f74e2"> Normal </p>
+</td><td id="table-cell-62e762a5ba87440d96b2a784867b4c7d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-71fcac28666946299c1cb6804e80e67a"> 54%</p>
+</td></tr><tr id="table-row-9498e7326bf34b7cb4e5e96fdb734ae8"><td id="table-cell-9363eef741be4530ab7000df5d425f98" align="left" rowspan="1" colspan="1">
+<p id="paragraph-d674ec7268ae46f8b4219f703b59f37e"> 3</p>
+</td><td id="table-cell-efb2d37320b1446b9ae69d5c97bc731e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-02a00aba14a044b0ba06521c0be05348"> F</p>
+</td><td id="table-cell-71c82f71232d4f19ba21124a9dca9415" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c9259fcc000a4c4baebf979a6795dfe3"> 68</p>
+</td><td id="table-cell-c2e202f1b9ab4d61870001f8d6347ed7" align="left" rowspan="1" colspan="1">
+<p id="paragraph-29d699ef63e049dda9fa0a3a634c3ccd"> No </p>
+</td><td id="table-cell-fef6845793f8473eacc77b10712a3da6" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5b9f7d5efdcb4967842fb858b2d365b0"> No </p>
+</td><td id="table-cell-156a2824670742069d6a3f3425565a39" align="left" rowspan="1" colspan="1">
+<p id="paragraph-90f873ca3b344463884dcff218f9aaa1"> Prolonged </p>
+</td><td id="table-cell-f95ed3847ed24ad1aed5095620e2441f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c2b9b8997d4b435fb74c551a9fbab8c1"> 54%</p>
+</td></tr><tr id="table-row-85d7a1b620dd47f1bab892150ed96bfd"><td id="table-cell-a96ec1a6f8744af5968064c81d761292" align="left" rowspan="1" colspan="1">
+<p id="paragraph-9bbd921a713343dfb7ad996c455c201a"> 4</p>
+</td><td id="table-cell-ff94c1909def4f6daa674c9335be199f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c6cea62e85b94bfd88fb7bfaa7e7fc0b"> M </p>
+</td><td id="table-cell-c09c3c8746f74890932b75ee62eb06ce" align="left" rowspan="1" colspan="1">
+<p id="paragraph-b5968a7eea1243a483d07eb8fee5c33b"> 11</p>
+</td><td id="table-cell-9ad3efbae78a4ccca37d05365b037032" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a429f0baf8124d14815432eb09f92b05"> No </p>
+</td><td id="table-cell-a4c34356ec944b7da5a219a581dd9989" align="left" rowspan="1" colspan="1">
+<p id="paragraph-483673c922f241f29a172ead39c87b51"> Yes </p>
+</td><td id="table-cell-3e00f1dc8e6a4149bfc2113aa7165211" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c623f76835af4be3b084409a5d98b515"> Prolonged </p>
+</td><td id="table-cell-0407330bb10b4df9a54af1cd6da95138" align="left" rowspan="1" colspan="1">
+<p id="paragraph-acfa2e0a8d574ad7af6cf25be5391fba"> 30%</p>
+</td></tr><tr id="table-row-98ac608b3db24dcba73eeeebc1e0b2bf"><td id="table-cell-132e8b68e2004c1e8d40cbe54a6feb10" align="left" rowspan="1" colspan="1">
+<p id="paragraph-9871c79cf41d4c5b9e70b2d687f570ac"> 5</p>
+</td><td id="table-cell-2a17bac3837049a985c376a4b2fe2dc2" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e0f4f23956cf4fe09d73f93dc87133f8"> F</p>
+</td><td id="table-cell-101e596434ac434ab499e76783c25414" align="left" rowspan="1" colspan="1">
+<p id="paragraph-fb8e379d655c4c4fbbb3c032e9dd7b47"> 28</p>
+</td><td id="table-cell-99d67fc6431642129eb5c9426193fd75" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e28f7be94b894e299ef0d10f943f8a40"> No </p>
+</td><td id="table-cell-3d28ef9e6fff47a581a0db3ab193bc42" align="left" rowspan="1" colspan="1">
+<p id="paragraph-6ec97b4b86314311baa52d2a3e4162d0"> No </p>
+</td><td id="table-cell-0fd4006dbf844be7ad8dd3b4a7b3ea11" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ffdfcfba3e694d10b497467765809edc"> Prolonged </p>
+</td><td id="table-cell-f6a5a584b1554f6e99a2f6785b5ffa21" align="left" rowspan="1" colspan="1">
+<p id="paragraph-cf52b17e5f9c416680804e3b425b6a7b"> 1%</p>
+</td></tr><tr id="table-row-de05959215f34ba99df28caa28ecc643"><td id="table-cell-0a7515b4b63248dfa722bc71393ea2b7" align="left" rowspan="1" colspan="1">
+<p id="paragraph-07147a15c649492b83da5bce18925ef8"> 6</p>
+</td><td id="table-cell-54cbc0f9178e402db518a34ad4363608" align="left" rowspan="1" colspan="1">
+<p id="paragraph-3472689a066a432083108fd1290cdef2"> F </p>
+</td><td id="table-cell-2de1e29e814b4240a6bd4e19c6e9b130" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ada5724085504bac9f6f66330c0f0d20"> 20</p>
+</td><td id="table-cell-39dd0ad2957a4c1e8988f1eabb7c964f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-083708fd8ac54d0cb718586a59455e63"> No </p>
+</td><td id="table-cell-7957148977404e5ca92f0ee82379be09" align="left" rowspan="1" colspan="1">
+<p id="paragraph-118cc31677e34b7986b2c3a039ff10c0"> No </p>
+</td><td id="table-cell-7b6064f8d66c4f4b846ab94ce335a931" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ab87f1ae88fc4c33ba4787b9171997b5"> Prolonged </p>
+</td><td id="table-cell-4b8691892e6e43d3b84ba1e397cdfd76" align="left" rowspan="1" colspan="1">
+<p id="paragraph-1614c03b1f14452bbcfda2fca5d774ff"> 32%</p>
+</td></tr><tr id="table-row-e3cbbbafc49a439ead216ec03e221eb3"><td id="table-cell-b840ee075bad401e872c66e3aa99911e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-53a9bebbffd842fe9362697696454f5e"> 7</p>
+</td><td id="table-cell-71618a4dc9c9492c933b87f9c1b4a54a" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c7f9c52a484e47288b93443541ae21f3"> F </p>
+</td><td id="table-cell-7ae4f4686add4aba8fe6d57758d52927" align="left" rowspan="1" colspan="1">
+<p id="paragraph-f8f0dda43b004376933408f020ac9371"> 40 </p>
+</td><td id="table-cell-0215295063d546eebc3928946c50f06a" align="left" rowspan="1" colspan="1">
+<p id="paragraph-7e1d4a57bb474343bc770959a50b60f0"> No </p>
+</td><td id="table-cell-5befb6647bb944fdaa3855d15ad41c61" align="left" rowspan="1" colspan="1">
+<p id="paragraph-d092f0bfaca3419eba4a41d91ef1724a"> Yes </p>
+</td><td id="table-cell-bf1efce3d7ad45c3b083916839dae40c" align="left" rowspan="1" colspan="1">
+<p id="paragraph-0be4146e07004d4991ad62d94bbfbbc1"> Prolonged </p>
+</td><td id="table-cell-5e2cb6f797064592a00327c1f0921559" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e2e71531aebf4194b6fd31f3ff82b52b"> 2%</p>
+</td></tr><tr id="table-row-10ea2f08af55440287f97620ecfa6d2e"><td id="table-cell-bee3e930d99643a99c3c03fd1084bd45" align="left" rowspan="1" colspan="1">
+<p id="paragraph-db8f4162698f4d7b925a34eb56c31e24"> 8</p>
+</td><td id="table-cell-118524cfb5c248839e698a52150edc75" align="left" rowspan="1" colspan="1">
+<p id="paragraph-4d98db4fc53042139c07d6eb997aba9c"> F </p>
+</td><td id="table-cell-531828bc390b441a894cc418ba3a6253" align="left" rowspan="1" colspan="1">
+<p id="paragraph-7bad83df4bba48849a8484fc2fed5be8"> 26</p>
+</td><td id="table-cell-c43303814a0545b5bbe796abea292997" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a4d41e9ba3ff45d6aebf97f97332f760"> No </p>
+</td><td id="table-cell-d0d9d3ed5a7b4de18efc527756c84008" align="left" rowspan="1" colspan="1">
+<p id="paragraph-609c863437034a5fa0a25aa56a77e3be"> No </p>
+</td><td id="table-cell-9a3ff092f0e14c92994e07114ea2f306" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ee244cd1168742e8b2c20326df72d0b4"> Prolonged </p>
+</td><td id="table-cell-da372856bb4c43998271767369b1f82d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5eb4285377884460b38677530245f746"> 4%</p>
+</td></tr><tr id="table-row-d40dd759b5a6443fae02eadf8afa8923"><td id="table-cell-d86ddf453d164c7f8de08f67a4ea148e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-8d382f8e548749a7b1f90bf9f013c1b0"> 9</p>
+</td><td id="table-cell-3eecc1dee12442b8a2a454b06b81e67d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-766424b1729b4680965a9ad652521486"> F </p>
+</td><td id="table-cell-7116cfbb3d834201971a0b4c37b98c4f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5ddd0b3733c94348bbb43b82b1740054"> 22</p>
+</td><td id="table-cell-00072b8565044430b29f51779f387792" align="left" rowspan="1" colspan="1">
+<p id="paragraph-da6100145fcd48e28abb68b82c7e0dc5"> No </p>
+</td><td id="table-cell-36533c476ee04f88bed68f4a9bd43dbf" align="left" rowspan="1" colspan="1">
+<p id="paragraph-f74c4773ffd442bab1854afc91ab84cc"> No </p>
+</td><td id="table-cell-a74a38a418f1417fb9eb44910d979bfa" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ffa83a99079844338594fe1e7071cecb"> Prolonged </p>
+</td><td id="table-cell-b8eb766dd7794ae892dc76b0b25d9f9f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-52c062e549e84d12b04ddece0c90e664"> 4%</p>
+</td></tr><tr id="table-row-72ad03dddd8545bcb1d79f737e9f801a"><td id="table-cell-b00d8d46c9be4f99bb32119f4e3948df" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5d12cf7c0b99484d8a71545f23d00f40"> 10</p>
+</td><td id="table-cell-6733cf0359664dc38ccbaa553a3aafd4" align="left" rowspan="1" colspan="1">
+<p id="paragraph-aee9815a04a14a83b37874de6596e97c"> M </p>
+</td><td id="table-cell-9ae63e555375497098dee18d3a9f2753" align="left" rowspan="1" colspan="1">
+<p id="paragraph-f4f078c5d11c4e0ebf92ffdb28efc3fb"> 16</p>
+</td><td id="table-cell-4bba369272b046e689b41a8953c17ea3" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5b6bb91dc2ce4a46bc8f23000d360fb9"> Yes </p>
+</td><td id="table-cell-638f25d0c51345ecac1ba1d7ee19ec83" align="left" rowspan="1" colspan="1">
+<p id="paragraph-14b2c1c4f12e4b2ab23fa6a18b859b51"> Yes </p>
+</td><td id="table-cell-c3ec44d62dd34b2b9160a40caaccbc47" align="left" rowspan="1" colspan="1">
+<p id="paragraph-dad98d50c24f43749297ac09373e2ac4"> Prolonged </p>
+</td><td id="table-cell-e2184b3c3d154c1585c295cda07281ca" align="left" rowspan="1" colspan="1">
+<p id="paragraph-08bc5ede197e462d9ec8f86c64c918e5"> 20%</p>
+</td></tr><tr id="table-row-bb340ae34b8643439692570ffae72f2a"><td id="table-cell-766dd2f6c2bb4ba1a816d826edbcd63c" align="left" rowspan="1" colspan="1">
+<p id="paragraph-396f093cf32846a4a17744dbce433433"> 11</p>
+</td><td id="table-cell-c6620a3109d44d94a2476381d633853b" align="left" rowspan="1" colspan="1">
+<p id="paragraph-b3df137c4c994d58b0255d05aa7e477c"> F </p>
+</td><td id="table-cell-81905b7d68574081bb8868105040ce49" align="left" rowspan="1" colspan="1">
+<p id="paragraph-24ad52ece69c417faba0fe157958dcea"> 12</p>
+</td><td id="table-cell-fe8b2b7fae7243699c226a44e0f22f9a" align="left" rowspan="1" colspan="1">
+<p id="paragraph-9e503ed04f05490d93aaf6857aed1bcc"> No </p>
+</td><td id="table-cell-9bce0c4c5c174d23ba8a4122f403b941" align="left" rowspan="1" colspan="1">
+<p id="paragraph-72027891f5ed46cdacdb87348921961d"> No</p>
+</td><td id="table-cell-d3a23bcbf603442f873ebca9e80901d3" align="left" rowspan="1" colspan="1">
+<p id="paragraph-b16ed399c9f14a3fb2782f38372abec5"> Prolonged </p>
+</td><td id="table-cell-7120df7b91b748ed83a341d6613036c5" align="left" rowspan="1" colspan="1">
+<p id="paragraph-49357ff2552a47258fbf7f37e0626c12"> 21%</p>
+</td></tr><tr id="table-row-258625f7623348dbb7025b3c0df71183"><td id="table-cell-707f5ea6479f4ae0ba294d46f01c697e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-70096f07371945959b3f0d67430111fb"> 12</p>
+</td><td id="table-cell-d623f22257c542418703b2b2c5e7221b" align="left" rowspan="1" colspan="1">
+<p id="paragraph-19476d33e3784107b702428dd8f3fe1b"> F </p>
+</td><td id="table-cell-6657db1f7eb94dae8fd35bb8f9299348" align="left" rowspan="1" colspan="1">
+<p id="paragraph-55a83c5c9c284299b1243cfbcd41bfff"> 31 </p>
+</td><td id="table-cell-451d0e78b2404770a56f78fddf97d2d0" align="left" rowspan="1" colspan="1">
+<p id="paragraph-6fd250bbf75c44c9a1eca37f95651d41"> Yes </p>
+</td><td id="table-cell-d834a488cd7542238e806a7ec3b9cb47" align="left" rowspan="1" colspan="1">
+<p id="paragraph-d462abc1078e4d109cd7dd2aa6ca7c8f"> No </p>
+</td><td id="table-cell-56c01e29ac7c4a9e94a3cbc2ee1aa222" align="left" rowspan="1" colspan="1">
+<p id="paragraph-f89c1d7b48e44b99a6f5a6a404b23596"> Normal </p>
+</td><td id="table-cell-f28e40dabad34108ab8945191844333e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-faceea79a7b84e129299562e15caad80"> 58%</p>
+</td></tr><tr id="table-row-1889a0f7adc34f62ba29bc06949619a7"><td id="table-cell-77e60318f76a40438d97f370943cb713" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5fcf583127054f1aab4e04a80bb50754"> 13</p>
+</td><td id="table-cell-3ee67f1379ff45f4a035eb63d26f31c5" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c02722a87b26478489405dbe148c80b9"> M </p>
+</td><td id="table-cell-c88b6f4eaa78486aaeca436febb5c877" align="left" rowspan="1" colspan="1">
+<p id="paragraph-1ad22fc2916b46bfb64db9181684227b"> 2 </p>
+</td><td id="table-cell-7c41ee4696f04a82900c3977e6f5fd5b" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e6b16be373ae42bfa6c0106115ffb7e3"> No </p>
+</td><td id="table-cell-d1812675cb84467d89a9887e602a723e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-42811404fc984ddf9489d10c297d3e74"> No </p>
+</td><td id="table-cell-fe3677db67584fb399abf65d306c39ed" align="left" rowspan="1" colspan="1">
+<p id="paragraph-29e69641e433453081513f81b6c8bfb0"> Normal </p>
+</td><td id="table-cell-67a6fd94e8634317a8aaab50f10c89de" align="left" rowspan="1" colspan="1">
+<p id="paragraph-59bad18147de4cc280f80d6ccc66c853"> 49%</p>
+</td></tr><tr id="table-row-eeb756e8a39b4c28a7070e8fce8a5fe3"><td id="table-cell-da9b7f569e224e9b8d817103fbf0d775" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a80774b40ab649ee81d1f34c6b0821f1"> 14</p>
+</td><td id="table-cell-41e1d03d086c419e81bc776dc2dc4e08" align="left" rowspan="1" colspan="1">
+<p id="paragraph-da2ad82e26b24f5fa80d19e8d5ce1b19"> F </p>
+</td><td id="table-cell-497be2a037224969b4f8b47bf7676161" align="left" rowspan="1" colspan="1">
+<p id="paragraph-6e09deba82804fad9f1acf8886e21193"> 5</p>
+</td><td id="table-cell-f18af57920514eeb9bcf86701b5e5f73" align="left" rowspan="1" colspan="1">
+<p id="paragraph-da636e626db14af1945db0df103b234e"> No </p>
+</td><td id="table-cell-1b35449f51364cd695610247f63e7b08" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c5e145858f2840b59b6188e996fabcb8"> No </p>
+</td><td id="table-cell-a1af0d190b0f445c9e3ee7a92123d47d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c4899a21a178400aaaa239b8d383ccdd"> Prolonged </p>
+</td><td id="table-cell-2278b9cc235f4c06ad85f2dd8f3e757d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-83ad4c853564409d9e0539f1c78fc879"> 5%</p>
+</td></tr><tr id="table-row-9d78d6621ee745209e5a64609a1d4036"><td id="table-cell-6269fc60123c4f0f92ec05ea55f87b68" align="left" rowspan="1" colspan="1">
+<p id="paragraph-cf809296a8cf4f129f2f3cac8b30d784"> 15</p>
+</td><td id="table-cell-8b9d1f4e3249411ba75ed3af774c214d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-d4222c2fa2da4244ac9156195de5da97"> F </p>
+</td><td id="table-cell-f6f08ac8bcb644e1842de9eb07cc557f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-05bff0904b6b4a76bc0d2576682120cc"> 1 </p>
+</td><td id="table-cell-79d686d76371496d8b1859636e3c4287" align="left" rowspan="1" colspan="1">
+<p id="paragraph-d011483fbdf1470094cdbdc31cc56557"> No </p>
+</td><td id="table-cell-736e681ffacd49ebba319120c67b4f4c" align="left" rowspan="1" colspan="1">
+<p id="paragraph-dd600743eb004e0aa6a23ceb275d2bcd"> No </p>
+</td><td id="table-cell-67ef426a2ca84eabb7c8f9aad451e60f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-8f267285128c41e3aa1838228d2dd028"> Prolonged </p>
+</td><td id="table-cell-64895d9d42d9402eaa16d13ee32c2a84" align="left" rowspan="1" colspan="1">
+<p id="paragraph-76d86f2c38944873b67603aefe8518b8"> 9%</p>
+</td></tr><tr id="table-row-3bf6650934034021a7aa73b2f21f3e58"><td id="table-cell-9d5c43cc2091478d8eedaec4cc6c7997" align="left" rowspan="1" colspan="1">
+<p id="paragraph-3489c8788b834c6783677b0cf2c43902"> 16</p>
+</td><td id="table-cell-3b128bcfb1814d7e8ba8b60eca3b9472" align="left" rowspan="1" colspan="1">
+<p id="paragraph-4e06171392d84c48afba693d0eb5044e"> F </p>
+</td><td id="table-cell-06e38545bf514125b71133fc3ac7cff2" align="left" rowspan="1" colspan="1">
+<p id="paragraph-3beaf2dcde124881b3cfd02cb9760c84"> 35 </p>
+</td><td id="table-cell-99db19e6590d48bbbf9758a1d487fdf9" align="left" rowspan="1" colspan="1">
+<p id="paragraph-88c24f5d19624212917bb5d403adbbf7"> Yes </p>
+</td><td id="table-cell-a05e153d3a3d40d4990bdc1acc8cec13" align="left" rowspan="1" colspan="1">
+<p id="paragraph-cb58aa87c87640978b9582f8b7a31c09"> Yes </p>
+</td><td id="table-cell-de5294125bee49d89b0f3a1784ab2342" align="left" rowspan="1" colspan="1">
+<p id="paragraph-255f2337030845288d8ba47ed9cea8e0"> Normal </p>
+</td><td id="table-cell-7c41df48300641f5b60c1ee823a6773c" align="left" rowspan="1" colspan="1">
+<p id="paragraph-dbfbd736aa6c47b7b0ed7ebff810c350"> 7%</p>
+</td></tr><tr id="table-row-f8dc3ede5e2744ff97f6562ea2940fff"><td id="table-cell-4415abd5410b4b46b60c6d3885b422c0" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ad114ca105154d28a858e9dbd753b7ad"> 17</p>
+</td><td id="table-cell-8158208ac2944a91894d6a442f74056f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-aac150a067204f918d7a901c2b252b26"> F </p>
+</td><td id="table-cell-e7a43c383994467b91a758b1bd282168" align="left" rowspan="1" colspan="1">
+<p id="paragraph-fd48b2bd9e084dc69c4f56ef4754acc1"> 38 </p>
+</td><td id="table-cell-5eb1bed0d1db4322901be8db1c38adca" align="left" rowspan="1" colspan="1">
+<p id="paragraph-edc7da6affd749c9a3a983e824fd1e92"> No </p>
+</td><td id="table-cell-b412dedda49a4b35bced2c777421f163" align="left" rowspan="1" colspan="1">
+<p id="paragraph-6e536e36f89c4316a6bac2afe87f3fd9"> No </p>
+</td><td id="table-cell-1c5404f718c24b28a2d857fb4eea4002" align="left" rowspan="1" colspan="1">
+<p id="paragraph-222d199887d24920b4cbf5fcff1c6c3c"> Prolonged </p>
+</td><td id="table-cell-5c8b1bdb8bd9486e90cb63da5990e228" align="left" rowspan="1" colspan="1">
+<p id="paragraph-510b03ba46844e0598276621ea71e2e6"> 24%</p>
+</td></tr><tr id="table-row-a970592025ba46fb97e76409792c3bff"><td id="table-cell-46eb75799d3b4619a393a3fcb844f71f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-059d4ed8010b4517b5ed259ab7897001"> 18</p>
+</td><td id="table-cell-628dce17fd734869b262fce2dc1a9dc3" align="left" rowspan="1" colspan="1">
+<p id="paragraph-7329fee98cc94074b495584dd7a151eb"> F </p>
+</td><td id="table-cell-0eeddf2456aa427a9a3eddeafda2960b" align="left" rowspan="1" colspan="1">
+<p id="paragraph-811169e337f64840929347d4c9d16e0d"> 28</p>
+</td><td id="table-cell-76d3f8f81aa34ae695d98d4f2781d0f2" align="left" rowspan="1" colspan="1">
+<p id="paragraph-357747e9ff4d426b8f42f59e650291f0"> No </p>
+</td><td id="table-cell-2e802404190c41289a8f62a21f61a2e9" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e78f3a17804e436fa2225dde498cb77a"> No </p>
+</td><td id="table-cell-2311cdfbcced4957acea973f3e51bee4" align="left" rowspan="1" colspan="1">
+<p id="paragraph-4e42de33f76241c7b50f0493dcc4bfb7"> Normal </p>
+</td><td id="table-cell-bf50050ce7bc44369c919dcdc2928d25" align="left" rowspan="1" colspan="1">
+<p id="paragraph-fa8a7e1eb2cc4e36b7828b97fbf7fe82"> 58%</p>
+</td></tr><tr id="table-row-349938aaeb09484ebe13a6dab7eebb40"><td id="table-cell-8ea5aa17c7ca4d63bb97384b9b2d7134" align="left" rowspan="1" colspan="1">
+<p id="paragraph-57ef759903f94d5ab4d2f42125c2ab25"> 19</p>
+</td><td id="table-cell-01a4d72b3eb84972a8fde5617271d586" align="left" rowspan="1" colspan="1">
+<p id="paragraph-16a8849b38414e2fb2117ef1e39b76ae"> F </p>
+</td><td id="table-cell-1f15b917d30a4e768c30cd883bb26f75" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ceb4b226a807475da56efd9d2478f3a2"> 35</p>
+</td><td id="table-cell-c7bc920ea9bb4fae95bb484abc62cf2e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e05601af72344ef19d270f85e9980fbe"> No </p>
+</td><td id="table-cell-d1776ada3e974c05b2e1e7e7a5e1d4c7" align="left" rowspan="1" colspan="1">
+<p id="paragraph-9cb9948dbb9141bca33c3b8ed69035ae"> No </p>
+</td><td id="table-cell-d72e41b3a90f4fac996ea59584f37d3c" align="left" rowspan="1" colspan="1">
+<p id="paragraph-973d4a7dfb8341dea42ce54f036dc9b9"> Prolonged </p>
+</td><td id="table-cell-7110d5663a2c40f2b96ac419761baf0d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c3ae806aea7f4e58ae7a360bdd30e4c0"> 1%</p>
+</td></tr><tr id="table-row-17e58c95166046d59c1b7ec9eca2b2cd"><td id="table-cell-b080d4861fc340eda23ddd80da872241" align="left" rowspan="1" colspan="1">
+<p id="paragraph-6387ef9956844935a44dcc21a224b532"> 20</p>
+</td><td id="table-cell-81e7ee7bb2324874b9c986764d377207" align="left" rowspan="1" colspan="1">
+<p id="paragraph-d5e9c02bfc764ee98f2c3c6708d0e7bd"> F </p>
+</td><td id="table-cell-4637166ac073457ebd8dd05523ead2c9" align="left" rowspan="1" colspan="1">
+<p id="paragraph-3fa98b59a66a4fe9a2abe6bfe551d82a"> 44</p>
+</td><td id="table-cell-99b8c1ab1a3b4bf78f8564c87d69a791" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c86cf90c9f5d412b9d8b61d9fd55d1ed"> Yes </p>
+</td><td id="table-cell-b9746b694f264fd9841439076e1851b7" align="left" rowspan="1" colspan="1">
+<p id="paragraph-21a1b86df7d245efb80045d9a8ea6e37"> Yes </p>
+</td><td id="table-cell-f3d0ae4cf9a247c4a81005dd43bc1cbe" align="left" rowspan="1" colspan="1">
+<p id="paragraph-1c56f9435d9c4d04a19e64409f5e1960"> Prolonged </p>
+</td><td id="table-cell-cb3d29d47eac4bf5916f875123bfe9b3" align="left" rowspan="1" colspan="1">
+<p id="paragraph-91dd76029d6f4c4e8f04d937327f992a"> 24%</p>
+</td></tr></tbody></table><table-wrap-foot><fn id="f-bc0efb90e198"><p id="p-ff339a9d8afd">&#x000b7; <bold id="strong-97c7260450934299ab3b6b8f8f996fcd">M</bold>: male; <bold id="strong-5f28fbe0338f461488e2b612ae817184">F</bold>: female</p></fn></table-wrap-foot></table-wrap></sec><sec><title id="t-8f16c89aec6c">Treatment of FXI Deficiency</title><p id="paragraph-69a6ccae749845f48f067118f0ad0eac">No data were available for analysis. Tranexamic acid used to be prescribing for minor surgery and fresh frozen plasma for major surgery with tranexamic acid.</p><p id="paragraph-921342d11cfa44aaaf2dfef0d4bb0ea8">All the patients were treated with the tranexamic acid (Exacyl&#x000ae;) for minor superficial bleeding.</p><p id="paragraph-ce68a1eb286b4f049b6e3b1b1545cb80">For programmed surgical procedures as well as for dental extractions, fresh frozen plasma (FFP), sometimes in combination with exacyl&#x000ae;, was used. Both oral and local exacyl was used in all symptomatic patients.</p><p id="paragraph-01d6ca9755fb45e9849d1dd7a30426a2">All symptomatic patients were treated with oral and local exacyl and received intravenous treatment the day before tooth extraction and oral treatment on the following days. FFP was recommended for surgery such as caesarian section.</p></sec></sec><sec><title id="title-1d0a91577f3444d89bc15699162e36ab">Discussion:</title><p id="paragraph-59440aa9879947819fac9529531c4277">Inherited factor XI deficiency is a rare bleeding disorder, often autosomal recessive with a prevalence of 1 case/1, 000,000 people. Indeed, a low frequency has been found in many populations around the world <xref rid="R139585324786570" ref-type="bibr" id="xref-3af1fd98ee8b45a29affaeb5e9f47160">3</xref>
+</p><p id="paragraph-d703abdb2a1c46c9b4141671b97bd2ab">Nevertheless, FXI deficiency is particularly common among Ashkenazi Jews <xref rid="R139585324786581" ref-type="bibr" id="xref-3aff801c9cf04235a043181337a35cd1">4</xref>, in whom the frequency of carrying an abnormal FXI allele is about 5% <xref rid="R139585324786587" ref-type="bibr" id="xref-1f6dee948fe44f2bbb235102a95f48a9">2</xref>. Other populations seem to have an increased frequency starting with Iraqi Jews, but also French Basques<xref rid="R139585324786570" ref-type="bibr" id="xref-af266a14a86b4ad4a69cbbf4f1e7bcb6">3</xref> and a group residing in a region of northeast England <xref rid="R139585324786580" ref-type="bibr" id="xref-ff421b329b464dbf9f6e923fe8b0d0fb">5</xref>. In northern Tunisia, where 50% of the population is registered, the prevalence of FXI deficiency is 4 cases/1, 000,000 inhabitants. However, this prevalence may be underestimated, due to non-diagnosed cases of FXI deficiency that are not recorded in the registry of the hemophilia center of the Aziza Othmana Hospital in Tunis, which manages inherited bleeding disorders. This prevalence remains fairly high due to the frequent parental consanguinity in Tunisia. This makes necessary the establishment of a national register.</p><p id="paragraph-6487ca26c2664697b43397c0fb122d9c">In our series, the mean age at diagnosis was 25 years (1 to 68 years). Our results were similar to some of the data in the literature. In an Italian study of 34 cases of FXI deficiency, the mean age was 22 years (14 to 83 years) <xref rid="R139585324786564" ref-type="bibr" id="xref-341ef306a8dc46ee956571a662231958">6</xref>, and in a study conducted in the French Basque Country, Bauduer F.al. reported a mean age of 21 years <xref rid="R139585324786588" ref-type="bibr" id="xref-a28be664d010414481939fc65a249afb">7</xref>. A female predominance with a sex ratio of 0.33 was found in our series, comparable with the Santoro R. study in 2011 <xref rid="R139585324786564" ref-type="bibr" id="xref-b7789e77fde645ebb8d668fe2afec07b">6</xref>. Regarding family history, 6 patients had FXI deficiency in the family leading to a family survey or screening at birth. Some authors have taken an interest in the study of families with factor XI deficiency <xref rid="R139585324786584" ref-type="bibr">8</xref>, <xref rid="R139585324786568" ref-type="bibr">9</xref>, but according to some authors, screening at birth is not justified because of its relatively limited clinical consequences and due to hepatic immaturity <xref rid="R139585324786570" ref-type="bibr" id="xref-cc50c2afaa4a4f7897978f64a1d5ed4f">3</xref>.</p><p id="paragraph-8f8d2d838a25435da77b88c502de976d">Based on the literature, there is a wide clinical heterogeneity with diverse circumstances of discovery <xref rid="R139585324786570" ref-type="bibr" id="xref-e4924bca91b54ba0942422315377fbbc">3</xref>. Some forms may be asymptomatic while others can be symptomatic with potentially life-threatening hemorrhagic syndrome <xref rid="R139585324786570" ref-type="bibr" id="xref-c848e20501cc4d269e5763e31be412b1">3</xref>.</p><p id="paragraph-cabe88f3e684434c988b5abb9d6aeadc">In our series, patients were frequently asymptomatic and the circumstance of discovery was mainly fortuitous because of a prolonged APTT. As well in he series of Santoro R et al, 70% of patients were asymptomatic <xref rid="R139585324786564" ref-type="bibr" id="xref-c4568fcca82e4c0f8080d6c2922d5523">6</xref>.</p><p id="paragraph-ef1a72a8ed494435b8d8fa502177e194">Bleeding symptoms due to FXI deficiency are variable from one patient to another and within the same person under the same risk situations <xref rid="R139585324786562" ref-type="bibr" id="xref-6d6957cc098d4adeaae963b497c31d58">10</xref>. In our study, 5 patients had a personal history of bleeding. The most common type of hemorrhagic events was mucocutaneous. Santoro C. al, in a series of 95 patients treated for FXI deficiency, 59% of the patients had non-surgical bleeding episodes <xref rid="R139585324786585" ref-type="bibr" id="xref-c69460037ab94344868237f47f8e2c78">11</xref>. The main bleeding symptoms reported were easy ecchymosis followed by epistaxis. in the series of Santoro R. <xref rid="R139585324786564" ref-type="bibr" id="xref-4127aa9e6d324d67a7f1d9f469ac9f34">6</xref>, 29% of patients had experienced hemorrhagic symptoms such as epistaxis and menorrhagia. This was also observed by Castaman al, <xref rid="R139585324786572" ref-type="bibr" id="xref-e2e02b98b09e4fe4be69b4aa2003013d">12</xref>. Indeed, severe spontaneous bleeding is rarely reported to occurin FXI deficient patients, although menorrhagia and epistaxis are relatively common <xref rid="R139585324786566" ref-type="bibr" id="xref-505e109875794a6c8dfcfcc115c116d3">13</xref>. In fact, the clinical manifestations do not affect the daily life of the patients, so they are not motivated to seek treatment. On the other side, the localization of bleeding episodes is explained by the existence of a predilection for tissues with high fibrinolytic activity (ORL area, urogenital tract, digestive mucosa. Bleeding, particularly after circumcision or in skin wounds, is even less frequent <xref rid="R139585324786576" ref-type="bibr" id="xref-b2508adfa1de4158bf0bed2aeb36c371">14</xref>. Phenotypic heterogeneity may be partly due to variability in the definition of "bleeding", or due to the presence of other associated hemostasis disorders, particularly Willebrand factor deficiency, a common pathology of homeostasis in all populations <xref rid="R139585324786570" ref-type="bibr" id="xref-d52c777842af4db69af6e71c1d2f010a">3</xref>, or also due to the underlying molecular abnormality. The postoperative was without complications in the majority of cases in our series, except for 3 patients (caesarean section and circumcision//unspecified surgery) who had presented bleeding complications. Santoro C. et al<xref rid="R139585324786585" ref-type="bibr" id="xref-37a86e675e044a26a5bfbf1a768267a5">11</xref> found a prevalence of bleeding after major or minor oropharyngeal (especially tonsillectomy and adenoidectomy) or genito-urinary surgery in 40% and 38% of cases respectively.</p><p id="paragraph-e08144ff576740feb9805459e585bb88">During the period of the study, only one patient had a pre-diagnosed hemorrhagic delivery (postpartum hemorrhage) and one patient had a hemorrhagic miscarriage.</p><p id="paragraph-affaa1c346d14d1b897fa3e44556f41e">The literature review revealed an incidence of bleeding during childbirth,in severe deficits, estimated at 20% <xref rid="R139585324786566" ref-type="bibr">13</xref>, <xref rid="R139585324786563" ref-type="bibr">15</xref>.</p><p id="paragraph-48916280a87c4d8da33e1b38b2a0b59b">Other authors reported a higher rate than ours. Kadir et al found a 40% prevalence of deliveries complicated by postpartum hemorrhage, while none of the women who received prophylactic treatment had hemorrhagic complications <xref rid="R139585324786566" ref-type="bibr" id="xref-82babc05a5dc43e993cc50e685d4f102">13</xref>. However, according to Santoro et al., only two bleeding complications were noted in 30 spontaneous deliveries without prophylaxis <xref rid="R139585324786564" ref-type="bibr" id="xref-95ba602752ab40bf9df223d5f18cd49b">6</xref>.</p><p id="paragraph-859fa414361048c799f1b205d1ee1d92">The laboratory diagnosis of FXI deficiency is based on simple routine tests. A deficit can be suspected during a systematic haemostasis test by the detection of an isolated prolonged APTT. APTT is more likely to be sensitive to severe FXI deficiency, its sensibility is very dependent on the reagents used <xref rid="R139585324786570" ref-type="bibr" id="xref-fd98a71dd6a64e3da05c6ae33b835c35">3</xref>.</p><p id="paragraph-c3b8525e669d44a5ba6201ec1c44ed8c">We found normal APTT in 25% of patients. A recent study conducted by Puetz J. in 2018 in the United States over a period of 10 years, involving 7 children with FXI deficiency, revealed that 3 children had a normal APTT <xref rid="R139585324786583" ref-type="bibr" id="xref-3aec3c293e8143e195c6316eba2218ee">16</xref>. Therefore, in the presence of a normal APTT and evocative clinical features, an FXI assay should be performed considering the variability of APTT reagent sensibility, particularly in a bleeding disorder.</p><p id="paragraph-9119af6e08c74b42a3df1139cac0cc6b">Depending on the reagent used, the sensibility of APTT to factor deficiency is very different. This should be considered during the assay of patient plasma <xref rid="R139585324786565" ref-type="bibr" id="xref-538a61855a804b09a130757568cbf68c">17</xref>. Several Commercial reagents are available with different performance characteristics <xref rid="R139585324786575" ref-type="bibr" id="xref-912b16d0e46a42358c358b5fec73b9dc">18</xref>. The most recommended reagents to screen bleeding risk are particulate activator reagents (kaolin, micronized silica, colloidal silica) <xref rid="R139585324786586" ref-type="bibr" id="xref-43f73947b9434bf296b85df76b9fec80">19</xref>.</p><p id="paragraph-d981c6a72bb54749b5350298343e3f73">We have used kaolin and then micronized silica in our laboratory. The norms for the FXI level varied from one author to another, but generally the normal FXI level is between 60-120%. An FXI deficiency is considered severe for &#x0003c; 15% rates whereas some authors considered it severe if &#x0003c; 20%; corresponding generally to homozygous or heterozygous composite mutations.</p><p id="paragraph-df3945623eb1452fbbee89526a1c946c">Salomon O. has shown that patients with a severe deficit have a more significant bleeding risk than those with a mild deficit, with a relative risk of 13 for severe deficits compared to 2.6 for moderate deficits <xref rid="R139585324786577" ref-type="bibr" id="xref-524ffe1e9a974a66b5d0b39803fffa1e">20</xref>.</p><p id="paragraph-e088e0f007444a22b63a4accf7822b29">As reported by other authors, hemorrhage has been observed in more than 60% of patients with severe deficiency undergoing tooth extraction, tonsillectomy, nasal surgery or urological surgery <xref rid="R139585324786587" ref-type="bibr" id="xref-67afffd4d79046f3a61c90e13b1296bd">2</xref>. We have found that most of our patients had one or more dental extractions without prophylaxis, 13% have had bleeding at least once.</p><p id="paragraph-b9110836342746adb58acc3c80449a27">Depending on the studies, the incidence of hemorrhage tooth post-extraction, among patients, varied from 25 to 65% <xref rid="R139585324786582" ref-type="bibr">21</xref>, <xref rid="R139585324786569" ref-type="bibr">22</xref>.</p><p id="paragraph-05bedcf55ecf434f9caf74807b0b6a31">After displaying the different bleeding symptoms in patients with FXI deficiency, our second aim was to assess the correlation between this disorder and the occurrence of hemorrhage.</p><p id="paragraph-0f88e3541e89485cb9ec196a6307a850">In the present study, there is a poor association between FXI level and bleeding tendency in patients with FXI deficiency. This finding has been confirmed by larger studies <xref rid="R139585324786587" ref-type="bibr">2</xref>, <xref rid="R139585324786564" ref-type="bibr">6</xref>, <xref rid="R139585324786585" ref-type="bibr">11</xref>. In fact, the bleeding tendency may also vary in the same individual </p><p id="paragraph-7f0702317e15417099a8ba0d51f92282">It is important to note that many patients with severe FXI deficiency do not bleed, although several authors have reported difficulties to classify severe and moderate FXI deficiency at levels around 20%. It should be noted that studies showing an association between FXI levels and bleeding tendency use data collected from Jewish patients <xref rid="R139585324786562" ref-type="bibr">10</xref>, <xref rid="R139585324786569" ref-type="bibr">22</xref>, while studies reporting a non-association usually involve groups from different ethnic backgrounds <xref rid="R139585324786568" ref-type="bibr" id="xref-d3922d2aa5164220819ae4b9d5749f42">9</xref>.</p><p id="paragraph-93bc9c878cff454b8cfaafd4370048bd">Recently a survey has concluded that the correlation between factor level and symptom severity is lowest for FXI among all congenital coagulation factor disorders <xref rid="R139585324786571" ref-type="bibr">23</xref>, <xref rid="R139585324786567" ref-type="bibr">24</xref>.</p><p id="paragraph-f9ff218862d94ec7ba1bed2babfc82f1">Many factors could be implicated in this variation: presence of other associated hemostasis abnormalities, type of mutation, type of surgical situation, which makes difficult to develop a recommendation for managing this condition <xref rid="R139585324786587" ref-type="bibr" id="xref-7721e384f9614fafb234fa6d6bc93c01">2</xref>.</p><p id="paragraph-0c6bd478fa164010ac5c788118219ab9">As bleeding syndrome is often poorly correlated with FXI levels, other coagulation tests such as thrombin generation tests or rotational thromboelastometry may be useful to evaluate bleeding risk, but there is currently insufficient data to use these tests in clinical practices <xref rid="R139585324786587" ref-type="bibr" id="xref-517b040f7db54340bc7636705a462139">2</xref>.</p><p id="paragraph-52076206a74e43528e4e24ca9cb2a052">Genetic anomalies responsible of the deficiencies are various (false or non-sense mutations, deletions, insertions or splicing anomalies) also periodically new variants are identified. More than 188 mutations have been described. These mutations may affect the 4 domains of the FXI factor. The majority of mutations were responsible of simultaneous decrease in coagulant and antigenic activities (CRM-) while only 4% ofCR M+ forms were observed <xref rid="R139585324786574" ref-type="bibr" id="xref-262800fff5b549d4aaf6038dad99459a">25</xref>.</p><p id="paragraph-ffda0c27b48e4f2cab1d492a74a69eb1">The molecular analysis of our patients with FXI deficiency is currently being conducted in our center.</p><p id="paragraph-97c2aab78d8042279bb029325e825a00">The management of FXI deficiency should be individualized based on the type of procedure, the FXI level and the history of bleeding. In general, there is no need for prophylactic therapy for daily activities even for patients with severe FXI deficiency. However, in cases of major surgery or trauma, treatment may be required <xref rid="R139585324786576" ref-type="bibr" id="xref-d447f67810534a2f9e1c40e069bacb0a">14</xref>.</p><p id="paragraph-982a6385b2384a0f9644f0c71d3e692d">Anti-fibrinolytics such as tranexamic acid (Exacyl&#x000ae;) are used for low bleeding conditions (dental surgery, menstrual bleeding) and FXI concentrates (not available in Tunisia) or FFP are used for high bleeding risks (surgical prophylaxis, symptomatic bleeding) <xref rid="R139585324786568" ref-type="bibr" id="xref-39f572751f9c4c9ba141c4b03bc655ef">9</xref>.</p><p id="paragraph-b2c74003409a4052ad265b23a00e51b8">Combinations of anti-fibrinolytics and recombinant FVIIa concentrate can also be used in some cases, particularly in the presence of a specific FXI inhibitor <xref rid="R139585324786573" ref-type="bibr" id="xref-72897cb6665141b39732a1c5267804c3">26</xref>.</p><p id="paragraph-d728b450fec14f0d8687b1cbdc504cba">Such treatments are subject to a very strict risk/benefit balance because of the possible important side effects: in particular, FXI concentrates may have a serious prothrombotic effect <xref rid="R139585324786578" ref-type="bibr" id="xref-a17137b32fb5433dbf5930d91439f462">27</xref>.</p><p id="paragraph-debc63bdebd749b898401091951af3c6">In cases of minimal superficial bleeding, tranexamic acid exacyl&#x000ae; is the most frequently used to manage our patients. The combined use of FFP and exacyl was for cold-programmed surgical procedures.</p></sec><sec><title id="title-7023b59f28a444b5a10fdf3016696e0b">Conclusion:</title><p id="paragraph-087420091a7a4fb799edeaaf8ee41559">This study certainly has some weaknesses due to retrospective character of the data analysis and the unavailability of the molecular analysis of the factor XI gene.</p><p id="paragraph-acd5205fa4e54491a668b5d8039ab857">Due to the limited frequency of this deficiency and the lack of clinical manifestations in many cases, it was not possible to have a large number of patients.</p><p id="paragraph-0e7409dd088a40d897b4e0d9edd96f91">However, this is the first and largest Tunisian survey to our knowledge, which allowed us to confirm the heterogeneity of the hemorrhagic phenotype in FXI deficient patients.</p><p id="paragraph-2af253bd62c4491bac204795050b4252">Molecular investigation combined with rotational thromboelastometry seems to be needed in order to better elucidate the pathogenesis of this disorder and thus provides an optimal personalized therapeutic approach.</p></sec></body><back><ref-list><title>References</title><ref id="R139585324786579"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Rosenthal</surname><given-names>R. L.</given-names></name>
+<name><surname>Dreskin</surname><given-names>O. H.</given-names></name>
+<name><surname>Rosenthal</surname><given-names>N.</given-names></name>
+</person-group><article-title>New Hemophilia-like Disease Caused by Deficiency of a Third Plasma Thromboplastin Factor.</article-title><source>Experimental Biology and Medicine</source><year>1953</year><volume>82</volume><issue>1</issue><fpage>171</fpage><lpage>174</lpage><issn pub-type="epub">1535-3702, 1535-3699</issn><pub-id pub-id-type="doi">10.3181/00379727-82-20057</pub-id><publisher-name>SAGE Publications</publisher-name><uri xlink:href="https://dx.doi.org/10.3181/00379727-82-20057">https://dx.doi.org/10.3181/00379727-82-20057</uri></element-citation></ref><ref id="R139585324786587"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Wheeler</surname><given-names>Allison P.</given-names></name>
+<name><surname>Gailani</surname><given-names>David</given-names></name>
+</person-group><article-title>Why factor XI deficiency is a clinical concern</article-title><source>Expert Review of Hematology</source><year>2016</year><volume>9</volume><issue>7</issue><fpage>629</fpage><lpage>637</lpage><issn pub-type="epub">1747-4086, 1747-4094</issn><pub-id pub-id-type="doi">10.1080/17474086.2016.1191944</pub-id><publisher-name>Informa UK Limited</publisher-name><uri xlink:href="https://dx.doi.org/10.1080/17474086.2016.1191944">https://dx.doi.org/10.1080/17474086.2016.1191944</uri><pub-id pub-id-type="pmid">27216469</pub-id></element-citation></ref><ref id="R139585324786570"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>de&#x000a0;Raucourt</surname><given-names>Emmanuelle</given-names></name>
+<name><surname>Bauduer</surname><given-names>Fr&#x000e9;d&#x000e9;ric</given-names></name>
+<name><surname>Pan-Petesch</surname><given-names>Brigitte</given-names></name>
+<name><surname>Goudemand</surname><given-names>Jenny</given-names></name>
+</person-group><article-title>D&#x000e9;ficit en&#x000a0;facteur XI</article-title><source>H&#x000e9;matologie</source><year>2010</year><volume>16</volume><issue>4</issue><fpage>284</fpage><lpage>292</lpage><issn pub-type="epub">1264-7527, 1950-6368</issn><pub-id pub-id-type="doi">10.1684/hma.2010.0478</pub-id><publisher-name>John Libbey Eurotext</publisher-name><uri xlink:href="https://dx.doi.org/10.1684/hma.2010.0478">https://dx.doi.org/10.1684/hma.2010.0478</uri></element-citation></ref><ref id="R139585324786581"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>O&#x02019;connell</surname><given-names>N</given-names></name>
+</person-group><article-title>Factor XI deficiency</article-title><source>Seminars in Hematology</source><year>2004</year><volume>41</volume><fpage>76</fpage><lpage>81</lpage><issn pub-type="epub">0037-1963</issn><publisher-name>Elsevier BV</publisher-name><pub-id pub-id-type="pmid">14872426</pub-id></element-citation></ref><ref id="R139585324786580"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Bolton-Maggs</surname><given-names>P. H. B.</given-names></name>
+<name><surname>Peretz</surname><given-names>H.</given-names></name>
+<name><surname>Butler</surname><given-names>R.</given-names></name>
+<name><surname>Mountford</surname><given-names>R.</given-names></name>
+<name><surname>Keeney</surname><given-names>S.</given-names></name>
+<name><surname>Zacharski</surname><given-names>L.</given-names></name>
+<name><surname>Zivelin</surname><given-names>A.</given-names></name>
+<name><surname>Seligsohn</surname><given-names>U.</given-names></name>
+</person-group><article-title>A common ancestral mutation (C128X) occurring in 11 non-Jewish families from the UK with factor XI deficiency</article-title><source>Journal of Thrombosis and Haemostasis</source><year>2004</year><volume>2</volume><issue>6</issue><fpage>918</fpage><lpage>924</lpage><issn pub-type="epub">1538-7933, 1538-7836</issn><pub-id pub-id-type="doi">10.1111/j.1538-7836.2004.00723.x</pub-id><publisher-name>Wiley</publisher-name><uri xlink:href="https://dx.doi.org/10.1111/j.1538-7836.2004.00723.x">https://dx.doi.org/10.1111/j.1538-7836.2004.00723.x</uri><pub-id pub-id-type="pmid">15140127</pub-id></element-citation></ref><ref id="R139585324786564"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Santoro</surname><given-names>Rita</given-names></name>
+<name><surname>Prejan&#x000f2;</surname><given-names>Simona</given-names></name>
+<name><surname>Iannaccaro</surname><given-names>Piergiorgio</given-names></name>
+</person-group><article-title>Factor XI deficiency</article-title><source>Blood Coagulation &#x00026;amp; Fibrinolysis</source><year>2011</year><volume>22</volume><fpage>431</fpage><lpage>435</lpage><issn pub-type="epub">0957-5235</issn><publisher-name>Ovid Technologies (Wolters Kluwer Health)</publisher-name><pub-id pub-id-type="doi">10.1097/mbc.0b013e32834689e4</pub-id><uri xlink:href="https://dx.doi.org/10.1097/mbc.0b013e32834689e4">https://dx.doi.org/10.1097/mbc.0b013e32834689e4</uri><pub-id pub-id-type="pmid">21577094</pub-id></element-citation></ref><ref id="R139585324786588"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Bauduer</surname></name>
+<name><surname>Dupreuilh</surname></name>
+<name><surname>Ducout</surname></name>
+<name><surname>Marti</surname></name>
+</person-group><article-title>Factor XI deficiency in the French Basque Country</article-title><source>Haemophilia</source><year>1999</year><volume>5</volume><issue>3</issue><fpage>187</fpage><lpage>190</lpage><issn pub-type="epub">1351-8216</issn><pub-id pub-id-type="doi">10.1046/j.1365-2516.1999.00316.x</pub-id><publisher-name>Wiley</publisher-name><uri xlink:href="https://dx.doi.org/10.1046/j.1365-2516.1999.00316.x">https://dx.doi.org/10.1046/j.1365-2516.1999.00316.x</uri><pub-id pub-id-type="pmid">10444286</pub-id></element-citation></ref><ref id="R139585324786584"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Tiscia</surname><given-names>Giovanni L</given-names></name>
+<name><surname>Favuzzi</surname><given-names>Giovanni</given-names></name>
+<name><surname>Lupone</surname><given-names>Maria R</given-names></name>
+<name><surname>Cappucci</surname><given-names>Filomena</given-names></name>
+<name><surname>Schiavulli</surname><given-names>Michele</given-names></name>
+<name><surname>Mirabelli</surname><given-names>Valentina</given-names></name>
+<name><surname>D&#x02019;Andrea</surname><given-names>Giovanna</given-names></name>
+<name><surname>Chinni</surname><given-names>Elena</given-names></name>
+<name><surname>Giuliani</surname><given-names>Nicola</given-names></name>
+<name><surname>Caliandro</surname><given-names>Rocco</given-names></name>
+<name><surname>Grandone</surname><given-names>Elvira</given-names></name>
+</person-group><article-title>Factor XI gene variants in factor XI-deficient patients of Southern Italy: identification of a novel mutation and genotype&#x02013;phenotype relationship</article-title><source>Human Genome Variation</source><year>2017</year><volume>4</volume><issue>1</issue><fpage>17043</fpage><lpage>17043</lpage><issn pub-type="epub">2054-345X</issn><pub-id pub-id-type="doi">10.1038/hgv.2017.43</pub-id><publisher-name>Springer Science and Business Media LLC</publisher-name><uri xlink:href="https://dx.doi.org/10.1038/hgv.2017.43">https://dx.doi.org/10.1038/hgv.2017.43</uri><pub-id pub-id-type="pmid">29138690</pub-id></element-citation></ref><ref id="R139585324786568"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Bolton-Maggs</surname><given-names>P H B</given-names></name>
+<name><surname>Patterson</surname><given-names>D A</given-names></name>
+<name><surname>Wensley</surname><given-names>R T</given-names></name>
+<name><surname>Tuddenham</surname><given-names>E G D</given-names></name>
+</person-group><article-title>Definition of the Bleeding Tendency in Factor XI-Deficient Kindreds&#x02013;A Clinical and Laboratory Study</article-title><source>Thrombosis and Haemostasis</source><year>1995</year><volume>73</volume><issue>02</issue><fpage>194</fpage><lpage>202</lpage><issn pub-type="epub">0340-6245, 2567-689X</issn><pub-id pub-id-type="doi">10.1055/s-0038-1653750</pub-id><publisher-name>Georg Thieme Verlag KG</publisher-name><uri xlink:href="https://dx.doi.org/10.1055/s-0038-1653750">https://dx.doi.org/10.1055/s-0038-1653750</uri><pub-id pub-id-type="pmid">7792729</pub-id></element-citation></ref><ref id="R139585324786562"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Duga</surname><given-names>Stefano</given-names></name>
+<name><surname>Salomon</surname><given-names>Ophira</given-names></name>
+</person-group><article-title>Factor XI Deficiency</article-title><source>Seminars in Thrombosis and Hemostasis</source><year>2009</year><volume>35</volume><fpage>416</fpage><lpage>425</lpage><issn pub-type="epub">0094-6176, 1098-9064</issn><publisher-name>Georg Thieme Verlag KG</publisher-name><pub-id pub-id-type="doi">10.1055/s-0029-1225764</pub-id><uri xlink:href="https://dx.doi.org/10.1055/s-0029-1225764">https://dx.doi.org/10.1055/s-0029-1225764</uri><pub-id pub-id-type="pmid">19598070</pub-id></element-citation></ref><ref id="R139585324786585"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Santoro</surname><given-names>C.</given-names></name>
+<name><surname>Di Mauro</surname><given-names>R.</given-names></name>
+<name><surname>Baldacci</surname><given-names>E.</given-names></name>
+<name><surname>De Angelis</surname><given-names>F.</given-names></name>
+<name><surname>Abbruzzese</surname><given-names>R.</given-names></name>
+<name><surname>Barone</surname><given-names>F.</given-names></name>
+<name><surname>Bochicchio</surname><given-names>R. A.</given-names></name>
+<name><surname>Ferrara</surname><given-names>G.</given-names></name>
+<name><surname>Guarini</surname><given-names>A.</given-names></name>
+<name><surname>Fo&#x000e0;</surname><given-names>R.</given-names></name>
+<name><surname>Mazzucconi</surname><given-names>M. G.</given-names></name>
+</person-group><article-title>Bleeding phenotype and correlation with factor XI (FXI) activity in congenital FXI deficiency: results of a retrospective study from a single centre</article-title><source>Haemophilia</source><year>2015</year><volume>21</volume><issue>4</issue><fpage>496</fpage><lpage>501</lpage><issn pub-type="epub">1351-8216</issn><pub-id pub-id-type="doi">10.1111/hae.12628</pub-id><publisher-name>Wiley</publisher-name><uri xlink:href="https://dx.doi.org/10.1111/hae.12628">https://dx.doi.org/10.1111/hae.12628</uri><pub-id pub-id-type="pmid">25623511</pub-id></element-citation></ref><ref id="R139585324786572"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Castaman</surname><given-names>G.</given-names></name>
+<name><surname>Giacomelli</surname><given-names>S. H.</given-names></name>
+<name><surname>Caccia</surname><given-names>S.</given-names></name>
+<name><surname>Riccardi</surname><given-names>F.</given-names></name>
+<name><surname>Rossetti</surname><given-names>G.</given-names></name>
+<name><surname>Dragani</surname><given-names>A.</given-names></name>
+<name><surname>Giuffrida</surname><given-names>A. C.</given-names></name>
+<name><surname>Biasoli</surname><given-names>C.</given-names></name>
+<name><surname>Duga</surname><given-names>S.</given-names></name>
+</person-group><article-title>The spectrum of factor XI deficiency in Italy</article-title><source>Haemophilia</source><year>2014</year><volume>20</volume><fpage>106</fpage><lpage>113</lpage><issn pub-type="epub">1351-8216</issn><publisher-name>Wiley</publisher-name><pub-id pub-id-type="doi">10.1111/hae.12257</pub-id><uri xlink:href="https://dx.doi.org/10.1111/hae.12257">https://dx.doi.org/10.1111/hae.12257</uri></element-citation></ref><ref id="R139585324786566"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Kadir</surname><given-names>R.A.</given-names></name>
+<name><surname>Economides</surname><given-names>D.L.</given-names></name>
+<name><surname>Lee</surname><given-names>C.A.</given-names></name>
+</person-group><article-title>Factor XI deficiency in women</article-title><source>American Journal of Hematology</source><year>1999</year><volume>60</volume><issue>1</issue><fpage>48</fpage><lpage>54</lpage><issn pub-type="epub">0361-8609, 1096-8652</issn><pub-id pub-id-type="doi">10.1002/(sici)1096-8652(199901)60:1&#x0003c;48::aid-ajh8&#x0003e;3.0.co;2-q</pub-id><publisher-name>Wiley</publisher-name><uri xlink:href="https://dx.doi.org/10.1002/(sici)1096-8652(199901)60:1&#x0003c;48::aid-ajh8&#x0003e;3.0.co;2-q">https://dx.doi.org/10.1002/(sici)1096-8652(199901)60:1&#x0003c;48::aid-ajh8&#x0003e;3.0.co;2-q</uri><pub-id pub-id-type="pmid">9883805</pub-id></element-citation></ref><ref id="R139585324786576"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>SALOMON</surname><given-names>O.</given-names></name>
+<name><surname>STEINBERG</surname><given-names>D. M.</given-names></name>
+<name><surname>SELIGSHON</surname><given-names>U.</given-names></name>
+</person-group><article-title>Variable bleeding manifestations characterize different types of surgery in patients with severe factor XI deficiency enabling parsimonious use of replacement therapy</article-title><source>Haemophilia</source><year>2006</year><volume>12</volume><issue>5</issue><fpage>490</fpage><lpage>493</lpage><issn pub-type="epub">1351-8216, 1365-2516</issn><pub-id pub-id-type="doi">10.1111/j.1365-2516.2006.01304.x</pub-id><publisher-name>Wiley</publisher-name><uri xlink:href="https://dx.doi.org/10.1111/j.1365-2516.2006.01304.x">https://dx.doi.org/10.1111/j.1365-2516.2006.01304.x</uri><pub-id pub-id-type="pmid">16919078</pub-id></element-citation></ref><ref id="R139585324786563"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Salomon</surname><given-names>Ophira</given-names></name>
+<name><surname>Steinberg</surname><given-names>David M</given-names></name>
+<name><surname>Tamarin</surname><given-names>Ilia</given-names></name>
+<name><surname>Zivelin</surname><given-names>Ariella</given-names></name>
+<name><surname>Seligsohn</surname><given-names>Uri</given-names></name>
+</person-group><article-title>Plasma replacement therapy during labor is not mandatory for women with severe factor XI deficiency</article-title><source>Blood Coagulation &#x00026;amp; Fibrinolysis</source><year>2005</year><volume>16</volume><fpage>37</fpage><lpage>41</lpage><issn pub-type="epub">0957-5235</issn><publisher-name>Ovid Technologies (Wolters Kluwer Health)</publisher-name><pub-id pub-id-type="doi">10.1097/00001721-200501000-00006</pub-id><uri xlink:href="https://dx.doi.org/10.1097/00001721-200501000-00006">https://dx.doi.org/10.1097/00001721-200501000-00006</uri><pub-id pub-id-type="pmid">15650544</pub-id></element-citation></ref><ref id="R139585324786583"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Puetz</surname><given-names>John</given-names></name>
+<name><surname>Hugge</surname><given-names>Christopher</given-names></name>
+<name><surname>Moser</surname><given-names>Karen</given-names></name>
+</person-group><article-title>Normal aPTT in children with mild factor XI deficiency</article-title><source>Pediatric Blood &#x00026;amp; Cancer</source><year>2018</year><volume>65</volume><fpage>e26910</fpage><lpage>e26910</lpage><issn pub-type="epub">1545-5009</issn><publisher-name>Wiley</publisher-name><pub-id pub-id-type="doi">10.1002/pbc.26910</pub-id><uri xlink:href="https://dx.doi.org/10.1002/pbc.26910">https://dx.doi.org/10.1002/pbc.26910</uri></element-citation></ref><ref id="R139585324786565"><element-citation publication-type="misc"><person-group person-group-type="author">
+<name><surname>Eloit</surname><given-names>Y</given-names></name>
+<name><surname>Smahi</surname><given-names>M</given-names></name>
+<name><surname>Fischer</surname><given-names>F</given-names></name>
+<name><surname>Appert-Flory</surname><given-names>A</given-names></name>
+<name><surname>Jambou</surname><given-names>D</given-names></name>
+<name><surname>Toulon</surname><given-names>P</given-names></name>
+</person-group><source>Sensibilit&#x000e9; invitro de diff&#x000e9;rents r&#x000e9;actifs de TCA et de TP aux d&#x000e9;ficits isol&#x000e9;s en facteurs de la coagulation</source><uri xlink:href="http://www.cbiop.fr/medias/00/med36/26._poster_geht_2013_sensibilites_aux_facteurs_geht_2013.pdf">http://www.cbiop.fr/medias/00/med36/26._poster_geht_2013_sensibilites_aux_facteurs_geht_2013.pdf</uri></element-citation></ref><ref id="R139585324786575"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Fritsma</surname><given-names>George A.</given-names></name>
+<name><surname>Dembitzer</surname><given-names>Francine R.</given-names></name>
+<name><surname>Randhawa</surname><given-names>Ankush</given-names></name>
+<name><surname>Marques</surname><given-names>Marisa B.</given-names></name>
+<name><surname>Van Cott</surname><given-names>Elizabeth M.</given-names></name>
+<name><surname>Adcock-Funk</surname><given-names>Dorothy</given-names></name>
+<name><surname>Peerschke</surname><given-names>Ellinor I.</given-names></name>
+</person-group><article-title>Recommendations for Appropriate Activated Partial Thromboplastin Time Reagent Selection and Utilization</article-title><source>American Journal of Clinical Pathology</source><year>2012</year><volume>137</volume><issue>6</issue><fpage>904</fpage><lpage>908</lpage><issn pub-type="epub">0002-9173, 1943-7722</issn><pub-id pub-id-type="doi">10.1309/ajcp3j1zkybfqxjm</pub-id><publisher-name>Oxford University Press (OUP)</publisher-name><uri xlink:href="https://dx.doi.org/10.1309/ajcp3j1zkybfqxjm">https://dx.doi.org/10.1309/ajcp3j1zkybfqxjm</uri><pub-id pub-id-type="pmid">22586049</pub-id></element-citation></ref><ref id="R139585324786586"><element-citation publication-type="misc"><person-group person-group-type="author">
+<name><surname>H47-A2</surname><given-names>(</given-names></name>
+<name><surname>Clsi</surname></name>
+</person-group><source>One-stage prothrombin (PT) test and activated partial : Clinical and Laboratory Standards Institute</source><year>200828</year></element-citation></ref><ref id="R139585324786577"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>SELIGSOHN</surname><given-names>U.</given-names></name>
+</person-group><article-title>Factor XI deficiency in humans</article-title><source>Journal of Thrombosis and Haemostasis</source><year>2009</year><volume>7</volume><fpage>84</fpage><lpage>87</lpage><issn pub-type="epub">1538-7933, 1538-7836</issn><pub-id pub-id-type="doi">10.1111/j.1538-7836.2009.03395.x</pub-id><publisher-name>Wiley</publisher-name><uri xlink:href="https://dx.doi.org/10.1111/j.1538-7836.2009.03395.x">https://dx.doi.org/10.1111/j.1538-7836.2009.03395.x</uri><pub-id pub-id-type="pmid">19630775</pub-id></element-citation></ref><ref id="R139585324786582"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Salomon</surname><given-names>Ophira</given-names></name>
+<name><surname>Steinberg</surname><given-names>David</given-names></name>
+<name><surname>Zucker</surname><given-names>Michal</given-names></name>
+<name><surname>Varon</surname><given-names>David</given-names></name>
+<name><surname>Zivelin</surname><given-names>Ariella</given-names></name>
+<name><surname>Seligsohn</surname><given-names>Uri</given-names></name>
+</person-group><article-title>Patients with severe factor XI deficiency have a reduced incidence of deep-vein thrombosis</article-title><source>Thrombosis and Haemostasis</source><year>2011</year><volume>105</volume><issue>02</issue><fpage>269</fpage><lpage>273</lpage><issn pub-type="epub">0340-6245, 2567-689X</issn><pub-id pub-id-type="doi">10.1160/th10-05-0307</pub-id><publisher-name>Georg Thieme Verlag KG</publisher-name><uri xlink:href="https://dx.doi.org/10.1160/th10-05-0307">https://dx.doi.org/10.1160/th10-05-0307</uri><pub-id pub-id-type="pmid">21057700</pub-id></element-citation></ref><ref id="R139585324786569"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Asakai</surname><given-names>Rei</given-names></name>
+<name><surname>Davie</surname><given-names>Earl W.</given-names></name>
+<name><surname>Chung</surname><given-names>Dominic W.</given-names></name>
+</person-group><article-title>Organization of the gene for human factor XI</article-title><source>Biochemistry</source><year>1987</year><volume>26</volume><issue>23</issue><fpage>7221</fpage><lpage>7228</lpage><issn pub-type="epub">0006-2960, 1520-4995</issn><pub-id pub-id-type="doi">10.1021/bi00397a004</pub-id><publisher-name>American Chemical Society (ACS)</publisher-name><uri xlink:href="https://dx.doi.org/10.1021/bi00397a004">https://dx.doi.org/10.1021/bi00397a004</uri><pub-id pub-id-type="pmid">2827746</pub-id></element-citation></ref><ref id="R139585324786571"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>James</surname><given-names>P.</given-names></name>
+<name><surname>Salomon</surname><given-names>O.</given-names></name>
+<name><surname>Mikovic</surname><given-names>D.</given-names></name>
+<name><surname>Peyvandi</surname><given-names>F.</given-names></name>
+</person-group><article-title>Rare bleeding disorders - bleeding assessment tools, laboratory aspects and phenotype and therapy of FXI deficiency</article-title><source>Haemophilia</source><year>2014</year><volume>20</volume><fpage>71</fpage><lpage>75</lpage><issn pub-type="epub">1351-8216</issn><pub-id pub-id-type="doi">10.1111/hae.12402</pub-id><publisher-name>Wiley</publisher-name><uri xlink:href="https://dx.doi.org/10.1111/hae.12402">https://dx.doi.org/10.1111/hae.12402</uri><pub-id pub-id-type="pmid">24762279</pub-id></element-citation></ref><ref id="R139585324786567"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mumford</surname><given-names>A D</given-names></name>
+<name><surname>Ackroyd</surname><given-names>S</given-names></name>
+<name><surname>Alikhan</surname><given-names>R</given-names></name>
+<name><surname>Bowles</surname><given-names>L</given-names></name>
+<name><surname>Chowdary</surname><given-names>P</given-names></name>
+<name><surname>Grainger</surname><given-names>J</given-names></name>
+</person-group><article-title>Guideline for the diagnosis and management of the rare coagulation disorders: A United KingdomHaemophilia Centre Doctors; Organization guideline on behalf of the British Committeefor Standards in Haematology</article-title><source>British journal of haematology</source><year>2014</year><volume>167</volume><issue>3</issue><fpage>304</fpage><lpage>330</lpage><pub-id pub-id-type="pmid">25100430</pub-id></element-citation></ref><ref id="R139585324786574"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Saunders</surname><given-names>Rebecca E.</given-names></name>
+<name><surname>O'Connell</surname><given-names>Niamh M.</given-names></name>
+<name><surname>Lee</surname><given-names>Christine A.</given-names></name>
+<name><surname>Perry</surname><given-names>David J.</given-names></name>
+<name><surname>Perkins</surname><given-names>Stephen J.</given-names></name>
+</person-group><article-title>Factor XI deficiency database: an interactive web database of mutations, phenotypes, and structural analysis tools</article-title><source>Human Mutation</source><year>2005</year><volume>26</volume><issue>3</issue><fpage>192</fpage><lpage>198</lpage><issn pub-type="epub">1059-7794, 1098-1004</issn><pub-id pub-id-type="doi">10.1002/humu.20214</pub-id><publisher-name>Wiley</publisher-name><uri xlink:href="https://dx.doi.org/10.1002/humu.20214">https://dx.doi.org/10.1002/humu.20214</uri><pub-id pub-id-type="pmid">16086308</pub-id></element-citation></ref><ref id="R139585324786573"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Livnat</surname><given-names>Tami</given-names></name>
+<name><surname>Tamarin</surname><given-names>Ilia</given-names></name>
+<name><surname>Mor</surname><given-names>Yoram</given-names></name>
+<name><surname>Winckler</surname><given-names>Harry</given-names></name>
+<name><surname>Horowitz</surname><given-names>Zeev</given-names></name>
+<name><surname>Korianski</surname><given-names>Yoseph</given-names></name>
+<name><surname>Bar-Zakay</surname><given-names>Barak</given-names></name>
+<name><surname>Salomon</surname><given-names>Ophira</given-names></name>
+<name><surname>Seligsohn</surname><given-names>Uri</given-names></name>
+</person-group><article-title>Recombinant activated factor VII and tranexamic acid are haemostatically effective during major surgery in factor XI-deficient patients with inhibitor antibodies</article-title><source>Thrombosis and Haemostasis</source><year>2009</year><volume>102</volume><issue>09</issue><fpage>487</fpage><lpage>492</lpage><issn pub-type="epub">0340-6245, 2567-689X</issn><pub-id pub-id-type="doi">10.1160/th09-03-0172</pub-id><publisher-name>Georg Thieme Verlag KG</publisher-name><uri xlink:href="https://dx.doi.org/10.1160/th09-03-0172">https://dx.doi.org/10.1160/th09-03-0172</uri><pub-id pub-id-type="pmid">19718468</pub-id></element-citation></ref><ref id="R139585324786578"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Bolton-Maggs</surname><given-names>P. H. B.</given-names></name>
+<name><surname>Perry</surname><given-names>D. J.</given-names></name>
+<name><surname>Chalmers</surname><given-names>E. A.</given-names></name>
+<name><surname>Parapia</surname><given-names>L. A.</given-names></name>
+<name><surname>Wilde</surname><given-names>J. T.</given-names></name>
+<name><surname>Williams</surname><given-names>M. D.</given-names></name>
+<name><surname>Collins</surname><given-names>P. W.</given-names></name>
+<name><surname>Kitchen</surname><given-names>S.</given-names></name>
+<name><surname>Dolan</surname><given-names>G.</given-names></name>
+<name><surname>Mumford</surname><given-names>A. D.</given-names></name>
+</person-group><article-title>The rare coagulation disorders - review with guidelines for management from the United Kingdom Haemophilia Centre Doctors' Organisation</article-title><source>Haemophilia</source><year>2004</year><volume>10</volume><issue>5</issue><fpage>593</fpage><lpage>628</lpage><issn pub-type="epub">1351-8216, 1365-2516</issn><pub-id pub-id-type="doi">10.1111/j.1365-2516.2004.00944.x</pub-id><publisher-name>Wiley</publisher-name><uri xlink:href="https://dx.doi.org/10.1111/j.1365-2516.2004.00944.x">https://dx.doi.org/10.1111/j.1365-2516.2004.00944.x</uri><pub-id pub-id-type="pmid">15357789</pub-id></element-citation></ref></ref-list></back></article>

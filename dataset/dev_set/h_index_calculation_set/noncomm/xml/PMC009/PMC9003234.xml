@@ -1,0 +1,475 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.3" xml:lang="EN" article-type="rapid-communication"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Infect Dis</journal-id><journal-id journal-id-type="iso-abbrev">ACS Infect Dis</journal-id><journal-id journal-id-type="publisher-id">id</journal-id><journal-id journal-id-type="coden">aidcbc</journal-id><journal-title-group><journal-title>ACS Infectious Diseases</journal-title></journal-title-group><issn pub-type="epub">2373-8227</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">35312290</article-id><article-id pub-id-type="pmc">PMC9003234</article-id><article-id pub-id-type="doi">10.1021/acsinfecdis.1c00640</article-id><article-categories><subj-group><subject>Letter</subject></subj-group></article-categories><title-group><article-title>Pre-erythrocytic Activity of M5717 in Monotherapy
+and Combination in Preclinical <italic>Plasmodium</italic> Infection
+Models</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Fontinha</surname><given-names>Diana</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="notes2" ref-type="notes">&#x000b6;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Arez</surname><given-names>Francisca</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff3" ref-type="aff">&#x000a7;</xref><xref rid="notes2" ref-type="notes">&#x000b6;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Gal</surname><given-names>Isabella Ramella</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Nogueira</surname><given-names>Gon&#x000e7;alo</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Moita</surname><given-names>Diana</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>Baeurle</surname><given-names>Tobias Hyun Ho</given-names></name><xref rid="aff4" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" id="ath7"><name><surname>Brito</surname><given-names>Catarina</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath8"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-5654-8919</contrib-id><name><surname>Spangenberg</surname><given-names>Thomas</given-names></name><xref rid="cor3" ref-type="other">*</xref><xref rid="aff5" ref-type="aff">&#x022a5;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath9"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-1445-3556</contrib-id><name><surname>Alves</surname><given-names>Paula M.</given-names></name><xref rid="cor2" ref-type="other">*</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath10"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-1746-6029</contrib-id><name><surname>Prud&#x000ea;ncio</surname><given-names>Miguel</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><aff id="aff1"><label>&#x02020;</label>Instituto
+de Medicina Molecular Jo&#x000e3;o Lobo Antunes, Faculdade de Medicina, <institution>Universidade de Lisboa</institution>, 1649-028 Lisboa, <country>Portugal</country></aff><aff id="aff2"><label>&#x02021;</label><institution>iBET,
+Instituto de Biologia Experimental e Tecnol&#x000f3;gica</institution>, Apartado 12, 2780-901 Oeiras, <country>Portugal</country></aff><aff id="aff3"><label>&#x000a7;</label>Instituto
+de Tecnologia Qu&#x000ed;mica e Biol&#x000f3;gica Ant&#x000f3;nio Xavier, <institution>Universidade Nova de Lisboa</institution>, Av. da Rep&#x000fa;blica, 2780-157 Oeiras, <country>Portugal</country></aff><aff id="aff4"><label>&#x02225;</label><institution>Site
+Management &#x02212; Analytics, the healthcare business of Merck KGaA</institution>, 64293 Darmstadt, <country>Germany</country></aff><aff id="aff5"><label>&#x022a5;</label><institution>Global
+Health Institute of Merck, Ares Trading S.A. (a subsidiary of Merck
+KGaA Darmstadt Germany)</institution>, 1262 Eysins, <country>Switzerland</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Email: <email>mprudencio@medicina.ulisboa.pt</email>.</corresp><corresp id="cor2"><label>*</label>Email: <email>marques@ibet.pt</email>.</corresp><corresp id="cor3"><label>*</label>Email: <email>thomas.spangenberg@merckgroup.com</email>.</corresp></author-notes><pub-date pub-type="epub"><day>21</day><month>03</month><year>2022</year></pub-date><pub-date pub-type="ppub"><day>08</day><month>04</month><year>2022</year></pub-date><volume>8</volume><issue>4</issue><fpage>721</fpage><lpage>727</lpage><history><date date-type="received"><day>07</day><month>12</month><year>2021</year></date></history><permissions><copyright-statement>&#x000a9; 2022 The Authors. Published by American Chemical Society</copyright-statement><copyright-year>2022</copyright-year><copyright-holder>The Authors</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>Permits non-commercial access and re-use, provided that author attribution and integrity are maintained; but does not permit creation of adaptations or other derivative works (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">https://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>).</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00640_0003" id="ab-tgr1"/></p><p>Combination therapies
+have emerged to mitigate <italic>Plasmodium</italic> drug resistance,
+which has hampered the fight against malaria. M5717
+is a potent multistage antiplasmodial drug under clinical development,
+which inhibits parasite protein synthesis. The combination of M5717
+with pyronaridine, an inhibitor of hemozoin formation, displays potent
+activity against blood stage <italic>Plasmodium</italic> infection.
+However, the impact of this therapy on liver infection by <italic>Plasmodium</italic> remains unknown. Here, we employed a recently
+described 3D culture-based hepatic infection platform to evaluate
+the activity of the M5717-pyronaridine combination against hepatic
+infection by <italic>P. berghei</italic>. This effect was further
+confirmed <italic>in vivo</italic> by employing the C57BL/6J rodent <italic>Plasmodium</italic> infection model. Collectively, our data demonstrate
+that pyronaridine potentiates the activity of M5717 against <italic>P. berghei</italic> hepatic development. These preclinical results
+contribute to the validation of pyronaridine as a suitable partner
+drug for M5717, supporting the clinical evaluation of this novel antiplasmodial
+combination therapy.</p></abstract><kwd-group><kwd>pyronaridine</kwd><kwd>M5717</kwd><kwd>combination therapy</kwd><kwd>liver stage infection</kwd><kwd>malaria</kwd><kwd>drug discovery</kwd></kwd-group><funding-group><award-group><funding-source><institution-wrap><institution>Merck KGaA</institution><institution-id institution-id-type="doi">10.13039/100009945</institution-id></institution-wrap></funding-source><award-id>10.13039/100009945</award-id></award-group></funding-group><funding-group><award-group><funding-source><institution-wrap><institution>Funda&#x000c3;&#x000a7;&#x000c3;&#x000a3;o para a Ci&#x000c3;&#x000aa;ncia e a Tecnologia</institution><institution-id institution-id-type="doi">10.13039/501100001871</institution-id></institution-wrap></funding-source><award-id>PD/BD/128371/2017</award-id></award-group></funding-group><funding-group><award-group><funding-source><institution-wrap><institution>Funda&#x000c3;&#x000a7;&#x000c3;&#x000a3;o para a Ci&#x000c3;&#x000aa;ncia e a Tecnologia</institution><institution-id institution-id-type="doi">10.13039/501100001871</institution-id></institution-wrap></funding-source><award-id>CRCNA/BRB/0281/2019</award-id></award-group></funding-group><funding-group><award-group><funding-source><institution-wrap><institution>Funda&#x000c3;&#x000a7;&#x000c3;&#x000a3;o para a Ci&#x000c3;&#x000aa;ncia e a Tecnologia</institution><institution-id institution-id-type="doi">10.13039/501100001871</institution-id></institution-wrap></funding-source><award-id>CEECIND/03539/2017</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>id1c00640</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>id1c00640</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><p id="sec1">In 2020 alone,
+malaria was responsible
+for more than 600&#x0202f;000 deaths worldwide, resulting from over
+200 million infections by <italic>Plasmodium</italic> parasites, the
+causative agents of disease. The burden of malaria is mostly felt
+in the African region and primarily affects children under the age
+of 5.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup></p><p><italic>Plasmodium</italic> parasites, of which <italic>P. falciparum</italic> is the deadliest
+to humans, cycle between a mammalian host and an
+insect vector. An obligatory and clinically silent pre-erythrocytic
+stage of <italic>Plasmodium</italic> infection takes place in the
+host&#x02019;s liver cells,<sup><xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref3">3</xref></sup> where the parasite develops
+within a parasitophorous vacuole, giving rise to thousands of red
+blood cell-infectious merozoites,<sup><xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref3">3</xref></sup> leading to
+the erythrocytic stage of infection. The latter is responsible for
+the clinical manifestations of malaria<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> and for the transmission to the mosquito vector upon ingestion of
+gametocytes during a blood meal.<sup><xref ref-type="bibr" rid="ref5">5</xref></sup></p><p>Most pharmacological approaches against malaria focus on the clinically
+relevant erythrocytic stage of infection. However, the obligatorily
+nature of the pre-erythrocytic stage of the parasite&#x02019;s life
+cycle provides an appealing opportunity for prophylaxis.<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> Only few drugs target the hepatic stage of infection,
+a scarcity that can be explained by the constraints in experimental
+access to sporozoites and the lack of drug screening models that faithfully
+recapitulate the liver microenvironment. We have recently established
+a 3D infection platform, employing spheroids of human hepatic cell
+lines that maintain a stable hepatic phenotype over the course of
+4 weeks and enable the evaluation of drugs against hepatic infection
+by the rodent <italic>P. berghei</italic> parasite, in either static
+or dynamic culture conditions.<sup><xref ref-type="bibr" rid="ref6">6</xref></sup></p><p>M5717,
+or DDD107498, a drug candidate under clinical development,
+was shown to inhibit protein synthesis by targeting <italic>P. falciparum</italic>&#x02019;s translation elongation factor 2 (eEF2).<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> In preclinical studies, M5717 displayed nanomolar-ranged
+activity across the life cycle of <italic>Plasmodium</italic> parasites,
+including blocking of transmission. The pre-erythrocytic activity
+of M5717 against <italic>P. yoelii</italic> and <italic>P. berghei</italic> infection was also demonstrated <italic>in vitro</italic>.<sup><xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref7">7</xref></sup> Employing our <italic>in vitro</italic> platform, we estimated a
+10 nM minimum inhibitory concentration of M5717, when administered
+during the hepatic development of <italic>Plasmodium</italic>.<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> This observation correlated with the plasma concentration
+that cleared liver-stage <italic>P. berghei</italic> infection <italic>in vivo</italic> when M5717 was administered as a radical cure<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> or as a prophylactic treatment, prior to infection.<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> M5717&#x02019;s novel mechanism of action, potent
+multistage antiplasmodial activity, and long plasma half-life make
+it a promising candidate for the treatment and prevention of malaria.<sup><xref ref-type="bibr" rid="ref8">8</xref></sup> Since generation of resistance to M5717 was identified
+in preclinical studies,<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> suitable partner
+drugs have been sought. Pyronaridine (Pyro), a hemozoin formation
+inhibitor,<sup><xref ref-type="bibr" rid="ref9">9</xref>&#x02212;<xref ref-type="bibr" rid="ref11">11</xref></sup> was identified as a suitable combination partner
+for M5717 in a mouse model of human malaria.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> No detrimental pharmacodynamic interactions were observed between
+the two drugs, and M5717 did not impact the killing rate of Pyro.
+Moreover, the latter cleared M5717-related resistance and delayed
+parasite recrudescence.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> The effectiveness
+of the combination of M5717 and Pyro against pre-erythrocytic stage
+parasites remains unknown.</p><p>In this work, we assessed the impact
+of M5717 combination with
+Pyro on the pre-erythrocytic stage of the malaria parasite&#x02019;s
+life cycle, employing preclinical models of <italic>P. berghei</italic> infection. We show that Pyro is not detrimental to the pre-erythrocytic
+activity of M5717, rather potentiating its activity against <italic>P. berghei</italic> hepatic infection <italic>in vitro</italic> and <italic>in vivo</italic>. Altogether, our results support the selection of
+Pyro as a suitable partner drug for M5717.</p><sec id="sec2"><title>Pre-erythrocytic Activity
+of the M5717-Pyro Combination</title><p>As a hemozoin inhibitor, pyronaridine
+is not expected to possess
+liver-stage antiplasmodial activity. However, drug&#x02013;drug interactions
+are an important aspect in the development of new combination therapies.
+Therefore, the effect of the M5717-Pyro combination against the pre-erythrocytic
+stage of <italic>Plasmodium</italic> infection was compared to that
+of M5717 in monotherapy, employing luciferase-expressing <italic>P.
+berghei</italic> (<italic>Pb</italic>-Luc) parasites.</p><p><italic>In vitro</italic> drug activity was assessed in HepG2 spheroids,
+as previously established and validated for drug evaluation purposes
+(<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>A).<sup><xref ref-type="bibr" rid="ref6">6</xref></sup></p><fig id="fig1" position="float"><label>Figure 1</label><caption><p><italic>In vitro</italic> assessment of the pre-erythrocytic
+activity
+of M5717-Pyro combination in <italic>Pb</italic>-Luc-infected HepG2
+spheroids. (A) Schematic representation of the static infection platform
+employing HepG2 spheroids and <italic>Pb</italic>-Luc sporozoites
+(not at scale) and the drug exposure mode used for IC<sub>50</sub> determination. (B) Dose&#x02013;response curves and IC<sub>50</sub> determination of M5717 (pink) and M5717-Pyro combination (M5717
++ Pyro, blue). Cells were plated at a density of 2.5 &#x000d7; 10<sup>4</sup> cell/well and infected at a cell:spz ratio of 1:2. Infection
+rate was normalized to that of DMSO-exposed spheroids and results
+are represented as the mean &#x000b1; SD of at least three independent
+experiments. Statistical analysis was performed using an unpaired <italic>t</italic> test. ** <italic>P</italic> &#x02264; 0.01.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00640_0001" id="gr1" position="float"/></fig><p>A range of eight concentrations of M5717, employed in monotherapy
+or combined with a fixed dose of 1 &#x003bc;M of Pyro, was added to <italic>Pb</italic>-Luc-infected HepG2 spheroids at 24 h post infection (hpi)
+(<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>A). Twenty-four
+hours later, at 48 hpi, the impact of each drug concentration on the
+infection rate was assessed by bioluminescence, and the half-maximal
+inhibitory concentration (IC<sub>50</sub>) of M5717 alone or in combination
+with Pyro was determined (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>B). The IC<sub>50</sub> of M5717 (1.3 &#x000b1; 0.2 nM)
+was in agreement to what had been previously determined in this platform.<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> The addition of 1 &#x003bc;M of Pyro resulted in
+a statistically significant 3-fold reduction of the IC<sub>50</sub> of M5717 (0.4 &#x000b1; 0.1 nM). Importantly, no dose-dependent toxicity
+toward the host cell was noted, as observed by the percentage of cell
+viability, which was relatively constant across the experimental conditions
+tested (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsinfecdis.1c00640/suppl_file/id1c00640_si_001.pdf">Figure S1</ext-link>).</p><p>Next, the difference
+between the impact of the administration of
+M5717 alone or in combination with Pyro observed <italic>in vitro</italic> was confirmed <italic>in vivo</italic>, in a rodent model of <italic>P. berghei</italic> infection (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>). Mice were injected with <italic>Pb</italic>-Luc
+sporozoites, and the success of the liver infection was confirmed
+by live bioluminescence after 24 h. Drugs were then administered by
+oral gavage, and their impact on the liver load was determined by
+real time quantitative PCR (RT-qPCR) 24 h later, at 48 hpi (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>A). A dose of 0.3
+mg/kg of M5717 <italic>per</italic> mouse body weight was selected,
+as it has previously been shown to not abolish infection completely.<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> Pyro was employed at 12 mg/kg of mouse body weight,
+a dose previously assessed <italic>in vivo</italic> in combination
+with M5717, in the context of erythrocytic activity.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> Mice that received the drug vehicle alone were used as
+controls. Our results show that mice from all experimental groups
+were similarly infected prior to drug administration (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>B and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsinfecdis.1c00640/suppl_file/id1c00640_si_001.pdf">Figure S2A</ext-link>). Pharmacokinetic analysis of the blood of the treated
+mice by liquid chromatography (LC)-mass spectrometry (MS)/MS showed
+that the plasma concentrations of Pyro in monotherapy and in combination
+with M5717 remained stable throughout the duration of parasite exposure
+to the drugs (i.e., from 28 to 48 hpi; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsinfecdis.1c00640/suppl_file/id1c00640_si_001.pdf">Table S1</ext-link>). Unfortunately, we were unable to quantify M5717 at the selected
+concentration using this methodology (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsinfecdis.1c00640/suppl_file/id1c00640_si_001.pdf">Table S1</ext-link>). Nevertheless, 0.3 mg/kg M5717 drastically reduced infection at
+48 hpi to 22% of that of vehicle-treated mice, while Pyro administered
+in monotherapy had no impact on the <italic>P. berghei</italic> liver
+load (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>C). Importantly,
+the combination of Pyro with M5717 further reduced infection to 9%,
+a 2.3-fold reduction relative to that observed upon administration
+of M5717 alone (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>C). A similar decrease was observed when the same dose of Pyro was
+combined with a slightly higher dose of 0.4 mg/kg of M5717, resulting
+in a 2.2-fold reduction of infection upon administration of the combination,
+when compared with administration of M5717 alone (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsinfecdis.1c00640/suppl_file/id1c00640_si_001.pdf">Figure S2B</ext-link>).</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p><italic>In vivo</italic> assessment of the pre-erythrocytic
+activity
+of M5717-Pyro combination. (A) Schematic representation of <italic>in vivo</italic> drug administration and analysis of liver infection.
+C57BL/6J mice were infected with 3 &#x000d7; 10<sup>4</sup><italic>Pb</italic>-Luc sporozoites. At 24 h postinfection (hpi), the liver load was
+assessed by live bioluminescence and the drugs of interest were administered.
+At 48 hpi the impact of M5717 (pink) or M5717-Pyro combination (blue)
+on the liver load of the same mice was evaluated by RT-qPCR analysis.
+At 28 and 48 hpi, a blood sample was collected for LC-MS analysis.
+(B) Assessment of the liver load at 24 hpi by live bioluminescence.
+(C) Assessment of the infection rate at 48 hpi by gene expression
+analysis (RT-qPCR). Infection (B,C) was normalized to the vehicle-treated
+control group, and results are represented as mean &#x000b1; SD of three
+to seven mice from one independent experiment. Statistical analysis
+of luminescence data was performed by one-way ANOVA, whereas analysis
+of RT-qPCR data was performed using a Mann&#x02013;Whitney test. *** <italic>P</italic> &#x02264; 0.001.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00640_0002" id="gr2" position="float"/></fig><p>Collectively, the <italic>in vitro</italic> and <italic>in vivo</italic> assessment of Pyro as a possible drug partner of M5717 against the
+hepatic stage of infection by <italic>P. berghei</italic> shows not
+only that the former is not detrimental to the latter but also that
+addition of Pyro consistently potentiates M5717&#x02019;s antiplasmodial
+effect during this phase of the parasite&#x02019;s life cycle.</p><p>Between 2010 and 2018, the global incidence rate and the number
+of malaria deaths have declined. However, despite the long lasting
+struggle to end this infectious disease, this progress is coming to
+a halt.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> New antiplasmodial strategies
+are, therefore, required to accelerate the progress toward the goal
+of malaria eradication. In a context where a highly desirable effective
+vaccine against malaria remains unavailable, vector control measures
+and therapeutics persist as the cornerstone of disease control.</p><p>As for other infectious diseases, such as tuberculosis, the treatment
+of malaria resorts to combination therapies as a means of decreasing
+the risk of emergence of drug resistance.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> In the search for a suitable combination partner for a given drug,
+several aspects need to be taken into consideration, including each
+drug&#x02019;s mode of action, pharmacokinetic properties, and toxicity.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> Crucially, combinations should be assessed for
+drug&#x02013;drug interactions that may compromise the efficacy of
+either drug. M5717-resistant <italic>Plasmodium</italic> parasites
+have been identified <italic>in vitro</italic> during the preclinical
+characterization of this drug, highlighting the need to combine it
+with a suitable partner drug.<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> A second
+study identified Pyro as an appropriate candidate for combination
+with M5717, given its different target, faster action, matching half-life,
+and ability to suppress the selection of M5717-resistant mutants when
+tested against the asexual erythrocytic stage of the <italic>Plasmodium</italic> life cycle.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> Importantly, <italic>in
+vitro</italic> isobologram studies and <italic>in vivo</italic> testing
+revealed a non detrimental interaction between both drugs.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup></p><p>Besides its efficacy against asexual blood-stage <italic>Plasmodium</italic> parasites, M5717 is also active against exoerythrocytic
+parasite
+forms. Thus, it was important to ensure that its combination with
+Pyro would not hamper these relevant prophylactic and transmission-blocking
+activities. Our <italic>in vitro</italic> and <italic>in vivo</italic> observations demonstrate that the combination of M5717 with Pyro
+does not impair its pre-erythrocytic activity. Interestingly, our
+results point to a potentiation of this activity, both <italic>in
+vitro</italic> and <italic>in vivo</italic>. As an inhibitor of hemozoin
+formation, Pyro is not expected to possess liver stage activity. This
+has been formally demonstrated in an <italic>in vitro</italic> model
+of <italic>P. yoelii</italic> infection of mouse primary hepatocytes,
+where infected cells were exposed to Pyro throughout the 48 h of hepatic
+infection.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> At nanomolar-range doses (100,
+10, and 1 nM), Pyro did not display activity against the parasite&#x02019;s
+hepatic stages. At higher doses, which included the 1 &#x003bc;M dose
+employed in this study, Pyro was hepatotoxic, which did not allow
+the assessment of its impact on the infection rate.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> In our <italic>in vitro</italic> 3D model, 1 &#x003bc;M Pyro
+did not show hepatotoxicity, as confirmed by different analytical
+methods (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsinfecdis.1c00640/suppl_file/id1c00640_si_001.pdf">Figure S3</ext-link>). Rather, the viability
+of cell spheroids that were exposed to the M5717-Pyro combination
+was comparable to that of spheroids that were exposed solely to M5717.
+The absence of pre-erythrocytic activity of Pyro was further supported
+by our <italic>in vivo</italic> observations, which show that the
+administration of this drug to <italic>Pb</italic>-Luc-infected mice
+has no impact on the ongoing liver infection. Thus, the enhanced pre-erythrocytic
+activity of the combination is not justified by the addition of the
+activities of the individual drugs. This type of interaction is not
+unprecedented, as chloroquine, an antiplasmodial drug structurally
+and target related to Pyro, has been described to potentiate primaquine&#x02019;s
+activity against the pre-erythrocytic stage of infection, even though
+chloroquine has no inhibitory activity of its own.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> This effect was shown to be specific to this combination,
+as it was not observed when chloroquine was combined with atovaquone.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> Interestingly, this potentiation effect was
+only noted in primary hepatocytes but not in HepG2-A16 cells, which
+have reduced cytochrome P450 activities.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> The fact that we observed a potentiation of M5717&#x02019;s activity <italic>in vitro</italic> using the HepG2 cell line may be related to the
+enhanced physiological relevance of the 3D hepatic system employed.<sup><xref ref-type="bibr" rid="ref16">16</xref>&#x02212;<xref ref-type="bibr" rid="ref18">18</xref></sup> Similar to the enhancement of primaquine&#x02019;s activity by chloroquine,<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> the identification of the molecular mechanism
+underlying the potentiation of M5717&#x02019;s activity by Pyro described
+in this study requires further experimental work.</p><p>An assessment
+of the effect of a drug combination against the pre-erythrocytic
+stage of <italic>Plasmodium</italic> infection was first carried out
+in 2016 for Malarone.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> This combination
+of atovaquone and proguanil, employed both for the chemoprevention
+and the treatment of malaria, was already known to display a synergistic
+effect against the erythrocytic stage of infection<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> and was next demonstrated to also be synergistic against
+developing hepatic <italic>P. yoelii</italic> parasites, providing
+a pharmacological basis for its success in chemoprevention.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> Although this study highlighted the importance
+of widening the evaluation of antiplasmodial drug combinations against
+the pre-erythrocytic stage of the parasite&#x02019;s life cycle, the
+literature on this subject remains rather limited. Other drug combinations
+have since been evaluated in the pre-erythrocytic context, such as
+the combination of several antiretroviral drugs<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> or of metformin with primaquine<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> against rodent <italic>Plasmodium</italic> infection, and of ivermectin
+and chloroquine against <italic>P. cynomolgi</italic> in rhesus macaques.<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> Our study now adds to the scarce information
+available on the pre-erythrocytic activity of antiplasmodial drug
+combinations and further validates the physiologically relevant 3D <italic>in vitro</italic> hepatic platform to provide data that correlates
+with the outcome of drug evaluation <italic>in vivo</italic>.</p><p>This study identifies Pyro not only as a suitable partner drug
+for M5717 but also as an enhancer of this drug&#x02019;s activity against
+the pre-erythrocytic stage of <italic>Plasmodium</italic> infection.
+Our results demonstrate the added value of this drug combination for
+malaria chemoprevention, informing the clinical development of this
+compound and paving the way for its deployment in the field.</p></sec><sec id="sec3"><title>Methods</title><sec id="sec3.1"><title>Ethics
+Statement</title><p>Animal experiments carried out at
+Instituto de Medicina Molecular Jo&#x000e3;o Lobo Antunes (iMM JLA,
+Lisbon, Portugal) were performed in strict compliance with the guidelines
+of the institute&#x02019;s animal ethics committee (ORBEA), which also
+approved the study, and the Federation of European Laboratory Animal
+Science Associations (FELASA). Animal experiments carried out at the
+Swiss Tropical and Public Health Institute (Swiss TPH, Basel, Switzerland)
+were in agreement with local and national regulations of laboratory
+animal welfare in Switzerland (awarded permission no. 2693). Protocols
+were regularly reviewed and revised following approval by the local
+authority (Veterin&#x000e4;ramt Basel Stadt).</p></sec><sec id="sec3.2"><title>Mice, Cell Sources, and
+Parasites</title><p>Male C57BL/6J mice
+(Charles River Laboratories), 7 to 12 weeks old, were housed in specific
+pathogen-free (SPF) conditions at iMM JLA&#x02019;s rodent facility.
+Female NMRI mice (Charles River laboratories), with 20&#x02013;22 g
+of body weight were housed and manipulated in Swiss TPH&#x02019;s animal
+facility. The <italic>in vitro</italic> studies were performed by
+employing the HepG2 cell line purchased from ATCC (CRL/10741). Infection
+procedures were performed employing sporozoites recovered from infected <italic>Anopheles stephensi</italic> mosquitoes, reared and maintained in
+the insectarium facilities of iMM JLA and of Swiss TPH. Uninfected
+mosquitoes were allowed to feed on mice infected with luciferase-expressing <italic>P. berghei</italic> ANKA (Pb-Luc) parasites. Sporozoites were freshly
+isolated from mosquito salivary glands into RPMI 1640 medium (Thermo
+Fisher Scientific) or phosphate-buffered saline (PBS), macerated and
+filtered through a 40 &#x003bc;m cell strainer prior to infection experiments.</p></sec><sec id="sec3.3"><title>Two-Dimensional (2D) Cell Culture</title><p>HepG2 2D cultures
+were maintained in T-flasks in static conditions, as previously described
+(Arez et al., 2019). Briefly, HepG2 cells were cultured in low glucose
+DMEM (Thermo Fisher Scientific) supplemented with 1% (v/v) pen/strep
+and 10% (v/v) FBS. Cells were passaged twice every week at a cell
+inoculum of 5 &#x000d7; 10<sup>4</sup> cell/cm<sup>2</sup>. Cells were
+maintained in an incubator with humidified environment, at 37 &#x000b0;C
+and 5% CO<sub>2</sub>.</p></sec><sec id="sec3.4"><title>Three-Dimensional (3D) Cell Culture (Spheroids)</title><p>Hepatic
+cell spheroids were generated and maintained in dynamic suspension
+cultures under magnetic stirring (2mag AG), in an incubator with humidified
+environment at 37 &#x000b0;C and 5% CO<sub>2</sub>. HepG2 cells were
+inoculated as single cell suspensions (3 &#x000d7; 10<sup>5</sup> cell/mL)
+in 125 mL spinners (Corning, Merck KGaA, Darmstadt, Germany), in the
+culture medium employed for the 2D cell culture. HepG2 3D cultures
+started at an agitation rate of 40 rpm, and reached up to 120 rpm
+by the end of culture time. Medium replacement was performed in order
+to attain 100% medium renovation <italic>per</italic> week. Therefore,
+50% of the culture medium was replaced every 3 days. To this end,
+spheroids were sedimented by centrifugation, followed by pellet resuspension
+in the adequate proportion of pre-existent and fresh culture medium
+supplemented with 5% (v/v) FBS.</p></sec><sec id="sec3.5"><title>Determination of Cell Viability
+and Concentration</title><p>Cell
+viability of spheroid cultures was assessed as previously described
+(Arez et al. 2019). Briefly, spheroids were incubated with a cell-permeant
+dye (fluorescein diacetate, Sigma-Aldrich, Merck KGaA, Darmstadt,
+Germany) at 10 &#x003bc;g/mL and a DNA dye (TO-PRO-3 Iodide, Thermo
+Fisher Scientific) at 1 &#x003bc;M for detection of viable and dead
+cells, respectively. Visual inspection of spheroids was performed
+using an inverted fluorescence microscope (Leica DMI6000). The cell
+density of 2D and 3D cultures was determined by the Trypan blue exclusion
+method, as previously described (Rebelo et al., 2014).</p></sec><sec id="sec3.6"><title><italic>In
+Vitro</italic> Plasmodium Infection</title><p>Spheroids
+were inoculated at 5 &#x000d7; 10<sup>5</sup> cell/mL in infection medium
+(basal culture medium supplemented with 5% (v/v) FBS, 1:300 Amphotericin
+B (250 &#x003bc;g/mL) and 1:1000 Gentamycin 50 mg/mL, all from Thermo
+Fisher Scientific), on the day of infection, in ultralow attachment
+flat-bottom 96-well plates (Corning, Merck KGaA, Darmstadt, Germany).
+Sporozoites were added to 3D cultures at a 1:2 cell:spz ratio. Sporozoite
+addition in microplates was followed by a centrifugation step at 1800<italic>g</italic> for 5 min, after which plates were maintained in static
+conditions at 37 &#x000b0;C and 5% CO<sub>2</sub> for 48 h. The infection
+rates were assessed by bioluminescence, as a measurement of luciferase
+activity.</p></sec><sec id="sec3.7"><title><italic>In Vitro</italic> Assessment of <italic>Plasmodium</italic> Infection by Bioluminescence</title><p>The infection load of <italic>Pb</italic>-Luc-infected cells was assessed by employing a commercially
+available Firefly Luciferase Assay Kit from Biotium, following the
+manufacturer&#x02019;s instructions. Briefly, cells and spheroids were
+washed twice with PBS and later incubated in lysis buffer diluted
+1:4 in Milli-Q water. Samples underwent several freeze&#x02013;thaw
+cycles, alternated with agitation steps at 500 rpm, until complete
+cell lysis was confirmed by visual inspection. Bioluminescence was
+measured using a microplate reader (Infinite 200 PRO, Tecan Trading
+AG), and the light reaction of each well was measured for 100 ms.</p></sec><sec id="sec3.8"><title>Drug Assays</title><p>M5717 and Pyro were synthesized and supplied
+by Merck KGaA, Darmstadt, Germany.</p><sec id="sec3.8.1"><title><italic>In Vitro</italic> Drug Assays</title><p>Stock solutions
+of 10 mM were prepared in DMSO. Working solutions of compounds employed
+in drug assays were prepared freshly at concentrations ranging from
+0.01 to 30 nM for M5717 or at a fixed concentration of 1 &#x003bc;M
+for Pyro. <italic>Pb</italic>-infected cells were exposed to the aforementioned
+drug dilutions at 24 hpi and cultured for an additional 24 h. For
+the dose&#x02013;response analysis, cell viability and infection rate
+were assessed at the end of the drug incubation period (48 hpi), as
+previously described (Arez et al., 2019). Briefly, cell metabolic
+activity was determined by incubation of adherent cells and spheroids
+for 50 min at 37 &#x000b0;C, protected from light, with 1&#x000d7; PrestoBlue
+Cell Viability Reagent (A-13262, Thermo Fisher Scientific). The fluorescence
+of the culture supernatant was measured at 560 and 590 nm excitation
+and emission wavelengths, respectively. Cell metabolic activity was
+used as a measurement of cell viability and employed in the normalization
+of the infection rates. Samples were further analyzed for bioluminescence
+as described above.</p></sec><sec id="sec3.9"><title><italic>In Vivo</italic> Drug Assays</title><p>Male C57BL/6J
+mice were infected by intravenous injection (i.v.) of 3 &#x000d7; 10<sup>4</sup> firefly luciferase-expressing <italic>P. berghei</italic> sporozoites. Hepatic infection was confirmed at 24 hpi by live bioluminescence,
+prior to compound administration, as previously described.<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> Briefly, mice were anesthetized with isofluorane
+and subcutaneously injected with 200 &#x003bc;L of D-Luciferin (PerkinElmer)
+dissolved in PBS (10 mg/mL). After 5 min, mice were anesthetized by
+an intraperitoneal injection of a ketamine/xylazine solution. Image
+acquisition took place at approximately 10 min after D-Luciferin injection,
+employing the <italic>in vivo</italic> IVIS Lumina Imaging System
+(Caliper LifeSciences, Waltham, MA, U.S.A.). <italic>P. berghei</italic> bioluminescence was measured as total flux (photons/s) and analyzed
+with the Living Image software (version 3.0, PerkinElmer, Waltham,
+MA, U.S.A.). Compounds were solubilized in a solution of 70% Tween-80
+and 30% ethanol, followed by a 10-fold dilution in water, and administered
+by oral gavage at 24 hpi. M5717 was administered at 0.4 or 0.3 mg/kg
+of mouse weight, whereas Pyro was administered at 12 mg/kg. An equivalent
+amount of drug vehicle was administered as a control. At 48 hpi, mice
+were sacrificed and livers were collected to denaturing solution (4
+M guanidine thiocyanate, 25 mM sodium citrate pH 7.0, 0.5% (w/v) sarcosyl
+and 0.7% (v/v) b-mercaptoethanol in DEPC-treated water) for parasite
+load quantification by quantitative real-time PCR (qRT-PCR). Liver
+samples were then mechanically homogenized, and RNA was extracted
+using the TripleXtractor directRNA Kit (GRiSP), according to the manufacturer&#x02019;s
+recommendations. Complementary DNA (cDNA) was synthesized from 1 &#x003bc;g
+of RNA, using the NZY First-strand cDNA Synthesis Kit (NZYTech). <italic>P. berghei</italic> load was quantified by qRT-PCR, employing primers
+specific for <italic>Pb</italic> 18S RNA (5&#x02032;-AAGCATTAAATAAAGCGAATACATCCTTAC-3&#x02032;
+and 5&#x02032;-GGAGATTGGTTTTGACGTTTATGTG-3&#x02032;).
+Gene expression levels were normalized to the endogenous mouse housekeeping
+gene hypoxanthine-guanine phosphoribosyltransferase (<italic>Hprt</italic>) (primers 5&#x02032;-TTTGCTGACCTGCTGGATTAC-3&#x02032;
+and 5&#x02032;- CAAGACATTCTTTCCAGTTAAAGTTG-3&#x02032;).
+The RT-qPCR reaction was performed in a total volume of 10 &#x003bc;L
+using the NZYSpeedy qPCR Green, ROX (NZYtech), employing the ViiA
+7 System (Applied Biosystems). The comparative &#x00394;&#x00394;CT method
+was used for analysis of RT-qPCR results.</p></sec></sec><sec id="sec3.10"><title>Data Analysis
+and Statistics</title><p>Nonlinear regression analysis
+of the normalized results for the determination of IC<sub>50</sub> values and statistical analysis were performed employing GraphPad
+Prism version 6 for Windows (GraphPad software, La Jolla California
+U.S.A.). Outliers were identified by the ROUT method. Normality was
+assessed by the Shapiro-Wilk normality test. Significant differences
+were determined using a parametric or nonparametric <italic>t</italic> test, considering paired conditions when subjected to the same batch
+of spz, or using one-way ANOVA. <italic>P</italic> values are presented
+for statistically significant results (*, <italic>P</italic> &#x0003c;
+0.05, **, <italic>P</italic> &#x0003c; 0.01, *** <italic>P</italic> &#x0003c;
+0.001, ****<italic>P</italic> &#x0003c; 0.0001), as indicated in each figure
+legend.</p></sec></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information is
+available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/10.1021/acsinfecdis.1c00640?goto=supporting-info">https://pubs.acs.org/doi/10.1021/acsinfecdis.1c00640</ext-link>.<list id="silist" list-type="simple"><list-item><p>Supplementary Methods;
+Supplementary Figures 1, 2, and
+3; Supplementary Table 1 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsinfecdis.1c00640/suppl_file/id1c00640_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="id1c00640_si_001.pdf"><caption><p>id1c00640_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="" id="notes2"><title>Author Contributions</title><p><sup>&#x000b6;</sup> D.F. and
+F.A. contributed equally to the work. Conceptualization:
+D.F., F.A., T.S., C.B., M.P., P.M.A. Methodology: D.F., F.A., I.R.G.,
+G.N., D.M., T.H.H.B. Formal analysis: D.F., F.A., I.R.G., T.H.H.B.,
+C.B., M.P .Writing&#x02013;original draft: D.F., F.A. Writing&#x02013;review
+and editing: T.S., C.B., M.P., P.M.A. Funding acquisition: T.S., M.P.,
+P.M.A. Supervision: T.S., C.B., M.P., P.M.A.</p></notes><notes notes-type="COI-statement" id="notes4"><p>The authors
+declare the following competing financial interest(s): D.F., F.A.,
+T.S., C.B., M.P., and P.M.A. are inventors on a patent WO 2018162623.
+T.H.H.B and T.S. are employees of the healthcare business of Merck
+KGaA, Darmstadt, Germany, which funded the work and provided novel
+compounds to be tested in the platforms developed.</p></notes><ack><title>Acknowledgments</title><p>We acknowledge
+Ana Filipa Teixeira and Ana Parreira
+for mosquito production and infection. This work was funded by the
+healthcare business of Merck KGaA, Darmstadt, Germany (CrossRef Funder
+ID: 10.13039/100009945). M.P. is a recipient of a &#x0201c;Concurso
+de Est&#x000ed;mulo ao Emprego Cient&#x000ed;fico&#x0201d; Principal
+Investigator award of Funda&#x000e7;&#x000e3;o para a Ci&#x000ea;ncia
+e Tecnologia, Portugal (FCT), with ref. N. CEECIND/03539/2017. D.F.
+is funded by FCT project CRCNA/BRB/0281/2019. F.A. is recipient of
+a PhD fellowship PD/BD/128371/2017, funded by FCT.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="report" id="cit1"><person-group person-group-type="allauthors"><collab>WHO</collab></person-group>. <source>World Malaria Report 2021</source>; <publisher-name>World
+Health Organization</publisher-name>: <publisher-loc>Geneva, Switzerland</publisher-loc>; <year>2021</year>.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Lindner</surname><given-names>S.
+E.</given-names></name>; <name><surname>Miller</surname><given-names>J. L.</given-names></name>; <name><surname>Kappe</surname><given-names>S. H.</given-names></name>
+<article-title>Malaria parasite pre-erythrocytic
+infection: preparation meets opportunity</article-title>. <source>Cellular
+microbiology.</source>
+<year>2012</year>, <volume>14</volume> (<issue>3</issue>), <fpage>316</fpage>&#x02013;<lpage>24</lpage>. <pub-id pub-id-type="doi">10.1111/j.1462-5822.2011.01734.x</pub-id>.<pub-id pub-id-type="pmid">22151703</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Prudencio</surname><given-names>M.</given-names></name>; <name><surname>Rodriguez</surname><given-names>A.</given-names></name>; <name><surname>Mota</surname><given-names>M. M.</given-names></name>
+<article-title>The silent path to thousands of merozoites:
+the Plasmodium liver stage</article-title>. <source>Nature reviews Microbiology.</source>
+<year>2006</year>, <volume>4</volume> (<issue>11</issue>), <fpage>849</fpage>&#x02013;<lpage>56</lpage>. <pub-id pub-id-type="doi">10.1038/nrmicro1529</pub-id>.<pub-id pub-id-type="pmid">17041632</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>White</surname><given-names>N. J.</given-names></name>; <name><surname>Pukrittayakamee</surname><given-names>S.</given-names></name>; <name><surname>Hien</surname><given-names>T. T.</given-names></name>; <name><surname>Faiz</surname><given-names>M. A.</given-names></name>; <name><surname>Mokuolu</surname><given-names>O. A.</given-names></name>; <name><surname>Dondorp</surname><given-names>A. M.</given-names></name>
+<article-title>Malaria</article-title>. <source>Lancet.</source>
+<year>2014</year>, <volume>383</volume> (<issue>9918</issue>), <fpage>723</fpage>&#x02013;<lpage>35</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(13)60024-0</pub-id>.<pub-id pub-id-type="pmid">23953767</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Meibalan</surname><given-names>E.</given-names></name>; <name><surname>Marti</surname><given-names>M.</given-names></name>
+<article-title>Biology of malaria
+transmission</article-title>. <source>Cold Spring
+Harb Perspect Med.</source>
+<year>2017</year>, <volume>7</volume> (<issue>3</issue>), <elocation-id>a025452</elocation-id><pub-id pub-id-type="doi">10.1101/cshperspect.a025452</pub-id>.<pub-id pub-id-type="pmid">27836912</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Arez</surname><given-names>F.</given-names></name>; <name><surname>Rebelo</surname><given-names>S. P.</given-names></name>; <name><surname>Fontinha</surname><given-names>D.</given-names></name>; <name><surname>Simao</surname><given-names>D.</given-names></name>; <name><surname>Martins</surname><given-names>T. R.</given-names></name>; <name><surname>Machado</surname><given-names>M.</given-names></name>; <name><surname>Fischli</surname><given-names>C.</given-names></name>; <name><surname>Oeuvray</surname><given-names>C.</given-names></name>; <name><surname>Badolo</surname><given-names>L.</given-names></name>; <name><surname>Carrondo</surname><given-names>M. J. T.</given-names></name>; <name><surname>Rottmann</surname><given-names>M.</given-names></name>; <name><surname>Spangenberg</surname><given-names>T.</given-names></name>; <name><surname>Brito</surname><given-names>C.</given-names></name>; <name><surname>Greco</surname><given-names>B.</given-names></name>; <name><surname>Prudencio</surname><given-names>M.</given-names></name>; <name><surname>Alves</surname><given-names>P. M.</given-names></name>
+<article-title>Flexible 3D Cell-Based Platforms for the Discovery
+and Profiling of Novel Drugs Targeting Plasmodium Hepatic Infection</article-title>. <source>ACS Infect Dis.</source>
+<year>2019</year>, <volume>5</volume> (<issue>11</issue>), <fpage>1831</fpage>&#x02013;<lpage>42</lpage>. <pub-id pub-id-type="doi">10.1021/acsinfecdis.9b00144</pub-id>.<pub-id pub-id-type="pmid">31479238</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Baragana</surname><given-names>B.</given-names></name>; <name><surname>Hallyburton</surname><given-names>I.</given-names></name>; <name><surname>Lee</surname><given-names>M. C. S.</given-names></name>; <name><surname>Norcross</surname><given-names>N. R.</given-names></name>; <name><surname>Grimaldi</surname><given-names>R.</given-names></name>; <name><surname>Otto</surname><given-names>T. D.</given-names></name>; <name><surname>Proto</surname><given-names>W. R.</given-names></name>; <name><surname>Blagborough</surname><given-names>A. M.</given-names></name>; <name><surname>Meister</surname><given-names>S.</given-names></name>; <name><surname>Wirjanata</surname><given-names>G.</given-names></name>; <name><surname>Ruecker</surname><given-names>A.</given-names></name>; <name><surname>Upton</surname><given-names>L. M.</given-names></name>; <name><surname>Abraham</surname><given-names>T. S.</given-names></name>; <name><surname>Almeida</surname><given-names>M. J.</given-names></name>; <name><surname>Pradhan</surname><given-names>A.</given-names></name>; <name><surname>Porzelle</surname><given-names>A.</given-names></name>; <name><surname>Martinez</surname><given-names>M. S.</given-names></name>; <name><surname>Bolscher</surname><given-names>J. M.</given-names></name>; <name><surname>Woodland</surname><given-names>A.</given-names></name>; <name><surname>Luksch</surname><given-names>T.</given-names></name>; <name><surname>Norval</surname><given-names>S.</given-names></name>; <name><surname>Zuccotto</surname><given-names>F.</given-names></name>; <name><surname>Thomas</surname><given-names>J.</given-names></name>; <name><surname>Simeons</surname><given-names>F.</given-names></name>; <name><surname>Stojanovski</surname><given-names>L.</given-names></name>; <name><surname>Osuna-Cabello</surname><given-names>M.</given-names></name>; <name><surname>Brock</surname><given-names>P. M.</given-names></name>; <name><surname>Churcher</surname><given-names>T. S.</given-names></name>; <name><surname>Sala</surname><given-names>K. A.</given-names></name>; <name><surname>Zakutansky</surname><given-names>S. E.</given-names></name>; <name><surname>Jimenez-Diaz</surname><given-names>M. B.</given-names></name>; <name><surname>Sanz</surname><given-names>L. M.</given-names></name>; <name><surname>Riley</surname><given-names>J.</given-names></name>; <name><surname>Basak</surname><given-names>R.</given-names></name>; <name><surname>Campbell</surname><given-names>M.</given-names></name>; <name><surname>Avery</surname><given-names>V. M.</given-names></name>; <name><surname>Sauerwein</surname><given-names>R. W.</given-names></name>; <name><surname>Dechering</surname><given-names>K. J.</given-names></name>; <name><surname>Noviyanti</surname><given-names>R.</given-names></name>; <name><surname>Campo</surname><given-names>B.</given-names></name>; <name><surname>Frearson</surname><given-names>J. A.</given-names></name>; <name><surname>Angulo-Barturen</surname><given-names>I.</given-names></name>; <name><surname>Ferrer-Bazaga</surname><given-names>S.</given-names></name>; <name><surname>Gamo</surname><given-names>F. J.</given-names></name>; <name><surname>Wyatt</surname><given-names>P. G.</given-names></name>; <name><surname>Leroy</surname><given-names>D.</given-names></name>; <name><surname>Siegl</surname><given-names>P.</given-names></name>; <name><surname>Delves</surname><given-names>M. J.</given-names></name>; <name><surname>Kyle</surname><given-names>D. E.</given-names></name>; <name><surname>Wittlin</surname><given-names>S.</given-names></name>; <name><surname>Marfurt</surname><given-names>J.</given-names></name>; <name><surname>Price</surname><given-names>R. N.</given-names></name>; <name><surname>Sinden</surname><given-names>R. E.</given-names></name>; <name><surname>Winzeler</surname><given-names>E. A.</given-names></name>; <name><surname>Charman</surname><given-names>S. A.</given-names></name>; <name><surname>Bebrevska</surname><given-names>L.</given-names></name>; <name><surname>Gray</surname><given-names>D. W.</given-names></name>; <name><surname>Campbell</surname><given-names>S.</given-names></name>; <name><surname>Fairlamb</surname><given-names>A. H.</given-names></name>; <name><surname>Willis</surname><given-names>P. A.</given-names></name>; <name><surname>Rayner</surname><given-names>J. C.</given-names></name>; <name><surname>Fidock</surname><given-names>D. A.</given-names></name>; <name><surname>Read</surname><given-names>K. D.</given-names></name>; <name><surname>Gilbert</surname><given-names>I. H.</given-names></name>
+<article-title>A novel
+multiple-stage antimalarial
+agent that inhibits protein synthesis</article-title>. <source>Nature.</source>
+<year>2015</year>, <volume>522</volume> (<issue>7556</issue>), <fpage>315</fpage>&#x02013;<lpage>320</lpage>. <pub-id pub-id-type="doi">10.1038/nature14451</pub-id>.<pub-id pub-id-type="pmid">26085270</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>McCarthy</surname><given-names>J.
+S.</given-names></name>; <name><surname>Yalkinoglu</surname><given-names>O.</given-names></name>; <name><surname>Odedra</surname><given-names>A.</given-names></name>; <name><surname>Webster</surname><given-names>R.</given-names></name>; <name><surname>Oeuvray</surname><given-names>C.</given-names></name>; <name><surname>Tappert</surname><given-names>A.</given-names></name>; <name><surname>Bezuidenhout</surname><given-names>D.</given-names></name>; <name><surname>Giddins</surname><given-names>M. J.</given-names></name>; <name><surname>Dhingra</surname><given-names>S. K.</given-names></name>; <name><surname>Fidock</surname><given-names>D. A.</given-names></name>; <name><surname>Marquart</surname><given-names>L.</given-names></name>; <name><surname>Webb</surname><given-names>L.</given-names></name>; <name><surname>Yin</surname><given-names>X.</given-names></name>; <name><surname>Khandelwal</surname><given-names>A.</given-names></name>; <name><surname>Bagchus</surname><given-names>W. M.</given-names></name>
+<article-title>Safety, pharmacokinetics, and antimalarial
+activity of the novel plasmodium eukaryotic translation elongation
+factor 2 inhibitor M5717: a first-in-human, randomised, placebo-controlled,
+double-blind, single ascending dose study and volunteer infection
+study</article-title>. <source>Lancet Infect Dis.</source>
+<year>2021</year>, <volume>21</volume> (<issue>12</issue>), <fpage>1713</fpage>&#x02013;<lpage>24</lpage>. <pub-id pub-id-type="doi">10.1016/S1473-3099(21)00252-8</pub-id>.<pub-id pub-id-type="pmid">34715032</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Croft</surname><given-names>S. L.</given-names></name>; <name><surname>Duparc</surname><given-names>S.</given-names></name>; <name><surname>Arbe-Barnes</surname><given-names>S. J.</given-names></name>; <name><surname>Craft</surname><given-names>J. C.</given-names></name>; <name><surname>Shin</surname><given-names>C.-S.</given-names></name>; <name><surname>Fleckenstein</surname><given-names>L.</given-names></name>; <name><surname>Borghini-Fuhrer</surname><given-names>I.</given-names></name>; <name><surname>Rim</surname><given-names>H.-J.</given-names></name>
+<article-title>Review of pyronaridine
+anti-malarial properties and product characteristics</article-title>. <source>Malar J.</source>
+<year>2012</year>, <volume>11</volume>, <fpage>270</fpage><pub-id pub-id-type="doi">10.1186/1475-2875-11-270</pub-id>.<pub-id pub-id-type="pmid">22877082</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Zheng</surname><given-names>X. Y.</given-names></name>; <name><surname>Chen</surname><given-names>C.</given-names></name>; <name><surname>Gao</surname><given-names>F. H.</given-names></name>; <name><surname>Zhu</surname><given-names>P. E.</given-names></name>; <name><surname>Guo</surname><given-names>H. Z.</given-names></name>
+<article-title>[Synthesis
+of new antimalarial drug pyronaridine and its analogues (author&#x02019;s
+transl)]</article-title>. <source>Yao Xue Xue Bao.</source>
+<year>1982</year>, <volume>17</volume> (<issue>2</issue>), <fpage>118</fpage>&#x02013;<lpage>125</lpage>.<pub-id pub-id-type="pmid">7102320</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Zheng</surname><given-names>X. Y.</given-names></name>; <name><surname>Xia</surname><given-names>Y.</given-names></name>; <name><surname>Gao</surname><given-names>F. H.</given-names></name>; <name><surname>Chen</surname><given-names>C.</given-names></name>
+<article-title>[Synthesis of 7351, a new antimalarial
+drug (author&#x02019;s transl)]</article-title>. <source>Yao Xue Xue
+Bao.</source>
+<year>1979</year>, <volume>14</volume> (<issue>12</issue>), <fpage>736</fpage>.<pub-id pub-id-type="pmid">554435</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Rottmann</surname><given-names>M.</given-names></name>; <name><surname>Jonat</surname><given-names>B.</given-names></name>; <name><surname>Gumpp</surname><given-names>C.</given-names></name>; <name><surname>Dhingra</surname><given-names>S. K.</given-names></name>; <name><surname>Giddins</surname><given-names>M. J.</given-names></name>; <name><surname>Yin</surname><given-names>X.</given-names></name>; <name><surname>Badolo</surname><given-names>L.</given-names></name>; <name><surname>Greco</surname><given-names>B.</given-names></name>; <name><surname>Fidock</surname><given-names>D. A.</given-names></name>; <name><surname>Oeuvray</surname><given-names>C.</given-names></name>; <name><surname>Spangenberg</surname><given-names>T.</given-names></name>
+<article-title>Preclinical
+Antimalarial Combination Study of M5717,
+a Plasmodium falciparum Elongation Factor 2 Inhibitor, and Pyronaridine,
+a Hemozoin Formation Inhibitor</article-title>. <source>Antimicrob.
+Agents Chemother.</source>
+<year>2020</year>, <volume>64</volume> (<issue>4</issue>), <elocation-id>e02181-19</elocation-id><pub-id pub-id-type="doi">10.1128/AAC.02181-19</pub-id>.<pub-id pub-id-type="pmid">32041711</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Nosten</surname><given-names>F.</given-names></name>; <name><surname>Brasseur</surname><given-names>P.</given-names></name>
+<article-title>Combination therapy
+for malaria: the way forward?</article-title>. <source>Drugs</source>
+<year>2002</year>, <volume>62</volume> (<issue>9</issue>), <fpage>1315</fpage>&#x02013;<lpage>1329</lpage>. <pub-id pub-id-type="doi">10.2165/00003495-200262090-00003</pub-id>.<pub-id pub-id-type="pmid">12076181</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Basco</surname><given-names>L. K.</given-names></name>; <name><surname>Ringwald</surname><given-names>P.</given-names></name>; <name><surname>Franetich</surname><given-names>J. F.</given-names></name>; <name><surname>Mazier</surname><given-names>D.</given-names></name>
+<article-title>Assessment of pyronaridine
+activity in vivo and in vitro against the hepatic stages of malaria
+in laboratory mice</article-title>. <source>Trans R Soc. Trop Med. Hyg.</source>
+<year>1999</year>, <volume>93</volume> (<issue>6</issue>), <fpage>651</fpage>&#x02013;<lpage>2</lpage>. <pub-id pub-id-type="doi">10.1016/S0035-9203(99)90085-8</pub-id>.<pub-id pub-id-type="pmid">10717758</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Demb&#x000e9;l&#x000e9;</surname><given-names>L.</given-names></name>; <name><surname>Franetich</surname><given-names>J. F.</given-names></name>; <name><surname>Soulard</surname><given-names>V.</given-names></name>; <name><surname>Amanzougaghene</surname><given-names>N.</given-names></name>; <name><surname>Tajeri</surname><given-names>S.</given-names></name>; <name><surname>Bousema</surname><given-names>T.</given-names></name>; <name><surname>van Gemert</surname><given-names>G. J.</given-names></name>; <name><surname>Le Grand</surname><given-names>R.</given-names></name>; <name><surname>Dereuddre-Bosquet</surname><given-names>N.</given-names></name>; <name><surname>Baird</surname><given-names>J. K.</given-names></name>; <name><surname>Mazier</surname><given-names>D.</given-names></name>; <name><surname>Snounou</surname><given-names>G.</given-names></name>
+<article-title>Chloroquine Potentiates Primaquine Activity against
+Active and Latent Hepatic Plasmodia Ex Vivo: Potentials and Pitfalls</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<year>2020</year>, <volume>65</volume> (<issue>1</issue>), <fpage>e01416-20</fpage><pub-id pub-id-type="doi">10.1128/AAC.01416-20</pub-id>.<pub-id pub-id-type="pmid">33077656</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Rebelo</surname><given-names>S. P.</given-names></name>; <name><surname>Costa</surname><given-names>R.</given-names></name>; <name><surname>Estrada</surname><given-names>M.</given-names></name>; <name><surname>Shevchenko</surname><given-names>V.</given-names></name>; <name><surname>Brito</surname><given-names>C.</given-names></name>; <name><surname>Alves</surname><given-names>P. M.</given-names></name>
+<article-title>HepaRG microencapsulated
+spheroids
+in DMSO-free culture: novel culturing approaches for enhanced xenobiotic
+and biosynthetic metabolism</article-title>. <source>Arch. Toxicol.</source>
+<year>2015</year>, <volume>89</volume> (<issue>8</issue>), <fpage>1347</fpage>&#x02013;<lpage>58</lpage>. <pub-id pub-id-type="doi">10.1007/s00204-014-1320-9</pub-id>.<pub-id pub-id-type="pmid">25107451</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Gaskell</surname><given-names>H.</given-names></name>; <name><surname>Sharma</surname><given-names>P.</given-names></name>; <name><surname>Colley</surname><given-names>H. E.</given-names></name>; <name><surname>Murdoch</surname><given-names>C.</given-names></name>; <name><surname>Williams</surname><given-names>D. P.</given-names></name>; <name><surname>Webb</surname><given-names>S. D.</given-names></name>
+<article-title>Characterization of a functional C3A liver spheroid
+model</article-title>. <source>Toxicol Res. (Camb).</source>
+<year>2016</year>, <volume>5</volume> (<issue>4</issue>), <fpage>1053</fpage>&#x02013;<lpage>65</lpage>. <pub-id pub-id-type="doi">10.1039/C6TX00101G</pub-id>.<pub-id pub-id-type="pmid">27746894</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Leite</surname><given-names>S. B.</given-names></name>; <name><surname>Wilk-Zasadna</surname><given-names>I.</given-names></name>; <name><surname>Zaldivar</surname><given-names>J. M.</given-names></name>; <name><surname>Airola</surname><given-names>E.</given-names></name>; <name><surname>Reis-Fernandes</surname><given-names>M. A.</given-names></name>; <name><surname>Mennecozzi</surname><given-names>M.</given-names></name>; <name><surname>Guguen-Guillouzo</surname><given-names>C.</given-names></name>; <name><surname>Chesne</surname><given-names>C.</given-names></name>; <name><surname>Guillou</surname><given-names>C.</given-names></name>; <name><surname>Alves</surname><given-names>P. M.</given-names></name>; <name><surname>Coecke</surname><given-names>S.</given-names></name>
+<article-title>Three-dimensional HepaRG model as
+an attractive tool for toxicity testing</article-title>. <source>Toxicol.
+Sci.</source>
+<year>2012</year>, <volume>130</volume> (<issue>1</issue>), <fpage>106</fpage>&#x02013;<lpage>16</lpage>. <pub-id pub-id-type="doi">10.1093/toxsci/kfs232</pub-id>.<pub-id pub-id-type="pmid">22843569</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Barata</surname><given-names>L.</given-names></name>; <name><surname>Houz&#x000e9;</surname><given-names>P.</given-names></name>; <name><surname>Boutbibe</surname><given-names>K.</given-names></name>; <name><surname>Zanghi</surname><given-names>G.</given-names></name>; <name><surname>Franetich</surname><given-names>J. F.</given-names></name>; <name><surname>Mazier</surname><given-names>D.</given-names></name>; <name><surname>Clain</surname><given-names>J.</given-names></name>
+<article-title>In Vitro Analysis of the Interaction
+between Atovaquone and Proguanil against Liver Stage Malaria Parasites</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<year>2016</year>, <volume>60</volume> (<issue>7</issue>), <fpage>4333</fpage>&#x02013;<lpage>5</lpage>. <pub-id pub-id-type="doi">10.1128/AAC.01685-15</pub-id>.<pub-id pub-id-type="pmid">26926628</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Canfield</surname><given-names>C. J.</given-names></name>; <name><surname>Pudney</surname><given-names>M.</given-names></name>; <name><surname>Gutteridge</surname><given-names>W. E.</given-names></name>
+<article-title>Interactions
+of Atovaquone with Other
+Antimalarial Drugs against Plasmodium falciparum in Vitro</article-title>. <source>Experimental Parasitology.</source>
+<year>1995</year>, <volume>80</volume> (<issue>3</issue>), <fpage>373</fpage>&#x02013;<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1006/expr.1995.1049</pub-id>.<pub-id pub-id-type="pmid">7729473</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Machado</surname><given-names>M.</given-names></name>; <name><surname>Sanches-Vaz</surname><given-names>M.</given-names></name>; <name><surname>Cruz</surname><given-names>J. P.</given-names></name>; <name><surname>Mendes</surname><given-names>A. M.</given-names></name>; <name><surname>Prud&#x000ea;ncio</surname><given-names>M.</given-names></name>
+<article-title>Inhibition
+of Plasmodium Hepatic Infection by Antiretroviral Compounds</article-title>. <source>Front Cell Infect Microbiol.</source>
+<year>2017</year>, <volume>7</volume>, <fpage>329</fpage><pub-id pub-id-type="doi">10.3389/fcimb.2017.00329</pub-id>.<pub-id pub-id-type="pmid">28770176</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Vera</surname><given-names>I. M.</given-names></name>; <name><surname>Grilo Ruivo</surname><given-names>M. T.</given-names></name>; <name><surname>Lemos Rocha</surname><given-names>L. F.</given-names></name>; <name><surname>Marques</surname><given-names>S.</given-names></name>; <name><surname>Bhatia</surname><given-names>S. N.</given-names></name>; <name><surname>Mota</surname><given-names>M. M.</given-names></name>; <name><surname>Mancio-Silva</surname><given-names>L.</given-names></name>
+<article-title>Targeting
+liver stage malaria with
+metformin</article-title>. <source>JCI Insight.</source>
+<year>2019</year>, <volume>4</volume> (<issue>24</issue>), <elocation-id>e127441</elocation-id><pub-id pub-id-type="doi">10.1172/jci.insight.127441</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Vanachayangkul</surname><given-names>P.</given-names></name>; <name><surname>Im-Erbsin</surname><given-names>R.</given-names></name>; <name><surname>Tungtaeng</surname><given-names>A.</given-names></name>; <name><surname>Kodchakorn</surname><given-names>C.</given-names></name>; <name><surname>Roth</surname><given-names>A.</given-names></name>; <name><surname>Adams</surname><given-names>J.</given-names></name>; <name><surname>Chaisatit</surname><given-names>C.</given-names></name>; <name><surname>Saingam</surname><given-names>P.</given-names></name>; <name><surname>Sciotti</surname><given-names>R. J.</given-names></name>; <name><surname>Reichard</surname><given-names>G. A.</given-names></name>; <name><surname>Nolan</surname><given-names>C. K.</given-names></name>; <name><surname>Pybus</surname><given-names>B. S.</given-names></name>; <name><surname>Black</surname><given-names>C. C.</given-names></name>; <name><surname>Lugo-Roman</surname><given-names>L. A.</given-names></name>; <name><surname>Wegner</surname><given-names>M. D.</given-names></name>; <name><surname>Smith</surname><given-names>P. L.</given-names></name>; <name><surname>Wojnarski</surname><given-names>M.</given-names></name>; <name><surname>Vesely</surname><given-names>B. A.</given-names></name>; <name><surname>Kobylinski</surname><given-names>K. C.</given-names></name>
+<article-title>Safety, Pharmacokinetics, and Activity
+of High-Dose Ivermectin and Chloroquine against the Liver Stage of
+Plasmodium cynomolgi Infection in Rhesus Macaques</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<year>2020</year>, <volume>64</volume> (<issue>9</issue>), <fpage>e00741-20</fpage><pub-id pub-id-type="doi">10.1128/AAC.00741-20</pub-id>.<pub-id pub-id-type="pmid">32660993</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Ploemen</surname><given-names>I. H.</given-names></name>; <name><surname>Prud&#x000ea;ncio</surname><given-names>M.</given-names></name>; <name><surname>Douradinha</surname><given-names>B. G.</given-names></name>; <name><surname>Ramesar</surname><given-names>J.</given-names></name>; <name><surname>Fonager</surname><given-names>J.</given-names></name>; <name><surname>van Gemert</surname><given-names>G. J.</given-names></name>; <name><surname>Luty</surname><given-names>A. J.</given-names></name>; <name><surname>Hermsen</surname><given-names>C. C.</given-names></name>; <name><surname>Sauerwein</surname><given-names>R. W.</given-names></name>; <name><surname>Baptista</surname><given-names>F. G.</given-names></name>; <name><surname>Mota</surname><given-names>M. M.</given-names></name>; <name><surname>Waters</surname><given-names>A. P.</given-names></name>; <name><surname>Que</surname><given-names>I.</given-names></name>; <name><surname>Lowik</surname><given-names>C. W.</given-names></name>; <name><surname>Khan</surname><given-names>S. M.</given-names></name>; <name><surname>Janse</surname><given-names>C. J.</given-names></name>; <name><surname>Franke-Fayard</surname><given-names>B. M.</given-names></name>
+<article-title>Visualisation
+and quantitative analysis of the rodent malaria liver stage by real
+time imaging</article-title>. <source>PLoS One.</source>
+<year>2009</year>, <volume>4</volume> (<issue>11</issue>), <elocation-id>e7881</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pone.0007881</pub-id>.<pub-id pub-id-type="pmid">19924309</pub-id></mixed-citation></ref></ref-list></back></article>

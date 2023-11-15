@@ -1,0 +1,362 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Tunis Med</journal-id><journal-id journal-id-type="iso-abbrev">Tunis Med</journal-id><journal-id journal-id-type="publisher-id">Tunis Med</journal-id><journal-title-group><journal-title>La Tunisie M&#x000e9;dicale</journal-title></journal-title-group><issn pub-type="ppub">0041-4131</issn><issn pub-type="epub">2724-7031</issn><publisher><publisher-name>Tunisian Society of Medical Sciences</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmc">PMC9002850</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title id="article-title-67d251a7a8264dfc9dcd488c618135ca">Assessing the validity and interpretability of the Simplified Psoriasis Index in Tunisian patients</article-title><trans-title-group xml:lang="fr"><trans-title>&#x000c9;valuation de la validit&#x000e9; et de l&#x02019;interpr&#x000e9;tabilit&#x000e9; de l&#x02019;indice simplifi&#x000e9; du psoriasis chez les patients tunisiens</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name id="name-092f0dbef3ed4367b27a74d9bf6a0fa7"><surname>Chabchoub</surname><given-names>Ines</given-names></name><xref rid="a-3d900a8deb7c" ref-type="aff" id="x-84ae3002b3f6">1</xref></contrib><contrib contrib-type="author"><name id="name-b731641a5975459b8ef906e37864c2ef"><surname>Litaiem</surname><given-names>Noureddine</given-names></name><xref rid="a-3d900a8deb7c" ref-type="aff" id="x-9e52a217b681">1</xref></contrib><contrib contrib-type="author"><name id="name-8fbcbd1654ef44dbb46df62750ee9f9b"><surname>Gara</surname><given-names>Soumaya</given-names></name><xref rid="a-3d900a8deb7c" ref-type="aff" id="x-ec07deced2b8">1</xref></contrib><contrib contrib-type="author"><name id="name-6494b1f6602545b3bf4188b34b44b1f2"><surname>Jaber</surname><given-names>Kahena</given-names></name><xref rid="a-3fe9f09653c2" ref-type="aff" id="x-2e2f68211d37">2</xref></contrib><contrib contrib-type="author"><name id="name-ad77ca0191704a5286f50f9a3a2a2c38"><surname>Dhaoui</surname><given-names>Mohamed Abderraouf</given-names></name><xref rid="a-3fe9f09653c2" ref-type="aff" id="x-d601a8976d0a">2</xref></contrib><contrib contrib-type="author"><name id="name-f131ffe2ab924d0d9e8cf6b931f4d34b"><surname>Zeglaoui</surname><given-names>Faten</given-names></name><xref rid="a-3d900a8deb7c" ref-type="aff" id="x-5f518c1a6592">1</xref></contrib><aff id="a-3d900a8deb7c">
+<institution>1.Service de Dermatologie, H&#x000f4;pital Charles Nicolle de Tunis, Facult&#x000e9; de M&#x000e9;decine de Tunis, Universit&#x000e9; Tunis el Manar</institution>
+</aff><aff id="a-3fe9f09653c2">
+<institution>2.Service de Dermatologie, H&#x000f4;pital Militaire de Tunis / Facult&#x000e9; de M&#x000e9;decine de Tunis, Universit&#x000e9; Tunis el Manar</institution>
+</aff></contrib-group><pub-date pub-type="ppub"><month>1</month><year>2022</year></pub-date><pub-date pub-type="epub"><day>01</day><month>1</month><year>2022</year></pub-date><volume>100</volume><issue>1</issue><fpage>49</fpage><lpage>55</lpage><permissions><copyright-year>2022</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 Unported License. To view a copy of this license, visit
+<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+</ext-link>
+</license-p></license></permissions><abstract id="abstract-317a7150bbf7"><title id="abstract-title-08a7ae39cb35">Abstract</title><p id="paragraph-bfbfa3623dc6">
+<bold id="strong-1e6a7453e31e4510b8be6d6cf1d7a7fd">Introduction:</bold> Multiple scores have been developed to assess the severity of psoriasis, but these scores have many limitations. The Simplified Psoriasis Index (SPI) is a summary score with separate components for current severity (SPI-s), psychosocial impact (SPI-p), and past history and interventions (SPI-i). It is available in two similar versions: proSPI and saSPI. </p><p id="paragraph-da17af4d59fe428b8ee4e0933a7f4dfa">
+<bold id="strong-04f1b6ebf8c64f1792fb43ccf8ff2a66">Aim</bold>: To assess the validity of the SPI by studying its correlation to the benchmark scores in Tunisian patients. </p><p id="paragraph-8408501ac6a14545a0203ecdea3f3951">
+<bold id="strong-d85701a36f9e4bf4917a885177cd332f">Methods:</bold> It was a prospective bicentric study including 80 patients with plaque psoriasis. </p><p id="p-700b9763c02a">
+<bold id="strong-7f99dc2838864c7799963de0e06a26a5">Results:</bold> The median PASI was 7.6 and the median DLQI was 9. The median proSPI-s was 6 and the median saSPI-s was 8. The median SPI-p was 7. The median SPI-i was 2. There was a strong correlation between the proSPI-s and PASI (r=0.87) and between the proSPI-s and saSPI-s (r=0.82). There was a medium correlation between saSPI-s and PASI (r=0.70) and between SPI-p and DLQI (r=0.67). The threshold value for proSPI-s and saSPI-s was 7.25. The threshold value for SPI-p was 6.5. </p><p id="paragraph-901f6448f0b54e0ca2c27e5ef5e2d269">
+<bold id="strong-9a173512ead6413f9b602e3c332e0574">Conclusion:</bold> The SPI aims to provide a concise but global measure of the severity and impact of psoriasis on quality of life. The use of SPI has several advantages: the simplicity of use, the additional weight given to critical locations of psoriasis, the possibility for the patient to self-assess his own disease, and the possibility of evaluating all the dimensions of psoriasis at the same time.</p></abstract><trans-abstract id="abstract-abstract-title-8d214e9f23ad4207be82defd1702099f" xml:lang="fr"><title id="abstract-title-8d214e9f23ad4207be82defd1702099f">R&#x000c9;SUM&#x000c9;</title><p id="paragraph-54c0e51b0f174b5d840eaead48410bfd">
+<bold id="strong-39e7afc098df46aa8119e8d9dc00fb50">Introduction:</bold>
+Plusieurs scores ont &#x000e9;t&#x000e9; d&#x000e9;velopp&#x000e9;s permettant d&#x02019;&#x000e9;valuer la s&#x000e9;v&#x000e9;rit&#x000e9; du psoriasis. Malgr&#x000e9; leur utilisation large, ces scores pr&#x000e9;sentent de nombreuses limites. Le Simplified Psoriasis Index (SPI) est un score de s&#x000e9;v&#x000e9;rit&#x000e9; qui comprend trois variables distinctes : la s&#x000e9;v&#x000e9;rit&#x000e9; actuelle de la maladie (SPI-s), son impact psychosocial (SPI-p), et l&#x02019;historique de la maladie psoriasique et de ses traitements (SPI-i). Le SPI est d&#x000e9;clin&#x000e9; en deux versions similaires : l&#x02019;une est remplie par le m&#x000e9;decin (proSPI) et la deuxi&#x000e8;me par le patient (saSPI). </p><p id="paragraph-1302f13f2744465aaa2005658b8b3bf0">
+<bold id="strong-2a148e4f893d4db2be53f49d1ee85319">Objectif</bold>&#x000a0;: Evaluer la validit&#x000e9; du SPI en &#x000e9;tudiant sa corr&#x000e9;lation aux scores de r&#x000e9;f&#x000e9;rence chez les patients tunisiens.</p><p id="p-245cf35d8ab1">
+<bold id="strong-3377a501691c4511ba3515a8f2ddd246">M&#x000e9;thodes</bold> :&#x000c9;tude prospective bi-centrique incluant 80 patients atteints de psoriasis en plaques. </p><p id="paragraph-952051d9ba3a4497a26f8807f6765ced">
+<bold id="strong-66afc8da95224024b7108aacf2ab5324">R&#x000e9;sultats</bold>
+<bold id="strong-d5725bc278fe462eb2dde938f12bdb47"> : </bold>Le PASI m&#x000e9;dian &#x000e9;tait de 7,6. Le DLQI m&#x000e9;dian &#x000e9;tait de 9. Le proSPI-s m&#x000e9;dian &#x000e9;tait de 6 et le saSPI-s m&#x000e9;dian &#x000e9;tait de 8. Le SPI-p m&#x000e9;dian &#x000e9;tait de 7. Le SPI-i m&#x000e9;dian &#x000e9;tait de 2. Il existait une corr&#x000e9;lation forte entre les scores proSPI-s et PASI (r=0,87) et entre les scores proSPI-s et saSPI-s (r=0,82). Il y&#x02019;avait une corr&#x000e9;lation moyenne entre le saSPI-s et le PASI (r=0,70) et entre le SPI-p et le DLQI (r=0,67). La valeur seuil de s&#x000e9;v&#x000e9;rit&#x000e9; du proSPI-s et du saSPI-s &#x000e9;tait de 7,25. La valeur seuil de s&#x000e9;v&#x000e9;rit&#x000e9; du SPI-p &#x000e9;tait de 6,5.</p><p id="p-cde7f277dbbe">
+<bold id="strong-2c843add333d4e49b694b9cc1b1c5699">Conclusion :</bold>
+Le SPI vise &#x000e0; fournir une mesure concise et globale de s&#x000e9;v&#x000e9;rit&#x000e9; et de l&#x02019;impact du psoriasis sur la qualit&#x000e9; de vie. L&#x02019;utilisation du SPI pr&#x000e9;sente plusieurs avantages : la simplicit&#x000e9; d&#x02019;utilisation, la pond&#x000e9;ration suppl&#x000e9;mentaire accord&#x000e9;e aux localisations critiques du psoriasis sur le plan fonctionnel et psychosocial, la possibilit&#x000e9; pour le patient de s&#x02019;auto&#x000e9;valuer, et la possibilit&#x000e9; d&#x02019;&#x000e9;valuer &#x000e0; la fois toutes les dimensions du psoriasis.</p></trans-abstract><kwd-group id="kwd-group-7df9647945664bfc8726c690c49ea928"><title>Keywords</title><kwd>Psoriasis</kwd><kwd>severity</kwd><kwd>quality of life.</kwd></kwd-group><kwd-group id="kg-baee1497ecdf" xml:lang="fr"><title>Mots-cl&#x000e9;s</title><kwd>Psoriasis</kwd><kwd>s&#x000e9;v&#x000e9;rit&#x000e9;</kwd><kwd>qualit&#x000e9; de vie.</kwd></kwd-group></article-meta></front><body><sec><title id="title-d8698087a0004ba7a3c35a3352529f9a">Introduction</title><p id="paragraph-fa388c1d3c81475fa509c105fa140a90">Psoriasis is a chronic inflammatory skin disease associated with significant impact on patients&#x02019; quality of life. The management of psoriasis requires objective and reliable tools to assess disease severity and response to treatment. </p><p id="paragraph-e8c0ec790d9e40dcb19147b98c6b8620">At least 50 outcome measures for psoriasis have been developed (<xref rid="R139550524783664" ref-type="bibr" id="x-a591e5058a14">1</xref>). The most frequently used tools are the Psoriasis Area and Severity Index (PASI) to evaluate disease severity and the Dermatology Life Quality Index (DLQI). The latter is used to estimate the impact of psoriasis on the patient&#x02019;s quality of life (<xref rid="R139550524783937" ref-type="bibr" id="x-c0a11a3a30c4">2</xref>).</p><p id="paragraph-bf70f86424d144df91ba349a178cb77e">Although widely used in clinical trials, PASI has several drawbacks including great inter- and intra-rater variability, complex arithmetic, and lack of patient-centered components (<xref rid="R139550524784118" ref-type="bibr" id="x-14506cb78790">3</xref>).</p><p id="paragraph-328b9bd8bf2c4acf9fce8fd05681a0fc">Recent guidelines emphasize the importance of capturing the patient&#x02019;s perspective of disease severity and psychological impact (<xref rid="R139550524784119" ref-type="bibr" id="x-2fd6112f9801">4</xref>). Therefore, PASI is commonly used in association with DLQI. </p><p id="paragraph-a0fcaa2af5154dfbbd3cb21b811eb6cd">The Simplified Psoriasis Index (SPI) is a clinical measure allowing a concise but holistic assessment of the severity of psoriasis and its psychological impact (<xref rid="R139550524783656" ref-type="bibr" id="x-d3a0b96a6549">5</xref> ). SPI proved to be easy to administer and achieved positive ratings for the following criteria: validity, responsiveness to change, and response distribution (<xref rid="R139550524783654" ref-type="bibr" id="x-47263a8fa2e4">6</xref> ).</p><p id="paragraph-e04d97eeb1254f7489d6dab818d2e693">The SPI has been translated into several languages, including Dutch, Portuguese, French, and literary Arabic (<xref rid="R139550524783664" ref-type="bibr">1</xref>, <xref rid="R139550524784152" ref-type="bibr">7</xref>, <xref rid="R139550524783659" ref-type="bibr">8</xref>, <xref rid="R139550524783655" ref-type="bibr">9</xref> ). The aim of this study was to evaluate the validity, interpretability, and response distribution of the Arabic version of SPI in adult patients with plaque psoriasis.</p></sec><sec><title id="title-7c0a50e1096047a58b232e1c4c021ca7">Methods</title><sec><title id="t-a6daba0b8528"> Study design</title><p id="paragraph-33a2e8b5671d4c7f8d9aae84aeb1d160">Tunisian patients with plaque psoriasis attending Charles Nicolle and Military University hospitals, Tunis, were recruited in order to investigate the validity and applicability of a validated Arabic translation of SPI for assessing psoriasis severity and impact. A sample size of 80 was chosen by reference to COSMIN (COnsensus-based Standards for the selection of health Measurement INstruments) criteria; recruitment was continued until 80 patients had been investigated (<xref rid="R139550524783663" ref-type="bibr" id="x-daacefcd5172">10</xref>). </p><p id="paragraph-123a822e042a458bb33458e16a4de602">The diagnosis of plaque psoriasis was made based on clinical, and if necessary, histopathological examinations.</p><p id="paragraph-6274cf8980074776af0d099bb14c40b3">Patients who were diagnosed with pustular psoriasis or erythroderma, who were afflicted by psychiatric diseases, who were unable to read and understand the questionnaires, or who were younger than 18 years, as well as pregnant women, were excluded from the study. All patients gave informed consent and agreed voluntarily to participate in the study. Included patients were free to withdraw from the study at any stage. </p></sec><sec><title id="t-9fd11ed43253"> Instruments</title><sec><title id="t-2269397d4f3c"> Simplified psoriasis index:</title><p id="paragraph-f594f58f368447d7b929ed7c18943690">SPI is a summary measure of psoriasis consisting of three separate domains: the extent and severity of psoriasis (SPI-s), the psychosocial impact (SPI-p), and a summary measure of disease course and interventions (SPI-i).</p><p id="paragraph-d005818a816b4d6e91fb97a9e49aa991">The SPI is available in two complementary versions: professional SPI (proSPI) and self-assessment SPI (saSPI). ProSPI is for completion by health professionals and saSPI by the patient. ProSPI and saSPI share the components SPI-p and SPI-i and differ only in that the severity component of saSPI avoids the use of technical language.</p><p id="p-10509a0bd29c">&#x02022; Severity component of the Simplified Psoriasis Index (SPI-s)</p><p id="paragraph-bd84e8977e9f41c6a82668e3628e74a0">SPI-s (ranging between 0 and 50) encompasses the average plaque severity and the extent of the lesions in unequal body areas weighted for functionally or psychosocially important localizations. Each patient was assessed by one the two dermatologists involved in undertaking psoriasis severity assessments. proSPI-s was completed in its French validated version by the physician. saSPI-s was then completed by the patient in its Arabic version (<xref rid="R139550524783655" ref-type="bibr" id="x-cb08d5346bae">9</xref>). </p><p id="p-3f35de2ed6b9">&#x02022; Psychosocial impact component of the Simplified Psoriasis Index (SPI-p)</p><p id="paragraph-07ddf5de3ea34c9d8412121d370cd64f">The second component SPI-p measures the current impact of psoriasis on patient&#x02019;s daily life. A 10 cm visual analog scale was used allowing patients&#x02019; response to be converted to an 11-point score (0&#x02013;10).</p><p id="p-f6952ff4dcaf">&#x02022; Historical course and interventions of the Simplified Psoriasis Index&#x000a0;(SPI-i)</p><p id="paragraph-41a2088097504bd48f419cc0208ecd46">The third component SPI-i assesses the course of psoriasis and its treatments (maximum 10 points). </p></sec><sec><title id="t-c8e0d7886d4c"> Psoriasis Area and Severity Index:</title><p id="paragraph-a006ccaca8264955aee22e6016a7677f">The PASI is the most frequently used measure in clinical trials. Therefore, it is considered, despite its numerous drawbacks, as the gold standard against which to measure any new psoriasis severity scale. PASI scores (range 0 to 72) were calculated on the same occasion as proSPI-s by the same dermatologists. </p></sec><sec><title id="t-8eff74159865"> Dermatology Life Quality Index :</title><p id="paragraph-9c35de5dce614f8e9432bee2741abcbe">The DLQI was used as the reference standard for assessing psoriasis impact on quality of life during the preceding seven days. The patient was invited to complete the DLQI in its Arabic version along with saSPI-s and SPI-p.</p></sec></sec><sec><title id="t-b4ed28fa9d11">Evaluated criteria</title><p id="paragraph-fc0b2f487a8b4fa3a5beeca92ef84084">&#x02022; Criterion validity</p><p id="paragraph-48be6738628a499a9b94b26f0dcb0d44">Criterion validity is defined as the degree to which an instrument is an adequate reflection of a &#x0201c;gold standard&#x0201d;. Therefore, we compared: proSPI-s with PASI; saSPI-s with PASI; and SPI-p with DLQI.</p><p id="paragraph-61e4e2324cb94ac6ab147ea01a4aedd9">&#x02022; Construct validity</p><p id="paragraph-e83b2e35645d49ec979baf4aa2506271">Construct validity is the degree to which an instrument is consistent with other relevant metrics. In this study, we evaluated the relationships between the current severity and psychosocial impact scores. We studied the correlation between proSPI-s, saSPI-s and PASI versus DLQI and SPI-p. </p><p id="paragraph-0c6cec0fc89143d5b701ab9ce099b028">&#x02022; Response distribution</p><p id="paragraph-9c826dffab9045a388c9549d5fa91d21">Response distribution refers to whether the entire range of a scale is used. A score with a wide response distribution (lack of redundancy) is appropriate for clinical use and research. We evaluated the response distribution of proSPI-s, saSPI-s and SPIp</p><p id="paragraph-0501c64912b34a618f832f261c1c8513">&#x02022; Categorization</p><p id="paragraph-a986ced769ae4465aa5217d766b8e5cb">Categorization refers to the extent to which appropriate cutoff scores may be determined from an instrument. We aimed to use the European S3-Guidelines of severe psoriasis (PASI&#x0003e;10) to determine the proSPI&#x02013;s and saSPI&#x02013;s equivalent cutoff scores (<xref rid="R139550524783653" ref-type="bibr" id="x-fb4673f7d147">11</xref>). The DLQI-equivalent SPI-p cutoff score was determined for a significant impact on patient&#x02019;s quality of life (DLQI&#x0003e;10) based on the &#x0201c;rule of ten&#x0201d; (psoriasis is considered severe if the PASI, DLQI and/or body surface area (BSA) are greater than 10) (<xref rid="R139550524783652" ref-type="bibr" id="x-06886fb16aa4">12</xref>).</p></sec><sec><title id="t-90eb1fc4ab4c"> Statistical analysis:</title><p id="paragraph-d044078532c242c480e99c09b549fc38">Data of all included patients were analyzed using SPSS version 19 (SPSS Inc., Chicago, IL, USA). Frequencies and percentages were calculated for categorical variables. We calculated the means, standard deviations, and determined the range for quantitative variables. Shapiro-Wilk test was used to assess the normality distribution of the variables. T-test and Chi-square were respectively used for comparison of continuous or parametric variables (Mann&#x02013;Whitney and Fisher exact test when appropriated). A two-tailed Spearman's correlation test was used to analyze the relationship between SPI, PASI, and DLQI, and was expressed as good (r &#x02265; 0.80), average (0.50 &#x02264; r &#x0003c;0.80) and poor (r &#x0003c;0.50). ROC (Receiver Operating Characteristics) curve analysis was established to evaluate the sensitivity and specificity of a range of potential PASI-equivalent proSPI-s and saSPI-s and DLQI-equivalent SPI-p cutoff values. A p-value of less than 0.05 was considered significant.</p></sec></sec><sec><title id="title-d6cb4d5c4aa5411db2613d383910b030">Results</title><p id="paragraph-7c457486df7f44c0972fa3bb1cd928c2">Eighty patients were enrolled. The main clinical characteristics are summarized in <xref rid="table-wrap-a6289a3ca25641f39b69221c61072473" ref-type="table" id="x-0dcba0533243">Table 1</xref> . </p><p id="paragraph-a10b83c463c74d928be478440f977345">Median PASI score was 7.6 (mean: 9.4&#x000b1;7.2; IC95% [7.8-11]), while median DLQI score was 9 (mean: 10.2&#x000b1;5.8; IC95% [8.9-11.5]).</p><p id="paragraph-74a02467a6724bb5ac476fecf332b187">Median proSPI-s was 6 (mean: 8.1&#x000b1; 6.8, IC95%: [6.5-9.6]) while median saSPI-s was 8 (mean: 10.2&#x000b1;7.7, IC95%: [8.4 -11.9] ). Median SPI-p was 7 (mean: 6.5&#x000b1;2.7, IC95%: [5.6-6.9]). Median SPI-I was 2 (mean: 2&#x000b1;1.6, IC95%&#x000a0;: [1,6 - 2,3]).</p><sec><title id="t-66ec0f49ff72"> Criterion validity:</title><p id="paragraph-7836d1471c024ead9b26e4d2c18bb6bb">nd Figures1 to 3 <xref rid="figure-34f0b9db25ec485db0ce3b324cbd1472" ref-type="fig">Figure 1</xref>, <xref rid="figure-91ca4499f82e4841993563d710d6f352" ref-type="fig">Figure 2</xref>, <xref rid="figure-690b906eb05a4a52b67c25a8dce65760" ref-type="fig">Figure 3</xref> summarize the relationships between the severity (proSPI-s, saSPI-s) and psychological (SPI-p) components of SPI, PASI and DLQI. Both proSPI-s and saSPI-s were closely correlated with PASI (r=0.87 and r=0.7 respectively). Correlation between SPI-p and DLQI was moderate (r=0.67).</p></sec><sec><title id="t-22496374dbe8">Construct validity:</title><p id="paragraph-bde2882a10d14c878ab8bb6ae618ebc5">The self-administered severity component of SPI (saSPI-s) was moderately correlated with DLQI (r=0.5). This correlation was higher than the correlations between the professional severity component of SPI (proSPI-s) and DLQI (r=0.46). SPI-p was fairly correlated with PASI (0.33) and proSPI (0.35) (<xref rid="table-wrap-4db58eddea4d42799bf8e1924afd9cb9" ref-type="table" id="x-4eb291bd2474">Table 2</xref> ).</p></sec><sec><title id="t-c3387d15f001"> Response distribution</title><p id="paragraph-d82c2f7aeb9d4c38a46ac5f459f666e9">A low redundancy and a wide response distribution were obtained for proSPI-s, saSPI-s and SPI-p (<xref rid="figure-f5e9eedc060f4b80a074b07c06885ba7" ref-type="fig">Figure 4</xref>, <xref rid="figure-54a4b12401ad4d4b954a5e09223fe2fe" ref-type="fig">Figure 5</xref>, <xref rid="figure-63f581a5031843f79b3d61fb6817eec2" ref-type="fig">Figure 6</xref>).</p></sec><sec><title id="t-aec39e9a1b51"> Categorization</title><p id="paragraph-01c3f575730f440aabac14509d1bb5ca">The PASI-equivalent cut-off values for severe psoriasis (PASI&#x0003e;10) were 7.25 for both proSPI-s (sensitivity 84.4% and specificity 83.3%) and saSPI-s (sensitivity 87.5% and specificity 64.5%). The DLQI-equivalent cut-off value for SPI-p for significant impact on quality of life (DLQI&#x0003e;10) was 6.5 (sensitivity 76.3% and specificity 71.5%)</p></sec></sec><sec><title id="title-b64dde5806c145438d03662f33818cc1">Discussion</title><p id="paragraph-50f053117cfd4d9aa10136ff8ef81f88">This study is the first to assess both the French and the Arabic version of SPI in the Tunisian population and has demonstrated its reliability. Outcome measures for psoriasis are numerous. Spuls et al conducted a systematic review to evaluate the quality of 53 separate clinical measures of psoriasis including PASI and concluded that none of these clinical measures met all the validation criteria essential for an ideal score (<xref rid="R139550524784199" ref-type="bibr" id="x-d7b1a2e412a0">13</xref> ). An ideal tool should reliably reflect disease severity, reduce interrater and interrater variability, detect minimal change associated with response to treatment (responsiveness), and be easy and suitable for clinical practice (<xref rid="R139550524784215" ref-type="bibr" id="x-882222e61036">14</xref>). PASI is associated with substantial inter- and intra-rater variability since it requires a professional to estimate the percentage of BSA involvement, which is notoriously inaccurate (<xref rid="R139550524784217" ref-type="bibr" id="x-2655084ae652">15</xref>). SPI-s, on the other hand, dispenses with the need to estimate BSA and assesses psoriatic involvement in 10 unequal areas weighted to reflect disease impact in functionally or psychosocially important areas (scalp, face, hands, feet and anogenital skin). Several studies have demonstrated that PASI, proSPI-s, and saSPI-s are well correlated (<xref rid="R139550524783656" ref-type="bibr">5</xref>, <xref rid="R139550524784152" ref-type="bibr">7</xref>, <xref rid="R139550524783659" ref-type="bibr">8</xref> ,<xref rid="R139550524783660" ref-type="bibr">16</xref>, <xref rid="R139550524783665" ref-type="bibr">17</xref>) (<xref rid="table-wrap-4c3314e2176b4fcda6a43637fcbb90b3" ref-type="table" id="x-1f6f1e18b497">Table 3</xref>). Given the different measurement techniques, a perfect correlation between both proSPI-s and saSPI-s and PASI cannot be expected or, indeed, desired. These findings are consistent with our results. Therefore, the Arabic version of SPI can be considered a reliable severity measure for psoriasis and could be used for both research and routine clinical practice. </p><p id="paragraph-1cb34dc0678b44faa4cde89311cfd9a3">In our study, the correlation between SPI-p and DLQI was satisfactory, which was consistent with previously published studies (<xref rid="R139550524783656" ref-type="bibr">5</xref>, <xref rid="R139550524784152" ref-type="bibr">7</xref>, <xref rid="R139550524783659" ref-type="bibr">8</xref>, <xref rid="R139550524783660" ref-type="bibr">16</xref>, <xref rid="R139550524783665" ref-type="bibr">17</xref> ) (<xref rid="table-wrap-4c3314e2176b4fcda6a43637fcbb90b3" ref-type="table" id="x-e694d48260a9">Table 3</xref> ). Interestingly, saSPI-s was more closely correlated with SPI-p and DLQI than the professional severity measures (proSPI-s and PASI). This highlights the differences in perspectives on disease severity between healthcare professionals and patients respectively. saSPI-s provides valuable insight into the patients&#x02019; perceptions of their disease. Therefore, proSPI-s and saSPI-s should be considered complementary. Integration of the patient's self-assessment into routine practice could improve the quality of care and contribute to better compliance with treatment.</p><p id="paragraph-9af57caeb64644fea22a858dac23e635">In our study, patients and healthcare professionals were invited to complete the SPI-s without a photographic image key illustrating grades of psoriasis severity. Our decision was motivated to reproduce realistic circumstances of using SPI in routine clinical practice. </p><p id="paragraph-ea6f85aab2134a4397bb33a911011ec0">Although an attempt was made to avoid methodological shortcomings, some limitations need to be taken into account. The first is the use of PASI as an anchor against which to evaluate any new psoriasis severity measure. Despite its numerous drawbacks, PASI is the most frequently used instrument in clinical trials therefore is considered arguably a &#x0201c;gold standard&#x0201d;. Second, data were collected from a specific group of fairly well-educated patients and cannot be generalized easily to the psoriasis population. </p><p id="paragraph-e2397d9deac84b86aa787135c8c36737">In conclusion, we demonstrated the utility of the use of the Arabic version of SPI routine clinical assessment of psoriasis patients. SPI allows the possibility of evaluating the severity of psoriasis, its psychosocial impact, and the history of the disease and interventions, thereby dispensing with the need to use several clinical tools. It was found to be simple to administer and to interpret. Psoriasis could be considered severe if proSPI-s&#x0003e;7.25 or saSPI-s&#x0003e;7.25 with significant impact on quality of life if SPI-p&#x0003e;6.5. Further studies exploring the responsiveness to change of SPI in our population are useful to confirm the place of SPI in the routine clinical management of psoriasis.</p><table-wrap position="float" id="table-wrap-a6289a3ca25641f39b69221c61072473"><caption id="caption-329ed80a47bb450794a5bc8ad825d86a"><title id="title-7f99fdbcab6e4da8b77a8358f881e96a">Table 1: Summary of the clinical and therapeutic data and severity measures of included patients</title></caption><table frame="hsides" rules="rows" id="table-0d06920be3e147758a64a83c5fcbfe2f"><thead id="table-section-da607c5730c44174bb9e5b643a2b3828"><tr id="table-row-5bba0748baaa4d25be139b2387d30c36"><th id="table-cell-719ebe9e4c7640a29db734525c07a017" colspan="2" align="left" rowspan="1">
+<p id="paragraph-c4f0180cade84467800abfbf6bfe55eb"> Item</p>
+</th><th id="table-cell-89acbe60019b4a948e2a7c245e7bfd96" align="left" rowspan="1" colspan="1">
+<p id="paragraph-67cd691f8ca7468992e09b184da78f1f"> values</p>
+</th></tr><tr id="table-row-4fed83bdc2204a20baaa4a8b4fbeb44e"><th id="table-cell-434a76ed3fcc4281a2dc9ac5c1fda64a" colspan="2" align="left" rowspan="1">
+<p id="paragraph-afe9d9e94bde49c88fc80eb64f1784c3"> Age in years (median&#x000a0;; range)</p>
+</th><th id="table-cell-1e7aaf5d5b7e41c5b6774df32143234c" align="left" rowspan="1" colspan="1">
+<p id="paragraph-8a7805158b524094bf61f401ff807b45"> 42.2 (18-80)</p>
+</th></tr><tr id="table-row-88f30346b6684941b36663968e10206d"><th id="table-cell-38d6cdb82dde44218d7abc23cd9a2144" colspan="2" align="left" rowspan="1">
+<p id="paragraph-3d93aefc896c4cf3889fd1c55f795cd7"> Age at the onset of the disease in years (median&#x000a0;; range)</p>
+</th><th id="table-cell-500b9957a6ab467e81507490b651931e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-9b9da6ba9f7e474bb21ff35c3a2ab8ac"> 35.5 (1-78)</p>
+</th></tr><tr id="table-row-96d7c203fbad40fda6333d8835069fc3"><th id="table-cell-9c92301f0830458a96ac2b86175660c5" rowspan="2" align="left" colspan="1">
+<p id="paragraph-e97b947713ae420d8fb99bee66e4c4b0"> Sex</p>
+</th><th id="table-cell-da5e80516b88454f8419bd7053782a09" align="left" rowspan="1" colspan="1">
+<p id="paragraph-60d725d7d5024acbb03f9c4d930eccd2"> M</p>
+</th><th id="table-cell-dad5a0311c3c46f8be9e5b9bca229e1e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-441d248ddda34b4c898c723283831107"> 46 (57.5%)</p>
+</th></tr><tr id="table-row-57148ec822774ef488680a21dd62e9c1"><th id="table-cell-9388daca30fd4b7fbec5c29894e627b0" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5f9ffc63e11f46a78c7b05c64f1bdcb4"> F</p>
+</th><th id="table-cell-d5af5b6d83464ebbb41a3315a14cdeef" align="left" rowspan="1" colspan="1">
+<p id="paragraph-092516b92379460ab075a24354e6ce12"> 34 (42.5%)</p>
+</th></tr><tr id="table-row-9e502f7fd7b44012a4901dc846ff0abd"><th id="table-cell-0cf995e7922f4bac80f79b6e1b927e21" align="left" rowspan="1" colspan="1">
+<p id="paragraph-13d2d64afd104fde854e7056b6b4e380"> Family history of psoriasis</p>
+</th><th id="table-cell-42d620f470c046f4852b36f773b01237" align="left" rowspan="1" colspan="1"/><th id="table-cell-2eec3e6faad943f78ae6aca830e32086" align="left" rowspan="1" colspan="1">
+<p id="paragraph-be9af2713ef2471f8a849d7f63467629"> 26 (32.5%)</p>
+</th></tr><tr id="table-row-36b807b55b57482ba0605edc0ad97ad3"><th id="table-cell-310445604c0540249fb2266d31df1d8d" rowspan="9" align="left" colspan="1">
+<p id="paragraph-a0b964e87f044b6482d59ddb8c5574d3"> Cutaneous involvement </p>
+</th><th id="table-cell-e85f5d563a314d3c9fb26b3d4d08d19b" align="left" rowspan="1" colspan="1">
+<p id="paragraph-70f6f6b9886744bcbaf9e9aac1554f59"> Face (n,%)</p>
+</th><th id="table-cell-38365bec67b7418e937abae8dd18eab0" align="left" rowspan="1" colspan="1">
+<p id="paragraph-764c402b081946f8b3483b24c8da18c1"> 15 (18.8%)</p>
+</th></tr><tr id="table-row-a27d98b440cd4e17a11dc5c744f8ca5d"><th id="table-cell-9c0ff54c809e4b23b2b55bdd0f140602" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e9e9c8dc04a6485d96ff52deabafab45"> Scalp (n,%)</p>
+</th><th id="table-cell-6b2ac06da3d544f8952284bb8bc46e5f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-759ba6f436e74ba3a5398610f02b690a"> 53 (66.3%)</p>
+</th></tr><tr id="table-row-c7bac27143ef4095a9b792c0c8dacc7d"><th id="table-cell-6e70f875b62f4c5db3401608d74a56be" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c7ad552b241b4efbaaca5c01c76e3cac"> Trunk (n,%)</p>
+</th><th id="table-cell-a4e40235d79b4f8083a1115c71bfc8eb" align="left" rowspan="1" colspan="1">
+<p id="paragraph-93571f96d84b46b1b2277f83ecf6d319"> 61 (76.3%)</p>
+</th></tr><tr id="table-row-46412459ef0e46e8be813554db8cd550"><th id="table-cell-d2b68b9f2a2447c4aca26060cec70bbd" align="left" rowspan="1" colspan="1">
+<p id="paragraph-225638924178477dbab3a9c68719fafc"> Upper limbs (n,%)</p>
+</th><th id="table-cell-b3a10d84f92c4346b6d66c7a39a64a8b" align="left" rowspan="1" colspan="1">
+<p id="paragraph-f497c56fcf234d6ab359edf481108d42"> 67 (83.8%)</p>
+</th></tr><tr id="table-row-a20ecbe5c240430696b703de753c6003"><th id="table-cell-4370a8b4a2c8421fa0fb66b76e38dcc8" align="left" rowspan="1" colspan="1">
+<p id="paragraph-f94f63cf79c24e2890c2cf80799d4412"> Lower limbs (n,%)</p>
+</th><th id="table-cell-cc109bdb66474614987cfcd4a8167278" align="left" rowspan="1" colspan="1">
+<p id="paragraph-4f230dd6b86e4359a659b6be81d99a26"> 67 (83.8%)</p>
+</th></tr><tr id="table-row-882590d465314f7f8366dece5190178e"><th id="table-cell-01465ca7980341ddb7f8e3c066156e71" align="left" rowspan="1" colspan="1">
+<p id="paragraph-d566b630ef304a32afcc595a254657a3"> EGO (n,%)</p>
+</th><th id="table-cell-00d9321ab2f74e2982a05638447a0966" align="left" rowspan="1" colspan="1">
+<p id="paragraph-891c4857c2774946955b6ed12f59a78d"> 18 (22.5%)</p>
+</th></tr><tr id="table-row-2d30a36b43c640489e749019798a2e3e"><th id="table-cell-772277e2b8d54ad4ae90c349bf8b8179" align="left" rowspan="1" colspan="1">
+<p id="paragraph-254671d0a7244fb58f655a5b4ffb6c19"> Hands (n,%)</p>
+</th><th id="table-cell-cfe0a1734fc84a10a4f0c0d979391c68" align="left" rowspan="1" colspan="1">
+<p id="paragraph-363ae7e758ec49c790e5f7d973621931"> 27 (33.8%)</p>
+</th></tr><tr id="table-row-23eaf10afe4942559efc80296bf75dfe"><th id="table-cell-6327706918d040b59592c59c365313f6" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a2440c53635f4da7bbc9be29348de1cb"> Feet (n,%)</p>
+</th><th id="table-cell-25cba73bbab149a19b36561c2913c1d4" align="left" rowspan="1" colspan="1">
+<p id="paragraph-cb836321b90c49da8d1a38b1666ad0b3"> 28 (35.0%)</p>
+</th></tr><tr id="table-row-a7cb44781b3b43aabde4d7a3ffbcba7c"><th id="table-cell-600d867f12dc4e3681617f4a3e1d01ef" align="left" rowspan="1" colspan="1"/><th id="table-cell-2ef88d51d4db47dc8402bdcda30bbf82" align="left" rowspan="1" colspan="1"/></tr><tr id="table-row-d164d33e46a8416abb5cf5d8ba574ef8"><th id="table-cell-b57d787d0e8f4d448619c0107c9ff017" align="left" rowspan="1" colspan="1">
+<p id="paragraph-bd05ff5ec93a412d96e25183beaddde2"> PASI (median&#x000a0;; range)</p>
+</th><th id="table-cell-7095d1195afd4bd68c9930abb4b968a0" align="left" rowspan="1" colspan="1"/><th id="table-cell-31754ae63ea14feda3620062e904ed3e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-433ea8d87f134a4b8be2e3c1952a6248"> 7.6 (range&#x000a0;: 1.2-42)</p>
+</th></tr><tr id="table-row-728207541574411a947b6ec22f992f50"><th id="table-cell-9039d5056a474850b4ac5bd2e34c4619" align="left" rowspan="1" colspan="1">
+<p id="paragraph-b698d6d6d7224706ba926a514a61f119"> DLQI (median&#x000a0;; range)</p>
+</th><th id="table-cell-7a7b45e20b434f7183ff3bc2369f0cf5" align="left" rowspan="1" colspan="1"/><th id="table-cell-89b5623f11b24a75b6d09d414eb32676" align="left" rowspan="1" colspan="1">
+<p id="paragraph-13ee4885aaa146f6a2efa281c7aa15cd"> 9 (range: 1-28)</p>
+</th></tr><tr id="table-row-d6b16fc23b9a4b32a7b6c6ac472fa89e"><th id="table-cell-1a799a7dd64c496fbcf6bbbfb8850a86" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e5dce3cfacdb42b7b24f75718b783393"> proSPI-s (median&#x000a0;; range)</p>
+</th><th id="table-cell-26eedf1fb0c74bf4aae2c13a8362c461" align="left" rowspan="1" colspan="1"/><th id="table-cell-762fee99ed4c4beaa12340db53f41ba3" align="left" rowspan="1" colspan="1">
+<p id="paragraph-78e3df55c21047d99cf3a0dab7e4973c"> 6 (range: 1-36)</p>
+</th></tr><tr id="table-row-24537a48796142be860a6b434470d36d"><th id="table-cell-8fd6ce7922f445d4b344d849e3bc9ad2" align="left" rowspan="1" colspan="1">
+<p id="paragraph-65924e7c7d3e4f59bbe8fc770027a57b"> saSPI-s (median&#x000a0;; range)</p>
+</th><th id="table-cell-a8d8b1e896404bc0bec90ddd3f774f33" align="left" rowspan="1" colspan="1"/><th id="table-cell-c5fecd14de9a494fbff8816f291bc4f3" align="left" rowspan="1" colspan="1">
+<p id="paragraph-01adfc31c3c84b749470ec8250d175b8"> 8 (range: 1-36)</p>
+</th></tr><tr id="table-row-70b9ca56ff7d4c6e935dc4cbd8042ac4"><th id="table-cell-38442ae90d7147b9882fc53b753f2a8e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-fe9f8a8c3ac647138b6c3bbabcd27d0e"> SPI-p (median&#x000a0;; range)</p>
+</th><th id="table-cell-d3ef4134c7ab4ec0a7168e47b497db7a" align="left" rowspan="1" colspan="1"/><th id="table-cell-32d009bdb0e54819b9d5c13009c2c53d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a11ae513987f4604bfdd8a3a18a8d041"> 7 (range&#x000a0;: 0-10)</p>
+</th></tr><tr id="table-row-f7850276fcbf4a2eb6006b24c912b84f"><th id="table-cell-b615cfbb52da469083ff20fa88cc3f62" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c36656a4f0af481eb5240c39190d987b"> SPI-I (median&#x000a0;; range)</p>
+</th><th id="table-cell-81906b1202f649ff8a6344001c2b8521" align="left" rowspan="1" colspan="1"/><th id="table-cell-2a1511ecd2154260948988c62078c60f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5adbad0b4b89418c9b66a3746fc9723e"> 2 (range: 0-7)</p>
+</th></tr></thead><tbody id="table-section-ebde9f7678034e6ebbe9de3723c207e1"><tr id="table-row-f03e399c33574ad286adeab92cdc96f0"><td id="table-cell-484b9d09e55d44fbb641821e674645bd" align="left" rowspan="1" colspan="1"/><td id="table-cell-62aeaef85ae54ee789cf2098afb8d806" align="left" rowspan="1" colspan="1"/><td id="table-cell-42cca615eae845fea550a29686d63e12" align="left" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="f-a484f5b968bc"><p id="p-91c3b735e5c8">F: Female; EGO: External genital organs; M: male; n: number of patients; SD: standard deviation</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="table-wrap-4db58eddea4d42799bf8e1924afd9cb9"><caption id="caption-c24d07d2d06e44e394ba55d4fd76aa63"><title id="title-13e86529a299446fb1ac95469aace25e">Table 2 : The correlation between the severity components of the professional Simplified Psoriasis Index (proSPI-s and SaSPI-s), Psoriasis Area and Severity Index (PASI), Dermatology Life Quality Index (DLQI) and the psychosocial impact component of the Simplified Psoriasis Index (SPI-p) in 80 adult patients with plaque type psoriasis</title></caption><table frame="hsides" rules="rows" id="table-c030ba6dbb414a9982192e26d7d1d068"><tbody id="table-section-ac6ab9c021e946d9909ae57d26d9d09c"><tr id="table-row-3d0e1e0b85c54050ac2f2f27eb9d8404"><td id="table-cell-2d457cad429248f1a743c0d1c67169e0" align="left" rowspan="1" colspan="1"/><td id="table-cell-cfccfc619e434b258d5fc745223bb767" align="left" rowspan="1" colspan="1">
+<p id="paragraph-b43a53f6652d4f3fa03e1a8e560eff0f"> proSPI-s</p>
+</td><td id="table-cell-2ea27a97d844435e9a737cbf79b9366e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a736b3f6562e4c71a46d17dfddd61ba5"> saSPI-s</p>
+</td><td id="table-cell-62fd45d8e17d450fbcdf4a95ee843904" align="left" rowspan="1" colspan="1">
+<p id="paragraph-4836a10de92a4c70a6e3ee2dad44df4d"> PASI</p>
+</td><td id="table-cell-095239af1cd34aff96fdc2a1f48e7a2a" align="left" rowspan="1" colspan="1">
+<p id="paragraph-fea3b03789544bd7aad36fc7d7b65a14"> SPI-p</p>
+</td><td id="table-cell-e8e9fea0e83c4ca698cfd1d5151b313f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-ef358a03512d45a6b6dccbb7e0cd7e67"> DLQI</p>
+</td></tr><tr id="table-row-f836dfdf84984df18142e0094d55260d"><td id="table-cell-ac1af57da8a74ccf9522c00402efba69" align="left" rowspan="1" colspan="1">
+<p id="paragraph-b71a9300ba0e4a218adb457c180cb87c"> proSPI-s</p>
+</td><td id="table-cell-2ce706cc0d2b4eedaa95a5f8c64183fc" align="left" rowspan="1" colspan="1">
+<p id="paragraph-df9948aaf5bd4fdf8931ac234e19e9d5"> -</p>
+</td><td id="table-cell-930f3a2e9ffd4b3f8842221ef5853888" align="left" rowspan="1" colspan="1">
+<p id="paragraph-3aec0e431497468d9d84bdf75ebb9f71">
+<bold id="strong-b28aa4cd0d2841fd8e9a86131f3489f8">0.82</bold>
+</p>
+</td><td id="table-cell-52575139bd4342bca3ff0ebc395dc471" align="left" rowspan="1" colspan="1">
+<p id="paragraph-8e40368103f4427483e316cc6ecc9791">
+<bold id="strong-e248d6d0323f4507a2109feb557ce9a0">0.87</bold>
+</p>
+</td><td id="table-cell-d1f8b8ef090748479e35a866f4cf7d8f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-18e01eca50dc44658275ebb0f9d1e900"> 0.35</p>
+</td><td id="table-cell-663a509555b94326bc35b8f5dc90b5b5" align="left" rowspan="1" colspan="1">
+<p id="paragraph-598c190814a54f76a71b74eafa3e6c33"> 0.46</p>
+</td></tr><tr id="table-row-0d2e9d146e54419ea76521d2e91634c1"><td id="table-cell-cd0b23d2b61443e68a39e2af3b9d9c55" align="left" rowspan="1" colspan="1">
+<p id="paragraph-9f8e42453a8542d4a2984570003303fb"> saSPI-s</p>
+</td><td id="table-cell-78cf9de666a74fc3bdcd04fe018df06d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-d35201158c924c1aa2525326d937426a">
+<bold id="strong-03e4e7d77c1d40a9bfccfe122f2a7868">0.82</bold>
+</p>
+</td><td id="table-cell-b301a06589be464c9ae9d3a318854b55" align="left" rowspan="1" colspan="1">
+<p id="paragraph-27d235f3e60d4f0f8827d06549985e78"> -</p>
+</td><td id="table-cell-77f5b6840c7840c4b941d0c97920b4b0" align="left" rowspan="1" colspan="1">
+<p id="paragraph-27a62117f8c545a0a682617a79143cb8">
+<bold id="strong-1b269700308146d48193dfca9e8790f1">0.70</bold>
+</p>
+</td><td id="table-cell-fe87479dbfbc434c8531f0ef1cdad52f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-eece0677d4e14a85b49b22e8afc3a1cf"> 0.45</p>
+</td><td id="table-cell-687b9748989340c9a9379ef4932a6436" align="left" rowspan="1" colspan="1">
+<p id="paragraph-38e107ff6634461ea5f8be14afac98e9"> 0.50</p>
+</td></tr><tr id="table-row-249148d01fd54c8f81f674ebcda3b517"><td id="table-cell-2682893aa89c414ab3d2f6cf2c48dc3f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-8d8c631c082d4c8c8dda568e04cd4ea3"> PASI</p>
+</td><td id="table-cell-c4bacd32a8f34c47a7b186b17258c929" align="left" rowspan="1" colspan="1">
+<p id="paragraph-65af554b1e0740ecafc0456e9d2782cb">
+<bold id="strong-e91d4b97b88f4523bd20ad5c283cd654">0.87</bold>
+</p>
+</td><td id="table-cell-c38cd164586e44dd98b9c6dc801fac6d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-eb1c0ac8990a4e4dbd3b462dcb1ca55a">
+<bold id="strong-4065bc2999c04977a728558bbc8dcc7c">0.70</bold>
+</p>
+</td><td id="table-cell-ca07fc827cf44153b7cd3a9899b28f35" align="left" rowspan="1" colspan="1">
+<p id="paragraph-0663f4f482ed4fdbaac1bfb259f49f70"> -</p>
+</td><td id="table-cell-00a8a822e464460fb913dfb8bdc36e48" align="left" rowspan="1" colspan="1">
+<p id="paragraph-1e0ee2a6ae314b99ba6f1a8439769e82"> 0.33</p>
+</td><td id="table-cell-0b50b6560c524bc9970e7f8c284ecb16" align="left" rowspan="1" colspan="1">
+<p id="paragraph-610946a7e22f4bbea0737fb04bb18472"> 0.45</p>
+</td></tr><tr id="table-row-f9ad3dc20e6948deb3e711e7d5040350"><td id="table-cell-0b273eb28e254304a29bad693f0095af" align="left" rowspan="1" colspan="1">
+<p id="paragraph-fd79d03bb6474f22a62e914f2fb7115d"> SPI-p</p>
+</td><td id="table-cell-88f4950a5ec14bc5b0c6c909dbfed290" align="left" rowspan="1" colspan="1">
+<p id="paragraph-b649f331c71a433aa55bbf2634e5a520"> 0.35</p>
+</td><td id="table-cell-3da5c3b6cc864154b586e58cfdff4342" align="left" rowspan="1" colspan="1">
+<p id="paragraph-829051e6d6414a1d963df82c21aa6ba3"> 0.45</p>
+</td><td id="table-cell-66c8c917d5df41e1abbd529fd32ac121" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5aefee5d5c424156b5f3fcb8323ded08"> 0.33</p>
+</td><td id="table-cell-b6d06147c6944e51bb436e81cf254166" align="left" rowspan="1" colspan="1">
+<p id="paragraph-2de8adec9d434fddbe3aafa0bc8995c4"> -</p>
+</td><td id="table-cell-4c9c2f8c7e544b86a076febe98b94242" align="left" rowspan="1" colspan="1">
+<p id="paragraph-60e25021121d418a95b0a9cc1ac2f16d">
+<bold id="strong-d8a3a1fa78b549f999d850711773914e">0.67</bold>
+</p>
+</td></tr><tr id="table-row-abe11c2e205f4a41b88f092ac5febfaf"><td id="table-cell-2417c9b79b8f488293fa9d58f1f36adb" align="left" rowspan="1" colspan="1">
+<p id="paragraph-9624192a933b4b3383140d95da80eb12"> DLQI</p>
+</td><td id="table-cell-8fddbfe52ca1495a99a58e6a5b1cda62" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e49ad9daa20e4932ab0c025cc939f4d0"> 0.46</p>
+</td><td id="table-cell-f95c0f755c334306acd365cd30074d28" align="left" rowspan="1" colspan="1">
+<p id="paragraph-11d6f287a1034ef6a144ef185522783e"> 0.50</p>
+</td><td id="table-cell-422b77f61fdb446ca5de45f70fcdee99" align="left" rowspan="1" colspan="1">
+<p id="paragraph-079b193a4e37441e953b15bf567afb0c"> 0.45</p>
+</td><td id="table-cell-92669423023047fe999292d7be9b99c1" align="left" rowspan="1" colspan="1">
+<p id="paragraph-12edeea6d2b14f4fa09da2288fa9300f">
+<bold id="strong-a8cd832bb00948278b65db2ad7b6e7f0">0.67</bold>
+</p>
+</td><td id="table-cell-45a35ca9d80c46e6b913bfd5754b889a" align="left" rowspan="1" colspan="1">
+<p id="paragraph-cead48a8fdc3452785a48339c08511f7"> -</p>
+</td></tr></tbody></table></table-wrap><table-wrap position="float" id="table-wrap-4c3314e2176b4fcda6a43637fcbb90b3"><caption id="caption-e548ad36121d49a495f2cafcc0e6e3a7"><title id="title-9ae449b99faf429aa363bb704346e15a">Table 3 : Summary of studies evaluating the correlations between the Simplified Psoriasis Index (SPI), the Psoriasis Area and Severity Index (PASI) and the Dermatology Life Quality Index (DLQI)</title></caption><table frame="hsides" rules="rows" id="table-eae68d784e2b4363a701e628cef2e7d4"><tbody id="table-section-dda981901a2445259d2ad023ac6638d4"><tr id="table-row-a2f1a485d9284ca1bb6b49df3845b12c"><td id="table-cell-272f13a71f124e3bb20a4d36b5d23699" align="left" rowspan="1" colspan="1">
+<p id="paragraph-1a32194515de4ff895b5837d9ae1ac9a"> Studies</p>
+</td><td id="table-cell-d51e7c2873f742b89a9317d284408ae0" align="left" rowspan="1" colspan="1">
+<p id="paragraph-e00f241c098748b4836f8dfdc9731d92"> N</p>
+</td><td id="table-cell-92b5713db03343f4aa7ec324aa523732" align="left" rowspan="1" colspan="1">
+<p id="paragraph-123c906202ed4aeaaca76ef610789001"> Correlation between proSPI-s and PASI*</p>
+</td><td id="table-cell-6c11e104d7cd47978d9ab8b9b75c34e8" align="left" rowspan="1" colspan="1">
+<p id="paragraph-78ac6e7247324780be4f0154771eccd1"> Correlation between saSPI-s and PASI*</p>
+</td><td id="table-cell-07a369d15f3a471795d79749a5198210" align="left" rowspan="1" colspan="1">
+<p id="paragraph-0c9057a3c5324dd8b4eaab543a8788c6"> Correlation between saSPI-s and proSPI-s*</p>
+</td><td id="table-cell-4f6d714bbec340279c0e7d62daf4409b" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c6c4a491cc82405f9caeed030a411d7f"> Correlation between SPI-p and DLQI</p>
+</td></tr><tr id="table-row-53b5c2a49da94ab086361bcc35af325a"><td id="table-cell-309dbcb13ac14e7ca430698aaba727e3" align="left" rowspan="1" colspan="1">
+<p id="paragraph-645bafb44a6c454a8e7bf4dc216d65d1"> Chularojanamontri, 2013 (United kingdom)</p>
+</td><td id="table-cell-f11f25db963e42a9b3ce265c5474316e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-d8d9828ed86a4066ad0dea49e65847d1"> 150</p>
+</td><td id="table-cell-34cc49e5d6fd411384d13aee816406e6" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a93e43abc6054ab78a389befc8e04ead"> 0.91</p>
+</td><td id="table-cell-a6bf10f456124ec48f0dfaafec14a04d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-dfd1736d791c456aa34c9e019b34e0f4"> 0.70</p>
+</td><td id="table-cell-d429d57eeabb48af9d9b505033c28741" align="left" rowspan="1" colspan="1">
+<p id="paragraph-dfa6fb124b2a440c85a934e1a66a0a6e"> 0.70</p>
+</td><td id="table-cell-053c1824511d48dd8349ce9d42aef29c" align="left" rowspan="1" colspan="1">
+<p id="paragraph-0d588282bacc45078d8a9b2a9861025b"> 0.89</p>
+</td></tr><tr id="table-row-056e867aa45e4cd5a2090766730130af"><td id="table-cell-8a57920d72054b3dbf393d56375083fa" align="left" rowspan="1" colspan="1">
+<p id="paragraph-3725a49a3dc04585b401a85dbca31b36"> Chularojanamontri, 2014 (United Kingdom) </p>
+</td><td id="table-cell-0a3644ed7eb34568b9ae6988b7a913f2" align="left" rowspan="1" colspan="1">
+<p id="paragraph-baa4d8c7dd994bab8bc84f335d971749"> 100</p>
+</td><td id="table-cell-e6dc0cfceef74e7e8b2c6beb43cfe464" align="left" rowspan="1" colspan="1">
+<p id="paragraph-75d2626ca08f435bbdcdcbdb4dc46b45"> 0.79</p>
+</td><td id="table-cell-2a38c9b09aff42598198fc4c8b3b3c00" align="left" rowspan="1" colspan="1">
+<p id="paragraph-88c9f328583846b3be0af941b65a4ec4"> 0.57</p>
+</td><td id="table-cell-0b8cf0ac731f45079e5fc0e71b54c8fe" align="left" rowspan="1" colspan="1">
+<p id="paragraph-b11d049572ab4996b05ef78323b36443"> 0.68</p>
+</td><td id="table-cell-5426ca78a6ab4d1e9b5c6035cd2ef610" align="left" rowspan="1" colspan="1">
+<p id="paragraph-b9091d3044404ba89524dca4e1e14874"> -</p>
+</td></tr><tr id="table-row-588c7ed0f88340369d3b10194da25cef"><td id="table-cell-1a497fcc0c6d489f8ea0cdad21feba89" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5e498199d72e4873850c99685ad654f0"> Vangeel, 2016 (Netherlands) </p>
+</td><td id="table-cell-253e052c627c452e85d1bfb4b06eadea" align="left" rowspan="1" colspan="1">
+<p id="paragraph-7e5730ece18646c18b0229a2266d2e84"> 113</p>
+</td><td id="table-cell-30a7092b369041fcbd975704e1131e12" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c933311358d749d6b572f618e6803150"> 0.87</p>
+</td><td id="table-cell-36566ff52abd48d3a23a05f5de96eb24" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c0bf3d98bfa547ecbffe783f91f61808"> 0.69</p>
+</td><td id="table-cell-22ce2b5a49c94089ba77e74adbc70c38" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a55cc63e69e8444292472b9c18fd5079"> 0.68</p>
+</td><td id="table-cell-a9a57cecb33249dbb95d1f7344af061d" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c57486586c4048d8a8598330d31da4a7"> 0.78</p>
+</td></tr><tr id="table-row-1ee0e48d665d476ba8ba52a05d5e41a6"><td id="table-cell-8f365177951047da97efe9ea461d131c" align="left" rowspan="1" colspan="1">
+<p id="paragraph-d94ad0431df24e24993c321e948aacae"> Meah, 2016 (United Kingdom) </p>
+</td><td id="table-cell-a462e06ddab64b9e8e126b6667dcf8cb" align="left" rowspan="1" colspan="1">
+<p id="paragraph-21b76caab65b46a9a067c65b30f3be0a"> 100</p>
+</td><td id="table-cell-bc4f67b87c574663bd13baa61efc07e7" align="left" rowspan="1" colspan="1">
+<p id="paragraph-5faed1b8e0404363ac44a44cc4c051d7"> 0.76</p>
+</td><td id="table-cell-3dfae81be94347f8912f7281300b9b72" align="left" rowspan="1" colspan="1">
+<p id="paragraph-70ad7bc743d84d12b05818e760a627ba"> 0.39</p>
+</td><td id="table-cell-3a65396b28354f73ade7f715dc8bca4f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-148d098cc4e349e3bc8ca63a9d100aee"> 0.42</p>
+</td><td id="table-cell-b2f02e10d73940fc9ae840b5cef4008f" align="left" rowspan="1" colspan="1">
+<p id="paragraph-0901bc0df3fc46f3a2b426909b930b6f"> 0.64</p>
+</td></tr><tr id="table-row-eac2e1eed0b0475dae2037518f71f4d1"><td id="table-cell-87f57405bd534a9abd10150db744d3ce" align="left" rowspan="1" colspan="1">
+<p id="paragraph-803c29ea15ce4feeb1f1f63e593be8af"> Morais, 2018 (Brasil)</p>
+</td><td id="table-cell-6d4f0f9685ad4227a4656ea551c9f0be" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a8de48cd19684dfe8e4a4cb4844173ad"> 62</p>
+</td><td id="table-cell-8543cf002ae84a3d91743f2b9c9d7e12" align="left" rowspan="1" colspan="1">
+<p id="paragraph-c8c70baf1fa24e8abc393007ea2d7910"> 0.79</p>
+</td><td id="table-cell-014c2f3250e44e3889b3f0f910a08938" align="left" rowspan="1" colspan="1">
+<p id="paragraph-501132902a754f1bb48256a8ead9b57c"> 0.66</p>
+</td><td id="table-cell-e8e0b9ac0fba445386d0ad36dc385979" align="left" rowspan="1" colspan="1">
+<p id="paragraph-0d4279d0722949e9973b842066c796ca"> 0.83</p>
+</td><td id="table-cell-62d4788502414f98a046fe508012cddf" align="left" rowspan="1" colspan="1">
+<p id="paragraph-a34bed56d774455b806fd760217cf7ac"> -</p>
+</td></tr><tr id="table-row-726fca881730444e9b6617786f7247d7"><td id="table-cell-ac398878ac6949b196389c4b429590c9" align="left" rowspan="1" colspan="1">
+<p id="paragraph-80c41eeec4084d04b2cd04a1cd112cfe"> Our study</p>
+</td><td id="table-cell-c811bad78c3a44f584fd1dfe20b731b5" align="left" rowspan="1" colspan="1">
+<p id="paragraph-4310da4a498a47e6b72365e80a2c63d0"> 80</p>
+</td><td id="table-cell-05524f3534fa4e2085c3d3041b4e78c9" align="left" rowspan="1" colspan="1">
+<p id="paragraph-01f1f14b53184fca91fcbcaf09842cb3"> 0.87</p>
+</td><td id="table-cell-810b1689ec1f4c0580f8a84f66dd36fc" align="left" rowspan="1" colspan="1">
+<p id="paragraph-40e58b44a6e5432488ef4ee2ad9123c1"> 0.70</p>
+</td><td id="table-cell-73f50dcd57664dbf8d69e6308812264e" align="left" rowspan="1" colspan="1">
+<p id="paragraph-739603f3f30542a1b5512a0bcabadc9a"> 0.82</p>
+</td><td id="table-cell-766ff44e9b824e53b937f4a7543245ab" align="left" rowspan="1" colspan="1">
+<p id="paragraph-cbc8ec2a20dc444e9e61fedcc88b9ac6"> 0.67</p>
+</td></tr></tbody></table><table-wrap-foot><fn id="f-af4cb17a2feb"><p id="p-70d85911a0e3">* Spearman correlation test</p></fn></table-wrap-foot></table-wrap><fig position="float" id="figure-34f0b9db25ec485db0ce3b324cbd1472"><caption><title>Figure 1: Correlation between the professional simplified
+psoriasis index-current severity score (proSPI-s) and the
+Psoriasis Area and Severity Index (PASI).
+</title></caption><graphic xlink:href="image1" id="graphic-fe2a00964685458683d25860b197dddc" position="float"/></fig><fig position="float" id="figure-91ca4499f82e4841993563d710d6f352"><caption><title>Figure 2. Correlation between the self-assessment
+simplified psoriasis index-current severity score (proSPI-s)
+and the Psoriasis Area and Severity Index (PASI).
+</title></caption><graphic xlink:href="image2" id="graphic-c0d7ab5ba3d148b38f4d77b0aee59869" position="float"/></fig><fig position="float" id="figure-690b906eb05a4a52b67c25a8dce65760"><caption><title>Figure 3. Correlation between the simplified psoriasis indexpsychosocial impact score (SPI-p) and the Dermatology Life
+Quality Index (DLQI)
+</title></caption><graphic xlink:href="image3" id="graphic-a4c5fa8705804800808526c87ead1b86" position="float"/></fig><fig position="float" id="figure-f5e9eedc060f4b80a074b07c06885ba7"><caption id="caption-d270c24e99a348b3b5e5e41b33c609cf"><title id="title-37d5dadb20c94573a8acfd95e3fc84eb">Figure 4. Response distribution for professional simplified psoriasis
+index-current severity score (proSPI-s)</title></caption><graphic xlink:href="image4" id="graphic-3208b96b1bae492696657daee532d380" position="float"/></fig><fig position="float" id="figure-54a4b12401ad4d4b954a5e09223fe2fe"><caption id="caption-04b44d6559d54e12b164283be5c748cb"><title id="title-3b37f9a4b639422699f21ce7a7056cea">Figure 5. Response distribution for self-assessment simplified psoriasis
+index-current severity score (saSPI-s) </title></caption><graphic xlink:href="image5" id="graphic-4ac74517e2504679aae61d539b88aa7d" position="float"/></fig><fig position="float" id="figure-63f581a5031843f79b3d61fb6817eec2"><caption id="caption-b264d24c027b42f8b4a5e03a5c9ab149"><title id="title-bec9541fe02241cfbfbe504caa95c2eb">Figure 6. Response distribution of the simplified psoriasis indexpsychosocial impact score (SPI-p)</title></caption><graphic xlink:href="image6" id="graphic-b03f7e34c4614ecd9a4d38187d49a958" position="float"/></fig></sec></body><back><ref-list><title>References</title><ref id="R139550524783664"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Richard</surname><given-names>M A</given-names></name>
+<name><surname>Aractingi</surname><given-names>S</given-names></name>
+<name><surname>Joly</surname><given-names>P</given-names></name>
+</person-group><article-title>French adaptation of a new score for global assessment of psoriasis severity: The Simplified Psoriasis Index (SPI)</article-title><source>Ann Dermatol Venereol</source><year>2019</year><volume>146</volume><fpage>783</fpage><lpage>92</lpage><pub-id pub-id-type="pmid">31623858</pub-id></element-citation></ref><ref id="R139550524783937"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Finlay</surname><given-names>Andrew Yule</given-names></name>
+<name><surname>Khan</surname><given-names>GK_</given-names></name>
+</person-group><article-title>Dermatology Life Quality Index (DLQI)&#x02014;a simple practical measure for routine clinical use</article-title><source>Clinical and experimental dermatology</source><year>1994</year><volume>19</volume><issue>3</issue><fpage>210</fpage><lpage>216</lpage><publisher-name>Wiley Online Library</publisher-name><pub-id pub-id-type="pmid">8033378</pub-id></element-citation></ref><ref id="R139550524784118"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Naldi</surname><given-names>Luigi</given-names></name>
+</person-group><article-title>Scoring and monitoring the severity of psoriasis. What is the preferred method? What is the ideal method? Is PASI pass&#x000e9;? facts and controversies</article-title><source>Clinics in dermatology</source><year>2010</year><volume>28</volume><issue>1</issue><fpage>67</fpage><lpage>72</lpage><publisher-name>Elsevier</publisher-name><pub-id pub-id-type="pmid">20082954</pub-id></element-citation></ref><ref id="R139550524784119"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Hsu</surname><given-names>Sylvia</given-names></name>
+<name><surname>Papp</surname><given-names>Kim Alexander</given-names></name>
+<name><surname>Lebwohl</surname><given-names>Mark G</given-names></name>
+<name><surname>Bagel</surname><given-names>Jerry</given-names></name>
+<name><surname>Blauvelt</surname><given-names>Andrew</given-names></name>
+<name><surname>Duffin</surname><given-names>Kristina Callis</given-names></name>
+<name><surname>Crowley</surname><given-names>Jeffrey</given-names></name>
+<name><surname>Eichenfield</surname><given-names>Lawrence F</given-names></name>
+<name><surname>Feldman</surname><given-names>Steven R</given-names></name>
+<name><surname>Fiorentino</surname><given-names>David F</given-names></name>
+</person-group><article-title>Consensus guidelines for the management of plaque psoriasis</article-title><source>Archives of dermatology</source><year>2012</year><volume>148</volume><issue>1</issue><fpage>95</fpage><lpage>102</lpage><publisher-name>American Medical Association</publisher-name><pub-id pub-id-type="pmid">22250239</pub-id></element-citation></ref><ref id="R139550524783656"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Chularojanamontri</surname><given-names>Leena</given-names></name>
+<name><surname>Griffiths</surname><given-names>Christopher E.M.</given-names></name>
+<name><surname>Chalmers</surname><given-names>Robert J.G.</given-names></name>
+</person-group><article-title>The Simplified Psoriasis Index (SPI): A Practical Tool for Assessing Psoriasis</article-title><source>Journal of Investigative Dermatology</source><year>2013</year><volume>133</volume><issue>8</issue><fpage>1956</fpage><lpage>1962</lpage><issn pub-type="epub">0022-202X</issn><pub-id pub-id-type="doi">10.1038/jid.2013.138</pub-id><publisher-name>Elsevier BV</publisher-name><uri xlink:href="https://dx.doi.org/10.1038/jid.2013.138">https://dx.doi.org/10.1038/jid.2013.138</uri></element-citation></ref><ref id="R139550524783654"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Chalmers</surname><given-names>R J</given-names></name>
+</person-group><article-title>Assessing Psoriasis Severity and Outcomes for Clinical Trials and Routine Clinical Practice</article-title><source>Dermatologic Clinics</source><year>2015</year><volume>33</volume><issue>1</issue><fpage>57</fpage><lpage>71</lpage><issn pub-type="epub">0733-8635</issn><publisher-name>Elsevier BV</publisher-name><pub-id pub-id-type="pmid">25412783</pub-id></element-citation></ref><ref id="R139550524784152"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Van Geel</surname><given-names>MJ</given-names></name>
+<name><surname>Otero</surname><given-names>ME</given-names></name>
+<name><surname>de Jong</surname><given-names>EMGJ</given-names></name>
+<name><surname>van de Kerkhof</surname><given-names>PCM</given-names></name>
+<name><surname>Seyger</surname><given-names>MMB</given-names></name>
+</person-group><article-title>Validation of the Simplified Psoriasis Index in Dutch children and adolescents with plaque psoriasis</article-title><source>British Journal of Dermatology</source><year>2017</year><volume>176</volume><issue>3</issue><fpage>771</fpage><lpage>776</lpage><publisher-name>Wiley Online Library</publisher-name></element-citation></ref><ref id="R139550524783659"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Morais</surname><given-names>Marina Resener de</given-names></name>
+<name><surname>Martins</surname><given-names>Gladys Aires</given-names></name>
+<name><surname>Romiti</surname><given-names>Ricardo</given-names></name>
+<name><surname>Tonoli</surname><given-names>Renata Elise</given-names></name>
+<name><surname>Carvalho</surname><given-names>Andr&#x000e9; Vicente Esteves</given-names></name>
+</person-group><article-title>Translation and validation of the Simplified Psoriasis Index (SPI) into Brazilian Portuguese</article-title><source>Anais Brasileiros de Dermatologia</source><year>2018</year><volume>93</volume><issue>6</issue><fpage>813</fpage><lpage>818</lpage><issn pub-type="epub">1806-4841, 0365-0596</issn><pub-id pub-id-type="doi">10.1590/abd1806-4841.20186477</pub-id><publisher-name>FapUNIFESP (SciELO)</publisher-name><uri xlink:href="https://dx.doi.org/10.1590/abd1806-4841.20186477">https://dx.doi.org/10.1590/abd1806-4841.20186477</uri><pub-id pub-id-type="pmid">30484524</pub-id></element-citation></ref><ref id="R139550524783655"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Soliman</surname><given-names>M</given-names></name>
+</person-group><article-title>&#x0003c;p&#x0003e;Patient-Reported Disease Severity and Quality of Life Among Arabic Psoriatic Patients: A Cross-Sectional Survey&#x0003c;/p&#x0003e;</article-title><source>Clinical, Cosmetic and Investigational Dermatology</source><year>2020</year><volume>Volume 13</volume><fpage>601</fpage><lpage>609</lpage><publisher-name>Informa UK Limited</publisher-name></element-citation></ref><ref id="R139550524783663"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Mokkink</surname><given-names>Lidwine B</given-names></name>
+<name><surname>Terwee</surname><given-names>Caroline B</given-names></name>
+<name><surname>Knol</surname><given-names>Dirk L</given-names></name>
+<name><surname>Stratford</surname><given-names>Paul W</given-names></name>
+<name><surname>Alonso</surname><given-names>Jordi</given-names></name>
+<name><surname>Patrick</surname><given-names>Donald L</given-names></name>
+<name><surname>Bouter</surname><given-names>Lex M</given-names></name>
+<name><surname>de Vet</surname><given-names>Henrica CW</given-names></name>
+</person-group><article-title>The COSMIN checklist for evaluating the methodological quality of studies on measurement properties: A clarification of its content</article-title><source>BMC Medical Research Methodology</source><year>2010</year><volume>10</volume><issue>1</issue><fpage>22</fpage><lpage>22</lpage><issn pub-type="epub">1471-2288</issn><pub-id pub-id-type="doi">10.1186/1471-2288-10-22</pub-id><publisher-name>Springer Science and Business Media LLC</publisher-name><uri xlink:href="https://dx.doi.org/10.1186/1471-2288-10-22">https://dx.doi.org/10.1186/1471-2288-10-22</uri><pub-id pub-id-type="pmid">20298572</pub-id></element-citation></ref><ref id="R139550524783653"><element-citation publication-type="journal"><article-title>Guideline on clinical investigation of medicinal products indicated for the treatment of psoriasis [WWW document</article-title><source>European Medicines Agency</source><year>2004</year><uri xlink:href="http://www.ema.europa.eu/docs/en_GB/document_library/Scientific_guideline/2009/09/WC500003329.pdf."> http://www. ema.europa.eu/docs/en_GB/document_library/Scientific_ guideline/2009/09/WC500003329.pdf.</uri></element-citation></ref><ref id="R139550524783652"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Finlay</surname><given-names>A.Y.</given-names></name>
+</person-group><article-title>Current severe psoriasis and the Rule of Tens</article-title><source>British Journal of Dermatology</source><year>2005</year><volume>152</volume><issue>5</issue><fpage>861</fpage><lpage>867</lpage><issn pub-type="epub">0007-0963, 1365-2133</issn><pub-id pub-id-type="doi">10.1111/j.1365-2133.2005.06502.x</pub-id><publisher-name>Wiley</publisher-name><uri xlink:href="https://dx.doi.org/10.1111/j.1365-2133.2005.06502.x">https://dx.doi.org/10.1111/j.1365-2133.2005.06502.x</uri></element-citation></ref><ref id="R139550524784199"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Spuls</surname><given-names>Phyllis I</given-names></name>
+<name><surname>Lecluse</surname><given-names>Lidian LA</given-names></name>
+<name><surname>Poulsen</surname><given-names>Marie-Louise NF</given-names></name>
+<name><surname>Bos</surname><given-names>Jan D</given-names></name>
+<name><surname>Stern</surname><given-names>Robert S</given-names></name>
+<name><surname>Nijsten</surname><given-names>Tamar</given-names></name>
+</person-group><article-title>How good are clinical severity and outcome measures for psoriasis?: quantitative evaluation in a systematic review</article-title><source>Journal of Investigative Dermatology</source><year>2010</year><volume>130</volume><issue>4</issue><fpage>933</fpage><lpage>943</lpage><publisher-name>Elsevier</publisher-name></element-citation></ref><ref id="R139550524784215"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Chalmers</surname><given-names>Robert JG</given-names></name>
+</person-group><article-title>Assessing psoriasis severity and outcomes for clinical trials and routine clinical practice</article-title><source>Dermatologic clinics</source><year>2015</year><volume>33</volume><issue>1</issue><fpage>57</fpage><lpage>71</lpage><publisher-name>Elsevier</publisher-name><pub-id pub-id-type="pmid">25412783</pub-id></element-citation></ref><ref id="R139550524784217"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Ramsay</surname><given-names>B</given-names></name>
+<name><surname>Lawrence</surname><given-names>CM</given-names></name>
+</person-group><article-title>Measurement of involved surface area in patients with psoriasis</article-title><source>British Journal of Dermatology</source><year>1991</year><volume>124</volume><issue>6</issue><fpage>565</fpage><lpage>570</lpage><publisher-name>Wiley Online Library</publisher-name></element-citation></ref><ref id="R139550524783660"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Chularojanamontri</surname><given-names>Leena</given-names></name>
+<name><surname>Griffiths</surname><given-names>Christopher E.M.</given-names></name>
+<name><surname>Chalmers</surname><given-names>Robert J.G.</given-names></name>
+</person-group><article-title>Responsiveness to Change and Interpretability of the Simplified Psoriasis Index</article-title><source>Journal of Investigative Dermatology</source><year>2014</year><volume>134</volume><issue>2</issue><fpage>351</fpage><lpage>358</lpage><issn pub-type="epub">0022-202X</issn><pub-id pub-id-type="doi">10.1038/jid.2013.318</pub-id><publisher-name>Elsevier BV</publisher-name><uri xlink:href="https://dx.doi.org/10.1038/jid.2013.318">https://dx.doi.org/10.1038/jid.2013.318</uri></element-citation></ref><ref id="R139550524783665"><element-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Meah</surname><given-names>Nekma</given-names></name>
+<name><surname>Alsharqi</surname><given-names>Ali</given-names></name>
+<name><surname>Azurdia</surname><given-names>Richard M</given-names></name>
+<name><surname>Owens</surname><given-names>Lynne-Catherine C</given-names></name>
+<name><surname>Parslew</surname><given-names>Richard</given-names></name>
+<name><surname>Chularojanamontri</surname><given-names>Leena</given-names></name>
+</person-group><article-title>Assessing the validity and response distribution of the simplified psoriasis index in patients receiving phototherapy</article-title><source>Australasian Journal of Dermatology</source><year>2018</year><volume>59</volume><issue>1</issue><fpage>41</fpage><lpage>47</lpage><issn pub-type="epub">0004-8380</issn><publisher-name>Wiley</publisher-name></element-citation></ref></ref-list></back></article>

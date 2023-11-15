@@ -1,0 +1,560 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v2.3 20070202//EN" "archivearticle.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">Breast Cancer Res</journal-id><journal-title>Breast Cancer Research : BCR</journal-title><issn pub-type="ppub">1465-5411</issn><issn pub-type="epub">1465-542X</issn><publisher><publisher-name>BioMed Central</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">11056689</article-id><article-id pub-id-type="pmc">PMC13919</article-id><article-id pub-id-type="publisher-id">bcr-2-4-311</article-id><article-categories><subj-group subj-group-type="heading"><subject>Primary Research</subject></subj-group></article-categories><title-group><article-title>Characterization of fibroblast growth factor receptor 2 overexpression
+		  in the human breast cancer cell line SUM-52PE</article-title></title-group><contrib-group><contrib id="A1" contrib-type="author"><name><surname>Tannheimer</surname><given-names>Stacey L</given-names></name><xref ref-type="aff" rid="I1">1</xref></contrib><contrib id="A2" contrib-type="author"><name><surname>Rehemtulla</surname><given-names>Alnawaz</given-names></name><xref ref-type="aff" rid="I1">1</xref></contrib><contrib id="A3" contrib-type="author"><name><surname>Ethier</surname><given-names>Stephen P</given-names></name><xref ref-type="aff" rid="I1">1</xref></contrib></contrib-group><aff id="I1"><label>1</label>University of Michigan Comprehensive Cancer Center, Ann Arbor,
+				Michigan, USA.</aff><pub-date pub-type="ppub"><year>2000</year></pub-date><pub-date pub-type="epub"><day>24</day><month>5</month><year>2000</year></pub-date><volume>2</volume><issue>4</issue><fpage>311</fpage><lpage>320</lpage><ext-link ext-link-type="uri" xlink:href="http://breast-cancer-research.com/content/2/4/311"/><history><date date-type="received"><day>22</day><month>10</month><year>1999</year></date><date date-type="rev-request"><day>22</day><month>12</month><year>1999</year></date><date date-type="rev-recd"><day>3</day><month>4</month><year>2000</year></date><date date-type="accepted"><day>17</day><month>4</month><year>2000</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2000 Current Science Ltd</copyright-statement><copyright-year>2000</copyright-year><copyright-holder>Current Science Ltd</copyright-holder></permissions><abstract abstract-type="short"><p>The fibroblast growth factor receptor (FGFR)2 gene has been shown to
+			 be amplified in 5-10% of breast cancer patients. A breast cancer cell line
+			 developed in our laboratory, SUM-52PE, was shown to have a 12-fold
+			 amplification of the FGFR2 gene, and FGFR2 message was found to be
+			 overexpressed 40-fold in SUM-52PE cells as compared with normal human mammary
+			 epithelial (HME) cells. Both human breast cancer (HBC) cell lines and HME cells
+			 expressed two FGFR2 isoforms, whereas SUM-52PE cells overexpressed those two
+			 isoforms, as well as several unique FGFR2 polypeptides. SUM-52PE cells
+			 expressed exclusively FGFR2-IIIb isoforms, which are high-affinity receptors
+			 for fibroblast growth factor (FGF)-1 and FGF-7. Differences were identified in
+			 the expression of the extracellular Ig-like domains, acid box and carboxyl
+			 termini, and several variants not previously reported were isolated from these
+			 cells.</p></abstract><abstract><sec><title>Introduction:</title><p>The FGFR family of receptor tyrosine kinases includes four
+				members, all of which are highly alternatively spliced and glycosylated. For
+				FGFR2, alternative splicing of the second half of the third Ig-like domain,
+				involving exons IIIb and IIIc, is a mutually exclusive choice that affects
+				ligand binding specificity and affinity [<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref>]. It appears that the second half of
+				the third Ig-like domain can dictate high affinity for FGF-2 or keratinocyte
+				growth factor (KGF), whereas affinity for FGF-1 appears to remain the same
+				[<xref ref-type="bibr" rid="B3">3</xref>]. Alternative splicing of the carboxyl terminus has
+				been shown to involve at least two different exons that can produce at least
+				three different variants. The C1-type and C2-type carboxyl termini are encoded
+				by the same exon, and have two different splice acceptor sites, whereas the
+				C3-type carboxyl terminus is encoded by a separate exon [<xref ref-type="bibr" rid="B4">4</xref>]. The biologic significance of the C1 carboxyl terminus, as
+				compared with the shorter C3 variant found primarily in tumorigenic samples,
+				has been studied in NIH3T3 transfection assays, in which C3 variants were able
+				to produce three times more transformed foci in soft agar than C1 variants
+				(both IIIb), whereas full length FGFR2 and FGFR1 (both IIIc variants) showed no
+				transforming activity [<xref ref-type="bibr" rid="B4">4</xref>].</p><p>Previous studies [<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>]
+				have found amplification and overexpression of FGFR2 in 5-10% of primary breast
+				cancer specimens. A recent study [<xref ref-type="bibr" rid="B7">7</xref>] done using a tissue
+				array consisting of 372 primary breast cancer specimens found a 5% incidence of
+				FGFR2 amplification. To our knowledge, none of the HBC cell lines studied thus
+				far have an FGFR2 gene amplification, although overexpression of FGFR2 message
+				and protein has been documented for some breast cancer cell lines [<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref>].</p><p>SUM-52PE is a breast cancer cell line previously isolated in our
+				laboratory that grows under serum-free and epidermal growth factor-free
+				conditions, has high levels of tyrosine-phosphorylated membrane proteins, and
+				has the capacity to invade and grow under anchorage-independent conditions
+				[<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B12">12</xref>]. This cell line exhibits all of the important hallmarks of
+				transformed, highly malignant cells. Therefore, SUM-52PE was used as a model to
+				study the diversity of FGFR2 expression in a breast cancer cell line that has
+				true amplification and overexpression of FGFR2.</p></sec><sec><title>Objectives:</title><p>This study was conducted to examine the degree of FGFR2
+				amplification and overexpression in the breast cancer cell line SUM-52PE.
+				Subsequent sequencing and characterization of individual FGFR2 variants cloned
+				from the SUM-52PE cell line was completed to determine the complexity of FGFR2
+				alternative splicing in the context of a highly metastatic breast cancer cell
+				line.</p></sec><sec><title>Methods:</title><p>Southern, Northern and Western blot analyses were done in order to
+				determine the degree of FGFR2 amplification and overexpression in the breast
+				cancer cell line SUM-52PE. Individual FGFR2 variants were cloned out of
+				SUM-52PE using FGFR2-specific primers in a reverse transcription (RT)
+				polymerase chain reaction (PCR). FGFR2 cDNAs were characterized by restriction
+				fragment analysis, sequencing and transient transfection into 293 cells to
+				examine the protein expression of each FGFR2 clone.</p></sec><sec><title>Results:</title><p>The results of the Southern blot showed that there was a 12-fold
+				amplification of FGFR2 in the SUM-52PE cell line. Northern blot analysis of
+				SUM-52PE showed FGFR2 transcripts to be highly overexpressed compared with
+				other breast cancer cell lines and normal HME cells. Several overexpressed
+				bands of approximately 6.3, 5.0, 4.0, and 2.8kb were observed in SUM-52PE
+				cells. The most prominent band, at 2.8kb, was so abundant that it was difficult
+				to discern other individual bands clearly. Western blot analysis showed that
+				both normal HME and HBC cells expressed two FGFR2 variants of 95 and 135kDa.
+				The SUM-52PE cell line greatly overexpressed not only these two polypeptides,
+				as compared with HME and HBC cells, but also overexpressed two unique variants
+				of FGFR2 - 85 and 109kDa polypeptides - as well as several smaller polypeptides
+				in the 46-53kDa range. The antibody used in Western blot analysis only
+				recognizes FGFR2 isoforms that express the C1 carboxyl termini, therefore
+				greatly underestimating the actual number of different FGFR2 variants that are
+				overexpressed in this cell line.</p><p>PCR was performed to determine the proportion of C1/C2 variants as
+				compared with C3 variants in the SUM-52PE cell line. Results of this analysis
+				indicated the presence of all three types of variants in this cell line,
+				although the C1/C2 variants were predominant as compared with the C3 variants
+				in SUM-52PE.</p><p>Four different FGFR2-C1 clones were isolated and sequenced from
+				SUM-52PE cells, which differed in their signal sequence, first Ig-like loop,
+				and acid box. Two FGFR2-C2 clones were isolated from the SUM-52PE cell line,
+				which were identical to each other except for the variable expression of the
+				number of Ig-like domains (two or three). Three C3 clones were isolated and
+				sequenced, two of which have not previously been described in the literature.
+				Clone C3-#3 contained two Ig-like domains, but no acid box. C3-#5 was missing
+				the first two Ig-like domains and the acid box, but did contain the third
+				Ig-like domain.</p></sec><sec><title>Discussion:</title><p>There is an extensive amount of evidence implicating
+				<italic>erbB-2</italic>, a gene that is overexpressed in approximately 30% of breast
+				cancer cases, as a breast cancer gene [<xref ref-type="bibr" rid="B13">13</xref>]. The
+				identification of other breast oncogenes that function in the remaining 70% of
+				cases is an ongoing challenge, as is establishing a causal role for such
+				oncogenes in HME cell transformation.</p><p>FGFR1 and FGFR2, previously established oncogenes, were found to
+				be amplified within large amplicons on 8p11 and 10q26, respectively, in the
+				breast cancer cell line SUM-52PE [<xref ref-type="bibr" rid="B14">14</xref>]. Previous studies
+				have shown that the FGFR2 gene is amplified in about 5-10% of breast cancer
+				cases.</p><p>Our results showed that SUM-52PE cells overexpressed many
+				alternatively spliced isoforms of FGFR2 at both the transcript and protein
+				level as compared with normal HME cells. The variability in FGFR2 isoform
+				expression is complex and involves exon IIIb/c, which encodes the second half
+				of the third Ig-like loop; variations in the carboxyl terminal end of the
+				receptor, involving the C1/C2 or C3 domains; and variable expression of the
+				Ig-like loops and acid box in the extracellular portion of the receptor. The
+				characterization of three unique FGFR2 isoforms that were cloned from SUM-52PE
+				may build on the findings of others concerning the transforming potential of
+				FGFR2 variants [<xref ref-type="bibr" rid="B4">4</xref>]. In particular, because it has been
+				demonstrated that expression of C3-IIIb variants may have more transforming
+				activity than C1-IIIb variants, differences between the three C3 clones we have
+				isolated may provide information regarding the influence of particular
+				structural domains on transforming potential.</p><p>Ongoing studies are aimed at characterizing the transforming
+				ability of FGFR2 isoforms obtained from SUM-52PE cells by transducing these
+				genes into normal HME cells. By overexpressing FGFR2 isoforms in a
+				physiologically relevant system, we hope to determine the isoform(s) that acts
+				in a dominant way in the process of cell transformation, and to determine
+				whether different regions present in individual clones drive specific
+				phenotypes associated with transformation.</p></sec></abstract><kwd-group><kwd>alternative splicing</kwd><kwd>breast cancer</kwd><kwd>fibroblast growth factor receptor</kwd><kwd>receptor tyrosine kinase</kwd><kwd>SUM-52PE</kwd></kwd-group></article-meta></front><body><sec><title>Introduction</title><p>The FGFs are a family of polypeptides consisting of 18 different
+		  growth factors that bind with varying specificity and affinity to four
+		  different FGFRs. FGFs stimulate proliferation of a wide variety of cells of
+		  mesenchymal, neuronal, and epithelial origins [<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref>], and have been found [<xref ref-type="bibr" rid="B17">17</xref>] to
+		  induce, inhibit, and maintain cell differentiation in different experimental
+		  systems. In addition, FGFs have been shown to be involved in neuronal survival
+		  [<xref ref-type="bibr" rid="B18">18</xref>], and stimulation of angiogenesis [<xref ref-type="bibr" rid="B19">19</xref>] and embryogenesis [<xref ref-type="bibr" rid="B20">20</xref>].</p><p>The FGFRs are a family of receptors that are characterized by the
+		  presence of two or three Ig-like domains and an acid box in the extracellular
+		  domain, a transmembrane region, and a split kinase domain in the cytoplasmic
+		  domain of the molecule [<xref ref-type="bibr" rid="B17">17</xref>]. Binding of FGF to heparin,
+		  or cell-surface heparin sulfate proteoglycans, results in high-affinity binding
+		  of this complex to FGFRs [219]. FGFRs subsequently undergo dimerization,
+		  followed by transphosphorylation on cytoplasmic tyrosine residues [<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B23">23</xref>].</p><p>FGFRs can be alternatively spliced into a variety of isoforms that may
+		  have different functions. For example, at the amino terminus, which encodes the
+		  ectodomain of the receptor, alternative splicing of exon III results in the
+		  synthesis of either the IIIb or IIIc versions of FGFR2, which differ in their
+		  ligand specificities. FGFR2-IIIb, also referred to as KGF receptor, has been
+		  shown to be a high-affinity receptor for KGF, whereas FGFR2-IIIc receptors have
+		  a high affinity for FGF-2. At the carboxyl terminus, FGFR2 can be alternatively
+		  spliced to produce three different variants from two different exons [<xref ref-type="bibr" rid="B4">4</xref>].
+		  C1/C2 variants are produced from the same exon with two different splice
+		  acceptor sites. C3 variants are produced from a separate exon with a different
+		  3' - noncoding region from that of C1/C2 variants, resulting in a shorter
+		  form of FGFR2, which has been found [<xref ref-type="bibr" rid="B4">4</xref>] to be the
+		  predominant variant in stomach cancer cell lines as compared with normal
+		  stomach tissue.</p><p>Overexpression and amplification of growth factor receptors are common
+		  alterations observed in HBC cells. The FGFR1 and FGFR2 genes are expressed in
+		  both normal and breast cancer tissues [<xref ref-type="bibr" rid="B24">24</xref>], and
+		  alterations, including amplification and overexpression of FGFR1 and FGFR2,
+		  have previously been reported in 5-10% of primary breast cancer specimens
+		  [<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>]. A recent study [<xref ref-type="bibr" rid="B7">7</xref>] that was done using a tissue array consisting of 372 primary
+		  breast specimens found a 5% incidence of FGFR2 amplification.</p><p>There are at least four studies [<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B24">24</xref>] that have
+		  analyzed the presence of FGFR2 message in breast cancer cell lines. These
+		  studies show great discrepancy as to the presence or absence of FGFR2 message
+		  and level of expression, possibly due to the method of detection (RT-PCR,
+		  Northern blot, or ribonuclease protection assay). To our knowledge, none of the
+		  HBC cell lines studied thus far have <italic>FGFR2</italic> gene amplification,
+		  although overexpression of FGFR2 message and protein has been documented for
+		  some breast cancer cell lines [<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref>].</p><p>SUM-52PE is a breast cancer cell line previously isolated in this
+		  laboratory that grows under serum-free and epidermal growth factor-free
+		  conditions, has high levels of tyrosine phosphorylated membrane proteins, and
+		  has the capacity to invade basement membranes and grow under
+		  anchorage-independent conditions [<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B12">12</xref>]. Thus, SUM-52PE cells, which
+		  have amplifications of both FGFR1 and FGFR2 genes, exhibit all of the important
+		  hallmarks of highly malignant cells. In order to understand better the
+		  important molecular alterations that lead to this transformed phenotype, we
+		  examined the contribution of FGFR2 overexpression to these characteristics.
+		  Isolation and characterization of individual FGFR2 isoforms is an important
+		  first step in identifying the contribution of this receptor to cell
+		  transformation. Therefore, SUM-52PE was used as a model to study the diversity
+		  of FGFR2 expression in a breast cancer cell line that has true amplification
+		  and overexpression of the FGFR2 gene.</p></sec><sec sec-type="materials|methods"><title>Materials and methods</title><sec><title>Southern blot analysis</title><p>Genomic DNA (10 &#x003bc; g) was digested with Hind III, and
+			 restriction fragments were separated on an agarose gel and transferred by
+			 standard methods to a nylon membrane. The Southern blot was probed with either
+			 FGFR1 or FGFR2, generated by RT-PCR of MCF-10A cell RNA. The specific primers
+			 used in the RT-PCR reaction were as follows: 5'
+			 -CAAACCCAACCGTGTGACCAAAGTG-3' and 5'
+			 -CGTGCGAGGCCAAAGTCTGCTATCT-3' for FGFR1; and 5'
+			 -GGTCGTTTCATCTGCCTGGT-3' and 5' -CCTTCCCGTTTTTCAGCCAC-3' for
+			 FGFR2. The RT-PCR reaction was carried out as described below.</p></sec><sec><title>Northern blot analysis</title><p>RNA (10 &#x003bc; g) from a normal HME cell line (MCF-10A) and a panel
+			 of HBC cell lines (SUM-52, -149, -185 and -206) was run on a 1% agarose gel
+			 containing formaldehyde, and then transferred to a Nytran membrane (Schleicher
+			 &#x00026; Schuell, Keene, NH, USA). The membrane was probed with full-length FGFR2
+			 C1-#1 isolated from the SUM-52PE HBC cell line. Probe (50ng) was labeled using
+			 a random priming kit (Gibco BRL, Grand Island, NY, USA) with 5 &#x003bc; Cu &#x003b1;
+			 -P<sup>32</sup>-dCTP at 25&#x000b0;C for 2h. Unlabeled &#x003b1; -P<sup>32</sup>-dCTP
+			 was removed by centrifugation of the probe through a Quik-Spin (Roche Molecular
+			 Biochemicals, Indianapolis, IN, USA) column at 1100 revolutions/min for 4min.
+			 Labeled probe (20&#x000d7;10<sup>6</sup> cpm) was boiled at 100&#x000b0;C for 5min
+			 and then used to probe the Northern blot overnight at 42&#x000b0;C.
+			 Prehybridization of the membrane occurred for 2.5h at 42&#x000b0;C.</p></sec><sec><title>Fibroblast growth factor receptor-2 Western blots</title><p>Cells were rinsed twice with ice-cold Hanks' balanced salt
+			 solution (Gibco BRL) and then lysed on ice with a buffer consisting of 50mmol/l
+			 Tris-HCl (pH8.5); 150mmol/l NaCl; 1% Nonidet P-40 (ICN Biomedical, Inc, Aurora,
+			 OH, USA); 5mmol/l ethylene diamine tetra-acetic acid supplemented with 5mmol/l
+			 sodium orthovanadate; 50 &#x003bc; g/ml phenylmethysulfonyl fluoride; 20 &#x003bc;
+			 g/ml aprotinin; and 10 &#x003bc; g/ml leupeptin. Lysates were spun at 20 800
+			 <italic>g</italic> at 4&#x000b0;C for 10min and then analyzed for protein using a
+			 modified Lowry's method. Whole-cell lysates were resolved on 7.5%
+			 polyacrylamide gels, transferred to PVDF membrane (Millipore Corporation,
+			 Bedford, MA, USA), and probed with an anti-FGFR2 antibody (Santa Cruz
+			 Biotechnology, Inc, Santa Cruz, CA, USA), an anti-FGFR2 antibody pre-conjugated
+			 with a competitive peptide (Santa Cruz Biotechnology, Inc) at room temperature
+			 for 2h, or an anti-Flag antibody (M2 antibody; Sigma, St Louis, MO, USA).</p></sec><sec><title>Reverse transcription polymerase chain reaction analysis of exon
+				IIIb/c expression</title><p>FGFR2 variants were amplified using exon III specific primers:
+			 5' -CCCGGGTCTAGATTTATAGTGATGCCCAGCCC-3' for FGF-FB; and 5'
+			 -CCCGGGGAATTCACCACCATGCAGGCGATTAA-3' for FGF-RB [<xref ref-type="bibr" rid="B25">25</xref>]. RT-PCR amplification was carried out by use of the
+			 SuperScript One Step RT-PCR system (Gibco BRL) with the addition of 1 &#x003bc; l
+			 Expand High Fidelity enzyme (Roche Molecular Biochemicals). RT was carried out
+			 at 50&#x000b0;C for 30min, followed by 94&#x000b0;C for 3min. The PCR reaction was
+			 for 25 cycles of 94&#x000b0;C for 30s, 65&#x000b0;C for 30s, and 72&#x000b0;C for 1min,
+			 and final extension at 72&#x000b0;C for 7min. Singly, Ava I and Hinc II digestion
+			 of the RT-PCR product was performed overnight at 37&#x000b0;C, and then run on 3%
+			 NuSieve 3:1 agarose gel (FMC Bioproducts, Rockland, ME, USA).</p></sec><sec><title>Isolation of fibroblast growth factor receptor 2 cDNA clones</title><p>RNA was isolated from the SUM-52PE cell line using the Trizol
+			 isolation technique (Gibco BRL). RT-PCR amplification of FGFR2 was carried out
+			 by use of the SuperScript One Step RT-PCR system (Gibco BRL) with the addition
+			 of 1 &#x003bc; l Expand High Fidelity enzyme (Roche Molecular Biochemicals). RT
+			 was carried out at 50&#x000b0;C for 30min, followed by 94&#x000b0;C for 3min.
+			 Amplification of FGFR2 was carried out using gene-specific primers: 5'
+			 -ATGCCCGTAGAGGAAGTGTG-3' for FGFR2 upstream; 5'
+			 -AACGCACGTCCACCTTGAGTCCT-3' for C1/C2-specific downstream; and 5'
+			 -CTATTACTTGTCATCGTCGTCCTT-GTAGTCGATCTCATTGGTTGTGAG-3' for C3-specific
+			 downstream. This was done for 40 cycles of denaturation at 94&#x000b0;C for 15s,
+			 annealing at 55&#x000b0;C for 30s, and elongation at 72&#x000b0;C for 3min, and final
+			 extension at 72&#x000b0;C for 7min. FGFR2 cDNA was then digested with Sal I/Xba I
+			 and ligated into the pZ vector at 14&#x000b0;C overnight using T4 DNA ligase. The
+			 ligation reaction was transformed into SURE <italic>Escherichia coli</italic> cells
+			 (Stratagene, La Jolla, CA, USA) as recommended.</p></sec><sec><title>Transfection of 293 cells</title><p>One-hundred-millimeter dishes of 293 cells at 50% sub-confluence
+			 were transfected with 20 &#x003bc; g plasmid containing individual cDNA clones
+			 isolated from the SUM-52PE cell line using the calcium phosphate method.
+			 Briefly, 293 cells were incubated in 10% Dulbecco's modified eagle medium
+			 with 10mmol/l chloroquine for 5-10min. A reaction mix of 20 &#x003bc; g cDNA,
+			 1&#x000d7;Hepes-buffered saline, and CaCl<sub>2</sub> (JT Baker, Phillipsburg, NJ,
+			 USA) was put into 293 dishes. Media was changed 6-8h after transfection and
+			 whole-cell lysates were prepared 48h after transfection, as described above.
+			 Whole-cell lysates (100 &#x003bc; g) were resolved on 7.5% polyacrylamide gels,
+			 transferred to a polyvinylidene fluoride membrane, and probed with the
+			 anti-FGFR2 antibody (Santa Cruz Biotechnology, Inc) or an anti-Flag antibody
+			 (M2 antibody, Sigma).</p></sec><sec><title>Sequencing of fibroblast growth factor receptor 2 variants</title><p>Plasmid cDNA for individually isolated FGFR2 isoforms was prepared
+			 and submitted to the University of Michigan DNA Sequencing core with a series
+			 of FGFR2-specific primers, as well as vector-specific primers. The sequencing
+			 of all FGFR2 variants was performed in both a 5' and a 3' direction,
+			 with the exclusion of the transmembrane domain, which was shown to be highly
+			 conserved between isoforms.</p></sec></sec><sec><title>Results</title><sec><title>Amplification of fibroblast growth factor receptor 2 in SUM-52PE
+				cells</title><p>In previous experiments, we found by comparative genome
+			 hybridization analysis that SUM-52PE cells have large amplifications in the
+			 genomic regions of chromosomes 8 and 10, containing the FGFR1 and FGFR2 genes,
+			 respectively [<xref ref-type="bibr" rid="B14">14</xref>]. In order to characterize the
+			 amplification of these candidate breast cancer oncogenes, Southern blot
+			 analysis was performed on the HBC cell line SUM-52PE and other breast cancer
+			 cell lines [<xref ref-type="bibr" rid="B14">14</xref>]. The results of the Southern blot showed
+			 fivefold amplification of the FGFR1 gene and a 12-fold amplification of the
+			 FGFR2 gene in SUM-52PE cells, as compared with other breast cancer cell lines
+			 that do not have genomic amplifications in these regions (Fig. <xref ref-type="fig" rid="F1">1</xref>).</p></sec><sec><title>Overexpression of fibroblast growth factor receptor 2 transcript
+				in SUM-52PE cells</title><p>Because gene amplification often involves large genomic regions that
+			 contain many genes, Northern blot analysis was performed to determine whether
+			 the observed amplifications of FGFR1 and FGFR2 correlated with transcript
+			 overexpression. Northern blot analysis of SUM-52PE showed FGFR2 transcripts to
+			 be highly overexpressed compared with other breast cancer cell lines (Fig.
+			 <xref ref-type="fig" rid="F2">2a</xref>, lanes 2-5) and normal HME cells (Fig. <xref ref-type="fig" rid="F2">2a</xref>, lane 1). Several overexpressed bands of approximately 6.3,
+			 5.0, 4.0, and 2.8kb were observed in SUM-52PE cells. The most prominent band,
+			 at 2.8kb, was so abundant that it was difficult to discern other individual
+			 bands clearly. FGFR1 transcript overexpression, on the other hand, was not
+			 detected in SUM-52PE (data not shown).</p></sec><sec><title>Overexpression of fibroblast growth factor receptor 2 variants in
+				SUM-52PE cells</title><p>FGFR2 has been reported to be alternatively spliced, resulting in
+			 translation of multiple FGFR2 isoforms. Because Northern blot experiments
+			 demonstrated a number of different FGFR2 isoforms, Western blot analysis was
+			 performed to examine the number and level of expression of FGFR2 protein(s).
+			 The results showed that both normal HME and HBC cells (SUM-44PE, SUM-52PE, and
+			 others not shown) expressed two isoforms of FGFR2 of 135 and 95kDa (Fig.
+			 <xref ref-type="fig" rid="F2">2b</xref>, left panel, lanes 1-3, polypeptides labeled common).
+			 Interestingly, as compared with HME and other HBC cells, the SUM-52PE cell line
+			 greatly overexpressed not only these two polypeptides, but also overexpressed
+			 two unique isoforms of FGFR2 - 85 and 109kDa polypeptides - as well as several
+			 smaller polypeptides in the 46-53kDa range (Fig. <xref ref-type="fig" rid="F2">2b</xref>, left
+			 panel, lane 3, labeled unique). Use of a competitive peptide preconjugated with
+			 the anti-FGFR2 antibody confirmed that these bands were specific FGFR2
+			 polypeptides (Fig. <xref ref-type="fig" rid="F2">2b</xref>, right panel). Use of an antibody
+			 isotype control also confirmed the same nonspecific bands as those that were
+			 identified by use of the competitive peptide (data not shown).</p><p>It is important to note that the polyclonal anti-FGFR2 antibody used
+			 in these experiments was created against a peptide derived from the C1 carboxyl
+			 terminus of FGFR2. Thus, this antibody only recognizes FGFR2 isoforms that
+			 express this carboxyl terminus. Because antibodies that recognize FGFR2
+			 isoforms that express either the C2 or C3 carboxyl termini are not currently
+			 available, the results of the Western blot analysis of SUM-52PE cells
+			 under-represents the actual number of different FGFR2 proteins expressed in
+			 this cell line.</p></sec><sec><title>Preliminary characterization of fibroblast growth factor receptor
+				2 expression in SUM-52PE cells</title><p>To begin to characterize the FGFR2 transcripts that were present in
+			 SUM-52PE cells, PCR-based assays were performed to estimate the relative
+			 proportions of transcripts containing exon IIIb versus IIIc, and the proportion
+			 of C1/C2 variants as compared with C3 variants.</p><p>RT-PCR analysis using exon III-specific primers was performed on
+			 SUM-52PE mRNA, followed by restriction fragment analysis to determine the
+			 presence of exon IIIb/c-expressing variants [<xref ref-type="bibr" rid="B25">25</xref>]. Exon
+			 IIIb contains one unique Ava I site, whereas exon IIIc contains two Hinc III
+			 sites. Therefore, the proportion of Ava I digest fragments to Hinc III digest
+			 fragments allows for the determination of the proportion of IIIb to IIIc
+			 variants present. Using this method, SUM-52PE cells were found to express only
+			 IIIb isoforms, because the PCR product obtained was completely digested by Ava
+			 I, whereas Hinc III failed to cut any of the amplified product (Fig.
+			 <xref ref-type="fig" rid="F3">3a</xref>).</p><p>C1/C2 variants were amplified using a primer specific to the
+			 3' -noncoding region, whereas C3 variants were amplified using a primer
+			 specific for the C3 3' -noncoding region. Results of this analysis
+			 indicated the presence of all three types of variants in this cell line,
+			 although the C1/C2 variants (Fig. <xref ref-type="fig" rid="F3">3b</xref>; lanes 1 and 2)
+			 appeared to be more abundant than the C3 variants in SUM-52PE (Fig.
+			 <xref ref-type="fig" rid="F3">3b</xref>; lanes 3 and 4).</p></sec><sec><title>Isolation and analysis of alternatively spliced fibroblast growth
+				factor receptor 2 variants</title><p>The PCR-based approach just described suggested that SUM-52PE cells
+			 express exclusively IIIb type receptors, which can contain any of the three
+			 carboxyl termini. The data also suggested that C1 and C2 variants are more
+			 common than receptors with the C3 terminus. In order to characterize
+			 definitively the range of FGFR2 variants expressed by SUM-52PE cells,
+			 individual isoforms were cloned and sequenced from SUM-52PE RNA. To isolate
+			 specific FGFR2 cDNAs, C1/C2- or C3-specific primers were used in combination
+			 with a primer for the 5' end of the gene. RT-PCR amplified FGFR2 products
+			 were purified and ligated into the bicistronic vector pZ. Individual clones
+			 containing insert were characterized by restriction digest analysis,
+			 sequencing, and transient transfection into 293 cells.</p><p>FGFR2 cDNA clones isolated from RNA derived from SUM-52PE cells were
+			 highly variable and differed with respect to number of Ig-like loops expressed,
+			 the presence or absence of the acid box, and the expression of C1, C2, or C3
+			 carboxyl termini. As predicted from the PCR experiments, all FGFR2 variants
+			 isolated from SUM-52PE expressed the IIIb exon.</p><p>Four different FGFR2-C1 clones were isolated and sequenced (Fig.
+			 <xref ref-type="fig" rid="F4">4</xref>). The largest clone, C1-#38, was a full-length
+			 FGFR2-IIIb isoform, which was previously identified in the literature as KGF
+			 receptor [<xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B26">26</xref>]. C1-#38 contained
+			 three Ig-like domains, the characteristic acid box, and the C1 exon in the
+			 carboxyl terminus. The other three C1 isoforms contained two Ig-like domains,
+			 as well as exon IIIb, but differed with respect to the rest of their
+			 extracellular domains. C1-#8 contained two Ig-like domains and the acid box in
+			 the extracellular region. C1-#1 expressed two Ig-like domains, but was lacking
+			 part of the extracellular region corresponding to the acid box. This type of
+			 deletion has previously been identified as an FGFR2-IIIc variant, Bek103 [<xref ref-type="bibr" rid="B27">27</xref>]. C1-#10 was a unique variant that expressed two Ig-domains
+			 and the acid box, but contained a unique deletion of the 5' region of the
+			 receptor corresponding to the signal sequence. The functional significance of
+			 this type of deletion has yet to be determined.</p><p>Two FGFR2-C2 clones were isolated from the SUM-52PE cell line (Fig.
+			 <xref ref-type="fig" rid="F4">4</xref>). Clone C2-#19 contained three Ig-like domains, the
+			 acid box, and the C2 exon in the carboxyl termini. Clone C2-#5 contained two
+			 Ig-like domains, but was missing part of the extracellular domain, which is
+			 similar to, but smaller than the deletion characterized for clone C1-#1. A
+			 clone identical to C2-#5 has previously been identified in the literature as
+			 human K-sam C2, a variant isolated from the KATO-III human stomach
+			 cancer-derived cell line [<xref ref-type="bibr" rid="B4">4</xref>]. Both K-sam and clone C2-#5
+			 are missing the same 89 amino acid sequence in the 5' region of FGFR2
+			 corresponding to the first Ig-like domain region.</p><p>Three C3 clones were isolated and sequenced, two of which have not
+			 previously been described in the literature (Fig. <xref ref-type="fig" rid="F4">4</xref>).
+			 C3-#4, a previously described FGFR2 variant, contained three Ig-like domains
+			 and the acid box, and was considered a full-length C3 clone [<xref ref-type="bibr" rid="B4">4</xref>]. Clone C3-#3 contained two Ig-like domains, but the lack of
+			 the acid box makes this a unique C3 variant. C3-#5 was missing the first two
+			 Ig-like domains and the acid box, but did contain the third Ig-like domain.
+			 This FGFR2 isoform also has not previously been reported.</p><p>Because FGFR2 transcripts from HME cells were not detectable by
+			 Northern blot, and because HME cells express FGFR2 protein that is detectable
+			 by Western blot, experiments were performed to isolate FGFR2 clones from RNA
+			 derived from normal HME cells. After two cycles of RT-PCR and subsequent
+			 cloning into pZ, three different FGFR2 isoforms were obtained. As with the
+			 SUM-52PE cells, all three isoforms cloned from HME cells contained exon IIIb.
+			 Two clones with C1 carboxyl termini were isolated, one of which was full length
+			 (the same as clone C1-#38 from SUM-52PE) and the second was missing the first
+			 Ig loop (the same as clone C1-#8). One clone containing the C2 terminus was
+			 isolated that was otherwise a full-length isoform (the same as clone
+			 C2-#19).</p></sec><sec><title>Fibroblast growth factor receptor 2 protein expression in
+				transfected 293 whole cell lysates</title><p>To assess the ability of the various FGFR2 isoforms isolated from
+			 SUM-52PE cell RNA to synthesize protein, and to determine which FGFR2 clones
+			 direct the synthesis of protein isoforms detected in Western blots, 293 cells
+			 were transiently transfected with individual FGFR2 iso-forms using the
+			 bicistronic pZ expression vector and analyzed by Western blot. As can be seen
+			 in the left panel of Figure <xref ref-type="fig" rid="F5">5a</xref>, all four C1-containing
+			 isoforms expressed protein in 293 cells and each clone gave rise to an FGFR2
+			 isoform with distinct molecular size. Similarly, all three C3-containing clones
+			 expressed protein in 293 cells (Fig. <xref ref-type="fig" rid="F5">5b</xref>). C3-containing
+			 isoforms were visualized using a flag antibody that detects an epitope tag
+			 incorporated into the design of the C3-specific primer. As can be seen from the
+			 right panel of Figure <xref ref-type="fig" rid="F5">5b</xref>, the molecular sizes of the C3
+			 variants correspond to what would be predicted on the basis of the size of the
+			 individual clones. C3-#4 is full length at the amino terminus, C3-#3 is missing
+			 the first Ig loop and the acid box, and C3-#5 is missing the first Ig loop, the
+			 acid box and the second Ig loop.</p><p>Unfortunately, we cannot assess protein synthesis from any of the
+			 C2-containing clones at this time. Because C1 and C2 are derived from the same
+			 exon, and because we used a single primer to clone both C1- and C2-containing
+			 variants, which did not contain an epitope tag, we are currently unable to
+			 detect FGFR2-C2 proteins.</p><p>As shown in Figure <xref ref-type="fig" rid="F2">2b</xref>, two FGFR2-C1 proteins
+			 (of 95 and 135kDa) are commonly detected in SUM-52PE cells, HME cells, and
+			 other breast cancer cell lines. This is in accord with the observation that
+			 both C1 variants cloned from HME cells were also cloned from SUM-52PE cells.
+			 Thus, the data suggest that the common band that migrates at 135kDa represents
+			 the glycosylated version of the full-length FGFR2-C1 (C1-#38: Fig.
+			 <xref ref-type="fig" rid="F5">5a</xref>; lanes 1 and 4). Similarly, the second common band
+			 that migrates at 95kDa is likely derived from clone C1-#8, which is missing the
+			 first Ig loop (Fig. <xref ref-type="fig" rid="F5">5a</xref>; lanes 1 and 3). Clone C1-#1 was
+			 highly expressed in 293 cells and resulted in the detection of multiple
+			 immunoreactive proteins with a range of sizes (Fig. <xref ref-type="fig" rid="F5">5a</xref>;
+			 lane 2). It is possible that this isoform, which is missing both the first Ig
+			 loop and the acid box, is responsible for some of the high- and
+			 low-molecular-weight bands detected in SUM-52PE Western blots, although more
+			 work will be required to definitively demonstrate this. The contribution of
+			 clone C1-#10, which was only weakly expressed in 293 cells, to FGFR2 protein
+			 expression in SUM-52PE cells cannot be determined at this time (Fig.
+			 <xref ref-type="fig" rid="F5">5a</xref>; lane 5).</p><p>As described above, clone C1-#38 encodes the full-length
+			 FGFR2-IIIb/C1 form of the receptor and is expressed at the message level in
+			 normal cells and all breast cancer cells examined, including SUM-52PE. However,
+			 SUM-52PE cells also have an overexpressed band at 109kDa, which was also
+			 detected in 293 cells transfected with clone C1-#38 (Fig. <xref ref-type="fig" rid="F5">5a</xref>; lane 4) and in HME cells transduced with this clone (not
+			 shown). This band was not detected in HME cells or any other breast cancer
+			 cells (Fig. <xref ref-type="fig" rid="F2">2b</xref>; left panel). The molecular size of this
+			 band corresponds to the size of the mature, non-processed, full-length protein,
+			 suggesting that the 135kDa band corresponds to the fully glycosylated form of
+			 the protein. The ability to detect this 109kDa non-processed form of
+			 full-length FGFR2-IIIb/C1 only in SUM-52PE cells and cells transduced with
+			 clone C1-#38 suggests that the protein is rapidly glycosylated in cells that
+			 express physiologic levels of FGFR2. By contrast, in cells that overexpress
+			 FGFR2, the 109-kDa nonglycosylated protein accumulates in the cell and is
+			 detectable by Western blot as one of the unique bands shown in Figure
+			 <xref ref-type="fig" rid="F2">2b</xref>. Thus, the detection of unique bands in Western blots
+			 derived from SUM-52PE cells reflects not only differences in isoform synthesis
+			 at the message level, but also differences in protein processing that occurs
+			 when the protein is highly overexpressed. At present, the functional
+			 consequences of the accumulation of nonglycosylated FGFR2 are not known.</p><fig position="float" id="F1"><label>Figure 1</label><caption><p>Amplification of FGFR1 and FGFR2 in SUM-52PE cells. <bold>(a)</bold> Genomic
+				DNA from four breast cancer cells lines (SKBR3, SUM-52PE, SUM-44PE, and T47D)
+				were compared by Southern blot for FGFR1 expression. <bold>(b)</bold> Genomic DNA from three
+				breast cancer cell lines (SKBR3, SUM-52PE, and SUM-44PE) were compared by
+				Southern blot for FGFR2 expression.</p></caption><graphic xlink:href="bcr-2-4-311-1"/></fig><fig position="float" id="F2"><label>Figure 2</label><caption><p>Analysis of FGFR2 expression in HBC and HME cells. <bold>(a)</bold> A Northern
+				blot probed with full-length FGFR2 is shown. A glyceraldehyde 3'
+				-phosphate dehydrogenase (GAPDH) probe was used to normalize RNA levels. Cell
+				lines shown are as follows: normal HME cell line (MCF-10A, lane 1) and HBC cell
+				lines (lanes 2-5). Size of visualized bands are marked according to kilobase.
+				<bold>(b)</bold> Whole-cell lysates were immunoblotted with an anti-FGFR2 antibody in the
+				absence (left panel) or presence (right panel) of a competitive peptide. Breast
+				cancer cell lines are in lanes 2 and 3, and a normal HME sample (MCF-10A) is in
+				lane 1. All cell lines expressed two 'common' FGFR2 variants (of 95
+				and 135 kDa), whereas SUM-52PE expressed at least three 'unique'
+				variants (of 46-53, 85, and 109kDa), as determined by comparison with
+				nonspecific bands (NS; right panel).</p></caption><graphic xlink:href="bcr-2-4-311-2"/></fig><fig position="float" id="F3"><label>Figure 3</label><caption><p>Preliminary characterization of FGFR2 expression in SUM-52PE
+				cells. <bold>(a)</bold> Exon III-specific primers were used in RT-PCR of SUM-52PE RNA.
+				RT-PCR product was then digested with Ava I or Hinc II at 37&#x000b0;C overnight
+				and then resolved on a 3% NuSieve gel. Exon IIIb contains one unique Ava I
+				site, whereas exon IIIc contains two Hinc II sites, and therefore the
+				proportion of Ava I digest fragments to Hinc II digest fragments determines the
+				proportion of IIIb to IIIc variants present. The presence of 269 and 188 bp
+				fragments generated by Ava I digestion (lane 2) and lack of Hinc II digested
+				products (lane 3) confirms the exclusive presence of exon IIIb in FGFR2
+				variants in the SUM-52PE cell line. <bold>(b)</bold> SUM-52PE mRNA was reverse transcribed
+				using an oligo dT primer, and then amplified using a 5' -FGFR2-specific
+				primer and a 3' -specific primer for C1/C2 or C3. Equimolar amounts of
+				primer were used in the PCR reaction, and then 2 or 5 &#x003bc; l of PCR product
+				were compared on a 0.8% agarose gel. Lane 1, 2 &#x003bc; l C1/C2 product; lane 2,5
+				&#x003bc; l C1/C2 product; lane 3, 2  &#x003bc; l C3 product; lane 4, 5 &#x003bc; l C3
+				product.</p></caption><graphic xlink:href="bcr-2-4-311-3"/></fig><fig position="float" id="F4"><label>Figure 4</label><caption><p>Isolated and sequenced FGFR2 isoforms from SUM-52PE. Isolated
+				FGFR2 variants had variable expression of two to three Ig-like domains, as well
+				as the characteristic acid box in the extracellular portion of the molecule.
+				Variability between isolated clones also existed in the intracellular portion
+				of the molecule, where alternative splicing of exons C1/C2 or C3 created either
+				a full-length carboxyl termini (C1), or truncated versions (C2 or C3).</p></caption><graphic xlink:href="bcr-2-4-311-4"/></fig><fig position="float" id="F5"><label>Figure 5</label><caption><p>Transient expression of FGFR2 clones isolated from SUM-52PE. <bold>(a)</bold>
+				Whole-cell lysates from 293 cells that had been transiently transfected with
+				individual FGFR2 clones were immunoblotted with an anti-FGFR2 antibody (lanes
+				2-5). Whole-cell lysate from the SUM-52PE breast cancer cell line was loaded in
+				lane 1 as a positive control, whereas whole-cell lysates from a mock
+				transfection of 293 cells was loaded in lane six as a negative control. <bold>(b)</bold>
+				Whole-cell lysates from 293 cells that were transiently transfected with
+				individual FGFR2-C3 clones containing a Flag sequence were immunoblotted with
+				an anti-Flag antibody (lanes 1, 2, and 4). Whole-cell lysates from a mock
+				transfection of 293 cells were loaded in lane 3 as a negative control.</p></caption><graphic xlink:href="bcr-2-4-311-5"/></fig></sec></sec><sec><title>Discussion</title><p>The progression of cells from the normal to neoplastic state is a
+		  multistep process that involves alterations in multiple signaling pathways.
+		  Both epidermal growth factor receptor and erbB-2 have been identified as
+		  signaling molecules that play a dominant role in breast cell transformation
+		  [<xref ref-type="bibr" rid="B28">28</xref>,<xref ref-type="bibr" rid="B29">29</xref>]. There is an extensive
+		  amount of evidence for <italic>erbB-2</italic> as a breast cancer gene that is
+		  overexpressed in approximately 30% of breast cancer cases [<xref ref-type="bibr" rid="B13">13</xref>]. The identification of other breast oncogenes that
+		  function in the remaining 70% of cases is an ongoing challenge, as is
+		  establishing a causal role for such oncogenes in HME cell transformation.</p><p>Large regions of gene amplification in cancer cells can be detected by
+		  techniques such as comparative genomic hybridization and high-density arrays,
+		  which helps to localize areas that may contain functional oncogenes. FGFR1 and
+		  FGFR2, which were previously established as candidate breast cancer oncogenes,
+		  were found to be amplified within large amplicons on 8p11 and 10q26,
+		  respectively, in the breast cancer cell line SUM-52PE [<xref ref-type="bibr" rid="B14">14</xref>]. Previous studies [<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B7">7</xref>] have shown that the FGFR2 gene is
+		  amplified in about 5-10% of cases. Because genes can be amplified without being
+		  overexpressed [<xref ref-type="bibr" rid="B14">14</xref>], we chose to examine whether FGFR2
+		  may be an important oncogene in this breast cancer cell line by examining its
+		  expression at the mRNA and protein levels. Our results showed that SUM-52PE
+		  cells overexpressed many alternatively spliced forms of FGFR2 at both the
+		  transcript and protein level, as compared with normal mammary epithelial cells.
+		  By contrast, FGFR1 is not expressed in SUM-52 cells.</p><p>In contrast to SUM-52PE cells, FGFR2 expression at the message level
+		  is very low in HME cells. Indeed, even prolonged exposure of Northern blots to
+		  film did not allow the visualization of FGFR2 message in normal cells. However,
+		  Western blots did indicate the presence of FGFR2 protein in HME cells. To
+		  resolve this apparent paradox, two rounds of RT-PCR were performed using HME
+		  cell-derived RNA, which resulted in the isolation of three alternatively
+		  spliced forms of FGFR2 message, each of which expressed the IIIb exon. The
+		  predicted protein products of these clones correspond to that which was
+		  observed in Western blots.</p><p>The variability in FGFR2 isoform expression is complex and involves
+		  exon IIIb/c, which encodes the second half of the third Ig-like loop,
+		  variations in the carboxyl terminal end of the receptor involving the C1/C2 or
+		  C3 domains, and variable expression of the Ig-like loops and acid box in the
+		  extracellular portion of the receptor.</p><p>Alternative splicing of the FGFR2 mRNA that encodes the carboxyl
+		  terminus has been shown to involve at least two different exons, which can
+		  produce at least three different variants. The C1- and C2-type carboxyl termini
+		  are encoded by the same exon, having two different splice acceptor sites,
+		  whereas the C3-type carboxyl terminus is encoded by a separate exon [<xref ref-type="bibr" rid="B4">4</xref>]. The biologic significance of the full-length carboxyl
+		  terminus (C1), as compared with the truncated variant found primarily in
+		  tumorigenic samples (C3), has been studied in NIH3T3 transfection assays. The
+		  IIIb variants KGF receptor (C1) and K-sam C3 were both able to produce
+		  transformed foci, growth in soft agar and tumorigenicity in nude mice as
+		  compared with full-length IIIc variants of FGFR2 and FGFR1, which were not
+		  transforming [<xref ref-type="bibr" rid="B4">4</xref>]. The question of whether C3 variants are
+		  more transforming than C1 variants remains to be determined conclusively,
+		  because the number of transformed foci obtained using K-sam C3 was only
+		  threefold greater than that obtained using KGF receptor (C1) variants. A
+		  significant difference between the C3 and C1 termini is that the former does
+		  not contain the binding site for phospholipase C&#x003b3;. Thus, the ability of
+		  the variants of FGFR2 containing the C3 terminus to transform 3T3 cells
+		  suggests that signaling through this pathway is not necessary for FGFR2 IIIb to
+		  act as an oncogene.</p><p>The panel of FGFR2 isoforms isolated from SUM-52PE includes several
+		  unique and previously unreported isoforms. The first of these unique variants,
+		  C1-#10, contains a large deletion of the 5' region that includes the
+		  first Ig-like domain as well as the signal sequence, which could have
+		  interesting cellular localization and cell signaling properties due to the
+		  absence of part of the signal sequence. Clones C3-#3 and C3-#5 have not
+		  previously been reported and are missing the first Ig-like domain and acid box.
+		  C3-#5 is also missing the second Ig-like domain. The characterization of these
+		  three unique isoforms may build upon the findings of others concerning the
+		  transforming potential of FGFR2 variants [<xref ref-type="bibr" rid="B4">4</xref>]. In
+		  particular, because it has been demonstrated that C3-IIIb variants may have
+		  more transforming activity than C1-IIIb variants, differences between the three
+		  C3 clones we have isolated may provide information on the influence of
+		  particular structural domains on transforming potential.</p><p>Previous studies that examined FGFR2 expression in prostate cancer
+		  have suggested that a change in the expression from the exon IIIb to IIIc
+		  isoform correlates with a progression from an androgen-sensitive to an
+		  androgen-insensitive state. RT-PCR analysis on the SUM-52PE breast cancer cell
+		  line showed that this cell line exclusively expressed the IIIb FGFR2 isoform
+		  (Fig. <xref ref-type="fig" rid="F3">3</xref>). Exon IIIb expression was also exclusively found
+		  in normal luminal HME cells (data not shown). This suggests that exon IIIb to
+		  IIIc switching is not necessary for FGFR2 to act as an oncogene when the gene
+		  is amplified. Rather, overexpression of one of the common IIIb isoforms or one
+		  of the novel variants may be important in driving transformation of HME cells.
+		  Ongoing studies are aimed at characterizing the transforming ability of
+		  individual FGFR2 isoforms obtained from SUM-52PE cells. These studies will
+		  directly test the hypothesis that specific FGFR2 isoforms have transforming
+		  activity towards HME cells and will compare variants with the different
+		  carboxyl termini. Overexpression of the C1-#38 and C3-#5 FGFR2 clones has been
+		  successfully accomplished in both the MCF-10A and H16N2 HME cell lines, and
+		  these cells have acquired phenotypes that distinguish them from parental cells
+		  (to be described in detail in a separate paper that is in preparation). Thus,
+		  by overexpressing FGFR2 isoforms in a physiologically relevant system, we hope
+		  to determine the isoform(s) that acts in a dominant way in the process of cell
+		  transformation, as well as to determine whether different regions present in
+		  individual clones drive specific phenotypes associated with transformation.</p></sec></body><back><ack><sec><title>Acknowledgement</title><p>The pZ vector was kindly provided by Genetics Institute, Boston, MA,
+			 USA.</p></sec></ack><ref-list><ref id="B1"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Johnson</surname><given-names>D</given-names></name><name><surname>Lu</surname><given-names>J</given-names></name><name><surname>Chen</surname><given-names>H</given-names></name><name><surname>Werner</surname><given-names>S</given-names></name><name><surname>Williams</surname><given-names>L</given-names></name></person-group><article-title>The human fibroblast growth factor receptor genes: a common
+			 structural arrangement underlies the mechanisms for generating receptor forms
+			 that differ in their third immunoglobulin domain.</article-title><source>Mol Cell Biol</source><year>1991</year><volume>11</volume><fpage>4627</fpage><lpage>4634</lpage><pub-id pub-id-type="pmid">1652059</pub-id></citation></ref><ref id="B2"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Champion-Arnaud</surname><given-names>P</given-names></name><name><surname>Ronsin</surname><given-names>C</given-names></name><name><surname>Gilbert</surname><given-names>E</given-names></name><name><surname>Gesnel</surname><given-names>MC</given-names></name><name><surname>Houssaint</surname><given-names>E</given-names></name><name><surname>Breathnach</surname><given-names>R</given-names></name></person-group><article-title>Multiple mRNAs code for proteins related to the BEK fibroblast
+			 growth factor receptor.</article-title><source>Oncogene</source><year>1991</year><volume>6</volume><fpage>979</fpage><lpage>987</lpage><pub-id pub-id-type="pmid">1648704</pub-id></citation></ref><ref id="B3"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Miki</surname><given-names>T</given-names></name><name><surname>Bottaro</surname><given-names>D</given-names></name><name><surname>Fleming</surname><given-names>T</given-names></name><etal></etal></person-group><article-title>Determination of ligand-binding specificity by alternative splicing:
+			 two distinct growth factor receptors encoded by a single gene.</article-title><source>Proc Natl Acad Sci USA </source><year>1992</year><volume>89</volume><fpage>246</fpage><lpage>250</lpage><pub-id pub-id-type="pmid">1309608</pub-id></citation></ref><ref id="B4"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Itoh</surname><given-names>K</given-names></name><name><surname>Hattori</surname><given-names>Y</given-names></name><name><surname>Sakamoto</surname><given-names>H</given-names></name></person-group><article-title>Preferential alternative splicing in cancer generates a K-sam
+			 messenger RNA with higher transforming activity. </article-title><source>Cancer Res</source><year>1994</year><volume>54</volume><fpage>3237</fpage><lpage>3241</lpage><pub-id pub-id-type="pmid">8205545</pub-id></citation></ref><ref id="B5"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Adnane</surname><given-names>J</given-names></name><name><surname>Gaudray</surname><given-names>P</given-names></name><name><surname>Dionne</surname><given-names>CA</given-names></name></person-group><article-title>BEK and FLG, two receptors to members of the FGF family, are
+			 amplified in subsets of human breast cancers. </article-title><source>Oncogene</source><year>1991</year><volume>6</volume><fpage>659</fpage><lpage>663</lpage><pub-id pub-id-type="pmid">1851551</pub-id></citation></ref><ref id="B6"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Penault-Llorca</surname><given-names>F</given-names></name><name><surname>Bertucci</surname><given-names>F</given-names></name><name><surname>Adelaide</surname><given-names>J</given-names></name></person-group><article-title>Expression of FGF and FGF receptor genes in human breast cancer.</article-title><source>Int J Cancer</source><year>1991</year><volume>61</volume><fpage>170</fpage><lpage>176</lpage><pub-id pub-id-type="pmid">7705943</pub-id></citation></ref><ref id="B7"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Kononen</surname><given-names>J</given-names></name><name><surname>Heisdanen</surname><given-names>M</given-names></name><name><surname>Barlund</surname><given-names>M</given-names></name></person-group><article-title>Biochip technologies for rapid analysis of gene amplifications in
+			 cancer [abstract].</article-title><source>Proc Am Assoc Cancer Res</source><year>1999</year><volume>40</volume><fpage>319</fpage></citation></ref><ref id="B8"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>McLeskey</surname><given-names>SW</given-names></name><name><surname>Ding</surname><given-names>I</given-names></name><name><surname>Lippman</surname><given-names>ME</given-names></name><name><surname>Kern</surname><given-names>FG</given-names></name></person-group><article-title>MDA-MB-134 breast carcinoma cells overexpress fibroblast growth
+			 factor receptors and are growth-inhibited by FGF ligands.</article-title><source>Cancer Res</source><year>1994</year><volume>54</volume><fpage>523</fpage><lpage>530</lpage><pub-id pub-id-type="pmid">7506125</pub-id></citation></ref><ref id="B9"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Lorenzi</surname><given-names>MV</given-names></name><name><surname>Castagnino</surname><given-names>P</given-names></name><name><surname>Chen</surname><given-names>Q</given-names></name><name><surname>Chedid</surname><given-names>M</given-names></name><name><surname>Miki</surname><given-names>T</given-names></name></person-group><article-title>Ligand-independent activation of fibroblast growth factor receptor-2
+			 by carboxyl terminal alterations.</article-title><source>Oncogene</source><year>1997</year><volume>15</volume><fpage>817</fpage><lpage>826</lpage><pub-id pub-id-type="pmid">9266968</pub-id></citation></ref><ref id="B10"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Ethier</surname><given-names>SP</given-names></name><name><surname>Kokeny</surname><given-names>K</given-names></name><name><surname>Ridings</surname><given-names>J</given-names></name><name><surname>Dilts</surname><given-names>C</given-names></name></person-group><article-title>erbB family receptor expression and growth regulation in a newly
+			 isolated human breast cancer cell line.</article-title><source>Cancer Res</source><year>1996</year><volume>56</volume><fpage>899</fpage><lpage>907</lpage><pub-id pub-id-type="pmid">8631031</pub-id></citation></ref><ref id="B11"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Ignatoski</surname><given-names>KMW</given-names></name><name><surname>Ethier</surname><given-names>SP</given-names></name></person-group><article-title>Constitutive activation of pp125fak in newly isolated human breast
+			 cancer cell lines.</article-title><source>Breast Cancer Res Treat</source><year>1999</year><volume>54</volume><fpage>173</fpage><lpage>182</lpage><pub-id pub-id-type="pmid">10424408</pub-id></citation></ref><ref id="B12"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Ignatoski</surname><given-names>KMW</given-names></name><name><surname>Maehama</surname><given-names>T</given-names></name><name><surname>Markwart</surname><given-names>SM</given-names></name><name><surname>Dixon</surname><given-names>JE</given-names></name><name><surname>Livant</surname><given-names>DL</given-names></name><name><surname>Ethier</surname><given-names>SP</given-names></name></person-group><article-title>ERBB-2 overexpression confers PI 3 ' -kinase-dependent
+			 invasion capacity on human mammary epithelial cells.</article-title><source>Br J Cancer</source><year>2000</year><volume>82</volume><fpage>666</fpage><lpage>674</lpage><pub-id pub-id-type="pmid">10682681</pub-id></citation></ref><ref id="B13"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Maquire</surname><given-names>H</given-names></name><name><surname>Greene</surname><given-names>M</given-names></name></person-group><article-title>The new (c-erbB-2) oncogene.</article-title><source>Semin Oncol</source><year>1989</year><volume>16</volume><fpage>148</fpage><lpage>155</lpage><pub-id pub-id-type="pmid">2565604</pub-id></citation></ref><ref id="B14"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Forozan</surname><given-names>F</given-names></name><name><surname>Veldman</surname><given-names>R</given-names></name><name><surname>Ammerman</surname><given-names>CA</given-names></name><etal></etal></person-group><article-title>Molecular cytogenetic analysis of 11 new breast cancer cell
+			 lines.</article-title><source>Br J Cancer</source><year>1999</year><volume>81</volume><fpage>1328</fpage><lpage>1334</lpage><pub-id pub-id-type="pmid">10604729</pub-id></citation></ref><ref id="B15"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Gospodarowicz</surname><given-names>D</given-names></name><name><surname>Neufeld</surname><given-names>G</given-names></name><name><surname>Schweiger</surname><given-names>L</given-names></name></person-group><article-title>Molecular and biological characterization of FGF, an angiogenic
+			 factor which also controls proliferation and differentiation of mesoderm and
+			 ectoderm derived cells. </article-title><source>Cell Differ</source><year>1986</year><volume>19</volume><fpage>1</fpage><lpage>17</lpage><pub-id pub-id-type="pmid">2425984</pub-id></citation></ref><ref id="B16"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Burgess</surname><given-names>W</given-names></name><name><surname>Maciag</surname><given-names>T</given-names></name></person-group><article-title>The heparin-binding (fibroblast) growth factor family of
+			 proteins.</article-title><source>Annu Rev Biochem</source><year>1989</year><volume>58</volume><fpage>575</fpage><lpage>606</lpage><pub-id pub-id-type="pmid">2549857</pub-id></citation></ref><ref id="B17"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Johnson</surname><given-names>DE</given-names></name><name><surname>Williams</surname><given-names>LT</given-names></name></person-group><article-title>Structural and functional diversity in the FGF receptor multigene
+			 family.</article-title><source>Adv Cancer Res</source><year>1992</year><volume>60</volume><fpage>1</fpage><lpage>41</lpage><pub-id pub-id-type="pmid">8417497</pub-id></citation></ref><ref id="B18"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Morrison</surname><given-names>R</given-names></name><name><surname>Sharma</surname><given-names>A</given-names></name><name><surname>DeVellis</surname><given-names>J</given-names></name><name><surname>Bradshaw</surname><given-names>R</given-names></name></person-group><article-title>Basic FGF supports the survival of cerebral cortical neurons in
+			 primary culture.</article-title><source>Proc Natl Acad Sci USA</source><year>1986</year><volume>83</volume><fpage>7537</fpage><lpage>7541</lpage><pub-id pub-id-type="pmid">3463983</pub-id></citation></ref><ref id="B19"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Folkman</surname><given-names>J</given-names></name><name><surname>Klagsburn</surname><given-names>M</given-names></name></person-group><article-title>Angiogenic factors.</article-title><source>Science </source><year>1987</year><volume>235</volume><fpage>442</fpage><lpage>447</lpage><pub-id pub-id-type="pmid">2432664</pub-id></citation></ref><ref id="B20"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Yamaguchi</surname><given-names>T</given-names></name><name><surname>Rassant</surname><given-names>J</given-names></name></person-group><article-title>Fibroblast growth factors in mammalian development.</article-title><source>Curr Opin Genet Dev</source><year>1995</year><volume>5</volume><fpage>485</fpage><lpage>491</lpage><pub-id pub-id-type="pmid">7580141</pub-id></citation></ref><ref id="B21"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Vlodavsky</surname><given-names>I</given-names></name><name><surname>Miao</surname><given-names>H-Q</given-names></name><name><surname>Medalion</surname><given-names>B</given-names></name><name><surname>Danagher</surname><given-names>P</given-names></name><name><surname>Ron</surname><given-names>D</given-names></name></person-group><article-title>Involvement of heparan sulfate and related molecules in
+			 sequestration and growth promoting activity of fibroblast growth factor. </article-title><source>Cancer Met Rev</source><year>1996</year><volume>15</volume><fpage>177</fpage><lpage>186</lpage></citation></ref><ref id="B22"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Shi</surname><given-names>E</given-names></name><name><surname>Kan</surname><given-names>M</given-names></name><name><surname>Xu</surname><given-names>J</given-names></name><name><surname>Wang</surname><given-names>F</given-names></name><name><surname>Hou</surname><given-names>J</given-names></name><name><surname>McKeehan</surname><given-names>W</given-names></name></person-group><article-title>Control of fibroblast growth factor receptor kinase signal
+			 transduction by heterodimerization of combinatorial splice variants.</article-title><source>Mol Cell Biol</source><year>1993</year><volume>13</volume><fpage>3907</fpage><lpage>3918</lpage><pub-id pub-id-type="pmid">8321198</pub-id></citation></ref><ref id="B23"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Bellot</surname><given-names>F</given-names></name><name><surname>Crumley</surname><given-names>G</given-names></name><name><surname>Kaplow</surname><given-names>JM</given-names></name><name><surname>Schlessinger</surname><given-names>J</given-names></name><name><surname>Jaye</surname><given-names>M</given-names></name><name><surname>Dionne</surname><given-names>CA</given-names></name></person-group><article-title>Ligand-induced transphosphorylation between different FGF receptors.
+			 </article-title><source>EMBO J</source><year>1991</year><volume>10</volume><fpage>2849</fpage><lpage>2854</lpage><pub-id pub-id-type="pmid">1655404</pub-id></citation></ref><ref id="B24"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Luqmani</surname><given-names>YA</given-names></name><name><surname>Graham</surname><given-names>M</given-names></name><name><surname>Coombes</surname><given-names>RC</given-names></name></person-group><article-title>Expression of basic fibroblast growth factor, FGFR1 and FGFR2 in
+			 normal and malignant human breast and comparison with other normal tissues.</article-title><source>Br J Cancer</source><year>1992</year><volume>66</volume><fpage>273</fpage><lpage>280</lpage><pub-id pub-id-type="pmid">1380281</pub-id></citation></ref><ref id="B25"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Carstens</surname><given-names>RP</given-names></name><name><surname>Eaton</surname><given-names>JV</given-names></name><name><surname>Krigman</surname><given-names>HR</given-names></name><name><surname>Walther</surname><given-names>PJ</given-names></name><name><surname>Garcia-Blanco</surname><given-names>MA</given-names></name></person-group><article-title>Alternative splicing of fibroblast growth factor receptor 2 (FGF-R2)
+			 in human prostate cancer.</article-title><source>Oncogene</source><year>1997</year><volume>15</volume><fpage>3059</fpage><lpage>3065</lpage><pub-id pub-id-type="pmid">9444954</pub-id></citation></ref><ref id="B26"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Dell</surname><given-names>KR</given-names></name><name><surname>Williams</surname><given-names>LT</given-names></name></person-group><article-title>A novel form of fibroblast growth factor receptor 2.</article-title><source>J Biol Chem</source><year>1992</year><volume>267</volume><fpage>21225</fpage><lpage>21229</lpage><pub-id pub-id-type="pmid">1400433</pub-id></citation></ref><ref id="B27"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Crumley</surname><given-names>G</given-names></name><name><surname>Bellot</surname><given-names>F</given-names></name><name><surname>Kaplow</surname><given-names>JM</given-names></name><name><surname>Schlessinger</surname><given-names>J</given-names></name><name><surname>Jaye</surname><given-names>M</given-names></name><name><surname>Dionne</surname><given-names>CA</given-names></name></person-group><article-title>High-affinity binding and activation of a truncated FGF receptor by
+			 both aFGF and bFGF.</article-title><source>Oncogene</source><year>1991</year><volume>6</volume><fpage>2255</fpage><lpage>2262</lpage><pub-id pub-id-type="pmid">1722570</pub-id></citation></ref><ref id="B28"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Pierce</surname><given-names>JH</given-names></name><name><surname>Arnstein</surname><given-names>P</given-names></name><name><surname>DiMarco</surname><given-names>E</given-names></name><etal></etal></person-group><article-title>Oncogenic potential of erbB-2 in human mammary epithelial cells.</article-title><source>Oncogene </source><year>1991</year><volume>6</volume><fpage>1189</fpage><lpage>1194</lpage><pub-id pub-id-type="pmid">1713661</pub-id></citation></ref><ref id="B29"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Zeillinger</surname><given-names>R</given-names></name><name><surname>Kury</surname><given-names>F</given-names></name><name><surname>Czerwenka</surname><given-names>K</given-names></name></person-group><article-title>HER-2 amplification, steroid receptors and epidermal growth factor
+			 receptor in primary breast cancer. </article-title><source>Oncogene</source><year>1989</year><volume>4</volume><fpage>109</fpage><lpage>114</lpage><pub-id pub-id-type="pmid">2915900</pub-id></citation></ref></ref-list></back></article>
+
+
+

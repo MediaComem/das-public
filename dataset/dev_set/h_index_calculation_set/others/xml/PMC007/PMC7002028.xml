@@ -1,0 +1,1355 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Chem Theory Comput</journal-id><journal-id journal-id-type="iso-abbrev">J Chem Theory Comput</journal-id><journal-id journal-id-type="publisher-id">ct</journal-id><journal-id journal-id-type="coden">jctcce</journal-id><journal-title-group><journal-title>Journal of Chemical Theory and Computation</journal-title></journal-title-group><issn pub-type="ppub">1549-9618</issn><issn pub-type="epub">1549-9626</issn><publisher><publisher-name>American
+Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">30802406</article-id><article-id pub-id-type="pmc">PMC7002028</article-id><article-id pub-id-type="doi">10.1021/acs.jctc.8b00960</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Numerical and Theoretical Aspects of the DMRG-TCC
+Method Exemplified by the Nitrogen Dimer</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="ath1"><name><surname>Faulstich</surname><given-names>Fabian M.</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>M&#x000e1;t&#x000e9;</surname><given-names>Mih&#x000e1;ly</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff5" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Laestadius</surname><given-names>Andre</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Csirik</surname><given-names>Mih&#x000e1;ly Andr&#x000e1;s</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Veis</surname><given-names>Libor</given-names></name><xref rid="aff3" ref-type="aff">&#x000b6;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>Antalik</surname><given-names>Andrej</given-names></name><xref rid="aff3" ref-type="aff">&#x000b6;</xref><xref rid="aff6" ref-type="aff">&#x022a5;</xref></contrib><contrib contrib-type="author" id="ath7"><name><surname>Brabec</surname><given-names>Ji&#x00159;&#x000ed;</given-names></name><xref rid="aff3" ref-type="aff">&#x000b6;</xref></contrib><contrib contrib-type="author" id="ath8"><name><surname>Schneider</surname><given-names>Reinhold</given-names></name><xref rid="aff4" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath9"><name><surname>Pittner</surname><given-names>Ji&#x00159;&#x000ed;</given-names></name><xref rid="aff3" ref-type="aff">&#x000b6;</xref></contrib><contrib contrib-type="author" id="ath10"><name><surname>Kvaal</surname><given-names>Simen</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath11"><name><surname>Legeza</surname><given-names>&#x000d6;rs</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><aff id="aff1"><label>&#x02020;</label>Hylleraas
+Centre for Quantum Molecular Sciences, Department of Chemistry, <institution>University of Oslo</institution>, P.O. Box 1033 Blindern, N-0315 Oslo, <country>Norway</country></aff><aff id="aff2"><label>&#x02021;</label>Strongly
+Correlated Systems &#x0201c;Lend&#x000fc;let&#x0201d; Research Group, <institution>Wigner Research Center for Physics</institution>, H-1525, P.O. Box 49, Budapest, <country>Hungary</country></aff><aff id="aff3"><label>&#x000b6;</label>J. Heyrovsk&#x000fd;
+Institute of Physical Chemistry, <institution>Academy
+of Sciences of the Czech Republic</institution>, v.v.i., Dolej&#x00161;kova 3, 18223 Prague 8, <country>Czech Republic</country></aff><aff id="aff4"><label>&#x000a7;</label>Modeling,
+Simulation and Optimization in Science, Department of Mathematics, <institution>Technische Universit&#x000e4;t Berlin</institution>, Sekretariat MA 5-3, Stra&#x000df;e
+des 17. Juni 136, 10623 Berlin, <country>Germany</country></aff><aff id="aff5"><label>&#x02225;</label>Department
+of Physics of Complex Systems, <institution>E&#x000f6;tv&#x000f6;s
+Lor&#x000e1;nd University</institution>, Pf. 32, H-1518 Budapest, <country>Hungary</country></aff><aff id="aff6"><label>&#x022a5;</label>Faculty
+of Mathematics and Physics, <institution>Charles University</institution>, 11636 Prague, <country>Czech Republic</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>f.m.faulstich@kjemi.uio.no</email>.</corresp></author-notes><pub-date pub-type="epub"><day>25</day><month>02</month><year>2019</year></pub-date><pub-date pub-type="ppub"><day>09</day><month>04</month><year>2019</year></pub-date><volume>15</volume><issue>4</issue><fpage>2206</fpage><lpage>2220</lpage><history><date date-type="received"><day>20</day><month>09</month><year>2018</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_0009" id="ab-tgr1"/></p><p>In
+this article, we investigate the numerical and theoretical aspects
+of the coupled-cluster method tailored by matrix-product states. We
+investigate formal properties of the used method, such as energy size
+consistency and the equivalence of linked and unlinked formulation.
+The existing mathematical analysis is here elaborated in a quantum
+chemical framework. In particular, we highlight the use of what we
+have defined as a complete active space-external space gap describing
+the basis splitting between the complete active space and the external
+part generalizing the concept of a HOMO&#x02013;LUMO gap. Furthermore,
+the behavior of the energy error for an optimal basis splitting, i.e.,
+an active space choice minimizing the density matrix renormalization
+group-tailored coupled-cluster singles doubles error, is discussed.
+We show numerical investigations on the robustness with respect to
+the bond dimensions of the single orbital entropy and the mutual information,
+which are quantities that are used to choose a complete active space.
+Moreover, the dependence of the ground-state energy error on the complete
+active space has been analyzed numerically in order to find an optimal
+split between the complete active space and external space by minimizing
+the density matrix renormalization group-tailored coupled-cluster
+error.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ct8b00960</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ct8b00960</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><label>I</label><title>Introduction</title><p>The coupled-cluster (CC) theory has played a revolutionary role
+in establishing a new level of high accuracy in electronic structure
+calculations and quantum-chemical simulations. Despite the immense
+progress made in the field, computational schemes aiming at describing
+quasi-degenerate electronic structures of chemical systems are still
+unreliable. These multiconfiguration systems, also called strongly
+correlated systems, form one of the most challenging computational
+problems in quantum chemistry. Since these systems appear in various
+research areas, a reliable computational scheme is of major interest
+for the natural sciences. Recently, the computational advantages of
+the novel density matrix renormalization group-tailored coupled-cluster
+(DMRG-TCC) method restricted to single (S) and double (D) excitations
+were demonstrated on large and statically correlated systems by Veis
+et al.<sup><xref ref-type="bibr" rid="ref1">1</xref>,<xref ref-type="bibr" rid="ref2">2</xref></sup> Furthermore, computations have shown that
+the use of the DMRG-TCCSD method is indispensable for the DMRG in
+order to determine the proper structure of the low lying energy spectrum
+in strongly correlated systems.<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> In addition
+to these computational features, the DMRG-TCC approach is a promising
+candidate for a black-box quasi multireference scheme as considerable
+parts of the program already provide a routine procedure up to a numerical
+threshold. This would increase the accessibility for a broad class
+of researchers from various fields of study.</p><p>Although DMRG implementations
+already allow high precision multireference
+calculations on large complete active spaces (CAS), covering the majority
+of strongly correlated orbitals,<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> there
+is still a need for further analysis and developments in order to
+achieve a multireference routine procedure. In the setting of the
+DMRG-TCC method, a CAS DMRG solution is improved by means of an additional
+CC calculation performed on the remaining (external) orbital space.
+This CC correction, improving the description of dynamical correlation
+by the approximate solution, leaves the CAS part, i.e., the DMRG solution,
+invariant. We emphasize, however, that the presented implementation
+of the external CC corrections only take correlations with a single
+reference determinant into account, i.e., the considered CC amplitude
+equations are formulated with respect to one reference determinant.
+Despite the method&#x02019;s dependence on the reference determinant
+(in its current version), we have noticed significant improvements
+for systems with multireference character (&#x0223c;0.05<italic>E</italic><sub>h</sub>) via the CCSD correction on the external part compared
+to the single reference CCSD method on the full space. Nonetheless,
+the simplistic approach of the DMRG-TCC method to the multireference
+problem comes with a price. The DMRG-TCC, as a CAS method, does not
+correlate external amplitudes with the CAS amplitudes, i.e., contributions
+from the external part to excited determinants within the CAS are
+not present. Furthermore, in situations where the choice of a reference
+determinant becomes unclear, e.g., strong open-shell systems, the
+DMRG-TCC method could run into potential problems since it is based
+on a single reference formulation. Although the total spin can be
+fixed for the CAS part in the DMRG calculations (spin-adapted DMRG<sup><xref ref-type="bibr" rid="ref4">4</xref>&#x02212;<xref ref-type="bibr" rid="ref7">7</xref></sup>), for the full orbital space it cannot be controlled through the
+external CC corrections presented in this work.</p><p>Common approaches
+to the strong correlation problem are provided
+by the multireference coupled-cluster (MRCC) theory based on the Jeziorski&#x02013;Monkhorst
+ansatz.<sup><xref ref-type="bibr" rid="ref8">8</xref>&#x02212;<xref ref-type="bibr" rid="ref10">10</xref></sup> The underlying idea of this ansatz is to include
+higher cluster excitations that are physically relevant but often
+more difficult to access in the usual single reference approach. To
+that end multiple determinants are employed in the reference state.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> These multireference approaches can be roughly
+divided into three categories:<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> first,
+valence-universal approaches<sup><xref ref-type="bibr" rid="ref13">13</xref>&#x02212;<xref ref-type="bibr" rid="ref21">21</xref></sup> (often also called genuine MRCC approaches); second, state-universal
+approaches;<sup><xref ref-type="bibr" rid="ref22">22</xref>&#x02212;<xref ref-type="bibr" rid="ref27">27</xref></sup> and third, state-specific approaches.<sup><xref ref-type="bibr" rid="ref28">28</xref>&#x02212;<xref ref-type="bibr" rid="ref49">49</xref></sup> Methods within the first two categories commonly suffer from so-called
+intruder states,<sup><xref ref-type="bibr" rid="ref50">50</xref>&#x02212;<xref ref-type="bibr" rid="ref53">53</xref></sup> which leads to divergent behavior. Such methods furthermore require
+solving for a manifold of eigenstates, including several solutions
+that are irrelevant to the problem. These downsides can be overcome
+by state-specific approaches, however, they rely on an explicit inclusion
+of higher excitations. For a more detailed description of these active
+fields of research, we refer the reader to ref (<xref ref-type="bibr" rid="ref9">9</xref>) and the references therein.
+An alternative multireference CC method that makes use of matrix product
+states and a modified DMRG algorithm is the linearized CCSD theory
+of Sharma and Alavi.<sup><xref ref-type="bibr" rid="ref54">54</xref></sup> Furthermore, the
+pair CCD (pCCD) method&#x02014;a CCD approach preserving electron pairs&#x02014;besides
+being computationally inexpensive, can describe strong correlation,
+which the single reference CCD theory cannot. Nonetheless, the pCCD
+scheme lacks adequate dynamical correlation which was improved (by
+adding certain amplitudes) based on seniority of a determinant (number
+of unpaired electrons).<sup><xref ref-type="bibr" rid="ref55">55</xref></sup> However, pairing
+merely the double excitations is not sufficient to describe the dissociation
+of the triple bond in the nitrogen dimer,<sup><xref ref-type="bibr" rid="ref55">55</xref></sup> which is the content of this article. Higher order pairing schemes,
+however, allow a more effective treatment of strong correlations and
+are worth mentioning at this point.<sup><xref ref-type="bibr" rid="ref56">56</xref>&#x02212;<xref ref-type="bibr" rid="ref62">62</xref></sup></p><p>The mathematical analysis of CC schemes is far from being
+complete,
+especially with regard to multireference methods; however, many important
+steps have already been taken. The list of fundamental and mathematical
+chemistry articles aiming to describe the existence and nature of
+solutions of CC equations is too long to be summarized here. We will
+limit our discussion to a short selection of publications addressing
+such fundamental issues of chemistry.</p><p>As a system of polynomial
+equations the CC equations can have real
+or, if the cluster operator is truncated, complex solutions.<sup><xref ref-type="bibr" rid="ref63">63</xref>,<xref ref-type="bibr" rid="ref64">64</xref></sup> A standard tool to compute a solution of these nonlinear equations
+is the Newton&#x02013;Raphson and the quasi-Newton method. However,
+these methods may diverge if the Jacobian or the approximated Jacobian
+become singular.<sup><xref ref-type="bibr" rid="ref65">65</xref></sup> This is in particular
+the case when strongly correlated systems are considered. These and
+other related aspects of the CC theory have been addressed by &#x0017d;ivkovi&#x00107;
+and Monkhorst<sup><xref ref-type="bibr" rid="ref63">63</xref>,<xref ref-type="bibr" rid="ref66">66</xref></sup> and Piecuch et al.<sup><xref ref-type="bibr" rid="ref64">64</xref></sup> Significant advances in the understanding of
+the nature of multiple solutions of single-reference CC have been
+made by Kowalski and Jankowski<sup><xref ref-type="bibr" rid="ref67">67</xref></sup> and by
+Piecuch and Kowalski.<sup><xref ref-type="bibr" rid="ref68">68</xref></sup> An interesting
+attempt to address the existence of a cluster operator and cluster
+expansion in the open-shell case was done by Jeziorski and Paldus.<sup><xref ref-type="bibr" rid="ref69">69</xref></sup></p><p>The first advances within the rigorous
+realm of local functional
+analysis were performed by Schneider and Rohwedder, providing analyses
+of the closed-shell CC method for nonmulticonfiguration systems.<sup><xref ref-type="bibr" rid="ref70">70</xref>&#x02212;<xref ref-type="bibr" rid="ref72">72</xref></sup> Since then, the local analysis of CC schemes was extended by Laestadius
+and Kvaal analyzing the extended CC method<sup><xref ref-type="bibr" rid="ref73">73</xref></sup> and revisiting the bivariational approach<sup><xref ref-type="bibr" rid="ref74">74</xref>,<xref ref-type="bibr" rid="ref75">75</xref></sup> and Faulstich et al. providing the first local mathematical analysis
+of a multireference scheme, namely the CC method tailored by tensor
+network states (TNS-TCC).<sup><xref ref-type="bibr" rid="ref76">76</xref></sup> As this mathematical
+branch of CC theory is very young, channeling abstract mathematical
+results into the quantum-chemistry community is a highly interdisciplinary
+task merging both fields. A first attempt in this direction was done
+by Laestadius and Faulstich linking the physical assumption of a HOMO&#x02013;LUMO
+gap to the somewhat abstract G&#x000e5;rding inequality and in that context
+presenting key aspects of refs (<xref ref-type="bibr" rid="ref70">70</xref>&#x02212;<xref ref-type="bibr" rid="ref73">73</xref>) from a more quantum chemical point of view.<sup><xref ref-type="bibr" rid="ref77">77</xref></sup></p><p>With this article, we aim to bridge the mathematical results
+in
+ref (<xref ref-type="bibr" rid="ref76">76</xref>) of the TNS-TCC
+method into the quantum-chemistry community and extend these results
+with a numerical study on the complete active space dependence of
+the DMRG-TCCSD error. Furthermore, we derive formal properties of
+the TCC method.</p></sec><sec id="sec2"><label>II</label><title>DMRG-TCC Method</title><p>As a post-Hartree&#x02013;Fock method, the TCC approach was introduced
+by Kinoshita et al. in ref (<xref ref-type="bibr" rid="ref28">28</xref>) as an alternative to other multireference methods. It divides
+the cluster operator into a complete active space part, denoted <italic>&#x0015c;</italic>, and an external (ext) part <italic>&#x00054;&#x00302;</italic>, i.e., the wave function is parametrized as<disp-formula id="ueq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m001" position="anchor"/></disp-formula>Separating the cluster operator into
+several
+parts goes back to Piecuch et al.<sup><xref ref-type="bibr" rid="ref78">78</xref>,<xref ref-type="bibr" rid="ref79">79</xref></sup> Note that
+the operators <italic>&#x0015c;</italic>, <italic>&#x00054;&#x00302;</italic> commute since this separation is merely a partition of the overall
+cluster operator. In this formulation the linked CC equations are
+given by<disp-formula id="eq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m002" position="anchor"/><label>1</label></disp-formula>Computing |&#x003a8;<sub>CAS</sub>&#x027e9; = <italic>e</italic><sup><italic>&#x0015c;</italic></sup>|&#x003a8;<sub>HF</sub>&#x027e9; first and keeping it fixed for
+the dynamical correction
+via the CCSD method restricts the above equations to |&#x003a8;<sub>&#x003bc;</sub>&#x027e9; not in the CAS, i.e., &#x027e8;&#x003a8;|&#x003a8;<sub>&#x003bc;</sub>&#x027e9; = 0 for all |&#x003a8;&#x027e9; in the CAS (we
+say that |&#x003a8;<sub>&#x003bc;</sub>&#x027e9; is in the <italic>L</italic><sup>2</sup>-orthogonal complement of the CAS). We emphasize that
+this includes mixed states, e.g., |&#x003a8;<sub><italic>IJ</italic></sub><sup arrange="stack"><italic>AB</italic></sup>&#x027e9;
+where |&#x003a8;<sub><italic>I</italic></sub><sup arrange="stack"><italic>A</italic></sup>&#x027e9; is an element of
+the CAS but |&#x003a8;<sub><italic>J</italic></sub><sup arrange="stack"><italic>B</italic></sup>&#x027e9; is not. We consider
+a CAS of <italic>N</italic>-electron Slater-determinants formed from
+the set of spin-orbitals <inline-formula id="d30e511"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m003.gif"/></inline-formula>. This is, in the mathematical
+sense, a
+subspace of the full configuration interaction (FCI) space, i.e.,
+the space of all <italic>N</italic>-electron Slater-determinants formed
+from the entire set of spin-orbitals <inline-formula id="d30e517"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m004.gif"/></inline-formula>. We here assume the spin-orbitals to be
+eigenfunctions of the system&#x02019;s Fock operator. Note that the
+following analysis can be applied to any single-particle operator
+fulfilling the properties used in ref (<xref ref-type="bibr" rid="ref76">76</xref>)&#x02014;not only the Fock operator. This mathematical
+analysis, among other things, rests on the structure of a one-particle
+operator with a distinct (and furthermore steerable) CAS-ext gap.
+As described below (in connection to Assumption A), choosing the Fock
+operator might lead to the inclusion of diffuse functions in the CAS.</p><p>Based on the single reference approach, the TCC method needs a
+large CAS to cover most of the static correlations. Since the size
+of the CAS scales exponentially with respect to the number of particles <italic>N</italic>, i.e., <inline-formula id="d30e527"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m005.gif"/></inline-formula> (for more details we refer the reader to
+ref (<xref ref-type="bibr" rid="ref70">70</xref>)), an efficient
+approximation scheme for strongly correlated systems is indispensable
+for the TCC method to have practical significance. One of the most
+efficient schemes for static correlation is the DMRG method.<sup><xref ref-type="bibr" rid="ref80">80</xref></sup> Going back to the physicists White and Martin,<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> it was introduced to quantum chemistry as an
+alternative to the CI or CC approach. However, the major disadvantage
+of the DMRG is that in order to compute dynamical correlation high
+bond dimensions (tensor ranks) may be necessary, making the DMRG a
+potentially costly method.<sup><xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref80">80</xref></sup> Nevertheless, as a
+TNS-TCC method, the DMRG-TCC approach is an efficient method since
+the CAS is supposed to cover the statically correlated orbitals of
+the system. This avoids the DMRG method&#x02019;s weak point and allows
+to employ a much larger CAS compared to the traditional CI-TCC method.
+We remark here that some terminology has different meaning in mathematics,
+physics, and chemistry. The number of legs of a tensor is called the
+order of the tensor in mathematics, while it is called the rank of
+the tensor in physics. The rank of the matrix corresponds to the number
+of nonzero singular values after matricization in mathematics, i.e.,
+the Schmidt number in physics.</p><p>A notable advantage of the TCC
+approach over some MRCC methods
+is that all excitation operators commute by construction. This is
+due to the fact that the Hartee&#x02013;Fock method yields a single
+reference solution |&#x003a8;<sub>HF</sub>&#x027e9;, which implies that
+separating the cluster operator corresponds to a partition of excitation
+operators. Hence, <italic>&#x0015c;</italic> and <italic>&#x00054;&#x00302;</italic> commute. This makes the DMRG-TCC method&#x02019;s analysis much more
+accessible than internally contracted MRCC methods and therewith facilitates
+establishing sound mathematical results.<sup><xref ref-type="bibr" rid="ref76">76</xref></sup> We remark, however, that the computationally most demanding step
+of the DMRG-TCC calculation is the DMRG part, and its cost increases
+rapidly with <italic>k</italic>. Alternative to the dynamical correction
+via the CC approach, the DMRG-MRCI method in ref (<xref ref-type="bibr" rid="ref81">81</xref>) utilizes an internally
+contracted CI algorithm different from a conventional CI calculation.</p></sec><sec id="sec3"><label>III</label><title>Formal Properties of the DMRG-TCC Method</title><p>It is desired
+that quantum-chemical computations possess certain
+features representing the system&#x02019;s chemical and physical behavior.
+Despite their similarity, the CC and TCC method have essentially different
+properties, which are here elaborated. A basic property of the CC
+method is the equivalence of linked and unlinked CC equations. We
+point out that this equivalence is in general not true for the DMRG-TCCSD
+scheme. This is a consequence of the CAS ansatz since it yields mixed
+states, i.e., two particle excitations with one excitation into the
+CAS. The respective overlap integrals in the unlinked CC equations
+will then not vanish unless the single excitation amplitudes are equal
+to zero. Generalizing this result for rank complete truncations of
+order <italic>n</italic> we find that all excitation amplitudes need
+to be zero but for the <italic>n</italic>th one. This is somewhat
+surprising as the equivalence of linked and unlinked CC equations
+holds for rank complete truncations of the single-reference CC method.</p><p>For the sake of simplicity we show this results for the DMRG-TCCSD
+method. The general case can be proven in similar a fashion. We define
+the matrix representation <bold>T</bold> with elements <italic>T</italic><sub>&#x003bc;,&#x003bd;</sub> = &#x027e8;&#x003a8;<sub>&#x003bc;</sub>|<italic>e</italic><sup><italic>&#x00054;&#x00302;</italic></sup>|&#x003a8;<sub>&#x003bd;</sub>&#x027e9; for &#x003bc;, &#x003bd; &#x02209; CAS. Note that, as <italic>&#x00054;&#x00302;</italic> increases the excitation rank, <bold>T</bold> is
+an atomic lower triangular matrix and therefore not singular. Assuming
+that the linked CC equations hold, the nonsingularity of <bold>T</bold> yields<disp-formula id="ueq2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m006" position="anchor"/></disp-formula>As the full projection manifold is complete
+under de-excitation, we obtain that<disp-formula id="eq2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m007" position="anchor"/><label>2</label></disp-formula>Note
+that the first term on the r.h.s. in <xref rid="eq2" ref-type="disp-formula">eq <xref rid="eq2" ref-type="disp-formula">2</xref></xref> together with the Hartree&#x02013;Fock
+contribution from the sum, i.e., <italic>E</italic><sub>0</sub>&#x027e8;&#x003a8;<sub>&#x003bc;</sub>|<italic>e</italic><sup><italic>&#x00054;&#x00302;</italic></sup>|&#x003a8;<sub>HF</sub>&#x027e9;, describe the unlinked CC equations.
+To analyze the remaining terms on the r.h.s. in <xref rid="eq2" ref-type="disp-formula">eq <xref rid="eq2" ref-type="disp-formula">2</xref></xref> we expand the inner products, i.e.,<disp-formula id="ueq3"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m008" position="anchor"/></disp-formula>The
+first term in this expansion vanishes
+due to orthogonality. The same holds true for all terms where <italic>&#x00054;&#x00302;</italic> enters to the power of two or higher since an excitation
+of order two or higher acting on an at least singly excited Slater-determinant
+|&#x003a8;<sub>&#x003b3;</sub>&#x027e9; yields an at least 3-fold excited
+Slater-determinant. However, as the external space contains mixed
+states, we find that &#x027e8;&#x003a8;<sub>&#x003bc;</sub>|<italic>&#x00054;&#x00302;</italic>|&#x003a8;<sub>&#x003b3;</sub>&#x027e9; is not necessarily zero, namely,
+for &#x027e8;&#x003a8;<sub>&#x003bc;</sub>| = &#x027e8;&#x003a8;<sub>&#x003b1;</sub>| &#x02227; &#x027e8;&#x003a8;<sub>&#x003b2;</sub>| and |&#x003a8;<sub>&#x003b3;</sub>&#x027e9; = |&#x003a8;<sub>&#x003b2;</sub>&#x027e9; with &#x003b1; &#x02208;
+ext and &#x003b2; &#x02208; CAS. This proves the claim.</p><p>Subsequently,
+we elaborate the size consistency of the DMRG-TCCSD
+method. Let two DMRG-TCCSD wave functions for the individual subsystems <italic>A</italic> and <italic>B</italic> be<disp-formula id="ueq4"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m009" position="anchor"/></disp-formula>The
+corresponding energies are given by<disp-formula id="ueq5"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m010" position="anchor"/></disp-formula>and
+the amplitudes fulfill<disp-formula id="ueq6"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m011" position="anchor"/></disp-formula>in
+terms of the effective, similarity-transformed
+Hamiltonians<disp-formula id="ueq7"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m012" position="anchor"/></disp-formula>The Hamiltonian of the compound system of
+the noninteracting subsystems can be written as <italic>&#x00124;</italic><sub><italic>AB</italic></sub> = <italic>&#x00124;</italic><sub><italic>A</italic></sub> + <italic>&#x00124;</italic><sub><italic>B</italic></sub>. Since the TCC approach corresponds to a partitioning of the
+cluster amplitudes we note that <inline-formula id="d30e723"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m013.gif"/></inline-formula> for<disp-formula id="ueq8"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m014" position="anchor"/></disp-formula>With
+|&#x003a8;<sub>HF</sub><sup arrange="stack">(<italic>AB</italic>)</sup>&#x027e9; = |&#x003a8;<sub>HF</sub><sup arrange="stack">(<italic>A</italic>)</sup>&#x027e9; &#x02227;
+|&#x003a8;<sub>HF</sub><sup arrange="stack">(<italic>B</italic>)</sup>&#x027e9;, the energy of
+the compound systems can be written as<disp-formula id="ueq9"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m015" position="anchor"/></disp-formula>It remains to show that<disp-formula id="ueq10"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m016" position="anchor"/></disp-formula>solves the Schr&#x000f6;dinger equation, i.e.,
+for all &#x027e8;&#x003a8;<sub>&#x003bc;</sub><sup arrange="stack">(AB)</sup>|, it holds that <inline-formula id="d30e769"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m017.gif"/></inline-formula>. Splitting the argument into
+three cases,
+we note that<disp-formula id="ueq11"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m018" position="anchor"/></disp-formula>where &#x027e8;&#x003a8;<sup>(<italic>A</italic>)</sup>&#x003a8;<sup>(<italic>B</italic>)</sup>|
+= &#x027e8;&#x003a8;<sup>(<italic>A</italic>)</sup>| &#x02227; &#x027e8;&#x003a8;<sup>(<italic>B</italic>)</sup>|. This proves the energy size consistency
+for the
+untruncated TCC method. From this we conclude the energy size consistency
+for the DMRG-TCCSD scheme, because the truncation only affects the
+product states &#x027e8;&#x003a8;<sub>&#x003bc;</sub><sup arrange="stack">(<italic>A</italic>)</sup>&#x003a8;<sub>&#x003bc;</sub><sup arrange="stack">(<italic>B</italic>)</sup>| and
+these are zero in the above projection.</p><p>Looking at TCC energy
+expression we observe that due to the Slater&#x02013;Condon
+rules, these equations are independent of CAS excitations higher than
+order three, i.e., amplitudes of <italic>&#x0015c;</italic><sub><italic>n</italic></sub> for <italic>n</italic> &#x0003e; 3. More precisely, due
+to the fact that in the TCCSD case external space amplitudes can at
+most contain one virtual orbital in the CAS, the TCCSD amplitude expressions
+become independent of <italic>&#x0015c;</italic><sub>4</sub>, i.e.,<disp-formula id="ueq12"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m019" position="anchor"/></disp-formula>where the primed
+variables <italic>a</italic>&#x02032;, <italic>b</italic>&#x02032;, <italic>c</italic>&#x02032;, <italic>d</italic>&#x02032;, <italic>e</italic>&#x02032; describe orbitals
+in the CAS, the nonprimed variable <italic>a</italic> describes an
+orbital in the external part and <italic>i</italic>, <italic>j</italic>, <italic>k</italic>, <italic>l</italic>, <italic>m</italic>, <italic>n</italic> are occupied orbitals. Note, this does not imply that
+we can restrict the CAS computation to a manifold characterizing excitations
+with rank less or equal to three as for strongly correlated systems
+these can still be relevant. However, it reduces the number of terms
+entering the DMRG-TCCSD energy computations significantly.</p><p>This
+work aligns with the originally introduced CI-TCCSD method
+taking only <italic>&#x0015c;</italic><sub><italic>n</italic></sub> for <italic>n</italic> = 1, 2 into account.<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> We emphasize that the additional consideration of <italic>&#x0015c;</italic><sub>3</sub> corresponds to an exact treatment of the CAS contributions
+to the energy. Furthermore, this consideration does not change the
+TCC method&#x02019;s complexity, if the <italic>&#x0015c;</italic><sub>3</sub> amplitudes are available. This is due to the fact that including
+the CAS triple excitation amplitudes will not exceed the dominating
+complexities of the CCSD approach<sup><xref ref-type="bibr" rid="ref82">82</xref></sup> nor
+of the DMRG method. However, the extraction of the CI-triples from
+the DMRG wave function is costly and a corresponding efficiency investigation
+is left for future work.</p></sec><sec id="sec4"><label>IV</label><title>Analysis of the DMRG-TCC
+Method</title><p>In the sequel we discuss and elaborate mathematical
+properties
+of the TCC approach and their influence on the DMRG-TCC method. The
+presentation here is held brief and the interested reader is referred
+to ref (<xref ref-type="bibr" rid="ref76">76</xref>) and the
+references therein for further mathematical details.</p><sec id="sec4.1"><label>IV.A</label><title>Complete
+Active Space Choice</title><p>As
+pointed out in the previous section, the TCC method relies on a <italic>well-chosen</italic> CAS, i.e., a large enough CAS that covers the
+system&#x02019;s static correlation. Consequently, we require a quantitative
+measurement for the quality of the CAS, which presents the first obstacle
+for creating a nonempirical model since the chemical concept of correlation
+is not well-defined.<sup><xref ref-type="bibr" rid="ref83">83</xref></sup> In the DMRG-TCC
+method, we use a quantum information theory approach to classify the
+spin-orbital correlation. This classification is based on the <italic>mutual-information</italic><disp-formula id="ueq13"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m020" position="anchor"/></disp-formula>This two
+particle entropy is defined via the <italic>von Neumann entropy S</italic>(&#x003c1;) = &#x02212;Tr(&#x003c1; ln &#x003c1;)
+of the reduced density operators &#x003c1;<sub>{<italic>X</italic>}</sub>.<sup><xref ref-type="bibr" rid="ref84">84</xref></sup> Note that the mutual-information describes
+two-particle correlations. For a more general connection between multiparticle
+correlations and &#x003be;-correlations, we refer the reader to the
+work of Szalay et al.<sup><xref ref-type="bibr" rid="ref84">84</xref></sup> We emphasize that
+in practice this is a basis dependent quantity, which is in agreement
+with the chemical definition of correlation concepts.<sup><xref ref-type="bibr" rid="ref83">83</xref></sup> We identify pairs of spin-orbitals contributing to a high
+mutual information value as strongly correlated, the pairs contributing
+to the plateau region, i.e., a region in which the mutual information
+profile is constant, as nondynamically correlated and the pairs contributing
+to the mutual information tail as dynamically correlated (see <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>). The mutual-information
+profile can be well approximated from a prior DMRG computation on
+the full system. Due to the size of the full system we only compute
+a DMRG solution of low <italic>bond dimension</italic> (also called <italic>tensor rank</italic>). These low-accuracy calculations, however,
+already provide a good qualitative entropy profile, i.e., the shapes
+of profiles obtained for low bond dimension, <italic>M</italic>, agree
+well with the ones obtained in the FCI limit. Here, we refer to <xref rid="fig2" ref-type="fig">Figures <xref rid="fig2" ref-type="fig">2</xref></xref> and <xref rid="fig3" ref-type="fig">3</xref> showing the single orbital entropy and mutual information
+profiles, respectively, for various <italic>M</italic> values and
+for three different geometries of the N<sub>2</sub> molecule. The
+orbitals with large entropies can be identified from the low-<italic>M</italic> calculations providing a routine procedure to form the
+CAS including the strongly correlated orbitals.<sup><xref ref-type="bibr" rid="ref85">85</xref>&#x02212;<xref ref-type="bibr" rid="ref87">87</xref></sup> In practice
+this is achieved by using the following dimension reduction protocol:
+We start with a very low bond dimension calculation carried out on
+the full orbital space. Based on the corresponding entropy profile
+and an <italic>a priori</italic> defined numerical threshold, a smaller
+set of orbitals is selected. In a subsequent step the same procedure
+is repeated on the reduced orbital set but with a larger bond dimension.
+This iterative dimension reduction protocol is a typical renormalization
+group based approach to refine the entropy spectrum that is also used
+in condensed matter physics.</p><p>A central observation is that,
+for <inline-formula id="d30e985"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m021.gif"/></inline-formula> (i.e., <italic>k</italic> = <italic>N</italic>), the DMRG-TCCSD becomes the CCSD method and,
+for <inline-formula id="d30e994"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m022.gif"/></inline-formula> (i.e., <italic>k</italic> = <italic>K</italic>), it is the DMRG method. We recall that the
+CCSD method can not
+resolve static correlation and the DMRG method needs high tensor ranks
+for dynamically correlated systems. This suggests that the error obtains
+a minimum for some <italic>k</italic> with <italic>N</italic> &#x02264; <italic>k</italic> &#x02264; <italic>K</italic>, i.e., there exists an optimal
+choice of <italic>k</italic> determining the basis splitting and therewith
+the choice of the CAS. Note that this feature becomes important for
+large systems since high bond dimensions become simply impossible
+to compute with available methods.</p></sec><sec id="sec4.2"><label>IV.B</label><title>Local
+Analysis of the DMRG-TCC Method</title><p>The CC method can be formulated
+as <italic>nonlinear Galerkin scheme</italic>,<sup><xref ref-type="bibr" rid="ref70">70</xref></sup> which is a well-established framework
+in numerical analysis to convert the continuous Schr&#x000f6;dinger
+equation to a discrete problem. For the DMRG-TCC method a first local
+analysis was performed in ref (<xref ref-type="bibr" rid="ref76">76</xref>). There, a quantitative error estimate with respect to the
+basis truncation was established. Faulstich et al. showed under certain
+assumptions (Assumption A and B in the sequel) that the DMRG-TCC method
+possesses a locally unique and <italic>quasi-optimal</italic> solution
+(cf. section 4.1 in ref (<xref ref-type="bibr" rid="ref76">76</xref>)). In case of the DMRG-TCC method the latter means: On a
+fixed CAS, the CC method tailored by a DMRG solution provides a truncation
+hierarchy that converges to the best possible dynamical correction
+to the given CAS. For a fixed basis set the CC solution tailored by
+a DMRG solution on a fixed CAS is up to a multiplicative constant
+the best possible solution in the approximation space defined by the
+basis set. In other words, the CC method provides the best possible
+dynamical correction for a given CAS solution such as a DMRG solution.</p><p>Note that local uniqueness ensures that for a fixed basis set,
+the computed DMRG-TCC solution is unique in a neighborhood around
+the exact solution. We emphasize that this result is derived under
+the assumption that the CAS solution is fixed. Consequently, for different
+CAS solutions we obtain in general different TCC solutions, i.e.,
+different cluster amplitudes.</p><p>Subsequently, parts of the results
+in ref (<xref ref-type="bibr" rid="ref76">76</xref>) are explained
+in a setting
+adapted to the theoretical chemistry perspective. The TCC function
+is given by <italic>f</italic>(<italic>t</italic>; <italic>s</italic>) = &#x027e8;&#x003a8;<sub>&#x003bc;</sub>|<italic>e</italic><sup>&#x02013;<italic>&#x0015c;</italic></sup><italic>e</italic><sup>&#x02013;<italic>&#x00054;&#x00302;</italic></sup><italic>&#x00124;e</italic><sup><italic>&#x00054;&#x00302;</italic></sup><italic>e</italic><sup><italic>&#x0015c;</italic></sup>|&#x003a8;<sub>HF</sub>&#x027e9;, for |&#x003a8;<sub>&#x003bc;</sub>&#x027e9; not in the
+CAS. Note that we use the convention where small letters <italic>s</italic>, <italic>t</italic> correspond to cluster amplitudes, whereas capital
+letters <italic>&#x0015c;</italic>, <italic>&#x00054;&#x00302;</italic> describe
+cluster operators. The corresponding TCC energy expression is given
+by<disp-formula id="ueq14"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m023" position="anchor"/></disp-formula>Consequently, the linked TCC <xref rid="eq1" ref-type="disp-formula">eqs <xref rid="eq1" ref-type="disp-formula">1</xref></xref> then become<disp-formula id="ueq15"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m024" position="anchor"/></disp-formula>Within this framework
+the locally unique and
+quasi-optimal solutions of the TCC method were obtained under two
+assumptions (see Assumption A and B in ref (<xref ref-type="bibr" rid="ref76">76</xref>)).</p><p>First, Assumption A requires that the
+Fock operator <italic>&#x00046;&#x00302;</italic> is <italic>bounded</italic> and satisfies a so-called <italic><italic>G</italic>&#x000e5;rding
+inequality</italic>. Note that spectral gap
+assumptions (cf. HOMO&#x02013;LUMO gap) are standard in the analysis
+of dynamically correlated systems, and for a more detailed description
+of these properties in this context, we refer readers to ref (<xref ref-type="bibr" rid="ref77">77</xref>). Second, in the theoretical
+framework<sup><xref ref-type="bibr" rid="ref76">76</xref></sup> it is assumed that there exists
+a CAS-ext gap in the spectrum of the Fock operator, i.e., there is
+a gap between the <italic>k</italic>th and the <italic>k</italic> +
+1st orbital energies. The CAS-ext gap (although in practice possibly
+very small) was sufficient for the analysis since the main purpose
+was to remove the HOMO&#x02013;LUMO gap assumption and allow for quasi-degeneracy,
+which makes the general TCC approach applicable to multiconfiguration
+systems. Intuitively, this gap assumption means that the CAS captures
+the static correlation of the system.</p><p>However, in practice,
+an arbitrarily small gap is insufficient
+and needs to be complemented by a more detailed discussion (see Remark
+10 in ref (<xref ref-type="bibr" rid="ref76">76</xref>)). The
+crucial stability constant is not directly related to the CAS-ext
+gap &#x003b5;<sub><italic>k</italic>+1</sub> &#x02013; &#x003b5;<sub><italic>k</italic></sub>, nor to the HOMO&#x02013;LUMO gap &#x003b5;<sub><italic>N</italic>+1</sub> &#x02013; &#x003b5;<sub><italic>N</italic></sub>.
+Due to the frozen CAS-amplitudes this stability constant becomes much
+larger and is roughly estimated by &#x003b5;<sub><italic>k</italic>+1</sub> &#x02013; &#x003b5;<sub><italic>N</italic></sub>. This improved stability
+provides accurate CC amplitudes and the improved gap is not destroyed
+e.g. by the existence of many diffuse functions around the LUMO-level
+(Fermi level). In this case, the CAS includes the diffuse functions.
+This might not be optimal but is the simplest choice and most importantly
+fulfills the stability condition. The issue of basis set optimization
+is discussed briefly in the conclusion but a more detailed discussion
+is left for future work.</p><p>Assumption B is concerned with the
+fluctuation operator <italic>&#x00174;</italic> = <italic>&#x00124;</italic> &#x02013; <italic>&#x00046;&#x00302;</italic>. This operator describes the
+difference of the Hamiltonian and a
+single particle operator, here chosen to be the Fock operator. Using
+the similarity transformed <italic>&#x00174;</italic> and fixing the
+CAS amplitudes <italic>s</italic>, the map<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_0012" id="GRAPHIC-d7e3846-autogenerated" position="float"/>is assumed
+to have a <italic>small enough</italic> Lipschitz-continuity constant
+(see eq 20 in ref (<xref ref-type="bibr" rid="ref76">76</xref>)). The physical interpretation
+of this Lipschitz condition is at the moment unclear.</p></sec><sec id="sec4.3"><label>IV.C</label><title>Error Estimates for the DMRG-TCC Method</title><p>A major difference
+between the CI and CC method is that the CC
+formalism is not variational. Hence, it is not evident that the CC
+energy error decays quadratically with respect to the error of the
+wave function or cluster amplitudes. Note that the TCC approach represents
+merely a partition of the cluster operator; however, its error analysis
+is more delicate than the traditional CC method&#x02019;s analysis.
+The TCC-energy error is measured as a difference to the FCI energy.
+Let |&#x003a8;*&#x027e9; describe the FCI solution on the whole space,
+i.e., <italic>&#x00124;</italic> |&#x003a8;*&#x027e9; = <italic>E</italic>|&#x003a8;*&#x027e9;. Using the exponential parametrization and the
+above introduced separation of the cluster operator, we have<disp-formula id="eq3"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m025" position="anchor"/><label>3</label></disp-formula>An
+important observation is that the TCC approach
+ignores the coupling from the external space into the CAS. It follows
+that the FCI solution on the CAS |&#x003a8;<sub>FCI</sub><sup arrange="stack">CAS</sup>&#x027e9; = exp(<italic>&#x0015c;</italic><sub>FCI</sub>)|&#x003a8;<sub>HF</sub>&#x027e9; is an approximation
+to the projection of |&#x003a8;*&#x027e9; onto the CAS<disp-formula id="ueq17"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m026" position="anchor"/></disp-formula>where <italic>&#x00050;&#x00302;</italic> = &#x02211;<sub>&#x003bc;&#x02208;CAS</sub>|&#x003a8;<sub>&#x003bc;</sub>&#x027e9;&#x027e8;&#x003a8;<sub>&#x003bc;</sub>| is the <italic>L</italic><sup>2</sup>-orthogonal projection
+onto the CAS. For a reasonably sized CAS the FCI solution |&#x003a8;<sub>FCI</sub><sup arrange="stack">CAS</sup>&#x027e9; is
+rarely computationally accessible and we introduce the DMRG solution
+on the CAS as an approximation of |&#x003a8;<sub>FCI</sub><sup arrange="stack">CAS</sup>&#x027e9;<disp-formula id="ueq18"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m027" position="anchor"/></disp-formula>Tailoring
+the CC method with these different
+CAS solutions leads in general to different TCC solutions. In the
+case of |&#x003a8;<sub>FCI</sub><sup arrange="stack">CAS</sup>&#x027e9;, the TCC method yields the best possible solution
+with respect to the chosen CAS, i.e., <italic>f</italic>(<italic>t</italic><sub>CC</sub><sup arrange="stack">*</sup>;<italic>s</italic><sub>FCI</sub>) = 0. This solution is in general different
+from <italic>t</italic><sub>CC</sub> fulfilling <italic>f</italic>(<italic>t</italic><sub>CC</sub>;<italic>s</italic><sub>DMRG</sub>) = 0 and its truncated version <italic>t</italic><sub>CCSD</sub> satisfying <italic>P</italic><sub>Gal</sub><italic>f</italic>(<italic>t</italic><sub>CCSD</sub>;<italic>s</italic><sub>DMRG</sub>) = 0,
+where <italic>P</italic><sub>Gal</sub> denotes the <italic>l</italic><sup>2</sup>-orthogonal projection onto the corresponding Galerkin
+space. In the context of the DMRG-TCC theory, the Galerkin space represents
+a truncation in the excitation rank of the cluster operator, e.g.,
+DMRG-TCCD, DMRG-TCCSD, etc.</p><p>For the following argument, suppose
+that an appropriate CAS has been fixed. The total DMRG-TCC energy
+error <italic>&#x00394;</italic><italic>E</italic> can be estimated
+as<sup><xref ref-type="bibr" rid="ref76">76</xref></sup><disp-formula id="eq4"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m028" position="anchor"/><label>4</label></disp-formula>where each term on the
+r.h.s. in <xref rid="eq4" ref-type="disp-formula">eq <xref rid="eq4" ref-type="disp-formula">4</xref></xref> is now
+discussed. As a technical
+remark, the norms on either the Hilbert space of cluster amplitudes
+or wave functions are here simply denoted as &#x02225;&#x000b7;&#x02225;.
+These norms are not just the <italic>l</italic><sup>2</sup>- or <italic>L</italic><sup>2</sup>-norm, respectively, but also measure the kinetic
+energy. It should be clear from context which Hilbert space is in
+question and we refer to ref (<xref ref-type="bibr" rid="ref71">71</xref>) for formal definitions. The first term is defined as<disp-formula id="ueq19"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m029" position="anchor"/></disp-formula>which describes the truncation error of the
+CCSD method tailored by |&#x003a8;<sub>DMRG</sub><sup arrange="stack">CAS</sup>&#x027e9;. We emphasize that the dynamical
+corrections via the CCSD and the untruncated CC method are here tailored
+by the same CAS solution. Hence, the energy error <italic>&#x00394;&#x003b5;</italic> corresponds to a single reference CC energy error, which suggests
+an analysis similar to that of refs (<xref ref-type="bibr" rid="ref70">70</xref> and <xref ref-type="bibr" rid="ref72">72</xref>). Indeed,
+the <italic>Aubin&#x02013;Nitsche duality method</italic>(<xref ref-type="bibr" rid="ref88">88</xref>&#x02212;<xref ref-type="bibr" rid="ref90">90</xref>) yields a quadratic <italic>a priori</italic> error estimate in &#x02225;<italic>t</italic><sub>CCSD</sub> &#x02013; <italic>t</italic><sub>CC</sub>&#x02225; (and in terms of the Lagrange mulitpliers; see Theorem 29
+in ref (<xref ref-type="bibr" rid="ref76">76</xref>)).</p><p>Second, we discuss the term<disp-formula id="ueq20"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m030" position="anchor"/></disp-formula>Here, different CAS solutions with fixed external
+solutions are used to compute the energies. This suggests that <italic>&#x00394;&#x003b5;</italic><sub>CAS</sub> is connected with the error<disp-formula id="eq5"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m031" position="anchor"/><label>5</label></disp-formula>describing the approximation
+error of the
+DMRG solution on the CAS (see Lemma 27 in ref (<xref ref-type="bibr" rid="ref76">76</xref>)). Indeed<disp-formula id="eq6"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m032" position="anchor"/><label>6</label></disp-formula>with &#x003b5;<sub>&#x003bc;</sub> = &#x003b5;<sub><italic>I</italic><sub>1</sub>...<italic>I</italic><sub><italic>n</italic></sub></sub><sup arrange="stack"><italic>A</italic><sub>1</sub>&#x000b7;&#x000b7;&#x000b7;<italic>A</italic><sub><italic>n</italic></sub></sup> = &#x02211;<sub><italic>j</italic>=1</sub><sup arrange="stack"><italic>n</italic></sup>(&#x003bb;<sub><italic>A</italic><sub><italic>j</italic></sub></sub> &#x02013; &#x003bb;<sub><italic>I</italic><sub><italic>j</italic></sub></sub>), for 1 &#x02264; <italic>n</italic> &#x02264; <italic>k</italic>, where &#x003bb;<sub><italic>i</italic></sub> are the orbital
+energies. The &#x003b5;<sub>&#x003bc;</sub> are the (translated) Fock
+energies, more precisely, <italic>&#x00046;&#x00302;</italic> |&#x003a8;<sub>&#x003bc;</sub>&#x027e9; = (&#x0039b;<sub>0</sub> + &#x003b5;<sub>&#x003bc;</sub>)|&#x003a8;<sub>&#x003bc;</sub>&#x027e9;, with &#x0039b;<sub>0</sub> = &#x02211;<sub><italic>i</italic>=1</sub><sup arrange="stack"><italic>N</italic></sup>&#x003bb;<sub><italic>i</italic></sub>. Note that the
+wave function |&#x003a8;<sub>FCI</sub><sup arrange="stack">CAS</sup>&#x027e9; is
+in general not an eigenfunction of <italic>&#x00124;</italic>; however,
+it is an eigenfunction of the projected Hamiltonian <italic>&#x00050;&#x00302;&#x00124;&#x00050;&#x00302;</italic>. <xref rid="eq5" ref-type="disp-formula">Equation <xref rid="eq5" ref-type="disp-formula">5</xref></xref> involves
+the exponential parametrization. This can be estimated by the energy
+error of the DMRG wave function, denoted <inline-formula id="d30e1548"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m033.gif"/></inline-formula>, namely<disp-formula id="eq7"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m034" position="anchor"/><label>7</label></disp-formula>In <xref rid="sec5" ref-type="other">section <xref rid="sec5" ref-type="other">V</xref></xref> the energy
+error of the DMRG wave function is controlled
+by the threshold value <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub>, i.e., <inline-formula id="d30e1568"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m035.gif"/></inline-formula>. Hence, for well chosen CAS the difference
+&#x02225;|&#x003a8;<sub>DMRG</sub><sup arrange="stack">CAS</sup>&#x027e9; &#x02013; |&#x003a8;<sub>FCI</sub><sup arrange="stack">CAS</sup>&#x027e9;&#x02225;<sub><italic>L</italic><sup>2</sup></sub> is sufficiently small such that <inline-formula id="d30e1587"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m036.gif"/></inline-formula> holds. This again shows
+the importance
+of a well-chosen CAS. Furthermore, the last term in <xref rid="eq6" ref-type="disp-formula">eq <xref rid="eq6" ref-type="disp-formula">6</xref></xref> can be eliminated via orbital rotations,
+as it is a sum of single excitation amplitudes.</p><p>Finally, we
+consider<disp-formula id="eq8"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m037" position="anchor"/><label>8</label></disp-formula>Since (<italic>t</italic>*, <italic>s</italic>*) is a stationary point of <inline-formula id="d30e1609"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m038.gif"/></inline-formula> we have <inline-formula id="d30e1612"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m039.gif"/></inline-formula>. A calculation involving Taylor expanding <inline-formula id="d30e1616"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m040.gif"/></inline-formula> around (<italic>t</italic>*, <italic>s</italic>*) (see Lemma 26 in ref (<xref ref-type="bibr" rid="ref76">76</xref>)) yields<disp-formula id="eq9"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m041" position="anchor"/><label>9</label></disp-formula>Note that the
+above error is caused by the
+assumed basis splitting, namely, the correlation from the external
+part into the CAS is ignored. Therefore, the best possible solution
+for a given basis splitting (<italic>t</italic><sub>CC</sub><sup arrange="stack">*</sup>, <italic>s</italic><sub>FCI</sub>) differs in general from the FCI solution (<italic>t</italic>*, <italic>s</italic>*).</p><p>Combining now the three quadratic bounds gives
+an overall quadratic <italic>a priori</italic> energy error estimate
+for the DMRG-TCC method.
+The interested reader is referred to ref (<xref ref-type="bibr" rid="ref76">76</xref>) for a more detailed treatment of the above analysis.</p></sec><sec id="sec4.4"><label>IV.D</label><title>On the <italic>k</italic>-Dependence of the
+Error Estimates</title><p>The error estimate outlined above is for
+a fixed CAS, i.e., a particular basis, splitting and bounds the energy
+error in terms of truncated amplitudes. Because the TCC solution depends
+strongly on the choice of the CAS, it is motivated to further investigate
+the <italic>k</italic>-dependence of the error <italic>&#x00394;</italic><italic>E</italic>. However, the above derived error bound has a
+highly complicated <italic>k</italic>-dependence since not only the
+amplitudes but also the implicit constants (in &#x02272;) and norms
+depend on <italic>k</italic>. Therefore, the analysis in ref (<xref ref-type="bibr" rid="ref76">76</xref>) is not directly applicable
+to take the full <italic>k</italic>-dependence into account.</p><p>In the limit where <italic>s</italic><sub>DMRG</sub> &#x02192; <italic>s</italic><sub>FCI</sub> we obtain that <italic>t</italic><sub>CC</sub> &#x02192; <italic>t</italic><sub>CC</sub><sup arrange="stack">*</sup> since the TCC method is numerically stable,
+i.e., a small perturbation in <italic>s</italic> corresponds to a
+small perturbation in the solution <italic>t</italic>. Furthermore,
+if we assume that <italic>t</italic><sub>CCSD</sub> &#x02248; <italic>t</italic><sub>CC</sub>, which is reasonable for the equilibrium
+bond length of N<sub>2</sub>, the error can be bound as<disp-formula id="eq10"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m042" position="anchor"/><label>10</label></disp-formula>Here the subscript <italic>k</italic> on <italic>&#x00394;</italic><italic>E</italic><sub><italic>k</italic></sub> and <italic>C</italic><sub><italic>k</italic></sub> highlights
+the <italic>k</italic>-dependence. We remark that we here used the
+less accurate <italic>l</italic><sup>2</sup>-structure on the amplitude
+space compared
+to the <italic>H</italic><sup>1</sup>-structure in <xref rid="eq9" ref-type="disp-formula">eq <xref rid="eq9" ref-type="disp-formula">9</xref></xref>. This yields <italic>k</italic>-independent vectors (<italic>t</italic><sub>CCSD</sub>, <italic>s</italic><sub>DMRG</sub>) and (<italic>t</italic>*, <italic>s</italic>*), as well as an <italic>k</italic>-independent <italic>l</italic><sup>2</sup>-norm. The <italic>k</italic>-depenence of <italic>C</italic><sub><italic>k</italic></sub> will be investigated numerically in
+more detail in <xref rid="sec5.2.5" ref-type="other">section <xref rid="sec5.2.5" ref-type="other">B.5</xref></xref>.</p></sec></sec><sec id="sec5"><label>V</label><title>Splitting Error for N<sub>2</sub></title><p>Including the <italic>k</italic>-dependence in the
+above performed
+error analysis explicitly is a highly nontrivial task involving many
+mathematical obstacles and is part of our current research. Therefore,
+we here extend the mathematical results from <xref rid="sec4" ref-type="other">section <xref rid="sec4" ref-type="other">IV</xref></xref> with a numerical investigation on this <italic>k</italic>-dependence. Our study is presented for the N<sub>2</sub> molecule using the cc-pVDZ basis, which is a common basis for benchmark
+computations developed by Dunning and co-workers.<sup><xref ref-type="bibr" rid="ref91">91</xref></sup> Here we remark that in our calculations all electrons are
+correlated as opposed to the typical frozen-core calculation, where
+the two 1s orbitals are omitted from the full orbital space. We investigate
+three different geometries of the nitrogen dimer by stretching the
+molecule, thus the performance of DMRG-TCCSD method is assessed against
+DMRG and single reference CC methods for bond lengths <italic>r</italic> = 2.118<italic>a</italic><sub>0</sub>, 2.700<italic>a</italic><sub>0</sub>, and 3.600<italic>a</italic><sub>0</sub>. In the equilibrium
+geometry the system is weakly correlated implying that single reference
+CC methods yield reliable results. For increasing bond length <italic>r</italic> the system shows multireference character, i.e., static
+correlations become more dominant. For <italic>r</italic> &#x0003e; 3.5<italic>a</italic><sub>0</sub> this results in the breakdown of single reference
+CC methods.<sup><xref ref-type="bibr" rid="ref92">92</xref></sup> This breakdown can be overcome
+with the DMRG-TCCSD method once a large and well chosen CAS is formed,
+we therefore refer to the DMRG-TCCSD method as numerically stable
+with respect to the bond length along the potential energy surface
+(PES).</p><p>As mentioned before, the DMRG method is in general less
+efficient
+to recover dynamic correlations since it requires large computational
+resources. However, due to the specific CAS choice the computational
+resource for the DMRG part of the TCC scheme is expected to be significantly
+lower than a pure DMRG calculation for the same level of accuracy.</p><sec id="sec5.1"><label>V.A</label><title>Computational Details</title><p>In practice,
+a routine application of the TCC method to strongly correlated molecular
+systems, i.e., to multireference problems, became possible only recently
+since it requires a very accurate solution in a large CAS including
+all static correlations. Tensor network state methods fulfill such
+a high accuracy criterion, but the efficiency of the TNS-TCCSD method
+strongly depends on various parameters of the involved algorithms.
+Some of these are defined rigorously while others are more heuristic
+from the mathematical point of view. In this section we present the
+optimization steps for the most important parameters of the DMRG-TCCSD
+method and outline how the numerical error study in <xref rid="sec5.2" ref-type="other">section <xref rid="sec5.2" ref-type="other">V.B</xref></xref> is performed.</p><p>As
+elaborated in <xref rid="sec2" ref-type="other">sections <xref rid="sec2" ref-type="other">II</xref></xref> and <xref rid="sec4.1" ref-type="other">IV.A</xref>, the CAS choice is essential for
+the computational success of TNS-TCC methods. In addition, the error
+of the TNS method used to approximate the CAS part depends on various
+approximations. These include the proper choice of a finite dimensional
+basis to describe the chemical compound, the tensor network structure,
+and the mapping of the molecular orbitals onto the given network.<sup><xref ref-type="bibr" rid="ref93">93</xref></sup> Fortunately, all these can be optimized by utilizing
+concepts of quantum information theory, introduced in <xref rid="sec4.1" ref-type="other">section <xref rid="sec4.1" ref-type="other">IV.A</xref></xref> (see also the included
+references). In the following, we restrict the numerical study to
+the DMRG-TCCSD method but the results presented here should also hold
+for other TNS approaches.<sup><xref ref-type="bibr" rid="ref93">93</xref>&#x02212;<xref ref-type="bibr" rid="ref97">97</xref></sup></p><p>In the DMRG-TCCSD case, the tensor network topology in the
+CAS
+corresponds to a single branched tensor tree, i.e., a one-dimensional
+topology. Thus, permutations of orbitals along such an artificial
+chain effect the convergence for a given CAS choice.<sup><xref ref-type="bibr" rid="ref98">98</xref>,<xref ref-type="bibr" rid="ref99">99</xref></sup> This orbital-ordering optimization can be carried out based on spectral
+graph theory<sup><xref ref-type="bibr" rid="ref100">100</xref>,<xref ref-type="bibr" rid="ref101">101</xref></sup> by minimizing the entanglement
+distance,<sup><xref ref-type="bibr" rid="ref102">102</xref></sup> defined as <italic>I</italic><sub>dist</sub> = &#x02211;<sub><italic>ij</italic></sub><italic>I</italic><sub><italic>i</italic>|<italic>j</italic></sub> |<italic>i</italic> &#x02013; <italic>j</italic>|<sup>2</sup>. In order to
+speed up the convergence of the DMRG procedure the configuration interaction
+based dynamically extended active space (CI-DEAS) method is applied.<sup><xref ref-type="bibr" rid="ref93">93</xref>,<xref ref-type="bibr" rid="ref99">99</xref></sup> In the course of these optimization steps, the single orbital entropy
+(<italic>S</italic><sub><italic>i</italic></sub> = <italic>S</italic>(&#x003c1;<sub>{<italic>i</italic>}</sub>)) and the two-orbital mutual
+information (<italic>I</italic><sub><italic>i</italic>|<italic>j</italic></sub>) are calculated iteratively until convergence is reached.
+The size of the active space is systematically increased by including
+orbitals with the largest single site entropy values, which at the
+same time correspond to orbitals contributing to the largest matrix
+elements of the mutual information. Thus, the decreasingly ordered
+values of <italic>S</italic><sub><italic>i</italic></sub> define the
+so-called CAS vector, which provides a guide in what order to extend
+the CAS by including additional orbitals. The bond dimensions <italic>M</italic> (tensor rank) in the DMRG method can be kept fixed or
+adapted dynamically (dynamic block state selection (DBSS) approach)
+in order to fulfill an <italic>a priori</italic> defined error margin.<sup><xref ref-type="bibr" rid="ref103">103</xref>,<xref ref-type="bibr" rid="ref104">104</xref></sup> Accurate extrapolation to the truncation free limit is possible
+as a function of the truncation error <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub>.<sup><xref ref-type="bibr" rid="ref103">103</xref>,<xref ref-type="bibr" rid="ref105">105</xref></sup></p><p>In our DMRG implementation<sup><xref ref-type="bibr" rid="ref106">106</xref></sup> we use
+a spatial orbital basis, i.e., the local tensor space of a single
+orbital is <italic>d</italic> = 4 dimensional. In this <inline-formula id="d30e2021"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m043.gif"/></inline-formula>-representation an orbital
+can be empty,
+singly occupied with either a spin up or spin down electron, or doubly
+occupied with opposite spins. Note, in contrast to <xref rid="sec4" ref-type="other">section <xref rid="sec4" ref-type="other">IV</xref></xref> we need <italic>N</italic>/2 spatial orbitals to describe an <italic>N</italic>-electron wave
+function and similar changes apply to the size of the basis set so
+that we use <italic>K</italic> &#x02261; <italic>K</italic>/2 from
+here on. The single orbital entropy therefore varies between 0 and
+ln <italic>d</italic> = ln 4, while the two-orbital mutual information
+varies between 0 and ln <italic>d</italic><sup>2</sup> = ln 16.</p><p>Next we provide a short description how to perform DMRG-TCCSD calculations
+in practice. Note that we leave the discussion on the optimal choice
+of <italic>k</italic> for the following sections.<list list-type="simple"><list-item><label>(1)</label><p>First the CAS is formed from the full
+orbital space by setting <italic>k</italic> = <italic>K</italic>.
+DMRG calculations are performed iteratively with fixed low bond dimension
+(or with a large error margin) in order to determine the optimal ordering
+and the CAS vector as described above. Thus, the corresponding single-orbital
+entropy and mutual information are also calculated. These calculations
+already provide a good qualitative description of the entropy profiles
+with respect to the exact solution, i.e., strongly correlated orbitals
+can be identified.</p></list-item><list-item><label>(2)</label><p>Using a given <italic>N</italic>/2
+&#x0003c; <italic>k</italic> &#x0003c; <italic>K</italic> we form the CAS from
+the Hartree&#x02013;Fock orbitals and the first <italic>k</italic> &#x02013; <italic>N</italic>/2 virtual orbitals from the CAS vector, i.e., orbitals
+with the largest single orbital entropy values. We emphasize that
+these orbitals contribute to the largest matrix elements in <italic>I</italic><sub><italic>i</italic>|<italic>j</italic></sub>. We carry
+out the orbital ordering optimization on the given CAS and perform
+a large-scale DMRG calculation with a low error threshold margin in
+order to get an accurate approximation of the |&#x003a8;<sub>FCI</sub><sup arrange="stack">CAS</sup>&#x027e9;. Note
+that the DMRG method yields a normalized wave function, i.e., the
+overlap with the reference determinant |&#x003a8;<sub>HF</sub>&#x027e9;
+is not necessarily equal to one.</p></list-item><list-item><label>(3)</label><p>Using the matrix product state representation
+of |&#x003a8;<sub>DMRG</sub><sup arrange="stack">FCI</sup>&#x027e9; obtained by the DMRG method we determine the zero reference
+overlap, single and double CI coefficients of the full tensor representation
+of the wave function. Next, these are used to calculate the <italic>&#x0015c;</italic><sub>1</sub> and <italic>&#x0015c;</italic><sub>2</sub> amplitudes, which form the input of the forthcoming CCSD calculation.</p></list-item><list-item><label>(4)</label><p>In the following step
+the cluster
+amplitudes for the external part, i.e., <italic>&#x00054;&#x00302;</italic><sub>1</sub> and <italic>&#x00054;&#x00302;</italic><sub>2</sub>, are calculated
+in the course of the DMRG-TCCSD scheme.</p></list-item><list-item><label>(5)</label><p>As we discus in the next section,
+finding the optimal CAS, i.e., <italic>k</italic>-splitting, is a
+highly nontrivial problem, and at the present stage we can only present
+a solution that is considered as a heuristic approach in terms of
+rigorous mathematics. In practice, we repeat steps 2&#x02013;4 for
+a large DMRG-truncation error as a function of <italic>N</italic>/2
+&#x0003c; <italic>k</italic> &#x0003c; <italic>K</italic>, thus we find local
+energy minima (see <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>) using a relatively cheap DMRG-TCCSD scheme. Around such
+a local minimum we perform more accurate DMRG-TCCSD calculations by
+lowering the DMRG-truncation error in order to refine the optimal <italic>k</italic>. We also monitor the maximum number of DMRG block states
+required to reach the <italic>a priori</italic> defined DMRG-error
+margin as a function of <italic>k</italic>. Since it can happen that
+several <italic>k</italic> values lead to low error DMRG-TCCSD energies,
+while the computational effort increases significantly with increasing <italic>k</italic> we select the optimal <italic>k</italic> that leads to
+low DMRG-TCCSD energy but also minimizes the required DMRG block states.
+Using the optimal <italic>k</italic> value we perform large-scale
+DMRG-TCCSD calculation using a relatively tight error bound for the
+DMRG-truncation error.</p></list-item></list></p><p>We close this
+section with a brief summary of the numerically accessible
+error terms and relate them to equations presented in <xref rid="sec4" ref-type="other">section <xref rid="sec4" ref-type="other">IV</xref></xref>. Note that the error analysis
+in <xref rid="sec4" ref-type="other">section <xref rid="sec4" ref-type="other">IV</xref></xref> is presented
+for a given <italic>k</italic>, thus here the <italic>k</italic> dependence
+is also omitted.</p><p>For a given <italic>k</italic> split, the accuracy
+of |&#x003a8;<sub>DMRG</sub><sup arrange="stack">CAS</sup>&#x027e9; depends
+on the DMRG truncation error, <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub>. As has been shown in refs (<xref ref-type="bibr" rid="ref103">103</xref> and <xref ref-type="bibr" rid="ref105">105</xref>), the relative
+error, <italic>&#x00394;</italic><italic>E</italic><sub>rel</sub> =
+(<italic>E</italic><sub>DMRG(<italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub>)</sub><sup arrange="stack">CAS</sup> &#x02013; <italic>E</italic><sub>FCI</sub><sup arrange="stack">CAS</sup>)/<italic>E</italic><sub>FCI</sub><sup arrange="stack">CAS</sup> is a linear function of <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> on a logarithmic scale. Therefore, extrapolation to
+the FCI limit can be carried out as a function of <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub>. In addition, the error term <disp-formula id="eq78"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m044" position="anchor"/></disp-formula> appearing
+in <xref rid="eq7" ref-type="disp-formula">eq <xref rid="eq7" ref-type="disp-formula">7</xref></xref> can be controlled.</p><p>Note that terms appearing in <xref rid="eq6" ref-type="disp-formula">eqs <xref rid="eq6" ref-type="disp-formula">6</xref></xref> and <xref rid="eq7" ref-type="disp-formula">7</xref> include FCI solutions
+of the considered system. However, for small enough and dynamically
+correlated systems, these FCI solutions can be well approximated.
+This is in particular the case for the nitrogen dimer near the equilibrium
+geometry with the here chosen basis set. The CI-coefficients are then
+extractable from the matrix product state representation of a wave
+function, e.g., |&#x003a8;<sub>DMRG</sub><sup arrange="stack">CAS</sup>&#x027e9; or |&#x003a8;<sub>FCI</sub><sup arrange="stack">CAS</sup>&#x027e9;. Note that calculating
+all CI-coefficients scales exponentially with the size of the CAS.
+However, since the system is dynamically correlated zeroth order,
+single and double excitation coefficients are sufficient. Hence, the
+error terms &#x02225;|&#x003a8;<sub>DMRG</sub><sup arrange="stack">CAS</sup>&#x027e9; &#x02013; |&#x003a8;<sub>FCI</sub><sup arrange="stack">CAS</sup>&#x027e9;&#x02225;<sub><italic>L</italic><sup>2</sup></sub> and &#x02225;(<italic>&#x0015c;</italic><sub>FCI</sub> &#x02013; <italic>&#x0015c;</italic><sub>DMRG(<italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub>)</sub>)|&#x003a8;<sub>HF</sub>&#x027e9;&#x02225; in <xref rid="eq6" ref-type="disp-formula">eqs <xref rid="eq6" ref-type="disp-formula">6</xref></xref> and <xref rid="eq7" ref-type="disp-formula">7</xref>, respectively, can be well approximated.
+We remark that this exponential scaling with the CAS size also effects
+the computational costs of the CAS CI-triples, which are needed for
+an exact treatment of the TCCSD energy equation. However, investigations
+of the influence of the CAS CI-triples on the computed energies are
+left for future work.</p></sec><sec id="sec5.2"><label>V.B</label><title>Results and Discussion</title><p>In this section,
+we investigate the overall error dependence of DMRG-TCCSD as a function
+of <italic>k</italic> and as a function of the DMRG-truncation error <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub>. For our numerical error study
+we perform steps 1&#x02013;4 discussed in <xref rid="sec5.1" ref-type="other">section <xref rid="sec5.1" ref-type="other">V.A</xref></xref> for each <italic>N</italic>/2 &#x0003c; <italic>k</italic> &#x0003c; <italic>K</italic>. For each geometry <italic>r</italic> = 2.118<italic>a</italic><sub>0</sub>, 2.700<italic>a</italic><sub>0</sub>, and 3.600<italic>a</italic><sub>0</sub>, we also carry out
+very high accuracy DMRG calculations on the full orbital space, i.e.,
+by setting the truncation error to <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;8</sup> and <italic>k</italic> = <italic>K</italic>. This data is used as a reference for the FCI solution.</p><sec id="sec5.2.1"><label>B.1</label><title>Entropy Study on the Full Orbital Space</title><p>We start our
+investigation by showing DMRG results for the full
+orbital space, i.e., the CAS is formed from <italic>k</italic> = <italic>K</italic> = 28 orbitals, and for various fixed <italic>M</italic> values and for <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;8</sup>. In the latter case the maximum bond dimension was
+set to <italic>M</italic> = 10&#x0202f;000. In <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref> a, we show the relative error of the ground-state
+energy as a function of the DMRG-truncation error on a logarithmic
+scale. For the FCI energy, <italic>E</italic><sub>FCI</sub>, the CCSDTQPH
+reference energy is used given in ref (<xref ref-type="bibr" rid="ref107">107</xref>). It is visible that the relative error is a
+linear function of the truncation error on a logarithmic scale, thus
+extrapolation to the truncation free solution can be carried out according
+to refs (<xref ref-type="bibr" rid="ref103">103</xref> and <xref ref-type="bibr" rid="ref105">105</xref>).</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>(a) Relative
+error of the ground-state energy as a function of
+the DMRG-truncation error on a logarithmic scale obtained for the
+full orbital space (<italic>k</italic> = <italic>K</italic>) with <italic>r</italic> = 2.118<italic>a</italic><sub>0</sub>. (b) Maximum number
+of block states as a function of <italic>k</italic> for the <italic>a priori</italic> defined truncation error <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;8</sup> with <italic>r</italic> =
+2.118<italic>a</italic><sub>0</sub> (blue), 2.700<italic>a</italic><sub>0</sub> (green), and 3.600<italic>a</italic><sub>0</sub> (red).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_0001" id="gr1" position="float"/></fig><p>In <xref rid="fig2" ref-type="fig">Figures <xref rid="fig2" ref-type="fig">2</xref></xref> and <xref rid="fig3" ref-type="fig">3</xref>, we present the sorted
+values of the single orbital
+entropy and of the mutual information obtained for fixed <italic>M</italic> = 64, 256, 512 and with <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;8</sup> for the three geometries. As can be seen
+in the figures, the entropy profiles obtained with low-rank DMRG calculations
+already resemble the main characteristics of the exact profile (<italic>M</italic> &#x02243; 10000). Therefore, orbitals with large single
+orbital entropies, also contributing to large matrix elements of <italic>I</italic><sub><italic>i</italic>|<italic>j</italic></sub>, can easily
+be identified from a low-rank computation. The ordered orbital indices
+define the CAS vector, and the CAS for the DMRG-TCCSD can be formed
+accordingly as discussed in <xref rid="sec5.1" ref-type="other">section <xref rid="sec5.1" ref-type="other">V.A</xref></xref>.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Single orbital entropy for <italic>r</italic> = 2.118<italic>a</italic><sub>0</sub> (blue), 2.700<italic>a</italic><sub>0</sub> (green),
+3.600<italic>a</italic><sub>0</sub> (red) obtained for the full orbital
+space (<italic>k</italic> = 28) with DMRG for fixed <italic>M</italic> = 64, 256, 512 and for <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;8</sup>, <italic>M</italic><sub>max</sub> = 10&#x0202f;000.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_0002" id="gr2" position="float"/></fig><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Mutual information for <italic>r</italic> =
+2.118<italic>a</italic><sub>0</sub> (blue), 2.700<italic>a</italic><sub>0</sub> (green),
+3.600<italic>a</italic><sub>0</sub> (red) obtained for the full orbital
+space (<italic>k</italic> = 28) with DMRG for fixed <italic>M</italic> = 64, 256, 512 and for <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;8</sup>, <italic>M</italic><sub>max</sub> = 10&#x0202f;000.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_0003" id="gr3" position="float"/></fig><p>Taking a look at <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>, it becomes apparent that <italic>S</italic><sub><italic>i</italic></sub> shifts upward for increasing <italic>r</italic> indicating
+the higher contribution of static correlations for the stretched geometries.
+Similarly the first 50&#x02013;100 matrix elements of <italic>I</italic><sub><italic>i</italic>|<italic>j</italic></sub> also take larger
+values for larger <italic>r</italic> while the exponential tail, corresponding
+to dynamic correlations, is less effected. The gap between large and
+small values of the orbital entropies gets larger and its position
+shifts rightward for larger <italic>r</italic>. Thus, for the stretched
+geometries more orbitals must be included in the CAS during the TCC
+scheme in order to determine the static correlations accurately. We
+remark here that the orbitals contributing to the high values of the
+single orbital entropy and mutual information matrix elements change
+for the different geometries according to chemical bond forming and
+breaking processes.<sup><xref ref-type="bibr" rid="ref108">108</xref></sup></p></sec><sec id="sec5.2.2"><label>B.2</label><title>Numerical Investigation of the Error&#x02019;s <italic>k</italic>-Dependence</title><p>In order to obtain |&#x003a8;*&#x027e9;
+in the FCI limit, we perform high-accuracy DMRG calculations with <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;8</sup>. The
+CAS was formed by including all Hartee&#x02013;Fock orbitals and its
+size was increased systematically by including orbitals with the largest
+entropies according to the CAS vector. Orbitals with degenerate single
+orbital entropies, due to symmetry considerations, are added to the
+CAS at the same time. Thus, there are some missing <italic>k</italic> points in the following figures. For each restricted CAS we carry
+our the usual optimization steps of a DMRG scheme as discussed in <xref rid="sec5.1" ref-type="other">section <xref rid="sec5.1" ref-type="other">V.A</xref></xref>, with low bond
+dimension followed by a high-accuracy calculation with <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;8</sup> using eight sweeps.<sup><xref ref-type="bibr" rid="ref93">93</xref></sup> Our DMRG ground-state energies for 7 &#x0003c; <italic>k</italic> &#x0003c; 28 together with the CCSD (corresponding to a DMRG-TCCSD
+calculation where <italic>k</italic> = <italic>N</italic>/2 = 7) and
+CCSDTQ reference energies, are shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> near the equilibrium
+bond length, <italic>r</italic> = 2.118<italic>a</italic><sub>0</sub>. The single-reference coupled cluster calculations were performed
+in NWChem,<sup><xref ref-type="bibr" rid="ref109">109</xref></sup> we employed the cc-pVDZ basis
+set in the spherical representation. For <italic>k</italic> = <italic>K</italic> = 28 the CCSDTQPH energy was taken as a reference for
+the FCI energy.<sup><xref ref-type="bibr" rid="ref107">107</xref></sup></p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Ground-state energy of
+the N<sub>2</sub> molecule near the equilibrium
+geometry, <italic>r</italic> = 2.118<italic>a</italic><sub>0</sub>, obtained with DMRG-TCCSD for 7 &#x02264; <italic>k</italic> &#x02264;
+28 and for various DMRG truncation errors <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub>. The CCSD, CCSDT, and CCSDTQ reference energies are
+shown by dotted, dashed, and dashed&#x02013;dotted lines, respectively.
+The CCSDTPQH energy (<italic>k</italic> = 28) is taken as a reference
+for the FCI energy. For <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;5</sup> the CAS was additionally formed by taking <italic>k</italic> orbitals according to increasing values of the single-orbital
+entropy values, i.e., inverse to the other CAS extensions. This is
+labeled by CAS<sup>&#x02191;</sup> (see also <xref rid="sec5" ref-type="other">Sec. <xref rid="sec5" ref-type="other">V</xref></xref>.B.3).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_0004" id="gr4" position="float"/></fig><p>The DMRG energy starts from the Hartree&#x02013;Fock energy
+for <italic>k</italic> = 7 and decreases monotonically with increasing <italic>k</italic> until the full orbital solution with <italic>k</italic> = 28 is reached. It is remarkable, however, that the DMRG-TCCSD
+energy is significantly below the CCSD energy for all CAS choices,
+even for a very small <italic>k</italic> = 9. The error, however,
+shows an irregular behavior taking small values for several different <italic>k</italic> values. This is due to the fact that the DMRG-TCCSD approach
+suffers from a methodological error, i.e., certain fraction of the
+correlations are lost, since the CAS is frozen in the CCSD correction.
+This supports the hypothesis of a <italic>k</italic>-dependent constant
+as discussed in <xref rid="sec4.4" ref-type="other">section <xref rid="sec4.4" ref-type="other">IV.D</xref></xref>. Therefore, whether orbital <italic>k</italic> is part of
+the CAS or external part provides a different methodological error.
+This is clearly seen as the error increases between <italic>k</italic> = 10 and 15 although the CAS covers more of the system&#x02019;s
+static correlation with increasing <italic>k</italic>. This is investigated
+in more detail in <xref rid="sec5.2.4" ref-type="other">section <xref rid="sec5.2.4" ref-type="other">B.4</xref></xref>.</p><p>Since several <italic>k</italic>-splits lead
+to small DMRG-TCCSD
+errors, the optimal <italic>k</italic> value from the computational
+point of view, is determined not only by the error minimum but also
+by the minimal computational time, i.e., we need to take the computational
+requirements of the DMRG into account. Note that the size of the DMRG
+block states contributes significantly to the computational cost of
+the DMRG calculation. The connection of the block size to the CAS
+choice is shown in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>b, where the maximal number of DMRG block states is depicted
+as a function of <italic>k</italic> for the <italic>a priori</italic> defined truncation error margin <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;8</sup>. Note that max(<italic>M</italic>) increases rapidly for 10 &#x0003c; <italic>k</italic> &#x0003c; 20. The optimal
+CAS is therefore chosen such that the DMRG block states are not too
+large and the DMRG-TCCSD provides a low error, i.e., is a local minimum
+in the residual with respect to <italic>k</italic>.</p><p>It is important
+to note that based on <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> the DMRG-TCCSD energy got very close to,
+or even dropped below, the CCSDT energy for several <italic>k</italic> values. Since close to the equilibrium geometry the wave function
+is dominated by a single reference character, it is expected that
+DMRG-TCCSD leads to even more robust improvements for the stretched
+geometries, i.e., when the multireference character of the wave function
+is more pronounced. Our results for the stretched geometries, <italic>r</italic> = 2.700<italic>a</italic><sub>0</sub> and 3.600<italic>a</italic><sub>0</sub>, are shown in <xref rid="fig2" ref-type="fig">Figures <xref rid="fig2" ref-type="fig">2</xref></xref>, <xref rid="fig3" ref-type="fig">3</xref>, <xref rid="fig5" ref-type="fig">5</xref>, and <xref rid="fig6" ref-type="fig">6</xref>. As mentioned in <xref rid="sec5.2.1" ref-type="other">section <xref rid="sec5.2.1" ref-type="other">B.1</xref></xref>, for larger <italic>r</italic> values static correlations gain importance signaled by
+the increase in the single orbital entropy in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>. Thus, the multireference character of the
+wave function becomes apparent through the entropy profiles. According
+to <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref> the DMRG-TCCSD
+energy for all <italic>k</italic> &#x0003e; 7 values is again below the
+CCSD
+computation and for <italic>k</italic> &#x0003e; 15 it is even below the
+CCSDT
+reference energy. For <italic>r</italic> = 3.600<italic>a</italic><sub>0</sub> the CC computation fluctuates with increasing excitation
+ranks and CCSDT is even far below the FCI reference energy, revealing
+the variational breakdown of the single-reference CC method for multireference
+problems. In contrast to this, the DMRG-TCCSD energy is again below
+the CCSD energy for all <italic>k</italic> &#x0003e; 7, but above the CCSDT
+energy. The error furthermore shows a local minimum around <italic>k</italic> = 19. For the stretched geometries static correlations
+are more pronounced, there are more orbitals with large entropies,
+thus the maximum number of DMRG block states increases more rapidly
+with <italic>k</italic> compared to the situation near the equilibrium
+geometry (see <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>b). Thus, obtaining an error margin within 1 &#x003bc;<italic>E</italic><sub>h</sub> for <italic>k</italic> = 19 &#x0226a; 28 leads to a significant
+save in computational time and resources. Here we remark that DMRG-TCCSD
+is a single-reference multireference method thus the choice of the reference determinant
+can effect its performance. In the our current study, however, we
+have verified that for <italic>d</italic> &#x02264; 4 and for all <italic>k</italic> values the weight of the Hartree&#x02013;Fock determinant
+was significantly larger than all other determinants.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Ground-state energy of
+the N<sub>2</sub> molecule with bond length <italic>r</italic> = 2.7<italic>a</italic><sub>0</sub>, obtained with DMRG-TCCSD
+for 7 &#x02264; <italic>k</italic> &#x02264; 28 and for various DMRG
+truncation errors <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub>. The
+CCSD, CCSDT, and CCSDTQ reference energies are shown by dotted, dashed,
+and dashed&#x02013;dotted lines, respectively. The DMRG energy with <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;8</sup> on
+the full space, i.e., <italic>k</italic> = 28, is taken as a reference
+for the FCI energy. For <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;5</sup>, the CAS was additionally formed by taking <italic>k</italic> orbitals according to increasing values of the single-orbital
+entropy, i.e., inverse to the other CAS extensions. This is labeled
+by CAS<sup>&#x02191;</sup> (see also <xref rid="sec5.2.3" ref-type="other">section <xref rid="sec5.2.3" ref-type="other">B.3</xref></xref>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_0005" id="gr5" position="float"/></fig><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Ground-state energy of the N<sub>2</sub> molecule with bond length <italic>r</italic> = 3.6<italic>a</italic><sub>0</sub>, obtained with DMRG-TCCSD
+for 7 &#x02264; <italic>k</italic> &#x02264; 28 and for various DMRG
+truncation errors <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub>. The
+CCSD, CCSDT, and CCSDTQ reference energies are shown by dotted, dashed,
+and dashed&#x02013;dotted lines, respectively. The DMRG energy with <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;8</sup> on
+the full space, i.e., <italic>k</italic> = 28, is taken as a reference
+for the FCI energy. For <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;5</sup>, the CAS was additionally formed by taking <italic>k</italic> orbitals according to increasing values of the single-orbital
+entropy, i.e., inverse to the other CAS extensions. This is labeled
+by CAS<sup>&#x02191;</sup> (see also <xref rid="sec5.2.3" ref-type="other">section <xref rid="sec5.2.3" ref-type="other">B.3</xref></xref>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_0006" id="gr6" position="float"/></fig></sec><sec id="sec5.2.3"><label>B.3</label><title>Effect of <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> on the DMRG-TCCSD</title><p>In practice, we do not intend
+to carry out DMRG calculations in the FCI limit, thus usually a larger
+truncation error is used. Therefore, we have repeated our calculations
+for larger truncation errors in the range of 10<sup>&#x02013;4</sup> and 10<sup>&#x02013;7</sup>. Our results are shown in <xref rid="fig4" ref-type="fig">Figures <xref rid="fig4" ref-type="fig">4</xref></xref>, <xref rid="fig5" ref-type="fig">5</xref>, and <xref rid="fig6" ref-type="fig">6</xref>. For small <italic>k</italic> the
+DMRG solution basically provides the Full-CI limit since the <italic>a priori</italic> set minimum number of block states <italic>M</italic><sub>min</sub> &#x02243; 64 already leads to a very low truncation
+error. Therefore, the error of the DMRG-TCCSD is dominated by the
+methodological error. For <italic>k</italic> &#x0003e; 15 the effect of
+the
+DMRG truncation error becomes visible and for large <italic>k</italic> the overall error is basically determined by the DMRG solution.
+For larger <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> between 10<sup>&#x02013;4</sup> and 10<sup>&#x02013;5</sup> the DMRG-TCCSD error shows
+a minimum with respect to <italic>k</italic>. This is exactly the
+expected trend, since the CCSD method fails to capture static correlation
+while DMRG requires large bond dimension to recover dynamic correlations,
+i.e., a low truncation error threshold. In addition, the error minima
+for different truncation error thresholds <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> happen to be around the same <italic>k</italic> values.
+This has an important practical consequence: the optimal <italic>k</italic>-split can be determined by performing cheap DMRG-TCCSD calculations
+using large DMRG truncation error threshold as a function of <italic>k</italic>.</p><p>The figures furthermore indicate that <italic>&#x00394;</italic><italic>E</italic><sub>GS</sub> has a high peak for 9 &#x0003c; <italic>k</italic> &#x0003c; 16. This can be explained by the splitting of the
+FCI space since this yields that the correlation from external orbitals
+with CAS orbitals is ignored. Thus, we also performed calculations
+for <italic>&#x003b4;&#x003b5;</italic><sub>Tr</sub> = 10<sup>&#x02013;5</sup> using a CAS formed by taking <italic>k</italic> orbitals according
+to increasing values of the single orbital entropy values in order
+to demonstrate the importance of the CAS extension. The corresponding
+error profile as a function of <italic>k</italic> near the equilibrium
+geometry is shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> labeled by CAS<sup>&#x02191;</sup>. As expected, the improvement
+of DMRG-TCCSD is marginal compared to CCSD up to a very large <italic>k</italic> &#x02243; 23 split since &#x003c8;<sub>DMRG</sub><sup arrange="stack">CAS</sup> differs only marginally from &#x003c8;<sub>HF</sub>.</p></sec><sec id="sec5.2.4"><label>B.4</label><title>Numerical Investigation
+on CAS-ext Correlations</title><p>Taking another look at <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>, we can confirm that already
+for small <italic>k</italic> values the most important orbitals, i.e.,
+those with the largest
+entropies, are included in the CAS. In <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>, the sorted values of the mutual information
+obtained by DMRG(<italic>k</italic>) for 9 &#x02264; <italic>k</italic> &#x02264; 28 is shown on a semilogarithmic scale. It is apparent
+from the figure that the largest values of <italic>I</italic><sub><italic>i</italic>|<italic>j</italic></sub> change only slightly
+with increasing <italic>k</italic>, thus static correlations are basically
+included for all restricted CAS. The exponential tail of <italic>I</italic><sub><italic>i</italic>|<italic>j</italic></sub> corresponding to
+dynamic correlations, however, becomes more visible only for larger <italic>k</italic> values. We conclude, for a given <italic>k</italic> split
+the DMRG method computes the static correlations efficiently and the
+missing tail of the mutual information with respect to the full orbital
+space (<italic>k</italic> = 28) calculation is captured by the TCC
+scheme.</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>(a) Sorted values of the mutual information obtained by DMRG(<italic>k</italic>) for 9 &#x02264; <italic>k</italic> &#x02264; 28 on a semilogarithmic
+scale for N<sub>2</sub> at <italic>r</italic> = 2.118<italic>a</italic><sub>0</sub>. (b) Sorted 40 largest matrix elements of the mutual
+information obtained by DMRG(<italic>k</italic>) for 9 &#x02264; <italic>k</italic> &#x02264; 28 on a lin&#x02013;lin scale for N<sub>2</sub> at <italic>r</italic> = 2.118<italic>a</italic><sub>0</sub>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_0007" id="gr7" position="float"/></fig><p>Correlations between the CAS and
+external parts can also be simulated
+by a DMRG calculation on the full orbital space using an orbital ordering
+according to the CAS vector. In this case, the DMRG left block can
+be considered as the CAS and the right block as the external part.
+For a pure target state, for example, the ground state, the correlations
+between the CAS and external part is measured by the block entropy, <italic>S</italic>(&#x003c1;<sub>CAS(<italic>k</italic>)</sub>) as a function
+of <italic>k</italic>. Here &#x003c1;<sub>CAS(<italic>k</italic>)</sub> is formed by a partial trace on the external part of |&#x003a8;<sub>DMRG</sub><sup arrange="stack">FCI</sup>&#x027e9;.
+The block entropy is shown in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>a. The block entropy decays monotonically for <italic>k</italic> &#x0003e; 7, i.e, the correlations between the CAS and the
+external
+part vanish with increasing <italic>k</italic>. In contrast to this,
+when an ordering according to CAS<sup>&#x02191;</sup> is used the correlation
+between CAS and external part remains always strong, i.e., some of
+the highly correlated orbitals are distributed among the CAS and the
+external part. Nevertheless, both curves are smooth and they cannot
+explain the error profile shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>(a) Block entropy, <italic>S</italic>(&#x003c1;<sub>CAS(<italic>k</italic>)</sub>), as a function of <italic>k</italic> for <italic>r</italic> = 2.118 ordering orbitals along the DMRG
+chain according to the
+same CAS and CAS<sup>&#x02191;</sup> vectors as used in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>. (b) <italic>e</italic>(<italic>k</italic>, &#x003b4;<sub>&#x003b5;<sub>Tr</sub></sub>) as a function
+of <italic>k</italic> of the nitrogen dimer near the equilibrium bond
+length for DMRG truncation error thresholds &#x003b4;<sub>&#x003b5;<sub>Tr</sub></sub> between 10<sup>&#x02013;4</sup> and 10<sup>&#x02013;8</sup>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_0008" id="gr8" position="float"/></fig></sec><sec id="sec5.2.5"><label>B.5</label><title>Numerical
+Values for the Amplitude Error Analysis</title><p>Since correlation
+analysis based on the entropy functions cannot
+reveal the error profile shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>, here we reinvestagate the error behavior
+as a function of <italic>N</italic>/2 &#x02264; <italic>k</italic> &#x02264; <italic>K</italic> but in terms of the CC amplitudes. Therefore, we also
+present a more detailed description of <xref rid="eq10" ref-type="disp-formula">eq <xref rid="eq10" ref-type="disp-formula">10</xref></xref> in <xref rid="sec4" ref-type="other">section <xref rid="sec4" ref-type="other">IV</xref></xref> which includes the following terms:<disp-formula id="eq11"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m045" position="anchor"/><label>11</label></disp-formula>Here the <italic>valid index-pairs</italic> are &#x003bc; = (<bold><italic>i</italic></bold>, <bold><italic>a</italic></bold>), with <bold><italic>i</italic></bold> = (<italic>i</italic><sub>1</sub>, ..., <italic>i</italic><sub><italic>n</italic></sub>) &#x02208; {1, ..., <italic>N</italic>/2}<sup><italic>n</italic></sup>, and <bold><italic>a</italic></bold> = (<italic>a</italic><sub>1</sub>, ..., <italic>a</italic><sub><italic>n</italic></sub>) &#x02208;
+{<italic>N</italic>/2 + 1, ..., <italic>K</italic>}<sup><italic>n</italic></sup>. The excitation rank is given by |&#x003bc;| = <italic>n</italic> where <italic>n</italic> = 1 stands for singles, <italic>n</italic> = 2 for doubles, and so on. The &#x003bc; values are the labels of
+excitation operators &#x003c4;&#x00302;<sub><italic>i</italic></sub><sup arrange="stack"><italic>a</italic></sup> &#x02254; <italic>&#x000e2;</italic><sub><italic>a</italic></sub><sup arrange="stack">&#x02020;</sup><italic>&#x000e2;</italic><sub><italic>i</italic></sub>, and &#x003c4;&#x00302;<sub><italic>i</italic><sub>1</sub>,...,<italic>i</italic><sub><italic>n</italic></sub></sub><sup arrange="stack"><italic>a</italic><sub>1</sub>,...,<italic>a</italic><sub><italic>n</italic></sub></sup> &#x02254; &#x003c4;&#x00302;<sub><italic>i</italic><sub><italic>n</italic></sub></sub><sup arrange="stack"><italic>a</italic><sub><italic>n</italic></sub></sup> ... &#x003c4;&#x00302;<sub><italic>i</italic><sub>1</sub></sub><sup arrange="stack"><italic>a</italic><sub>1</sub></sup>. The corresponding amplitudes are given as <italic>t</italic><sub><italic>i</italic><sub>1</sub>,...,<italic>i</italic><sub><italic>n</italic></sub></sub><sup arrange="stack"><italic>a</italic><sub>1</sub>,...,<italic>a</italic><sub><italic>n</italic></sub></sup>. For invalid index-pairs, i.e., index-pairs that are out of range,
+the amplitudes are always zero. The various amplitudes appearing in <xref rid="eq11" ref-type="disp-formula">eq <xref rid="eq11" ref-type="disp-formula">11</xref></xref> are calculated according
+to the following rules:<list list-type="simple"><list-item><label>(1)</label><p>The tensor <italic>s</italic><sub><italic>k</italic></sub><sup arrange="stack">*</sup>: amplitudes in the CAS(<italic>k</italic>) obtained by DMRG(&#x003b4;<sub>&#x003b5;<sub>Tr</sub></sub><sup arrange="stack">*</sup> = 10<sup>&#x02013;8</sup>) solution (represented by CI coefficients <italic>c</italic>*) for
+CAS(<italic>K</italic>)<disp-formula id="eq12"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ct8b00960_m046" position="anchor"/><label>12</label></disp-formula>where <italic>i</italic>, <italic>i</italic><sub>1</sub>, <italic>i</italic><sub>2</sub> &#x02208; {1, ..., <italic>N</italic>/2} and <italic>a</italic>, <italic>a</italic><sub>1</sub>, <italic>a</italic><sub>2</sub> &#x02208; {<italic>N</italic>/2 +
+1, ..., <italic>k</italic>}.</p></list-item><list-item><label>(2)</label><p>The tensor <italic>t</italic><sub><italic>k</italic></sub><sup arrange="stack">*</sup>: amplitudes not in the CAS(<italic>k</italic>) obtained from the
+DMRG(&#x003b4;<sub>&#x003b5;<sub>Tr</sub></sub><sup arrange="stack">*</sup> = 10<sup>&#x02013;8</sup>) solution (represented
+by CI coefficients <italic>c</italic>*) for CAS(<italic>K</italic>) projected onto CAS(<italic>k</italic>), i.e., the complement (with
+respect to valid index-pairs) of <italic>s</italic><sub><italic>k</italic></sub><sup arrange="stack">*</sup>.</p></list-item><list-item><label>(3)</label><p>The tensor <italic>s</italic><sub>DMRG</sub>(<italic>k</italic>, &#x003b4;<sub>&#x003b5;<sub>Tr</sub></sub>): amplitudes in the CAS(<italic>k</italic>) are obtained by the
+DMRG(&#x003b4;<sub>&#x003b5;<sub>Tr</sub></sub>) solution (represented
+by CI coefficients <italic>c</italic>) for CAS(<italic>k</italic>).
+The amplitudes <italic>s</italic><sub>DMRG</sub>(<italic>k</italic>, &#x003b4;<sub>&#x003b5;<sub>Tr</sub></sub>)<sub><italic>i</italic></sub><sup arrange="stack"><italic>a</italic></sup>, <italic>s</italic><sub>DMRG</sub>(<italic>k</italic>, &#x003b4;<sub>&#x003b5;<sub>Tr</sub></sub>)<sub><italic>i</italic><sub>1</sub>,<italic>i</italic><sub>2</sub></sub><sup arrange="stack"><italic>a</italic><sub>1</sub>,<italic>a</italic><sub>2</sub></sup> are the
+same as <xref rid="eq12" ref-type="disp-formula">eq <xref rid="eq12" ref-type="disp-formula">12</xref></xref>, but with <italic>c</italic>* &#x02192; <italic>c</italic>, where <italic>i</italic>, <italic>i</italic><sub>1</sub>, <italic>i</italic><sub>2</sub> &#x02208;
+{1, ..., <italic>N</italic>/2} and <italic>a</italic>, <italic>a</italic><sub>1</sub>, <italic>a</italic><sub>2</sub> &#x02208; {<italic>N</italic>/2 + 1, ..., <italic>k</italic>}.</p></list-item><list-item><label>(4)</label><p>The tensor <italic>t</italic><sub>CCSD</sub>(<italic>k</italic>, &#x003b4;<sub>&#x003b5;<sub>Tr</sub></sub>): amplitudes not
+in the CAS(<italic>k</italic>) obtained by TCCSD,
+i.e., the complement (with respect to valid index-pairs) of <italic>s</italic><sub>DMRG</sub>(<italic>k</italic>, &#x003b4;<sub>&#x003b5;<sub>Tr</sub></sub>).</p></list-item></list></p><p>In <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>b we show the error <italic>e</italic>(<italic>k</italic>, &#x003b4;<sub>&#x003b5;<sub>Tr</sub></sub>) as a function of <italic>k</italic> of
+the nitrogen dimer near the equilibrium bond length. Note that the
+quantitative behavior is quite robust with respect to the bond dimension
+since the values only differ marginally. We emphasize that the error
+contribution in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref> is dominated by second term in <xref rid="eq11" ref-type="disp-formula">eq <xref rid="eq11" ref-type="disp-formula">11</xref></xref> since this is an order of magnitude larger than the
+contribution from the first and third terms in <xref rid="eq11" ref-type="disp-formula">eq <xref rid="eq11" ref-type="disp-formula">11</xref></xref>, respectively. The first term in <xref rid="eq11" ref-type="disp-formula">eq <xref rid="eq11" ref-type="disp-formula">11</xref></xref> is furthermore related
+to the usual T1 diagnostic in CC,<sup><xref ref-type="bibr" rid="ref110">110</xref></sup> so
+it is not a surprise that a small value, &#x0223c;10<sup>&#x02013;3</sup>, was found. Comparing this error profile to the one shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> we can understand
+the irregular behavior and the peak in the error in <italic>&#x00394;</italic><italic>E</italic><sub>GS</sub> between <italic>k</italic> = 9 and
+17, and the other peaks for <italic>k</italic> &#x0003e; 17 but the error
+minimum found for <italic>k</italic> = 19 remains unexplained. Furthermore,
+we can conclude from <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>b that the quotient <italic>&#x00394;</italic><italic>E</italic><sub>GS</sub>(<italic>k</italic>)/<italic>e</italic>(<italic>k</italic>, &#x003b4;<sub>&#x003b5;<sub>Tr</sub></sub>) is not constant. This indicates
+that the constants involved in <xref rid="sec4" ref-type="other">section <xref rid="sec4" ref-type="other">IV</xref></xref> in particular the constant in <xref rid="eq10" ref-type="disp-formula">eq <xref rid="eq10" ref-type="disp-formula">10</xref></xref> in <xref rid="sec4.4" ref-type="other">section <xref rid="sec4.4" ref-type="other">IV.D</xref></xref> is indeed <italic>k</italic>-dependent.</p></sec></sec></sec><sec id="sec6"><label>VI</label><title>Conclusion</title><p>In this article we presented
+a fundamental study of the DMRG-TCCSD
+method. We showed that, unlike the single-reference CC method, the
+linked and unlinked DMRG-TCC equations are in general not equivalent.
+Furthermore, we showed energy size consistency of the TCC, DMRG-TCC,
+and DMRG-TCCSD method and gave a proof that CAS excitations higher
+than order three do not enter the TCC energy expression.</p><p>In
+addition to these computational properties of the DMRG-TCCSD
+method, we presented the mathematical error analysis performed in
+ref (<xref ref-type="bibr" rid="ref76">76</xref>) from a quantum
+chemistry perspective. We showed local uniqueness and quasi optimality
+of DMRG-TCC solutions and highlighted the importance of the CAS-ext
+gap&#x02014;a spectral gap assumption allowing to perform the analysis
+presented here. Furthermore, we presented a quadratic <italic>a priori</italic> error estimate for the DMRG-TCC method, which aligns the error behavior
+of the DMRG-TCC method with variational methods except for the upper
+bound condition. We emphasize that the DMRG-TCC solution depends strongly
+on the CAS choice. Throughout the analysis we neglected this dependence
+as we assumed an optimal CAS choice as indicated in <xref rid="sec4.1" ref-type="other">section <xref rid="sec4.1" ref-type="other">IV.A</xref></xref>. The explicit consideration
+of this dependence in the performed error analysis carries many mathematical
+challenges, which are part of our current research. Therefore, we
+extended this work with a numerical study of the <italic>k</italic>-dependence of the DMRG-TCCSD error which showed also that the constants
+involved in the error estimation are most likely <italic>k</italic>-dependent. This stresses the importance of further mathematical
+work to include this dependence explicitly in the analysis.</p><p>We furthermore presented computational data of the single-site
+entropy and the mutual information that are used to choose the CAS.
+Our computations showed that these properties are qualitatively very
+robust, i.e., their qualitative behavior is well represented by means
+of a low-rank approximation, which is a computational benefit. The
+numerical investigation of the <italic>k</italic>-dependence of the
+DMRG-TCCSD error revealed that the predicted trend in <xref rid="sec4.1" ref-type="other">section <xref rid="sec4.1" ref-type="other">IV.A</xref></xref> is correct. We demonstrated
+that the error indeed first decays (7 &#x02264; <italic>k</italic> &#x02264;
+9) and then increases again (25 &#x02264; <italic>k</italic> &#x02264;
+28) for low-rank approximations, i.e., 10<sup>&#x02013;4</sup> respectively
+10<sup>&#x02013;5</sup>. This aligns with the theoretical prediction
+based on the properties of the DMRG and single reference CC method.
+Additional to this general trend, the error shows oscillations. A
+first hypothesis is that this behavior is related to the ignored correlations
+in the transition <italic>k</italic> &#x02192; <italic>k</italic> +
+1. However, this was not able to be proven so far using entropy based
+measures but a similar irregular behavior can be detected by a cluster
+amplitude error analysis. Furthermore, such oscillations can be related
+to a bad reference function. Nonetheless, this scenario has here been
+ruled out since the Hartree&#x02013;Fock determinant was found to be
+dominant in the CAS solution, i.e., the weight of the Hartree&#x02013;Fock
+had largest weight in the CAS solution. The irregular behavior of
+the error minimum found for the DMRG-TCCSD method, therefore, could
+not be explained within this article and is left for future work.
+Despite the unknown reason for this behavior, we note that the error
+minima are fairly robust with respect to the bond dimension. Hence,
+the DMRG-TCCSD method can be extended with a screening process using
+low bond-dimension approximations to detect possible error minima.</p><p>On the other hand, an important feature that we would like to highlight
+here is that a small CAS (<italic>k</italic> = 9) yields a significant
+improvement of the energy and that the energies for all three geometries
+and all CAS choices outrun the single-reference CC method. In addition,
+the DMRG-TCCSD method avoids the breakdown of the CC approach even
+for multireference (strongly correlated) systems and, using concepts
+of quantum information theory, allows an efficient routine application
+of the method. Since the numerical error study showed a significant
+improvement for small CAS, we suspect the DMRG-TCCSD method to be
+of great use for larger systems with many strongly correlated orbitals
+as well as a many dynamically correlated orbitals.<sup><xref ref-type="bibr" rid="ref1">1</xref>,<xref ref-type="bibr" rid="ref2">2</xref></sup></p><p>Finally, we remark, that besides the advantageous properties of
+the method there is a need for further analysis and developments in
+order to achieve our ultimate goal, i.e., to provide a black-box implementation
+of the DMRG-TCC method. Among these we highlight orbital rotations
+in the CAS through Fermionic mode transformation,<sup><xref ref-type="bibr" rid="ref111">111</xref></sup> an automatic calculation of the best rank-1 representation
+of the DMRG wave function to be used as a reference state and the
+investigations of the influence of the CAS CI-triples on the computed
+energies. All these tasks are in progress.</p></sec></body><back><notes notes-type="COI-statement" id="NOTES-d7e8281-autogenerated"><p>The authors declare
+no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>This work has received funding from the <italic>Research Council
+of Norway</italic> (RCN) under CoE Grant No. 262695 (Hylleraas Centre
+for Quantum Molecular Sciences), from ERC-STG-2014 under grant No.
+639508, from the <italic>Hungarian National Research, Development
+and Innovation Office</italic> (NKFIH) through Grant No. K120569,
+from the <italic>Hungarian Quantum Technology National Excellence
+Program</italic> (Project No. 2017-1.2.1-NKP-2017-00001), from the <italic>Czech Science Foundation</italic> (grants no. 16-12052S, 18-18940Y,
+and 18-24563S), and the <italic>Czech Ministry of Education, Youth
+and Sports</italic> (project no. LTAUSA17033). &#x000d6;.L. also acknowledges
+financial support form the Alexander von Humboldt Foundation. F.M.F,
+A.L., &#x000d6;.L., and M.A.C. are grateful for the mutual hospitality
+received during their visits at the Wigner Research Center for Physics
+in Budapest and the Hylleraas Centre for Quantum Molecular Sciences.
+&#x000d6;.L. and J.P. acknowledge useful discussions with Marcel Nooijen.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Veis</surname><given-names>L.</given-names></name>; <name><surname>Antal&#x000ed;k</surname><given-names>A.</given-names></name>; <name><surname>Brabec</surname><given-names>J.</given-names></name>; <name><surname>Neese</surname><given-names>F.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>Pittner</surname><given-names>J.</given-names></name>
+<article-title>Coupled Cluster
+Method with Single and Double Excitations
+Tailored by Matrix Product State Wave Functions</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2016</year>, <volume>7</volume>, <fpage>4072</fpage>&#x02013;<lpage>4078</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpclett.6b01908</pub-id>.<pub-id pub-id-type="pmid">27682626</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Veis</surname><given-names>L.</given-names></name>; <name><surname>Antal&#x000ed;k</surname><given-names>A.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>Alavi</surname><given-names>A.</given-names></name>; <name><surname>Pittner</surname><given-names>J.</given-names></name>
+<article-title>The Intricate
+Case of Tetramethyleneethane: A Full Configuration Interaction Quantum
+Monte Carlo Benchmark and Multireference Coupled Cluster Studies</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2018</year>, <volume>14</volume>, <fpage>2439</fpage>&#x02013;<lpage>2445</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jctc.8b00022</pub-id>.<pub-id pub-id-type="pmid">29570291</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>White</surname><given-names>S. R.</given-names></name>; <name><surname>Martin</surname><given-names>R. L.</given-names></name>
+<article-title>Ab Initio Quantum Chemistry Using
+The Density Matrix
+Renormalization Group</article-title>. <source>J. Chem. Phys.</source>
+<year>1999</year>, <volume>110</volume>, <fpage>4127</fpage>&#x02013;<lpage>4130</lpage>. <pub-id pub-id-type="doi">10.1063/1.478295</pub-id>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>McCulloch</surname><given-names>I. P.</given-names></name>; <name><surname>Gul&#x000e1;csi</surname><given-names>M.</given-names></name>
+<article-title>The non-Abelian
+density matrix renormalization group
+algorithm</article-title>. <source>Europhys. Lett.</source>
+<year>2002</year>, <volume>57</volume>, <fpage>852</fpage><pub-id pub-id-type="doi">10.1209/epl/i2002-00393-0</pub-id>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>T&#x000f3;th</surname><given-names>A.</given-names></name>; <name><surname>Moca</surname><given-names>C.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>Zar&#x000e1;nd</surname><given-names>G.</given-names></name>
+<article-title>Density matrix
+numerical renormalization group for non-Abelian symmetries</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>2008</year>, <volume>78</volume>, <fpage>245109</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.78.245109</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Sharma</surname><given-names>S.</given-names></name>; <name><surname>Chan</surname><given-names>G. K.-L.</given-names></name>
+<article-title>Spin-adapted density matrix renormalization
+group algorithms
+for quantum chemistry</article-title>. <source>J. Chem. Phys.</source>
+<year>2012</year>, <volume>136</volume>, <fpage>124121</fpage><pub-id pub-id-type="doi">10.1063/1.3695642</pub-id>.<pub-id pub-id-type="pmid">22462849</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Keller</surname><given-names>S.</given-names></name>; <name><surname>Reiher</surname><given-names>M.</given-names></name>
+<article-title>Spin-adapted matrix
+product states and operators</article-title>. <source>J. Chem. Phys.</source>
+<year>2016</year>, <volume>144</volume>, <fpage>134101</fpage><pub-id pub-id-type="doi">10.1063/1.4944921</pub-id>.<pub-id pub-id-type="pmid">27059556</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Bartlett</surname><given-names>R. J.</given-names></name>; <name><surname>Musia&#x00142;</surname><given-names>M.</given-names></name>
+<article-title>Coupled-cluster
+theory in quantum chemistry</article-title>. <source>Rev. Mod. Phys.</source>
+<year>2007</year>, <volume>79</volume>, <fpage>291</fpage>&#x02013;<lpage>352</lpage>. <pub-id pub-id-type="doi">10.1103/RevModPhys.79.291</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Lyakh</surname><given-names>D. I.</given-names></name>; <name><surname>Musia&#x00142;</surname><given-names>M.</given-names></name>; <name><surname>Lotrich</surname><given-names>V. F.</given-names></name>; <name><surname>Bartlett</surname><given-names>R. J.</given-names></name>
+<article-title>Multireference Nature
+of Chemistry: The Coupled-Cluster View</article-title>. <source>Chem.
+Rev.</source>
+<year>2012</year>, <volume>112</volume>, <fpage>182</fpage>&#x02013;<lpage>243</lpage>. <pub-id pub-id-type="doi">10.1021/cr2001417</pub-id>.<pub-id pub-id-type="pmid">22220988</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>K&#x000f6;hn</surname><given-names>A.</given-names></name>; <name><surname>Hanauer</surname><given-names>M.</given-names></name>; <name><surname>M&#x000fc;ck</surname><given-names>L. A.</given-names></name>; <name><surname>Jagau</surname><given-names>T.-C.</given-names></name>; <name><surname>Gauss</surname><given-names>J.</given-names></name>
+<article-title>State-specific
+multireference coupled-cluster theory</article-title>. <source>Wiley
+Interdiscip. Rev.: Comput. Mol. Sci.</source>
+<year>2013</year>, <volume>3</volume>, <fpage>176</fpage>&#x02013;<lpage>197</lpage>. <pub-id pub-id-type="doi">10.1002/wcms.1120</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Jeziorski</surname><given-names>B.</given-names></name>; <name><surname>Monkhorst</surname><given-names>H. J.</given-names></name>
+<article-title>Coupled-cluster
+method for multideterminantal reference
+states</article-title>. <source>Phys. Rev. A: At., Mol., Opt. Phys.</source>
+<year>1981</year>, <volume>24</volume>, <fpage>1668</fpage>&#x02013;<lpage>1681</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevA.24.1668</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Lee</surname><given-names>J.</given-names></name>; <name><surname>Small</surname><given-names>D. W.</given-names></name>; <name><surname>Epifanovsky</surname><given-names>E.</given-names></name>; <name><surname>Head-Gordon</surname><given-names>M.</given-names></name>
+<article-title>Coupled-cluster
+valence-bond singles and doubles for strongly correlated systems:
+Block-tensor based implementation and application to oligoacenes</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2017</year>, <volume>13</volume>, <fpage>602</fpage>&#x02013;<lpage>615</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jctc.6b01092</pub-id>.<pub-id pub-id-type="pmid">28072533</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Lindgren</surname><given-names>I.</given-names></name>; <name><surname>Mukherjee</surname><given-names>D.</given-names></name>
+<article-title>On the connectivity criteria in the
+open-shell coupled-cluster
+theory for general model spaces</article-title>. <source>Phys. Rep.</source>
+<year>1987</year>, <volume>151</volume>, <fpage>93</fpage>&#x02013;<lpage>127</lpage>. <pub-id pub-id-type="doi">10.1016/0370-1573(87)90073-1</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Lindgren</surname><given-names>I.</given-names></name>
+<article-title>Linked-Diagram
+and Coupled-Cluster Expansions for Multi-Configurational, Complete
+and Incomplete Model Spaces</article-title>. <source>Phys. Scr.</source>
+<year>1985</year>, <volume>32</volume>, <fpage>291</fpage><pub-id pub-id-type="doi">10.1088/0031-8949/32/4/009</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Mukherjee</surname><given-names>D.</given-names></name>; <name><surname>Moitra</surname><given-names>R. K.</given-names></name>; <name><surname>Mukhopadhyay</surname><given-names>A.</given-names></name>
+<article-title>Applications
+of a non-perturbative
+many-body formalism to general open-shell atomic and molecular problems:
+calculation of the ground and the lowest &#x003c0;-&#x003c0;* singlet
+and triplet energies and the first ionization potential of trans-butadiene</article-title>. <source>Mol. Phys.</source>
+<year>1977</year>, <volume>33</volume>, <fpage>955</fpage>&#x02013;<lpage>969</lpage>. <pub-id pub-id-type="doi">10.1080/00268977700100871</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Stolarczyk</surname><given-names>L. Z.</given-names></name>; <name><surname>Monkhorst</surname><given-names>H. J.</given-names></name>
+<article-title>Coupled-cluster method with optimized
+reference state</article-title>. <source>Int. J. Quantum Chem.</source>
+<year>1984</year>, <volume>26</volume>, <fpage>267</fpage>&#x02013;<lpage>291</lpage>. <pub-id pub-id-type="doi">10.1002/qua.560260827</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Stolarczyk</surname><given-names>L. Z.</given-names></name>; <name><surname>Monkhorst</surname><given-names>H. J.</given-names></name>
+<article-title>Coupled-cluster
+method in Fock space. I. General formalism</article-title>. <source>Phys. Rev. A: At., Mol., Opt. Phys.</source>
+<year>1985</year>, <volume>32</volume>, <fpage>725</fpage>&#x02013;<lpage>742</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevA.32.725</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Stolarczyk</surname><given-names>L. Z.</given-names></name>; <name><surname>Monkhorst</surname><given-names>H. J.</given-names></name>
+<article-title>Coupled-cluster
+method in Fock space. II. Brueckner-Hartree-Fock
+method</article-title>. <source>Phys. Rev. A: At., Mol., Opt. Phys.</source>
+<year>1985</year>, <volume>32</volume>, <fpage>743</fpage><pub-id pub-id-type="doi">10.1103/PhysRevA.32.743</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Stolarczyk</surname><given-names>L. Z.</given-names></name>; <name><surname>Monkhorst</surname><given-names>H. J.</given-names></name>
+<article-title>Coupled-cluster
+method in Fock space. III. On similarity
+transformation of operators in Fock space</article-title>. <source>Phys.
+Rev. A: At., Mol., Opt. Phys.</source>
+<year>1988</year>, <volume>37</volume>, <fpage>1908</fpage><pub-id pub-id-type="doi">10.1103/PhysRevA.37.1908</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Stolarczyk</surname><given-names>L. Z.</given-names></name>; <name><surname>Monkhorst</surname><given-names>H. J.</given-names></name>
+<article-title>Coupled-cluster method in Fock space. IV. Calculation
+of expectation values and transition moments</article-title>. <source>Phys. Rev. A: At., Mol., Opt. Phys.</source>
+<year>1988</year>, <volume>37</volume>, <fpage>1926</fpage><pub-id pub-id-type="doi">10.1103/PhysRevA.37.1926</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Stolarczyk</surname><given-names>L. Z.</given-names></name>; <name><surname>Monkhorst</surname><given-names>H. J.</given-names></name>
+<article-title>Quasiparticle Fock-space coupled-cluster
+theory</article-title>. <source>Mol. Phys.</source>
+<year>2010</year>, <volume>108</volume>, <fpage>3067</fpage>&#x02013;<lpage>3089</lpage>. <pub-id pub-id-type="doi">10.1080/00268976.2010.518981</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Jeziorski</surname><given-names>B.</given-names></name>; <name><surname>Monkhorst</surname><given-names>H. J.</given-names></name>
+<article-title>Coupled-cluster
+method for multideterminantal reference
+states</article-title>. <source>Phys. Rev. A: At., Mol., Opt. Phys.</source>
+<year>1981</year>, <volume>24</volume>, <fpage>1668</fpage><pub-id pub-id-type="doi">10.1103/PhysRevA.24.1668</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Datta</surname><given-names>D.</given-names></name>; <name><surname>Mukherjee</surname><given-names>D.</given-names></name>
+<article-title>An explicitly
+spin-free compact open-shell coupled
+cluster theory using a multireference combinatoric exponential ansatz:
+Formal development and pilot applications</article-title>. <source>J.
+Chem. Phys.</source>
+<year>2009</year>, <volume>131</volume>, <fpage>044124</fpage><pub-id pub-id-type="doi">10.1063/1.3185356</pub-id>.<pub-id pub-id-type="pmid">19655854</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Evangelista</surname><given-names>F. A.</given-names></name>; <name><surname>Allen</surname><given-names>W. D.</given-names></name>; <name><surname>Schaefer</surname><given-names>H. F.</given-names><suffix>III</suffix></name>
+<article-title>High-order excitations
+in state-universal and state-specific multireference coupled cluster
+theories: Model systems</article-title>. <source>J. Chem. Phys.</source>
+<year>2006</year>, <volume>125</volume>, <fpage>154113</fpage><pub-id pub-id-type="doi">10.1063/1.2357923</pub-id>.<pub-id pub-id-type="pmid">17059245</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Piecuch</surname><given-names>P.</given-names></name>; <name><surname>Paldus</surname><given-names>J.</given-names></name>
+<article-title>Orthogonally spin-adapted
+multi-reference Hilbert space
+coupled-cluster formalism: Diagrammatic formulation</article-title>. <source>Theor. Chim. Acta</source>
+<year>1992</year>, <volume>83</volume>, <fpage>69</fpage>&#x02013;<lpage>103</lpage>. <pub-id pub-id-type="doi">10.1007/BF01113244</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Kucharski</surname><given-names>S.</given-names></name>; <name><surname>Balkov&#x000e1;</surname><given-names>A.</given-names></name>; <name><surname>Szalay</surname><given-names>P.</given-names></name>; <name><surname>Bartlett</surname><given-names>R. J.</given-names></name>
+<article-title>Hilbert space multireference
+coupled-cluster methods. II. A model study on H8</article-title>. <source>J. Chem. Phys.</source>
+<year>1992</year>, <volume>97</volume>, <fpage>4289</fpage>&#x02013;<lpage>4300</lpage>. <pub-id pub-id-type="doi">10.1063/1.463931</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Balkov&#x000e1;</surname><given-names>A.</given-names></name>; <name><surname>Kucharski</surname><given-names>S.</given-names></name>; <name><surname>Meissner</surname><given-names>L.</given-names></name>; <name><surname>Bartlett</surname><given-names>R. J.</given-names></name>
+<article-title>A Hilbert space
+multi-reference coupled-cluster study of the H 4 model system</article-title>. <source>Theor. Chim. Acta</source>
+<year>1991</year>, <volume>80</volume>, <fpage>335</fpage>&#x02013;<lpage>348</lpage>. <pub-id pub-id-type="doi">10.1007/BF01117417</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Kinoshita</surname><given-names>T.</given-names></name>; <name><surname>Hino</surname><given-names>O.</given-names></name>; <name><surname>Bartlett</surname><given-names>R. J.</given-names></name>
+<article-title>Coupled-cluster method tailored by
+configuration interaction</article-title>. <source>J. Chem. Phys.</source>
+<year>2005</year>, <volume>123</volume>, <fpage>074106</fpage><pub-id pub-id-type="doi">10.1063/1.2000251</pub-id>.<pub-id pub-id-type="pmid">16229558</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Fang</surname><given-names>T.</given-names></name>; <name><surname>Shen</surname><given-names>J.</given-names></name>; <name><surname>Li</surname><given-names>S.</given-names></name>
+<article-title>Block correlated
+coupled cluster
+method with a complete-active-space self-consistent-field reference
+function: The formula for general active spaces and its applications
+for multibond breaking systems</article-title>. <source>J. Chem. Phys.</source>
+<year>2008</year>, <volume>128</volume>, <fpage>224107</fpage><pub-id pub-id-type="doi">10.1063/1.2939014</pub-id>.<pub-id pub-id-type="pmid">18554006</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Datta</surname><given-names>D.</given-names></name>; <name><surname>Kong</surname><given-names>L.</given-names></name>; <name><surname>Nooijen</surname><given-names>M.</given-names></name>
+<article-title>A state-specific
+partially internally
+contracted multireference coupled cluster approach</article-title>. <source>J. Chem. Phys.</source>
+<year>2011</year>, <volume>134</volume>, <fpage>214116</fpage><pub-id pub-id-type="doi">10.1063/1.3592494</pub-id>.<pub-id pub-id-type="pmid">21663353</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Hanauer</surname><given-names>M.</given-names></name>; <name><surname>K&#x000f6;hn</surname><given-names>A.</given-names></name>
+<article-title>Pilot applications
+of internally contracted multireference
+coupled cluster theory, and how to choose the cluster operator properly</article-title>. <source>J. Chem. Phys.</source>
+<year>2011</year>, <volume>134</volume>, <fpage>204111</fpage><pub-id pub-id-type="doi">10.1063/1.3592786</pub-id>.<pub-id pub-id-type="pmid">21639428</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Evangelista</surname><given-names>F. A.</given-names></name>; <name><surname>Gauss</surname><given-names>J.</given-names></name>
+<article-title>An orbital-invariant
+internally contracted multireference coupled
+cluster approach</article-title>. <source>J. Chem. Phys.</source>
+<year>2011</year>, <volume>134</volume>, <fpage>114102</fpage><pub-id pub-id-type="doi">10.1063/1.3559149</pub-id>.<pub-id pub-id-type="pmid">21428602</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Lyakh</surname><given-names>D. I.</given-names></name>; <name><surname>Ivanov</surname><given-names>V. V.</given-names></name>; <name><surname>Adamowicz</surname><given-names>L.</given-names></name>
+<article-title>Automated
+generation of coupled-cluster
+diagrams: Implementation in the multireference state-specific coupled-cluster
+approach with the complete-active-space reference</article-title>. <source>J. Chem. Phys.</source>
+<year>2005</year>, <volume>122</volume>, <fpage>024108</fpage><pub-id pub-id-type="doi">10.1063/1.1824897</pub-id>.<pub-id pub-id-type="pmid">15638573</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Hanrath</surname><given-names>M.</given-names></name>
+<article-title>An exponential
+multireference wave-function Ansatz</article-title>. <source>J. Chem.
+Phys.</source>
+<year>2005</year>, <volume>123</volume>, <fpage>084102</fpage><pub-id pub-id-type="doi">10.1063/1.1953407</pub-id>.<pub-id pub-id-type="pmid">16164277</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Pittner</surname><given-names>J.</given-names></name>; <name><surname>Nachtigall</surname><given-names>P.</given-names></name>; <name><surname>&#x0010c;&#x000e1;rsky</surname><given-names>P.</given-names></name>; <name><surname>Huba&#x0010d;</surname><given-names>I.</given-names></name>
+<article-title>State-Specific
+Brillouin- Wigner Multireference Coupled Cluster Study of the Singlet-
+Triplet Separation in the Tetramethyleneethane Diradical</article-title>. <source>J. Phys. Chem. A</source>
+<year>2001</year>, <volume>105</volume>, <fpage>1354</fpage>&#x02013;<lpage>1356</lpage>. <pub-id pub-id-type="doi">10.1021/jp0032199</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Huba&#x0010d;</surname><given-names>I.</given-names></name>; <name><surname>Wilson</surname><given-names>S.</given-names></name>
+<article-title>On the use of Brillouin-Wigner perturbation theory
+for many-body systems</article-title>. <source>J. Phys. B: At., Mol.
+Opt. Phys.</source>
+<year>2000</year>, <volume>33</volume>, <fpage>365</fpage><pub-id pub-id-type="doi">10.1088/0953-4075/33/3/306</pub-id>.</mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Huba&#x0010d;</surname><given-names>I.</given-names></name>; <name><surname>Pittner</surname><given-names>J.</given-names></name>; <name><surname>&#x0010c;&#x000e1;rsky</surname><given-names>P.</given-names></name>
+<article-title>Size-extensivity
+correction
+for the state-specific multireference Brillouin-Wigner coupled-cluster
+theory</article-title>. <source>J. Chem. Phys.</source>
+<year>2000</year>, <volume>112</volume>, <fpage>8779</fpage>&#x02013;<lpage>8784</lpage>. <pub-id pub-id-type="doi">10.1063/1.481493</pub-id>.</mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Pittner</surname><given-names>J.</given-names></name>; <name><surname>&#x00160;mydke</surname><given-names>J.</given-names></name>; <name><surname>&#x0010c;&#x000e1;rsky</surname><given-names>P.</given-names></name>; <name><surname>Huba&#x0010d;</surname><given-names>I.</given-names></name>
+<article-title>State-specific
+Brillouin-Wigner multireference coupled cluster study of the F2 molecule:
+assessment of the a posteriori size-extensivity correction</article-title>. <source>J. Mol. Struct.: THEOCHEM</source>
+<year>2001</year>, <volume>547</volume>, <fpage>239</fpage>&#x02013;<lpage>244</lpage>. <pub-id pub-id-type="doi">10.1016/S0166-1280(01)00473-0</pub-id>.</mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Fang</surname><given-names>T.</given-names></name>; <name><surname>Li</surname><given-names>S.</given-names></name>
+<article-title>Block correlated coupled
+cluster theory with a complete active-space
+self-consistent-field reference function: The formulation and test
+applications for single bond breaking</article-title>. <source>J. Chem.
+Phys.</source>
+<year>2007</year>, <volume>127</volume>, <fpage>204108</fpage><pub-id pub-id-type="doi">10.1063/1.2800027</pub-id>.<pub-id pub-id-type="pmid">18052420</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Chattopadhyay</surname><given-names>S.</given-names></name>; <name><surname>Mahapatra</surname><given-names>U. S.</given-names></name>; <name><surname>Mukherjee</surname><given-names>D.</given-names></name>
+<article-title>Development of a linear response
+theory based on a state-specific multireference coupled cluster formalism</article-title>. <source>J. Chem. Phys.</source>
+<year>2000</year>, <volume>112</volume>, <fpage>7939</fpage>&#x02013;<lpage>7952</lpage>. <pub-id pub-id-type="doi">10.1063/1.481395</pub-id>.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Kong</surname><given-names>L.</given-names></name>
+<article-title>Connection
+between a few Jeziorski-Monkhorst ansatz-based methods</article-title>. <source>Int. J. Quantum Chem.</source>
+<year>2009</year>, <volume>109</volume>, <fpage>441</fpage>&#x02013;<lpage>447</lpage>. <pub-id pub-id-type="doi">10.1002/qua.21822</pub-id>.</mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Chattopadhyay</surname><given-names>S.</given-names></name>; <name><surname>Mahapatra</surname><given-names>U. S.</given-names></name>; <name><surname>Mukherjee</surname><given-names>D.</given-names></name>
+<article-title>Property calculations using perturbed
+orbitals via state-specific multireference coupled-cluster and perturbation
+theories</article-title>. <source>J. Chem. Phys.</source>
+<year>1999</year>, <volume>111</volume>, <fpage>3820</fpage>&#x02013;<lpage>3831</lpage>. <pub-id pub-id-type="doi">10.1063/1.479685</pub-id>.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Pittner</surname><given-names>J.</given-names></name>
+<article-title>Continuous
+transition between Brillouin-Wigner and Rayleigh-Schr&#x000f6;dinger
+perturbation theory, generalized Bloch equation, and Hilbert space
+multireference coupled cluster</article-title>. <source>J. Chem. Phys.</source>
+<year>2003</year>, <volume>118</volume>, <fpage>10876</fpage>&#x02013;<lpage>10889</lpage>. <pub-id pub-id-type="doi">10.1063/1.1574785</pub-id>.</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Mahapatra</surname><given-names>U. S.</given-names></name>; <name><surname>Datta</surname><given-names>B.</given-names></name>; <name><surname>Mukherjee</surname><given-names>D.</given-names></name>
+<article-title>A size-consistent
+state-specific
+multireference coupled cluster theory: Formal developments and molecular
+applications</article-title>. <source>J. Chem. Phys.</source>
+<year>1999</year>, <volume>110</volume>, <fpage>6171</fpage>&#x02013;<lpage>6188</lpage>. <pub-id pub-id-type="doi">10.1063/1.478523</pub-id>.</mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>M&#x000e1;&#x00161;ik</surname><given-names>J.</given-names></name>; <name><surname>Huba&#x0010d;</surname><given-names>I.</given-names></name>; <name><surname>Mach</surname><given-names>P.</given-names></name>
+<article-title>Single-root multireference Brillouin-Wigner
+coupled-cluster theory: Applicability to the F 2 molecule</article-title>. <source>J. Chem. Phys.</source>
+<year>1998</year>, <volume>108</volume>, <fpage>6571</fpage>&#x02013;<lpage>6579</lpage>. <pub-id pub-id-type="doi">10.1063/1.476071</pub-id>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Huba&#x0010d;</surname><given-names>I.</given-names></name>; <name><surname>Neogr&#x000e1;dy</surname><given-names>P.</given-names></name>
+<article-title>Size-consistent Brillouin-Wigner perturbation theory
+with an exponentially parametrized wave function: Brillouin-Wigner
+coupled-cluster theory</article-title>. <source>Phys. Rev. A: At., Mol.,
+Opt. Phys.</source>
+<year>1994</year>, <volume>50</volume>, <fpage>4558</fpage>&#x02013;<lpage>4564</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevA.50.4558</pub-id>.</mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Adamowicz</surname><given-names>L.</given-names></name>; <name><surname>Malrieu</surname><given-names>J.-P.</given-names></name>; <name><surname>Ivanov</surname><given-names>V. V.</given-names></name>
+<article-title>New approach to the state-specific
+multireference coupled-cluster formalism</article-title>. <source>J.
+Chem. Phys.</source>
+<year>2000</year>, <volume>112</volume>, <fpage>10075</fpage>&#x02013;<lpage>10084</lpage>. <pub-id pub-id-type="doi">10.1063/1.481649</pub-id>.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>K&#x000e1;llay</surname><given-names>M.</given-names></name>; <name><surname>Szalay</surname><given-names>P. G.</given-names></name>; <name><surname>Surj&#x000e1;n</surname><given-names>P. R.</given-names></name>
+<article-title>A general state-selective multireference
+coupled-cluster algorithm</article-title>. <source>J. Chem. Phys.</source>
+<year>2002</year>, <volume>117</volume>, <fpage>980</fpage>&#x02013;<lpage>990</lpage>. <pub-id pub-id-type="doi">10.1063/1.1483856</pub-id>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Piecuch</surname><given-names>P.</given-names></name>; <name><surname>Kowalski</surname><given-names>K.</given-names></name>
+<article-title>The state-universal
+multi-reference coupled-cluster
+theory: An overview of some recent advances</article-title>. <source>Int. J. Mol. Sci.</source>
+<year>2002</year>, <volume>3</volume>, <fpage>676</fpage>&#x02013;<lpage>709</lpage>. <pub-id pub-id-type="doi">10.3390/i3060676</pub-id>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Schucan</surname><given-names>T.</given-names></name>; <name><surname>Weidenm&#x000fc;ller</surname><given-names>H.</given-names></name>
+<article-title>The effective interaction in nuclei and its perturbation
+expansion: An algebraic approach</article-title>. <source>Ann. Phys.</source>
+<year>1972</year>, <volume>73</volume>, <fpage>108</fpage>&#x02013;<lpage>135</lpage>. <pub-id pub-id-type="doi">10.1016/0003-4916(72)90315-6</pub-id>.</mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Kaldor</surname><given-names>U.</given-names></name>
+<article-title>Intruder states
+and incomplete model spaces in multireference coupled-cluster theory:
+The 2<italic>p</italic><sup>2</sup> states of Be</article-title>. <source>Phys. Rev. A: At., Mol., Opt. Phys.</source>
+<year>1988</year>, <volume>38</volume>, <fpage>6013</fpage><pub-id pub-id-type="doi">10.1103/PhysRevA.38.6013</pub-id>.</mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Malrieu</surname><given-names>J.</given-names></name>; <name><surname>Durand</surname><given-names>P.</given-names></name>; <name><surname>Daudey</surname><given-names>J.</given-names></name>
+<article-title>Intermediate Hamiltonians
+as a new
+class of effective Hamiltonians</article-title>. <source>J. Phys. A:
+Math. Gen.</source>
+<year>1985</year>, <volume>18</volume>, <fpage>809</fpage><pub-id pub-id-type="doi">10.1088/0305-4470/18/5/014</pub-id>.</mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Jankowski</surname><given-names>K.</given-names></name>; <name><surname>Malinowski</surname><given-names>P.</given-names></name>
+<article-title>A valence-universal
+coupled-cluster single-and double-excitations
+method for atoms. III. Solvability problems in the presence of intruder
+states</article-title>. <source>J. Phys. B: At., Mol. Opt. Phys.</source>
+<year>1994</year>, <volume>27</volume>, <fpage>1287</fpage><pub-id pub-id-type="doi">10.1088/0953-4075/27/7/004</pub-id>.</mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal" id="cit54"><name><surname>Sharma</surname><given-names>S.</given-names></name>; <name><surname>Alavi</surname><given-names>A.</given-names></name>
+<article-title>Multireference linearized
+coupled cluster theory for strongly correlated
+systems using matrix product states</article-title>. <source>J. Chem.
+Phys.</source>
+<year>2015</year>, <volume>143</volume>, <fpage>102815</fpage><pub-id pub-id-type="doi">10.1063/1.4928643</pub-id>.<pub-id pub-id-type="pmid">26374008</pub-id></mixed-citation></ref><ref id="ref55"><mixed-citation publication-type="journal" id="cit55"><name><surname>Henderson</surname><given-names>T. M.</given-names></name>; <name><surname>Bulik</surname><given-names>I. W.</given-names></name>; <name><surname>Stein</surname><given-names>T.</given-names></name>; <name><surname>Scuseria</surname><given-names>G. E.</given-names></name>
+<article-title>Seniority-based
+coupled cluster theory</article-title>. <source>J. Chem. Phys.</source>
+<year>2014</year>, <volume>141</volume>, <fpage>244104</fpage><pub-id pub-id-type="doi">10.1063/1.4904384</pub-id>.<pub-id pub-id-type="pmid">25554130</pub-id></mixed-citation></ref><ref id="ref56"><mixed-citation publication-type="journal" id="cit56"><name><surname>Lehtola</surname><given-names>S.</given-names></name>; <name><surname>Parkhill</surname><given-names>J.</given-names></name>; <name><surname>Head-Gordon</surname><given-names>M.</given-names></name>
+<article-title>Cost-effective
+description of strong
+correlation: Efficient implementations of the perfect quadruples and
+perfect hextuples models</article-title>. <source>J. Chem. Phys.</source>
+<year>2016</year>, <volume>145</volume>, <fpage>134110</fpage><pub-id pub-id-type="doi">10.1063/1.4964317</pub-id>.<pub-id pub-id-type="pmid">27782439</pub-id></mixed-citation></ref><ref id="ref57"><mixed-citation publication-type="journal" id="cit57"><name><surname>Lehtola</surname><given-names>S.</given-names></name>; <name><surname>Parkhill</surname><given-names>J.</given-names></name>; <name><surname>Head-Gordon</surname><given-names>M.</given-names></name>
+<article-title>Orbital optimization
+in the perfect
+pairing hierarchy: applications to full-valence calculations on linear
+polyacenes</article-title>. <source>Mol. Phys.</source>
+<year>2018</year>, <volume>116</volume>, <fpage>547</fpage>&#x02013;<lpage>560</lpage>. <pub-id pub-id-type="doi">10.1080/00268976.2017.1342009</pub-id>.</mixed-citation></ref><ref id="ref58"><mixed-citation publication-type="journal" id="cit58"><name><surname>Cullen</surname><given-names>J.</given-names></name>
+<article-title>Generalized
+valence bond solutions from a constrained coupled cluster method</article-title>. <source>Chem. Phys.</source>
+<year>1996</year>, <volume>202</volume>, <fpage>217</fpage>&#x02013;<lpage>229</lpage>. <pub-id pub-id-type="doi">10.1016/0301-0104(95)00321-5</pub-id>.</mixed-citation></ref><ref id="ref59"><mixed-citation publication-type="journal" id="cit59"><name><surname>Goddard</surname><given-names>W. A.</given-names><suffix>III</suffix></name>; <name><surname>Harding</surname><given-names>L. B.</given-names></name>
+<article-title>The description
+of chemical bonding
+from ab initio calculations</article-title>. <source>Annu. Rev. Phys.
+Chem.</source>
+<year>1978</year>, <volume>29</volume>, <fpage>363</fpage>&#x02013;<lpage>396</lpage>. <pub-id pub-id-type="doi">10.1146/annurev.pc.29.100178.002051</pub-id>.</mixed-citation></ref><ref id="ref60"><mixed-citation publication-type="journal" id="cit60"><name><surname>Ukrainskii</surname><given-names>I.</given-names></name>
+<article-title>New variational
+function in the theory of quasi-one-dimensional metals</article-title>. <source>Theor. Math. Phys.</source>
+<year>1977</year>, <volume>32</volume>, <fpage>816</fpage>&#x02013;<lpage>822</lpage>. <pub-id pub-id-type="doi">10.1007/BF01089566</pub-id>.</mixed-citation></ref><ref id="ref61"><mixed-citation publication-type="journal" id="cit61"><name><surname>Hunt</surname><given-names>W.</given-names></name>; <name><surname>Hay</surname><given-names>P.</given-names></name>; <name><surname>Goddard</surname><given-names>W.</given-names><suffix>III</suffix></name>
+<article-title>Self-Consistent Procedures for Generalized
+Valence Bond Wavefunctions. Applications H<sub>3</sub>, BH, H<sub>2</sub>O, C<sub>2</sub>H<sub>6</sub>, and O<sub>2</sub></article-title>. <source>J. Chem. Phys.</source>
+<year>1972</year>, <volume>57</volume>, <fpage>738</fpage>&#x02013;<lpage>748</lpage>. <pub-id pub-id-type="doi">10.1063/1.1678308</pub-id>.</mixed-citation></ref><ref id="ref62"><mixed-citation publication-type="journal" id="cit62"><name><surname>Hurley</surname><given-names>A.</given-names></name>; <name><surname>Lennard-Jones</surname><given-names>J. E.</given-names></name>; <name><surname>Pople</surname><given-names>J. A.</given-names></name>
+<article-title>The molecular orbital theory of chemical
+valency XVI. A theory of paired-electrons in polyatomic molecules</article-title>. <source>Proc. R. Soc. London. Series A. Math. Phys. Sci.</source>
+<year>1953</year>, <volume>220</volume>, <fpage>446</fpage>&#x02013;<lpage>455</lpage>.</mixed-citation></ref><ref id="ref63"><mixed-citation publication-type="journal" id="cit63"><name><surname>&#x0017d;ivkovi&#x00107;</surname><given-names>T. P.</given-names></name>
+<article-title>Existence
+and reality of solutions of the coupled-cluster equations</article-title>. <source>Int. J. Quantum Chem.</source>
+<year>1977</year>, <volume>12</volume>, <fpage>413</fpage>&#x02013;<lpage>420</lpage>. <pub-id pub-id-type="doi">10.1002/qua.560120849</pub-id>.</mixed-citation></ref><ref id="ref64"><mixed-citation publication-type="journal" id="cit64"><name><surname>Piecuch</surname><given-names>P.</given-names></name>; <name><surname>Zarrabian</surname><given-names>S.</given-names></name>; <name><surname>Paldus</surname><given-names>J.</given-names></name>; <name><surname>&#x0010c;&#x000ed;&#x0017e;ek</surname><given-names>J.</given-names></name>
+<article-title>Coupled-cluster
+approaches with an approximate account of triexcitations and the optimized-inner-projection
+technique. II. Coupled-cluster results for cyclic-polyene model systems</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>1990</year>, <volume>42</volume>, <fpage>3351</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.42.3351</pub-id>.</mixed-citation></ref><ref id="ref65"><mixed-citation publication-type="book" id="cit65"><person-group person-group-type="allauthors"><name><surname>Atkinson</surname><given-names>K. E.</given-names></name></person-group><source>An introduction to
+numerical analysis</source>; <publisher-name>John Wiley &#x00026; Sons</publisher-name>, <year>2008</year>.</mixed-citation></ref><ref id="ref66"><mixed-citation publication-type="journal" id="cit66"><name><surname>&#x0017d;ivkovi&#x00107;</surname><given-names>T. P.</given-names></name>; <name><surname>Monkhorst</surname><given-names>H. J.</given-names></name>
+<article-title>Analytic connection between configuration-interaction
+and coupled-cluster solutions</article-title>. <source>J. Math. Phys.</source>
+<year>1978</year>, <volume>19</volume>, <fpage>1007</fpage>&#x02013;<lpage>1022</lpage>. <pub-id pub-id-type="doi">10.1063/1.523761</pub-id>.</mixed-citation></ref><ref id="ref67"><mixed-citation publication-type="journal" id="cit67"><name><surname>Kowalski</surname><given-names>K.</given-names></name>; <name><surname>Jankowski</surname><given-names>K.</given-names></name>
+<article-title>Towards complete
+solutions to systems of nonlinear
+equations of many-electron theories</article-title>. <source>Phys. Rev.
+Lett.</source>
+<year>1998</year>, <volume>81</volume>, <fpage>1195</fpage><pub-id pub-id-type="doi">10.1103/PhysRevLett.81.1195</pub-id>.</mixed-citation></ref><ref id="ref68"><mixed-citation publication-type="book" id="cit68"><person-group person-group-type="allauthors"><name><surname>Piecuch</surname><given-names>P.</given-names></name>; <name><surname>Kowalski</surname><given-names>K.</given-names></name></person-group> In <source>Computational Chemistry:
+Reviews of Current Trends</source>; <person-group person-group-type="editor"><name><surname>Leszczynski</surname><given-names>J.</given-names></name></person-group>, Ed.; <publisher-name>World Scientific</publisher-name>, <publisher-loc>Singapore</publisher-loc>, <year>2000</year>; Vol. <volume>5</volume>.</mixed-citation></ref><ref id="ref69"><mixed-citation publication-type="journal" id="cit69"><name><surname>Jeziorski</surname><given-names>B.</given-names></name>; <name><surname>Paldus</surname><given-names>J.</given-names></name>
+<article-title>Valence universal exponential
+ansatz and the cluster
+structure of multireference configuration interaction wave function</article-title>. <source>J. Chem. Phys.</source>
+<year>1989</year>, <volume>90</volume>, <fpage>2714</fpage>&#x02013;<lpage>2731</lpage>. <pub-id pub-id-type="doi">10.1063/1.455919</pub-id>.</mixed-citation></ref><ref id="ref70"><mixed-citation publication-type="journal" id="cit70"><name><surname>Schneider</surname><given-names>R.</given-names></name>
+<article-title>Analysis of
+the Projected Coupled Cluster Method in Electronic Structure Calculation</article-title>. <source>Numer. Math.</source>
+<year>2009</year>, <volume>113</volume>, <fpage>433</fpage>&#x02013;<lpage>471</lpage>. <pub-id pub-id-type="doi">10.1007/s00211-009-0237-3</pub-id>.</mixed-citation></ref><ref id="ref71"><mixed-citation publication-type="journal" id="cit71"><name><surname>Rohwedder</surname><given-names>T.</given-names></name>
+<article-title>The Continuous
+Coupled Cluster Formulation for the Electronic Schr&#x000f6;dinger
+Equation</article-title>. <source>ESAIM: Math. Modell. Numer. Anal.</source>
+<year>2013</year>, <volume>47</volume>, <fpage>421</fpage>&#x02013;<lpage>447</lpage>. <pub-id pub-id-type="doi">10.1051/m2an/2012035</pub-id>.</mixed-citation></ref><ref id="ref72"><mixed-citation publication-type="journal" id="cit72"><name><surname>Rohwedder</surname><given-names>T.</given-names></name>; <name><surname>Schneider</surname><given-names>R.</given-names></name>
+<article-title>Error Estimates
+for the Coupled Cluster Method</article-title>. <source>ESAIM: Math.
+Modell. Numer. Anal.</source>
+<year>2013</year>, <volume>47</volume>, <fpage>1553</fpage>&#x02013;<lpage>1582</lpage>. <pub-id pub-id-type="doi">10.1051/m2an/2013075</pub-id>.</mixed-citation></ref><ref id="ref73"><mixed-citation publication-type="journal" id="cit73"><name><surname>Laestadius</surname><given-names>A.</given-names></name>; <name><surname>Kvaal</surname><given-names>S.</given-names></name>
+<article-title>Analysis of the extended coupled-cluster method in quantum chemistry</article-title>. <source>SIAM J. on Numer. Anal.</source>
+<year>2018</year>, <volume>56</volume>, <fpage>660</fpage>&#x02013;<lpage>683</lpage>. <pub-id pub-id-type="doi">10.1137/17M1116611</pub-id>.</mixed-citation></ref><ref id="ref74"><mixed-citation publication-type="journal" id="cit74"><name><surname>L&#x000f6;wdin</surname><given-names>P.-O.</given-names></name>
+<article-title>On the
+stability problem of a pair of adjoint operators</article-title>. <source>J. Math. Phys.</source>
+<year>1983</year>, <volume>24</volume>, <fpage>70</fpage>&#x02013;<lpage>87</lpage>. <pub-id pub-id-type="doi">10.1063/1.525604</pub-id>.</mixed-citation></ref><ref id="ref75"><mixed-citation publication-type="journal" id="cit75"><name><surname>Arponen</surname><given-names>J.</given-names></name>
+<article-title>Variational
+principles and linked-cluster exp S expansions for static and dynamic
+many-body problems</article-title>. <source>Ann. Phys.</source>
+<year>1983</year>, <volume>151</volume>, <fpage>311</fpage>&#x02013;<lpage>382</lpage>. <pub-id pub-id-type="doi">10.1016/0003-4916(83)90284-1</pub-id>.</mixed-citation></ref><ref id="ref76"><mixed-citation publication-type="journal" id="cit76"><name><surname>Faulstich</surname><given-names>F. M.</given-names></name>; <name><surname>Laestadius</surname><given-names>A.</given-names></name>; <name><surname>Kvaal</surname><given-names>S.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>Schneider</surname><given-names>R.</given-names></name>
+<article-title>Analysis of
+The Coupled-Cluster Method Tailored by Tensor-Network States in Quantum
+Chemistry</article-title>. <source>arXiv.org</source>
+<year>2018</year>, <elocation-id>1802.05699</elocation-id>.</mixed-citation></ref><ref id="ref77"><mixed-citation publication-type="journal" id="cit77"><name><surname>Laestadius</surname><given-names>A.</given-names></name>; <name><surname>Faulstich</surname><given-names>F. M.</given-names></name>
+<article-title>The coupled-cluster formalism-a mathematical perspective</article-title>. <source>Mol. Phys.</source>
+<year>2019</year>, <fpage>1</fpage>&#x02013;<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1080/00268976.2018.1564848</pub-id>.</mixed-citation></ref><ref id="ref78"><mixed-citation publication-type="journal" id="cit78"><name><surname>Piecuch</surname><given-names>P.</given-names></name>; <name><surname>Oliphant</surname><given-names>N.</given-names></name>; <name><surname>Adamowicz</surname><given-names>L.</given-names></name>
+<article-title>A state-selective
+multireference
+coupled-cluster theory employing the single-reference formalism</article-title>. <source>J. Chem. Phys.</source>
+<year>1993</year>, <volume>99</volume>, <fpage>1875</fpage>&#x02013;<lpage>1900</lpage>. <pub-id pub-id-type="doi">10.1063/1.466179</pub-id>.</mixed-citation></ref><ref id="ref79"><mixed-citation publication-type="journal" id="cit79"><name><surname>Piecuch</surname><given-names>P.</given-names></name>; <name><surname>Adamowicz</surname><given-names>L.</given-names></name>
+<article-title>State-selective multireference coupled-cluster theory
+employing the single-reference formalism: Implementation and application
+to the H8 model system</article-title>. <source>J. Chem. Phys.</source>
+<year>1994</year>, <volume>100</volume>, <fpage>5792</fpage>&#x02013;<lpage>5809</lpage>. <pub-id pub-id-type="doi">10.1063/1.467143</pub-id>.</mixed-citation></ref><ref id="ref80"><mixed-citation publication-type="journal" id="cit80"><name><surname>Chan</surname><given-names>G. K.-L.</given-names></name>; <name><surname>Sharma</surname><given-names>S.</given-names></name>
+<article-title>The density matrix
+renormalization group in quantum
+chemistry</article-title>. <source>Annu. Rev. Phys. Chem.</source>
+<year>2011</year>, <volume>62</volume>, <fpage>465</fpage>&#x02013;<lpage>481</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-physchem-032210-103338</pub-id>.<pub-id pub-id-type="pmid">21219144</pub-id></mixed-citation></ref><ref id="ref81"><mixed-citation publication-type="journal" id="cit81"><name><surname>Saitow</surname><given-names>M.</given-names></name>; <name><surname>Kurashige</surname><given-names>Y.</given-names></name>; <name><surname>Yanai</surname><given-names>T.</given-names></name>
+<article-title>Multireference configuration interaction
+theory using cumulant reconstruction with internal contraction of
+density matrix renormalization group wave function</article-title>. <source>J. Chem. Phys.</source>
+<year>2013</year>, <volume>139</volume>, <fpage>044118</fpage><pub-id pub-id-type="doi">10.1063/1.4816627</pub-id>.<pub-id pub-id-type="pmid">23901971</pub-id></mixed-citation></ref><ref id="ref82"><mixed-citation publication-type="journal" id="cit82"><name><surname>Myhre</surname><given-names>R. H.</given-names></name>; <name><surname>Koch</surname><given-names>H.</given-names></name>
+<article-title>The multilevel CC3
+coupled cluster model</article-title>. <source>J.
+Chem. Phys.</source>
+<year>2016</year>, <volume>145</volume>, <fpage>044111</fpage><pub-id pub-id-type="doi">10.1063/1.4959373</pub-id>.<pub-id pub-id-type="pmid">27475352</pub-id></mixed-citation></ref><ref id="ref83"><mixed-citation publication-type="journal" id="cit83"><name><surname>Lyakh</surname><given-names>D. I.</given-names></name>; <name><surname>Musia&#x00142;</surname><given-names>M.</given-names></name>; <name><surname>Lotrich</surname><given-names>V. F.</given-names></name>; <name><surname>Bartlett</surname><given-names>R. J.</given-names></name>
+<article-title>Multireference nature
+of chemistry: The coupled-cluster view</article-title>. <source>Chem.
+Rev.</source>
+<year>2012</year>, <volume>112</volume>, <fpage>182</fpage>&#x02013;<lpage>243</lpage>. <pub-id pub-id-type="doi">10.1021/cr2001417</pub-id>.<pub-id pub-id-type="pmid">22220988</pub-id></mixed-citation></ref><ref id="ref84"><mixed-citation publication-type="journal" id="cit84"><name><surname>Szalay</surname><given-names>S.</given-names></name>; <name><surname>Barcza</surname><given-names>G.</given-names></name>; <name><surname>Szilv&#x000e1;si</surname><given-names>T.</given-names></name>; <name><surname>Veis</surname><given-names>L.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>
+<article-title>The
+correlation theory of the chemical bond</article-title>. <source>Sci.
+Rep.</source>
+<year>2017</year>, <volume>7</volume>, <fpage>2237</fpage><pub-id pub-id-type="doi">10.1038/s41598-017-02447-z</pub-id>.<pub-id pub-id-type="pmid">28533506</pub-id></mixed-citation></ref><ref id="ref85"><mixed-citation publication-type="journal" id="cit85"><name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>S&#x000f3;lyom</surname><given-names>J.</given-names></name>
+<article-title>Optimizing
+the density-matrix renormalization
+group method using quantum information entropy</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>2003</year>, <volume>68</volume>, <fpage>195116</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.68.195116</pub-id>.</mixed-citation></ref><ref id="ref86"><mixed-citation publication-type="journal" id="cit86"><name><surname>Barcza</surname><given-names>G.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>Marti</surname><given-names>K. H.</given-names></name>; <name><surname>Reiher</surname><given-names>M.</given-names></name>
+<article-title>Quantum-information
+analysis of electronic states of different molecular structures</article-title>. <source>Phys. Rev. A: At., Mol., Opt. Phys.</source>
+<year>2011</year>, <volume>83</volume>, <fpage>012508</fpage><pub-id pub-id-type="doi">10.1103/PhysRevA.83.012508</pub-id>.</mixed-citation></ref><ref id="ref87"><mixed-citation publication-type="journal" id="cit87"><name><surname>Stein</surname><given-names>C. J.</given-names></name>; <name><surname>Reiher</surname><given-names>M.</given-names></name>
+<article-title>Automated selection of active orbital
+spaces</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2016</year>, <volume>12</volume>, <fpage>1760</fpage>&#x02013;<lpage>1771</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jctc.6b00156</pub-id>.<pub-id pub-id-type="pmid">26959891</pub-id></mixed-citation></ref><ref id="ref88"><mixed-citation publication-type="journal" id="cit88"><name><surname>Aubin</surname><given-names>J. P.</given-names></name>
+<article-title>Behavior
+of the error of the approximate solutions of boundary value problems
+for linear elliptic operators by Galerkin&#x02019;s and finite difference
+methods</article-title>. <source>Ann. Sc. Norm. Super. Pisa Cl. Sci.
+(5)</source>
+<year>1967</year>, <volume>21</volume>, <fpage>599</fpage>&#x02013;<lpage>637</lpage>.</mixed-citation></ref><ref id="ref89"><mixed-citation publication-type="journal" id="cit89"><name><surname>Nitsche</surname><given-names>J.</given-names></name>
+<article-title>Ein kriterium
+f&#x000fc;r die quasi-optimalit&#x000e4;t des ritzschen verfahrens</article-title>. <source>Numer. Math.</source>
+<year>1968</year>, <volume>11</volume>, <fpage>346</fpage>&#x02013;<lpage>348</lpage>. <pub-id pub-id-type="doi">10.1007/BF02166687</pub-id>.</mixed-citation></ref><ref id="ref90"><mixed-citation publication-type="journal" id="cit90"><name><surname>Oganesyan</surname><given-names>L. A.</given-names></name>; <name><surname>Rukhovets</surname><given-names>L. A.</given-names></name>
+<article-title>Study of the rate of convergence of variational difference
+schemes for second-order elliptic equations in a two-dimensional field
+with a smooth boundary</article-title>. <source>USSR Comput. Math. Math.
+Phys.</source>
+<year>1969</year>, <volume>9</volume>, <fpage>158</fpage>&#x02013;<lpage>183</lpage>. <pub-id pub-id-type="doi">10.1016/0041-5553(69)90159-1</pub-id>.</mixed-citation></ref><ref id="ref91"><mixed-citation publication-type="journal" id="cit91"><name><surname>Dunning</surname><given-names>T. H.</given-names><suffix>Jr</suffix></name>
+<article-title>Gaussian basis sets for use in correlated molecular
+calculations. I. The atoms boron through neon and hydrogen</article-title>. <source>J. Chem. Phys.</source>
+<year>1989</year>, <volume>90</volume>, <fpage>1007</fpage>&#x02013;<lpage>1023</lpage>. <pub-id pub-id-type="doi">10.1063/1.456153</pub-id>.</mixed-citation></ref><ref id="ref92"><mixed-citation publication-type="journal" id="cit92"><name><surname>Kowalski</surname><given-names>K.</given-names></name>; <name><surname>Piecuch</surname><given-names>P.</given-names></name>
+<article-title>Renormalized CCSD (T) and CCSD (TQ) approaches: Dissociation
+of the N<sub>2</sub> triple bond</article-title>. <source>J. Chem. Phys.</source>
+<year>2000</year>, <volume>113</volume>, <fpage>5644</fpage>&#x02013;<lpage>5652</lpage>. <pub-id pub-id-type="doi">10.1063/1.1290609</pub-id>.</mixed-citation></ref><ref id="ref93"><mixed-citation publication-type="journal" id="cit93"><name><surname>Szalay</surname><given-names>S.</given-names></name>; <name><surname>Pfeffer</surname><given-names>M.</given-names></name>; <name><surname>Murg</surname><given-names>V.</given-names></name>; <name><surname>Barcza</surname><given-names>G.</given-names></name>; <name><surname>Verstraete</surname><given-names>F.</given-names></name>; <name><surname>Schneider</surname><given-names>R.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>
+<article-title>Tensor product methods and entanglement
+optimization for ab initio quantum chemistry</article-title>. <source>Int. J. Quantum Chem.</source>
+<year>2015</year>, <volume>115</volume>, <fpage>1342</fpage>&#x02013;<lpage>1391</lpage>. <pub-id pub-id-type="doi">10.1002/qua.24898</pub-id>.</mixed-citation></ref><ref id="ref94"><mixed-citation publication-type="journal" id="cit94"><name><surname>Murg</surname><given-names>V.</given-names></name>; <name><surname>Verstraete</surname><given-names>F.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>Noack</surname><given-names>R.-h. M.</given-names></name>
+<article-title>Simulating strongly
+correlated quantum systems with tree tensor networks</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>2010</year>, <volume>82</volume>, <fpage>205105</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.82.205105</pub-id>.</mixed-citation></ref><ref id="ref95"><mixed-citation publication-type="journal" id="cit95"><name><surname>Nakatani</surname><given-names>N.</given-names></name>; <name><surname>Chan</surname><given-names>G. K.-L.</given-names></name>
+<article-title>Efficient tree tensor network states
+(TTNS) for quantum
+chemistry: Generalizations of the density matrix renormalization group
+algorithm</article-title>. <source>J. Chem. Phys.</source>
+<year>2013</year>, <volume>138</volume>, <fpage>134113</fpage><pub-id pub-id-type="doi">10.1063/1.4798639</pub-id>.<pub-id pub-id-type="pmid">23574214</pub-id></mixed-citation></ref><ref id="ref96"><mixed-citation publication-type="journal" id="cit96"><name><surname>Murg</surname><given-names>V.</given-names></name>; <name><surname>Verstraete</surname><given-names>F.</given-names></name>; <name><surname>Schneider</surname><given-names>R.</given-names></name>; <name><surname>Nagy</surname><given-names>P. R.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>
+<article-title>Tree
+tensor network state with variable tensor order: an efficient multireference
+method for strongly correlated systems</article-title>. <source>J. Chem.
+Theory Comput.</source>
+<year>2015</year>, <volume>11</volume>, <fpage>1027</fpage>&#x02013;<lpage>1036</lpage>. <pub-id pub-id-type="doi">10.1021/ct501187j</pub-id>.<pub-id pub-id-type="pmid">25844072</pub-id></mixed-citation></ref><ref id="ref97"><mixed-citation publication-type="journal" id="cit97"><name><surname>Gunst</surname><given-names>K.</given-names></name>; <name><surname>Verstraete</surname><given-names>F.</given-names></name>; <name><surname>Wouters</surname><given-names>S.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>Van
+Neck</surname><given-names>D.</given-names></name>
+<article-title>T3NS: Three-Legged Tree Tensor Network States</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2018</year>, <volume>14</volume>, <fpage>2026</fpage>&#x02013;<lpage>2033</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jctc.8b00098</pub-id>.<pub-id pub-id-type="pmid">29481743</pub-id></mixed-citation></ref><ref id="ref98"><mixed-citation publication-type="journal" id="cit98"><name><surname>Chan</surname><given-names>G. K.-L.</given-names></name>; <name><surname>Head-Gordon</surname><given-names>M.</given-names></name>
+<article-title>Highly correlated calculations with
+a polynomial cost
+algorithm: A study of the density matrix renormalization group</article-title>. <source>J. Chem. Phys.</source>
+<year>2002</year>, <volume>116</volume>, <fpage>4462</fpage>&#x02013;<lpage>4476</lpage>. <pub-id pub-id-type="doi">10.1063/1.1449459</pub-id>.</mixed-citation></ref><ref id="ref99"><mixed-citation publication-type="journal" id="cit99"><name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>S&#x000f3;lyom</surname><given-names>J.</given-names></name>
+<article-title>Optimizing the density-matrix renormalization
+group method using quantum information entropy</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>2003</year>, <volume>68</volume>, <fpage>195116</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.68.195116</pub-id>.</mixed-citation></ref><ref id="ref100"><mixed-citation publication-type="journal" id="cit100"><name><surname>Barcza</surname><given-names>G.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>Marti</surname><given-names>K. H.</given-names></name>; <name><surname>Reiher</surname><given-names>M.</given-names></name>
+<article-title>Quantum-information
+analysis of electronic states of different molecular structures</article-title>. <source>Phys. Rev. A: At., Mol., Opt. Phys.</source>
+<year>2011</year>, <volume>83</volume>, <fpage>012508</fpage><pub-id pub-id-type="doi">10.1103/PhysRevA.83.012508</pub-id>.</mixed-citation></ref><ref id="ref101"><mixed-citation publication-type="journal" id="cit101"><name><surname>Fertitta</surname><given-names>E.</given-names></name>; <name><surname>Paulus</surname><given-names>B.</given-names></name>; <name><surname>Barcza</surname><given-names>G.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>
+<article-title>Investigation
+of metal-insulator-like transition through the <italic>ab initio</italic> density matrix renormalization group approach</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>2014</year>, <volume>90</volume>, <fpage>245129</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.90.245129</pub-id>.</mixed-citation></ref><ref id="ref102"><mixed-citation publication-type="journal" id="cit102"><name><surname>Rissler</surname><given-names>J.</given-names></name>; <name><surname>Noack</surname><given-names>R. M.</given-names></name>; <name><surname>White</surname><given-names>S. R.</given-names></name>
+<article-title>Measuring orbital
+interaction using quantum information theory</article-title>. <source>Chem. Phys.</source>
+<year>2006</year>, <volume>323</volume>, <fpage>519</fpage>&#x02013;<lpage>531</lpage>. <pub-id pub-id-type="doi">10.1016/j.chemphys.2005.10.018</pub-id>.</mixed-citation></ref><ref id="ref103"><mixed-citation publication-type="journal" id="cit103"><name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>R&#x000f6;der</surname><given-names>J.</given-names></name>; <name><surname>Hess</surname><given-names>B. A.</given-names></name>
+<article-title>Controlling the
+accuracy of the density-matrix renormalization-group method: The dynamical
+block state selection approach</article-title>. <source>Phys. Rev. B:
+Condens. Matter Mater. Phys.</source>
+<year>2003</year>, <volume>67</volume>, <fpage>125114</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.67.125114</pub-id>.</mixed-citation></ref><ref id="ref104"><mixed-citation publication-type="journal" id="cit104"><name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>S&#x000f3;lyom</surname><given-names>J.</given-names></name>
+<article-title>Quantum data compression, quantum
+information generation, and the density-matrix renormalization-group
+method</article-title>. <source>Phys. Rev. B: Condens. Matter Mater.
+Phys.</source>
+<year>2004</year>, <volume>70</volume>, <fpage>205118</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.70.205118</pub-id>.</mixed-citation></ref><ref id="ref105"><mixed-citation publication-type="journal" id="cit105"><name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>F&#x000e1;th</surname><given-names>G.</given-names></name>
+<article-title>Accuracy of
+the density-matrix renormalization-group
+method</article-title>. <source>Phys. Rev. B: Condens. Matter Mater.
+Phys.</source>
+<year>1996</year>, <volume>53</volume>, <fpage>14349</fpage>&#x02013;<lpage>14358</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevB.53.14349</pub-id>.</mixed-citation></ref><ref id="ref106"><mixed-citation publication-type="computer-program" id="cit106"><person-group person-group-type="allauthors"><name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>, <name><surname>Veis</surname><given-names>L.</given-names></name>, <name><surname>Mosoni</surname><given-names>T.</given-names></name></person-group><source>QC-DMRG-Budapest,
+a program for quantum chemical DMRG calculations</source>; <publisher-name>HAS RISSPO</publisher-name>: <publisher-loc>Budapest</publisher-loc>, <year>2018</year>.</mixed-citation></ref><ref id="ref107"><mixed-citation publication-type="journal" id="cit107"><name><surname>Chan</surname><given-names>G. K.-L.</given-names></name>; <name><surname>K&#x000e1;llay</surname><given-names>M.</given-names></name>; <name><surname>Gauss</surname><given-names>J.</given-names></name>
+<article-title>State-of-the-art density
+matrix renormalization group and coupled cluster theory studies of
+the nitrogen binding curve</article-title>. <source>J. Chem. Phys.</source>
+<year>2004</year>, <volume>121</volume>, <fpage>6110</fpage>&#x02013;<lpage>6116</lpage>. <pub-id pub-id-type="doi">10.1063/1.1783212</pub-id>.<pub-id pub-id-type="pmid">15446905</pub-id></mixed-citation></ref><ref id="ref108"><mixed-citation publication-type="journal" id="cit108"><name><surname>Boguslawski</surname><given-names>K.</given-names></name>; <name><surname>Tecmer</surname><given-names>P.</given-names></name>; <name><surname>Barcza</surname><given-names>G.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>Reiher</surname><given-names>M.</given-names></name>
+<article-title>Orbital Entanglement in Bond-Formation
+Processes</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2013</year>, <volume>9</volume>, <fpage>2959</fpage>&#x02013;<lpage>2973</lpage>. <pub-id pub-id-type="doi">10.1021/ct400247p</pub-id>.<pub-id pub-id-type="pmid">26583979</pub-id></mixed-citation></ref><ref id="ref109"><mixed-citation publication-type="journal" id="cit109"><name><surname>Valiev</surname><given-names>M.</given-names></name>; <name><surname>Bylaska</surname><given-names>E.</given-names></name>; <name><surname>Govind</surname><given-names>N.</given-names></name>; <name><surname>Kowalski</surname><given-names>K.</given-names></name>; <name><surname>Straatsma</surname><given-names>T.</given-names></name>; <name><surname>Dam</surname><given-names>H. V.</given-names></name>; <name><surname>Wang</surname><given-names>D.</given-names></name>; <name><surname>Nieplocha</surname><given-names>J.</given-names></name>; <name><surname>Apra</surname><given-names>E.</given-names></name>; <name><surname>Windus</surname><given-names>T.</given-names></name>; <name><surname>de Jong</surname><given-names>W.</given-names></name>
+<article-title>NWChem: A
+comprehensive
+and scalable open-source solution for large scale molecular simulations</article-title>. <source>Comput. Phys. Commun.</source>
+<year>2010</year>, <volume>181</volume>, <fpage>1477</fpage>&#x02013;<lpage>1489</lpage>. <pub-id pub-id-type="doi">10.1016/j.cpc.2010.04.018</pub-id>.</mixed-citation></ref><ref id="ref110"><mixed-citation publication-type="journal" id="cit110"><name><surname>Lee</surname><given-names>T. J.</given-names></name>; <name><surname>Taylor</surname><given-names>P. R.</given-names></name>
+<article-title>A diagnostic for determining the
+quality of singlereference electron correlation methods</article-title>. <source>Int. J. Quantum Chem.</source>
+<year>1989</year>, <volume>36</volume>, <fpage>199</fpage>&#x02013;<lpage>207</lpage>. <pub-id pub-id-type="doi">10.1002/qua.560360824</pub-id>.</mixed-citation></ref><ref id="ref111"><mixed-citation publication-type="journal" id="cit111"><name><surname>Krumnow</surname><given-names>C.</given-names></name>; <name><surname>Veis</surname><given-names>L.</given-names></name>; <name><surname>Legeza</surname><given-names>&#x000d6;.</given-names></name>; <name><surname>Eisert</surname><given-names>J.</given-names></name>
+<article-title>Fermionic
+orbital optimization in tensor network states</article-title>. <source>Phys. Rev. Lett.</source>
+<year>2016</year>, <volume>117</volume>, <fpage>210402</fpage><pub-id pub-id-type="doi">10.1103/PhysRevLett.117.210402</pub-id>.<pub-id pub-id-type="pmid">27911544</pub-id></mixed-citation></ref></ref-list></back></article>
