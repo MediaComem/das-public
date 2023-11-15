@@ -6,7 +6,7 @@
 require(ggplot2)
 
 # load the dataset and make transformations
-df <- read.csv("dataset/export_full.csv", sep = ";")
+df <- read.csv("dataset/export_plos.csv", sep = ";")
 df$has_das <- factor(df$has_das)
 df$is_plos <- factor(df$is_plos)
 df$is_bmc <- factor(df$is_bmc)
@@ -234,7 +234,7 @@ readCitationFile(basecit)
 
 library("dplyr")
 
-df <- read.csv("dataset/export_full.csv", sep = ";")
+df <- read.csv("dataset/export_plos.csv", sep = ";")
 j_df <- df %>%
   filter(!is.na(j_lower)) %>%
   dplyr::select(j_lower,das_class,has_das,das_encouraged,das_required) %>%
