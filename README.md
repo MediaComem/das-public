@@ -5,7 +5,15 @@
 ## Code and data
 
 * See the [dataset folder](dataset) to creates from the [PubMed Central OA collection](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist) dataset, an CSV file to analyze the h_index impact on publication citation.
+  * In `dataset/dev_set`, some articles are added to the previous ones to validate the `h_index` calculation.
+  * The source code has been updated to the latest python and packages release when necessary.
+  * Detect authors in the OSI dataset.
+  * Collect all citations given from any article in PubMed OA to OSI articles, using identifiers contained in the lists of references.
+  * Calculate citation counts for 1, 2, and possibly 3 years after publication of all OSI articles, using month level precision (e.g., for an article published in June 2019, a 2 year citation window comprises all citations received by articles published until June 2021). Furthermore, calculate the author-level H-index based on the same data.
+  * Compute the H-index and timed citation indicators as a dataset that can be joined with the OSI dataset.
+  * Develop and run satisfactory tests to insure the correctness of results.
 * To validate the code, please refer the [testing procedure](test.md)
+* The result could be found in `dataset/exports/export_plos.csv`
 
 # Original work
 This repository is based on the previous work here:
