@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10137189.svg)](https://doi.org/10.5281/zenodo.10137189)
 
-PLOS recently published an innovative [dataset of Open Science Indicators (OSI)](https://doi.org/10.6084/m9.figshare.21687686.v4), focused on its entire collection plus a comparison dataset from PubMed. We use here the OSI version 4, containing approximately 82,000 PMC and PLOS articles (of which 74,000 are from PLOS). The OSI is primarily concerned with indicators on: sharing of research data, in particular, data shared in data repositories; sharing of code; and posting of preprints.
+PLOS recently published an innovative [dataset of Open Science Indicators (OSI)](https://doi.org/10.6084/m9.figshare.21687686.v4), focused on its entire collection plus a comparison dataset from PubMed. We use here the OSI version 5, containing approximately 82,000 PMC and PLOS articles (of which 74,000 are from PLOS). The OSI is primarily concerned with indicators on: sharing of research data, in particular, data shared in data repositories; sharing of code; and posting of preprints.
 
 The [Media Engineering Institute (MEI)](https://heig-vd.ch/en/research/mei) has been involved in collecting data from the PubMed Open Access collection to equip the OSI dataset with citation data (article) and h-index data (author level), in preparation for further analysis. The data collection pipeline has been adapted following the process described in the previous work on Data Availability Statements, described below.
 
