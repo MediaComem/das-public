@@ -17,7 +17,7 @@ The [Media Engineering Institute (MEI)](https://heig-vd.ch/en/research/mei) has 
   * Develop and run satisfactory tests to ensure the correctness of results. In `dataset/dev_set`, some articles are added to the previous ones to validate the citation and h_index calculations.
   * The source code has been updated to the latest Python and packages release when necessary.
 * To validate the code, please refer to the [testing procedure](test.md).
-* The final result can be found in [dataset/exports/export_plos.csv](dataset/exports/export_plos.csv).
+* The final result can be found in [dataset/exports/export_plos.csv](dataset/exports/export_plos.csv.zip).
 
 # Original work
 This repository is a fork of previous work that can be found here:
