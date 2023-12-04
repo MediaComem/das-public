@@ -14,9 +14,9 @@ import csv
 # logs and basics
 logging.basicConfig(filename='logs/parser_main.log',filemode="w+",level=logging.INFO)
 logger = logging.getLogger("Main")
-plos_file = 'config/PLOS-Dataset-Oct8_2023.csv'
-pmc_file = 'config/PMC-Dataset-Oct8_2023.csv'
-plos_csv_header=['Journal','Publisher','Submission_Day','Submission_Month','Submission_Year','Acceptance_Day','Acceptance_Month','Acceptance_Year','Publication_Day','Publication_Month','Publication_Year','DOI','Type_of_Article','Article_Title','Disciplines','Country','Corresponding_Author_Institution','Funding_Statement','Data_Section.Text.Generated','Data_Generated','Data_Section.Text.Shared','Data_Shared','Data.location','DA_data','DA_Classification','Accessions','URL_data','Repositories_data','Preprint_Match','Preprint_DOI','Preprint_Title','Preprint_Authors','Preprint_Day','Preprint_Month','Preprint_Year','Preprint_URL','Preprint_Server','Quarter','Code_Section.Text.Generated','Code_Generated','Code_Section.Text.Shared','Code_Shared','Code_location','DA_code','URL_code','Repositories_code']
+plos_file = 'config/PLOS-v5.2.csv'
+pmc_file = 'config/PMC_v5.2.csv'
+plos_csv_header=['Journal','Publisher','Submission_Day','Submission_Month','Submission_Year','Acceptance_Day','Acceptance_Month','Acceptance_Year','Publication_Day','Publication_Month','Publication_Year','DOI','Type_of_Article','Article_Title','Major.Mesh.Terms','Country','Corresponding_Author_Institution','Funding_Statement','Data_Section.Text.Generated','Data_Generated','Data_Section.Text.Shared','Data_Shared','Data.Location','DA_data','Accessions','URL_data','Repositories_data','Data_DOIs','Preprint_Match','Preprint_DOI','Preprint_Title','Preprint_Authors','Preprint_Day','Preprint_Month','Preprint_Year','Preprint_URL','Preprint_Server','Code_Section.Text.Generated','Code_Generated','Code_Section.Text.Shared','Code_Shared','Code_Location','URL_code','Repositories_code','Quarter','ANZSRC']
 JOB_LIMIT = 50000 # controls how many articles to process per batch
 
 # MongoDB
