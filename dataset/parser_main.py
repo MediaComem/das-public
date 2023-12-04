@@ -15,8 +15,13 @@ import csv
 logging.basicConfig(filename='logs/parser_main.log',filemode="w+",level=logging.INFO)
 logger = logging.getLogger("Main")
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 plos_file = 'config/PLOS_v5.2.csv'
 plos_file = 'config/PLOS-v5.2.csv'
+=======
+plos_file = 'config/PLOS-v5.2.csv'
+pmc_file = 'config/PMC_v5.2.csv'
+>>>>>>> Stashed changes
 =======
 plos_file = 'config/PLOS-v5.2.csv'
 pmc_file = 'config/PMC_v5.2.csv'
