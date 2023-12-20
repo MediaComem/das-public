@@ -5,10 +5,10 @@ This folder contains R code to replicate the analyses done in the paper. It furt
 * [R models](r_models.R): code to replicate the modelling analyses.
 * [R descriptive](descriptive.R): code to replicate the descriptive analyses.
 * [dataset/compressed](dataset/compressed/): folder containing the zipped copy of the datasets used for analysis, created as per instructions in [R models](r_models.R). Please unzip them in the /dataset folder for reproducing our results.
-	- *DATASET.csv*: contains the complete data frame used for modelling. 
-	- *df_OSI.csv*: contains the OSI data frame, consolidated from version 5.2.
-	- *df_OSI_classes_top.csv*: contains the ANZSRC FoR Division as dummy variables.
-	- *export_plos.csv*: contains citation counts (as in the *datasets/exports* folder).
+	- `DATASET.csv`: contains the complete data frame used for modelling. 
+	- `df_OSI.csv`: contains the OSI data frame, consolidated from version 5.
+	- `df_OSI_classes_top.csv`: contains the ANZSRC FoR Division as dummy variables.
+	- `export_plos.csv`: contains citation counts (as in the `datasets/exports` folder).
 
 ## Instructions
 
