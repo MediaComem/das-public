@@ -4,7 +4,7 @@
 # Author: Giovanni Colavizza
 
 # Set your own working directory here
-setwd("~/das-public/analysis")
+setwd("~/Dropbox/db_projects/Odoma_projects/das-public/analysis")
 
 options(scipen=999) # prevents excessive use of scientific notation
 
@@ -205,10 +205,16 @@ summary(m_ols <- lm(n_cit_tot_log ~ n_authors_log + n_references_tot_log + p_yea
 # Control for OSI: Code Generated
 summary(m_ols <- lm(n_cit_tot_log ~ n_authors_log + n_references_tot_log + p_year + p_month + h_index_mean_log + C(is_plos) + C(is_plos_one) + 
                       C(Data_Shared) + C(Data_Location) + C(Repositories_data_bool) + C(Code_Generated) + C(Code_Shared) + C(Code_Location) + C(Preprint_Match) , data = DATASET))
+summary(m_rols <- rlm(n_cit_tot_log ~ n_authors_log + n_references_tot_log + p_year + p_month + h_index_mean_log + C(is_plos) + C(is_plos_one) + 
+                      C(Data_Shared) + C(Data_Location) + C(Repositories_data_bool) + C(Code_Generated) + C(Code_Shared) + C(Code_Location) + C(Preprint_Match) , data = DATASET))
+
 
 # Control for interactions
 summary(m_ols <- lm(n_cit_tot_log ~ n_authors_log + n_references_tot_log + p_year + p_month + h_index_mean_log + C(is_plos) + C(is_plos_one) + 
                       C(Data_Shared) + C(Data_Location) + C(Repositories_data_bool)*C(Preprint_Match) + C(Code_Generated)*C(Code_Shared) + C(Code_Location) , data = DATASET))
+summary(m_rols <- rlm(n_cit_tot_log ~ n_authors_log + n_references_tot_log + p_year + p_month + h_index_mean_log + C(is_plos) + C(is_plos_one) + 
+                      C(Data_Shared) + C(Data_Location) + C(Repositories_data_bool)*C(Preprint_Match) + C(Code_Generated)*C(Code_Shared) + C(Code_Location) , data = DATASET))
+
 
 # Using jitter, different shapes, and alpha blending
 ggplot(DATASET, aes(x = Repositories_data_bool, y = n_cit_tot_log, 
@@ -306,7 +312,11 @@ DATASET_2020 <- DATASET[(DATASET$p_year<2021),]
 DATASET_2021 <- DATASET[(DATASET$p_year<2022),]
 DATASET_2022 <- DATASET[(DATASET$p_year<2023),]
 
-summary(m_ols <- lm(n_cit_2_log ~ n_authors_log + n_references_tot_log + p_year + p_month + h_index_mean_log + C(is_plos) + C(is_plos_one) + 
+summary(m_ols <- lm(n_cit_1_log ~ n_authors_log + n_references_tot_log + p_year + p_month + h_index_mean_log + C(is_plos) + C(is_plos_one) + 
+                      C(Data_Shared) + C(Data_Location) + C(Repositories_data_bool) + C(Code_Shared) + C(Code_Location) + C(Preprint_Match) 
+                    + C(division_1) + C(division_2) + C(division_3) + C(division_4) + C(division_5) + C(division_6) + C(division_7) + C(division_8) + C(division_9) + C(division_10) + C(division_11) + C(division_12) + C(division_13) + C(division_14) + C(division_15) + C(division_16) + C(division_17) + C(division_18)
+                    , data = DATASET_2022)) # change DATASET here
+summary(m_rols <- rlm(n_cit_1_log ~ n_authors_log + n_references_tot_log + p_year + p_month + h_index_mean_log + C(is_plos) + C(is_plos_one) + 
                       C(Data_Shared) + C(Data_Location) + C(Repositories_data_bool) + C(Code_Shared) + C(Code_Location) + C(Preprint_Match) 
                     + C(division_1) + C(division_2) + C(division_3) + C(division_4) + C(division_5) + C(division_6) + C(division_7) + C(division_8) + C(division_9) + C(division_10) + C(division_11) + C(division_12) + C(division_13) + C(division_14) + C(division_15) + C(division_16) + C(division_17) + C(division_18)
                     , data = DATASET_2022)) # change DATASET here
@@ -341,6 +351,9 @@ j_freq <- j_freq %>%
   filter(Freq > l)
 DATASET_PS <- merge(x = DATASET, y = j_freq, by = "Preprint_Server")
 summary(m_ols <- lm(n_cit_tot_log ~ n_authors_log + n_references_tot_log + p_year + p_month + h_index_mean_log + C(is_plos) + C(is_plos_one) + 
+                      C(Data_Shared) + C(Data_Location) + C(Repositories_data_bool) + C(Code_Shared) + C(Code_Location) + C(Preprint_Match)
+                    + C(Preprint_Server), data = DATASET_PS))
+summary(m_rols <- rlm(n_cit_tot_log ~ n_authors_log + n_references_tot_log + p_year + p_month + h_index_mean_log + C(is_plos) + C(is_plos_one) + 
                       C(Data_Shared) + C(Data_Location) + C(Repositories_data_bool) + C(Code_Shared) + C(Code_Location) + C(Preprint_Match)
                     + C(Preprint_Server), data = DATASET_PS))
 
