@@ -21,7 +21,7 @@ The dataset was built in several stages. If you want to produce the best possibl
     1.  mongosh --host localhost -u user -p pass
     2.  use contexts
     3.  db.stats_dev.find( { citations_total: { $gt: 0 }, is_plos: true } )
-    4.  db.stats_dev.find( { citations_total: { $gt: 0 }, is_bmc: true } )
+    4.  db.stats_dev.find( { citations_total: { $gt: 0 }, is_pmc: true } )
 
 There should be as many entries as during tests 4.3 and 8.3. In addition, the citations_total field should be equal to the number of files moved minus 1 during steps 3 and 7.
 However, checking by date is a little more complex. First, you need to ensure that the numbers in the `citations_one`, `citations_two` and `citations_three` fields are correct with the `citation_counts` field. This is because `citations_one` contains the same number as the '0' entry in `citation_counts`. `citations_two` must be the sum of '0' and '1' and finally `citations_three`, the sum of '0', '1' and '2'.
@@ -38,7 +38,7 @@ Once this has been done, we can start validating the h_index. As things stand, t
    2. use contexts
    3. db.authors_dev.find( { name: 'YourAuthor'  } )
    4. You should have an h_index of 2
-4. Now take the result of `db.stats_dev.find( { citations_total: { $gt: 0 }, is_bmc: true } )`.
+4. Now take the result of `db.stats_dev.find( { citations_total: { $gt: 0 }, is_pmc: true } )`.
 5. Choose one of the authors of the article and search for it in the global dataset.
 6. Add the article and only one of the articles citing it to your test dataset
 7. Run the following commands in a terminal:

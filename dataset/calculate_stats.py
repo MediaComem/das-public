@@ -30,10 +30,10 @@ client = MongoClient(mongo_host,
 db = client[mongo_db]
 
 # select which collection to use in Mongo, start by dropping if needed (we do not update an existing collection here)
-db.drop_collection("stats_dev_2")
-db.drop_collection("authors_dev_2")
-collection = db.stats_dev_2
-collection_authors = db.authors_dev_2
+db.drop_collection("stats_dev")
+db.drop_collection("authors_dev")
+collection = db.stats_dev
+collection_authors = db.authors_dev
 collection_records = db.publications_dev
 
 if __name__ == "__main__":
