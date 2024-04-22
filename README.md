@@ -1,6 +1,6 @@
 # PLOS Open Science Indicators
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10256816.svg)](https://doi.org/10.5281/zenodo.10256816)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11027260.svg)](https://doi.org/10.5281/zenodo.11027260)
 
 PLOS recently published an innovative [dataset of Open Science Indicators (OSI)](https://doi.org/10.6084/m9.figshare.21687686.v5), focused on its entire collection plus a comparison dataset from PubMed. We use here the [OSI version 5](https://plos.figshare.com/articles/dataset/PLOS_Open_Science_Indicators/21687686/5), containing approximately 124000 PMC and PLOS articles. The OSI is primarily concerned with indicators on: sharing of research data, in particular, data shared in data repositories; sharing of code; and posting of preprints.
 
