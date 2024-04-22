@@ -7,6 +7,7 @@ from collections import defaultdict, OrderedDict
 import re, math
 import numpy as np
 import logging
+from scholarmetrics import hindex
 logging.basicConfig(filename='logs/stats.log',filemode="w+",level=logging.INFO)
 logger = logging.getLogger("Main")
 
@@ -117,10 +118,6 @@ if __name__ == "__main__":
 		                    "year":year,"month":month,"has_month":has_month,"is_plos":record["is_plos"],"is_bmc":record["is_bmc"],"is_pmc":record["is_pmc"],"has_das":record["has_das"],"authors":paper_authors,"authors_full":paper_authors_full}
 		counter += 1
 	print("End of record")
-	# create author matrices
-	for author in rev_authors_dict.keys():
-		authors_citations[author] = np.zeros(authors_n_publications[author])
-	print("End of matrice")
 	logger.info("Finished creating dictionaries")
 	# extract citation histories for indicators
 	for record in collection_records.find():
@@ -153,9 +150,14 @@ if __name__ == "__main__":
 				# add citation to all paper authors
 				date_index = records[ref_counter]["year"]*12 + records[ref_counter]["month"] - min_date
 				for a in records[ref_counter]["authors"]:
+					if not a in authors_citations:
+						authors_citations[a] = dict()
+					if not ref_counter in authors_citations[a]: 
+						authors_citations[a][ref_counter] = dict()
+					if not date_index in authors_citations[a][ref_counter]:
+						authors_citations[a][ref_counter][date_index] = 0
 					# a is the author_counter
-					author_pub_index = authors_publications[a].index(ref_counter)
-					authors_citations[a][author_pub_index] += 1
+					authors_citations[a][ref_counter][date_index] += 1
 	print("End of computation citations")
 	for k,v in records.items():
 		# sort year indexes and convert them into strings for Mongo
@@ -169,6 +171,29 @@ if __name__ == "__main__":
 		v["citations_one"] = sum([x for y,x in citations[k].items() if y < 1])
 		v["citations_two"] = sum([x for y,x in citations[k].items() if y < 2])
 		v["citations_three"] = sum([x for y,x in citations[k].items() if y < 3])
+		date_index = v["year"] * 12 + v["month"] - min_date
+		# Compute h-index for authors at time of publication
+		h_indexes = list()
+		for a in v["authors"]:
+			h_index = 0
+			local_cit_counts = dict()
+			if a in authors_citations:
+				for index, value in authors_citations[a].items():
+					for date, count in value.items():
+						# We took only citations before publication date
+						if date < date_index:
+							if not index in local_cit_counts:
+								local_cit_counts[index] = count
+							else:
+								local_cit_counts[index] += count
+				arrayOfCitation = list(local_cit_counts.values())
+				arrayOfCitation = sorted(arrayOfCitation, reverse=True)
+				h_index = hindex(arrayOfCitation)
+			else:
+				authors_citations[a] = dict()
+
+			h_indexes.append(int(h_index))
+		v["h_indexes"] = h_indexes
 
 	logger.info("Finished parsing all records")
 	print("End of parsing")
@@ -177,16 +202,27 @@ if __name__ == "__main__":
 	authors_dump = list()
 	for k,v in authors_full.items():
 		A = authors_citations[k]
-		a = {"index":k,"name":v,"tot_cit":A.sum()}
+		total_cit_cout = 0
 		h_index = 0
-		local_cit_counts = list(A)
-		for p in local_cit_counts:
-			local_pub_counts = len([x for x in local_cit_counts if x >= p])
-			if local_pub_counts >= h_index and p >= h_index:
-				h_index = min(p, local_pub_counts)
+		publication_cit_count = list(A)
+		local_cit_counts = dict()
+		# Compute global h-index
+		for index, publication in A.items():
+			local_cit_counts[index] = 0
+			for date, count in publication.items():
+				total_cit_cout += count
+				if index in local_cit_counts:
+					local_cit_counts[index] += count
+			arrayOfCitation = list(local_cit_counts.values())
+			arrayOfCitation = sorted(arrayOfCitation, reverse=True)
+			h_index = hindex(arrayOfCitation)
+		a = {"index":k,"name":v,"tot_cit":total_cit_cout}
 		a_citations = list()
-		for x,y in zip(local_cit_counts,authors_publications[k]):
-			a_citations.append({"title":records[y]["title"],"year":records[y]["year"],"publication_id":records[y]["publication_id"],"paper_id":y,"n_cit":x})
+		for y in authors_publications[k]:
+			cit = 0
+			if y in local_cit_counts:
+				cit = local_cit_counts[y]
+			a_citations.append({"title":records[y]["title"],"year":records[y]["year"],"publication_id":records[y]["publication_id"],"paper_id":y,"n_cit": cit})
 		a["h_index"] = int(h_index)
 		a["publications"] = a_citations
 		authors_dump.append(a)

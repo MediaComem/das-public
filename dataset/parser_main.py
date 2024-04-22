@@ -14,7 +14,7 @@ import csv
 # logs and basics
 logging.basicConfig(filename='logs/parser_main.log',filemode="w+",level=logging.INFO)
 logger = logging.getLogger("Main")
-plos_file = 'config/PLOS-v5.2.csv'
+plos_file = 'config/PLOS_v5.2.csv'
 pmc_file = 'config/PMC_v5.2.csv'
 plos_csv_header=['Journal','Publisher','Submission_Day','Submission_Month','Submission_Year','Acceptance_Day','Acceptance_Month','Acceptance_Year','Publication_Day','Publication_Month','Publication_Year','DOI','Type_of_Article','Article_Title','Major.Mesh.Terms','Country','Corresponding_Author_Institution','Funding_Statement','Data_Section.Text.Generated','Data_Generated','Data_Section.Text.Shared','Data_Shared','Data.Location','DA_data','Accessions','URL_data','Repositories_data','Data_DOIs','Preprint_Match','Preprint_DOI','Preprint_Title','Preprint_Authors','Preprint_Day','Preprint_Month','Preprint_Year','Preprint_URL','Preprint_Server','Code_Section.Text.Generated','Code_Generated','Code_Section.Text.Shared','Code_Shared','Code_Location','URL_code','Repositories_code','Quarter','ANZSRC']
 JOB_LIMIT = 50000 # controls how many articles to process per batch
@@ -55,7 +55,7 @@ def get_doi_from_file(filename):
 
 if __name__ == "__main__":
 
-    root_dirs = ["dev_set_2"] # if you want to use a small, dev set sampled using sample_dev_set.py
+    root_dirs = ["dev_set"] # if you want to use a small, dev set sampled using sample_dev_set.py
     if MODE:
         # change this folder to where your PubMed OA dump actually is. You can list multiple folders, all xml files within will be processed
         root_dirs = ["PubMed/comm_use","PubMed/non_comm_use"]
