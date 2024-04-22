@@ -172,6 +172,7 @@ if __name__ == "__main__":
 		v["citations_two"] = sum([x for y,x in citations[k].items() if y < 2])
 		v["citations_three"] = sum([x for y,x in citations[k].items() if y < 3])
 		date_index = v["year"] * 12 + v["month"] - min_date
+		# Compute h-index for authors at time of publication
 		h_indexes = list()
 		for a in v["authors"]:
 			h_index = 0
@@ -179,6 +180,7 @@ if __name__ == "__main__":
 			if a in authors_citations:
 				for index, value in authors_citations[a].items():
 					for date, count in value.items():
+						# We took only citations before publication date
 						if date < date_index:
 							if not index in local_cit_counts:
 								local_cit_counts[index] = count
@@ -204,6 +206,7 @@ if __name__ == "__main__":
 		h_index = 0
 		publication_cit_count = list(A)
 		local_cit_counts = dict()
+		# Compute global h-index
 		for index, publication in A.items():
 			local_cit_counts[index] = 0
 			for date, count in publication.items():
