@@ -14,6 +14,10 @@ require(xtable)
 require(dplyr)
 require(stargazer)
 
+###################
+# Please JUMP to START HERE below if you want to go directly to models. #
+###################
+
 # load OSI datasets (remember to download them first!)
 df_OSI_PLOS <- read.csv("dataset/PLOS-OSI-Dataset_v5/Main Data Files/PLOS-Dataset_v5_Dec23.csv", sep = ",", quote = '"')
 df_OSI_PMC <- read.csv("dataset/PLOS-OSI-Dataset_v5/Main Data Files/Comparator-Dataset_v5_Dec23.csv", sep = ",", quote = '"')
@@ -169,6 +173,9 @@ DATASET <- merge(DATASET, df_OSI, by.x = "doi", by.y = "doi")
 # save
 write.csv(DATASET, "dataset/DATASET.csv", row.names=FALSE)
 
+##################
+### START HERE ###
+##################
 # read
 DATASET <- read.csv("dataset/DATASET.csv")
 
@@ -208,6 +215,10 @@ summary(m_ols <- lm(n_cit_tot_log ~ n_authors_log + n_references_tot_log + p_yea
 summary(m_rols <- rlm(n_cit_tot_log ~ n_authors_log + n_references_tot_log + p_year + p_month + h_index_mean_log + C(is_plos) + C(is_plos_one) + 
                       C(Data_Shared) + C(Data_Location) + C(Repositories_data_bool) + C(Code_Generated) + C(Code_Shared) + C(Code_Location) + C(Preprint_Match) , data = DATASET))
 
+# BASE MODEL: Use ONLY division X #
+summary(m_ols <- lm(n_cit_tot_log ~ n_authors_log + n_references_tot_log + p_year + p_month + h_index_mean_log + C(is_plos) + C(is_plos_one) + 
+                      C(Data_Shared) + C(Data_Location) + C(Repositories_data_bool) + C(Code_Shared) + C(Code_Location) + C(Preprint_Match) 
+                    , data = DATASET[(DATASET$division_2=="True"),]))
 
 # Control for interactions
 summary(m_ols <- lm(n_cit_tot_log ~ n_authors_log + n_references_tot_log + p_year + p_month + h_index_mean_log + C(is_plos) + C(is_plos_one) + 
